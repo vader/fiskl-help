@@ -1,0 +1,29 @@
+{
+  "id": "banking/stripe-integration",
+  "title": "stripe integration",
+  "description": "Placeholder for stripe integration",
+  "source": "@site/i18n/fr/docusaurus-plugin-content-docs/current/banking/stripe-integration.md",
+  "sourceDirName": "banking",
+  "slug": "/banking/stripe-integration",
+  "permalink": "/fr/docs/banking/stripe-integration",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/banking/stripe-integration.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "stripe integration",
+    "description": "Placeholder for stripe integration",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "payment gateways",
+    "permalink": "/fr/docs/banking/payment-gateways"
+  },
+  "next": {
+    "title": "Financial Reports",
+    "permalink": "/fr/docs/category/financial-reports"
+  }
+}

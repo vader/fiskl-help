@@ -1,0 +1,59 @@
+{
+  "id": "reporting/trial-balance",
+  "title": "Rapport de Balance de Vérification",
+  "description": "Vérifiez l'exactitude de votre comptabilité et préparez vos états financiers avec le rapport de Balance de Vérification de Fiskl. Apprenez à générer, analyser et exporter votre balance de vérification.",
+  "source": "@site/i18n/fr/docusaurus-plugin-content-docs/current/reporting/trial-balance.md",
+  "sourceDirName": "reporting",
+  "slug": "/core-features/accounting/reports/trial-balance",
+  "permalink": "/fr/docs/core-features/accounting/reports/trial-balance",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reporting/trial-balance.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "Comptabilité",
+      "permalink": "/fr/docs/tags/comptabilite"
+    },
+    {
+      "inline": true,
+      "label": "Rapports",
+      "permalink": "/fr/docs/tags/rapports"
+    },
+    {
+      "inline": true,
+      "label": "Balance de Vérification",
+      "permalink": "/fr/docs/tags/balance-de-verification"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "title": "Rapport de Balance de Vérification",
+    "description": "Vérifiez l'exactitude de votre comptabilité et préparez vos états financiers avec le rapport de Balance de Vérification de Fiskl. Apprenez à générer, analyser et exporter votre balance de vérification.",
+    "keywords": [
+      "balance de vérification",
+      "exactitude des comptes",
+      "reporting financier",
+      "comptabilité",
+      "solde débit crédit",
+      "grand livre"
+    ],
+    "sidebar_position": 6,
+    "slug": "/core-features/accounting/reports/trial-balance",
+    "tags": [
+      "Comptabilité",
+      "Rapports",
+      "Balance de Vérification"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "État des flux de trésorerie",
+    "permalink": "/fr/docs/reporting/cash-flow"
+  },
+  "next": {
+    "title": "Rapport de Vieillissement des Créances Clients",
+    "permalink": "/fr/docs/reporting/client-aging"
+  }
+}

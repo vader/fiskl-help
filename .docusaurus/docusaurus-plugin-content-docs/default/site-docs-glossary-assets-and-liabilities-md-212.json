@@ -1,0 +1,29 @@
+{
+  "id": "glossary/assets-and-liabilities",
+  "title": "Financial Statements and Reports",
+  "description": "Understanding key financial reports including balance sheets, income statements, and cash flow statements in Fiskl",
+  "source": "@site/docs/glossary/assets-and-liabilities.md",
+  "sourceDirName": "glossary",
+  "slug": "/glossary/assets-and-liabilities",
+  "permalink": "/docs/glossary/assets-and-liabilities",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/glossary/assets-and-liabilities.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Financial Statements and Reports",
+    "description": "Understanding key financial reports including balance sheets, income statements, and cash flow statements in Fiskl",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Technical Terms",
+    "permalink": "/docs/glossary/technical-terms"
+  },
+  "next": {
+    "title": "Financial Statements and Reports",
+    "permalink": "/docs/glossary/financial-statements"
+  }
+}

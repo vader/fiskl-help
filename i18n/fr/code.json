@@ -1,0 +1,17 @@
+{
+  "homepage.visitMyBlog": {
+    "message": "Vous pouvez également visiter mon {blogLink}",
+    "description": "The homepage message to ask the user to visit my blog"
+  },
+  "homepage.visitMyBlog.linkLabel": {
+    "message": "blog",
+    "description": "The label for the link to my blog"
+  },
+  "Welcome to my website": {
+    "message": "Bienvenue sur mon site web"
+  },
+  "Home icon": {
+    "message": "Icône d'accueil",
+    "description": "The homepage icon alt message"
+  }
+}

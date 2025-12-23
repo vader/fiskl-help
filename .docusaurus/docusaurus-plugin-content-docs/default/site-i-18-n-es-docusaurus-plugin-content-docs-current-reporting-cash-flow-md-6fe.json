@@ -1,0 +1,38 @@
+{
+  "id": "reporting/cash-flow",
+  "title": "Estado de Flujos de Efectivo",
+  "description": "Rastree los movimientos de efectivo a través de actividades operativas, de inversión y de financiamiento con el informe Estado de Flujos de Efectivo de Fiskl",
+  "source": "@site/i18n/es/docusaurus-plugin-content-docs/current/reporting/cash-flow.md",
+  "sourceDirName": "reporting",
+  "slug": "/reporting/cash-flow",
+  "permalink": "/es/docs/reporting/cash-flow",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reporting/cash-flow.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "title": "Estado de Flujos de Efectivo",
+    "description": "Rastree los movimientos de efectivo a través de actividades operativas, de inversión y de financiamiento con el informe Estado de Flujos de Efectivo de Fiskl",
+    "keywords": [
+      "estado de flujos de efectivo",
+      "informe de flujo de caja",
+      "actividades operativas",
+      "actividades de inversión",
+      "actividades de financiamiento",
+      "posición de efectivo",
+      "informe de liquidez"
+    ],
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Informe de Impuesto sobre Ventas",
+    "permalink": "/es/docs/reporting/sales-tax"
+  },
+  "next": {
+    "title": "Informe de Balance de Comprobación",
+    "permalink": "/es/docs/core-features/accounting/reports/trial-balance"
+  }
+}

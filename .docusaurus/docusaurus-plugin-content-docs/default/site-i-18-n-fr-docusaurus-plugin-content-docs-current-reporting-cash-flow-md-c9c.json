@@ -1,0 +1,38 @@
+{
+  "id": "reporting/cash-flow",
+  "title": "État des flux de trésorerie",
+  "description": "Suivez les mouvements de trésorerie à travers les activités opérationnelles, d'investissement et de financement avec le rapport État des flux de trésorerie de Fiskl",
+  "source": "@site/i18n/fr/docusaurus-plugin-content-docs/current/reporting/cash-flow.md",
+  "sourceDirName": "reporting",
+  "slug": "/reporting/cash-flow",
+  "permalink": "/fr/docs/reporting/cash-flow",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reporting/cash-flow.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "title": "État des flux de trésorerie",
+    "description": "Suivez les mouvements de trésorerie à travers les activités opérationnelles, d'investissement et de financement avec le rapport État des flux de trésorerie de Fiskl",
+    "keywords": [
+      "état des flux de trésorerie",
+      "rapport de trésorerie",
+      "activités opérationnelles",
+      "activités d'investissement",
+      "activités de financement",
+      "position de trésorerie",
+      "rapport de liquidité"
+    ],
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Rapport de Taxe de Vente",
+    "permalink": "/fr/docs/reporting/sales-tax"
+  },
+  "next": {
+    "title": "Rapport de Balance de Vérification",
+    "permalink": "/fr/docs/core-features/accounting/reports/trial-balance"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "banking/connect-bank-accounts",
+  "title": "connect bank accounts",
+  "description": "Placeholder for connect bank accounts",
+  "source": "@site/i18n/fr/docusaurus-plugin-content-docs/current/banking/connect-bank-accounts.md",
+  "sourceDirName": "banking",
+  "slug": "/banking/connect-bank-accounts",
+  "permalink": "/fr/docs/banking/connect-bank-accounts",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/banking/connect-bank-accounts.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "connect bank accounts",
+    "description": "Placeholder for connect bank accounts",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Banking",
+    "permalink": "/fr/docs/category/banking"
+  },
+  "next": {
+    "title": "import bank statements",
+    "permalink": "/fr/docs/banking/import-bank-statements"
+  }
+}

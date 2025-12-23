@@ -1,0 +1,37 @@
+{
+  "id": "reporting/general-ledger",
+  "title": "Informe del Libro Mayor",
+  "description": "Visualice y analice todas las transacciones financieras con agrupación flexible, soporte multi-moneda e informes detallados en el Libro Mayor de Fiskl",
+  "source": "@site/i18n/es/docusaurus-plugin-content-docs/current/reporting/general-ledger.md",
+  "sourceDirName": "reporting",
+  "slug": "/reporting/general-ledger",
+  "permalink": "/es/docs/reporting/general-ledger",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reporting/general-ledger.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Informe del Libro Mayor",
+    "description": "Visualice y analice todas las transacciones financieras con agrupación flexible, soporte multi-moneda e informes detallados en el Libro Mayor de Fiskl",
+    "keywords": [
+      "libro mayor",
+      "transacciones financieras",
+      "informes multi-moneda",
+      "informes contables",
+      "análisis de transacciones",
+      "cuentas del libro mayor"
+    ],
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Informe de Balance General",
+    "permalink": "/es/docs/reporting/balance-sheet"
+  },
+  "next": {
+    "title": "Informe de Impuesto sobre Ventas",
+    "permalink": "/es/docs/reporting/sales-tax"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "glossary/cash-and-banking",
+  "title": "Cash and Banking",
+  "description": "Managing bank accounts, transactions, and cash flow in Fiskl",
+  "source": "@site/docs/glossary/cash-and-banking.md",
+  "sourceDirName": "glossary",
+  "slug": "/glossary/cash-and-banking",
+  "permalink": "/docs/glossary/cash-and-banking",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/glossary/cash-and-banking.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Cash and Banking",
+    "description": "Managing bank accounts, transactions, and cash flow in Fiskl",
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Accounts and Transactions",
+    "permalink": "/docs/glossary/accounts-and-transactions"
+  },
+  "next": {
+    "title": "company settings",
+    "permalink": "/docs/settings/company-settings"
+  }
+}

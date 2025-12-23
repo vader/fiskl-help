@@ -1,0 +1,29 @@
+{
+  "id": "invoicing/creating-invoices",
+  "title": "creating invoices",
+  "description": "Placeholder for creating invoices",
+  "source": "@site/docs/invoicing/creating-invoices.md",
+  "sourceDirName": "invoicing",
+  "slug": "/invoicing/creating-invoices",
+  "permalink": "/docs/invoicing/creating-invoices",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/invoicing/creating-invoices.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "creating invoices",
+    "description": "Placeholder for creating invoices",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Invoicing & Quotes",
+    "permalink": "/docs/category/invoicing--quotes"
+  },
+  "next": {
+    "title": "creating quotes",
+    "permalink": "/docs/invoicing/creating-quotes"
+  }
+}

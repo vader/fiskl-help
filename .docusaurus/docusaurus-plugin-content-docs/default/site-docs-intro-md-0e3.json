@@ -1,0 +1,30 @@
+{
+  "id": "intro",
+  "title": "Welcome to Fiskl Help",
+  "description": "The official guide to Fiskl's automated accounting platform. Learn how to manage invoices, quotes, and finances.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/docs/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Welcome to Fiskl Help",
+    "sidebar_label": "Introduction",
+    "sidebar_position": 1,
+    "description": "The official guide to Fiskl's automated accounting platform. Learn how to manage invoices, quotes, and finances."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "with invoicing",
+    "permalink": "/docs/getting-started/with-invoicing"
+  },
+  "next": {
+    "title": "Invoicing & Quotes",
+    "permalink": "/docs/category/invoicing--quotes"
+  }
+}

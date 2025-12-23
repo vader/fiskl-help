@@ -1,0 +1,37 @@
+{
+  "id": "reporting/profit-and-loss",
+  "title": "Profit and Loss Report",
+  "description": "Learn how to generate and analyze Profit and Loss statements in Fiskl to track revenue, expenses, and profitability for better business decisions.",
+  "source": "@site/docs/reporting/profit-and-loss.md",
+  "sourceDirName": "reporting",
+  "slug": "/reporting/profit-and-loss",
+  "permalink": "/docs/reporting/profit-and-loss",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reporting/profit-and-loss.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Profit and Loss Report",
+    "description": "Learn how to generate and analyze Profit and Loss statements in Fiskl to track revenue, expenses, and profitability for better business decisions.",
+    "keywords": [
+      "profit and loss",
+      "P&L report",
+      "income statement",
+      "financial reporting",
+      "business profitability",
+      "Fiskl accounting"
+    ],
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Financial Reports",
+    "permalink": "/docs/category/financial-reports"
+  },
+  "next": {
+    "title": "Balance Sheet Report",
+    "permalink": "/docs/reporting/balance-sheet"
+  }
+}

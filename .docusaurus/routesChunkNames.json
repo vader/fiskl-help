@@ -1,0 +1,508 @@
+{
+  "/es/blog-802": {
+    "__comp": "a6aa9e1f",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "f4f34a3a"
+      },
+      {
+        "content": "8717b14a"
+      },
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "__props": "8b20138e"
+  },
+  "/es/blog/archive-c1d": {
+    "__comp": "9e4087bc",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "__props": "dfed01cf"
+  },
+  "/es/blog/authors-e39": {
+    "__comp": "621db11d",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "__props": "f601d5af"
+  },
+  "/es/blog/authors/all-sebastien-lorber-articles-6e5": {
+    "__comp": "33fc5bb8",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "f4f34a3a"
+      },
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "sidebar": "814f3328",
+    "__props": "526be6cf"
+  },
+  "/es/blog/authors/yangshun-ed1": {
+    "__comp": "33fc5bb8",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "8717b14a"
+      },
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "sidebar": "814f3328",
+    "__props": "1300235e"
+  },
+  "/es/blog/first-blog-post-041": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "e273c56f"
+  },
+  "/es/blog/long-blog-post-13f": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "73664a40"
+  },
+  "/es/blog/mdx-blog-post-a97": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "59362658"
+  },
+  "/es/blog/tags-b1d": {
+    "__comp": "01a85c17",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "__props": "0c69ec8d"
+  },
+  "/es/blog/tags/docusaurus-f69": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "f4f34a3a"
+      },
+      {
+        "content": "8717b14a"
+      },
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "__props": "e6e86451"
+  },
+  "/es/blog/tags/facebook-0c3": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7661071f"
+      }
+    ],
+    "__props": "1e15abdd"
+  },
+  "/es/blog/tags/hello-36c": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "8717b14a"
+      }
+    ],
+    "__props": "8dc7c2c4"
+  },
+  "/es/blog/tags/hola-484": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "__props": "04bd3a17"
+  },
+  "/es/blog/welcome-8c8": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "d9f32620"
+  },
+  "/es/intro-f77": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "2c397297"
+  },
+  "/es/markdown-page-724": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "393be207"
+  },
+  "/es/docs-d36": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "aba21aa0"
+    }
+  },
+  "/es/docs-a58": {
+    "__comp": "a7bd4aaa",
+    "__props": "9d39d3e7"
+  },
+  "/es/docs/tags-1f8": {
+    "__comp": "3720c009",
+    "__props": "b69a7032"
+  },
+  "/es/docs/tags/balance-de-comprobacion-639": {
+    "__comp": "df203c0f",
+    "__props": "0bbc91dd"
+  },
+  "/es/docs/tags/contabilidad-f67": {
+    "__comp": "df203c0f",
+    "__props": "3f0091c7"
+  },
+  "/es/docs/tags/informes-79c": {
+    "__comp": "df203c0f",
+    "__props": "ab51b593"
+  },
+  "/es/docs-68e": {
+    "__comp": "a94703ab"
+  },
+  "/es/docs/accounting/accounting-overview-5a0": {
+    "__comp": "17896441",
+    "content": "4dace08a"
+  },
+  "/es/docs/accounting/bank-reconciliation-dfa": {
+    "__comp": "17896441",
+    "content": "8f2821d7"
+  },
+  "/es/docs/accounting/chart-of-accounts-325": {
+    "__comp": "17896441",
+    "content": "56c5af72"
+  },
+  "/es/docs/accounting/journal-entries-aa9": {
+    "__comp": "17896441",
+    "content": "15f37e3f"
+  },
+  "/es/docs/accounting/multi-journal-entries-301": {
+    "__comp": "17896441",
+    "content": "fd74c1ae"
+  },
+  "/es/docs/accounting/reconciliation-overview-eb8": {
+    "__comp": "17896441",
+    "content": "7b87449d"
+  },
+  "/es/docs/accounting/reconciliation-reports-b46": {
+    "__comp": "17896441",
+    "content": "a505434a"
+  },
+  "/es/docs/accounting/reimbursement-guide-9d4": {
+    "__comp": "17896441",
+    "content": "a90e5311"
+  },
+  "/es/docs/banking/connect-bank-accounts-408": {
+    "__comp": "17896441",
+    "content": "688e37e5"
+  },
+  "/es/docs/banking/import-bank-statements-bf4": {
+    "__comp": "17896441",
+    "content": "8d46646b"
+  },
+  "/es/docs/banking/payment-gateways-121": {
+    "__comp": "17896441",
+    "content": "c03c94b1"
+  },
+  "/es/docs/banking/stripe-integration-c5f": {
+    "__comp": "17896441",
+    "content": "22629033"
+  },
+  "/es/docs/category/accounting-eef": {
+    "__comp": "14eb3368",
+    "__props": "3a50912f"
+  },
+  "/es/docs/category/banking-ec6": {
+    "__comp": "14eb3368",
+    "__props": "230f1845"
+  },
+  "/es/docs/category/financial-reports-459": {
+    "__comp": "14eb3368",
+    "__props": "eb59d0e7"
+  },
+  "/es/docs/category/getting-started-2c3": {
+    "__comp": "14eb3368",
+    "__props": "844869dc"
+  },
+  "/es/docs/category/invoicing--quotes-a0e": {
+    "__comp": "14eb3368",
+    "__props": "56b2d560"
+  },
+  "/es/docs/category/products--expenses-b83": {
+    "__comp": "14eb3368",
+    "__props": "5199b0d5"
+  },
+  "/es/docs/category/tutorial---basics-add": {
+    "__comp": "14eb3368",
+    "__props": "404f6ac7"
+  },
+  "/es/docs/category/tutorial---extras-308": {
+    "__comp": "14eb3368",
+    "__props": "7c8d5fbb"
+  },
+  "/es/docs/clients-vendors/managing-clients-39f": {
+    "__comp": "17896441",
+    "content": "0c272881"
+  },
+  "/es/docs/clients-vendors/managing-vendors-d94": {
+    "__comp": "17896441",
+    "content": "ba10053c"
+  },
+  "/es/docs/core-features/accounting/reports/trial-balance-f5c": {
+    "__comp": "17896441",
+    "content": "5d502067"
+  },
+  "/es/docs/faqs/accounting-faqs-3a7": {
+    "__comp": "17896441",
+    "content": "e9d574a0"
+  },
+  "/es/docs/faqs/general-faqs-501": {
+    "__comp": "17896441",
+    "content": "d188c88d"
+  },
+  "/es/docs/getting-started/as-an-accountant-60a": {
+    "__comp": "17896441",
+    "content": "6c861a7c"
+  },
+  "/es/docs/getting-started/overview-c33": {
+    "__comp": "17896441",
+    "content": "d014d50b"
+  },
+  "/es/docs/getting-started/with-banking-7e6": {
+    "__comp": "17896441",
+    "content": "05f0229b"
+  },
+  "/es/docs/getting-started/with-invoicing-a1b": {
+    "__comp": "17896441",
+    "content": "52832dcf"
+  },
+  "/es/docs/glossary/accounting-fundamentals-2ce": {
+    "__comp": "17896441",
+    "content": "9b46d4c3"
+  },
+  "/es/docs/glossary/accounts-and-transactions-0e6": {
+    "__comp": "17896441",
+    "content": "b570f20d"
+  },
+  "/es/docs/glossary/assets-and-liabilities-19d": {
+    "__comp": "17896441",
+    "content": "6ff0d4a4"
+  },
+  "/es/docs/glossary/cash-and-banking-ec4": {
+    "__comp": "17896441",
+    "content": "3445f0c2"
+  },
+  "/es/docs/glossary/financial-statements-9a5": {
+    "__comp": "17896441",
+    "content": "a58c170a"
+  },
+  "/es/docs/glossary/technical-terms-16a": {
+    "__comp": "17896441",
+    "content": "3032b2e5"
+  },
+  "/es/docs/intro-081": {
+    "__comp": "17896441",
+    "content": "359fb69f"
+  },
+  "/es/docs/invoicing/creating-invoices-e8e": {
+    "__comp": "17896441",
+    "content": "779edf92"
+  },
+  "/es/docs/invoicing/creating-quotes-680": {
+    "__comp": "17896441",
+    "content": "c10d9308"
+  },
+  "/es/docs/invoicing/invoice-management-3b6": {
+    "__comp": "17896441",
+    "content": "deedc712"
+  },
+  "/es/docs/invoicing/quote-management-631": {
+    "__comp": "17896441",
+    "content": "ab6fe1e6"
+  },
+  "/es/docs/invoicing/recurring-invoices-efb": {
+    "__comp": "17896441",
+    "content": "45e54cff"
+  },
+  "/es/docs/invoicing/sending-invoices-3f0": {
+    "__comp": "17896441",
+    "content": "cc24318e"
+  },
+  "/es/docs/line-items/expenses-b87": {
+    "__comp": "17896441",
+    "content": "c9ad2087"
+  },
+  "/es/docs/line-items/mileage-a30": {
+    "__comp": "17896441",
+    "content": "a99c5629"
+  },
+  "/es/docs/line-items/products-and-services-364": {
+    "__comp": "17896441",
+    "content": "97677716"
+  },
+  "/es/docs/line-items/time-tracking-ec6": {
+    "__comp": "17896441",
+    "content": "4ffab264"
+  },
+  "/es/docs/reporting/balance-sheet-b74": {
+    "__comp": "17896441",
+    "content": "7ed057bc"
+  },
+  "/es/docs/reporting/cash-flow-23c": {
+    "__comp": "17896441",
+    "content": "6fe2634b"
+  },
+  "/es/docs/reporting/client-aging-b9a": {
+    "__comp": "17896441",
+    "content": "6646e872"
+  },
+  "/es/docs/reporting/general-ledger-0be": {
+    "__comp": "17896441",
+    "content": "7ad961b2"
+  },
+  "/es/docs/reporting/profit-and-loss-4ab": {
+    "__comp": "17896441",
+    "content": "57b3940b"
+  },
+  "/es/docs/reporting/sales-tax-c20": {
+    "__comp": "17896441",
+    "content": "5021feac"
+  },
+  "/es/docs/settings/company-settings-f2b": {
+    "__comp": "17896441",
+    "content": "c42d5c37"
+  },
+  "/es/docs/settings/subscription-billing-019": {
+    "__comp": "17896441",
+    "content": "91016205"
+  },
+  "/es/docs/settings/tax-settings-c4a": {
+    "__comp": "17896441",
+    "content": "70b94cf7"
+  },
+  "/es/docs/settings/user-management-cf3": {
+    "__comp": "17896441",
+    "content": "bb84c9f6"
+  },
+  "/es/docs/tutorial-basics/congratulations-ec6": {
+    "__comp": "17896441",
+    "content": "822bd8ab"
+  },
+  "/es/docs/tutorial-basics/create-a-blog-post-199": {
+    "__comp": "17896441",
+    "content": "533a09ca"
+  },
+  "/es/docs/tutorial-basics/create-a-document-a82": {
+    "__comp": "17896441",
+    "content": "1e4232ab"
+  },
+  "/es/docs/tutorial-basics/create-a-page-77a": {
+    "__comp": "17896441",
+    "content": "5c868d36"
+  },
+  "/es/docs/tutorial-basics/deploy-your-site-20e": {
+    "__comp": "17896441",
+    "content": "f55d3e7a"
+  },
+  "/es/docs/tutorial-basics/markdown-features-a38": {
+    "__comp": "17896441",
+    "content": "18c41134"
+  },
+  "/es/docs/tutorial-extras/manage-docs-versions-5ae": {
+    "__comp": "17896441",
+    "content": "dff1c289"
+  },
+  "/es/docs/tutorial-extras/translate-your-site-d51": {
+    "__comp": "17896441",
+    "content": "e44a2883"
+  },
+  "/es/-8a4": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "4ae7c1fb"
+  }
+}

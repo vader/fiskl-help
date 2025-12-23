@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/es/contact-us",
+  "source": "@site/i18n/es/docusaurus-plugin-content-pages/contact-us.md",
+  "title": "contact-us",
+  "description": "Write content here. spannish",
+  "frontMatter": {
+    "title": "contact-us"
+  },
+  "unlisted": false
+}

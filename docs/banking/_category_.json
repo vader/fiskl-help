@@ -1,0 +1,8 @@
+{
+  "label": "Banking",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Connect your bank accounts via Salt Edge, Yodlee, or Wio and manage your payment gateways like Stripe and PayPal."
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/es/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/es/docs",
+          "mainDocId": "getting-started/as-an-accountant",
+          "docs": [
+            {
+              "id": "accounting/accounting-overview",
+              "path": "/es/docs/accounting/accounting-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "accounting/bank-reconciliation",
+              "path": "/es/docs/accounting/bank-reconciliation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "accounting/chart-of-accounts",
+              "path": "/es/docs/accounting/chart-of-accounts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "accounting/journal-entries",
+              "path": "/es/docs/accounting/journal-entries",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "accounting/multi-journal-entries",
+              "path": "/es/docs/accounting/multi-journal-entries",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "accounting/reconciliation-overview",
+              "path": "/es/docs/accounting/reconciliation-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "accounting/reconciliation-reports",
+              "path": "/es/docs/accounting/reconciliation-reports",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "accounting/reimbursement-guide",
+              "path": "/es/docs/accounting/reimbursement-guide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "banking/connect-bank-accounts",
+              "path": "/es/docs/banking/connect-bank-accounts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "banking/import-bank-statements",
+              "path": "/es/docs/banking/import-bank-statements",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "banking/payment-gateways",
+              "path": "/es/docs/banking/payment-gateways",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "banking/stripe-integration",
+              "path": "/es/docs/banking/stripe-integration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "clients-vendors/managing-clients",
+              "path": "/es/docs/clients-vendors/managing-clients",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "clients-vendors/managing-vendors",
+              "path": "/es/docs/clients-vendors/managing-vendors",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "faqs/accounting-faqs",
+              "path": "/es/docs/faqs/accounting-faqs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "faqs/general-faqs",
+              "path": "/es/docs/faqs/general-faqs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/as-an-accountant",
+              "path": "/es/docs/getting-started/as-an-accountant",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/overview",
+              "path": "/es/docs/getting-started/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/with-banking",
+              "path": "/es/docs/getting-started/with-banking",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/with-invoicing",
+              "path": "/es/docs/getting-started/with-invoicing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "glossary/accounting-fundamentals",
+              "path": "/es/docs/glossary/accounting-fundamentals",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "glossary/accounts-and-transactions",
+              "path": "/es/docs/glossary/accounts-and-transactions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "glossary/assets-and-liabilities",
+              "path": "/es/docs/glossary/assets-and-liabilities",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "glossary/cash-and-banking",
+              "path": "/es/docs/glossary/cash-and-banking",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "glossary/financial-statements",
+              "path": "/es/docs/glossary/financial-statements",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "glossary/technical-terms",
+              "path": "/es/docs/glossary/technical-terms",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/es/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "invoicing/creating-invoices",
+              "path": "/es/docs/invoicing/creating-invoices",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "invoicing/creating-quotes",
+              "path": "/es/docs/invoicing/creating-quotes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "invoicing/invoice-management",
+              "path": "/es/docs/invoicing/invoice-management",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "invoicing/quote-management",
+              "path": "/es/docs/invoicing/quote-management",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "invoicing/recurring-invoices",
+              "path": "/es/docs/invoicing/recurring-invoices",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "invoicing/sending-invoices",
+              "path": "/es/docs/invoicing/sending-invoices",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "line-items/expenses",
+              "path": "/es/docs/line-items/expenses",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "line-items/mileage",
+              "path": "/es/docs/line-items/mileage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "line-items/products-and-services",
+              "path": "/es/docs/line-items/products-and-services",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "line-items/time-tracking",
+              "path": "/es/docs/line-items/time-tracking",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reporting/balance-sheet",
+              "path": "/es/docs/reporting/balance-sheet",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reporting/cash-flow",
+              "path": "/es/docs/reporting/cash-flow",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reporting/client-aging",
+              "path": "/es/docs/reporting/client-aging",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reporting/general-ledger",
+              "path": "/es/docs/reporting/general-ledger",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reporting/profit-and-loss",
+              "path": "/es/docs/reporting/profit-and-loss",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reporting/sales-tax",
+              "path": "/es/docs/reporting/sales-tax",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reporting/trial-balance",
+              "path": "/es/docs/core-features/accounting/reports/trial-balance",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "settings/company-settings",
+              "path": "/es/docs/settings/company-settings",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "settings/subscription-billing",
+              "path": "/es/docs/settings/subscription-billing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "settings/tax-settings",
+              "path": "/es/docs/settings/tax-settings",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "settings/user-management",
+              "path": "/es/docs/settings/user-management",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/congratulations",
+              "path": "/es/docs/tutorial-basics/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/create-a-blog-post",
+              "path": "/es/docs/tutorial-basics/create-a-blog-post",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/create-a-document",
+              "path": "/es/docs/tutorial-basics/create-a-document",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/create-a-page",
+              "path": "/es/docs/tutorial-basics/create-a-page",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/deploy-your-site",
+              "path": "/es/docs/tutorial-basics/deploy-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/markdown-features",
+              "path": "/es/docs/tutorial-basics/markdown-features",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-extras/manage-docs-versions",
+              "path": "/es/docs/tutorial-extras/manage-docs-versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-extras/translate-your-site",
+              "path": "/es/docs/tutorial-extras/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/getting-started",
+              "path": "/es/docs/category/getting-started",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/invoicing--quotes",
+              "path": "/es/docs/category/invoicing--quotes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---basics",
+              "path": "/es/docs/category/tutorial---basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/accounting",
+              "path": "/es/docs/category/accounting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---extras",
+              "path": "/es/docs/category/tutorial---extras",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/banking",
+              "path": "/es/docs/category/banking",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/financial-reports",
+              "path": "/es/docs/category/financial-reports",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/products--expenses",
+              "path": "/es/docs/category/products--expenses",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/es/docs/category/getting-started",
+                "label": "Getting Started"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

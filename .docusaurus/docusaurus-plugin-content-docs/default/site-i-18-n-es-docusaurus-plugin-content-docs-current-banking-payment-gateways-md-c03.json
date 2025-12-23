@@ -1,0 +1,29 @@
+{
+  "id": "banking/payment-gateways",
+  "title": "payment gateways",
+  "description": "Placeholder for payment gateways",
+  "source": "@site/i18n/es/docusaurus-plugin-content-docs/current/banking/payment-gateways.md",
+  "sourceDirName": "banking",
+  "slug": "/banking/payment-gateways",
+  "permalink": "/es/docs/banking/payment-gateways",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/banking/payment-gateways.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "payment gateways",
+    "description": "Placeholder for payment gateways",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "import bank statements",
+    "permalink": "/es/docs/banking/import-bank-statements"
+  },
+  "next": {
+    "title": "stripe integration",
+    "permalink": "/es/docs/banking/stripe-integration"
+  }
+}

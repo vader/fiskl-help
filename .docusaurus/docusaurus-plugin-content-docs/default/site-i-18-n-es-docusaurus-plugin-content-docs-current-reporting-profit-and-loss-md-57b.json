@@ -1,0 +1,37 @@
+{
+  "id": "reporting/profit-and-loss",
+  "title": "Informe de Ganancias y Pérdidas",
+  "description": "Aprenda a generar y analizar estados de ganancias y pérdidas en Fiskl para realizar seguimiento de ingresos, gastos y rentabilidad.",
+  "source": "@site/i18n/es/docusaurus-plugin-content-docs/current/reporting/profit-and-loss.md",
+  "sourceDirName": "reporting",
+  "slug": "/reporting/profit-and-loss",
+  "permalink": "/es/docs/reporting/profit-and-loss",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reporting/profit-and-loss.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Informe de Ganancias y Pérdidas",
+    "description": "Aprenda a generar y analizar estados de ganancias y pérdidas en Fiskl para realizar seguimiento de ingresos, gastos y rentabilidad.",
+    "keywords": [
+      "ganancias y pérdidas",
+      "informe P&L",
+      "estado de resultados",
+      "informes financieros",
+      "rentabilidad empresarial",
+      "contabilidad Fiskl"
+    ],
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Financial Reports",
+    "permalink": "/es/docs/category/financial-reports"
+  },
+  "next": {
+    "title": "Informe de Balance General",
+    "permalink": "/es/docs/reporting/balance-sheet"
+  }
+}

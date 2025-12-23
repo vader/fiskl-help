@@ -1,0 +1,29 @@
+{
+  "id": "invoicing/recurring-invoices",
+  "title": "recurring invoices",
+  "description": "Placeholder for recurring invoices",
+  "source": "@site/i18n/es/docusaurus-plugin-content-docs/current/invoicing/recurring-invoices.md",
+  "sourceDirName": "invoicing",
+  "slug": "/invoicing/recurring-invoices",
+  "permalink": "/es/docs/invoicing/recurring-invoices",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/invoicing/recurring-invoices.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "recurring invoices",
+    "description": "Placeholder for recurring invoices",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "quote management",
+    "permalink": "/es/docs/invoicing/quote-management"
+  },
+  "next": {
+    "title": "sending invoices",
+    "permalink": "/es/docs/invoicing/sending-invoices"
+  }
+}

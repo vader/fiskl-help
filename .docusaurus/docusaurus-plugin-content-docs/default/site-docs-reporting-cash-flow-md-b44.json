@@ -1,0 +1,38 @@
+{
+  "id": "reporting/cash-flow",
+  "title": "Statement of Cash Flows",
+  "description": "Track cash movements across operating, investing, and financing activities with Fiskl's Statement of Cash Flows report for better financial insights",
+  "source": "@site/docs/reporting/cash-flow.md",
+  "sourceDirName": "reporting",
+  "slug": "/reporting/cash-flow",
+  "permalink": "/docs/reporting/cash-flow",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reporting/cash-flow.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "title": "Statement of Cash Flows",
+    "description": "Track cash movements across operating, investing, and financing activities with Fiskl's Statement of Cash Flows report for better financial insights",
+    "keywords": [
+      "cash flow statement",
+      "cash flow report",
+      "operating activities",
+      "investing activities",
+      "financing activities",
+      "cash position",
+      "liquidity report"
+    ],
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sales Tax Report",
+    "permalink": "/docs/reporting/sales-tax"
+  },
+  "next": {
+    "title": "Trial Balance Report",
+    "permalink": "/docs/core-features/accounting/reports/trial-balance"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "invoicing/quote-management",
+  "title": "quote management",
+  "description": "Placeholder for quote management",
+  "source": "@site/docs/invoicing/quote-management.md",
+  "sourceDirName": "invoicing",
+  "slug": "/invoicing/quote-management",
+  "permalink": "/docs/invoicing/quote-management",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/invoicing/quote-management.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "quote management",
+    "description": "Placeholder for quote management",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "invoice management",
+    "permalink": "/docs/invoicing/invoice-management"
+  },
+  "next": {
+    "title": "recurring invoices",
+    "permalink": "/docs/invoicing/recurring-invoices"
+  }
+}
