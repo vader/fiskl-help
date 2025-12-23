@@ -1,0 +1,9 @@
+{
+  "label": "Payment Gateways",
+  "position": 2,
+  "link": {
+    "type": "doc",
+    "id": "integrations/payments/overview"
+  },
+  "description": "Enable payment processing for your invoices with popular payment gateways"
+}

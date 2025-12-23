@@ -1,0 +1,57 @@
+{
+  "id": "integrations/banking/connect-yodlee",
+  "title": "Connect with Yodlee",
+  "description": "Ensure accurate financial records with Fiskl-Yodlee integration. Sync real-time bank data for comprehensive financial management.",
+  "source": "@site/docs/integrations/banking/connect-yodlee.md",
+  "sourceDirName": "integrations/banking",
+  "slug": "/integrations/banking/connecting-yodlee",
+  "permalink": "/docs/integrations/banking/connecting-yodlee",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/integrations/banking/connect-yodlee.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "Integrations",
+      "permalink": "/docs/tags/integrations"
+    },
+    {
+      "inline": true,
+      "label": "Banking",
+      "permalink": "/docs/tags/banking"
+    },
+    {
+      "inline": true,
+      "label": "Yodlee",
+      "permalink": "/docs/tags/yodlee"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Connect with Yodlee",
+    "sidebar_position": 2,
+    "description": "Ensure accurate financial records with Fiskl-Yodlee integration. Sync real-time bank data for comprehensive financial management.",
+    "keywords": [
+      "Yodlee integration Fiskl",
+      "real-time bank data",
+      "financial records",
+      "banking software"
+    ],
+    "slug": "/integrations/banking/connecting-yodlee",
+    "tags": [
+      "Integrations",
+      "Banking",
+      "Yodlee"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Connect Stripe",
+    "permalink": "/docs/integrations/banking/connecting-stripe"
+  },
+  "next": {
+    "title": "Connect with Salt Edge",
+    "permalink": "/docs/integrations/banking/connecting-saltedge"
+  }
+}

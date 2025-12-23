@@ -213,13 +213,13 @@
     },
     "content": "393be207"
   },
-  "/es/docs-451": {
+  "/es/docs-efb": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/es/docs-62f": {
+  "/es/docs-6e3": {
     "__comp": "a7bd4aaa",
     "__props": "9d39d3e7"
   },
@@ -239,7 +239,7 @@
     "__comp": "df203c0f",
     "__props": "ab51b593"
   },
-  "/es/docs-dd5": {
+  "/es/docs-97e": {
     "__comp": "a94703ab"
   },
   "/es/docs/accounting/accounting-overview-5a0": {
@@ -294,14 +294,6 @@
     "__comp": "17896441",
     "content": "55e517e4"
   },
-  "/es/docs/accounting/reconciliation-overview-eb8": {
-    "__comp": "17896441",
-    "content": "7b87449d"
-  },
-  "/es/docs/accounting/reconciliation-reports-b46": {
-    "__comp": "17896441",
-    "content": "a505434a"
-  },
   "/es/docs/accounting/reconciliation/guides/accounting-faqs-1e4": {
     "__comp": "17896441",
     "content": "921a0dc3"
@@ -333,26 +325,6 @@
   "/es/docs/accounting/reimbursement-guide-9d4": {
     "__comp": "17896441",
     "content": "a90e5311"
-  },
-  "/es/docs/banking/connect-bank-accounts-408": {
-    "__comp": "17896441",
-    "content": "688e37e5"
-  },
-  "/es/docs/banking/import-bank-statements-bf4": {
-    "__comp": "17896441",
-    "content": "8d46646b"
-  },
-  "/es/docs/banking/payment-gateways-121": {
-    "__comp": "17896441",
-    "content": "c03c94b1"
-  },
-  "/es/docs/banking/stripe-integration-c5f": {
-    "__comp": "17896441",
-    "content": "22629033"
-  },
-  "/es/docs/category/banking-ec6": {
-    "__comp": "14eb3368",
-    "__props": "230f1845"
   },
   "/es/docs/category/financial-reports-459": {
     "__comp": "14eb3368",
@@ -445,6 +417,46 @@
   "/es/docs/glossary/technical-terms-16a": {
     "__comp": "17896441",
     "content": "3032b2e5"
+  },
+  "/es/docs/integrations/banking/connect-saltedge-a7a": {
+    "__comp": "17896441",
+    "content": "d66039f5"
+  },
+  "/es/docs/integrations/banking/connect-stripe-dad": {
+    "__comp": "17896441",
+    "content": "f7debbee"
+  },
+  "/es/docs/integrations/banking/connect-wio-a03": {
+    "__comp": "17896441",
+    "content": "03400f32"
+  },
+  "/es/docs/integrations/banking/connect-yodlee-9d9": {
+    "__comp": "17896441",
+    "content": "2dcbcd20"
+  },
+  "/es/docs/integrations/banking/overview-376": {
+    "__comp": "17896441",
+    "content": "f4cc1b06"
+  },
+  "/es/docs/integrations/overview-007": {
+    "__comp": "17896441",
+    "content": "6bfa736a"
+  },
+  "/es/docs/integrations/payments/gocardless-integration-6e6": {
+    "__comp": "17896441",
+    "content": "802e3365"
+  },
+  "/es/docs/integrations/payments/overview-fe9": {
+    "__comp": "17896441",
+    "content": "d63e7a00"
+  },
+  "/es/docs/integrations/payments/paypal-integration-87c": {
+    "__comp": "17896441",
+    "content": "c7c863a8"
+  },
+  "/es/docs/integrations/payments/stripe-integration-38b": {
+    "__comp": "17896441",
+    "content": "d7f6a0cc"
   },
   "/es/docs/intro-081": {
     "__comp": "17896441",

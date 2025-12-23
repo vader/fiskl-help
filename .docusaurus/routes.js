@@ -84,11 +84,11 @@ export default [
   },
   {
     path: '/es/docs',
-    component: ComponentCreator('/es/docs', '451'),
+    component: ComponentCreator('/es/docs', 'efb'),
     routes: [
       {
         path: '/es/docs',
-        component: ComponentCreator('/es/docs', '62f'),
+        component: ComponentCreator('/es/docs', '6e3'),
         routes: [
           {
             path: '/es/docs/tags',
@@ -112,7 +112,7 @@ export default [
           },
           {
             path: '/es/docs',
-            component: ComponentCreator('/es/docs', 'dd5'),
+            component: ComponentCreator('/es/docs', '97e'),
             routes: [
               {
                 path: '/es/docs/accounting/accounting-overview',
@@ -193,18 +193,6 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accounting/reconciliation-overview',
-                component: ComponentCreator('/es/docs/accounting/reconciliation-overview', 'eb8'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/es/docs/accounting/reconciliation-reports',
-                component: ComponentCreator('/es/docs/accounting/reconciliation-reports', 'b46'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
                 path: '/es/docs/accounting/reconciliation/guides/accounting-faqs',
                 component: ComponentCreator('/es/docs/accounting/reconciliation/guides/accounting-faqs', '1e4'),
                 exact: true,
@@ -249,36 +237,6 @@ export default [
               {
                 path: '/es/docs/accounting/reimbursement-guide',
                 component: ComponentCreator('/es/docs/accounting/reimbursement-guide', '9d4'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/es/docs/banking/connect-bank-accounts',
-                component: ComponentCreator('/es/docs/banking/connect-bank-accounts', '408'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/es/docs/banking/import-bank-statements',
-                component: ComponentCreator('/es/docs/banking/import-bank-statements', 'bf4'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/es/docs/banking/payment-gateways',
-                component: ComponentCreator('/es/docs/banking/payment-gateways', '121'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/es/docs/banking/stripe-integration',
-                component: ComponentCreator('/es/docs/banking/stripe-integration', 'c5f'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/es/docs/category/banking',
-                component: ComponentCreator('/es/docs/category/banking', 'ec6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -417,6 +375,66 @@ export default [
               {
                 path: '/es/docs/glossary/technical-terms',
                 component: ComponentCreator('/es/docs/glossary/technical-terms', '16a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/es/docs/integrations/banking/connect-saltedge',
+                component: ComponentCreator('/es/docs/integrations/banking/connect-saltedge', 'a7a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/es/docs/integrations/banking/connect-stripe',
+                component: ComponentCreator('/es/docs/integrations/banking/connect-stripe', 'dad'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/es/docs/integrations/banking/connect-wio',
+                component: ComponentCreator('/es/docs/integrations/banking/connect-wio', 'a03'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/es/docs/integrations/banking/connect-yodlee',
+                component: ComponentCreator('/es/docs/integrations/banking/connect-yodlee', '9d9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/es/docs/integrations/banking/overview',
+                component: ComponentCreator('/es/docs/integrations/banking/overview', '376'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/es/docs/integrations/overview',
+                component: ComponentCreator('/es/docs/integrations/overview', '007'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/es/docs/integrations/payments/gocardless-integration',
+                component: ComponentCreator('/es/docs/integrations/payments/gocardless-integration', '6e6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/es/docs/integrations/payments/overview',
+                component: ComponentCreator('/es/docs/integrations/payments/overview', 'fe9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/es/docs/integrations/payments/paypal-integration',
+                component: ComponentCreator('/es/docs/integrations/payments/paypal-integration', '87c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/es/docs/integrations/payments/stripe-integration',
+                component: ComponentCreator('/es/docs/integrations/payments/stripe-integration', '38b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

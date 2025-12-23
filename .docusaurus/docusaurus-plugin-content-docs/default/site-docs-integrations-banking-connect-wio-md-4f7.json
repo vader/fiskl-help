@@ -1,0 +1,58 @@
+{
+  "id": "integrations/banking/connect-wio",
+  "title": "Connect WIO Bank",
+  "description": "Automate bank transactions with Fiskl-Wio integration. Streamline financial tracking for more efficient business operations.",
+  "source": "@site/docs/integrations/banking/connect-wio.md",
+  "sourceDirName": "integrations/banking",
+  "slug": "/integrations/banking/connecting-wio",
+  "permalink": "/docs/integrations/banking/connecting-wio",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/integrations/banking/connect-wio.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "Integrations",
+      "permalink": "/docs/tags/integrations"
+    },
+    {
+      "inline": true,
+      "label": "Banking",
+      "permalink": "/docs/tags/banking"
+    },
+    {
+      "inline": true,
+      "label": "WIO",
+      "permalink": "/docs/tags/wio"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "title": "Connect WIO Bank",
+    "sidebar_position": 6,
+    "description": "Automate bank transactions with Fiskl-Wio integration. Streamline financial tracking for more efficient business operations.",
+    "keywords": [
+      "Wio integration Fiskl",
+      "bank transactions",
+      "financial tracking",
+      "automated banking",
+      "Fiskl features"
+    ],
+    "slug": "/integrations/banking/connecting-wio",
+    "tags": [
+      "Integrations",
+      "Banking",
+      "WIO"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Connect with Salt Edge",
+    "permalink": "/docs/integrations/banking/connecting-saltedge"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/integrations/payments/overview"
+  }
+}

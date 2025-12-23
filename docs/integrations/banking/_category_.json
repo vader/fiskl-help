@@ -1,0 +1,9 @@
+{
+  "label": "Banking Connections",
+  "position": 1,
+  "link": {
+    "type": "doc",
+    "id": "integrations/banking/overview"
+  },
+  "description": "Connect your bank accounts to Fiskl for automated transaction imports and reconciliation"
+}

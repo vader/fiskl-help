@@ -76,16 +76,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "accounting/reconciliation-overview",
-              "path": "/es/docs/accounting/reconciliation-overview",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "accounting/reconciliation-reports",
-              "path": "/es/docs/accounting/reconciliation-reports",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "accounting/reconciliation/guides/accounting-faqs",
               "path": "/es/docs/accounting/reconciliation/guides/accounting-faqs",
               "sidebar": "tutorialSidebar"
@@ -123,26 +113,6 @@
             {
               "id": "accounting/reimbursement-guide",
               "path": "/es/docs/accounting/reimbursement-guide",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "banking/connect-bank-accounts",
-              "path": "/es/docs/banking/connect-bank-accounts",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "banking/import-bank-statements",
-              "path": "/es/docs/banking/import-bank-statements",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "banking/payment-gateways",
-              "path": "/es/docs/banking/payment-gateways",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "banking/stripe-integration",
-              "path": "/es/docs/banking/stripe-integration",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -213,6 +183,56 @@
             {
               "id": "glossary/technical-terms",
               "path": "/es/docs/glossary/technical-terms",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "integrations/banking/connect-saltedge",
+              "path": "/es/docs/integrations/banking/connect-saltedge",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "integrations/banking/connect-stripe",
+              "path": "/es/docs/integrations/banking/connect-stripe",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "integrations/banking/connect-wio",
+              "path": "/es/docs/integrations/banking/connect-wio",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "integrations/banking/connect-yodlee",
+              "path": "/es/docs/integrations/banking/connect-yodlee",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "integrations/banking/overview",
+              "path": "/es/docs/integrations/banking/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "integrations/overview",
+              "path": "/es/docs/integrations/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "integrations/payments/gocardless-integration",
+              "path": "/es/docs/integrations/payments/gocardless-integration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "integrations/payments/overview",
+              "path": "/es/docs/integrations/payments/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "integrations/payments/paypal-integration",
+              "path": "/es/docs/integrations/payments/paypal-integration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "integrations/payments/stripe-integration",
+              "path": "/es/docs/integrations/payments/stripe-integration",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -388,11 +408,6 @@
             {
               "id": "/category/tutorial---extras",
               "path": "/es/docs/category/tutorial---extras",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/banking",
-              "path": "/es/docs/category/banking",
               "sidebar": "tutorialSidebar"
             },
             {

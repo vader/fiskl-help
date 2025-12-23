@@ -1,0 +1,29 @@
+{
+  "id": "integrations/banking/connect-saltedge",
+  "title": "Connect Saltedge",
+  "description": "Description of Connect Saltedge",
+  "source": "@site/i18n/es/docusaurus-plugin-content-docs/current/integrations/banking/connect-saltedge.md",
+  "sourceDirName": "integrations/banking",
+  "slug": "/integrations/banking/connect-saltedge",
+  "permalink": "/es/docs/integrations/banking/connect-saltedge",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/integrations/banking/connect-saltedge.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Connect Saltedge",
+    "description": "Description of Connect Saltedge",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/es/docs/integrations/banking/overview"
+  },
+  "next": {
+    "title": "Connect Stripe",
+    "permalink": "/es/docs/integrations/banking/connect-stripe"
+  }
+}

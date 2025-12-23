@@ -1,0 +1,59 @@
+{
+  "id": "integrations/banking/connect-stripe",
+  "title": "Connect Stripe",
+  "description": "Simplify banking and automated transactions using the Fiskl-Stripe integration: Enjoy seamless accounting and improved cash flow management.",
+  "source": "@site/docs/integrations/banking/connect-stripe.md",
+  "sourceDirName": "integrations/banking",
+  "slug": "/integrations/banking/connecting-stripe",
+  "permalink": "/docs/integrations/banking/connecting-stripe",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/integrations/banking/connect-stripe.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "Integrations",
+      "permalink": "/docs/tags/integrations"
+    },
+    {
+      "inline": true,
+      "label": "Banking",
+      "permalink": "/docs/tags/banking"
+    },
+    {
+      "inline": true,
+      "label": "Stripe",
+      "permalink": "/docs/tags/stripe"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Connect Stripe",
+    "sidebar_position": 1,
+    "description": "Simplify banking and automated transactions using the Fiskl-Stripe integration: Enjoy seamless accounting and improved cash flow management.",
+    "keywords": [
+      "Stripe integration Fiskl",
+      "payment processing",
+      "invoicing software",
+      "small business payments",
+      "banking",
+      "Fiskl tools"
+    ],
+    "slug": "/integrations/banking/connecting-stripe",
+    "tags": [
+      "Integrations",
+      "Banking",
+      "Stripe"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/integrations/banking/overview"
+  },
+  "next": {
+    "title": "Connect with Yodlee",
+    "permalink": "/docs/integrations/banking/connecting-yodlee"
+  }
+}
