@@ -19,8 +19,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "time tracking",
-    "permalink": "/es/docs/line-items/time-tracking"
+    "title": "Reconciliation Reports",
+    "permalink": "/es/docs/accounting/reconciliation/guides/reconciliation-reports"
   },
   "next": {
     "title": "managing vendors",

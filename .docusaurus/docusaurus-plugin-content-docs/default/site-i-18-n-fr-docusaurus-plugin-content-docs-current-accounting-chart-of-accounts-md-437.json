@@ -19,11 +19,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "bank reconciliation",
-    "permalink": "/fr/docs/accounting/bank-reconciliation"
+    "title": "accounting overview",
+    "permalink": "/fr/docs/accounting/accounting-overview"
   },
   "next": {
-    "title": "journal entries",
-    "permalink": "/fr/docs/accounting/journal-entries"
+    "title": "reconciliation overview",
+    "permalink": "/fr/docs/accounting/reconciliation-overview"
   }
 }

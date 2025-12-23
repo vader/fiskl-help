@@ -1,0 +1,53 @@
+{
+  "id": "accounting/journal-entries/guides/accounts-receivable-transactions",
+  "title": "Working with Accounts Receivable",
+  "description": "Efficiently manage Accounts Receivable with Fiskl: Track incoming payments, improve cash flow, and maintain healthy customer relationships.",
+  "source": "@site/docs/accounting/journal-entries/guides/accounts-receivable-transactions.md",
+  "sourceDirName": "accounting/journal-entries/guides",
+  "slug": "/core-features/accounting/journal-entries/guides/accounts-receivable-transactions",
+  "permalink": "/docs/core-features/accounting/journal-entries/guides/accounts-receivable-transactions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/accounting/journal-entries/guides/accounts-receivable-transactions.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "Accounting",
+      "permalink": "/docs/tags/accounting"
+    },
+    {
+      "inline": true,
+      "label": "Journal Entry",
+      "permalink": "/docs/tags/journal-entry"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "title": "Working with Accounts Receivable",
+    "sidebar_position": 12,
+    "description": "Efficiently manage Accounts Receivable with Fiskl: Track incoming payments, improve cash flow, and maintain healthy customer relationships.",
+    "keywords": [
+      "Create AR transactions Fiskl",
+      "Accounts Receivable",
+      "payment tracking",
+      "cash flow management"
+    ],
+    "slug": "/core-features/accounting/journal-entries/guides/accounts-receivable-transactions",
+    "toc_min_heading_level": 2,
+    "toc_max_heading_level": 4,
+    "tags": [
+      "Accounting",
+      "Journal Entry"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Working with Accounts Payable",
+    "permalink": "/docs/core-features/accounting/journal-entries/guides/accounts-payable-transactions"
+  },
+  "next": {
+    "title": "Handling Internal Transfers",
+    "permalink": "/docs/core-features/accounting/journal-entries/guides/internal-transfers"
+  }
+}

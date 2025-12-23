@@ -11,19 +11,19 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/accounting/journal-entries.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 1,
+  "sidebarPosition": 5,
   "frontMatter": {
     "title": "journal entries",
     "description": "Placeholder for journal entries",
-    "sidebar_position": 1
+    "sidebar_position": 5
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "chart of accounts",
-    "permalink": "/docs/accounting/chart-of-accounts"
+    "title": "Opening Balances",
+    "permalink": "/docs/accounting/journal-entries/guides/opening-balances"
   },
   "next": {
-    "title": "multi journal entries",
-    "permalink": "/docs/accounting/multi-journal-entries"
+    "title": "reimbursement guide",
+    "permalink": "/docs/accounting/reimbursement-guide"
   }
 }

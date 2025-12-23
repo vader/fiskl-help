@@ -16,23 +16,63 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "accounting/bank-reconciliation",
-              "path": "/es/docs/accounting/bank-reconciliation",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "accounting/chart-of-accounts",
               "path": "/es/docs/accounting/chart-of-accounts",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "accounting/journal-entries",
-              "path": "/es/docs/accounting/journal-entries",
+              "id": "accounting/journal-entries/guides/accounts-payable-transactions",
+              "path": "/es/docs/accounting/journal-entries/guides/accounts-payable-transactions",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "accounting/multi-journal-entries",
-              "path": "/es/docs/accounting/multi-journal-entries",
+              "id": "accounting/journal-entries/guides/accounts-receivable-transactions",
+              "path": "/es/docs/accounting/journal-entries/guides/accounts-receivable-transactions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "accounting/journal-entries/guides/exporting-transactions",
+              "path": "/es/docs/accounting/journal-entries/guides/exporting-transactions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "accounting/journal-entries/guides/internal-transfers",
+              "path": "/es/docs/accounting/journal-entries/guides/internal-transfers",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "accounting/journal-entries/guides/manual-transactions",
+              "path": "/es/docs/accounting/journal-entries/guides/manual-transactions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "accounting/journal-entries/guides/match-and-split-transactions",
+              "path": "/es/docs/accounting/journal-entries/guides/match-and-split-transactions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "accounting/journal-entries/guides/move-transactions",
+              "path": "/es/docs/accounting/journal-entries/guides/move-transactions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "accounting/journal-entries/guides/multi-currency-transactions",
+              "path": "/es/docs/accounting/journal-entries/guides/multi-currency-transactions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "accounting/journal-entries/guides/opening-balances",
+              "path": "/es/docs/accounting/journal-entries/guides/opening-balances",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "accounting/journal-entries/multi-journal-entries",
+              "path": "/es/docs/accounting/journal-entries/multi-journal-entries",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "accounting/journal-entries/overview",
+              "path": "/es/docs/accounting/journal-entries/overview",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -43,6 +83,41 @@
             {
               "id": "accounting/reconciliation-reports",
               "path": "/es/docs/accounting/reconciliation-reports",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "accounting/reconciliation/guides/accounting-faqs",
+              "path": "/es/docs/accounting/reconciliation/guides/accounting-faqs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "accounting/reconciliation/guides/bank-account-reconciliation",
+              "path": "/es/docs/accounting/reconciliation/guides/bank-account-reconciliation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "accounting/reconciliation/guides/handling-reconciliation-discrepancies",
+              "path": "/es/docs/accounting/reconciliation/guides/handling-reconciliation-discrepancies",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "accounting/reconciliation/guides/how-fiskl-handles-reconciliation",
+              "path": "/es/docs/accounting/reconciliation/guides/how-fiskl-handles-reconciliation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "accounting/reconciliation/guides/reconciliation-best-practices",
+              "path": "/es/docs/accounting/reconciliation/guides/reconciliation-best-practices",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "accounting/reconciliation/guides/reconciliation-reports",
+              "path": "/es/docs/accounting/reconciliation/guides/reconciliation-reports",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "accounting/reconciliation/overview",
+              "path": "/es/docs/accounting/reconciliation/overview",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -226,6 +301,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "reporting/transactions-by-account",
+              "path": "/es/docs/reporting/transactions-by-account",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "reporting/trial-balance",
               "path": "/es/docs/core-features/accounting/reports/trial-balance",
               "sidebar": "tutorialSidebar"
@@ -306,11 +386,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/accounting",
-              "path": "/es/docs/category/accounting",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "/category/tutorial---extras",
               "path": "/es/docs/category/tutorial---extras",
               "sidebar": "tutorialSidebar"
@@ -328,6 +403,16 @@
             {
               "id": "/category/products--expenses",
               "path": "/es/docs/category/products--expenses",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/journal-entry-guides",
+              "path": "/es/docs/category/journal-entry-guides",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/reconciliation-guides",
+              "path": "/es/docs/category/reconciliation-guides",
               "sidebar": "tutorialSidebar"
             }
           ],

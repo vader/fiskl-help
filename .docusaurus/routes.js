@@ -84,11 +84,11 @@ export default [
   },
   {
     path: '/es/docs',
-    component: ComponentCreator('/es/docs', 'd36'),
+    component: ComponentCreator('/es/docs', '451'),
     routes: [
       {
         path: '/es/docs',
-        component: ComponentCreator('/es/docs', 'a58'),
+        component: ComponentCreator('/es/docs', '62f'),
         routes: [
           {
             path: '/es/docs/tags',
@@ -112,17 +112,11 @@ export default [
           },
           {
             path: '/es/docs',
-            component: ComponentCreator('/es/docs', '68e'),
+            component: ComponentCreator('/es/docs', 'dd5'),
             routes: [
               {
                 path: '/es/docs/accounting/accounting-overview',
                 component: ComponentCreator('/es/docs/accounting/accounting-overview', '5a0'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/es/docs/accounting/bank-reconciliation',
-                component: ComponentCreator('/es/docs/accounting/bank-reconciliation', 'dfa'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -133,14 +127,68 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accounting/journal-entries',
-                component: ComponentCreator('/es/docs/accounting/journal-entries', 'aa9'),
+                path: '/es/docs/accounting/journal-entries/guides/accounts-payable-transactions',
+                component: ComponentCreator('/es/docs/accounting/journal-entries/guides/accounts-payable-transactions', 'c2c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accounting/multi-journal-entries',
-                component: ComponentCreator('/es/docs/accounting/multi-journal-entries', '301'),
+                path: '/es/docs/accounting/journal-entries/guides/accounts-receivable-transactions',
+                component: ComponentCreator('/es/docs/accounting/journal-entries/guides/accounts-receivable-transactions', 'cc8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/es/docs/accounting/journal-entries/guides/exporting-transactions',
+                component: ComponentCreator('/es/docs/accounting/journal-entries/guides/exporting-transactions', '9e0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/es/docs/accounting/journal-entries/guides/internal-transfers',
+                component: ComponentCreator('/es/docs/accounting/journal-entries/guides/internal-transfers', '0d0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/es/docs/accounting/journal-entries/guides/manual-transactions',
+                component: ComponentCreator('/es/docs/accounting/journal-entries/guides/manual-transactions', 'f6b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/es/docs/accounting/journal-entries/guides/match-and-split-transactions',
+                component: ComponentCreator('/es/docs/accounting/journal-entries/guides/match-and-split-transactions', 'e49'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/es/docs/accounting/journal-entries/guides/move-transactions',
+                component: ComponentCreator('/es/docs/accounting/journal-entries/guides/move-transactions', 'f1b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/es/docs/accounting/journal-entries/guides/multi-currency-transactions',
+                component: ComponentCreator('/es/docs/accounting/journal-entries/guides/multi-currency-transactions', '1ce'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/es/docs/accounting/journal-entries/guides/opening-balances',
+                component: ComponentCreator('/es/docs/accounting/journal-entries/guides/opening-balances', '8e7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/es/docs/accounting/journal-entries/multi-journal-entries',
+                component: ComponentCreator('/es/docs/accounting/journal-entries/multi-journal-entries', '73f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/es/docs/accounting/journal-entries/overview',
+                component: ComponentCreator('/es/docs/accounting/journal-entries/overview', '637'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -153,6 +201,48 @@ export default [
               {
                 path: '/es/docs/accounting/reconciliation-reports',
                 component: ComponentCreator('/es/docs/accounting/reconciliation-reports', 'b46'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/es/docs/accounting/reconciliation/guides/accounting-faqs',
+                component: ComponentCreator('/es/docs/accounting/reconciliation/guides/accounting-faqs', '1e4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/es/docs/accounting/reconciliation/guides/bank-account-reconciliation',
+                component: ComponentCreator('/es/docs/accounting/reconciliation/guides/bank-account-reconciliation', '4af'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/es/docs/accounting/reconciliation/guides/handling-reconciliation-discrepancies',
+                component: ComponentCreator('/es/docs/accounting/reconciliation/guides/handling-reconciliation-discrepancies', '3c5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/es/docs/accounting/reconciliation/guides/how-fiskl-handles-reconciliation',
+                component: ComponentCreator('/es/docs/accounting/reconciliation/guides/how-fiskl-handles-reconciliation', '9a5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/es/docs/accounting/reconciliation/guides/reconciliation-best-practices',
+                component: ComponentCreator('/es/docs/accounting/reconciliation/guides/reconciliation-best-practices', '32b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/es/docs/accounting/reconciliation/guides/reconciliation-reports',
+                component: ComponentCreator('/es/docs/accounting/reconciliation/guides/reconciliation-reports', '95a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/es/docs/accounting/reconciliation/overview',
+                component: ComponentCreator('/es/docs/accounting/reconciliation/overview', '352'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -187,12 +277,6 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/category/accounting',
-                component: ComponentCreator('/es/docs/category/accounting', 'eef'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
                 path: '/es/docs/category/banking',
                 component: ComponentCreator('/es/docs/category/banking', 'ec6'),
                 exact: true,
@@ -217,8 +301,20 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/es/docs/category/journal-entry-guides',
+                component: ComponentCreator('/es/docs/category/journal-entry-guides', '5ea'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/es/docs/category/products--expenses',
                 component: ComponentCreator('/es/docs/category/products--expenses', 'b83'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/es/docs/category/reconciliation-guides',
+                component: ComponentCreator('/es/docs/category/reconciliation-guides', '7ba'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -423,6 +519,12 @@ export default [
               {
                 path: '/es/docs/reporting/sales-tax',
                 component: ComponentCreator('/es/docs/reporting/sales-tax', 'c20'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/es/docs/reporting/transactions-by-account',
+                component: ComponentCreator('/es/docs/reporting/transactions-by-account', 'db0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

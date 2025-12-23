@@ -19,11 +19,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Accounting",
-    "permalink": "/es/docs/category/accounting"
+    "title": "time tracking",
+    "permalink": "/es/docs/line-items/time-tracking"
   },
   "next": {
-    "title": "bank reconciliation",
-    "permalink": "/es/docs/accounting/bank-reconciliation"
+    "title": "chart of accounts",
+    "permalink": "/es/docs/accounting/chart-of-accounts"
   }
 }

@@ -1,0 +1,10 @@
+{
+  "label": "Journal Entry Guides",
+  "position": 8,
+  "link": {
+    "type": "generated-index",
+    "title": "Journal Entry Guides",
+    "description": "Comprehensive guides for managing journal entries, transactions, and accounting records in Fiskl.",
+    "keywords": ["journal entries", "transactions", "accounting", "bookkeeping"]
+  }
+}

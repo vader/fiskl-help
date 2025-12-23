@@ -27,8 +27,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Financial Reports",
-    "permalink": "/fr/docs/category/financial-reports"
+    "title": "Transactions By Account",
+    "permalink": "/fr/docs/reporting/transactions-by-account"
   },
   "next": {
     "title": "Rapport de Bilan",

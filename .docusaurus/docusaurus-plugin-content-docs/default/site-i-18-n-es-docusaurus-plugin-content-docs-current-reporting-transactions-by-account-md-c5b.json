@@ -1,0 +1,29 @@
+{
+  "id": "reporting/transactions-by-account",
+  "title": "Transactions By Account",
+  "description": "Description of Transactions By Account",
+  "source": "@site/i18n/es/docusaurus-plugin-content-docs/current/reporting/transactions-by-account.md",
+  "sourceDirName": "reporting",
+  "slug": "/reporting/transactions-by-account",
+  "permalink": "/es/docs/reporting/transactions-by-account",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reporting/transactions-by-account.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Transactions By Account",
+    "description": "Description of Transactions By Account",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Financial Reports",
+    "permalink": "/es/docs/category/financial-reports"
+  },
+  "next": {
+    "title": "Informe de Ganancias y Pérdidas",
+    "permalink": "/es/docs/reporting/profit-and-loss"
+  }
+}

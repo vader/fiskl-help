@@ -213,13 +213,13 @@
     },
     "content": "393be207"
   },
-  "/es/docs-d36": {
+  "/es/docs-451": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/es/docs-a58": {
+  "/es/docs-62f": {
     "__comp": "a7bd4aaa",
     "__props": "9d39d3e7"
   },
@@ -239,28 +239,60 @@
     "__comp": "df203c0f",
     "__props": "ab51b593"
   },
-  "/es/docs-68e": {
+  "/es/docs-dd5": {
     "__comp": "a94703ab"
   },
   "/es/docs/accounting/accounting-overview-5a0": {
     "__comp": "17896441",
     "content": "4dace08a"
   },
-  "/es/docs/accounting/bank-reconciliation-dfa": {
-    "__comp": "17896441",
-    "content": "8f2821d7"
-  },
   "/es/docs/accounting/chart-of-accounts-325": {
     "__comp": "17896441",
     "content": "56c5af72"
   },
-  "/es/docs/accounting/journal-entries-aa9": {
+  "/es/docs/accounting/journal-entries/guides/accounts-payable-transactions-c2c": {
     "__comp": "17896441",
-    "content": "15f37e3f"
+    "content": "da626015"
   },
-  "/es/docs/accounting/multi-journal-entries-301": {
+  "/es/docs/accounting/journal-entries/guides/accounts-receivable-transactions-cc8": {
     "__comp": "17896441",
-    "content": "fd74c1ae"
+    "content": "c3afee88"
+  },
+  "/es/docs/accounting/journal-entries/guides/exporting-transactions-9e0": {
+    "__comp": "17896441",
+    "content": "0a8d1974"
+  },
+  "/es/docs/accounting/journal-entries/guides/internal-transfers-0d0": {
+    "__comp": "17896441",
+    "content": "92ccc7a2"
+  },
+  "/es/docs/accounting/journal-entries/guides/manual-transactions-f6b": {
+    "__comp": "17896441",
+    "content": "e77e5ec7"
+  },
+  "/es/docs/accounting/journal-entries/guides/match-and-split-transactions-e49": {
+    "__comp": "17896441",
+    "content": "3ce3b243"
+  },
+  "/es/docs/accounting/journal-entries/guides/move-transactions-f1b": {
+    "__comp": "17896441",
+    "content": "8783dc53"
+  },
+  "/es/docs/accounting/journal-entries/guides/multi-currency-transactions-1ce": {
+    "__comp": "17896441",
+    "content": "76ae272b"
+  },
+  "/es/docs/accounting/journal-entries/guides/opening-balances-8e7": {
+    "__comp": "17896441",
+    "content": "3e1f4b86"
+  },
+  "/es/docs/accounting/journal-entries/multi-journal-entries-73f": {
+    "__comp": "17896441",
+    "content": "21ff5694"
+  },
+  "/es/docs/accounting/journal-entries/overview-637": {
+    "__comp": "17896441",
+    "content": "55e517e4"
   },
   "/es/docs/accounting/reconciliation-overview-eb8": {
     "__comp": "17896441",
@@ -269,6 +301,34 @@
   "/es/docs/accounting/reconciliation-reports-b46": {
     "__comp": "17896441",
     "content": "a505434a"
+  },
+  "/es/docs/accounting/reconciliation/guides/accounting-faqs-1e4": {
+    "__comp": "17896441",
+    "content": "921a0dc3"
+  },
+  "/es/docs/accounting/reconciliation/guides/bank-account-reconciliation-4af": {
+    "__comp": "17896441",
+    "content": "0708c648"
+  },
+  "/es/docs/accounting/reconciliation/guides/handling-reconciliation-discrepancies-3c5": {
+    "__comp": "17896441",
+    "content": "33fd0bb3"
+  },
+  "/es/docs/accounting/reconciliation/guides/how-fiskl-handles-reconciliation-9a5": {
+    "__comp": "17896441",
+    "content": "6eac77d1"
+  },
+  "/es/docs/accounting/reconciliation/guides/reconciliation-best-practices-32b": {
+    "__comp": "17896441",
+    "content": "6154be72"
+  },
+  "/es/docs/accounting/reconciliation/guides/reconciliation-reports-95a": {
+    "__comp": "17896441",
+    "content": "e2448008"
+  },
+  "/es/docs/accounting/reconciliation/overview-352": {
+    "__comp": "17896441",
+    "content": "103307a5"
   },
   "/es/docs/accounting/reimbursement-guide-9d4": {
     "__comp": "17896441",
@@ -290,10 +350,6 @@
     "__comp": "17896441",
     "content": "22629033"
   },
-  "/es/docs/category/accounting-eef": {
-    "__comp": "14eb3368",
-    "__props": "3a50912f"
-  },
   "/es/docs/category/banking-ec6": {
     "__comp": "14eb3368",
     "__props": "230f1845"
@@ -310,9 +366,17 @@
     "__comp": "14eb3368",
     "__props": "56b2d560"
   },
+  "/es/docs/category/journal-entry-guides-5ea": {
+    "__comp": "14eb3368",
+    "__props": "123aefcc"
+  },
   "/es/docs/category/products--expenses-b83": {
     "__comp": "14eb3368",
     "__props": "5199b0d5"
+  },
+  "/es/docs/category/reconciliation-guides-7ba": {
+    "__comp": "14eb3368",
+    "__props": "ee3feb5b"
   },
   "/es/docs/category/tutorial---basics-add": {
     "__comp": "14eb3368",
@@ -449,6 +513,10 @@
   "/es/docs/reporting/sales-tax-c20": {
     "__comp": "17896441",
     "content": "5021feac"
+  },
+  "/es/docs/reporting/transactions-by-account-db0": {
+    "__comp": "17896441",
+    "content": "c5b348cd"
   },
   "/es/docs/settings/company-settings-f2b": {
     "__comp": "17896441",

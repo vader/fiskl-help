@@ -1,0 +1,29 @@
+{
+  "id": "accounting/reconciliation/overview",
+  "title": "Overview",
+  "description": "Description of Overview",
+  "source": "@site/i18n/fr/docusaurus-plugin-content-docs/current/accounting/reconciliation/overview.md",
+  "sourceDirName": "accounting/reconciliation",
+  "slug": "/accounting/reconciliation/overview",
+  "permalink": "/fr/docs/accounting/reconciliation/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/accounting/reconciliation/overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Overview",
+    "description": "Description of Overview",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Opening Balances",
+    "permalink": "/fr/docs/accounting/journal-entries/guides/opening-balances"
+  },
+  "next": {
+    "title": "Reconciliation Guides",
+    "permalink": "/fr/docs/category/reconciliation-guides"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "Journal Entries",
+  "position": 3,
+  "link": {
+    "type": "doc",
+    "id": "accounting/journal-entries/overview"
+  }
+}
