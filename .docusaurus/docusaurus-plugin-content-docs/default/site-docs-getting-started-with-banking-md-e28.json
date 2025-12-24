@@ -11,11 +11,11 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/with-banking.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 1,
+  "sidebarPosition": 3,
   "frontMatter": {
     "title": "with banking",
     "description": "Placeholder for with banking",
-    "sidebar_position": 1
+    "sidebar_position": 3
   },
   "sidebar": "tutorialSidebar",
   "previous": {
@@ -23,7 +23,7 @@
     "permalink": "/docs/getting-started/overview"
   },
   "next": {
-    "title": "with invoicing",
-    "permalink": "/docs/getting-started/with-invoicing"
+    "title": "Introduction",
+    "permalink": "/docs/intro"
   }
 }

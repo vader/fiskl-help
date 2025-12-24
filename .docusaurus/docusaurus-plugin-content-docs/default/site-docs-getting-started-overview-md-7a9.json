@@ -19,11 +19,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "as an accountant",
+    "title": "As an Accountant",
     "permalink": "/docs/getting-started/as-an-accountant"
   },
   "next": {
-    "title": "with banking",
-    "permalink": "/docs/getting-started/with-banking"
+    "title": "Invoice Basics",
+    "permalink": "/docs/getting-started/invoicing"
   }
 }

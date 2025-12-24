@@ -20,8 +20,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "with invoicing",
-    "permalink": "/docs/getting-started/with-invoicing"
+    "title": "Invoice Basics",
+    "permalink": "/docs/getting-started/invoicing"
   },
   "next": {
     "title": "Invoicing & Quotes",
