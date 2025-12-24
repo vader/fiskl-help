@@ -1,70 +1,154 @@
 ---
-title: Connect with Yodlee
+title: "Connect with Yodlee"
 sidebar_position: 2
-description: Ensure accurate financial records with Fiskl-Yodlee integration. Sync real-time bank data for comprehensive financial management.
-keywords: ["Yodlee integration Fiskl", "real-time bank data", "financial records", "banking software"]
+description: "Connect your bank to Fiskl using Yodlee for automated transaction imports and real-time financial tracking across the United States, Canada, and South Africa."
+keywords: ["Yodlee integration", "bank connection Fiskl", "transaction imports", "Fiskl Banking", "US banking"]
 slug: /integrations/banking/connecting-yodlee
+toc_min_heading_level: 2
+toc_max_heading_level: 4
 tags:
- - Integrations
- - Banking
- - Yodlee
+   - Integrations
+   - Banking
+   - Yodlee
 ---
 
-Yodlee bank integrations provide a secure way to connect your financial accounts to Fiskl, allowing for efficient and automated sharing of your banking data. This integration enhances your experience by providing comprehensive financial services within Fiskl.
-Yodlee is the primary provider for customers in the United States, Canada, and South Africa
+This guide explains how to connect your bank account to Fiskl using Yodlee and helps you automate transaction imports for accurate financial tracking.
 
-## Benefits of Yodlee Integration
+Yodlee connects your bank accounts securely to Fiskl and imports transactions automatically. The integration supports banks across the United States, Canada, and South Africa. After you connect your account, Fiskl syncs your banking data and updates your transactions daily.
 
-- Secure connection between your bank and Fiskl
-- Automated synchronization of your banking data
-- Support for multiple bank accounts and institutions
-- Streamlined financial management within Fiskl
+## Why Use Yodlee
+
+Yodlee provides extensive coverage for banks across the United States, Canada, and South Africa. The integration uses bank-grade security to create encrypted connections between your bank and Fiskl. After you connect, Fiskl syncs your banking data automatically so your financial records stay current without manual entry.
+
+You can connect multiple bank accounts from different institutions. Each account syncs independently so you maintain complete visibility across all your financial accounts in one place.
 
 ## Connecting Your Bank Account
 
-1. Go to "Banking" in the left menu
-2. Click on "Connect"
-3. Select or search for your bank
-4. Enter your bank credentials as prompted
+Before you begin:
+- Have your online banking credentials ready
+- Ensure you have permission to connect external services (check with your bank if unsure)
 
-:::info[caution]
-Connection details may vary depending on your bank. Some institutions may require additional authentication steps.
-:::
+**Steps:**
 
-5. Review the list of accounts to sync:
-    - All accounts are selected automatically.
-    - Deselect any accounts you don't want to sync (if this option is available)
-6. Click "Save & Finish" or "Save & link more accounts" to add multiple banks
-7. Your accounts will now be connected
+1. **Open Banking**
 
-<!-- ## Post-Connection Setup
+   In the left sidebar, select **Banking**.
 
-After connecting your bank:
+2. **Start the connection**
 
-1. Click the edit icon on the bank account card to:
-   - Change how your bank account is displayed in Fiskl
-   - Add a description
-2. Check "Sync bank name and account" to match the bank name with the account name in your Chart of Accounts -->
+   Select **Connect bank**.
+
+3. **Choose Yodlee**
+
+   Select **Yodlee** as your provider.
+
+4. **Find your bank**
+
+   Search for your bank by name or browse by region. Select your bank from the results.
+
+5. **Authenticate with your bank**
+
+   Follow your bank's connection process. The steps vary by bank but typically include:
+   - Enter your online banking credentials
+   - Complete any additional security verification
+   - Authorize Fiskl to access your account data
+
+   :::info
+   Each bank has its own security requirements. The process should be familiar if you use online banking regularly.
+   :::
+
+6. **Select accounts to sync**
+
+   Review the list of connected accounts. Fiskl selects all accounts by default. Deselect any accounts you don't want to sync.
+
+7. **Save your connection**
+
+   Select **Save & Finish**. To connect additional banks, select **Save & link more accounts** instead.
+
+### What Happens Next
+
+After connection:
+- Fiskl syncs your transactions daily
+- New transactions appear automatically in **Banking**
+- You can categorize and match transactions to invoices or expenses
+- The system updates your ledger accounts based on transaction data
 
 :::info
-After the initial connection, it may take up to 12 hours for our banking data providers to fetch the initial transactions from your connected bank account.
+The first sync may take up to 12 hours depending on your transaction history. Subsequent syncs are faster.
 :::
-
-## Regional Considerations
-
-- Yodlee is the primary provider for users in the United States, Canada, and South Africa
-- You can use both Yodlee and Salt Edge. If your bank or institution is not available try Salt Edge
 
 ## Maintaining Your Connection
 
-We recommend checking your bank connections at least every 30 days to re-authenticate and ensure uninterrupted service.
+Check your bank connections regularly in the **Banking** section to ensure they remain active. Select the bank account card to view connection status.
 
-:::info
-Not all banks support automatic refresh. In this case you will need to refresh your connection from the banking screen periodically.
+Some banks require periodic re-authentication for security. If your connection expires, you'll see a notification in **Banking**. Select **Reconnect** and follow the authentication steps again to restore the connection.
+
+:::tip
+We recommend checking your bank connections at least every 30 days to ensure uninterrupted service.
 :::
 
-<!-- :::info
-Salt Edge users can access a user dashboard [here](insert_salt_edge_dashboard_link). First-time access requires using your Fiskl email and clicking "Forgot password" to generate login credentials.
-:::
+## Troubleshooting
 
-Remember: Regularly reviewing your bank connections ensures accurate and up-to-date financial data in Fiskl. -->
+<details>
+  <summary>Connection failed during authentication</summary>
+
+**Common causes:**
+- Incorrect credentials - verify your username and password
+- Bank security settings - ensure external connections are allowed
+- Two-factor authentication timeout - complete the process within the time limit
+
+**Solution:**
+1. Verify your credentials by logging into your bank's website directly
+2. Check your bank's security settings for third-party access
+3. Try the connection again, ensuring you complete all security steps promptly
+
+If the issue persists, contact Fiskl support with details about the error message you received.
+</details>
+
+<details>
+  <summary>Transactions aren't syncing</summary>
+
+Check your connection status:
+
+1. Go to **Banking**
+2. Look for a warning or error message on your bank account card
+3. If you see "Connection expired" or similar, select **Reconnect**
+
+If the connection shows as active but transactions don't sync:
+- Wait 24 hours for the automatic daily sync
+- Select **Refresh** on the bank account card to trigger a manual sync
+- Contact Fiskl support if transactions are still missing after 48 hours
+</details>
+
+<details>
+  <summary>My bank isn't listed</summary>
+
+Yodlee supports most banks in the United States, Canada, and South Africa. If your bank doesn't appear:
+
+1. Search using your bank's full official name
+2. Check if your bank is listed under a parent company name
+3. Try browsing by region instead of searching
+
+If you still can't find your bank, try [connecting with Salt Edge](/docs/integrations/banking/connecting-saltedge) as an alternative.
+</details>
+
+<details>
+  <summary>I see a "Consent expired" message</summary>
+
+Some banks require periodic consent renewal for security compliance. This is normal banking security practice.
+
+**Solution:**
+1. Go to **Banking**
+2. Select **Reconnect** on the affected bank account card
+3. Follow the authentication steps to renew your consent
+4. Your transactions will resume syncing automatically
+
+Set a calendar reminder to check your connections every 30 days to avoid interruptions.
+</details>
+
+## Related Topics
+
+- [Connect with Salt Edge](/docs/integrations/banking/connecting-saltedge)
+- [Managing bank transactions](/docs/banking/managing-transactions)
+- [Reconciling accounts](/docs/banking/reconciliation)
+- [Banking overview](/docs/banking/overview)

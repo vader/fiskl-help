@@ -28,11 +28,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Trial Balance Report",
-    "permalink": "/docs/core-features/accounting/reports/trial-balance"
+    "title": "Statement of Accounts",
+    "permalink": "/docs/core-features/accounting/reports/statement-of-accounts"
   },
   "next": {
-    "title": "Products & Expenses",
-    "permalink": "/docs/category/products--expenses"
+    "title": "Banking Connections Overview",
+    "permalink": "/docs/integrations/banking/overview"
   }
 }

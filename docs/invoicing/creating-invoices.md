@@ -114,21 +114,25 @@ Invoices follow this status flow:
 Invoices follow this status flow:
 
 ```mermaid
----
-config:
-    layout: elk
----
+
 stateDiagram-v2
-    Draft --> Sent
-    Sent --> Draft
-    Sent --> Overdue
-    Sent --> Paid
-    Sent --> Partial
-    Sent --> Rejected
-    Overdue --> Paid
-    Rejected --> Draft
-    Partial --> Paid
-    Partial --> Overdue
+    [*] --> Draft : Create
+    Draft --> Sent : Send
+    Sent --> Draft : Recall
+    Sent --> Overdue : Past Due
+    Sent --> Paid : Full Payment
+    Sent --> Partial : Partial Payment
+    Sent --> Rejected : Reject / Cancel
+    Overdue --> Paid : Late Payment
+    Overdue --> Partial : Partial Payment
+    Partial --> Paid : Complete Payment
+    Partial --> Overdue : Missed Balance
+    Paid --> [*] : Closed
+
+    note right of Overdue
+      Invoice past the due date
+    end note
+
 ```
 
 :::info

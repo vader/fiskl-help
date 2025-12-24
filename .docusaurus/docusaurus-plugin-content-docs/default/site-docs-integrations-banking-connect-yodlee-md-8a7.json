@@ -1,7 +1,7 @@
 {
   "id": "integrations/banking/connect-yodlee",
   "title": "Connect with Yodlee",
-  "description": "Ensure accurate financial records with Fiskl-Yodlee integration. Sync real-time bank data for comprehensive financial management.",
+  "description": "Connect your bank to Fiskl using Yodlee for automated transaction imports and real-time financial tracking across the United States, Canada, and South Africa.",
   "source": "@site/docs/integrations/banking/connect-yodlee.md",
   "sourceDirName": "integrations/banking",
   "slug": "/integrations/banking/connecting-yodlee",
@@ -31,14 +31,17 @@
   "frontMatter": {
     "title": "Connect with Yodlee",
     "sidebar_position": 2,
-    "description": "Ensure accurate financial records with Fiskl-Yodlee integration. Sync real-time bank data for comprehensive financial management.",
+    "description": "Connect your bank to Fiskl using Yodlee for automated transaction imports and real-time financial tracking across the United States, Canada, and South Africa.",
     "keywords": [
-      "Yodlee integration Fiskl",
-      "real-time bank data",
-      "financial records",
-      "banking software"
+      "Yodlee integration",
+      "bank connection Fiskl",
+      "transaction imports",
+      "Fiskl Banking",
+      "US banking"
     ],
     "slug": "/integrations/banking/connecting-yodlee",
+    "toc_min_heading_level": 2,
+    "toc_max_heading_level": 4,
     "tags": [
       "Integrations",
       "Banking",

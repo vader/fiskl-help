@@ -1,7 +1,7 @@
 {
   "id": "integrations/banking/connect-stripe",
   "title": "Connect Stripe",
-  "description": "Simplify banking and automated transactions using the Fiskl-Stripe integration: Enjoy seamless accounting and improved cash flow management.",
+  "description": "Connect Stripe to Fiskl Banking for automatic transaction imports, accurate multi-currency ledger entries, and seamless payout reconciliation.",
   "source": "@site/docs/integrations/banking/connect-stripe.md",
   "sourceDirName": "integrations/banking",
   "slug": "/integrations/banking/connecting-stripe",
@@ -31,7 +31,7 @@
   "frontMatter": {
     "title": "Connect Stripe",
     "sidebar_position": 1,
-    "description": "Simplify banking and automated transactions using the Fiskl-Stripe integration: Enjoy seamless accounting and improved cash flow management.",
+    "description": "Connect Stripe to Fiskl Banking for automatic transaction imports, accurate multi-currency ledger entries, and seamless payout reconciliation.",
     "keywords": [
       "Stripe integration Fiskl",
       "payment processing",
@@ -49,7 +49,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Overview",
+    "title": "Banking Connections Overview",
     "permalink": "/docs/integrations/banking/overview"
   },
   "next": {

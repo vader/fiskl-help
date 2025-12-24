@@ -1,0 +1,58 @@
+{
+  "id": "settings/invoice-template-brands-settings",
+  "title": "Invoice Templates",
+  "description": "Maintain brand consistency with Fiskl's template management. Create and edit templates for documents and branding elements effortlessly.",
+  "source": "@site/docs/settings/invoice-template-brands-settings.md",
+  "sourceDirName": "settings",
+  "slug": "/settings/template-brand-settings",
+  "permalink": "/docs/settings/template-brand-settings",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/settings/invoice-template-brands-settings.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "Settings",
+      "permalink": "/docs/tags/settings"
+    },
+    {
+      "inline": true,
+      "label": "Templates",
+      "permalink": "/docs/tags/templates"
+    },
+    {
+      "inline": true,
+      "label": "Brands",
+      "permalink": "/docs/tags/brands"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "title": "Invoice Templates",
+    "sidebar_position": 6,
+    "description": "Maintain brand consistency with Fiskl's template management. Create and edit templates for documents and branding elements effortlessly.",
+    "keywords": [
+      "Templates Fiskl",
+      "brand management",
+      "document templates",
+      "customize branding",
+      "professional templates"
+    ],
+    "slug": "/settings/template-brand-settings",
+    "tags": [
+      "Settings",
+      "Templates",
+      "Brands"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tax Settings",
+    "permalink": "/docs/settings/tax-settings"
+  },
+  "next": {
+    "title": "Currency Management",
+    "permalink": "/docs/settings/currency-management"
+  }
+}

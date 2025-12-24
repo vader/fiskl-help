@@ -19,7 +19,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "tax settings",
-    "permalink": "/docs/settings/tax-settings"
+    "title": "Company Settings",
+    "permalink": "/docs/settings/company-settings"
+  },
+  "next": {
+    "title": "Accounting Settings",
+    "permalink": "/docs/settings/accounting-settings"
   }
 }

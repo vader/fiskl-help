@@ -32,7 +32,7 @@
     "permalink": "/docs/reporting/profit-and-loss"
   },
   "next": {
-    "title": "General Ledger Report",
-    "permalink": "/docs/reporting/general-ledger"
+    "title": "Transactions by Account",
+    "permalink": "/docs/reporting/transactions-by-account"
   }
 }

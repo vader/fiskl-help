@@ -1,7 +1,7 @@
 {
   "id": "integrations/banking/overview",
-  "title": "Overview",
-  "description": "Description of Overview",
+  "title": "Banking Connections Overview",
+  "description": "Learn how to connect and manage your bank accounts, credit cards, and payment providers in Fiskl for automated bookkeeping.",
   "source": "@site/docs/integrations/banking/overview.md",
   "sourceDirName": "integrations/banking",
   "slug": "/integrations/banking/overview",
@@ -13,14 +13,14 @@
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
-    "title": "Overview",
-    "description": "Description of Overview",
+    "title": "Banking Connections Overview",
+    "description": "Learn how to connect and manage your bank accounts, credit cards, and payment providers in Fiskl for automated bookkeeping.",
     "sidebar_position": 1
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Overview",
-    "permalink": "/docs/integrations/overview"
+    "title": "Client Aging Report",
+    "permalink": "/docs/reporting/client-aging"
   },
   "next": {
     "title": "Connect Stripe",

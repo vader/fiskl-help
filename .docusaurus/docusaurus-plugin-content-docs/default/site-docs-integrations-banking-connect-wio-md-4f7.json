@@ -1,7 +1,7 @@
 {
   "id": "integrations/banking/connect-wio",
   "title": "Connect WIO Bank",
-  "description": "Automate bank transactions with Fiskl-Wio integration. Streamline financial tracking for more efficient business operations.",
+  "description": "Connect your WIO Bank account to Fiskl for automatic transaction imports, zero-touch reconciliation, and seamless multi-currency transfer management.",
   "source": "@site/docs/integrations/banking/connect-wio.md",
   "sourceDirName": "integrations/banking",
   "slug": "/integrations/banking/connecting-wio",
@@ -31,13 +31,14 @@
   "frontMatter": {
     "title": "Connect WIO Bank",
     "sidebar_position": 6,
-    "description": "Automate bank transactions with Fiskl-Wio integration. Streamline financial tracking for more efficient business operations.",
+    "description": "Connect your WIO Bank account to Fiskl for automatic transaction imports, zero-touch reconciliation, and seamless multi-currency transfer management.",
     "keywords": [
-      "Wio integration Fiskl",
+      "WIO Bank integration",
+      "Fiskl Banking",
       "bank transactions",
-      "financial tracking",
-      "automated banking",
-      "Fiskl features"
+      "multi-currency transfers",
+      "automated reconciliation",
+      "OpenBanking"
     ],
     "slug": "/integrations/banking/connecting-wio",
     "tags": [
@@ -53,6 +54,6 @@
   },
   "next": {
     "title": "Overview",
-    "permalink": "/docs/integrations/payments/overview"
+    "permalink": "/docs/integrations/overview"
   }
 }

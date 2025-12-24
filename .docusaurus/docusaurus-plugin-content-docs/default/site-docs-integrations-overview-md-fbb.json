@@ -19,11 +19,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "sending invoices",
-    "permalink": "/docs/invoicing/sending-invoices"
+    "title": "Connect WIO Bank",
+    "permalink": "/docs/integrations/banking/connecting-wio"
   },
   "next": {
     "title": "Overview",
-    "permalink": "/docs/integrations/banking/overview"
+    "permalink": "/docs/integrations/payments/overview"
   }
 }

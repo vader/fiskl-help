@@ -57,7 +57,7 @@
     "permalink": "/docs/invoicing/creating-invoices"
   },
   "next": {
-    "title": "recurring invoices",
-    "permalink": "/docs/invoicing/recurring-invoices"
+    "title": "Sending Invoices",
+    "permalink": "/docs/core-features/invoicing/sending-invoices"
   }
 }

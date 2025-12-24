@@ -19,8 +19,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Connect WIO Bank",
-    "permalink": "/docs/integrations/banking/connecting-wio"
+    "title": "Overview",
+    "permalink": "/docs/integrations/overview"
   },
   "next": {
     "title": "Stripe",

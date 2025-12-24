@@ -1,0 +1,52 @@
+{
+  "id": "settings/accounting-settings",
+  "title": "Accounting Settings",
+  "description": "Customize Fiskl's accounting settings to match your business needs. Configure taxes and reporting preferences for optimal performance.",
+  "source": "@site/docs/settings/accounting-settings.md",
+  "sourceDirName": "settings",
+  "slug": "/settings/accounting-settings",
+  "permalink": "/docs/settings/accounting-settings",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/settings/accounting-settings.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "Settings",
+      "permalink": "/docs/tags/settings"
+    },
+    {
+      "inline": true,
+      "label": "Accounting settings",
+      "permalink": "/docs/tags/accounting-settings"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Accounting Settings",
+    "sidebar_position": 2,
+    "description": "Customize Fiskl's accounting settings to match your business needs. Configure taxes and reporting preferences for optimal performance.",
+    "keywords": [
+      "Accounting settings Fiskl",
+      "tax settings",
+      "reporting preferences",
+      "customize",
+      "business accounting software"
+    ],
+    "slug": "/settings/accounting-settings",
+    "tags": [
+      "Settings",
+      "Accounting settings"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "user management",
+    "permalink": "/docs/settings/user-management"
+  },
+  "next": {
+    "title": "subscription billing",
+    "permalink": "/docs/settings/subscription-billing"
+  }
+}

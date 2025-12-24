@@ -1,0 +1,52 @@
+{
+  "id": "settings/currency-management",
+  "title": "Currency Management",
+  "description": "Take full control of your multi-currency accounting with customizable exchange rates. Set, override, and manage currency rates for specific dates or periods.",
+  "source": "@site/docs/settings/currency-management.md",
+  "sourceDirName": "settings",
+  "slug": "/settings/currency-management",
+  "permalink": "/docs/settings/currency-management",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/settings/currency-management.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "Settings",
+      "permalink": "/docs/tags/settings"
+    },
+    {
+      "inline": true,
+      "label": "Currency Management",
+      "permalink": "/docs/tags/currency-management"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "title": "Currency Management",
+    "sidebar_position": 7,
+    "description": "Take full control of your multi-currency accounting with customizable exchange rates. Set, override, and manage currency rates for specific dates or periods.",
+    "keywords": [
+      "Currency management",
+      "exchange rates",
+      "multi-currency accounting",
+      "override currency rates",
+      "financial accuracy"
+    ],
+    "slug": "/settings/currency-management",
+    "tags": [
+      "Settings",
+      "Currency Management"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Invoice Templates",
+    "permalink": "/docs/settings/template-brand-settings"
+  },
+  "next": {
+    "title": "Invoice and Quote Settings",
+    "permalink": "/docs/settings/invoice-quote-settings"
+  }
+}

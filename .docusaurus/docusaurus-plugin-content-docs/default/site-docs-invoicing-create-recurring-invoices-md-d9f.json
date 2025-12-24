@@ -1,0 +1,53 @@
+{
+  "id": "invoicing/create-recurring-invoices",
+  "title": "Creating Recurring Invoices",
+  "description": "Automate your billing with Fiskl's recurring invoice feature. Save time and ensure consistent revenue streams for your business.",
+  "source": "@site/docs/invoicing/create-recurring-invoices.md",
+  "sourceDirName": "invoicing",
+  "slug": "/core-features/invoicing/recurring/creating-recurring-invoices",
+  "permalink": "/docs/core-features/invoicing/recurring/creating-recurring-invoices",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/invoicing/create-recurring-invoices.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "Invoice",
+      "permalink": "/docs/tags/invoice"
+    },
+    {
+      "inline": true,
+      "label": "Recurring invoices",
+      "permalink": "/docs/tags/recurring-invoices"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Creating Recurring Invoices",
+    "sidebar_position": 5,
+    "description": "Automate your billing with Fiskl's recurring invoice feature. Save time and ensure consistent revenue streams for your business.",
+    "keywords": [
+      "Recurring invoices Fiskl",
+      "automated billing",
+      "subscription management",
+      "revenue automation"
+    ],
+    "slug": "/core-features/invoicing/recurring/creating-recurring-invoices",
+    "toc_min_heading_level": 2,
+    "toc_max_heading_level": 4,
+    "tags": [
+      "Invoice",
+      "Recurring invoices"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sending Invoices",
+    "permalink": "/docs/core-features/invoicing/sending-invoices"
+  },
+  "next": {
+    "title": "Managing Recurring Invoices",
+    "permalink": "/docs/core-features/invoicing/recurring/recurring-invoice-management"
+  }
+}

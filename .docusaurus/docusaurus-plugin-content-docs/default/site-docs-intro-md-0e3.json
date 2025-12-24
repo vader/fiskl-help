@@ -19,12 +19,8 @@
     "description": "The official guide to Fiskl's automated accounting platform. Learn how to manage invoices, quotes, and finances."
   },
   "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Invoice Basics",
-    "permalink": "/docs/getting-started/invoicing"
-  },
   "next": {
-    "title": "Invoicing & Quotes",
-    "permalink": "/docs/category/invoicing--quotes"
+    "title": "Getting Started",
+    "permalink": "/docs/category/getting-started"
   }
 }

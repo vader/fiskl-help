@@ -3,41 +3,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '5ff'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
-    exact: true
-  },
-  {
     path: '/blog',
     component: ComponentCreator('/blog', 'b2f'),
     exact: true
@@ -119,11 +84,11 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'fb3'),
+    component: ComponentCreator('/docs', '56f'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '57a'),
+        component: ComponentCreator('/docs', '0cc'),
         routes: [
           {
             path: '/docs/tags',
@@ -146,13 +111,28 @@ export default [
             exact: true
           },
           {
+            path: '/docs/tags/accounting-settings',
+            component: ComponentCreator('/docs/tags/accounting-settings', '5b2'),
+            exact: true
+          },
+          {
             path: '/docs/tags/accounts-payable',
             component: ComponentCreator('/docs/tags/accounts-payable', 'b41'),
             exact: true
           },
           {
+            path: '/docs/tags/ai',
+            component: ComponentCreator('/docs/tags/ai', 'bd3'),
+            exact: true
+          },
+          {
             path: '/docs/tags/automation',
             component: ComponentCreator('/docs/tags/automation', '81d'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/bank',
+            component: ComponentCreator('/docs/tags/bank', '973'),
             exact: true
           },
           {
@@ -171,6 +151,11 @@ export default [
             exact: true
           },
           {
+            path: '/docs/tags/brands',
+            component: ComponentCreator('/docs/tags/brands', 'b71'),
+            exact: true
+          },
+          {
             path: '/docs/tags/chart-of-accounts',
             component: ComponentCreator('/docs/tags/chart-of-accounts', '21c'),
             exact: true
@@ -178,6 +163,21 @@ export default [
           {
             path: '/docs/tags/client',
             component: ComponentCreator('/docs/tags/client', '073'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/client-management',
+            component: ComponentCreator('/docs/tags/client-management', '211'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/company-settings',
+            component: ComponentCreator('/docs/tags/company-settings', '25b'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/currency-management',
+            component: ComponentCreator('/docs/tags/currency-management', '5b3'),
             exact: true
           },
           {
@@ -191,8 +191,23 @@ export default [
             exact: true
           },
           {
+            path: '/docs/tags/email',
+            component: ComponentCreator('/docs/tags/email', '031'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/expense',
+            component: ComponentCreator('/docs/tags/expense', 'de9'),
+            exact: true
+          },
+          {
             path: '/docs/tags/faq',
             component: ComponentCreator('/docs/tags/faq', '177'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/fi',
+            component: ComponentCreator('/docs/tags/fi', '10d'),
             exact: true
           },
           {
@@ -203,6 +218,11 @@ export default [
           {
             path: '/docs/tags/foreign-exchange',
             component: ComponentCreator('/docs/tags/foreign-exchange', '5bd'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/getting-started',
+            component: ComponentCreator('/docs/tags/getting-started', 'eda'),
             exact: true
           },
           {
@@ -226,8 +246,18 @@ export default [
             exact: true
           },
           {
+            path: '/docs/tags/invoice-and-quote-settings',
+            component: ComponentCreator('/docs/tags/invoice-and-quote-settings', '2db'),
+            exact: true
+          },
+          {
             path: '/docs/tags/invoice-payment',
             component: ComponentCreator('/docs/tags/invoice-payment', 'b75'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/invoicing',
+            component: ComponentCreator('/docs/tags/invoicing', '102'),
             exact: true
           },
           {
@@ -246,6 +276,11 @@ export default [
             exact: true
           },
           {
+            path: '/docs/tags/multilingual',
+            component: ComponentCreator('/docs/tags/multilingual', '243'),
+            exact: true
+          },
+          {
             path: '/docs/tags/pay-pal',
             component: ComponentCreator('/docs/tags/pay-pal', 'fbe'),
             exact: true
@@ -256,6 +291,11 @@ export default [
             exact: true
           },
           {
+            path: '/docs/tags/profile',
+            component: ComponentCreator('/docs/tags/profile', '1d2'),
+            exact: true
+          },
+          {
             path: '/docs/tags/quote',
             component: ComponentCreator('/docs/tags/quote', '16c'),
             exact: true
@@ -263,6 +303,16 @@ export default [
           {
             path: '/docs/tags/reconciliation',
             component: ComponentCreator('/docs/tags/reconciliation', 'e32'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/recurring-invoices',
+            component: ComponentCreator('/docs/tags/recurring-invoices', '45a'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/reminders',
+            component: ComponentCreator('/docs/tags/reminders', 'ae8'),
             exact: true
           },
           {
@@ -286,8 +336,23 @@ export default [
             exact: true
           },
           {
+            path: '/docs/tags/settings',
+            component: ComponentCreator('/docs/tags/settings', 'ada'),
+            exact: true
+          },
+          {
             path: '/docs/tags/stripe',
             component: ComponentCreator('/docs/tags/stripe', '16b'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/tax-settings',
+            component: ComponentCreator('/docs/tags/tax-settings', '2d9'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/templates',
+            component: ComponentCreator('/docs/tags/templates', 'a71'),
             exact: true
           },
           {
@@ -316,6 +381,16 @@ export default [
             exact: true
           },
           {
+            path: '/docs/tags/user-settings',
+            component: ComponentCreator('/docs/tags/user-settings', 'b0d'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/vendor',
+            component: ComponentCreator('/docs/tags/vendor', '78f'),
+            exact: true
+          },
+          {
             path: '/docs/tags/wio',
             component: ComponentCreator('/docs/tags/wio', '6ad'),
             exact: true
@@ -327,7 +402,7 @@ export default [
           },
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '3c0'),
+            component: ComponentCreator('/docs', 'f68'),
             routes: [
               {
                 path: '/docs/accounting/journal-entries/multi-journal-entries',
@@ -350,6 +425,24 @@ export default [
               {
                 path: '/docs/accounting/reimbursement-guide',
                 component: ComponentCreator('/docs/accounting/reimbursement-guide', 'f43'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/ai/fi',
+                component: ComponentCreator('/docs/ai/fi', '9b9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/accounting',
+                component: ComponentCreator('/docs/category/accounting', '759'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/faqs',
+                component: ComponentCreator('/docs/category/faqs', '418'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -390,26 +483,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/tutorial---basics',
-                component: ComponentCreator('/docs/category/tutorial---basics', '20e'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/category/tutorial---extras',
-                component: ComponentCreator('/docs/category/tutorial---extras', '9ad'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/clients-vendors/managing-clients',
-                component: ComponentCreator('/docs/clients-vendors/managing-clients', 'ea9'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/clients-vendors/managing-vendors',
-                component: ComponentCreator('/docs/clients-vendors/managing-vendors', 'fe2'),
+                path: '/docs/category/settings',
+                component: ComponentCreator('/docs/category/settings', 'afc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -516,14 +591,44 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/core-features/accounting/reports/statement-of-accounts',
+                component: ComponentCreator('/docs/core-features/accounting/reports/statement-of-accounts', 'dce'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/core-features/accounting/reports/trial-balance',
                 component: ComponentCreator('/docs/core-features/accounting/reports/trial-balance', 'abe'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/core-features/clients',
+                component: ComponentCreator('/docs/core-features/clients', 'bd7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/core-features/invoicing/invoice-management',
                 component: ComponentCreator('/docs/core-features/invoicing/invoice-management', 'bae'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/core-features/invoicing/recurring/creating-recurring-invoices',
+                component: ComponentCreator('/docs/core-features/invoicing/recurring/creating-recurring-invoices', '0c2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/core-features/invoicing/recurring/recurring-invoice-management',
+                component: ComponentCreator('/docs/core-features/invoicing/recurring/recurring-invoice-management', 'a5e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/core-features/invoicing/sending-invoices',
+                component: ComponentCreator('/docs/core-features/invoicing/sending-invoices', '64d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -536,6 +641,12 @@ export default [
               {
                 path: '/docs/core-features/quotes/quote-management',
                 component: ComponentCreator('/docs/core-features/quotes/quote-management', '1a4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/core-features/vendors',
+                component: ComponentCreator('/docs/core-features/vendors', '5a8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -558,20 +669,14 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/getting-started/invoicing',
+                component: ComponentCreator('/docs/getting-started/invoicing', '9ca'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/getting-started/overview',
                 component: ComponentCreator('/docs/getting-started/overview', '3b4'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/getting-started/with-banking',
-                component: ComponentCreator('/docs/getting-started/with-banking', 'ca9'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/getting-started/with-invoicing',
-                component: ComponentCreator('/docs/getting-started/with-invoicing', '222'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -684,18 +789,6 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/invoicing/recurring-invoices',
-                component: ComponentCreator('/docs/invoicing/recurring-invoices', 'ca1'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/invoicing/sending-invoices',
-                component: ComponentCreator('/docs/invoicing/sending-invoices', 'dce'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
                 path: '/docs/line-items/expenses',
                 component: ComponentCreator('/docs/line-items/expenses', '7b1'),
                 exact: true,
@@ -762,8 +855,32 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/settings/accounting-settings',
+                component: ComponentCreator('/docs/settings/accounting-settings', '9f6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/settings/company-settings',
                 component: ComponentCreator('/docs/settings/company-settings', 'a3d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/settings/currency-management',
+                component: ComponentCreator('/docs/settings/currency-management', '561'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/settings/invoice-quote-settings',
+                component: ComponentCreator('/docs/settings/invoice-quote-settings', '1e9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/settings/profile-settings',
+                component: ComponentCreator('/docs/settings/profile-settings', '0c3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -780,56 +897,14 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/settings/template-brand-settings',
+                component: ComponentCreator('/docs/settings/template-brand-settings', '8d1'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/settings/user-management',
                 component: ComponentCreator('/docs/settings/user-management', 'f68'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-basics/congratulations',
-                component: ComponentCreator('/docs/tutorial-basics/congratulations', '458'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-basics/create-a-blog-post',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-blog-post', '108'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-basics/create-a-document',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-document', '8fc'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-basics/create-a-page',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-page', '951'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-basics/deploy-your-site',
-                component: ComponentCreator('/docs/tutorial-basics/deploy-your-site', '4f5'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-basics/markdown-features',
-                component: ComponentCreator('/docs/tutorial-basics/markdown-features', 'b05'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-extras/manage-docs-versions',
-                component: ComponentCreator('/docs/tutorial-extras/manage-docs-versions', '978'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-extras/translate-your-site',
-                component: ComponentCreator('/docs/tutorial-extras/translate-your-site', 'f9a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

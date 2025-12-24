@@ -53,7 +53,7 @@
     "permalink": "/docs/reporting/cash-flow"
   },
   "next": {
-    "title": "Client Aging Report",
-    "permalink": "/docs/reporting/client-aging"
+    "title": "Statement of Accounts",
+    "permalink": "/docs/core-features/accounting/reports/statement-of-accounts"
   }
 }

@@ -1,7 +1,7 @@
-# FISKL Documentation Standards DSL v1.0
+# FISKL Documentation Standards DSL v2.0
 
 ## Overview
-This DSL defines documentation patterns for Fiskl's Docusaurus-based help center.
+This DSL defines documentation patterns for Fiskl's Docusaurus-based help center, optimized for human readers and AI ingestion.
 
 ---
 
@@ -9,10 +9,11 @@ This DSL defines documentation patterns for Fiskl's Docusaurus-based help center
 
 Every documentation page must have:
 1. Frontmatter with metadata
-2. Opening summary (1-2 sentences)
-3. Clear H2/H3 hierarchy
+2. Opening summary (1-2 sentences explaining what and why)
+3. Clear H2/H3 hierarchy (never use H1 in content)
 4. Proper formatting for UI elements
 5. SEO optimization
+6. Consistent voice, tense, and terminology
 
 <###############DOCUMENTATION_STRUCTURE##################
 
@@ -37,93 +38,726 @@ RULES:
 
 <###############FRONTMATTER_PATTERN##################
 
-###############TONE_AND_VOICE##################>
+###############VOICE_AND_TENSE_RULES##################>
 
-Writing style:
-- Tone: Professional, helpful, and concise
-- Perspective: Second person ("You can," "Your account")
-- Voice: Active voice ("Click Save" not "Save should be clicked")
-- Clarity: Avoid jargon unless defined in glossary
-- Length: Prefer shorter sentences and paragraphs
+## The Fiskl Voice
 
-Examples:
-✅ "To create an invoice, click the **New Invoice** button."
-❌ "An invoice can be created by clicking on the new invoice button."
+Fiskl documentation is:
+- **Professional but approachable** - Experts helping colleagues, not robots instructing users
+- **Clear and direct** - No unnecessary words or corporate jargon
+- **Action-oriented** - Focus on what users can accomplish
+- **Confident but humble** - We know our product, but acknowledge complexity
 
-✅ "Your dashboard shows key metrics."
-❌ "The dashboard displays various metrics for the user."
+## Tense Rules
 
-<###############TONE_AND_VOICE##################
+**Present Tense** - For current features and capabilities:
+✅ "Fiskl calculates exchange rates automatically"
+✅ "The dashboard displays your key metrics"
+❌ "Fiskl will calculate exchange rates"
+❌ "The dashboard will display metrics"
+
+**Future Tense** - Only for post-action outcomes:
+✅ "After you save, the invoice will appear in your list"
+✅ "The system will send a confirmation email"
+
+**Imperative** - For instructions (most common):
+✅ "Select **New Invoice**"
+✅ "Enter your client details"
+
+## Voice Rules
+
+**Active Voice** - Always preferred:
+✅ "Fiskl imports your transactions"
+❌ "Your transactions are imported by Fiskl"
+
+✅ "Select the **Save** button"
+❌ "The Save button should be selected"
+
+**No Anthropomorphization** - Avoid attributing human thinking to the system:
+✅ "The system calculates totals"
+✅ "Fiskl processes your data"
+❌ "Fiskl knows your preferences"
+❌ "The system thinks about your input"
+❌ "Fiskl understands your needs"
+
+## Perspective Rules
+
+**Second Person** - Always address the user as "you":
+✅ "You can create multiple invoices"
+✅ "Your dashboard shows key metrics"
+❌ "Users can create invoices"
+❌ "The user's dashboard shows metrics"
+
+<###############VOICE_AND_TENSE_RULES##################
+
+###############NAVIGATION_LANGUAGE_STANDARDS########>
+
+## UI Interaction Verbs
+
+**ALWAYS use "Select" for UI interactions:**
+
+✅ Select **New Invoice**
+✅ Select the **Save** button
+✅ Select **File** > **Export**
+✅ Select the checkbox to enable notifications
+
+**NEVER use:**
+❌ Click (too informal, platform-specific)
+❌ Press (reserved for keyboard only)
+❌ Choose (ambiguous)
+❌ Tap (mobile-specific, we're cross-platform)
+❌ Hit (informal)
+❌ Push (informal)
+
+## Exceptions to "Select"
+
+**Enter** - For typing text:
+✅ "Enter your client name"
+✅ "Enter the invoice amount"
+
+**Upload** - For files:
+✅ "Upload your company logo"
+✅ "Upload the receipt image"
+
+**Drag** - For drag-and-drop:
+✅ "Drag the file to the upload area"
+
+**Toggle** - For switches:
+✅ "Toggle the **Multi-currency** option on"
+
+**Press** - For keyboard keys only:
+✅ "Press `Ctrl+S` to save"
+✅ "Press `Enter` to confirm"
+
+## Menu Navigation Format
+
+**Single Menu:**
+✅ "Go to **Settings**"
+✅ "Open the **Dashboard**"
+
+**Nested Menus:**
+✅ "Go to **Settings** > **Preferences**"
+✅ "Select **File** > **Export** > **PDF**"
+
+**Sidebar Navigation:**
+✅ "In the left sidebar, select **Invoices**"
+
+<###############NAVIGATION_LANGUAGE_STANDARDS########>
+
+###############SENTENCE_STRUCTURE_RULES############>
+
+## Sentence Length Standards
+
+**Target:** 15-20 words per sentence (average)
+**Maximum:** 25 words (break longer sentences into two)
+**Minimum:** 5 words (avoid fragments)
+
+**One idea per sentence** - Don't combine multiple concepts
+
+❌ "When you create an invoice, the system automatically calculates taxes based on your settings, which you can modify in the preferences section if needed."
+✅ "When you create an invoice, the system automatically calculates taxes. You can modify tax settings in the **Preferences** section."
+
+## Sentence Structure Patterns
+
+**Lead with the action** - Put the most important information first:
+✅ "Select **New Invoice** to begin"
+❌ "To begin creating a new invoice, select the New Invoice button"
+
+**Use parallel structure** - Keep consistent patterns in lists:
+✅ "Create invoices, track expenses, and manage clients"
+❌ "Create invoices, expense tracking, and client management"
+
+**Avoid nested clauses** - Keep it simple:
+✅ "Save your changes. Then test the integration."
+❌ "After saving your changes, which you should do before proceeding, test the integration."
+
+## Common Sentence Simplifications
+
+| Instead of | Use |
+|------------|-----|
+| "In order to..." | "To..." |
+| "It is important to note that..." | "Note:" or just state it |
+| "You may find it beneficial to..." | "We recommend..." |
+| "At this point in time..." | "Now..." |
+| "Due to the fact that..." | "Because..." |
+| "In the event that..." | "If..." |
+| "For the purpose of..." | "To..." |
+
+<###############SENTENCE_STRUCTURE_RULES############>
+
+###############PARAGRAPH_STRUCTURE_RULES##########>
+
+## Paragraph Length Standards
+
+**Target:** 3-5 sentences per paragraph
+**Maximum:** 6 sentences
+**Minimum:** 2 sentences (avoid single-sentence paragraphs in body text)
+
+## Paragraph Structure Pattern
+
+1. **Topic sentence** - State the main idea
+2. **Supporting sentences** - Explain or provide details (1-3 sentences)
+3. **Transition or summary** - Connect to next paragraph (optional)
+
+**Example:**
+```markdown
+Fiskl's multi-currency support handles complex transactions automatically. The system converts amounts to your base currency using current exchange rates. You can also adjust rates manually when needed.
+
+After you save a multi-currency transaction, Fiskl creates the appropriate ledger entries. These entries reflect both the original currency and the converted amount.
+```
+
+## Paragraph Flow
+
+**Use transition words sparingly:**
+- After, Before, Next (for sequences)
+- However, Although (for contrasts)
+- Additionally, Also (for additions)
+
+**Avoid overuse of transitions:**
+❌ "Additionally, moreover, furthermore..."
+✅ Just state the next point clearly
+
+**Break up long paragraphs:**
+❌ 8+ sentence wall of text
+✅ Split into 2-3 shorter paragraphs with clear topics
+
+<###############PARAGRAPH_STRUCTURE_RULES##########>
+
+###############TERMINOLOGY_CONSISTENCY############>
+
+## Official Fiskl Terminology
+
+Use these terms consistently throughout all documentation:
+
+| Correct Term | Avoid | Context |
+|--------------|-------|---------|
+| Dashboard | Home page, Main screen, Landing page | The page users see after login |
+| Client | Customer | Unless specifically B2C context |
+| Vendor | Supplier | For businesses you pay |
+| Ledger account | Account (alone) | "Account" is ambiguous (could mean user account) |
+| Chart of Accounts | COA, Account chart, GL | Write out first use, can use COA after |
+| Multi-currency | Multi currency, Multicurrency | Always hyphenated |
+| Line item | Item, Line, Row | In invoice/expense context |
+| Base currency | Home currency, Default currency, Primary currency | The main currency for the business |
+| Banking | Bank accounts, Banks | Our feature name |
+| Multi-journal entry | Multi journal, Complex entry | Always "Multi-journal" with hyphen |
+| Payout | Pay-out, Pay out | One word, no hyphen |
+| Email | E-mail | No hyphen |
+| Setup (noun) | Set-up, Set up | "Complete the setup" |
+| Set up (verb) | Setup | "Set up your account" |
+| Dropdown | Drop-down, Drop down | One word |
+| Checkbox | Check box, Check-box | One word |
+
+## Feature Name Capitalization
+
+**Capitalize Fiskl feature names:**
+- Fiskl Banking
+- Multi-journal entries (lowercase unless starting sentence)
+- Chart of Accounts
+- Dashboard
+
+**Don't capitalize generic terms:**
+- invoices
+- expenses
+- clients
+- reports
+
+## Number Formatting
+
+**Numbers 1-9:** Spell out in prose
+✅ "You can create three types of reports"
+❌ "You can create 3 types of reports"
+
+**Numbers 10+:** Use numerals
+✅ "The system supports 150 currencies"
+
+**Exception:** Always use numerals in:
+- Steps: "Step 1", "Step 2"
+- UI references: "Page 5", "Column 3"
+- Technical values: "5 MB", "3 seconds"
+
+## Currency References
+
+**Format:**
+✅ "$100" or "100 USD"
+✅ "€50" or "50 EUR"
+
+**In examples, use:**
+- USD for dollar amounts
+- EUR for euro amounts
+- GBP for pound amounts
+
+**In prose:**
+✅ "Enter the amount in your base currency"
+❌ "Enter the amount in dollars"
+
+<###############TERMINOLOGY_CONSISTENCY############>
+
+###############TONE_AND_LANGUAGE_PATTERNS########>
+
+## Approved Phrases
+
+| Situation | Use This | Not This |
+|-----------|----------|----------|
+| Starting instructions | To [action]: | In order to [action]: |
+| Prerequisites | Before you begin: | Prerequisites:, Required: |
+| Navigation | Go to **Menu** > **Item** | Navigate to, Find the |
+| Results | After saving, the invoice appears | Once you save, you will see the invoice |
+| Warnings | Don't delete without backup | Please be careful not to delete |
+| Tips | We recommend... | It's best to..., You may want to... |
+| Completion | You're done! | The process is complete |
+| Alternative methods | Alternatively, you can... | Another option is..., You can also... |
+| Permissions | You need [permission] to... | You must have [permission] |
+
+## Language to Avoid
+
+**Corporate jargon:**
+❌ "Leverage the functionality"
+✅ "Use the feature"
+
+❌ "Utilize the interface"
+✅ "Use the interface"
+
+❌ "At this point in time"
+✅ "Now"
+
+**Unnecessary modifiers:**
+❌ "Simply click..."
+❌ "Just enter..."
+❌ "Easily configure..."
+✅ State the action directly
+
+**Apologies in instructions:**
+❌ "Unfortunately, you need to..."
+✅ State what's needed
+
+**Assumptions about difficulty:**
+❌ "This is easy to do"
+❌ "This can be tricky"
+✅ Provide clear instructions
+
+<###############TONE_AND_LANGUAGE_PATTERNS########>
+
+###############CALLOUT_USAGE_RULES##############>
+
+## Admonition Types and Usage
+
+**Maximum callouts per page: 2-3**
+
+### :::info - For helpful context
+
+**Use for:**
+- Non-critical helpful information
+- Additional context or background
+- Feature limitations (non-critical)
+- Related feature mentions
+
+**Example:**
+```markdown
+:::info
+The initial sync may take several minutes depending on your transaction history.
+:::
+```
+
+### :::tip - For best practices
+
+**Use for:**
+- Time-saving tricks
+- Recommended workflows
+- Pro tips
+- Keyboard shortcuts
+- Performance optimizations
+
+**Maximum: 1 per section**
+
+**Example:**
+```markdown
+:::tip
+Use templates to save time when creating similar invoices.
+:::
+```
+
+### :::warning - For important cautions
+
+**Use for:**
+- Irreversible actions
+- Data loss risks
+- Security considerations
+- Actions requiring backups
+
+**Example:**
+```markdown
+:::warning
+Deleting a client removes all associated invoices. This action cannot be undone.
+:::
+```
+
+### :::caution - Use sparingly
+
+**Use for:**
+- Potential issues that aren't warnings
+- Known bugs or limitations
+- Beta features
+- Version-specific notes
+
+**Example:**
+```markdown
+:::caution
+This feature is in beta. Some functionality may change.
+:::
+```
+
+## Callout Anti-Patterns
+
+❌ **Too many callouts:**
+```markdown
+:::info
+Some info
+:::
+
+:::tip
+A tip
+:::
+
+:::warning
+A warning
+:::
+
+:::info
+More info
+:::
+```
+
+✅ **Appropriate callout use:**
+```markdown
+[Regular content explaining the feature]
+
+:::tip
+Save time by using keyboard shortcuts: `Ctrl+S` to save.
+:::
+
+[More regular content]
+
+:::warning
+Don't delete your account without exporting data first.
+:::
+```
+
+<###############CALLOUT_USAGE_RULES##############>
 
 ###############MARKDOWN_PATTERNS##################>
 
-Heading hierarchy:
-- H1 (#): Reserved for page title (from frontmatter) - DO NOT use in content
-- H2 (##): Main feature sections or major steps
-- H3 (###): Specific steps, sub-concepts, or details
-- H4 (####): Rare - only for deep nested content
+## Heading Hierarchy
 
-UI element formatting:
-- **Bold** for buttons, menu items, field names, tabs
-  Examples: **Save**, **Settings** menu, **Email** field
-- `Code` for technical values, IDs, API endpoints
-  Examples: `invoice_001`, `/api/invoices`
-- "Quotes" for exact text user should enter
-  Examples: Enter "monthly" in the description
+**H1 (#):** NEVER use in content - Reserved for page title (from frontmatter)
 
-Lists:
-- Numbered lists for sequential steps
-- Bullet points for non-sequential items or features
-- Keep list items parallel in structure
+**H2 (##):** Main sections
+- Feature overviews
+- Major process steps
+- Primary categories
 
-Code blocks:
-```json
-{
-  "example": "Use triple backticks with language"
-}
+**H3 (###):** Subsections
+- Specific procedures
+- Feature details
+- Sub-concepts
+
+**H4 (####):** Rare - only for deeply nested content
+- Use sparingly
+- Consider if content needs reorganization instead
+
+**Example:**
+```markdown
+## Creating Invoices
+
+### Setting Up Invoice Templates
+
+#### Template Fields (only if absolutely necessary)
 ```
 
-<###############MARKDOWN_PATTERNS##################
+## UI Element Formatting
+
+**Bold** for interactive elements:
+- Buttons: **Save**, **Cancel**, **Submit**
+- Menu items: **File** > **Export**
+- Field labels: **Client Name**, **Invoice Amount**
+- Tabs: **General**, **Advanced**
+- Toggles: **Enable notifications**
+
+**Code** for technical values:
+- IDs: `invoice_001`
+- API endpoints: `/api/v1/invoices`
+- Status codes: `200 OK`
+- File names: `config.json`
+- Commands: `npm install`
+
+**Quotes** for exact text to enter:
+- User input: Enter "monthly subscription" in the description
+- Search terms: Search for "tax rates"
+
+## List Formatting
+
+**Numbered lists** - For sequential steps or ranked items:
+```markdown
+1. Select **New Invoice**
+2. Enter client details
+3. Add line items
+4. Select **Save**
+```
+
+**Bullet lists** - For non-sequential items or features:
+```markdown
+- Create invoices
+- Track expenses
+- Manage clients
+- Generate reports
+```
+
+**Keep list items parallel:**
+✅ All start with verbs: "Create, Track, Manage"
+✅ All start with nouns: "Invoices, Expenses, Clients"
+❌ Mixed: "Create invoices, Expense tracking, Clients"
+
+## Code Blocks
+
+Always specify language for syntax highlighting:
+
+```markdown
+```json
+{
+  "example": "value"
+}
+```
+```
+
+For terminal commands:
+```markdown
+```bash
+npm run dev
+```
+```
+
+## Links
+
+**Internal links** - Use relative paths:
+```markdown
+Learn more about [invoices](/docs/invoicing/overview)
+```
+
+**External links** - Use full URLs:
+```markdown
+Visit [our website](https://fiskl.com)
+```
+
+**Descriptive anchor text:**
+✅ "Learn about [tax calculations](/docs/tax)"
+✅ "See the [API documentation](/docs/api)"
+❌ "Click [here](/docs/tax) for tax info"
+❌ "[This page](/docs/api) has more details"
+
+<###############MARKDOWN_PATTERNS##################>
+
+###############IMAGE_GUIDELINES##################>
+
+## Image File Structure
+
+```
+static/
+└── img/
+    ├── accounting/
+    ├── invoicing/
+    ├── expenses/
+    ├── banking/
+    └── reports/
+```
+
+## Image Usage
+
+**Always include descriptive alt text:**
+
+✅ Good alt text (describes what user will see):
+```markdown
+![Balance Sheet showing Assets, Liabilities, and Equity sections with current year figures](/img/accounting/balance-sheet-sample.png)
+```
+
+❌ Poor alt text (just labels):
+```markdown
+![Balance Sheet](/img/accounting/balance-sheet-sample.png)
+```
+
+## Alt Text Rules
+
+**Be specific and descriptive:**
+- Describe what the user will see
+- Include key UI elements visible
+- Mention important data or states shown
+- Note any highlighting or annotations
+
+**Examples:**
+
+For screenshots:
+```markdown
+![Invoice creation form with client selector, line items table, and Save button highlighted](/img/invoicing/create-invoice.png)
+```
+
+For diagrams:
+```markdown
+![Data flow diagram showing transaction import from bank to Fiskl ledger accounts](/img/banking/sync-flow.png)
+```
+
+For UI states:
+```markdown
+![Dashboard showing warning icon next to disconnected bank account](/img/banking/connection-error.png)
+```
+
+## Image Best Practices
+
+**File naming:**
+- Use descriptive names: `balance-sheet-sample.png`
+- Use kebab-case: `invoice-form-fields.png`
+- Not: `Screen Shot 2025-01-15.png`
+
+**Image optimization:**
+- PNG for UI screenshots (clearer text)
+- JPG for photos
+- Max width: 1200px
+- Compress before uploading
+
+**Annotations:**
+- Use red boxes or arrows to highlight
+- Keep annotations minimal
+- Ensure text is readable
+
+**Placement:**
+- Place images after the text that references them
+- Don't break up sequential steps with large images
+- Group related images together
+
+<###############IMAGE_GUIDELINES##################>
 
 ###############CONTENT_STRUCTURE_PATTERNS##########>
 
-Standard page structure:
+## Standard Page Structure
 
 ```markdown
 ---
 [frontmatter]
 ---
 
-[1-2 sentence summary of what and why]
+[Opening summary: 1-2 sentences explaining what and why]
 
-## Main Concept or Feature
+## Main Feature or Concept
 
-[Brief introduction paragraph]
+[Brief introduction: 2-3 sentences]
 
 ### How to [Do Something]
 
-1. First step with **UI elements** bolded
-2. Second step
-3. Third step
+Before you begin:
+- Prerequisite one
+- Prerequisite two
 
-### Related Features
+**Steps:**
 
-- Feature one
-- Feature two
+1. **First action**
+   
+   Brief explanation if needed.
 
-:::info[Quick Tip]
-Use info blocks for helpful tips or context
-:::
+2. **Second action**
+   
+   Brief explanation if needed.
+   
+   :::tip
+   Helpful tip related to this step
+   :::
 
-:::warning[Important]
-Use warning blocks for irreversible actions
-:::
+3. **Third action**
 
-## Frequently Asked Questions
+### What Happens Next
+
+[Explain the outcome in 2-3 sentences]
+
+### Common Issues
 
 <details>
-  <summary>Question goes here?</summary>
-  Answer goes here with proper formatting.
+  <summary>Issue description</summary>
+  
+  Solution explanation with steps if needed.
+</details>
+
+## Related Features
+
+- [Feature one](/docs/path)
+- [Feature two](/docs/path)
+```
+
+## Opening Summary Pattern
+
+Every page must start with a clear 1-2 sentence summary:
+
+**Formula:**
+"This guide explains [what] and helps you [accomplish what goal]."
+
+**Examples:**
+
+✅ "This guide explains how to create invoices in Fiskl and helps you bill your clients professionally."
+
+✅ "Multi-journal entries let you record complex transactions across multiple accounts and currencies in a single entry."
+
+✅ "This guide shows you how to connect your bank account to Fiskl for automatic transaction imports."
+
+❌ "In this document, we will cover the topic of invoicing."
+
+❌ "Welcome to the invoicing guide."
+
+## Process Documentation Pattern
+
+For step-by-step guides:
+
+```markdown
+## How to [Action]
+
+[1-2 sentence introduction explaining what user will accomplish]
+
+### Before You Begin
+
+Ensure you have:
+- Prerequisite one
+- Prerequisite two
+
+### Steps
+
+1. **Open the feature**
+   
+   Go to **Menu** > **Submenu** and select **Feature**.
+
+2. **Configure settings**
+   
+   Complete these fields:
+   - **Field One**: Description
+   - **Field Two**: Description
+
+3. **Save your changes**
+   
+   Select **Save** to apply the settings.
+
+### What Happens Next
+
+[Describe the outcome in 2-3 sentences]
+
+- The system does X
+- You receive Y
+- Z is updated automatically
+
+### Troubleshooting
+
+<details>
+  <summary>Error: [Error message]</summary>
+  
+  **Solution:**
+  1. Check [thing one]
+  2. Verify [thing two]
+  3. Try [action]
+  
+  If the issue persists, [contact support/check logs/etc].
 </details>
 ```
 
@@ -131,333 +765,346 @@ Use warning blocks for irreversible actions
 
 ###############RAG_OPTIMIZATION_RULES###########>
 
-For AI/search optimization:
+## For AI and Search Optimization
 
-1. **Context Injection**: Start every page with "This guide explains [what] and helps you [why]"
+### 1. Context Injection
 
-2. **Semantic Linking**: Link to related concepts using relative paths
-   ```markdown
-   Learn more about [invoices](/docs/invoicing/overview)
-   ```
+**Start every page with "This guide explains..."**
 
-3. **Descriptive Anchors**: Use meaningful link text
-   ✅ "Learn about [tax calculations](/docs/tax)"
-   ❌ "Click [here](/docs/tax) for tax info"
+This provides immediate context for AI systems:
+- What the page is about
+- Who it's for
+- What problem it solves
 
-4. **Keyword Distribution**: Use main keywords naturally in:
-    - First paragraph
-    - H2 headings
-    - First sentence of sections
-    - Alt text for images
+### 2. Semantic Hierarchy
 
-5. **Structured Data**: Use consistent patterns for similar content types
+**Use clear H2/H3 structure:**
+- Main topics at H2 level
+- Subtopics at H3 level
+- Never skip heading levels
 
-<###############RAG_OPTIMIZATION_RULES###########
+This helps AI understand relationships between topics.
 
-###############COMPONENT_USAGE##################>
+### 3. Descriptive Link Text
 
-Docusaurus components to use:
+**Use meaningful anchor text:**
 
-**Info Admonitions:**
+✅ "Learn about [tax calculations](/docs/tax)"
+✅ "See [how to create invoices](/docs/invoicing/create)"
+
+❌ "Click [here](/docs/tax)"
+❌ "[This](/docs/invoicing/create) shows you how"
+
+### 4. Keyword Distribution
+
+**Place keywords naturally in:**
+- First paragraph (opening summary)
+- H2 headings
+- First sentence of each section
+- Image alt text
+- Link anchor text
+
+**Don't keyword stuff:**
+❌ "Invoicing invoices invoice creation invoice system invoicing tool"
+✅ "Create professional invoices quickly"
+
+### 5. Structured Data Patterns
+
+**Use consistent patterns for similar content:**
+
+All "How to" guides follow same structure:
+1. Opening summary
+2. Prerequisites
+3. Numbered steps
+4. Outcomes
+5. Troubleshooting
+
+This helps AI learn patterns and provide better answers.
+
+### 6. Cross-Referencing
+
+**Link to related concepts:**
+
+At the end of pages, include:
 ```markdown
-:::info[Note Title]
-Use for helpful tips, context, or additional information
-:::
+## Related Topics
+
+- [Topic One](/docs/path) - Brief description
+- [Topic Two](/docs/path) - Brief description
 ```
 
-**Warning Admonitions:**
-```markdown
-:::warning[Caution]
-Use for irreversible actions like deleting data
-:::
-```
-
-**Tip Admonitions:**
-```markdown
-:::tip[Pro Tip]
-Use for best practices or time-saving tricks
-:::
-```
-
-**Collapsible Details:**
-```markdown
-<details>
-  <summary>Click to expand</summary>
-  
-  Hidden content goes here. Good for:
-  - Long examples
-  - Advanced options
-  - Troubleshooting steps
-</details>
-```
-
-**Video Embeds:**
-```markdown
-<iframe 
-  width="100%" 
-  height="400" 
-  src="https://demo.fiskl.com/video.mp4"
-  title="Demo Video"
-  frameborder="0"
-  allowfullscreen
-></iframe>
-```
-
-**Images:**
-```markdown
-![Alt text describing image](/img/screenshot.png)
-```
-
-RULES:
-- Use admonitions sparingly (max 2-3 per page)
-- Collapse long content to keep pages scannable
-- Always provide alt text for images
-- Videos should supplement, not replace, written instructions
-
-<###############COMPONENT_USAGE##################
-
-###############PROCESS_DOCUMENTATION_PATTERN####>
-
-For step-by-step guides:
-
-```markdown
-## How to [Action]
-
-Before you begin:
-- Prerequisite one
-- Prerequisite two
-
-### Steps
-
-1. **Open the dashboard**
-   
-   Navigate to your main dashboard by clicking **Dashboard** in the sidebar.
-
-2. **Click the action button**
-   
-   In the top-right corner, click **New [Item]**.
-   
-   :::tip
-   You can also use the keyboard shortcut `Ctrl+N`
-   :::
-
-3. **Fill in the details**
-   
-   Complete the following fields:
-   - **Name**: Enter a descriptive name
-   - **Date**: Select the date from the calendar
-   - **Amount**: Enter the amount in your currency
-
-4. **Save your work**
-   
-   Click **Save** to create the item.
-
-### What happens next
-
-After saving:
-- The item appears in your list
-- You receive a confirmation email
-- The system updates related records
-
-### Troubleshooting
-
-<details>
-  <summary>Error: Item not saving</summary>
-  
-  If you see this error:
-  1. Check all required fields are filled
-  2. Verify your internet connection
-  3. Try refreshing the page
-</details>
-```
-
-<###############PROCESS_DOCUMENTATION_PATTERN####>
-
-###############TRANSLATION_GUIDELINES##########>
-
-When translating content:
-
-1. **Maintain structure**: Keep all headings, formatting, components
-2. **Translate naturally**: Don't do word-for-word translation
-3. **Keep UI elements**: Button names should match the UI locale
-4. **Preserve code**: Don't translate code blocks or technical terms
-5. **Adapt examples**: Use culturally appropriate examples when needed
-
-Example frontmatter for Spanish:
-```markdown
----
-title: "Crear una factura"
-description: "Aprenda cómo crear y enviar facturas profesionales en Fiskl"
-keywords: ["factura", "crear factura", "facturación"]
-sidebar_position: 1
----
-```
-
-<###############TRANSLATION_GUIDELINES##########>
+<###############RAG_OPTIMIZATION_RULES###########>
 
 ###############QUALITY_CHECKLIST###############>
 
-Before finalizing any documentation:
+## Pre-Publish Checklist
 
-✅ Frontmatter complete with title, description, keywords
-✅ Opening summary present (1-2 sentences)
-✅ H2/H3 hierarchy logical and consistent  
-✅ UI elements (buttons, menus, fields) bolded
-✅ Technical values in `code` formatting
-✅ Sequential steps use numbered lists
-✅ Non-sequential items use bullet points
-✅ Admonitions used appropriately (not excessive)
-✅ Links use descriptive anchor text
-✅ Images have descriptive alt text (not just labels)
-✅ Image paths use `/img/` prefix
-✅ Images organized by category in `static/img/`
-✅ Alt text is translated in all language versions
-✅ No broken internal links or missing images
-✅ Active voice throughout
-✅ Second person perspective ("you")
-✅ Clear, concise language
-✅ SEO keywords distributed naturally
+### Content Quality
+- [ ] Opening summary present (1-2 sentences, explains what and why)
+- [ ] Frontmatter complete (title, description, keywords, sidebar_position)
+- [ ] H2/H3 hierarchy logical (no H1 in content, no skipped levels)
+- [ ] Sentences average 15-20 words (none over 25 words)
+- [ ] Paragraphs are 3-5 sentences (none over 6 sentences)
+- [ ] One idea per sentence
+- [ ] Active voice throughout
+- [ ] Present tense for current features
+- [ ] No anthropomorphization
+
+### Formatting
+- [ ] All UI elements bolded (**Save**, **Settings**)
+- [ ] "Select" used for UI interactions (not click, press, choose)
+- [ ] Technical values in code format (`invoice_001`)
+- [ ] Sequential steps use numbered lists
+- [ ] Non-sequential items use bullet lists
+- [ ] Parallel structure in lists
+- [ ] Maximum 2-3 callouts per page
+
+### Terminology
+- [ ] Official Fiskl terms used consistently
+- [ ] No mixing of synonyms (client vs customer)
+- [ ] Correct feature name capitalization
+- [ ] Numbers 1-9 spelled out (except in steps/UI)
+- [ ] Setup (noun) vs Set up (verb) correct
+
+### Images and Links
+- [ ] All images have descriptive alt text
+- [ ] Alt text describes what user will see, not just labels
+- [ ] Images use `/img/` prefix
+- [ ] Images organized by category
+- [ ] No broken internal links
+- [ ] Link text is descriptive (not "click here")
+- [ ] Internal links use relative paths
+
+### SEO and AI
+- [ ] Description is 150-160 characters
+- [ ] Keywords included naturally in:
+    - First paragraph
+    - H2 headings
+    - Alt text
+- [ ] Related topics linked at end
+- [ ] Clear semantic structure
+
+### User Experience
+- [ ] Prerequisites listed upfront
+- [ ] Steps are in logical order
+- [ ] Outcomes clearly stated
+- [ ] Common issues addressed
+- [ ] Troubleshooting provided for errors
+
+### Testing
+- [ ] Instructions tested and verified working
+- [ ] Screenshots match current UI
+- [ ] All links work
+- [ ] Code examples run correctly
 
 <###############QUALITY_CHECKLIST###############>
 
----
+###############ANTI_PATTERNS######################>
 
-## Examples
+## What NOT to Do
 
-### Example 1: Feature Documentation
+### ❌ Incorrect Voice and Tense
 
+**Wrong:**
 ```markdown
+The system will provide you with an interface where you can input your data.
+```
+
+**Correct:**
+```markdown
+Fiskl provides an interface where you can enter your data.
+```
+
 ---
-title: "Invoice Templates"
-description: "Create and manage reusable invoice templates to speed up your billing process"
-keywords: ["invoice template", "billing template", "recurring invoice"]
-sidebar_position: 3
----
 
-This guide explains how to create invoice templates and use them to generate invoices faster.
+**Wrong:**
+```markdown
+Users should click on the Save button to save their changes.
+```
 
-## What are Invoice Templates?
+**Correct:**
+```markdown
+Select **Save** to save your changes.
+```
 
-Invoice templates are pre-configured invoice formats that you can reuse. They save time by storing common details like:
-- Your business information
-- Tax rates and rules
-- Payment terms
-- Line item descriptions
+### ❌ Inconsistent Navigation Language
 
-## Creating a Template
+**Wrong:**
+```markdown
+1. Click on New Invoice
+2. Press the Submit button
+3. Choose your client
+4. Tap Save
+```
 
-1. **Navigate to templates**
-   
-   Click **Invoices** in the sidebar, then select the **Templates** tab.
+**Correct:**
+```markdown
+1. Select **New Invoice**
+2. Select **Submit**
+3. Select your client
+4. Select **Save**
+```
 
-2. **Click New Template**
-   
-   In the top-right corner, click **+ New Template**.
+### ❌ Sentences Too Long
 
-3. **Configure the template**
-   
-   Fill in the fields you want to reuse:
-   - **Template Name**: Internal name (not visible to clients)
-   - **Payment Terms**: Select from dropdown or enter custom terms
-   - **Tax Rate**: Choose your default tax rate
-   - **Line Items**: Add common products or services
+**Wrong:**
+```markdown
+When you create a new invoice, the system will automatically calculate the tax based on your default settings, which you can change at any time by going to the Settings menu and selecting Tax Configuration, and then the invoice will be saved to your dashboard where you can view, edit, or send it to your client.
+```
 
-4. **Save the template**
-   
-   Click **Save Template** to make it available for use.
+**Correct:**
+```markdown
+When you create an invoice, Fiskl automatically calculates tax based on your settings. You can change tax settings in **Settings** > **Tax Configuration**. After saving, the invoice appears on your dashboard. From there, you can view, edit, or send it to your client.
+```
 
-:::tip[Pro Tip]
-Create separate templates for different client types or service categories
+### ❌ Paragraphs Too Long
+
+**Wrong:**
+```markdown
+Fiskl's banking integration connects to your bank accounts. It imports transactions automatically. The system matches transactions to invoices and expenses. You can reconcile your accounts quickly. The integration supports multiple banks. You can connect checking accounts, savings accounts, and credit cards. Transaction data updates daily. You can also trigger manual syncs. The system handles multi-currency accounts. Exchange rates update automatically. You can view all transactions in one place. (12 sentences - way too long!)
+```
+
+**Correct:**
+```markdown
+Fiskl's banking integration connects to your bank accounts and imports transactions automatically. The system matches transactions to invoices and expenses so you can reconcile quickly.
+
+The integration supports multiple banks and account types including checking, savings, and credit cards. Transaction data updates daily, but you can trigger manual syncs when needed.
+
+For multi-currency accounts, Fiskl handles exchange rate conversions automatically. You can view all transactions in one centralized location.
+```
+
+### ❌ Weak Opening Summary
+
+**Wrong:**
+```markdown
+# Creating Invoices
+
+In this guide, we will explore the various aspects of invoice creation in Fiskl.
+```
+
+**Correct:**
+```markdown
+# Creating Invoices
+
+This guide explains how to create invoices in Fiskl and helps you bill clients professionally with customized, branded invoices.
+```
+
+### ❌ Poor Link Text
+
+**Wrong:**
+```markdown
+For more information about taxes, click [here](/docs/tax).
+```
+
+**Correct:**
+```markdown
+Learn more about [tax calculations and rates](/docs/tax).
+```
+
+### ❌ Vague Alt Text
+
+**Wrong:**
+```markdown
+![Screenshot](/img/invoice-form.png)
+![Dashboard](/img/main-dashboard.png)
+```
+
+**Correct:**
+```markdown
+![Invoice creation form with client selector, line items table, and total amount calculation](/img/invoice-form.png)
+![Dashboard displaying revenue chart, recent invoices list, and overdue invoice warnings](/img/main-dashboard.png)
+```
+
+### ❌ Too Many Callouts
+
+**Wrong:**
+```markdown
+:::info
+Some information
 :::
 
-## Using a Template
+Start the process...
 
-When creating a new invoice:
-1. Click **Use Template** 
-2. Select your template from the list
-3. Customize any fields as needed
-4. Send the invoice
+:::tip
+A helpful tip
+:::
 
-<details>
-  <summary>Can I edit a template after creating it?</summary>
-  
-  Yes! Templates can be edited at any time:
-  1. Go to **Invoices** > **Templates**
-  2. Click the template you want to modify
-  3. Make your changes
-  4. Click **Save**
-  
-  Note: Changes won't affect invoices already created from the template.
-</details>
-```
+Continue with step 2...
 
-### Example 2: Quick Reference
+:::info
+More information
+:::
 
-```markdown
----
-title: "Keyboard Shortcuts"
-description: "Speed up your workflow with Fiskl's keyboard shortcuts for common actions"
-keywords: ["shortcuts", "keyboard", "hotkeys", "productivity"]
-sidebar_position: 99
----
+:::warning
+Be careful
+:::
 
-Use these keyboard shortcuts to work faster in Fiskl.
-
-## Global Shortcuts
-
-| Action | Windows/Linux | Mac |
-|--------|---------------|-----|
-| New invoice | `Ctrl+I` | `⌘+I` |
-| New expense | `Ctrl+E` | `⌘+E` |
-| Search | `Ctrl+K` | `⌘+K` |
-| Settings | `Ctrl+,` | `⌘+,` |
-
-## Invoice Screen
-
-| Action | Shortcut |
-|--------|----------|
-| Save draft | `Ctrl+S` |
-| Send invoice | `Ctrl+Enter` |
-| Add line item | `Ctrl+L` |
-| Duplicate | `Ctrl+D` |
-
-:::info[Custom Shortcuts]
-You can customize shortcuts in **Settings** > **Preferences** > **Keyboard**
+:::tip
+Another tip
 :::
 ```
 
----
-
-## Anti-Patterns
-
-❌ **Wrong:**
+**Correct:**
 ```markdown
-# How to create invoice
+Start the process by selecting **New Invoice**.
 
-Go to dashboard. Click new invoice button. Fill form. Click save button.
+[Regular content with clear instructions]
+
+:::tip
+Save time by using invoice templates for recurring clients.
+:::
+
+[More content]
+
+:::warning
+Deleting an invoice removes it permanently. This action cannot be undone.
+:::
 ```
 
-✅ **Correct:**
+### ❌ Inconsistent Terminology
+
+**Wrong:**
 ```markdown
----
-title: "Create an Invoice"
-description: "Learn how to create and send professional invoices to your clients"
-keywords: ["create invoice", "new invoice", "billing"]
----
-
-This guide shows you how to create an invoice in Fiskl.
-
-## Creating Your First Invoice
-
-1. **Open the invoice creator**
-
-   From your dashboard, click **+ New Invoice** in the top-right corner.
-
-2. **Select a client**
-
-   Choose an existing client or click **+ New Client** to add one.
+First, add a customer to your account. Next, create a client record. Then select the customer from the list. Finally, assign the client to the invoice.
 ```
 
+**Correct:**
+```markdown
+First, add a client to your account. Next, create a client record. Then select the client from the list. Finally, assign the client to the invoice.
+```
+
+### ❌ Corporate Jargon
+
+**Wrong:**
+```markdown
+To leverage the functionality of the invoicing module and utilize the interface to facilitate transaction processing, users should endeavor to optimize their workflow.
+```
+
+**Correct:**
+```markdown
+To use the invoicing feature effectively, follow these steps to streamline your workflow.
+```
+
+<###############ANTI_PATTERNS######################>
+
 ---
 
-*This DSL should be used as input for the prompt generator script to ensure consistent, high-quality documentation across all pages.*
+## Summary
+
+This DSL ensures all Fiskl documentation is:
+- **Consistent** in voice, tense, and terminology
+- **Clear** with appropriate sentence and paragraph length
+- **Professional** with proper formatting and structure
+- **User-friendly** with action-oriented instructions
+- **AI-optimized** for RAG systems and search
+
+When in doubt:
+1. Be clear and direct
+2. Use "Select" for UI interactions
+3. Keep sentences under 25 words
+4. Keep paragraphs under 6 sentences
+5. Use present tense for current features
+6. Consult the terminology table
+7. Check the quality checklist
+
+*This DSL should be used as input for documentation generation and review to ensure consistent, high-quality content across all pages.*

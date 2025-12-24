@@ -8,7 +8,7 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "getting-started/as-an-accountant",
+          "mainDocId": "intro",
           "docs": [
             {
               "id": "accounting/accounting-overview",
@@ -116,13 +116,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "ai/fi",
+              "path": "/docs/ai/fi",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "clients-vendors/managing-clients",
-              "path": "/docs/clients-vendors/managing-clients",
+              "path": "/docs/core-features/clients",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "clients-vendors/managing-vendors",
-              "path": "/docs/clients-vendors/managing-vendors",
+              "path": "/docs/core-features/vendors",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -146,13 +151,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "getting-started/with-banking",
-              "path": "/docs/getting-started/with-banking",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "getting-started/with-invoicing",
-              "path": "/docs/getting-started/with-invoicing",
+              "path": "/docs/getting-started/invoicing",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -241,6 +241,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "invoicing/create-recurring-invoices",
+              "path": "/docs/core-features/invoicing/recurring/creating-recurring-invoices",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "invoicing/creating-invoices",
               "path": "/docs/invoicing/creating-invoices",
               "sidebar": "tutorialSidebar"
@@ -261,13 +266,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "invoicing/recurring-invoices",
-              "path": "/docs/invoicing/recurring-invoices",
+              "id": "invoicing/recurring-invoice-management",
+              "path": "/docs/core-features/invoicing/recurring/recurring-invoice-management",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "invoicing/sending-invoices",
-              "path": "/docs/invoicing/sending-invoices",
+              "path": "/docs/core-features/invoicing/sending-invoices",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -321,6 +326,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "reporting/statement-of-accounts",
+              "path": "/docs/core-features/accounting/reports/statement-of-accounts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "reporting/transactions-by-account",
               "path": "/docs/reporting/transactions-by-account",
               "sidebar": "tutorialSidebar"
@@ -331,8 +341,33 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "settings/accounting-settings",
+              "path": "/docs/settings/accounting-settings",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "settings/company-settings",
               "path": "/docs/settings/company-settings",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "settings/currency-management",
+              "path": "/docs/settings/currency-management",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "settings/invoice-quotes-settings",
+              "path": "/docs/settings/invoice-quote-settings",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "settings/invoice-template-brands-settings",
+              "path": "/docs/settings/template-brand-settings",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "settings/profile-settings",
+              "path": "/docs/settings/profile-settings",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -351,63 +386,28 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/congratulations",
-              "path": "/docs/tutorial-basics/congratulations",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-blog-post",
-              "path": "/docs/tutorial-basics/create-a-blog-post",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-document",
-              "path": "/docs/tutorial-basics/create-a-document",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-page",
-              "path": "/docs/tutorial-basics/create-a-page",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/deploy-your-site",
-              "path": "/docs/tutorial-basics/deploy-your-site",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/markdown-features",
-              "path": "/docs/tutorial-basics/markdown-features",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-extras/manage-docs-versions",
-              "path": "/docs/tutorial-extras/manage-docs-versions",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-extras/translate-your-site",
-              "path": "/docs/tutorial-extras/translate-your-site",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "/category/getting-started",
               "path": "/docs/category/getting-started",
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/accounting",
+              "path": "/docs/category/accounting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/journal-entry-guides",
+              "path": "/docs/category/journal-entry-guides",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/reconciliation-guides",
+              "path": "/docs/category/reconciliation-guides",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/invoicing--quotes",
               "path": "/docs/category/invoicing--quotes",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/tutorial---basics",
-              "path": "/docs/category/tutorial---basics",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/tutorial---extras",
-              "path": "/docs/category/tutorial---extras",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -421,22 +421,24 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/journal-entry-guides",
-              "path": "/docs/category/journal-entry-guides",
+              "id": "/category/settings",
+              "path": "/docs/category/settings",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/reconciliation-guides",
-              "path": "/docs/category/reconciliation-guides",
+              "id": "/category/faqs",
+              "path": "/docs/category/faqs",
               "sidebar": "tutorialSidebar"
             }
           ],
-          "draftIds": [],
+          "draftIds": [
+            "getting-started/with-banking"
+          ],
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/category/getting-started",
-                "label": "Getting Started"
+                "path": "/docs/intro",
+                "label": "Introduction"
               }
             }
           }

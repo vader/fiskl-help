@@ -1,7 +1,7 @@
 {
   "id": "integrations/banking/connect-saltedge",
   "title": "Connect with Salt Edge",
-  "description": "Streamline financial management with Fiskl-Salt Edge integration: Enable automatic transaction imports for accurate, real-time insights.",
+  "description": "Connect your bank to Fiskl using Salt Edge for automated transaction imports and real-time financial tracking across Europe, Asia, and the Middle East.",
   "source": "@site/docs/integrations/banking/connect-saltedge.md",
   "sourceDirName": "integrations/banking",
   "slug": "/integrations/banking/connecting-saltedge",
@@ -31,13 +31,13 @@
   "frontMatter": {
     "title": "Connect with Salt Edge",
     "sidebar_position": 4,
-    "description": "Streamline financial management with Fiskl-Salt Edge integration: Enable automatic transaction imports for accurate, real-time insights.",
+    "description": "Connect your bank to Fiskl using Salt Edge for automated transaction imports and real-time financial tracking across Europe, Asia, and the Middle East.",
     "keywords": [
-      "Salt Edge integration Fiskl",
-      "bank connections",
+      "Salt Edge integration",
+      "bank connection Fiskl",
       "transaction imports",
-      "financial management",
-      "Fiskl tools"
+      "OpenBanking",
+      "Fiskl Banking"
     ],
     "slug": "/integrations/banking/connecting-saltedge",
     "toc_min_heading_level": 2,

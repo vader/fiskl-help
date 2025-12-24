@@ -1,29 +1,59 @@
 {
   "id": "clients-vendors/managing-vendors",
-  "title": "managing vendors",
-  "description": "Placeholder for managing vendors",
+  "title": "Managing Vendors",
+  "description": "Optimize vendor relationships with Fiskl: Efficiently track purchases, manage payments, and streamline vendor interactions.",
   "source": "@site/docs/clients-vendors/managing-vendors.md",
   "sourceDirName": "clients-vendors",
-  "slug": "/clients-vendors/managing-vendors",
-  "permalink": "/docs/clients-vendors/managing-vendors",
+  "slug": "/core-features/vendors",
+  "permalink": "/docs/core-features/vendors",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/clients-vendors/managing-vendors.md",
-  "tags": [],
+  "tags": [
+    {
+      "inline": true,
+      "label": "Vendor",
+      "permalink": "/docs/tags/vendor"
+    },
+    {
+      "inline": true,
+      "label": "Expense",
+      "permalink": "/docs/tags/expense"
+    },
+    {
+      "inline": true,
+      "label": "Accounting",
+      "permalink": "/docs/tags/accounting"
+    }
+  ],
   "version": "current",
-  "sidebarPosition": 1,
+  "sidebarPosition": 4,
   "frontMatter": {
-    "title": "managing vendors",
-    "description": "Placeholder for managing vendors",
-    "sidebar_position": 1
+    "title": "Managing Vendors",
+    "sidebar_position": 4,
+    "description": "Optimize vendor relationships with Fiskl: Efficiently track purchases, manage payments, and streamline vendor interactions.",
+    "keywords": [
+      "Vendor management Fiskl",
+      "purchase tracking",
+      "payment processing",
+      "vendor relations"
+    ],
+    "toc_min_heading_level": 2,
+    "toc_max_heading_level": 4,
+    "slug": "/core-features/vendors",
+    "tags": [
+      "Vendor",
+      "Expense",
+      "Accounting"
+    ]
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "managing clients",
-    "permalink": "/docs/clients-vendors/managing-clients"
+    "title": "Managing Clients",
+    "permalink": "/docs/core-features/clients"
   },
   "next": {
-    "title": "accounting faqs",
-    "permalink": "/docs/faqs/accounting-faqs"
+    "title": "Settings",
+    "permalink": "/docs/category/settings"
   }
 }

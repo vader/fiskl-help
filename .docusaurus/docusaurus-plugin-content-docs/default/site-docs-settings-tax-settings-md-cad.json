@@ -1,7 +1,7 @@
 {
   "id": "settings/tax-settings",
-  "title": "tax settings",
-  "description": "Placeholder for tax settings",
+  "title": "Tax Settings",
+  "description": "Ensure tax compliance with Fiskl's tax rate management. Set up and maintain accurate rates for all financial transactions.",
   "source": "@site/docs/settings/tax-settings.md",
   "sourceDirName": "settings",
   "slug": "/settings/tax-settings",
@@ -9,13 +9,36 @@
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/settings/tax-settings.md",
-  "tags": [],
+  "tags": [
+    {
+      "inline": true,
+      "label": "Settings",
+      "permalink": "/docs/tags/settings"
+    },
+    {
+      "inline": true,
+      "label": "Tax settings",
+      "permalink": "/docs/tags/tax-settings"
+    }
+  ],
   "version": "current",
-  "sidebarPosition": 1,
+  "sidebarPosition": 5,
   "frontMatter": {
-    "title": "tax settings",
-    "description": "Placeholder for tax settings",
-    "sidebar_position": 1
+    "title": "Tax Settings",
+    "sidebar_position": 5,
+    "description": "Ensure tax compliance with Fiskl's tax rate management. Set up and maintain accurate rates for all financial transactions.",
+    "keywords": [
+      "Tax settings Fiskl",
+      "manage taxes",
+      "compliance",
+      "tax rates",
+      "financial accuracy"
+    ],
+    "slug": "/settings/tax-settings",
+    "tags": [
+      "Settings",
+      "Tax settings"
+    ]
   },
   "sidebar": "tutorialSidebar",
   "previous": {
@@ -23,7 +46,7 @@
     "permalink": "/docs/settings/subscription-billing"
   },
   "next": {
-    "title": "user management",
-    "permalink": "/docs/settings/user-management"
+    "title": "Invoice Templates",
+    "permalink": "/docs/settings/template-brand-settings"
   }
 }

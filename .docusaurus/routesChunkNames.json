@@ -1,775 +1,820 @@
 {
-  "/__docusaurus/debug-5ff": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/config-5ba": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/content-a2b": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    },
-    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
-  },
-  "/__docusaurus/debug/globalData-c3c": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/metadata-156": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/registry-88c": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/routes-000": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
   "/blog-b2f": {
-    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__comp": "a6aa9e1f",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-766-e3c"
+        "content": "7661071f"
       },
       {
-        "content": "content---blogf-4-f-cd7"
+        "content": "f4f34a3a"
       },
       {
-        "content": "content---blog-871-381"
+        "content": "8717b14a"
       },
       {
-        "content": "content---blog-925-e00"
+        "content": "925b3f96"
       }
     ],
-    "__props": "__props---blogc-15-573"
+    "__props": "c15d9823"
   },
   "/blog/archive-182": {
-    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__comp": "9e4087bc",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "__props": "__props---blog-archivef-81-229"
+    "__props": "f81c1134"
   },
   "/blog/authors-0b7": {
-    "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
+    "__comp": "621db11d",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "__props": "__props---blog-authorsef-8-44f"
+    "sidebar": "814f3328",
+    "__props": "ef8b811a"
   },
   "/blog/authors/all-sebastien-lorber-articles-4a1": {
-    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
+    "__comp": "33fc5bb8",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
     "items": [
       {
-        "content": "content---blog-766-e3c"
+        "content": "7661071f"
       },
       {
-        "content": "content---blogf-4-f-cd7"
+        "content": "f4f34a3a"
       },
       {
-        "content": "content---blog-925-e00"
+        "content": "925b3f96"
       }
     ],
-    "sidebar": "sidebar---blog-814-8ac",
-    "__props": "__props---blog-authors-all-sebastien-lorber-articlesc-9-c-639"
+    "sidebar": "814f3328",
+    "__props": "c9c9bef8"
   },
   "/blog/authors/yangshun-a68": {
-    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
+    "__comp": "33fc5bb8",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
     "items": [
       {
-        "content": "content---blog-766-e3c"
+        "content": "7661071f"
       },
       {
-        "content": "content---blog-871-381"
+        "content": "8717b14a"
       },
       {
-        "content": "content---blog-925-e00"
+        "content": "925b3f96"
       }
     ],
-    "sidebar": "sidebar---blog-814-8ac",
-    "__props": "__props---blog-authors-yangshun-1-de-d0c"
+    "sidebar": "814f3328",
+    "__props": "1dea6ca3"
   },
   "/blog/first-blog-post-89a": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-first-blog-poste-27-4a1"
+    "sidebar": "814f3328",
+    "content": "e273c56f"
   },
   "/blog/long-blog-post-9ad": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-long-blog-post-736-bc7"
+    "sidebar": "814f3328",
+    "content": "73664a40"
   },
   "/blog/mdx-blog-post-e9f": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-mdx-blog-post-593-37b"
+    "sidebar": "814f3328",
+    "content": "59362658"
   },
   "/blog/tags-287": {
-    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__comp": "01a85c17",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "__props": "__props---blog-tags-3-a-2-fa2"
+    "sidebar": "814f3328",
+    "__props": "3a2db09e"
   },
   "/blog/tags/docusaurus-704": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-766-e3c"
+        "content": "7661071f"
       },
       {
-        "content": "content---blogf-4-f-cd7"
+        "content": "f4f34a3a"
       },
       {
-        "content": "content---blog-871-381"
+        "content": "8717b14a"
       },
       {
-        "content": "content---blog-925-e00"
+        "content": "925b3f96"
       }
     ],
-    "__props": "__props---blog-tags-docusaurus-321-832"
+    "__props": "3217192f"
   },
   "/blog/tags/facebook-858": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-766-e3c"
+        "content": "7661071f"
       }
     ],
-    "__props": "__props---blog-tags-facebooke-5-a-514"
+    "__props": "e5aefb32"
   },
   "/blog/tags/hello-299": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-766-e3c"
+        "content": "7661071f"
       },
       {
-        "content": "content---blog-871-381"
+        "content": "8717b14a"
       }
     ],
-    "__props": "__props---blog-tags-hellof-82-2fd"
+    "__props": "f82cd581"
   },
   "/blog/tags/hola-00d": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-925-e00"
+        "content": "925b3f96"
       }
     ],
-    "__props": "__props---blog-tags-hola-5-e-9-9a3"
+    "__props": "5e90a9b3"
   },
   "/blog/welcome-d2b": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-welcomed-9-f-ffb"
+    "sidebar": "814f3328",
+    "content": "d9f32620"
   },
   "/intro-ad5": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---introa-74-6d4"
+      "plugin": "a7456010"
     },
-    "content": "content---intro-2-c-3-35b"
+    "content": "2c397297"
   },
   "/markdown-page-3d7": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---introa-74-6d4"
+      "plugin": "a7456010"
     },
-    "content": "content---markdown-page-393-028"
+    "content": "393be207"
   },
-  "/docs-fb3": {
-    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+  "/docs-56f": {
+    "__comp": "5e95c892",
     "__context": {
-      "plugin": "plugin---docsaba-d7c"
+      "plugin": "aba21aa0"
     }
   },
-  "/docs-57a": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---docs-005-788"
+  "/docs-0cc": {
+    "__comp": "a7bd4aaa",
+    "__props": "0058b4c6"
   },
   "/docs/tags-fce": {
-    "__comp": "__comp---theme-doc-tags-list-page-372-89e",
-    "__props": "__props---docs-tags-898-65c"
+    "__comp": "3720c009",
+    "__props": "898514b1"
   },
   "/docs/tags/account-transaction-287": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-account-transaction-984-cb2"
+    "__comp": "df203c0f",
+    "__props": "98467456"
   },
   "/docs/tags/account-transfers-2a5": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-account-transfersa-2-e-43a"
+    "__comp": "df203c0f",
+    "__props": "a2ea7a96"
   },
   "/docs/tags/accounting-fbf": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-accounting-1-ff-e5b"
+    "__comp": "df203c0f",
+    "__props": "1ff90525"
+  },
+  "/docs/tags/accounting-settings-5b2": {
+    "__comp": "df203c0f",
+    "__props": "ba52f44f"
   },
   "/docs/tags/accounts-payable-b41": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-accounts-payable-4-c-2-82e"
+    "__comp": "df203c0f",
+    "__props": "4c2d7298"
+  },
+  "/docs/tags/ai-bd3": {
+    "__comp": "df203c0f",
+    "__props": "8be8ac58"
   },
   "/docs/tags/automation-81d": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-automation-720-923"
+    "__comp": "df203c0f",
+    "__props": "72044931"
+  },
+  "/docs/tags/bank-973": {
+    "__comp": "df203c0f",
+    "__props": "08213e71"
   },
   "/docs/tags/bank-reconciliation-f9d": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-bank-reconciliation-57-b-143"
+    "__comp": "df203c0f",
+    "__props": "57bed28d"
   },
   "/docs/tags/bank-statements-c30": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-bank-statementsd-06-b19"
+    "__comp": "df203c0f",
+    "__props": "d064d953"
   },
   "/docs/tags/banking-9b3": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-banking-421-f2f"
+    "__comp": "df203c0f",
+    "__props": "4216bacd"
+  },
+  "/docs/tags/brands-b71": {
+    "__comp": "df203c0f",
+    "__props": "2f63d4fe"
   },
   "/docs/tags/chart-of-accounts-21c": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-chart-of-accounts-946-918"
+    "__comp": "df203c0f",
+    "__props": "946b936f"
   },
   "/docs/tags/client-073": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-client-872-7aa"
+    "__comp": "df203c0f",
+    "__props": "87218e7b"
+  },
+  "/docs/tags/client-management-211": {
+    "__comp": "df203c0f",
+    "__props": "d129d4ef"
+  },
+  "/docs/tags/company-settings-25b": {
+    "__comp": "df203c0f",
+    "__props": "7ef712f0"
+  },
+  "/docs/tags/currency-management-5b3": {
+    "__comp": "df203c0f",
+    "__props": "f82fa587"
   },
   "/docs/tags/data-management-005": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-data-management-600-9d7"
+    "__comp": "df203c0f",
+    "__props": "60004411"
   },
   "/docs/tags/documentation-a92": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-documentationf-94-e66"
+    "__comp": "df203c0f",
+    "__props": "f94d1f5a"
+  },
+  "/docs/tags/email-031": {
+    "__comp": "df203c0f",
+    "__props": "ee0d4fe9"
+  },
+  "/docs/tags/expense-de9": {
+    "__comp": "df203c0f",
+    "__props": "2a2dbc04"
   },
   "/docs/tags/faq-177": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-faqcc-2-56e"
+    "__comp": "df203c0f",
+    "__props": "cc275afe"
+  },
+  "/docs/tags/fi-10d": {
+    "__comp": "df203c0f",
+    "__props": "e22818a4"
   },
   "/docs/tags/financial-reports-83f": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-financial-reportsaaf-f18"
+    "__comp": "df203c0f",
+    "__props": "aaf1c1fc"
   },
   "/docs/tags/foreign-exchange-5bd": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-foreign-exchangeafe-755"
+    "__comp": "df203c0f",
+    "__props": "afeb4802"
+  },
+  "/docs/tags/getting-started-eda": {
+    "__comp": "df203c0f",
+    "__props": "d483dd1e"
   },
   "/docs/tags/go-cardless-637": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-go-cardless-6-e-8-16a"
+    "__comp": "df203c0f",
+    "__props": "6e8c5ab1"
   },
   "/docs/tags/integrations-9da": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-integrations-6-b-8-f08"
+    "__comp": "df203c0f",
+    "__props": "6b829e2b"
   },
   "/docs/tags/internal-transfers-3f9": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-internal-transfers-75-e-c22"
+    "__comp": "df203c0f",
+    "__props": "75e03bb1"
   },
   "/docs/tags/invoice-aea": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-invoice-3-d-0-c25"
+    "__comp": "df203c0f",
+    "__props": "3d0943c5"
+  },
+  "/docs/tags/invoice-and-quote-settings-2db": {
+    "__comp": "df203c0f",
+    "__props": "3f9aff31"
   },
   "/docs/tags/invoice-payment-b75": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-invoice-payment-6-a-3-fee"
+    "__comp": "df203c0f",
+    "__props": "6a38bd80"
+  },
+  "/docs/tags/invoicing-102": {
+    "__comp": "df203c0f",
+    "__props": "fde6431f"
   },
   "/docs/tags/journal-entries-97a": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-journal-entries-43-e-b05"
+    "__comp": "df203c0f",
+    "__props": "43e66786"
   },
   "/docs/tags/journal-entry-be0": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-journal-entry-1-e-3-fb7"
+    "__comp": "df203c0f",
+    "__props": "1e323229"
   },
   "/docs/tags/multi-currency-ab5": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-multi-currency-14-f-fc1"
+    "__comp": "df203c0f",
+    "__props": "14fe6be3"
+  },
+  "/docs/tags/multilingual-243": {
+    "__comp": "df203c0f",
+    "__props": "55ddeb11"
   },
   "/docs/tags/pay-pal-fbe": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-pay-pal-0-a-7-e95"
+    "__comp": "df203c0f",
+    "__props": "0a71e31a"
   },
   "/docs/tags/payment-gateways-01d": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-payment-gateways-609-b8a"
+    "__comp": "df203c0f",
+    "__props": "60942d24"
+  },
+  "/docs/tags/profile-1d2": {
+    "__comp": "df203c0f",
+    "__props": "beecdf89"
   },
   "/docs/tags/quote-16c": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-quotee-32-657"
+    "__comp": "df203c0f",
+    "__props": "e322606d"
   },
   "/docs/tags/reconciliation-e32": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-reconciliation-635-3c5"
+    "__comp": "df203c0f",
+    "__props": "6353942e"
+  },
+  "/docs/tags/recurring-invoices-45a": {
+    "__comp": "df203c0f",
+    "__props": "ae4c18b0"
+  },
+  "/docs/tags/reminders-ae8": {
+    "__comp": "df203c0f",
+    "__props": "5b6a4d1c"
   },
   "/docs/tags/reporting-712": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-reporting-8-e-3-877"
+    "__comp": "df203c0f",
+    "__props": "8e3241ca"
   },
   "/docs/tags/reports-dfb": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-reports-75-c-588"
+    "__comp": "df203c0f",
+    "__props": "75c60a62"
   },
   "/docs/tags/sales-746": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-sales-85-c-e37"
+    "__comp": "df203c0f",
+    "__props": "85ca8a3e"
   },
   "/docs/tags/salt-edge-eca": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-salt-edge-5-e-0-e78"
+    "__comp": "df203c0f",
+    "__props": "5e08d90b"
+  },
+  "/docs/tags/settings-ada": {
+    "__comp": "df203c0f",
+    "__props": "16d98b3a"
   },
   "/docs/tags/stripe-16b": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-stripef-66-5f6"
+    "__comp": "df203c0f",
+    "__props": "f662b53b"
+  },
+  "/docs/tags/tax-settings-2d9": {
+    "__comp": "df203c0f",
+    "__props": "78ee354f"
+  },
+  "/docs/tags/templates-a71": {
+    "__comp": "df203c0f",
+    "__props": "7a0d12d0"
   },
   "/docs/tags/transaction-management-cf8": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-transaction-management-16-b-d2c"
+    "__comp": "df203c0f",
+    "__props": "16b48dc3"
   },
   "/docs/tags/transaction-matching-d39": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-transaction-matching-9-aa-ded"
+    "__comp": "df203c0f",
+    "__props": "9aa24ee9"
   },
   "/docs/tags/transactions-e42": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-transactions-710-0fb"
+    "__comp": "df203c0f",
+    "__props": "71008bd0"
   },
   "/docs/tags/trial-balance-fdf": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-trial-balance-69-f-e9d"
+    "__comp": "df203c0f",
+    "__props": "69f5f3e1"
   },
   "/docs/tags/troubleshooting-52e": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-troubleshooting-984-6e3"
+    "__comp": "df203c0f",
+    "__props": "984ba19b"
+  },
+  "/docs/tags/user-settings-b0d": {
+    "__comp": "df203c0f",
+    "__props": "d9d631a9"
+  },
+  "/docs/tags/vendor-78f": {
+    "__comp": "df203c0f",
+    "__props": "fb5e18a8"
   },
   "/docs/tags/wio-6ad": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-wio-741-f0a"
+    "__comp": "df203c0f",
+    "__props": "7414a7a2"
   },
   "/docs/tags/yodlee-0a9": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-yodleee-4-b-8ad"
+    "__comp": "df203c0f",
+    "__props": "e4be47c9"
   },
-  "/docs-3c0": {
-    "__comp": "__comp---theme-doc-roota-94-67a"
+  "/docs-f68": {
+    "__comp": "a94703ab"
   },
   "/docs/accounting/journal-entries/multi-journal-entries-381": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-accounting-journal-entries-multi-journal-entries-89-a-dbf"
+    "__comp": "17896441",
+    "content": "89a4e5ec"
   },
   "/docs/accounting/journal-entries/overview-18b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-accounting-journal-entries-overview-3-f-5-37d"
+    "__comp": "17896441",
+    "content": "3f541775"
   },
   "/docs/accounting/reconciliation/guides/reconciliation-best-practices-c55": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-accounting-reconciliation-guides-reconciliation-best-practices-385-5f2"
+    "__comp": "17896441",
+    "content": "3855ff12"
   },
   "/docs/accounting/reimbursement-guide-f43": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-accounting-reimbursement-guidea-22-57c"
+    "__comp": "17896441",
+    "content": "a22b9482"
+  },
+  "/docs/ai/fi-9b9": {
+    "__comp": "17896441",
+    "content": "edab9217"
+  },
+  "/docs/category/accounting-759": {
+    "__comp": "14eb3368",
+    "__props": "a2f28369"
+  },
+  "/docs/category/faqs-418": {
+    "__comp": "14eb3368",
+    "__props": "e92d0461"
   },
   "/docs/category/financial-reports-65b": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-financial-reports-6-df-c4a"
+    "__comp": "14eb3368",
+    "__props": "6df0cbfb"
   },
   "/docs/category/getting-started-4e8": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-getting-startedc-26-887"
+    "__comp": "14eb3368",
+    "__props": "c260b502"
   },
   "/docs/category/invoicing--quotes-fc9": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-invoicing-quotes-23-b-cd0"
+    "__comp": "14eb3368",
+    "__props": "23b6c019"
   },
   "/docs/category/journal-entry-guides-061": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-journal-entry-guides-075-9ba"
+    "__comp": "14eb3368",
+    "__props": "0758c423"
   },
   "/docs/category/products--expenses-2ab": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-products-expenses-817-79c"
+    "__comp": "14eb3368",
+    "__props": "8178d39b"
   },
   "/docs/category/reconciliation-guides-1d2": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-reconciliation-guides-7-cc-d38"
+    "__comp": "14eb3368",
+    "__props": "7cc34824"
   },
-  "/docs/category/tutorial---basics-20e": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-tutorial-basicsc-8-a-e51"
-  },
-  "/docs/category/tutorial---extras-9ad": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-tutorial-extras-6-bb-a82"
-  },
-  "/docs/clients-vendors/managing-clients-ea9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-clients-vendors-managing-clients-898-1cf"
-  },
-  "/docs/clients-vendors/managing-vendors-fe2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-clients-vendors-managing-vendors-83-a-d6c"
+  "/docs/category/settings-afc": {
+    "__comp": "14eb3368",
+    "__props": "6cb65baf"
   },
   "/docs/core-features/accounting/account-reconciliation/accounting-faq-edd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-core-features-accounting-account-reconciliation-accounting-faq-584-c82"
+    "__comp": "17896441",
+    "content": "584f4b94"
   },
   "/docs/core-features/accounting/accounting/overview-18b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-core-features-accounting-accounting-overview-6-a-2-cc2"
+    "__comp": "17896441",
+    "content": "6a23e99e"
   },
   "/docs/core-features/accounting/chart-of-accounts-3cc": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-core-features-accounting-chart-of-accountsaba-32a"
+    "__comp": "17896441",
+    "content": "aba41c25"
   },
   "/docs/core-features/accounting/journal-entries/guides/account-reconciliation-069": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-core-features-accounting-journal-entries-guides-account-reconciliation-4-a-7-b6b"
+    "__comp": "17896441",
+    "content": "4a7538d5"
   },
   "/docs/core-features/accounting/journal-entries/guides/accounts-payable-transactions-28b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-core-features-accounting-journal-entries-guides-accounts-payable-transactionsfb-0-570"
+    "__comp": "17896441",
+    "content": "fb032e3e"
   },
   "/docs/core-features/accounting/journal-entries/guides/accounts-receivable-transactions-403": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-core-features-accounting-journal-entries-guides-accounts-receivable-transactionsb-0-c-901"
+    "__comp": "17896441",
+    "content": "b0c1b94a"
   },
   "/docs/core-features/accounting/journal-entries/guides/bank-account-reconciliation-3c0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-core-features-accounting-journal-entries-guides-bank-account-reconciliationb-0-f-581"
+    "__comp": "17896441",
+    "content": "b0f15edd"
   },
   "/docs/core-features/accounting/journal-entries/guides/exporting-transactions-e8a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-core-features-accounting-journal-entries-guides-exporting-transactionsc-89-9f6"
+    "__comp": "17896441",
+    "content": "c8971d48"
   },
   "/docs/core-features/accounting/journal-entries/guides/handling-reconciliation-discrepancies-2b7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-core-features-accounting-journal-entries-guides-handling-reconciliation-discrepancies-0-bf-8bf"
+    "__comp": "17896441",
+    "content": "0bf6ce03"
   },
   "/docs/core-features/accounting/journal-entries/guides/how-fiskl-handles-reconciliation-3ba": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-core-features-accounting-journal-entries-guides-how-fiskl-handles-reconciliationebd-3ac"
+    "__comp": "17896441",
+    "content": "ebdcc938"
   },
   "/docs/core-features/accounting/journal-entries/guides/internal-transfers-a38": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-core-features-accounting-journal-entries-guides-internal-transfers-387-759"
+    "__comp": "17896441",
+    "content": "3875b678"
   },
   "/docs/core-features/accounting/journal-entries/guides/manual-transactions-72c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-core-features-accounting-journal-entries-guides-manual-transactionsd-97-48b"
+    "__comp": "17896441",
+    "content": "d97b064b"
   },
   "/docs/core-features/accounting/journal-entries/guides/match-and-split-transactions-ac4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-core-features-accounting-journal-entries-guides-match-and-split-transactionsdb-0-e11"
+    "__comp": "17896441",
+    "content": "db0de221"
   },
   "/docs/core-features/accounting/journal-entries/guides/move-transactions-0f2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-core-features-accounting-journal-entries-guides-move-transactions-8-ec-5ab"
+    "__comp": "17896441",
+    "content": "8ec53adb"
   },
   "/docs/core-features/accounting/journal-entries/guides/multi-currency-transactions-f27": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-core-features-accounting-journal-entries-guides-multi-currency-transactionsc-13-540"
+    "__comp": "17896441",
+    "content": "c13201be"
   },
   "/docs/core-features/accounting/journal-entries/guides/opening-balances-983": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-core-features-accounting-journal-entries-guides-opening-balances-5-b-0-0a9"
+    "__comp": "17896441",
+    "content": "5b0e2a60"
   },
   "/docs/core-features/accounting/journal-entries/guides/reconciliation-reports-9a3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-core-features-accounting-journal-entries-guides-reconciliation-reportsf-47-76e"
+    "__comp": "17896441",
+    "content": "f478c9bb"
+  },
+  "/docs/core-features/accounting/reports/statement-of-accounts-dce": {
+    "__comp": "17896441",
+    "content": "ada4ba8e"
   },
   "/docs/core-features/accounting/reports/trial-balance-abe": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-core-features-accounting-reports-trial-balance-508-85e"
+    "__comp": "17896441",
+    "content": "508866ea"
+  },
+  "/docs/core-features/clients-bd7": {
+    "__comp": "17896441",
+    "content": "89891da2"
   },
   "/docs/core-features/invoicing/invoice-management-bae": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-invoicing-invoice-management-8-cb-2bb"
+    "__comp": "17896441",
+    "content": "8cbcd870"
+  },
+  "/docs/core-features/invoicing/recurring/creating-recurring-invoices-0c2": {
+    "__comp": "17896441",
+    "content": "d9fb7499"
+  },
+  "/docs/core-features/invoicing/recurring/recurring-invoice-management-a5e": {
+    "__comp": "17896441",
+    "content": "3d220c2b"
+  },
+  "/docs/core-features/invoicing/sending-invoices-64d": {
+    "__comp": "17896441",
+    "content": "eeb3bde5"
   },
   "/docs/core-features/quotes/creating-quotes-fcf": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-core-features-quotes-creating-quotes-6-cf-e90"
+    "__comp": "17896441",
+    "content": "6cfd6409"
   },
   "/docs/core-features/quotes/quote-management-1a4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-invoicing-quote-managementb-1-d-e6a"
+    "__comp": "17896441",
+    "content": "b1d76671"
+  },
+  "/docs/core-features/vendors-5a8": {
+    "__comp": "17896441",
+    "content": "83a0800d"
   },
   "/docs/faqs/accounting-faqs-6c6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-faqs-accounting-faqs-722-a90"
+    "__comp": "17896441",
+    "content": "7220e2dc"
   },
   "/docs/faqs/general-faqs-14f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-faqs-general-faqs-399-a51"
+    "__comp": "17896441",
+    "content": "39916aad"
   },
   "/docs/getting-started/as-an-accountant-690": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-getting-started-as-an-accountant-206-daf"
+    "__comp": "17896441",
+    "content": "206c6d49"
+  },
+  "/docs/getting-started/invoicing-9ca": {
+    "__comp": "17896441",
+    "content": "798538da"
   },
   "/docs/getting-started/overview-3b4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-getting-started-overview-7-a-9-af0"
-  },
-  "/docs/getting-started/with-banking-ca9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-getting-started-with-bankinge-28-873"
-  },
-  "/docs/getting-started/with-invoicing-222": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-getting-started-with-invoicing-798-07e"
+    "__comp": "17896441",
+    "content": "7a96ca3d"
   },
   "/docs/glossary/accounting-fundamentals-188": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-glossary-accounting-fundamentals-31-c-67d"
+    "__comp": "17896441",
+    "content": "31c9b38a"
   },
   "/docs/glossary/accounts-and-transactions-ebd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-glossary-accounts-and-transactions-3-b-9-750"
+    "__comp": "17896441",
+    "content": "3b9e3345"
   },
   "/docs/glossary/assets-and-liabilities-828": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-glossary-assets-and-liabilities-212-a27"
+    "__comp": "17896441",
+    "content": "212b43e2"
   },
   "/docs/glossary/cash-and-banking-9e0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-glossary-cash-and-banking-273-f55"
+    "__comp": "17896441",
+    "content": "2734a782"
   },
   "/docs/glossary/financial-statements-0e3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-glossary-financial-statements-7-cd-fc4"
+    "__comp": "17896441",
+    "content": "7cd96501"
   },
   "/docs/glossary/technical-terms-d3c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-glossary-technical-terms-31-d-e4a"
+    "__comp": "17896441",
+    "content": "31d28836"
   },
   "/docs/integrations/banking/connecting-saltedge-7d5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-integrations-banking-connecting-saltedge-2-d-7-ddc"
+    "__comp": "17896441",
+    "content": "2d78d620"
   },
   "/docs/integrations/banking/connecting-stripe-dfb": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-integrations-banking-connecting-stripec-2-d-f06"
+    "__comp": "17896441",
+    "content": "c2d49855"
   },
   "/docs/integrations/banking/connecting-wio-240": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-integrations-banking-connecting-wio-4-f-7-a5d"
+    "__comp": "17896441",
+    "content": "4f7f08c6"
   },
   "/docs/integrations/banking/connecting-yodlee-48f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-integrations-banking-connecting-yodlee-8-a-7-541"
+    "__comp": "17896441",
+    "content": "8a7f1c89"
   },
   "/docs/integrations/banking/overview-e9a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-integrations-banking-overview-648-5f1"
+    "__comp": "17896441",
+    "content": "6489856a"
   },
   "/docs/integrations/overview-0c4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-integrations-overviewfbb-8a4"
+    "__comp": "17896441",
+    "content": "fbb106eb"
   },
   "/docs/integrations/payments/gocardless-7f7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-integrations-payments-gocardless-39-f-a4d"
+    "__comp": "17896441",
+    "content": "39f5147f"
   },
   "/docs/integrations/payments/overview-aa7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-integrations-payments-overviewac-8-91c"
+    "__comp": "17896441",
+    "content": "ac8dd42d"
   },
   "/docs/integrations/payments/paypal-56d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-integrations-payments-paypal-1-fb-acb"
+    "__comp": "17896441",
+    "content": "1fbf9745"
   },
   "/docs/integrations/payments/stripe-b1e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-integrations-payments-stripee-76-96b"
+    "__comp": "17896441",
+    "content": "e76c726d"
   },
   "/docs/intro-61d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-intro-0-e-3-be1"
+    "__comp": "17896441",
+    "content": "0e384e19"
   },
   "/docs/invoicing/creating-invoices-cac": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-invoicing-creating-invoices-0-b-0-e9b"
-  },
-  "/docs/invoicing/recurring-invoices-ca1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-invoicing-recurring-invoicesabc-4e8"
-  },
-  "/docs/invoicing/sending-invoices-dce": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-invoicing-sending-invoiceseeb-75a"
+    "__comp": "17896441",
+    "content": "0b03d23f"
   },
   "/docs/line-items/expenses-7b1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-line-items-expensesff-9-5c1"
+    "__comp": "17896441",
+    "content": "ff9db353"
   },
   "/docs/line-items/mileage-504": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-line-items-mileageaec-7e6"
+    "__comp": "17896441",
+    "content": "aec801fd"
   },
   "/docs/line-items/products-and-services-885": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-line-items-products-and-servicesfcc-f6c"
+    "__comp": "17896441",
+    "content": "fcc803f2"
   },
   "/docs/line-items/time-tracking-753": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-line-items-time-tracking-784-5b0"
+    "__comp": "17896441",
+    "content": "784368ee"
   },
   "/docs/reporting/balance-sheet-8f5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-reporting-balance-sheet-0-c-1-edc"
+    "__comp": "17896441",
+    "content": "0c1d5e54"
   },
   "/docs/reporting/cash-flow-afd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-reporting-cash-flowb-44-7ef"
+    "__comp": "17896441",
+    "content": "b44c80e6"
   },
   "/docs/reporting/client-aging-380": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-reporting-client-aging-8-c-2-d13"
+    "__comp": "17896441",
+    "content": "8c261daa"
   },
   "/docs/reporting/general-ledger-7b7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-reporting-general-ledgerd-2-c-ff5"
+    "__comp": "17896441",
+    "content": "d2c6f327"
   },
   "/docs/reporting/profit-and-loss-b0d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-reporting-profit-and-loss-627-b17"
+    "__comp": "17896441",
+    "content": "62710676"
   },
   "/docs/reporting/sales-tax-23b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-reporting-sales-taxb-42-c44"
+    "__comp": "17896441",
+    "content": "b4244eea"
   },
   "/docs/reporting/transactions-by-account-1ad": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-reporting-transactions-by-accounte-38-477"
+    "__comp": "17896441",
+    "content": "e380ca26"
+  },
+  "/docs/settings/accounting-settings-9f6": {
+    "__comp": "17896441",
+    "content": "810170bf"
   },
   "/docs/settings/company-settings-a3d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-settings-company-settingse-00-151"
+    "__comp": "17896441",
+    "content": "e00524d5"
+  },
+  "/docs/settings/currency-management-561": {
+    "__comp": "17896441",
+    "content": "1d7c4e20"
+  },
+  "/docs/settings/invoice-quote-settings-1e9": {
+    "__comp": "17896441",
+    "content": "0deb3bb3"
+  },
+  "/docs/settings/profile-settings-0c3": {
+    "__comp": "17896441",
+    "content": "19c36ea8"
   },
   "/docs/settings/subscription-billing-719": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-settings-subscription-billingbff-5d7"
+    "__comp": "17896441",
+    "content": "bff0537b"
   },
   "/docs/settings/tax-settings-0e8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-settings-tax-settingscad-a1e"
+    "__comp": "17896441",
+    "content": "cadddd72"
+  },
+  "/docs/settings/template-brand-settings-8d1": {
+    "__comp": "17896441",
+    "content": "a32abf2f"
   },
   "/docs/settings/user-management-f68": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-settings-user-management-7-e-7-eb8"
-  },
-  "/docs/tutorial-basics/congratulations-458": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-congratulations-822-958"
-  },
-  "/docs/tutorial-basics/create-a-blog-post-108": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-create-a-blog-post-533-e85"
-  },
-  "/docs/tutorial-basics/create-a-document-8fc": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-create-a-document-1-e-4-078"
-  },
-  "/docs/tutorial-basics/create-a-page-951": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-create-a-page-5-c-8-e19"
-  },
-  "/docs/tutorial-basics/deploy-your-site-4f5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-deploy-your-sitef-55-a3f"
-  },
-  "/docs/tutorial-basics/markdown-features-b05": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-markdown-features-18-c-a79"
-  },
-  "/docs/tutorial-extras/manage-docs-versions-978": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-extras-manage-docs-versionsdff-6d4"
-  },
-  "/docs/tutorial-extras/translate-your-site-f9a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-extras-translate-your-sitee-44-ddf"
+    "__comp": "17896441",
+    "content": "7e777848"
   },
   "/-2bc": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---introa-74-6d4"
+      "plugin": "a7456010"
     },
-    "content": "content---f-39-267"
+    "content": "f3976560"
   }
 }

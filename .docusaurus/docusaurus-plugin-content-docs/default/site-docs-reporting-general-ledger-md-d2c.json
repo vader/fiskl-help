@@ -27,8 +27,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Balance Sheet Report",
-    "permalink": "/docs/reporting/balance-sheet"
+    "title": "Transactions by Account",
+    "permalink": "/docs/reporting/transactions-by-account"
   },
   "next": {
     "title": "Sales Tax Report",
