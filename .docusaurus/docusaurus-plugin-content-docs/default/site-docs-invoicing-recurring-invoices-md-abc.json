@@ -11,16 +11,16 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/invoicing/recurring-invoices.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 1,
+  "sidebarPosition": 4,
   "frontMatter": {
     "title": "recurring invoices",
     "description": "Placeholder for recurring invoices",
-    "sidebar_position": 1
+    "sidebar_position": 4
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "quote management",
-    "permalink": "/docs/invoicing/quote-management"
+    "title": "Invoice Management",
+    "permalink": "/docs/core-features/invoicing/invoice-management"
   },
   "next": {
     "title": "sending invoices",

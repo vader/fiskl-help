@@ -1,7 +1,7 @@
 ---
 title: recurring invoices
 description: Placeholder for recurring invoices
-sidebar_position: 1
+sidebar_position: 4
 ---
 
 # recurring invoices

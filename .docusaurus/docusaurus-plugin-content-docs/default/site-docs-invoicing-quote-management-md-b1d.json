@@ -1,29 +1,53 @@
 {
   "id": "invoicing/quote-management",
-  "title": "quote management",
-  "description": "Placeholder for quote management",
+  "title": "Quote Management",
+  "description": "Streamline your sales process with Fiskl's quote management: From creation to invoice conversion, close deals more efficiently.",
   "source": "@site/docs/invoicing/quote-management.md",
   "sourceDirName": "invoicing",
-  "slug": "/invoicing/quote-management",
-  "permalink": "/docs/invoicing/quote-management",
+  "slug": "/core-features/quotes/quote-management",
+  "permalink": "/docs/core-features/quotes/quote-management",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/invoicing/quote-management.md",
-  "tags": [],
+  "tags": [
+    {
+      "inline": true,
+      "label": "Quote",
+      "permalink": "/docs/tags/quote"
+    },
+    {
+      "inline": true,
+      "label": "Invoice",
+      "permalink": "/docs/tags/invoice"
+    }
+  ],
   "version": "current",
-  "sidebarPosition": 1,
+  "sidebarPosition": 8,
   "frontMatter": {
-    "title": "quote management",
-    "description": "Placeholder for quote management",
-    "sidebar_position": 1
+    "title": "Quote Management",
+    "sidebar_position": 8,
+    "description": "Streamline your sales process with Fiskl's quote management: From creation to invoice conversion, close deals more efficiently.",
+    "keywords": [
+      "Quote management Fiskl",
+      "sales process",
+      "convert quotes to invoices",
+      "business software"
+    ],
+    "slug": "/core-features/quotes/quote-management",
+    "toc_min_heading_level": 2,
+    "toc_max_heading_level": 4,
+    "tags": [
+      "Quote",
+      "Invoice"
+    ]
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "invoice management",
-    "permalink": "/docs/invoicing/invoice-management"
+    "title": "Creating Quotes",
+    "permalink": "/docs/core-features/quotes/creating-quotes"
   },
   "next": {
-    "title": "recurring invoices",
-    "permalink": "/docs/invoicing/recurring-invoices"
+    "title": "Tutorial - Basics",
+    "permalink": "/docs/category/tutorial---basics"
   }
 }

@@ -1,29 +1,63 @@
 {
   "id": "invoicing/invoice-management",
-  "title": "invoice management",
-  "description": "Placeholder for invoice management",
+  "title": "Invoice Management",
+  "description": "Streamline your billing process with Fiskl's invoice management: From creation to payment tracking, improve your cash flow management.",
   "source": "@site/docs/invoicing/invoice-management.md",
   "sourceDirName": "invoicing",
-  "slug": "/invoicing/invoice-management",
-  "permalink": "/docs/invoicing/invoice-management",
+  "slug": "/core-features/invoicing/invoice-management",
+  "permalink": "/docs/core-features/invoicing/invoice-management",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/invoicing/invoice-management.md",
-  "tags": [],
+  "tags": [
+    {
+      "inline": true,
+      "label": "Invoice",
+      "permalink": "/docs/tags/invoice"
+    },
+    {
+      "inline": true,
+      "label": "Client",
+      "permalink": "/docs/tags/client"
+    },
+    {
+      "inline": true,
+      "label": "Invoice payment",
+      "permalink": "/docs/tags/invoice-payment"
+    },
+    {
+      "inline": true,
+      "label": "Stripe",
+      "permalink": "/docs/tags/stripe"
+    }
+  ],
   "version": "current",
-  "sidebarPosition": 1,
+  "sidebarPosition": 3,
   "frontMatter": {
-    "title": "invoice management",
-    "description": "Placeholder for invoice management",
-    "sidebar_position": 1
+    "title": "Invoice Management",
+    "sidebar_position": 3,
+    "description": "Streamline your billing process with Fiskl's invoice management: From creation to payment tracking, improve your cash flow management.",
+    "keywords": [
+      "Invoice management Fiskl",
+      "billing software",
+      "payment tracking",
+      "cash flow management"
+    ],
+    "slug": "/core-features/invoicing/invoice-management",
+    "tags": [
+      "Invoice",
+      "Client",
+      "Invoice payment",
+      "Stripe"
+    ]
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "creating quotes",
-    "permalink": "/docs/invoicing/creating-quotes"
+    "title": "Creating Invoices",
+    "permalink": "/docs/invoicing/creating-invoices"
   },
   "next": {
-    "title": "quote management",
-    "permalink": "/docs/invoicing/quote-management"
+    "title": "recurring invoices",
+    "permalink": "/docs/invoicing/recurring-invoices"
   }
 }

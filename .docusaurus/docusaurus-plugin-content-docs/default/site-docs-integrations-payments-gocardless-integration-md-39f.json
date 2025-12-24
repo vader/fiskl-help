@@ -49,8 +49,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Stripe Integration",
-    "permalink": "/docs/integrations/payments/stripe-integration"
+    "title": "Stripe",
+    "permalink": "/docs/integrations/payments/stripe"
   },
   "next": {
     "title": "PayPal",

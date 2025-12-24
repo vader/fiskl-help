@@ -1,588 +1,775 @@
 {
-  "/es/blog-802": {
-    "__comp": "a6aa9e1f",
+  "/__docusaurus/debug-5ff": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "7661071f"
-      },
-      {
-        "content": "f4f34a3a"
-      },
-      {
-        "content": "8717b14a"
-      },
-      {
-        "content": "925b3f96"
-      }
-    ],
-    "__props": "8b20138e"
-  },
-  "/es/blog/archive-c1d": {
-    "__comp": "9e4087bc",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "__props": "dfed01cf"
-  },
-  "/es/blog/authors-e39": {
-    "__comp": "621db11d",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "__props": "f601d5af"
-  },
-  "/es/blog/authors/all-sebastien-lorber-articles-6e5": {
-    "__comp": "33fc5bb8",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "items": [
-      {
-        "content": "7661071f"
-      },
-      {
-        "content": "f4f34a3a"
-      },
-      {
-        "content": "925b3f96"
-      }
-    ],
-    "sidebar": "814f3328",
-    "__props": "526be6cf"
-  },
-  "/es/blog/authors/yangshun-ed1": {
-    "__comp": "33fc5bb8",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "items": [
-      {
-        "content": "7661071f"
-      },
-      {
-        "content": "8717b14a"
-      },
-      {
-        "content": "925b3f96"
-      }
-    ],
-    "sidebar": "814f3328",
-    "__props": "1300235e"
-  },
-  "/es/blog/first-blog-post-041": {
-    "__comp": "ccc49370",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "content": "e273c56f"
-  },
-  "/es/blog/long-blog-post-13f": {
-    "__comp": "ccc49370",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "content": "73664a40"
-  },
-  "/es/blog/mdx-blog-post-a97": {
-    "__comp": "ccc49370",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "content": "59362658"
-  },
-  "/es/blog/tags-b1d": {
-    "__comp": "01a85c17",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "__props": "0c69ec8d"
-  },
-  "/es/blog/tags/docusaurus-f69": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "7661071f"
-      },
-      {
-        "content": "f4f34a3a"
-      },
-      {
-        "content": "8717b14a"
-      },
-      {
-        "content": "925b3f96"
-      }
-    ],
-    "__props": "e6e86451"
-  },
-  "/es/blog/tags/facebook-0c3": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "7661071f"
-      }
-    ],
-    "__props": "1e15abdd"
-  },
-  "/es/blog/tags/hello-36c": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "7661071f"
-      },
-      {
-        "content": "8717b14a"
-      }
-    ],
-    "__props": "8dc7c2c4"
-  },
-  "/es/blog/tags/hola-484": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "925b3f96"
-      }
-    ],
-    "__props": "04bd3a17"
-  },
-  "/es/blog/welcome-8c8": {
-    "__comp": "ccc49370",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "content": "d9f32620"
-  },
-  "/es/intro-f77": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "2c397297"
-  },
-  "/es/markdown-page-724": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "393be207"
-  },
-  "/es/docs-efb": {
-    "__comp": "5e95c892",
-    "__context": {
-      "plugin": "aba21aa0"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/es/docs-6e3": {
-    "__comp": "a7bd4aaa",
-    "__props": "9d39d3e7"
-  },
-  "/es/docs/tags-1f8": {
-    "__comp": "3720c009",
-    "__props": "b69a7032"
-  },
-  "/es/docs/tags/balance-de-comprobacion-639": {
-    "__comp": "df203c0f",
-    "__props": "0bbc91dd"
-  },
-  "/es/docs/tags/contabilidad-f67": {
-    "__comp": "df203c0f",
-    "__props": "3f0091c7"
-  },
-  "/es/docs/tags/informes-79c": {
-    "__comp": "df203c0f",
-    "__props": "ab51b593"
-  },
-  "/es/docs-97e": {
-    "__comp": "a94703ab"
-  },
-  "/es/docs/accounting/accounting-overview-5a0": {
-    "__comp": "17896441",
-    "content": "4dace08a"
-  },
-  "/es/docs/accounting/chart-of-accounts-325": {
-    "__comp": "17896441",
-    "content": "56c5af72"
-  },
-  "/es/docs/accounting/journal-entries/guides/accounts-payable-transactions-c2c": {
-    "__comp": "17896441",
-    "content": "da626015"
-  },
-  "/es/docs/accounting/journal-entries/guides/accounts-receivable-transactions-cc8": {
-    "__comp": "17896441",
-    "content": "c3afee88"
-  },
-  "/es/docs/accounting/journal-entries/guides/exporting-transactions-9e0": {
-    "__comp": "17896441",
-    "content": "0a8d1974"
-  },
-  "/es/docs/accounting/journal-entries/guides/internal-transfers-0d0": {
-    "__comp": "17896441",
-    "content": "92ccc7a2"
-  },
-  "/es/docs/accounting/journal-entries/guides/manual-transactions-f6b": {
-    "__comp": "17896441",
-    "content": "e77e5ec7"
-  },
-  "/es/docs/accounting/journal-entries/guides/match-and-split-transactions-e49": {
-    "__comp": "17896441",
-    "content": "3ce3b243"
-  },
-  "/es/docs/accounting/journal-entries/guides/move-transactions-f1b": {
-    "__comp": "17896441",
-    "content": "8783dc53"
-  },
-  "/es/docs/accounting/journal-entries/guides/multi-currency-transactions-1ce": {
-    "__comp": "17896441",
-    "content": "76ae272b"
-  },
-  "/es/docs/accounting/journal-entries/guides/opening-balances-8e7": {
-    "__comp": "17896441",
-    "content": "3e1f4b86"
-  },
-  "/es/docs/accounting/journal-entries/multi-journal-entries-73f": {
-    "__comp": "17896441",
-    "content": "21ff5694"
-  },
-  "/es/docs/accounting/journal-entries/overview-637": {
-    "__comp": "17896441",
-    "content": "55e517e4"
-  },
-  "/es/docs/accounting/reconciliation/guides/accounting-faqs-1e4": {
-    "__comp": "17896441",
-    "content": "921a0dc3"
-  },
-  "/es/docs/accounting/reconciliation/guides/bank-account-reconciliation-4af": {
-    "__comp": "17896441",
-    "content": "0708c648"
-  },
-  "/es/docs/accounting/reconciliation/guides/handling-reconciliation-discrepancies-3c5": {
-    "__comp": "17896441",
-    "content": "33fd0bb3"
-  },
-  "/es/docs/accounting/reconciliation/guides/how-fiskl-handles-reconciliation-9a5": {
-    "__comp": "17896441",
-    "content": "6eac77d1"
-  },
-  "/es/docs/accounting/reconciliation/guides/reconciliation-best-practices-32b": {
-    "__comp": "17896441",
-    "content": "6154be72"
-  },
-  "/es/docs/accounting/reconciliation/guides/reconciliation-reports-95a": {
-    "__comp": "17896441",
-    "content": "e2448008"
-  },
-  "/es/docs/accounting/reconciliation/overview-352": {
-    "__comp": "17896441",
-    "content": "103307a5"
-  },
-  "/es/docs/accounting/reimbursement-guide-9d4": {
-    "__comp": "17896441",
-    "content": "a90e5311"
-  },
-  "/es/docs/category/financial-reports-459": {
-    "__comp": "14eb3368",
-    "__props": "eb59d0e7"
-  },
-  "/es/docs/category/getting-started-2c3": {
-    "__comp": "14eb3368",
-    "__props": "844869dc"
-  },
-  "/es/docs/category/invoicing--quotes-a0e": {
-    "__comp": "14eb3368",
-    "__props": "56b2d560"
-  },
-  "/es/docs/category/journal-entry-guides-5ea": {
-    "__comp": "14eb3368",
-    "__props": "123aefcc"
-  },
-  "/es/docs/category/products--expenses-b83": {
-    "__comp": "14eb3368",
-    "__props": "5199b0d5"
-  },
-  "/es/docs/category/reconciliation-guides-7ba": {
-    "__comp": "14eb3368",
-    "__props": "ee3feb5b"
-  },
-  "/es/docs/category/tutorial---basics-add": {
-    "__comp": "14eb3368",
-    "__props": "404f6ac7"
-  },
-  "/es/docs/category/tutorial---extras-308": {
-    "__comp": "14eb3368",
-    "__props": "7c8d5fbb"
-  },
-  "/es/docs/clients-vendors/managing-clients-39f": {
-    "__comp": "17896441",
-    "content": "0c272881"
-  },
-  "/es/docs/clients-vendors/managing-vendors-d94": {
-    "__comp": "17896441",
-    "content": "ba10053c"
-  },
-  "/es/docs/core-features/accounting/reports/trial-balance-f5c": {
-    "__comp": "17896441",
-    "content": "5d502067"
-  },
-  "/es/docs/faqs/accounting-faqs-3a7": {
-    "__comp": "17896441",
-    "content": "e9d574a0"
-  },
-  "/es/docs/faqs/general-faqs-501": {
-    "__comp": "17896441",
-    "content": "d188c88d"
-  },
-  "/es/docs/getting-started/as-an-accountant-60a": {
-    "__comp": "17896441",
-    "content": "6c861a7c"
-  },
-  "/es/docs/getting-started/overview-c33": {
-    "__comp": "17896441",
-    "content": "d014d50b"
-  },
-  "/es/docs/getting-started/with-banking-7e6": {
-    "__comp": "17896441",
-    "content": "05f0229b"
-  },
-  "/es/docs/getting-started/with-invoicing-a1b": {
-    "__comp": "17896441",
-    "content": "52832dcf"
-  },
-  "/es/docs/glossary/accounting-fundamentals-2ce": {
-    "__comp": "17896441",
-    "content": "9b46d4c3"
-  },
-  "/es/docs/glossary/accounts-and-transactions-0e6": {
-    "__comp": "17896441",
-    "content": "b570f20d"
-  },
-  "/es/docs/glossary/assets-and-liabilities-19d": {
-    "__comp": "17896441",
-    "content": "6ff0d4a4"
-  },
-  "/es/docs/glossary/cash-and-banking-ec4": {
-    "__comp": "17896441",
-    "content": "3445f0c2"
-  },
-  "/es/docs/glossary/financial-statements-9a5": {
-    "__comp": "17896441",
-    "content": "a58c170a"
-  },
-  "/es/docs/glossary/technical-terms-16a": {
-    "__comp": "17896441",
-    "content": "3032b2e5"
-  },
-  "/es/docs/integrations/banking/connect-saltedge-a7a": {
-    "__comp": "17896441",
-    "content": "d66039f5"
-  },
-  "/es/docs/integrations/banking/connect-stripe-dad": {
-    "__comp": "17896441",
-    "content": "f7debbee"
-  },
-  "/es/docs/integrations/banking/connect-wio-a03": {
-    "__comp": "17896441",
-    "content": "03400f32"
-  },
-  "/es/docs/integrations/banking/connect-yodlee-9d9": {
-    "__comp": "17896441",
-    "content": "2dcbcd20"
-  },
-  "/es/docs/integrations/banking/overview-376": {
-    "__comp": "17896441",
-    "content": "f4cc1b06"
-  },
-  "/es/docs/integrations/overview-007": {
-    "__comp": "17896441",
-    "content": "6bfa736a"
-  },
-  "/es/docs/integrations/payments/gocardless-integration-6e6": {
-    "__comp": "17896441",
-    "content": "802e3365"
-  },
-  "/es/docs/integrations/payments/overview-fe9": {
-    "__comp": "17896441",
-    "content": "d63e7a00"
-  },
-  "/es/docs/integrations/payments/paypal-integration-87c": {
-    "__comp": "17896441",
-    "content": "c7c863a8"
-  },
-  "/es/docs/integrations/payments/stripe-integration-38b": {
-    "__comp": "17896441",
-    "content": "d7f6a0cc"
-  },
-  "/es/docs/intro-081": {
-    "__comp": "17896441",
-    "content": "359fb69f"
-  },
-  "/es/docs/invoicing/creating-invoices-e8e": {
-    "__comp": "17896441",
-    "content": "779edf92"
-  },
-  "/es/docs/invoicing/creating-quotes-680": {
-    "__comp": "17896441",
-    "content": "c10d9308"
-  },
-  "/es/docs/invoicing/invoice-management-3b6": {
-    "__comp": "17896441",
-    "content": "deedc712"
-  },
-  "/es/docs/invoicing/quote-management-631": {
-    "__comp": "17896441",
-    "content": "ab6fe1e6"
-  },
-  "/es/docs/invoicing/recurring-invoices-efb": {
-    "__comp": "17896441",
-    "content": "45e54cff"
-  },
-  "/es/docs/invoicing/sending-invoices-3f0": {
-    "__comp": "17896441",
-    "content": "cc24318e"
-  },
-  "/es/docs/line-items/expenses-b87": {
-    "__comp": "17896441",
-    "content": "c9ad2087"
-  },
-  "/es/docs/line-items/mileage-a30": {
-    "__comp": "17896441",
-    "content": "a99c5629"
-  },
-  "/es/docs/line-items/products-and-services-364": {
-    "__comp": "17896441",
-    "content": "97677716"
-  },
-  "/es/docs/line-items/time-tracking-ec6": {
-    "__comp": "17896441",
-    "content": "4ffab264"
-  },
-  "/es/docs/reporting/balance-sheet-b74": {
-    "__comp": "17896441",
-    "content": "7ed057bc"
-  },
-  "/es/docs/reporting/cash-flow-23c": {
-    "__comp": "17896441",
-    "content": "6fe2634b"
-  },
-  "/es/docs/reporting/client-aging-b9a": {
-    "__comp": "17896441",
-    "content": "6646e872"
-  },
-  "/es/docs/reporting/general-ledger-0be": {
-    "__comp": "17896441",
-    "content": "7ad961b2"
-  },
-  "/es/docs/reporting/profit-and-loss-4ab": {
-    "__comp": "17896441",
-    "content": "57b3940b"
-  },
-  "/es/docs/reporting/sales-tax-c20": {
-    "__comp": "17896441",
-    "content": "5021feac"
-  },
-  "/es/docs/reporting/transactions-by-account-db0": {
-    "__comp": "17896441",
-    "content": "c5b348cd"
-  },
-  "/es/docs/settings/company-settings-f2b": {
-    "__comp": "17896441",
-    "content": "c42d5c37"
-  },
-  "/es/docs/settings/subscription-billing-019": {
-    "__comp": "17896441",
-    "content": "91016205"
-  },
-  "/es/docs/settings/tax-settings-c4a": {
-    "__comp": "17896441",
-    "content": "70b94cf7"
-  },
-  "/es/docs/settings/user-management-cf3": {
-    "__comp": "17896441",
-    "content": "bb84c9f6"
-  },
-  "/es/docs/tutorial-basics/congratulations-ec6": {
-    "__comp": "17896441",
-    "content": "822bd8ab"
-  },
-  "/es/docs/tutorial-basics/create-a-blog-post-199": {
-    "__comp": "17896441",
-    "content": "533a09ca"
-  },
-  "/es/docs/tutorial-basics/create-a-document-a82": {
-    "__comp": "17896441",
-    "content": "1e4232ab"
-  },
-  "/es/docs/tutorial-basics/create-a-page-77a": {
-    "__comp": "17896441",
-    "content": "5c868d36"
-  },
-  "/es/docs/tutorial-basics/deploy-your-site-20e": {
-    "__comp": "17896441",
-    "content": "f55d3e7a"
-  },
-  "/es/docs/tutorial-basics/markdown-features-a38": {
-    "__comp": "17896441",
-    "content": "18c41134"
-  },
-  "/es/docs/tutorial-extras/manage-docs-versions-5ae": {
-    "__comp": "17896441",
-    "content": "dff1c289"
-  },
-  "/es/docs/tutorial-extras/translate-your-site-d51": {
-    "__comp": "17896441",
-    "content": "e44a2883"
-  },
-  "/es/-8a4": {
-    "__comp": "1f391b9e",
+  "/__docusaurus/debug/config-5ba": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/content-a2b": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     },
-    "content": "4ae7c1fb"
+    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
+  },
+  "/__docusaurus/debug/globalData-c3c": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/metadata-156": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/registry-88c": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/routes-000": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/blog-b2f": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-766-e3c"
+      },
+      {
+        "content": "content---blogf-4-f-cd7"
+      },
+      {
+        "content": "content---blog-871-381"
+      },
+      {
+        "content": "content---blog-925-e00"
+      }
+    ],
+    "__props": "__props---blogc-15-573"
+  },
+  "/blog/archive-182": {
+    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "__props": "__props---blog-archivef-81-229"
+  },
+  "/blog/authors-0b7": {
+    "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "__props": "__props---blog-authorsef-8-44f"
+  },
+  "/blog/authors/all-sebastien-lorber-articles-4a1": {
+    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "items": [
+      {
+        "content": "content---blog-766-e3c"
+      },
+      {
+        "content": "content---blogf-4-f-cd7"
+      },
+      {
+        "content": "content---blog-925-e00"
+      }
+    ],
+    "sidebar": "sidebar---blog-814-8ac",
+    "__props": "__props---blog-authors-all-sebastien-lorber-articlesc-9-c-639"
+  },
+  "/blog/authors/yangshun-a68": {
+    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "items": [
+      {
+        "content": "content---blog-766-e3c"
+      },
+      {
+        "content": "content---blog-871-381"
+      },
+      {
+        "content": "content---blog-925-e00"
+      }
+    ],
+    "sidebar": "sidebar---blog-814-8ac",
+    "__props": "__props---blog-authors-yangshun-1-de-d0c"
+  },
+  "/blog/first-blog-post-89a": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-first-blog-poste-27-4a1"
+  },
+  "/blog/long-blog-post-9ad": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-long-blog-post-736-bc7"
+  },
+  "/blog/mdx-blog-post-e9f": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-mdx-blog-post-593-37b"
+  },
+  "/blog/tags-287": {
+    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "__props": "__props---blog-tags-3-a-2-fa2"
+  },
+  "/blog/tags/docusaurus-704": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-766-e3c"
+      },
+      {
+        "content": "content---blogf-4-f-cd7"
+      },
+      {
+        "content": "content---blog-871-381"
+      },
+      {
+        "content": "content---blog-925-e00"
+      }
+    ],
+    "__props": "__props---blog-tags-docusaurus-321-832"
+  },
+  "/blog/tags/facebook-858": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-766-e3c"
+      }
+    ],
+    "__props": "__props---blog-tags-facebooke-5-a-514"
+  },
+  "/blog/tags/hello-299": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-766-e3c"
+      },
+      {
+        "content": "content---blog-871-381"
+      }
+    ],
+    "__props": "__props---blog-tags-hellof-82-2fd"
+  },
+  "/blog/tags/hola-00d": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-925-e00"
+      }
+    ],
+    "__props": "__props---blog-tags-hola-5-e-9-9a3"
+  },
+  "/blog/welcome-d2b": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-welcomed-9-f-ffb"
+  },
+  "/intro-ad5": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---introa-74-6d4"
+    },
+    "content": "content---intro-2-c-3-35b"
+  },
+  "/markdown-page-3d7": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---introa-74-6d4"
+    },
+    "content": "content---markdown-page-393-028"
+  },
+  "/docs-fb3": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---docsaba-d7c"
+    }
+  },
+  "/docs-57a": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---docs-005-788"
+  },
+  "/docs/tags-fce": {
+    "__comp": "__comp---theme-doc-tags-list-page-372-89e",
+    "__props": "__props---docs-tags-898-65c"
+  },
+  "/docs/tags/account-transaction-287": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-account-transaction-984-cb2"
+  },
+  "/docs/tags/account-transfers-2a5": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-account-transfersa-2-e-43a"
+  },
+  "/docs/tags/accounting-fbf": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-accounting-1-ff-e5b"
+  },
+  "/docs/tags/accounts-payable-b41": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-accounts-payable-4-c-2-82e"
+  },
+  "/docs/tags/automation-81d": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-automation-720-923"
+  },
+  "/docs/tags/bank-reconciliation-f9d": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-bank-reconciliation-57-b-143"
+  },
+  "/docs/tags/bank-statements-c30": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-bank-statementsd-06-b19"
+  },
+  "/docs/tags/banking-9b3": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-banking-421-f2f"
+  },
+  "/docs/tags/chart-of-accounts-21c": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-chart-of-accounts-946-918"
+  },
+  "/docs/tags/client-073": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-client-872-7aa"
+  },
+  "/docs/tags/data-management-005": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-data-management-600-9d7"
+  },
+  "/docs/tags/documentation-a92": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-documentationf-94-e66"
+  },
+  "/docs/tags/faq-177": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-faqcc-2-56e"
+  },
+  "/docs/tags/financial-reports-83f": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-financial-reportsaaf-f18"
+  },
+  "/docs/tags/foreign-exchange-5bd": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-foreign-exchangeafe-755"
+  },
+  "/docs/tags/go-cardless-637": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-go-cardless-6-e-8-16a"
+  },
+  "/docs/tags/integrations-9da": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-integrations-6-b-8-f08"
+  },
+  "/docs/tags/internal-transfers-3f9": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-internal-transfers-75-e-c22"
+  },
+  "/docs/tags/invoice-aea": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-invoice-3-d-0-c25"
+  },
+  "/docs/tags/invoice-payment-b75": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-invoice-payment-6-a-3-fee"
+  },
+  "/docs/tags/journal-entries-97a": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-journal-entries-43-e-b05"
+  },
+  "/docs/tags/journal-entry-be0": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-journal-entry-1-e-3-fb7"
+  },
+  "/docs/tags/multi-currency-ab5": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-multi-currency-14-f-fc1"
+  },
+  "/docs/tags/pay-pal-fbe": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-pay-pal-0-a-7-e95"
+  },
+  "/docs/tags/payment-gateways-01d": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-payment-gateways-609-b8a"
+  },
+  "/docs/tags/quote-16c": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-quotee-32-657"
+  },
+  "/docs/tags/reconciliation-e32": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-reconciliation-635-3c5"
+  },
+  "/docs/tags/reporting-712": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-reporting-8-e-3-877"
+  },
+  "/docs/tags/reports-dfb": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-reports-75-c-588"
+  },
+  "/docs/tags/sales-746": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-sales-85-c-e37"
+  },
+  "/docs/tags/salt-edge-eca": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-salt-edge-5-e-0-e78"
+  },
+  "/docs/tags/stripe-16b": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-stripef-66-5f6"
+  },
+  "/docs/tags/transaction-management-cf8": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-transaction-management-16-b-d2c"
+  },
+  "/docs/tags/transaction-matching-d39": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-transaction-matching-9-aa-ded"
+  },
+  "/docs/tags/transactions-e42": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-transactions-710-0fb"
+  },
+  "/docs/tags/trial-balance-fdf": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-trial-balance-69-f-e9d"
+  },
+  "/docs/tags/troubleshooting-52e": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-troubleshooting-984-6e3"
+  },
+  "/docs/tags/wio-6ad": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-wio-741-f0a"
+  },
+  "/docs/tags/yodlee-0a9": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---docs-tags-yodleee-4-b-8ad"
+  },
+  "/docs-3c0": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/accounting/journal-entries/multi-journal-entries-381": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-accounting-journal-entries-multi-journal-entries-89-a-dbf"
+  },
+  "/docs/accounting/journal-entries/overview-18b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-accounting-journal-entries-overview-3-f-5-37d"
+  },
+  "/docs/accounting/reconciliation/guides/reconciliation-best-practices-c55": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-accounting-reconciliation-guides-reconciliation-best-practices-385-5f2"
+  },
+  "/docs/accounting/reimbursement-guide-f43": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-accounting-reimbursement-guidea-22-57c"
+  },
+  "/docs/category/financial-reports-65b": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-financial-reports-6-df-c4a"
+  },
+  "/docs/category/getting-started-4e8": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-getting-startedc-26-887"
+  },
+  "/docs/category/invoicing--quotes-fc9": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-invoicing-quotes-23-b-cd0"
+  },
+  "/docs/category/journal-entry-guides-061": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-journal-entry-guides-075-9ba"
+  },
+  "/docs/category/products--expenses-2ab": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-products-expenses-817-79c"
+  },
+  "/docs/category/reconciliation-guides-1d2": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-reconciliation-guides-7-cc-d38"
+  },
+  "/docs/category/tutorial---basics-20e": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-tutorial-basicsc-8-a-e51"
+  },
+  "/docs/category/tutorial---extras-9ad": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-tutorial-extras-6-bb-a82"
+  },
+  "/docs/clients-vendors/managing-clients-ea9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-clients-vendors-managing-clients-898-1cf"
+  },
+  "/docs/clients-vendors/managing-vendors-fe2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-clients-vendors-managing-vendors-83-a-d6c"
+  },
+  "/docs/core-features/accounting/account-reconciliation/accounting-faq-edd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-core-features-accounting-account-reconciliation-accounting-faq-584-c82"
+  },
+  "/docs/core-features/accounting/accounting/overview-18b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-core-features-accounting-accounting-overview-6-a-2-cc2"
+  },
+  "/docs/core-features/accounting/chart-of-accounts-3cc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-core-features-accounting-chart-of-accountsaba-32a"
+  },
+  "/docs/core-features/accounting/journal-entries/guides/account-reconciliation-069": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-core-features-accounting-journal-entries-guides-account-reconciliation-4-a-7-b6b"
+  },
+  "/docs/core-features/accounting/journal-entries/guides/accounts-payable-transactions-28b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-core-features-accounting-journal-entries-guides-accounts-payable-transactionsfb-0-570"
+  },
+  "/docs/core-features/accounting/journal-entries/guides/accounts-receivable-transactions-403": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-core-features-accounting-journal-entries-guides-accounts-receivable-transactionsb-0-c-901"
+  },
+  "/docs/core-features/accounting/journal-entries/guides/bank-account-reconciliation-3c0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-core-features-accounting-journal-entries-guides-bank-account-reconciliationb-0-f-581"
+  },
+  "/docs/core-features/accounting/journal-entries/guides/exporting-transactions-e8a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-core-features-accounting-journal-entries-guides-exporting-transactionsc-89-9f6"
+  },
+  "/docs/core-features/accounting/journal-entries/guides/handling-reconciliation-discrepancies-2b7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-core-features-accounting-journal-entries-guides-handling-reconciliation-discrepancies-0-bf-8bf"
+  },
+  "/docs/core-features/accounting/journal-entries/guides/how-fiskl-handles-reconciliation-3ba": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-core-features-accounting-journal-entries-guides-how-fiskl-handles-reconciliationebd-3ac"
+  },
+  "/docs/core-features/accounting/journal-entries/guides/internal-transfers-a38": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-core-features-accounting-journal-entries-guides-internal-transfers-387-759"
+  },
+  "/docs/core-features/accounting/journal-entries/guides/manual-transactions-72c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-core-features-accounting-journal-entries-guides-manual-transactionsd-97-48b"
+  },
+  "/docs/core-features/accounting/journal-entries/guides/match-and-split-transactions-ac4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-core-features-accounting-journal-entries-guides-match-and-split-transactionsdb-0-e11"
+  },
+  "/docs/core-features/accounting/journal-entries/guides/move-transactions-0f2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-core-features-accounting-journal-entries-guides-move-transactions-8-ec-5ab"
+  },
+  "/docs/core-features/accounting/journal-entries/guides/multi-currency-transactions-f27": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-core-features-accounting-journal-entries-guides-multi-currency-transactionsc-13-540"
+  },
+  "/docs/core-features/accounting/journal-entries/guides/opening-balances-983": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-core-features-accounting-journal-entries-guides-opening-balances-5-b-0-0a9"
+  },
+  "/docs/core-features/accounting/journal-entries/guides/reconciliation-reports-9a3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-core-features-accounting-journal-entries-guides-reconciliation-reportsf-47-76e"
+  },
+  "/docs/core-features/accounting/reports/trial-balance-abe": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-core-features-accounting-reports-trial-balance-508-85e"
+  },
+  "/docs/core-features/invoicing/invoice-management-bae": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-invoicing-invoice-management-8-cb-2bb"
+  },
+  "/docs/core-features/quotes/creating-quotes-fcf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-core-features-quotes-creating-quotes-6-cf-e90"
+  },
+  "/docs/core-features/quotes/quote-management-1a4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-invoicing-quote-managementb-1-d-e6a"
+  },
+  "/docs/faqs/accounting-faqs-6c6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-faqs-accounting-faqs-722-a90"
+  },
+  "/docs/faqs/general-faqs-14f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-faqs-general-faqs-399-a51"
+  },
+  "/docs/getting-started/as-an-accountant-690": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-getting-started-as-an-accountant-206-daf"
+  },
+  "/docs/getting-started/overview-3b4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-getting-started-overview-7-a-9-af0"
+  },
+  "/docs/getting-started/with-banking-ca9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-getting-started-with-bankinge-28-873"
+  },
+  "/docs/getting-started/with-invoicing-222": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-getting-started-with-invoicing-798-07e"
+  },
+  "/docs/glossary/accounting-fundamentals-188": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-glossary-accounting-fundamentals-31-c-67d"
+  },
+  "/docs/glossary/accounts-and-transactions-ebd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-glossary-accounts-and-transactions-3-b-9-750"
+  },
+  "/docs/glossary/assets-and-liabilities-828": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-glossary-assets-and-liabilities-212-a27"
+  },
+  "/docs/glossary/cash-and-banking-9e0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-glossary-cash-and-banking-273-f55"
+  },
+  "/docs/glossary/financial-statements-0e3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-glossary-financial-statements-7-cd-fc4"
+  },
+  "/docs/glossary/technical-terms-d3c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-glossary-technical-terms-31-d-e4a"
+  },
+  "/docs/integrations/banking/connecting-saltedge-7d5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-integrations-banking-connecting-saltedge-2-d-7-ddc"
+  },
+  "/docs/integrations/banking/connecting-stripe-dfb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-integrations-banking-connecting-stripec-2-d-f06"
+  },
+  "/docs/integrations/banking/connecting-wio-240": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-integrations-banking-connecting-wio-4-f-7-a5d"
+  },
+  "/docs/integrations/banking/connecting-yodlee-48f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-integrations-banking-connecting-yodlee-8-a-7-541"
+  },
+  "/docs/integrations/banking/overview-e9a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-integrations-banking-overview-648-5f1"
+  },
+  "/docs/integrations/overview-0c4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-integrations-overviewfbb-8a4"
+  },
+  "/docs/integrations/payments/gocardless-7f7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-integrations-payments-gocardless-39-f-a4d"
+  },
+  "/docs/integrations/payments/overview-aa7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-integrations-payments-overviewac-8-91c"
+  },
+  "/docs/integrations/payments/paypal-56d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-integrations-payments-paypal-1-fb-acb"
+  },
+  "/docs/integrations/payments/stripe-b1e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-integrations-payments-stripee-76-96b"
+  },
+  "/docs/intro-61d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-intro-0-e-3-be1"
+  },
+  "/docs/invoicing/creating-invoices-cac": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-invoicing-creating-invoices-0-b-0-e9b"
+  },
+  "/docs/invoicing/recurring-invoices-ca1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-invoicing-recurring-invoicesabc-4e8"
+  },
+  "/docs/invoicing/sending-invoices-dce": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-invoicing-sending-invoiceseeb-75a"
+  },
+  "/docs/line-items/expenses-7b1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-line-items-expensesff-9-5c1"
+  },
+  "/docs/line-items/mileage-504": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-line-items-mileageaec-7e6"
+  },
+  "/docs/line-items/products-and-services-885": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-line-items-products-and-servicesfcc-f6c"
+  },
+  "/docs/line-items/time-tracking-753": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-line-items-time-tracking-784-5b0"
+  },
+  "/docs/reporting/balance-sheet-8f5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-reporting-balance-sheet-0-c-1-edc"
+  },
+  "/docs/reporting/cash-flow-afd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-reporting-cash-flowb-44-7ef"
+  },
+  "/docs/reporting/client-aging-380": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-reporting-client-aging-8-c-2-d13"
+  },
+  "/docs/reporting/general-ledger-7b7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-reporting-general-ledgerd-2-c-ff5"
+  },
+  "/docs/reporting/profit-and-loss-b0d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-reporting-profit-and-loss-627-b17"
+  },
+  "/docs/reporting/sales-tax-23b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-reporting-sales-taxb-42-c44"
+  },
+  "/docs/reporting/transactions-by-account-1ad": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-reporting-transactions-by-accounte-38-477"
+  },
+  "/docs/settings/company-settings-a3d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-settings-company-settingse-00-151"
+  },
+  "/docs/settings/subscription-billing-719": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-settings-subscription-billingbff-5d7"
+  },
+  "/docs/settings/tax-settings-0e8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-settings-tax-settingscad-a1e"
+  },
+  "/docs/settings/user-management-f68": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-settings-user-management-7-e-7-eb8"
+  },
+  "/docs/tutorial-basics/congratulations-458": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tutorial-basics-congratulations-822-958"
+  },
+  "/docs/tutorial-basics/create-a-blog-post-108": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tutorial-basics-create-a-blog-post-533-e85"
+  },
+  "/docs/tutorial-basics/create-a-document-8fc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tutorial-basics-create-a-document-1-e-4-078"
+  },
+  "/docs/tutorial-basics/create-a-page-951": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tutorial-basics-create-a-page-5-c-8-e19"
+  },
+  "/docs/tutorial-basics/deploy-your-site-4f5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tutorial-basics-deploy-your-sitef-55-a3f"
+  },
+  "/docs/tutorial-basics/markdown-features-b05": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tutorial-basics-markdown-features-18-c-a79"
+  },
+  "/docs/tutorial-extras/manage-docs-versions-978": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tutorial-extras-manage-docs-versionsdff-6d4"
+  },
+  "/docs/tutorial-extras/translate-your-site-f9a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tutorial-extras-translate-your-sitee-44-ddf"
+  },
+  "/-2bc": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---introa-74-6d4"
+    },
+    "content": "content---f-39-267"
   }
 }

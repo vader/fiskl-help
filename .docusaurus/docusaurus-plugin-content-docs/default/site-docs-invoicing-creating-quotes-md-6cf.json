@@ -1,29 +1,60 @@
 {
   "id": "invoicing/creating-quotes",
-  "title": "creating quotes",
-  "description": "Placeholder for creating quotes",
+  "title": "Creating Quotes",
+  "description": "Create professional, branded quotes with Fiskl's customizable templates. Impress clients and win more business opportunities.",
   "source": "@site/docs/invoicing/creating-quotes.md",
   "sourceDirName": "invoicing",
-  "slug": "/invoicing/creating-quotes",
-  "permalink": "/docs/invoicing/creating-quotes",
+  "slug": "/core-features/quotes/creating-quotes",
+  "permalink": "/docs/core-features/quotes/creating-quotes",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/invoicing/creating-quotes.md",
-  "tags": [],
+  "tags": [
+    {
+      "inline": true,
+      "label": "Quote",
+      "permalink": "/docs/tags/quote"
+    },
+    {
+      "inline": true,
+      "label": "Client",
+      "permalink": "/docs/tags/client"
+    },
+    {
+      "inline": true,
+      "label": "Sales",
+      "permalink": "/docs/tags/sales"
+    }
+  ],
   "version": "current",
-  "sidebarPosition": 1,
+  "sidebarPosition": 6,
   "frontMatter": {
-    "title": "creating quotes",
-    "description": "Placeholder for creating quotes",
-    "sidebar_position": 1
+    "title": "Creating Quotes",
+    "sidebar_position": 6,
+    "description": "Create professional, branded quotes with Fiskl's customizable templates. Impress clients and win more business opportunities.",
+    "keywords": [
+      "Quote creation Fiskl",
+      "professional quotes",
+      "customizable templates",
+      "business branding",
+      "sales software"
+    ],
+    "slug": "/core-features/quotes/creating-quotes",
+    "toc_min_heading_level": 2,
+    "toc_max_heading_level": 4,
+    "tags": [
+      "Quote",
+      "Client",
+      "Sales"
+    ]
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "creating invoices",
-    "permalink": "/docs/invoicing/creating-invoices"
+    "title": "sending invoices",
+    "permalink": "/docs/invoicing/sending-invoices"
   },
   "next": {
-    "title": "invoice management",
-    "permalink": "/docs/invoicing/invoice-management"
+    "title": "Quote Management",
+    "permalink": "/docs/core-features/quotes/quote-management"
   }
 }
