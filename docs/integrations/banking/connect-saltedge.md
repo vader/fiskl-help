@@ -136,6 +136,5 @@ If the connection shows as active but transactions don't sync:
 
 ## Related Topics
 
-- [Managing bank transactions](/docs/banking/managing-transactions)
 - [Reconciling accounts](/docs/banking/reconciliation)
 - [Banking overview](/docs/banking/overview)

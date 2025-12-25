@@ -2,9 +2,8 @@
   "label": "Reconciliation Guides",
   "position": 1,
   "link": {
-    "type": "generated-index",
-    "title": "Reconciliation Guides",
-    "description": "Comprehensive guides for bank reconciliation, handling discrepancies, and maintaining accurate financial records in Fiskl.",
-    "keywords": ["reconciliation", "bank statements", "transaction matching", "accounting accuracy"]
-  }
+    "type": "doc",
+    "id": "accounting/reconciliation/guides/overview"
+  },
+  "description": "Step-by-step guides for bank reconciliation, discrepancy resolution, and reporting."
 }

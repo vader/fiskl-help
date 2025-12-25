@@ -761,6 +761,377 @@ Ensure you have:
 </details>
 ```
 
+# NAVIGATION STRUCTURE ADDITION TO DSL
+
+Add this new section to `documentation-standards-dsl.md` after the `###############CONTENT_STRUCTURE_PATTERNS##########>` section:
+
+---
+
+###############NAVIGATION_ARCHITECTURE############>
+
+## Category Architecture Rule
+
+**Every primary sidebar category MUST have both:**
+1. A `_category_.json` file
+2. A corresponding `overview.md` file
+
+This ensures users receive a high-level conceptual summary (the "Why") before diving into specific guides (the "How"). This structure is critical for RAG AI to maintain context across nested pages.
+
+## The Why Before the How
+
+### Problem Without Overview
+When users click a top-level category and land directly on a specific guide:
+- They lack context about the broader feature area
+- They don't understand how different guides relate
+- AI systems can't establish proper context hierarchy
+- Navigation feels disjointed and confusing
+
+### Solution With Overview
+The overview provides:
+- **Conceptual foundation** - What this category is about
+- **Key concepts** - Essential terminology users need to know
+- **Feature relationships** - How different guides connect
+- **Navigation aid** - DocCardList showing all available guides
+
+## Category Structure Pattern
+
+```
+docs/[category]/
+├── _category_.json          # Category metadata and linking
+├── overview.md              # Category landing page (the "Why")
+├── guide-one.md            # Specific guide (the "How")
+├── guide-two.md            # Specific guide (the "How")
+└── guide-three.md          # Specific guide (the "How")
+```
+
+## _category_.json Template
+
+Place this file inside your category folder (e.g., `docs/accounting/_category_.json`).
+
+```json
+{
+  "label": "Category Name",
+  "position": 2,
+  "link": {
+    "type": "doc",
+    "id": "category/overview"
+  },
+  "description": "Brief description of what this category covers (150 chars max)"
+}
+```
+
+**Field Definitions:**
+
+| Field | Purpose | Rules |
+|-------|---------|-------|
+| `label` | Category name in sidebar | Use proper capitalization, match category folder |
+| `position` | Sidebar sort order | Numerical, 1-based, determines display order |
+| `link.type` | Link type | Always "doc" for overview linking |
+| `link.id` | Overview page path | Format: "category/overview" (no .md extension) |
+| `description` | Category tooltip/meta | Max 150 characters, appears in certain contexts |
+
+## Overview.md Template
+
+```markdown
+---
+title: "[Category Name] Overview"
+description: "High-level guide to [main purpose] in Fiskl covering [key areas]."
+sidebar_position: 1
+---
+
+# [Category Name]
+
+This section explains [what this category is about] and helps you [primary user goal].
+
+## Why Use [Category Name]
+
+[2-3 sentences explaining the value and purpose of this feature area]
+
+**Key benefits:**
+- Benefit one
+- Benefit two
+- Benefit three
+
+## Key Concepts
+
+Understanding these concepts is essential for working with [category name]:
+
+- **Term One**: Definition in plain language
+- **Term Two**: Definition in plain language
+- **Term Three**: Definition in plain language
+
+## How It Works
+
+[2-3 paragraphs explaining the general workflow or process]
+
+1. **Step/Concept One**: Brief explanation
+2. **Step/Concept Two**: Brief explanation
+3. **Step/Concept Three**: Brief explanation
+
+---
+
+## Available Guides
+
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />
+```
+
+## Real Example: Banking Category
+
+**File: `docs/integrations/banking/_category_.json`**
+
+```json
+{
+  "label": "Banking Connections",
+  "position": 1,
+  "link": {
+    "type": "doc",
+    "id": "integrations/banking/overview"
+  },
+  "description": "Connect your bank accounts to Fiskl for automated transaction imports and reconciliation"
+}
+```
+
+**File: `docs/integrations/banking/overview.md`**
+
+```markdown
+---
+title: "Banking Connections Overview"
+description: "Learn how to connect and manage your bank accounts, credit cards, and payment providers in Fiskl for automated bookkeeping."
+sidebar_position: 1
+---
+
+# Banking Connections
+
+Banking connections allow you to link your real-world financial accounts directly to Fiskl. By automating the flow of data, you eliminate manual data entry, reduce human error, and ensure your financial records are always up to date.
+
+## Why Connect Your Bank to Fiskl?
+
+Connecting your accounts is the first step toward **Zero-touch reconciliation**. Instead of uploading CSV files or manually entering transactions, Fiskl automatically fetches your data and prepares it for your review.
+
+* **Real-Time Visibility**: See your actual cash flow across all accounts in one dashboard.
+* **Automated Categorization**: Fiskl learns from your habits to suggest categories for incoming transactions.
+* **Multi-Currency Accuracy**: Automatically handles exchange rates for international transfers and accounts.
+* **Security**: We use industry-standard **Open Banking** protocols. Fiskl never stores your bank login credentials.
+
+---
+
+## Supported Connection Providers
+
+Fiskl partners with world-leading financial aggregators to provide global coverage. The provider you choose depends on your bank's location and the type of account you are connecting:
+
+| Provider | Primary Regions | Best For |
+| :--- | :--- | :--- |
+| **Stripe** | Global | Payment processing, payouts, and multi-currency sales. |
+| **Wio Bank** | UAE / Middle East | Digital business banking and automated transfers. |
+| **Salt Edge** | Europe, Asia, Middle East | Open Banking connections for traditional retail banks. |
+| **Yodlee** | USA, Canada, South Africa | Comprehensive coverage for North American financial institutions. |
+
+---
+
+## How it Works
+
+1. **Connect**: You authorize a secure connection between your bank and Fiskl via one of our providers.
+2. **Sync**: Fiskl imports your transaction history (usually starting from a date you choose).
+3. **Categorize**: Transactions appear in your **Banking** tab, where Fiskl suggests matching ledger entries.
+4. **Reconcile**: Confirm the matches to update your **Chart of Accounts** and financial reports instantly.
+
+## Getting Started
+
+To begin, navigate to **Banking** in the left menu. From there, you can select **Connect bank** to see the list of available providers and search for your specific institution.
+
+:::tip
+If you operate in multiple regions, you can use a combination of providers (e.g., Yodlee for a US account and Salt Edge for a UK account) within the same Fiskl company.
+:::
+
+---
+
+## Explore Connection Guides
+
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />
+```
+
+**Supporting Guides:**
+- `connect-saltedge.md` - How to connect via Salt Edge
+- `connect-stripe.md` - How to connect via Stripe
+- `connect-wio.md` - How to connect via Wio Bank
+- `connect-yodlee.md` - How to connect via Yodlee
+
+## Overview vs Guide Distinction
+
+### Overview Pages (The "Why")
+- **Purpose**: Provide context, concepts, and navigation
+- **Audience**: Users exploring what a feature area offers
+- **Content Focus**:
+  - What this category is about
+  - Why users should care
+  - Key concepts and terminology
+  - How different guides relate
+  - Navigation to specific guides
+
+**Characteristics:**
+- Broader, more conceptual
+- No step-by-step instructions
+- Multiple sections explaining different aspects
+- Ends with DocCardList for navigation
+
+### Guide Pages (The "How")
+- **Purpose**: Provide specific, actionable instructions
+- **Audience**: Users ready to accomplish a specific task
+- **Content Focus**:
+  - Step-by-step procedures
+  - Specific configurations
+  - Troubleshooting
+  - Examples and screenshots
+
+**Characteristics:**
+- Narrow, task-focused
+- Sequential numbered steps
+- Specific UI interactions
+- Clear prerequisites and outcomes
+
+## Navigation Hierarchy Best Practices
+
+### Shallow is Better Than Deep
+
+**❌ Too Deep (Avoid):**
+```
+docs/
+└── category/
+    └── subcategory/
+        └── sub-subcategory/
+            └── guide.md  # Too many levels!
+```
+
+**✅ Good Depth:**
+```
+docs/
+└── category/
+    ├── overview.md
+    ├── guide-one.md
+    └── subcategory/
+        ├── overview.md
+        └── guide-two.md
+```
+
+**Maximum recommended depth: 3 levels**
+
+### Logical Grouping
+
+Group guides by:
+1. **User workflow** - Follow natural task progression
+2. **Feature similarity** - Related features together
+3. **Skill level** - Basic before advanced (use sidebar_position)
+
+### Sidebar Position Strategy
+
+Use `sidebar_position` to control order:
+
+```markdown
+# In overview.md
+sidebar_position: 1  # Always first in category
+
+# In basic guides
+sidebar_position: 2, 3, 4
+
+# In advanced guides
+sidebar_position: 10, 11, 12
+
+# Leave gaps (2, 4, 6) for future insertions
+```
+
+## Category Naming Conventions
+
+**✅ Good Category Names:**
+- Banking Connections
+- Invoice Management
+- Expense Tracking
+- Accounting Fundamentals
+
+**❌ Poor Category Names:**
+- Misc
+- Other
+- Advanced (too vague)
+- Features (too generic)
+
+**Rules:**
+- Use plural forms when category contains multiple items
+- Be specific and descriptive
+- Reflect user mental models, not internal architecture
+- 1-3 words maximum
+
+## Required Overview Sections
+
+Every overview must include:
+
+1. **Opening Summary** (Required)
+  - "This section explains [what] and helps you [accomplish goal]"
+
+2. **Why Section** (Required)
+  - Explains value and benefits
+  - 2-3 sentences minimum
+
+3. **Key Concepts** (Recommended)
+  - Define important terminology
+  - Use definition list format
+
+4. **How It Works** (Recommended)
+  - High-level process explanation
+  - 2-3 paragraphs
+
+5. **DocCardList** (Required)
+  - Always at the end
+  - Shows all guides in category
+
+## Common Mistakes to Avoid
+
+### ❌ Missing _category_.json
+**Problem:** Category appears in sidebar but clicking it shows first alphabetical guide instead of overview.
+
+**Solution:** Always create `_category_.json` with proper link to overview.
+
+### ❌ Overview is Too Detailed
+**Problem:** Overview contains step-by-step instructions, making it too long.
+
+**Solution:** Keep overview conceptual. Move procedures to specific guides.
+
+### ❌ No DocCardList
+**Problem:** Users can't see available guides from overview page.
+
+**Solution:** Always end overview with `<DocCardList />`.
+
+### ❌ Inconsistent Naming
+**Problem:** Category folder is "banking" but label is "Bank Connections".
+
+**Solution:** Keep folder names lowercase-hyphenated, but use proper capitalization in label.
+
+### ❌ Overview Not Position 1
+**Problem:** Overview appears in middle or end of sidebar list.
+
+**Solution:** Always set `sidebar_position: 1` in overview frontmatter.
+
+## Checklist for New Categories
+
+When creating a new documentation category:
+
+- [ ] Create category folder with clear, descriptive name
+- [ ] Add `_category_.json` with proper fields
+- [ ] Create `overview.md` as landing page
+- [ ] Set `sidebar_position: 1` in overview
+- [ ] Include opening summary in overview
+- [ ] Add "Why Use [Category]" section
+- [ ] Define key concepts if applicable
+- [ ] Explain high-level workflow
+- [ ] End with `<DocCardList />`
+- [ ] Create at least one guide to accompany overview
+- [ ] Test navigation - clicking category shows overview
+- [ ] Verify DocCardList displays all guides correctly
+
+<###############NAVIGATION_ARCHITECTURE############>
+
 <###############CONTENT_STRUCTURE_PATTERNS##########>
 
 ###############RAG_OPTIMIZATION_RULES###########>

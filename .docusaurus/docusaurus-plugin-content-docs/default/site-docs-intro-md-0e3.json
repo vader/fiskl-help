@@ -20,7 +20,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Getting Started",
-    "permalink": "/docs/category/getting-started"
+    "title": "Getting Started with Fiskl",
+    "permalink": "/docs/getting-started/overview"
   }
 }

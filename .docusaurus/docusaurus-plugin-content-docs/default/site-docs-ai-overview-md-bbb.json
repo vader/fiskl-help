@@ -1,0 +1,36 @@
+{
+  "id": "ai/overview",
+  "title": "Fiskl AI Overview",
+  "description": "Learn how Fiskl's AI-powered features help you automate accounting, get instant answers, and make data-driven business decisions.",
+  "source": "@site/docs/ai/overview.md",
+  "sourceDirName": "ai",
+  "slug": "/ai/overview",
+  "permalink": "/docs/ai/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ai/overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Fiskl AI Overview",
+    "description": "Learn how Fiskl's AI-powered features help you automate accounting, get instant answers, and make data-driven business decisions.",
+    "keywords": [
+      "Fiskl AI",
+      "AI accounting",
+      "automated bookkeeping",
+      "Fi advisor",
+      "AI financial insights"
+    ],
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "reimbursement guide",
+    "permalink": "/docs/accounting/reimbursement-guide"
+  },
+  "next": {
+    "title": "Fi - Your AI Advisor",
+    "permalink": "/docs/ai/fi"
+  }
+}

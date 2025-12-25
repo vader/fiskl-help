@@ -11,8 +11,8 @@
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "accounting/accounting-overview",
-              "path": "/docs/core-features/accounting/accounting/overview",
+              "id": "accounting/accounting-faqs",
+              "path": "/docs/core-features/accounting/account-reconciliation/accounting-faq",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -66,6 +66,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "accounting/journal-entries/guides/overview",
+              "path": "/docs/accounting/journal-entries/guides/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "accounting/journal-entries/multi-journal-entries",
               "path": "/docs/accounting/journal-entries/multi-journal-entries",
               "sidebar": "tutorialSidebar"
@@ -76,8 +81,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "accounting/reconciliation/guides/accounting-faqs",
-              "path": "/docs/core-features/accounting/account-reconciliation/accounting-faq",
+              "id": "accounting/overview",
+              "path": "/docs/accounting/overview",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -96,6 +101,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "accounting/reconciliation/guides/overview",
+              "path": "/docs/accounting/reconciliation/guides/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "accounting/reconciliation/guides/reconciliation-best-practices",
               "path": "/docs/accounting/reconciliation/guides/reconciliation-best-practices",
               "sidebar": "tutorialSidebar"
@@ -107,7 +117,7 @@
             },
             {
               "id": "accounting/reconciliation/overview",
-              "path": "/docs/core-features/accounting/journal-entries/guides/account-reconciliation",
+              "path": "/docs/accounting/reconciliation/overview",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -118,6 +128,11 @@
             {
               "id": "ai/fi",
               "path": "/docs/ai/fi",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ai/overview",
+              "path": "/docs/ai/overview",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -148,6 +163,11 @@
             {
               "id": "getting-started/overview",
               "path": "/docs/getting-started/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/with-banking",
+              "path": "/docs/getting-started/banking",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -386,26 +406,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/getting-started",
-              "path": "/docs/category/getting-started",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/accounting",
-              "path": "/docs/category/accounting",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/journal-entry-guides",
-              "path": "/docs/category/journal-entry-guides",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/reconciliation-guides",
-              "path": "/docs/category/reconciliation-guides",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "/category/invoicing--quotes",
               "path": "/docs/category/invoicing--quotes",
               "sidebar": "tutorialSidebar"
@@ -431,9 +431,7 @@
               "sidebar": "tutorialSidebar"
             }
           ],
-          "draftIds": [
-            "getting-started/with-banking"
-          ],
+          "draftIds": [],
           "sidebars": {
             "tutorialSidebar": {
               "link": {

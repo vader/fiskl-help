@@ -1,4 +1,9 @@
 {
   "label": "Fiskl AI",
-  "position": 3
+  "position": 3,
+  "link": {
+    "type": "doc",
+    "id": "ai/overview"
+  },
+  "description": "AI-powered guidance and automation for your accounting workflows"
 }

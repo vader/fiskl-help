@@ -48,8 +48,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Fiskl Accounting Overview",
-    "permalink": "/docs/core-features/accounting/accounting/overview"
+    "title": "Accounting Overview",
+    "permalink": "/docs/accounting/overview"
   },
   "next": {
     "title": "Understanding Journal Entries",

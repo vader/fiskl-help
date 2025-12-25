@@ -3,6 +3,41 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug', '5ff'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
+    exact: true
+  },
+  {
     path: '/blog',
     component: ComponentCreator('/blog', 'b2f'),
     exact: true
@@ -84,11 +119,11 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '56f'),
+    component: ComponentCreator('/docs', '95d'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '0cc'),
+        component: ComponentCreator('/docs', '570'),
         routes: [
           {
             path: '/docs/tags',
@@ -121,11 +156,6 @@ export default [
             exact: true
           },
           {
-            path: '/docs/tags/ai',
-            component: ComponentCreator('/docs/tags/ai', 'bd3'),
-            exact: true
-          },
-          {
             path: '/docs/tags/automation',
             component: ComponentCreator('/docs/tags/automation', '81d'),
             exact: true
@@ -138,11 +168,6 @@ export default [
           {
             path: '/docs/tags/bank-reconciliation',
             component: ComponentCreator('/docs/tags/bank-reconciliation', 'f9d'),
-            exact: true
-          },
-          {
-            path: '/docs/tags/bank-statements',
-            component: ComponentCreator('/docs/tags/bank-statements', 'c30'),
             exact: true
           },
           {
@@ -203,11 +228,6 @@ export default [
           {
             path: '/docs/tags/faq',
             component: ComponentCreator('/docs/tags/faq', '177'),
-            exact: true
-          },
-          {
-            path: '/docs/tags/fi',
-            component: ComponentCreator('/docs/tags/fi', '10d'),
             exact: true
           },
           {
@@ -273,11 +293,6 @@ export default [
           {
             path: '/docs/tags/multi-currency',
             component: ComponentCreator('/docs/tags/multi-currency', 'ab5'),
-            exact: true
-          },
-          {
-            path: '/docs/tags/multilingual',
-            component: ComponentCreator('/docs/tags/multilingual', '243'),
             exact: true
           },
           {
@@ -402,8 +417,14 @@ export default [
           },
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'f68'),
+            component: ComponentCreator('/docs', '968'),
             routes: [
+              {
+                path: '/docs/accounting/journal-entries/guides/overview',
+                component: ComponentCreator('/docs/accounting/journal-entries/guides/overview', '55e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
               {
                 path: '/docs/accounting/journal-entries/multi-journal-entries',
                 component: ComponentCreator('/docs/accounting/journal-entries/multi-journal-entries', '381'),
@@ -417,8 +438,26 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/accounting/overview',
+                component: ComponentCreator('/docs/accounting/overview', '713'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/accounting/reconciliation/guides/overview',
+                component: ComponentCreator('/docs/accounting/reconciliation/guides/overview', 'd26'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/accounting/reconciliation/guides/reconciliation-best-practices',
                 component: ComponentCreator('/docs/accounting/reconciliation/guides/reconciliation-best-practices', 'c55'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/accounting/reconciliation/overview',
+                component: ComponentCreator('/docs/accounting/reconciliation/overview', '42f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -435,8 +474,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/accounting',
-                component: ComponentCreator('/docs/category/accounting', '759'),
+                path: '/docs/ai/overview',
+                component: ComponentCreator('/docs/ai/overview', 'ddd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -453,32 +492,14 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/getting-started',
-                component: ComponentCreator('/docs/category/getting-started', '4e8'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
                 path: '/docs/category/invoicing--quotes',
                 component: ComponentCreator('/docs/category/invoicing--quotes', 'fc9'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/journal-entry-guides',
-                component: ComponentCreator('/docs/category/journal-entry-guides', '061'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
                 path: '/docs/category/products--expenses',
                 component: ComponentCreator('/docs/category/products--expenses', '2ab'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/category/reconciliation-guides',
-                component: ComponentCreator('/docs/category/reconciliation-guides', '1d2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -490,25 +511,13 @@ export default [
               },
               {
                 path: '/docs/core-features/accounting/account-reconciliation/accounting-faq',
-                component: ComponentCreator('/docs/core-features/accounting/account-reconciliation/accounting-faq', 'edd'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/core-features/accounting/accounting/overview',
-                component: ComponentCreator('/docs/core-features/accounting/accounting/overview', '18b'),
+                component: ComponentCreator('/docs/core-features/accounting/account-reconciliation/accounting-faq', 'b0b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/core-features/accounting/chart-of-accounts',
                 component: ComponentCreator('/docs/core-features/accounting/chart-of-accounts', '3cc'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/core-features/accounting/journal-entries/guides/account-reconciliation',
-                component: ComponentCreator('/docs/core-features/accounting/journal-entries/guides/account-reconciliation', '069'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -665,6 +674,12 @@ export default [
               {
                 path: '/docs/getting-started/as-an-accountant',
                 component: ComponentCreator('/docs/getting-started/as-an-accountant', '690'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/getting-started/banking',
+                component: ComponentCreator('/docs/getting-started/banking', 'adc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

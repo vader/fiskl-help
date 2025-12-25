@@ -15,6 +15,7 @@ This site is built with Docusaurus 3 and is architected specifically to support 
 - [Translation Management](#-translation-management)
 - [Available Scripts](#-available-scripts)
 - [RAG AI Optimization](#-rag-ai-optimization)
+- [Navigation Architecture](#-navigation-architecture)
 - [Troubleshooting](#-troubleshooting)
 - [Contributing](#-contributing)
 
@@ -867,6 +868,282 @@ Run through this checklist:
 - [ ] Dev server works for all languages
 - [ ] Build succeeds
 - [ ] No broken links in production build
+
+---
+
+## 🗺️ Navigation Architecture
+
+Fiskl's documentation uses a hierarchical navigation structure that provides "Why before How" - every category offers conceptual context before diving into specific guides.
+
+### The Two-File Rule
+
+**Every primary sidebar category MUST have:**
+
+1. **`_category_.json`** - Category metadata and linking
+2. **`overview.md`** - Category landing page providing context
+
+This ensures users and AI systems understand the broader context before accessing specific guides.
+
+### Category Structure Example
+
+```
+docs/integrations/banking/
+├── _category_.json              # Links category to overview
+├── overview.md                  # The "Why" - conceptual landing page
+├── connect-saltedge.md         # The "How" - specific guide
+├── connect-stripe.md           # The "How" - specific guide
+├── connect-wio.md              # The "How" - specific guide
+└── connect-yodlee.md           # The "How" - specific guide
+```
+
+### Creating a New Category
+
+#### Step 1: Create Category Folder
+
+```bash
+mkdir -p docs/new-category
+```
+
+#### Step 2: Create `_category_.json`
+
+```json
+{
+  "label": "Category Name",
+  "position": 3,
+  "link": {
+    "type": "doc",
+    "id": "new-category/overview"
+  },
+  "description": "Brief description of category purpose (150 chars max)"
+}
+```
+
+**Field Guide:**
+- `label` - Display name in sidebar (use proper capitalization)
+- `position` - Sidebar sort order (1-based numerical)
+- `link.id` - Path to overview without .md extension
+- `description` - Tooltip text (appears in some contexts)
+
+#### Step 3: Create `overview.md`
+
+```markdown
+---
+title: "[Category Name] Overview"
+description: "High-level guide to [purpose] covering [key areas] (150-160 chars)"
+sidebar_position: 1
+---
+
+# [Category Name]
+
+This section explains [what] and helps you [accomplish goal].
+
+## Why Use [Category Name]
+
+[2-3 sentences explaining value and purpose]
+
+**Key benefits:**
+- Benefit one
+- Benefit two
+- Benefit three
+
+## Key Concepts
+
+- **Term One**: Definition
+- **Term Two**: Definition
+- **Term Three**: Definition
+
+## How It Works
+
+[2-3 paragraphs explaining general workflow]
+
+---
+
+## Available Guides
+
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />
+```
+
+#### Step 4: Add Specific Guides
+
+Create guides following standard documentation patterns:
+
+```markdown
+---
+title: "Specific Task Guide"
+description: "Guide to accomplishing [specific task] in Fiskl"
+sidebar_position: 2
+---
+
+This guide explains [what] and helps you [specific goal].
+
+[Standard guide content with steps]
+```
+
+### Overview vs Guide
+
+| Aspect | Overview Page | Guide Page |
+|--------|--------------|------------|
+| **Purpose** | Provide context | Provide instructions |
+| **Position** | Always `sidebar_position: 1` | Position 2+ |
+| **Focus** | Conceptual "Why" | Tactical "How" |
+| **Content** | Broad explanation of category | Specific step-by-step procedures |
+| **Length** | 300-600 words | Varies by complexity |
+| **Ends With** | `<DocCardList />` | Related topics links |
+| **Has Steps** | No | Yes |
+
+### Real-World Example: Banking
+
+**Category Metadata (`_category_.json`):**
+```json
+{
+  "label": "Banking Connections",
+  "position": 1,
+  "link": {
+    "type": "doc",
+    "id": "integrations/banking/overview"
+  },
+  "description": "Connect bank accounts for automated transaction imports"
+}
+```
+
+**Overview Page Structure:**
+- ✅ Explains what banking connections are
+- ✅ Lists benefits (real-time visibility, automation, security)
+- ✅ Shows supported providers in table format
+- ✅ Explains general workflow (Connect → Sync → Categorize → Reconcile)
+- ✅ Ends with DocCardList showing all provider guides
+
+**Supporting Guides:**
+- `connect-saltedge.md` - Step-by-step for Salt Edge
+- `connect-stripe.md` - Step-by-step for Stripe
+- `connect-wio.md` - Step-by-step for Wio Bank
+- `connect-yodlee.md` - Step-by-step for Yodlee
+
+Each guide focuses on one specific provider with detailed instructions.
+
+### Navigation Hierarchy Best Practices
+
+#### Maximum Depth: 3 Levels
+
+**✅ Good Structure:**
+```
+docs/
+├── category/
+│   ├── overview.md (level 1)
+│   ├── guide.md (level 2)
+│   └── subcategory/
+│       ├── overview.md (level 2)
+│       └── guide.md (level 3)
+```
+
+**❌ Too Deep:**
+```
+docs/
+├── category/
+│   └── subcategory/
+│       └── sub-subcategory/
+│           └── guide.md (level 4 - too deep!)
+```
+
+#### Logical Ordering with `sidebar_position`
+
+Use gaps in numbering to allow future insertions:
+
+```markdown
+# overview.md
+sidebar_position: 1  # Always first
+
+# basic-guide.md
+sidebar_position: 2
+
+# intermediate-guide.md  
+sidebar_position: 5  # Gap allows insertion at 3-4
+
+# advanced-guide.md
+sidebar_position: 10  # Larger gap for multiple insertions
+```
+
+### Common Navigation Mistakes
+
+| ❌ Mistake | ✅ Solution |
+|----------|----------|
+| Missing `_category_.json` | Create file with link to overview |
+| Clicking category shows random guide | Add proper `link` field in `_category_.json` |
+| Overview has step-by-step instructions | Move procedures to separate guides |
+| No DocCardList in overview | Always end overview with `<DocCardList />` |
+| Overview not first in sidebar | Set `sidebar_position: 1` in overview |
+| Category name doesn't match folder | Keep lowercase folder, proper case in label |
+
+### Category Naming Guidelines
+
+**✅ Good Names:**
+- Banking Connections (specific, plural)
+- Invoice Management (clear purpose)
+- Expense Tracking (user-oriented)
+- Accounting Fundamentals (descriptive)
+
+**❌ Poor Names:**
+- Misc / Other (too vague)
+- Advanced (not descriptive)
+- Features (too generic)
+- Stuff (unprofessional)
+
+**Rules:**
+- 1-3 words maximum
+- Use plural forms for collections
+- Reflect user mental models
+- Be specific and descriptive
+
+### Creating Category Checklist
+
+Before considering a category complete:
+
+**Structure:**
+- [ ] Created category folder with descriptive name
+- [ ] Added `_category_.json` with all required fields
+- [ ] Created `overview.md` as landing page
+- [ ] Set `sidebar_position: 1` in overview
+- [ ] Created at least one supporting guide
+
+**Overview Content:**
+- [ ] Includes opening summary ("This section explains...")
+- [ ] Has "Why Use [Category]" section
+- [ ] Defines key concepts (if applicable)
+- [ ] Explains high-level workflow
+- [ ] Ends with `<DocCardList />`
+
+**Testing:**
+- [ ] Clicking category in sidebar shows overview
+- [ ] DocCardList displays all guides correctly
+- [ ] Navigation hierarchy makes sense
+- [ ] All internal links work
+- [ ] Build succeeds without warnings
+
+### Quick Commands
+
+```bash
+# Create new category structure
+mkdir -p docs/new-category
+touch docs/new-category/_category_.json
+touch docs/new-category/overview.md
+
+# Sync new category to translations
+npm run create-page new-category/overview.md
+
+# Test navigation
+npm run dev
+
+# Verify build
+npm run build
+```
+
+### Related Documentation
+
+- **[Navigation Architecture DSL](./script-docs/dsl/documentation-standards-dsl.md#navigation_architecture)** - Full technical standards
+- **[Content Structure](./script-docs/dsl/documentation-standards-dsl.md#content_structure_patterns)** - Page structure patterns
+- **[Editorial Guide](./script-docs/EDITORIAL_GUIDE.md)** - Writing guidelines
 
 ---
 

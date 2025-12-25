@@ -49,8 +49,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Accounting FAQs",
-    "permalink": "/docs/core-features/accounting/account-reconciliation/accounting-faq"
+    "title": "Reconciliation Best Practices",
+    "permalink": "/docs/accounting/reconciliation/guides/reconciliation-best-practices"
   },
   "next": {
     "title": "Bank Account Reconciliation",

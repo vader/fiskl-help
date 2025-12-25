@@ -4,5 +4,6 @@
   "link": {
     "type": "doc",
     "id": "accounting/reconciliation/overview"
-  }
+  },
+  "description": "Verify bank statements match transaction records for accurate financial reporting."
 }

@@ -50,11 +50,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "overview",
-    "permalink": "/docs/getting-started/overview"
+    "title": "As an Accountant",
+    "permalink": "/docs/getting-started/as-an-accountant"
   },
   "next": {
-    "title": "Accounting",
-    "permalink": "/docs/category/accounting"
+    "title": "With Banking",
+    "permalink": "/docs/getting-started/banking"
   }
 }

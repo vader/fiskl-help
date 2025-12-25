@@ -1,7 +1,7 @@
 {
   "id": "clients-vendors/managing-clients",
   "title": "Managing Clients",
-  "description": "Enhance customer relationships with Fiskl's client management tools: Track interactions, streamline invoicing, and boost satisfaction.",
+  "description": "Add and manage clients in Fiskl to streamline invoicing, track interactions, and maintain organized financial records for your business.",
   "source": "@site/docs/clients-vendors/managing-clients.md",
   "sourceDirName": "clients-vendors",
   "slug": "/core-features/clients",
@@ -35,14 +35,16 @@
   "sidebarPosition": 4,
   "frontMatter": {
     "title": "Managing Clients",
-    "sidebar_position": 4,
-    "description": "Enhance customer relationships with Fiskl's client management tools: Track interactions, streamline invoicing, and boost satisfaction.",
+    "description": "Add and manage clients in Fiskl to streamline invoicing, track interactions, and maintain organized financial records for your business.",
     "keywords": [
-      "Client management Fiskl",
-      "customer relationships",
-      "invoicing software",
-      "client tracking"
+      "client management",
+      "add clients",
+      "Fiskl clients",
+      "invoicing",
+      "client tracking",
+      "customer management"
     ],
+    "sidebar_position": 4,
     "toc_min_heading_level": 2,
     "toc_max_heading_level": 4,
     "slug": "/core-features/clients",

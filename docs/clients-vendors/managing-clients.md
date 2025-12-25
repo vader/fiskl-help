@@ -1,8 +1,8 @@
 ---
-title: Managing Clients
+title: "Managing Clients"
+description: "Add and manage clients in Fiskl to streamline invoicing, track interactions, and maintain organized financial records for your business."
+keywords: ["client management", "add clients", "Fiskl clients", "invoicing", "client tracking", "customer management"]
 sidebar_position: 4
-description: "Enhance customer relationships with Fiskl's client management tools: Track interactions, streamline invoicing, and boost satisfaction."
-keywords: ["Client management Fiskl", "customer relationships", "invoicing software", "client tracking"]
 toc_min_heading_level: 2
 toc_max_heading_level: 4
 slug: /core-features/clients
@@ -13,78 +13,81 @@ tags:
   - Accounting
 ---
 
-<!-- import TOCInline from '@theme/TOCInline'; -->
 import Mermaid from '@theme/Mermaid';
 
-Clients are essential for managing your business interactions in Fiskl. They are used in invoices, quotes, and accounting transactions, helping you keep track of all financial activities. By adding and managing clients effectively, you ensure accurate and organized financial records, making your invoicing and quoting processes efficient and reliable.
+This guide explains how to add and manage clients in Fiskl and helps you maintain organized records for invoicing, quoting, and financial tracking.
 
-## Before you Start
+## Before You Begin
 
-Before creating clients, it's helpful to have:
+Ensure you have:
 
-1. Your company details set up in ```Company Settings```
-2. A clear understanding of your client's billing requirements (e.g., currency preferences, tax information)
-3. Any specific time rates for clients who are billed hourly
+- Your company details configured in **Settings** > **Company**
+- Client billing requirements (currency preferences, tax information)
+- Hourly time rates for clients billed by the hour (if applicable)
 
-## Managing Clients
+## Creating a Client
 
-### Creating a new Client
+To add a new client:
 
-Follow these steps to add a new client:
+1. In the left sidebar, select **Clients & Vendors** and select the **Clients** tab
+2. Select **New client**
+3. In the **Client name** field, enter your client name or business name
+4. Select the client from the search results
 
-1. From the left menu, click on "Clients & Vendors" and select the "Clients" tab
-2. Click on "New client"
-3. In the client name, search for your client name or business name
-4. Select your the client and their details will be automatically populated
-5. Add client email
-6. Add Cc and Bcc
-7. Edit the address layout if required
+   Fiskl automatically populates the client details.
 
-:::info[tip]
-Review and adjust the custom format of the address as this is the exact layout that will be on the invoices and quotes.
+5. Enter the client email address
+6. Add Cc and Bcc recipients if needed
+7. Review and adjust the address format
+
+:::tip
+The address format you set here appears exactly as shown on all invoices and quotes for this client.
 :::
 
-#### Defaults
+### Setting Client Defaults
 
-You can add a default currency and time rate which will be applied when creating invoices and time items.
+Configure default settings that apply automatically when creating invoices and time entries:
 
-### Importing Clients
+- **Default currency** - The currency used for this client's transactions
+- **Default time rate** - The hourly rate applied to time-based billing
 
-To import multiple clients at once:
+These defaults save time but can be adjusted on individual invoices when needed.
+
+## Importing Clients
+
+To import multiple clients from a CSV file:
 
 <details>
-<summary>Learn how to import clients from a CSV file</summary>
+  <summary>Import clients from CSV</summary>
 
-1. Go to "Clients & Vendors" from the left menu and click on "Clients"
-2. Click the "Import" button at the top of the client list
-3. Select "Import client details" and choose a .csv file from your device
-4. Match the .csv column headers with the field names in Fiskl
-5. Click "Import"
-6. Review the preview of client items and click "Import" again
-7. You'll receive a notification of the number of clients added to your list
+1. In the left sidebar, select **Clients & Vendors** and select the **Clients** tab
+2. Select the **Import** button at the top of the client list
+3. Select **Import client details**
+4. Choose your CSV file from your device
+5. Map the CSV column headers to Fiskl field names
+6. Select **Import**
+7. Review the preview of clients to be imported
+8. Select **Import** to confirm
+
+After import completes, Fiskl displays the number of clients added to your list.
 
 </details>
 
 :::info
-You can easily import your contact list using the Fiskl app in Android or iOS.
+You can import contacts directly using the Fiskl mobile app on Android or iOS.
 :::
 
-### Viewing and Managing Your Client List
+## Managing Your Client List
 
-The client list provides a quick overview of your clients and their key information.
-From this list, you can perform common tasks like creating invoices, viewing client-specific details, and managing your client database.
-Use the sorting and filtering options to find specific clients quickly, and access additional actions through the menu next to each client name.
+The client list displays all your clients with key information at a glance. From this view, you can create invoices, view client details, and access client-specific actions.
 
-:::info[tip]
-Explore the options available in the client list to streamline your client management workflow.
-:::
+Use the search and filter options to find specific clients quickly. Select the menu next to each client name to access additional actions like editing or archiving.
 
-### Direct Debit Mandates
+## Direct Debit Mandates
 
-Fiskl supports setting up Direct Debit mandates for automatic payments using [GoCardless.](../../Integrations/Payment-Gateways/gocardless-integration.md)
-In the client list you will be able to see the status of their Direct Debit mandate.
+Fiskl supports Direct Debit mandates for automatic payments through [GoCardless](../integrations/payments/gocardless-integration.md). The client list displays each client's mandate status.
 
-#### Direct Debit Mandate Flow
+### How Direct Debit Mandates Work
 
 ```mermaid
 graph TD
@@ -94,15 +97,25 @@ graph TD
   C -->|No| E[PENDING]
   C -->|No| G[REVOKED]
   D --> F[Automatic payments]
-  E --> C[Mandate Authorized]
-  G --> |No| A
+  E --> C
+  G --> A
 ```
 
-# Best Practices for Client Management
+When you send an invoice with GoCardless enabled, your client receives a prompt to authorize a Direct Debit mandate. Once authorized, future payments process automatically on the due date.
 
-- Keep client information up to date, especially contact details and tax information
-- Use client-specific currencies and time rates for accurate invoicing
-- Regularly review your client list and archive inactive clients
-- Utilize direct debit mandates for recurring clients to streamline payments
+## Best Practices
 
-Remember: Effective client management in Fiskl helps streamline your invoicing, quoting, and payment processes, leading to better financial organization and client relationships.
+Follow these practices for effective client management:
+
+- **Keep information current** - Update contact details and tax information regularly
+- **Set client-specific defaults** - Assign appropriate currencies and time rates for accurate invoicing
+- **Maintain your client list** - Review regularly and archive inactive clients
+- **Enable automatic payments** - Set up direct debit mandates for recurring clients
+
+Effective client management streamlines your invoicing and payment processes, leading to better financial organization.
+
+## Related Topics
+
+- [Creating Invoices](/docs/invoicing/creating-invoices.md) - Bill clients for your products and services
+- [Managing Quotes](/docs/invoicing/creating-quotes.md) - Create estimates for potential work
+- [GoCardless Integration](/docs/integrations/payments/gocardless-integration.md) - Set up automatic payment collection

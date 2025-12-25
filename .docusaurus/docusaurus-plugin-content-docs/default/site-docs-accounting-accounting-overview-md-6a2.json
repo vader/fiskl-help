@@ -41,8 +41,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Accounting",
-    "permalink": "/docs/category/accounting"
+    "title": "Accounting Overview",
+    "permalink": "/docs/accounting/overview"
   },
   "next": {
     "title": "Chart of Accounts",

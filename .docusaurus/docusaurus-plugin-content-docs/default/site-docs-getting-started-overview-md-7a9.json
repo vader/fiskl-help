@@ -1,7 +1,7 @@
 {
   "id": "getting-started/overview",
-  "title": "overview",
-  "description": "Placeholder for overview",
+  "title": "Getting Started with Fiskl",
+  "description": "Learn how to set up your Fiskl account, configure essential settings, and begin managing invoices, expenses, and accounting in minutes.",
   "source": "@site/docs/getting-started/overview.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/overview",
@@ -13,17 +13,25 @@
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
-    "title": "overview",
-    "description": "Placeholder for overview",
+    "title": "Getting Started with Fiskl",
+    "description": "Learn how to set up your Fiskl account, configure essential settings, and begin managing invoices, expenses, and accounting in minutes.",
+    "keywords": [
+      "getting started",
+      "Fiskl setup",
+      "account setup",
+      "first steps",
+      "onboarding",
+      "quick start"
+    ],
     "sidebar_position": 1
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "As an Accountant",
-    "permalink": "/docs/getting-started/as-an-accountant"
+    "title": "Introduction",
+    "permalink": "/docs/intro"
   },
   "next": {
-    "title": "Invoice Basics",
-    "permalink": "/docs/getting-started/invoicing"
+    "title": "As an Accountant",
+    "permalink": "/docs/getting-started/as-an-accountant"
   }
 }

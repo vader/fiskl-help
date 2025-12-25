@@ -1,84 +1,105 @@
 ---
 title: Fi - Your AI Advisor
 sidebar_position: 2
-description: "Optimize your business with Fiskl's AI-driven financial insights: Automate accounting processes and get multilingual support for data-driven decision-making."
-keywords: ["AI financial insights Fiskl", "automated accounting", "business optimization", "AI accounting software", "multilingual AI advisor"]
-toc_min_heading_level: 2
-toc_max_heading_level: 4
-tags:
-  - AI
-  - Fi
-  - Multilingual
+description: "Get instant answers about Fiskl and accounting from Fi, your AI advisor. Ask questions in multiple languages and optimize your business operations."
+keywords: ["Fi AI advisor", "Fiskl AI assistant", "accounting chatbot", "multilingual AI support", "business advisor AI"]
 ---
 
-## Fi - Your AI Advisor
+Fi is Fiskl's AI-powered advisor that helps you navigate the platform, understand accounting concepts, and optimize your business operations—all in your preferred language.
 
-Fi is your AI-powered advisor in Fiskl, designed to help you navigate the platform, understand accounting concepts, and optimize your small business operations. With extensive knowledge of Fiskl's features and accounting principles, Fi provides quick, accurate answers to your questions in multiple languages.
+## What is Fi?
 
-## How Fi Can Help You
+Fi provides instant answers to your questions about Fiskl and accounting. With comprehensive knowledge of Fiskl's features and accounting principles, Fi helps you work more confidently and efficiently.
 
-Fi offers a range of capabilities to enhance your Fiskl experience:
+Fi draws on Fiskl's complete documentation, tutorials, FAQs, and general accounting knowledge to give you accurate, helpful responses. You can ask questions in your preferred language and receive the same level of expertise regardless of which language you use.
 
-1. **Fiskl guidance**: Get answers about Fiskl's features, functionalities, and best practices for using the platform
-2. **Accounting insights**: Receive explanations on accounting concepts, financial terms, and business principles
-3. **Problem-solving**: Find solutions to common issues you might encounter while using Fiskl
-4. **Learning resource**: Use Fi as a tool to expand your knowledge of accounting and small business management
-5. **Multilingual support**: Communicate with Fi in your preferred language for a seamless experience
+## How Fi Helps You
+
+Fi acts as your personal accounting advisor within Fiskl. Ask questions about features, get help with accounting concepts, or troubleshoot issues—Fi provides instant, accurate answers.
+
+**Core capabilities:**
+- **Platform guidance** - Navigate Fiskl's features and learn best practices
+- **Accounting education** - Understand financial concepts and business principles
+- **Multilingual support** - Communicate in your preferred language with the same level of expertise
+
+Whether you're reconciling transactions, creating your first invoice, or trying to understand a balance sheet, Fi helps you work confidently.
 
 ## Fi's Knowledge Base
 
-Fi's expertise covers a wide range of topics, including:
+Fi's expertise covers:
 
 - Fiskl's complete help documentation
-- Step-by-step tutorials
-- Frequently Asked Questions (FAQs)
+- Step-by-step tutorials and guides
+- Frequently Asked Questions
 - General accounting principles
 - Small business management strategies
 - Tax-related information
 - International business practices and terminology
 
-## Multilingual Capabilities
+## Multilingual Support
 
-One of Fi's standout features is its ability to communicate in multiple languages. This ensures that users from different linguistic backgrounds can easily access Fi's knowledge and assistance. Key aspects of Fi's multilingual support include:
+Fi communicates in multiple languages with the same level of accounting and Fiskl expertise. The system automatically detects your language and responds accordingly.
 
-- **Language detection**: Fi automatically detects the language you're using and responds accordingly
-- **Diverse language support**: Communicate with Fi in major world languages, including but not limited to English, Spanish, French, German, and Mandarin
-- **Consistent expertise across languages**: Fi maintains the same level of accounting and Fiskl knowledge, regardless of the language used
-- **Cultural context**: Fi understands and adapts to cultural nuances in financial terminology and practices across different regions
+**Supported languages include:**
+- English, Spanish, French, German, Mandarin
+- And many other major world languages
 
-## Limitations of Fi
+Fi adapts to cultural nuances in financial terminology and practices across different regions. This ensures you receive relevant, contextually appropriate guidance regardless of where you operate your business.
 
-While Fi is a powerful tool, it's important to understand its current limitations:
+## What Fi Can't Do
 
-- Fi can't access your personal account data or generate custom reports
-- Fi is unable to make changes to your Fiskl account or perform actions on your behalf
+Fi currently has some limitations to be aware of:
+
+- Fi can't access your personal account data or generate custom reports based on your specific numbers
+- Fi can't make changes to your Fiskl account or perform actions on your behalf
 - Questions unrelated to Fiskl, accounting, or small business management are outside Fi's scope
 
 :::info
-We're continuously working to expand Fi's capabilities to provide you with even more value in the future. Fi is a core part of Fiskl's long-term strategy, and we envision it evolving into an even more comprehensive advisor that could potentially interact with your account data, among other exciting possibilities. Stay tuned for updates as we progress on this journey.
+We're continuously expanding Fi's capabilities. Fi is a core part of Fiskl's long-term strategy, and we envision it evolving into a more comprehensive advisor that could potentially interact with your account data and perform more advanced tasks. Stay tuned for updates as we progress on this journey.
 :::
 
-## Tips for Effective Communication with Fi
+## Getting the Best Results from Fi
 
-To get the most out of your interactions with Fi, consider these best practices:
+Follow these practices for more helpful answers:
 
-1. **Be specific**: Clearly state your question or concern. For example, instead of asking "How do expenses work?", try "Why don't my added expenses appear on my dashboard or in my P&L report?"
-2. **Provide context**: If your question relates to a specific feature or report in Fiskl, mention it explicitly
-3. **Use your preferred language**: Feel free to communicate with Fi in the language you're most comfortable with
-4. **Ask follow-up questions**: If Fi's initial response doesn't fully address your query, don't hesitate to ask for clarification or additional information
-5. **Use the feedback feature**: If an answer doesn't meet your needs, select the thumbs down icon to mark it as unhelpful. This valuable feedback helps us improve Fi's responses over time
-6. **Start fresh when changing topics**: Clear the conversation when moving to a new subject to ensure Fi's responses are tailored to your current enquiry
+1. **Be specific**
 
-## Ongoing Improvements
+   Instead of "How do expenses work?", ask "Why don't my expenses appear on my Dashboard or P&L report?"
 
-We're committed to enhancing Fi's capabilities to serve you better. Future updates may include:
+2. **Provide context**
+
+   Mention the specific feature or report you're working with in Fiskl.
+
+3. **Give feedback**
+
+   Rate Fi's answers using the thumbs up or thumbs down buttons. Your feedback improves Fi's responses over time.
+
+4. **Start fresh for new topics**
+
+   Clear the conversation when switching subjects to ensure tailored responses.
+
+:::tip
+Fi works in multiple languages. Communicate in whichever language you're most comfortable with for the same level of expertise.
+:::
+
+## What's Coming Next
+
+We're committed to enhancing Fi's capabilities. Future updates may include:
 
 - Integration with your Fiskl account data for personalized insights
-- Ability to generate custom reports and analysis
-- Expanded knowledge base covering more advanced topics
+- Ability to generate custom reports and analysis based on your numbers
+- Expanded knowledge base covering more advanced accounting topics
 - Support for additional languages and regional accounting practices
-- Enhanced natural language processing for more nuanced conversations
+- Enhanced understanding of complex, nuanced questions
 
-Your feedback is crucial in shaping Fi's development. We encourage you to share your experiences and suggestions for improvement.
+Your feedback shapes Fi's development. We encourage you to share your experiences and suggestions.
 
-Remember, while Fi is a powerful tool, it's designed to complement, not replace, human expertise. For complex financial decisions or account-specific issues, we recommend consulting with a qualified accountant or contacting our support team.
+:::note
+Fi is designed to complement, not replace, human expertise. For complex financial decisions or account-specific issues, we recommend consulting with a qualified accountant or contacting our support team.
+:::
+
+## Related Topics
+
+- [Getting Started with Fiskl](/docs/getting-started/overview) - Learn the basics of using Fiskl
+- [Dashboard Overview](/docs/dashboard/overview) - Understand your financial dashboard
+- [Support Options](/docs/support/overview) - Get help from our support team

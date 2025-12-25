@@ -48,11 +48,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Getting Started",
-    "permalink": "/docs/category/getting-started"
+    "title": "Getting Started with Fiskl",
+    "permalink": "/docs/getting-started/overview"
   },
   "next": {
-    "title": "overview",
-    "permalink": "/docs/getting-started/overview"
+    "title": "Invoice Basics",
+    "permalink": "/docs/getting-started/invoicing"
   }
 }
