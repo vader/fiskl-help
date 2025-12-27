@@ -24,6 +24,30 @@ export default {
       "onBrokenMarkdownImages": "throw"
     }
   },
+  "headTags": [
+    {
+      "tagName": "link",
+      "attributes": {
+        "rel": "preconnect",
+        "href": "https://fonts.googleapis.com"
+      }
+    },
+    {
+      "tagName": "link",
+      "attributes": {
+        "rel": "preconnect",
+        "href": "https://fonts.gstatic.com",
+        "crossorigin": "anonymous"
+      }
+    },
+    {
+      "tagName": "link",
+      "attributes": {
+        "rel": "stylesheet",
+        "href": "https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&display=swap"
+      }
+    }
+  ],
   "future": {
     "v4": {
       "removeLegacyPostBuildHeadAttribute": true,
@@ -46,7 +70,7 @@ export default {
     "experimental_router": "browser"
   },
   "url": "https://your-docusaurus-site.example.com",
-  "baseUrl": "/es/",
+  "baseUrl": "/",
   "organizationName": "facebook",
   "projectName": "docusaurus",
   "onBrokenLinks": "throw",
@@ -114,31 +138,33 @@ export default {
     "navbar": {
       "title": "Fiskl Help",
       "logo": {
-        "alt": "Fiskl Accounting",
+        "alt": "Fiskl Help Logo",
         "src": "img/fi/fi-ai.svg"
       },
       "items": [
         {
-          "type": "localeDropdown",
+          "type": "docSidebar",
+          "sidebarId": "tutorialSidebar",
           "position": "left",
+          "label": "Documentation"
+        },
+        {
+          "to": "/blog",
+          "label": "Updates",
+          "position": "right"
+        },
+        {
+          "type": "localeDropdown",
+          "position": "right",
+          "className": "navbar-language-picker",
           "dropdownItemsBefore": [],
           "dropdownItemsAfter": []
         },
         {
-          "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
-          "position": "left",
-          "label": "Tutorial"
-        },
-        {
-          "to": "/blog",
-          "label": "Blog",
-          "position": "left"
-        },
-        {
-          "href": "https://github.com/facebook/docusaurus",
-          "label": "GitHub",
-          "position": "right"
+          "href": "https://app.fiskl.com",
+          "label": "Go to App",
+          "position": "right",
+          "className": "navbar-cta-button"
         }
       ],
       "hideOnScroll": false
@@ -150,7 +176,7 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "Tutorial",
+              "label": "Documentation",
               "to": "/docs/intro"
             }
           ]
@@ -419,7 +445,6 @@ export default {
   "customFields": {},
   "plugins": [],
   "scripts": [],
-  "headTags": [],
   "stylesheets": [],
   "clientModules": [],
   "titleDelimiter": "|",

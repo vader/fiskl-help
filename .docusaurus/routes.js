@@ -3,961 +3,1261 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/es/blog',
-    component: ComponentCreator('/es/blog', '802'),
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug', '5ff'),
     exact: true
   },
   {
-    path: '/es/blog/archive',
-    component: ComponentCreator('/es/blog/archive', 'c1d'),
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
     exact: true
   },
   {
-    path: '/es/blog/authors',
-    component: ComponentCreator('/es/blog/authors', 'e39'),
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
     exact: true
   },
   {
-    path: '/es/blog/authors/all-sebastien-lorber-articles',
-    component: ComponentCreator('/es/blog/authors/all-sebastien-lorber-articles', '6e5'),
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
     exact: true
   },
   {
-    path: '/es/blog/authors/yangshun',
-    component: ComponentCreator('/es/blog/authors/yangshun', 'ed1'),
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
     exact: true
   },
   {
-    path: '/es/blog/first-blog-post',
-    component: ComponentCreator('/es/blog/first-blog-post', '041'),
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
     exact: true
   },
   {
-    path: '/es/blog/long-blog-post',
-    component: ComponentCreator('/es/blog/long-blog-post', '13f'),
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
     exact: true
   },
   {
-    path: '/es/blog/mdx-blog-post',
-    component: ComponentCreator('/es/blog/mdx-blog-post', 'a97'),
+    path: '/blog',
+    component: ComponentCreator('/blog', 'b2f'),
     exact: true
   },
   {
-    path: '/es/blog/tags',
-    component: ComponentCreator('/es/blog/tags', 'b1d'),
+    path: '/blog/archive',
+    component: ComponentCreator('/blog/archive', '182'),
     exact: true
   },
   {
-    path: '/es/blog/tags/docusaurus',
-    component: ComponentCreator('/es/blog/tags/docusaurus', 'f69'),
+    path: '/blog/authors',
+    component: ComponentCreator('/blog/authors', '0b7'),
     exact: true
   },
   {
-    path: '/es/blog/tags/facebook',
-    component: ComponentCreator('/es/blog/tags/facebook', '0c3'),
+    path: '/blog/authors/all-sebastien-lorber-articles',
+    component: ComponentCreator('/blog/authors/all-sebastien-lorber-articles', '4a1'),
     exact: true
   },
   {
-    path: '/es/blog/tags/hello',
-    component: ComponentCreator('/es/blog/tags/hello', '36c'),
+    path: '/blog/authors/yangshun',
+    component: ComponentCreator('/blog/authors/yangshun', 'a68'),
     exact: true
   },
   {
-    path: '/es/blog/tags/hola',
-    component: ComponentCreator('/es/blog/tags/hola', '484'),
+    path: '/blog/first-blog-post',
+    component: ComponentCreator('/blog/first-blog-post', '89a'),
     exact: true
   },
   {
-    path: '/es/blog/welcome',
-    component: ComponentCreator('/es/blog/welcome', '8c8'),
+    path: '/blog/long-blog-post',
+    component: ComponentCreator('/blog/long-blog-post', '9ad'),
     exact: true
   },
   {
-    path: '/es/intro',
-    component: ComponentCreator('/es/intro', 'f77'),
+    path: '/blog/mdx-blog-post',
+    component: ComponentCreator('/blog/mdx-blog-post', 'e9f'),
     exact: true
   },
   {
-    path: '/es/markdown-page',
-    component: ComponentCreator('/es/markdown-page', '724'),
+    path: '/blog/tags',
+    component: ComponentCreator('/blog/tags', '287'),
     exact: true
   },
   {
-    path: '/es/docs',
-    component: ComponentCreator('/es/docs', '1c9'),
+    path: '/blog/tags/docusaurus',
+    component: ComponentCreator('/blog/tags/docusaurus', '704'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/facebook',
+    component: ComponentCreator('/blog/tags/facebook', '858'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/hello',
+    component: ComponentCreator('/blog/tags/hello', '299'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/hola',
+    component: ComponentCreator('/blog/tags/hola', '00d'),
+    exact: true
+  },
+  {
+    path: '/blog/welcome',
+    component: ComponentCreator('/blog/welcome', 'd2b'),
+    exact: true
+  },
+  {
+    path: '/intro',
+    component: ComponentCreator('/intro', 'ad5'),
+    exact: true
+  },
+  {
+    path: '/markdown-page',
+    component: ComponentCreator('/markdown-page', '3d7'),
+    exact: true
+  },
+  {
+    path: '/docs',
+    component: ComponentCreator('/docs', '083'),
     routes: [
       {
-        path: '/es/docs',
-        component: ComponentCreator('/es/docs', '36f'),
+        path: '/docs',
+        component: ComponentCreator('/docs', 'd12'),
         routes: [
           {
-            path: '/es/docs/tags',
-            component: ComponentCreator('/es/docs/tags', '1f8'),
+            path: '/docs/tags',
+            component: ComponentCreator('/docs/tags', 'fce'),
             exact: true
           },
           {
-            path: '/es/docs/tags/accounting',
-            component: ComponentCreator('/es/docs/tags/accounting', '4cc'),
+            path: '/docs/tags/account-management',
+            component: ComponentCreator('/docs/tags/account-management', '598'),
             exact: true
           },
           {
-            path: '/es/docs/tags/balance-de-comprobacion',
-            component: ComponentCreator('/es/docs/tags/balance-de-comprobacion', '639'),
+            path: '/docs/tags/account-transaction',
+            component: ComponentCreator('/docs/tags/account-transaction', '287'),
             exact: true
           },
           {
-            path: '/es/docs/tags/bank-statements',
-            component: ComponentCreator('/es/docs/tags/bank-statements', 'd9c'),
+            path: '/docs/tags/account-transfers',
+            component: ComponentCreator('/docs/tags/account-transfers', '2a5'),
             exact: true
           },
           {
-            path: '/es/docs/tags/contabilidad',
-            component: ComponentCreator('/es/docs/tags/contabilidad', 'f67'),
+            path: '/docs/tags/accounting',
+            component: ComponentCreator('/docs/tags/accounting', 'fbf'),
             exact: true
           },
           {
-            path: '/es/docs/tags/informes',
-            component: ComponentCreator('/es/docs/tags/informes', '79c'),
+            path: '/docs/tags/accounting-settings',
+            component: ComponentCreator('/docs/tags/accounting-settings', '5b2'),
             exact: true
           },
           {
-            path: '/es/docs/tags/invoice',
-            component: ComponentCreator('/es/docs/tags/invoice', '382'),
+            path: '/docs/tags/accounts-payable',
+            component: ComponentCreator('/docs/tags/accounts-payable', 'b41'),
             exact: true
           },
           {
-            path: '/es/docs/tags/reconciliation',
-            component: ComponentCreator('/es/docs/tags/reconciliation', 'f83'),
+            path: '/docs/tags/automation',
+            component: ComponentCreator('/docs/tags/automation', '81d'),
             exact: true
           },
           {
-            path: '/es/docs/tags/recurring-invoices',
-            component: ComponentCreator('/es/docs/tags/recurring-invoices', '595'),
+            path: '/docs/tags/bank',
+            component: ComponentCreator('/docs/tags/bank', '973'),
             exact: true
           },
           {
-            path: '/es/docs',
-            component: ComponentCreator('/es/docs', 'f19'),
+            path: '/docs/tags/bank-reconciliation',
+            component: ComponentCreator('/docs/tags/bank-reconciliation', 'f9d'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/banking',
+            component: ComponentCreator('/docs/tags/banking', '9b3'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/billing',
+            component: ComponentCreator('/docs/tags/billing', 'd70'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/brands',
+            component: ComponentCreator('/docs/tags/brands', 'b71'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/chart-of-accounts',
+            component: ComponentCreator('/docs/tags/chart-of-accounts', '21c'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/client',
+            component: ComponentCreator('/docs/tags/client', '073'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/client-management',
+            component: ComponentCreator('/docs/tags/client-management', '211'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/company-settings',
+            component: ComponentCreator('/docs/tags/company-settings', '25b'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/currency-management',
+            component: ComponentCreator('/docs/tags/currency-management', '5b3'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/data-management',
+            component: ComponentCreator('/docs/tags/data-management', '005'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/documentation',
+            component: ComponentCreator('/docs/tags/documentation', 'a92'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/email',
+            component: ComponentCreator('/docs/tags/email', '031'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/faq',
+            component: ComponentCreator('/docs/tags/faq', '177'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/financial-reports',
+            component: ComponentCreator('/docs/tags/financial-reports', '83f'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/foreign-exchange',
+            component: ComponentCreator('/docs/tags/foreign-exchange', '5bd'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/getting-started',
+            component: ComponentCreator('/docs/tags/getting-started', 'eda'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/go-cardless',
+            component: ComponentCreator('/docs/tags/go-cardless', '637'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/integrations',
+            component: ComponentCreator('/docs/tags/integrations', '9da'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/internal-transfers',
+            component: ComponentCreator('/docs/tags/internal-transfers', '3f9'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/invoice',
+            component: ComponentCreator('/docs/tags/invoice', 'aea'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/invoice-and-quote-settings',
+            component: ComponentCreator('/docs/tags/invoice-and-quote-settings', '2db'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/invoice-payment',
+            component: ComponentCreator('/docs/tags/invoice-payment', 'b75'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/invoicing',
+            component: ComponentCreator('/docs/tags/invoicing', '102'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/journal-entries',
+            component: ComponentCreator('/docs/tags/journal-entries', '97a'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/journal-entry',
+            component: ComponentCreator('/docs/tags/journal-entry', 'be0'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/multi-currency',
+            component: ComponentCreator('/docs/tags/multi-currency', 'ab5'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/offers',
+            component: ComponentCreator('/docs/tags/offers', 'db9'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/pay-pal',
+            component: ComponentCreator('/docs/tags/pay-pal', 'fbe'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/payment',
+            component: ComponentCreator('/docs/tags/payment', 'c8a'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/payment-gateways',
+            component: ComponentCreator('/docs/tags/payment-gateways', '01d'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/plans',
+            component: ComponentCreator('/docs/tags/plans', '37a'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/profile',
+            component: ComponentCreator('/docs/tags/profile', '1d2'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/quote',
+            component: ComponentCreator('/docs/tags/quote', '16c'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/reconciliation',
+            component: ComponentCreator('/docs/tags/reconciliation', 'e32'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/recurring-invoices',
+            component: ComponentCreator('/docs/tags/recurring-invoices', '45a'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/reminders',
+            component: ComponentCreator('/docs/tags/reminders', 'ae8'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/reporting',
+            component: ComponentCreator('/docs/tags/reporting', '712'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/reports',
+            component: ComponentCreator('/docs/tags/reports', 'dfb'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/sales',
+            component: ComponentCreator('/docs/tags/sales', '746'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/salt-edge',
+            component: ComponentCreator('/docs/tags/salt-edge', 'eca'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/settings',
+            component: ComponentCreator('/docs/tags/settings', 'ada'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/stripe',
+            component: ComponentCreator('/docs/tags/stripe', '16b'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/subscription',
+            component: ComponentCreator('/docs/tags/subscription', 'c04'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/tax-settings',
+            component: ComponentCreator('/docs/tags/tax-settings', '2d9'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/templates',
+            component: ComponentCreator('/docs/tags/templates', 'a71'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/transaction-management',
+            component: ComponentCreator('/docs/tags/transaction-management', 'cf8'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/transaction-matching',
+            component: ComponentCreator('/docs/tags/transaction-matching', 'd39'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/transactions',
+            component: ComponentCreator('/docs/tags/transactions', 'e42'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/trial-balance',
+            component: ComponentCreator('/docs/tags/trial-balance', 'fdf'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/troubleshooting',
+            component: ComponentCreator('/docs/tags/troubleshooting', '52e'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/user-settings',
+            component: ComponentCreator('/docs/tags/user-settings', 'b0d'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/wio',
+            component: ComponentCreator('/docs/tags/wio', '6ad'),
+            exact: true
+          },
+          {
+            path: '/docs/tags/yodlee',
+            component: ComponentCreator('/docs/tags/yodlee', '0a9'),
+            exact: true
+          },
+          {
+            path: '/docs',
+            component: ComponentCreator('/docs', '776'),
             routes: [
               {
-                path: '/es/docs/accountant-portal/billing-models/bill-us-model',
-                component: ComponentCreator('/es/docs/accountant-portal/billing-models/bill-us-model', 'e32'),
+                path: '/docs/accountant-portal/billing-models/bill-us-model',
+                component: ComponentCreator('/docs/accountant-portal/billing-models/bill-us-model', '59d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accountant-portal/billing-models/client-pays-model',
-                component: ComponentCreator('/es/docs/accountant-portal/billing-models/client-pays-model', '98f'),
+                path: '/docs/accountant-portal/billing-models/client-pays-model',
+                component: ComponentCreator('/docs/accountant-portal/billing-models/client-pays-model', '967'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accountant-portal/billing-models/overview',
-                component: ComponentCreator('/es/docs/accountant-portal/billing-models/overview', '872'),
+                path: '/docs/accountant-portal/billing-models/overview',
+                component: ComponentCreator('/docs/accountant-portal/billing-models/overview', '62e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accountant-portal/billing-models/switching-billing-models',
-                component: ComponentCreator('/es/docs/accountant-portal/billing-models/switching-billing-models', '87b'),
+                path: '/docs/accountant-portal/billing-models/switching-billing-models',
+                component: ComponentCreator('/docs/accountant-portal/billing-models/switching-billing-models', 'bd5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accountant-portal/client-management/accepting-client-invitations',
-                component: ComponentCreator('/es/docs/accountant-portal/client-management/accepting-client-invitations', '3ff'),
+                path: '/docs/accountant-portal/client-management/accepting-client-invitations',
+                component: ComponentCreator('/docs/accountant-portal/client-management/accepting-client-invitations', '3fd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accountant-portal/client-management/client-access-levels',
-                component: ComponentCreator('/es/docs/accountant-portal/client-management/client-access-levels', '6e4'),
+                path: '/docs/accountant-portal/client-management/client-access-levels',
+                component: ComponentCreator('/docs/accountant-portal/client-management/client-access-levels', '3e9'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accountant-portal/client-management/client-connections',
-                component: ComponentCreator('/es/docs/accountant-portal/client-management/client-connections', '7d4'),
+                path: '/docs/accountant-portal/client-management/client-connections',
+                component: ComponentCreator('/docs/accountant-portal/client-management/client-connections', '9f4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accountant-portal/client-management/inviting-clients',
-                component: ComponentCreator('/es/docs/accountant-portal/client-management/inviting-clients', 'b6d'),
+                path: '/docs/accountant-portal/client-management/inviting-clients',
+                component: ComponentCreator('/docs/accountant-portal/client-management/inviting-clients', 'fae'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accountant-portal/client-management/overview',
-                component: ComponentCreator('/es/docs/accountant-portal/client-management/overview', '1a9'),
+                path: '/docs/accountant-portal/client-management/overview',
+                component: ComponentCreator('/docs/accountant-portal/client-management/overview', '4de'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accountant-portal/getting-started/configuring-branches',
-                component: ComponentCreator('/es/docs/accountant-portal/getting-started/configuring-branches', 'ea9'),
+                path: '/docs/accountant-portal/getting-started/configuring-branches',
+                component: ComponentCreator('/docs/accountant-portal/getting-started/configuring-branches', '831'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accountant-portal/getting-started/overview',
-                component: ComponentCreator('/es/docs/accountant-portal/getting-started/overview', '1f6'),
+                path: '/docs/accountant-portal/getting-started/overview',
+                component: ComponentCreator('/docs/accountant-portal/getting-started/overview', '2b0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accountant-portal/getting-started/setting-up-your-practice',
-                component: ComponentCreator('/es/docs/accountant-portal/getting-started/setting-up-your-practice', 'f39'),
+                path: '/docs/accountant-portal/getting-started/setting-up-your-practice',
+                component: ComponentCreator('/docs/accountant-portal/getting-started/setting-up-your-practice', 'b10'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accountant-portal/getting-started/team-structure',
-                component: ComponentCreator('/es/docs/accountant-portal/getting-started/team-structure', '5e1'),
+                path: '/docs/accountant-portal/getting-started/team-structure',
+                component: ComponentCreator('/docs/accountant-portal/getting-started/team-structure', 'f6e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accountant-portal/overview',
-                component: ComponentCreator('/es/docs/accountant-portal/overview', '6aa'),
+                path: '/docs/accountant-portal/overview',
+                component: ComponentCreator('/docs/accountant-portal/overview', '921'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accountant-portal/partner-program/becoming-a-partner',
-                component: ComponentCreator('/es/docs/accountant-portal/partner-program/becoming-a-partner', '8b7'),
+                path: '/docs/accountant-portal/partner-program/becoming-a-partner',
+                component: ComponentCreator('/docs/accountant-portal/partner-program/becoming-a-partner', '1a5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accountant-portal/partner-program/overview',
-                component: ComponentCreator('/es/docs/accountant-portal/partner-program/overview', '1d2'),
+                path: '/docs/accountant-portal/partner-program/overview',
+                component: ComponentCreator('/docs/accountant-portal/partner-program/overview', '3a4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accountant-portal/partner-program/partner-benefits',
-                component: ComponentCreator('/es/docs/accountant-portal/partner-program/partner-benefits', '9f7'),
+                path: '/docs/accountant-portal/partner-program/partner-benefits',
+                component: ComponentCreator('/docs/accountant-portal/partner-program/partner-benefits', '236'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accountant-portal/partner-program/partner-resources',
-                component: ComponentCreator('/es/docs/accountant-portal/partner-program/partner-resources', 'b74'),
+                path: '/docs/accountant-portal/partner-program/partner-resources',
+                component: ComponentCreator('/docs/accountant-portal/partner-program/partner-resources', '4b8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accountant-portal/partner-program/referral-tracking',
-                component: ComponentCreator('/es/docs/accountant-portal/partner-program/referral-tracking', '018'),
+                path: '/docs/accountant-portal/partner-program/referral-tracking',
+                component: ComponentCreator('/docs/accountant-portal/partner-program/referral-tracking', 'c4e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accountant-portal/reporting-analytics/billing-reports',
-                component: ComponentCreator('/es/docs/accountant-portal/reporting-analytics/billing-reports', '470'),
+                path: '/docs/accountant-portal/reporting-analytics/billing-reports',
+                component: ComponentCreator('/docs/accountant-portal/reporting-analytics/billing-reports', '2aa'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accountant-portal/reporting-analytics/client-portfolio-view',
-                component: ComponentCreator('/es/docs/accountant-portal/reporting-analytics/client-portfolio-view', '087'),
+                path: '/docs/accountant-portal/reporting-analytics/client-portfolio-view',
+                component: ComponentCreator('/docs/accountant-portal/reporting-analytics/client-portfolio-view', 'bb0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accountant-portal/reporting-analytics/overview',
-                component: ComponentCreator('/es/docs/accountant-portal/reporting-analytics/overview', '413'),
+                path: '/docs/accountant-portal/reporting-analytics/overview',
+                component: ComponentCreator('/docs/accountant-portal/reporting-analytics/overview', 'e6d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accountant-portal/reporting-analytics/practice-dashboard',
-                component: ComponentCreator('/es/docs/accountant-portal/reporting-analytics/practice-dashboard', 'da3'),
+                path: '/docs/accountant-portal/reporting-analytics/practice-dashboard',
+                component: ComponentCreator('/docs/accountant-portal/reporting-analytics/practice-dashboard', 'f25'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accountant-portal/reporting-analytics/team-performance',
-                component: ComponentCreator('/es/docs/accountant-portal/reporting-analytics/team-performance', '746'),
+                path: '/docs/accountant-portal/reporting-analytics/team-performance',
+                component: ComponentCreator('/docs/accountant-portal/reporting-analytics/team-performance', 'c11'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accountant-portal/team-collaboration/branch-management',
-                component: ComponentCreator('/es/docs/accountant-portal/team-collaboration/branch-management', '35a'),
+                path: '/docs/accountant-portal/team-collaboration/branch-management',
+                component: ComponentCreator('/docs/accountant-portal/team-collaboration/branch-management', 'ba7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accountant-portal/team-collaboration/managing-team-members',
-                component: ComponentCreator('/es/docs/accountant-portal/team-collaboration/managing-team-members', '782'),
+                path: '/docs/accountant-portal/team-collaboration/managing-team-members',
+                component: ComponentCreator('/docs/accountant-portal/team-collaboration/managing-team-members', '692'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accountant-portal/team-collaboration/overview',
-                component: ComponentCreator('/es/docs/accountant-portal/team-collaboration/overview', '88d'),
+                path: '/docs/accountant-portal/team-collaboration/overview',
+                component: ComponentCreator('/docs/accountant-portal/team-collaboration/overview', 'ebc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accountant-portal/team-collaboration/roles-permissions',
-                component: ComponentCreator('/es/docs/accountant-portal/team-collaboration/roles-permissions', '0d6'),
+                path: '/docs/accountant-portal/team-collaboration/roles-permissions',
+                component: ComponentCreator('/docs/accountant-portal/team-collaboration/roles-permissions', '811'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accountant-portal/team-collaboration/workflow-assignments',
-                component: ComponentCreator('/es/docs/accountant-portal/team-collaboration/workflow-assignments', 'cb4'),
+                path: '/docs/accountant-portal/team-collaboration/workflow-assignments',
+                component: ComponentCreator('/docs/accountant-portal/team-collaboration/workflow-assignments', 'a1a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accounting/accounting-faqs',
-                component: ComponentCreator('/es/docs/accounting/accounting-faqs', 'd4e'),
+                path: '/docs/accounting/accounting-faqs',
+                component: ComponentCreator('/docs/accounting/accounting-faqs', '9e5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accounting/chart-of-accounts',
-                component: ComponentCreator('/es/docs/accounting/chart-of-accounts', '325'),
+                path: '/docs/accounting/journal-entries/guides/overview',
+                component: ComponentCreator('/docs/accounting/journal-entries/guides/overview', '55e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accounting/journal-entries/guides/accounts-payable-transactions',
-                component: ComponentCreator('/es/docs/accounting/journal-entries/guides/accounts-payable-transactions', 'c2c'),
+                path: '/docs/accounting/journal-entries/multi-journal-entries',
+                component: ComponentCreator('/docs/accounting/journal-entries/multi-journal-entries', '381'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accounting/journal-entries/guides/accounts-receivable-transactions',
-                component: ComponentCreator('/es/docs/accounting/journal-entries/guides/accounts-receivable-transactions', 'cc8'),
+                path: '/docs/accounting/journal-entries/overview',
+                component: ComponentCreator('/docs/accounting/journal-entries/overview', '18b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accounting/journal-entries/guides/exporting-transactions',
-                component: ComponentCreator('/es/docs/accounting/journal-entries/guides/exporting-transactions', '9e0'),
+                path: '/docs/accounting/overview',
+                component: ComponentCreator('/docs/accounting/overview', '713'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accounting/journal-entries/guides/internal-transfers',
-                component: ComponentCreator('/es/docs/accounting/journal-entries/guides/internal-transfers', '0d0'),
+                path: '/docs/accounting/reconciliation/guides/overview',
+                component: ComponentCreator('/docs/accounting/reconciliation/guides/overview', 'd26'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accounting/journal-entries/guides/manual-transactions',
-                component: ComponentCreator('/es/docs/accounting/journal-entries/guides/manual-transactions', 'f6b'),
+                path: '/docs/accounting/reconciliation/guides/reconciliation-best-practices',
+                component: ComponentCreator('/docs/accounting/reconciliation/guides/reconciliation-best-practices', 'c55'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accounting/journal-entries/guides/match-and-split-transactions',
-                component: ComponentCreator('/es/docs/accounting/journal-entries/guides/match-and-split-transactions', 'e49'),
+                path: '/docs/accounting/reconciliation/overview',
+                component: ComponentCreator('/docs/accounting/reconciliation/overview', '42f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accounting/journal-entries/guides/move-transactions',
-                component: ComponentCreator('/es/docs/accounting/journal-entries/guides/move-transactions', 'f1b'),
+                path: '/docs/accounting/reimbursement-guide',
+                component: ComponentCreator('/docs/accounting/reimbursement-guide', 'f43'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accounting/journal-entries/guides/multi-currency-transactions',
-                component: ComponentCreator('/es/docs/accounting/journal-entries/guides/multi-currency-transactions', '1ce'),
+                path: '/docs/ai/fi',
+                component: ComponentCreator('/docs/ai/fi', '9b9'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accounting/journal-entries/guides/opening-balances',
-                component: ComponentCreator('/es/docs/accounting/journal-entries/guides/opening-balances', '8e7'),
+                path: '/docs/ai/overview',
+                component: ComponentCreator('/docs/ai/overview', 'ddd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accounting/journal-entries/guides/overview',
-                component: ComponentCreator('/es/docs/accounting/journal-entries/guides/overview', 'ad0'),
+                path: '/docs/clients-vendors/clients',
+                component: ComponentCreator('/docs/clients-vendors/clients', '4ab'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accounting/journal-entries/multi-journal-entries',
-                component: ComponentCreator('/es/docs/accounting/journal-entries/multi-journal-entries', '73f'),
+                path: '/docs/clients-vendors/overview',
+                component: ComponentCreator('/docs/clients-vendors/overview', 'eb0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accounting/journal-entries/overview',
-                component: ComponentCreator('/es/docs/accounting/journal-entries/overview', '637'),
+                path: '/docs/clients-vendors/vendors',
+                component: ComponentCreator('/docs/clients-vendors/vendors', '200'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accounting/overview',
-                component: ComponentCreator('/es/docs/accounting/overview', '732'),
+                path: '/docs/core-features/accounting/chart-of-accounts',
+                component: ComponentCreator('/docs/core-features/accounting/chart-of-accounts', '3cc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accounting/reconciliation/guides/bank-account-reconciliation',
-                component: ComponentCreator('/es/docs/accounting/reconciliation/guides/bank-account-reconciliation', '4af'),
+                path: '/docs/core-features/accounting/journal-entries/guides/accounts-payable-transactions',
+                component: ComponentCreator('/docs/core-features/accounting/journal-entries/guides/accounts-payable-transactions', '28b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accounting/reconciliation/guides/handling-reconciliation-discrepancies',
-                component: ComponentCreator('/es/docs/accounting/reconciliation/guides/handling-reconciliation-discrepancies', '3c5'),
+                path: '/docs/core-features/accounting/journal-entries/guides/accounts-receivable-transactions',
+                component: ComponentCreator('/docs/core-features/accounting/journal-entries/guides/accounts-receivable-transactions', '403'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accounting/reconciliation/guides/how-fiskl-handles-reconciliation',
-                component: ComponentCreator('/es/docs/accounting/reconciliation/guides/how-fiskl-handles-reconciliation', '9a5'),
+                path: '/docs/core-features/accounting/journal-entries/guides/bank-account-reconciliation',
+                component: ComponentCreator('/docs/core-features/accounting/journal-entries/guides/bank-account-reconciliation', '3c0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accounting/reconciliation/guides/overview',
-                component: ComponentCreator('/es/docs/accounting/reconciliation/guides/overview', '83b'),
+                path: '/docs/core-features/accounting/journal-entries/guides/exporting-transactions',
+                component: ComponentCreator('/docs/core-features/accounting/journal-entries/guides/exporting-transactions', 'e8a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accounting/reconciliation/guides/reconciliation-best-practices',
-                component: ComponentCreator('/es/docs/accounting/reconciliation/guides/reconciliation-best-practices', '32b'),
+                path: '/docs/core-features/accounting/journal-entries/guides/handling-reconciliation-discrepancies',
+                component: ComponentCreator('/docs/core-features/accounting/journal-entries/guides/handling-reconciliation-discrepancies', '2b7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accounting/reconciliation/guides/reconciliation-reports',
-                component: ComponentCreator('/es/docs/accounting/reconciliation/guides/reconciliation-reports', '95a'),
+                path: '/docs/core-features/accounting/journal-entries/guides/how-fiskl-handles-reconciliation',
+                component: ComponentCreator('/docs/core-features/accounting/journal-entries/guides/how-fiskl-handles-reconciliation', '3ba'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/accounting/reimbursement-guide',
-                component: ComponentCreator('/es/docs/accounting/reimbursement-guide', '9d4'),
+                path: '/docs/core-features/accounting/journal-entries/guides/internal-transfers',
+                component: ComponentCreator('/docs/core-features/accounting/journal-entries/guides/internal-transfers', 'a38'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/ai/fi',
-                component: ComponentCreator('/es/docs/ai/fi', 'a00'),
+                path: '/docs/core-features/accounting/journal-entries/guides/manual-transactions',
+                component: ComponentCreator('/docs/core-features/accounting/journal-entries/guides/manual-transactions', '72c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/ai/overview',
-                component: ComponentCreator('/es/docs/ai/overview', '541'),
+                path: '/docs/core-features/accounting/journal-entries/guides/match-and-split-transactions',
+                component: ComponentCreator('/docs/core-features/accounting/journal-entries/guides/match-and-split-transactions', 'ac4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/clients-vendors/clients',
-                component: ComponentCreator('/es/docs/clients-vendors/clients', '86f'),
+                path: '/docs/core-features/accounting/journal-entries/guides/move-transactions',
+                component: ComponentCreator('/docs/core-features/accounting/journal-entries/guides/move-transactions', '0f2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/clients-vendors/overview',
-                component: ComponentCreator('/es/docs/clients-vendors/overview', '7e7'),
+                path: '/docs/core-features/accounting/journal-entries/guides/multi-currency-transactions',
+                component: ComponentCreator('/docs/core-features/accounting/journal-entries/guides/multi-currency-transactions', 'f27'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/clients-vendors/vendors',
-                component: ComponentCreator('/es/docs/clients-vendors/vendors', '203'),
+                path: '/docs/core-features/accounting/journal-entries/guides/opening-balances',
+                component: ComponentCreator('/docs/core-features/accounting/journal-entries/guides/opening-balances', '983'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/core-features/accounting/journal-entries/guides/account-reconciliation',
-                component: ComponentCreator('/es/docs/core-features/accounting/journal-entries/guides/account-reconciliation', 'ce6'),
+                path: '/docs/core-features/accounting/journal-entries/guides/reconciliation-reports',
+                component: ComponentCreator('/docs/core-features/accounting/journal-entries/guides/reconciliation-reports', '9a3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/core-features/accounting/reports/trial-balance',
-                component: ComponentCreator('/es/docs/core-features/accounting/reports/trial-balance', 'f5c'),
+                path: '/docs/core-features/accounting/reports/statement-of-accounts',
+                component: ComponentCreator('/docs/core-features/accounting/reports/statement-of-accounts', 'dce'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/core-features/invoicing/recurring/recurring-invoice-management',
-                component: ComponentCreator('/es/docs/core-features/invoicing/recurring/recurring-invoice-management', '390'),
+                path: '/docs/core-features/accounting/reports/trial-balance',
+                component: ComponentCreator('/docs/core-features/accounting/reports/trial-balance', 'abe'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/dashboard/customizing-dashboard',
-                component: ComponentCreator('/es/docs/dashboard/customizing-dashboard', 'a10'),
+                path: '/docs/core-features/invoicing/recurring/creating-recurring-invoices',
+                component: ComponentCreator('/docs/core-features/invoicing/recurring/creating-recurring-invoices', '0c2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/dashboard/navigation-basics',
-                component: ComponentCreator('/es/docs/dashboard/navigation-basics', '64c'),
+                path: '/docs/core-features/invoicing/recurring/recurring-invoice-management',
+                component: ComponentCreator('/docs/core-features/invoicing/recurring/recurring-invoice-management', 'a5e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/dashboard/overview',
-                component: ComponentCreator('/es/docs/dashboard/overview', '116'),
+                path: '/docs/core-features/invoicing/sending-invoices.md',
+                component: ComponentCreator('/docs/core-features/invoicing/sending-invoices.md', '45c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/dashboard/quick-actions',
-                component: ComponentCreator('/es/docs/dashboard/quick-actions', 'f88'),
+                path: '/docs/core-features/quotes/creating-quotes.md',
+                component: ComponentCreator('/docs/core-features/quotes/creating-quotes.md', '58b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/expenses/ai-expenses/managing-ai-expenses',
-                component: ComponentCreator('/es/docs/expenses/ai-expenses/managing-ai-expenses', '1f9'),
+                path: '/docs/core-features/quotes/quote-management',
+                component: ComponentCreator('/docs/core-features/quotes/quote-management', '1a4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/expenses/ai-expenses/overview',
-                component: ComponentCreator('/es/docs/expenses/ai-expenses/overview', '99b'),
+                path: '/docs/dashboard/customizing-dashboard',
+                component: ComponentCreator('/docs/dashboard/customizing-dashboard', '4e1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/expenses/ai-expenses/reconciliation',
-                component: ComponentCreator('/es/docs/expenses/ai-expenses/reconciliation', 'fff'),
+                path: '/docs/dashboard/navigation-basics',
+                component: ComponentCreator('/docs/dashboard/navigation-basics', 'f70'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/expenses/ai-expenses/uploading',
-                component: ComponentCreator('/es/docs/expenses/ai-expenses/uploading', '68e'),
+                path: '/docs/dashboard/overview',
+                component: ComponentCreator('/docs/dashboard/overview', '7d4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/expenses/expense-categories',
-                component: ComponentCreator('/es/docs/expenses/expense-categories', '64f'),
+                path: '/docs/dashboard/quick-actions',
+                component: ComponentCreator('/docs/dashboard/quick-actions', 'b5f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/expenses/overview',
-                component: ComponentCreator('/es/docs/expenses/overview', 'f83'),
+                path: '/docs/expenses/ai-expenses/managing-ai-expenses',
+                component: ComponentCreator('/docs/expenses/ai-expenses/managing-ai-expenses', 'dc5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/expenses/traditional-expenses/overview',
-                component: ComponentCreator('/es/docs/expenses/traditional-expenses/overview', '49b'),
+                path: '/docs/expenses/ai-expenses/overview',
+                component: ComponentCreator('/docs/expenses/ai-expenses/overview', '648'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/getting-started/as-a-business-owner',
-                component: ComponentCreator('/es/docs/getting-started/as-a-business-owner', '694'),
+                path: '/docs/expenses/ai-expenses/reconciliation',
+                component: ComponentCreator('/docs/expenses/ai-expenses/reconciliation', '94c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/getting-started/as-an-accountant',
-                component: ComponentCreator('/es/docs/getting-started/as-an-accountant', '60a'),
+                path: '/docs/expenses/ai-expenses/uploading',
+                component: ComponentCreator('/docs/expenses/ai-expenses/uploading', 'f71'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/getting-started/connecting-your-bank',
-                component: ComponentCreator('/es/docs/getting-started/connecting-your-bank', 'c39'),
+                path: '/docs/expenses/expense-categories',
+                component: ComponentCreator('/docs/expenses/expense-categories', 'b37'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/getting-started/importing-data',
-                component: ComponentCreator('/es/docs/getting-started/importing-data', 'c36'),
+                path: '/docs/expenses/overview',
+                component: ComponentCreator('/docs/expenses/overview', '30c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/getting-started/overview',
-                component: ComponentCreator('/es/docs/getting-started/overview', 'c33'),
+                path: '/docs/expenses/traditional-expenses/overview',
+                component: ComponentCreator('/docs/expenses/traditional-expenses/overview', '723'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/getting-started/with-invoicing',
-                component: ComponentCreator('/es/docs/getting-started/with-invoicing', 'a1b'),
+                path: '/docs/getting-started/as-a-business-owner',
+                component: ComponentCreator('/docs/getting-started/as-a-business-owner', 'eb7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/getting-started/your-first-invoice',
-                component: ComponentCreator('/es/docs/getting-started/your-first-invoice', '17e'),
+                path: '/docs/getting-started/as-an-accountant',
+                component: ComponentCreator('/docs/getting-started/as-an-accountant', '690'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/glossary/accounting-fundamentals',
-                component: ComponentCreator('/es/docs/glossary/accounting-fundamentals', '2ce'),
+                path: '/docs/getting-started/connecting-your-bank',
+                component: ComponentCreator('/docs/getting-started/connecting-your-bank', '028'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/glossary/accounts-and-transactions',
-                component: ComponentCreator('/es/docs/glossary/accounts-and-transactions', '0e6'),
+                path: '/docs/getting-started/importing-data',
+                component: ComponentCreator('/docs/getting-started/importing-data', '381'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/glossary/assets-and-liabilities',
-                component: ComponentCreator('/es/docs/glossary/assets-and-liabilities', '19d'),
+                path: '/docs/getting-started/invoicing',
+                component: ComponentCreator('/docs/getting-started/invoicing', '9ca'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/glossary/cash-and-banking',
-                component: ComponentCreator('/es/docs/glossary/cash-and-banking', 'ec4'),
+                path: '/docs/getting-started/overview',
+                component: ComponentCreator('/docs/getting-started/overview', '3b4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/glossary/financial-statements',
-                component: ComponentCreator('/es/docs/glossary/financial-statements', '9a5'),
+                path: '/docs/getting-started/your-first-invoice',
+                component: ComponentCreator('/docs/getting-started/your-first-invoice', 'ce9'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/glossary/overview',
-                component: ComponentCreator('/es/docs/glossary/overview', '363'),
+                path: '/docs/glossary/accounting-fundamentals',
+                component: ComponentCreator('/docs/glossary/accounting-fundamentals', '188'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/integrations/banking/connect-saltedge',
-                component: ComponentCreator('/es/docs/integrations/banking/connect-saltedge', 'a7a'),
+                path: '/docs/glossary/accounts-and-transactions',
+                component: ComponentCreator('/docs/glossary/accounts-and-transactions', 'ebd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/integrations/banking/connect-stripe',
-                component: ComponentCreator('/es/docs/integrations/banking/connect-stripe', 'dad'),
+                path: '/docs/glossary/assets-and-liabilities',
+                component: ComponentCreator('/docs/glossary/assets-and-liabilities', '828'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/integrations/banking/connect-wio',
-                component: ComponentCreator('/es/docs/integrations/banking/connect-wio', 'a03'),
+                path: '/docs/glossary/cash-and-banking',
+                component: ComponentCreator('/docs/glossary/cash-and-banking', '9e0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/integrations/banking/connect-yodlee',
-                component: ComponentCreator('/es/docs/integrations/banking/connect-yodlee', '9d9'),
+                path: '/docs/glossary/financial-statements',
+                component: ComponentCreator('/docs/glossary/financial-statements', '0e3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/integrations/banking/overview',
-                component: ComponentCreator('/es/docs/integrations/banking/overview', '376'),
+                path: '/docs/glossary/overview',
+                component: ComponentCreator('/docs/glossary/overview', '1b4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/integrations/overview',
-                component: ComponentCreator('/es/docs/integrations/overview', '007'),
+                path: '/docs/integrations/banking/connecting-saltedge',
+                component: ComponentCreator('/docs/integrations/banking/connecting-saltedge', '7d5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/integrations/payments/gocardless-integration',
-                component: ComponentCreator('/es/docs/integrations/payments/gocardless-integration', '6e6'),
+                path: '/docs/integrations/banking/connecting-stripe',
+                component: ComponentCreator('/docs/integrations/banking/connecting-stripe', 'dfb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/integrations/payments/overview',
-                component: ComponentCreator('/es/docs/integrations/payments/overview', 'fe9'),
+                path: '/docs/integrations/banking/connecting-wio',
+                component: ComponentCreator('/docs/integrations/banking/connecting-wio', '240'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/integrations/payments/paypal-integration',
-                component: ComponentCreator('/es/docs/integrations/payments/paypal-integration', '87c'),
+                path: '/docs/integrations/banking/connecting-yodlee',
+                component: ComponentCreator('/docs/integrations/banking/connecting-yodlee', '48f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/integrations/payments/stripe-integration',
-                component: ComponentCreator('/es/docs/integrations/payments/stripe-integration', '38b'),
+                path: '/docs/integrations/banking/overview',
+                component: ComponentCreator('/docs/integrations/banking/overview', 'e9a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/intro',
-                component: ComponentCreator('/es/docs/intro', '081'),
+                path: '/docs/integrations/overview',
+                component: ComponentCreator('/docs/integrations/overview', '0c4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/invoicing/create-recurring-invoices',
-                component: ComponentCreator('/es/docs/invoicing/create-recurring-invoices', '77e'),
+                path: '/docs/integrations/payments/gocardless',
+                component: ComponentCreator('/docs/integrations/payments/gocardless', '7f7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/invoicing/creating-invoices',
-                component: ComponentCreator('/es/docs/invoicing/creating-invoices', 'e8e'),
+                path: '/docs/integrations/payments/overview',
+                component: ComponentCreator('/docs/integrations/payments/overview', 'aa7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/invoicing/creating-quotes',
-                component: ComponentCreator('/es/docs/invoicing/creating-quotes', '680'),
+                path: '/docs/integrations/payments/paypal',
+                component: ComponentCreator('/docs/integrations/payments/paypal', '56d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/invoicing/invoice-management',
-                component: ComponentCreator('/es/docs/invoicing/invoice-management', '3b6'),
+                path: '/docs/integrations/payments/stripe',
+                component: ComponentCreator('/docs/integrations/payments/stripe', 'b1e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/invoicing/overview',
-                component: ComponentCreator('/es/docs/invoicing/overview', 'a2a'),
+                path: '/docs/intro',
+                component: ComponentCreator('/docs/intro', '61d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/invoicing/quote-management',
-                component: ComponentCreator('/es/docs/invoicing/quote-management', '631'),
+                path: '/docs/invoicing/creating-invoices',
+                component: ComponentCreator('/docs/invoicing/creating-invoices', 'cac'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/invoicing/sending-invoices',
-                component: ComponentCreator('/es/docs/invoicing/sending-invoices', '3f0'),
+                path: '/docs/invoicing/invoice-management',
+                component: ComponentCreator('/docs/invoicing/invoice-management', 'a41'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/plans-billing/applying-offer-codes',
-                component: ComponentCreator('/es/docs/plans-billing/applying-offer-codes', '7a4'),
+                path: '/docs/invoicing/overview',
+                component: ComponentCreator('/docs/invoicing/overview', 'b5d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/plans-billing/canceling-subscription',
-                component: ComponentCreator('/es/docs/plans-billing/canceling-subscription', 'd3a'),
+                path: '/docs/plans-billing/applying-offer-codes',
+                component: ComponentCreator('/docs/plans-billing/applying-offer-codes', 'bcc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/plans-billing/deleting-account',
-                component: ComponentCreator('/es/docs/plans-billing/deleting-account', '942'),
+                path: '/docs/plans-billing/canceling-subscription',
+                component: ComponentCreator('/docs/plans-billing/canceling-subscription', '30b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/plans-billing/managing-subscription',
-                component: ComponentCreator('/es/docs/plans-billing/managing-subscription', 'd0e'),
+                path: '/docs/plans-billing/deleting-account',
+                component: ComponentCreator('/docs/plans-billing/deleting-account', '6c2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/plans-billing/overview',
-                component: ComponentCreator('/es/docs/plans-billing/overview', 'b3e'),
+                path: '/docs/plans-billing/managing-subscription',
+                component: ComponentCreator('/docs/plans-billing/managing-subscription', '71c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/plans-billing/selecting-plans',
-                component: ComponentCreator('/es/docs/plans-billing/selecting-plans', '92c'),
+                path: '/docs/plans-billing/overview',
+                component: ComponentCreator('/docs/plans-billing/overview', '3f0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/plans-billing/updating-billing-info',
-                component: ComponentCreator('/es/docs/plans-billing/updating-billing-info', 'c0e'),
+                path: '/docs/plans-billing/selecting-plans',
+                component: ComponentCreator('/docs/plans-billing/selecting-plans', '2bd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/products-services/creating-products',
-                component: ComponentCreator('/es/docs/products-services/creating-products', 'cef'),
+                path: '/docs/plans-billing/updating-billing-info',
+                component: ComponentCreator('/docs/plans-billing/updating-billing-info', '36b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/products-services/managing-catalog',
-                component: ComponentCreator('/es/docs/products-services/managing-catalog', '9b9'),
+                path: '/docs/products-services/creating-products',
+                component: ComponentCreator('/docs/products-services/creating-products', '7fd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/products-services/managing-services',
-                component: ComponentCreator('/es/docs/products-services/managing-services', 'd6b'),
+                path: '/docs/products-services/managing-catalog',
+                component: ComponentCreator('/docs/products-services/managing-catalog', 'd47'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/products-services/overview',
-                component: ComponentCreator('/es/docs/products-services/overview', '655'),
+                path: '/docs/products-services/managing-services',
+                component: ComponentCreator('/docs/products-services/managing-services', '4ab'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/reporting/balance-sheet',
-                component: ComponentCreator('/es/docs/reporting/balance-sheet', 'b74'),
+                path: '/docs/products-services/overview',
+                component: ComponentCreator('/docs/products-services/overview', '3d4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/reporting/cash-flow',
-                component: ComponentCreator('/es/docs/reporting/cash-flow', '23c'),
+                path: '/docs/reporting/balance-sheet',
+                component: ComponentCreator('/docs/reporting/balance-sheet', '8f5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/reporting/client-aging',
-                component: ComponentCreator('/es/docs/reporting/client-aging', 'b9a'),
+                path: '/docs/reporting/cash-flow',
+                component: ComponentCreator('/docs/reporting/cash-flow', 'afd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/reporting/general-ledger',
-                component: ComponentCreator('/es/docs/reporting/general-ledger', '0be'),
+                path: '/docs/reporting/client-aging',
+                component: ComponentCreator('/docs/reporting/client-aging', '380'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/reporting/overview',
-                component: ComponentCreator('/es/docs/reporting/overview', '40d'),
+                path: '/docs/reporting/general-ledger',
+                component: ComponentCreator('/docs/reporting/general-ledger', '7b7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/reporting/profit-and-loss',
-                component: ComponentCreator('/es/docs/reporting/profit-and-loss', '4ab'),
+                path: '/docs/reporting/overview',
+                component: ComponentCreator('/docs/reporting/overview', '59f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/reporting/sales-tax',
-                component: ComponentCreator('/es/docs/reporting/sales-tax', 'c20'),
+                path: '/docs/reporting/profit-and-loss',
+                component: ComponentCreator('/docs/reporting/profit-and-loss', 'b0d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/reporting/statement-of-accounts',
-                component: ComponentCreator('/es/docs/reporting/statement-of-accounts', '577'),
+                path: '/docs/reporting/sales-tax',
+                component: ComponentCreator('/docs/reporting/sales-tax', '23b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/reporting/transactions-by-account',
-                component: ComponentCreator('/es/docs/reporting/transactions-by-account', 'db0'),
+                path: '/docs/reporting/transactions-by-account',
+                component: ComponentCreator('/docs/reporting/transactions-by-account', '1ad'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/settings/accounting-settings',
-                component: ComponentCreator('/es/docs/settings/accounting-settings', '334'),
+                path: '/docs/settings/accounting-settings',
+                component: ComponentCreator('/docs/settings/accounting-settings', '9f6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/settings/company-settings',
-                component: ComponentCreator('/es/docs/settings/company-settings', 'f2b'),
+                path: '/docs/settings/company-settings',
+                component: ComponentCreator('/docs/settings/company-settings', 'a3d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/settings/currency-management',
-                component: ComponentCreator('/es/docs/settings/currency-management', 'b6f'),
+                path: '/docs/settings/currency-management',
+                component: ComponentCreator('/docs/settings/currency-management', '561'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/settings/invoice-quotes-settings',
-                component: ComponentCreator('/es/docs/settings/invoice-quotes-settings', '0e0'),
+                path: '/docs/settings/invoice-quote-settings',
+                component: ComponentCreator('/docs/settings/invoice-quote-settings', '1e9'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/settings/invoice-template-brands-settings',
-                component: ComponentCreator('/es/docs/settings/invoice-template-brands-settings', '322'),
+                path: '/docs/settings/overview',
+                component: ComponentCreator('/docs/settings/overview', '113'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/settings/overview',
-                component: ComponentCreator('/es/docs/settings/overview', 'af8'),
+                path: '/docs/settings/profile-settings',
+                component: ComponentCreator('/docs/settings/profile-settings', '0c3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/settings/profile-settings',
-                component: ComponentCreator('/es/docs/settings/profile-settings', '81f'),
+                path: '/docs/settings/tax-settings',
+                component: ComponentCreator('/docs/settings/tax-settings', '0e8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/settings/tax-settings',
-                component: ComponentCreator('/es/docs/settings/tax-settings', 'c4a'),
+                path: '/docs/settings/template-brand-settings',
+                component: ComponentCreator('/docs/settings/template-brand-settings', '8d1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/support/overview',
-                component: ComponentCreator('/es/docs/support/overview', 'c96'),
+                path: '/docs/support/overview',
+                component: ComponentCreator('/docs/support/overview', 'adc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/team/inviting-users',
-                component: ComponentCreator('/es/docs/team/inviting-users', '267'),
+                path: '/docs/team/inviting-users',
+                component: ComponentCreator('/docs/team/inviting-users', 'eef'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/team/overview',
-                component: ComponentCreator('/es/docs/team/overview', 'ab8'),
+                path: '/docs/team/overview',
+                component: ComponentCreator('/docs/team/overview', '258'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/team/roles-permissions',
-                component: ComponentCreator('/es/docs/team/roles-permissions', 'e5d'),
+                path: '/docs/team/roles-permissions',
+                component: ComponentCreator('/docs/team/roles-permissions', '39e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/time-and-mileage/billing-time-and-mileage',
-                component: ComponentCreator('/es/docs/time-and-mileage/billing-time-and-mileage', '1e2'),
+                path: '/docs/time-and-mileage/billing-time-and-mileage',
+                component: ComponentCreator('/docs/time-and-mileage/billing-time-and-mileage', '6c6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/time-and-mileage/mileage-tracking',
-                component: ComponentCreator('/es/docs/time-and-mileage/mileage-tracking', '094'),
+                path: '/docs/time-and-mileage/mileage-tracking',
+                component: ComponentCreator('/docs/time-and-mileage/mileage-tracking', '483'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/time-and-mileage/overview',
-                component: ComponentCreator('/es/docs/time-and-mileage/overview', '9a7'),
+                path: '/docs/time-and-mileage/overview',
+                component: ComponentCreator('/docs/time-and-mileage/overview', '949'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/es/docs/time-and-mileage/time-tracking',
-                component: ComponentCreator('/es/docs/time-and-mileage/time-tracking', 'b2d'),
+                path: '/docs/time-and-mileage/time-tracking',
+                component: ComponentCreator('/docs/time-and-mileage/time-tracking', 'e05'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -968,8 +1268,8 @@ export default [
     ]
   },
   {
-    path: '/es/',
-    component: ComponentCreator('/es/', '8a4'),
+    path: '/',
+    component: ComponentCreator('/', '2bc'),
     exact: true
   },
   {

@@ -1,698 +1,698 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/es/docs",
+      "path": "/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/es/docs",
-          "mainDocId": "getting-started/overview",
+          "path": "/docs",
+          "mainDocId": "intro",
           "docs": [
             {
               "id": "accountant-portal/billing-models/bill-us-model",
-              "path": "/es/docs/accountant-portal/billing-models/bill-us-model",
+              "path": "/docs/accountant-portal/billing-models/bill-us-model",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accountant-portal/billing-models/client-pays-model",
-              "path": "/es/docs/accountant-portal/billing-models/client-pays-model",
+              "path": "/docs/accountant-portal/billing-models/client-pays-model",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accountant-portal/billing-models/overview",
-              "path": "/es/docs/accountant-portal/billing-models/overview",
+              "path": "/docs/accountant-portal/billing-models/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accountant-portal/billing-models/switching-billing-models",
-              "path": "/es/docs/accountant-portal/billing-models/switching-billing-models",
+              "path": "/docs/accountant-portal/billing-models/switching-billing-models",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accountant-portal/client-management/accepting-client-invitations",
-              "path": "/es/docs/accountant-portal/client-management/accepting-client-invitations",
+              "path": "/docs/accountant-portal/client-management/accepting-client-invitations",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accountant-portal/client-management/client-access-levels",
-              "path": "/es/docs/accountant-portal/client-management/client-access-levels",
+              "path": "/docs/accountant-portal/client-management/client-access-levels",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accountant-portal/client-management/client-connections",
-              "path": "/es/docs/accountant-portal/client-management/client-connections",
+              "path": "/docs/accountant-portal/client-management/client-connections",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accountant-portal/client-management/inviting-clients",
-              "path": "/es/docs/accountant-portal/client-management/inviting-clients",
+              "path": "/docs/accountant-portal/client-management/inviting-clients",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accountant-portal/client-management/overview",
-              "path": "/es/docs/accountant-portal/client-management/overview",
+              "path": "/docs/accountant-portal/client-management/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accountant-portal/getting-started/configuring-branches",
-              "path": "/es/docs/accountant-portal/getting-started/configuring-branches",
+              "path": "/docs/accountant-portal/getting-started/configuring-branches",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accountant-portal/getting-started/overview",
-              "path": "/es/docs/accountant-portal/getting-started/overview",
+              "path": "/docs/accountant-portal/getting-started/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accountant-portal/getting-started/setting-up-your-practice",
-              "path": "/es/docs/accountant-portal/getting-started/setting-up-your-practice",
+              "path": "/docs/accountant-portal/getting-started/setting-up-your-practice",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accountant-portal/getting-started/team-structure",
-              "path": "/es/docs/accountant-portal/getting-started/team-structure",
+              "path": "/docs/accountant-portal/getting-started/team-structure",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accountant-portal/overview",
-              "path": "/es/docs/accountant-portal/overview",
+              "path": "/docs/accountant-portal/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accountant-portal/partner-program/becoming-a-partner",
-              "path": "/es/docs/accountant-portal/partner-program/becoming-a-partner",
+              "path": "/docs/accountant-portal/partner-program/becoming-a-partner",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accountant-portal/partner-program/overview",
-              "path": "/es/docs/accountant-portal/partner-program/overview",
+              "path": "/docs/accountant-portal/partner-program/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accountant-portal/partner-program/partner-benefits",
-              "path": "/es/docs/accountant-portal/partner-program/partner-benefits",
+              "path": "/docs/accountant-portal/partner-program/partner-benefits",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accountant-portal/partner-program/partner-resources",
-              "path": "/es/docs/accountant-portal/partner-program/partner-resources",
+              "path": "/docs/accountant-portal/partner-program/partner-resources",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accountant-portal/partner-program/referral-tracking",
-              "path": "/es/docs/accountant-portal/partner-program/referral-tracking",
+              "path": "/docs/accountant-portal/partner-program/referral-tracking",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accountant-portal/reporting-analytics/billing-reports",
-              "path": "/es/docs/accountant-portal/reporting-analytics/billing-reports",
+              "path": "/docs/accountant-portal/reporting-analytics/billing-reports",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accountant-portal/reporting-analytics/client-portfolio-view",
-              "path": "/es/docs/accountant-portal/reporting-analytics/client-portfolio-view",
+              "path": "/docs/accountant-portal/reporting-analytics/client-portfolio-view",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accountant-portal/reporting-analytics/overview",
-              "path": "/es/docs/accountant-portal/reporting-analytics/overview",
+              "path": "/docs/accountant-portal/reporting-analytics/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accountant-portal/reporting-analytics/practice-dashboard",
-              "path": "/es/docs/accountant-portal/reporting-analytics/practice-dashboard",
+              "path": "/docs/accountant-portal/reporting-analytics/practice-dashboard",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accountant-portal/reporting-analytics/team-performance",
-              "path": "/es/docs/accountant-portal/reporting-analytics/team-performance",
+              "path": "/docs/accountant-portal/reporting-analytics/team-performance",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accountant-portal/team-collaboration/branch-management",
-              "path": "/es/docs/accountant-portal/team-collaboration/branch-management",
+              "path": "/docs/accountant-portal/team-collaboration/branch-management",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accountant-portal/team-collaboration/managing-team-members",
-              "path": "/es/docs/accountant-portal/team-collaboration/managing-team-members",
+              "path": "/docs/accountant-portal/team-collaboration/managing-team-members",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accountant-portal/team-collaboration/overview",
-              "path": "/es/docs/accountant-portal/team-collaboration/overview",
+              "path": "/docs/accountant-portal/team-collaboration/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accountant-portal/team-collaboration/roles-permissions",
-              "path": "/es/docs/accountant-portal/team-collaboration/roles-permissions",
+              "path": "/docs/accountant-portal/team-collaboration/roles-permissions",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accountant-portal/team-collaboration/workflow-assignments",
-              "path": "/es/docs/accountant-portal/team-collaboration/workflow-assignments",
+              "path": "/docs/accountant-portal/team-collaboration/workflow-assignments",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accounting/accounting-faqs",
-              "path": "/es/docs/accounting/accounting-faqs",
+              "path": "/docs/accounting/accounting-faqs",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accounting/chart-of-accounts",
-              "path": "/es/docs/accounting/chart-of-accounts",
+              "path": "/docs/core-features/accounting/chart-of-accounts",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accounting/journal-entries/guides/accounts-payable-transactions",
-              "path": "/es/docs/accounting/journal-entries/guides/accounts-payable-transactions",
+              "path": "/docs/core-features/accounting/journal-entries/guides/accounts-payable-transactions",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accounting/journal-entries/guides/accounts-receivable-transactions",
-              "path": "/es/docs/accounting/journal-entries/guides/accounts-receivable-transactions",
+              "path": "/docs/core-features/accounting/journal-entries/guides/accounts-receivable-transactions",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accounting/journal-entries/guides/exporting-transactions",
-              "path": "/es/docs/accounting/journal-entries/guides/exporting-transactions",
+              "path": "/docs/core-features/accounting/journal-entries/guides/exporting-transactions",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accounting/journal-entries/guides/internal-transfers",
-              "path": "/es/docs/accounting/journal-entries/guides/internal-transfers",
+              "path": "/docs/core-features/accounting/journal-entries/guides/internal-transfers",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accounting/journal-entries/guides/manual-transactions",
-              "path": "/es/docs/accounting/journal-entries/guides/manual-transactions",
+              "path": "/docs/core-features/accounting/journal-entries/guides/manual-transactions",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accounting/journal-entries/guides/match-and-split-transactions",
-              "path": "/es/docs/accounting/journal-entries/guides/match-and-split-transactions",
+              "path": "/docs/core-features/accounting/journal-entries/guides/match-and-split-transactions",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accounting/journal-entries/guides/move-transactions",
-              "path": "/es/docs/accounting/journal-entries/guides/move-transactions",
+              "path": "/docs/core-features/accounting/journal-entries/guides/move-transactions",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accounting/journal-entries/guides/multi-currency-transactions",
-              "path": "/es/docs/accounting/journal-entries/guides/multi-currency-transactions",
+              "path": "/docs/core-features/accounting/journal-entries/guides/multi-currency-transactions",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accounting/journal-entries/guides/opening-balances",
-              "path": "/es/docs/accounting/journal-entries/guides/opening-balances",
+              "path": "/docs/core-features/accounting/journal-entries/guides/opening-balances",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accounting/journal-entries/guides/overview",
-              "path": "/es/docs/accounting/journal-entries/guides/overview",
+              "path": "/docs/accounting/journal-entries/guides/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accounting/journal-entries/multi-journal-entries",
-              "path": "/es/docs/accounting/journal-entries/multi-journal-entries",
+              "path": "/docs/accounting/journal-entries/multi-journal-entries",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accounting/journal-entries/overview",
-              "path": "/es/docs/accounting/journal-entries/overview",
+              "path": "/docs/accounting/journal-entries/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accounting/overview",
-              "path": "/es/docs/accounting/overview",
+              "path": "/docs/accounting/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accounting/reconciliation/guides/bank-account-reconciliation",
-              "path": "/es/docs/accounting/reconciliation/guides/bank-account-reconciliation",
+              "path": "/docs/core-features/accounting/journal-entries/guides/bank-account-reconciliation",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accounting/reconciliation/guides/handling-reconciliation-discrepancies",
-              "path": "/es/docs/accounting/reconciliation/guides/handling-reconciliation-discrepancies",
+              "path": "/docs/core-features/accounting/journal-entries/guides/handling-reconciliation-discrepancies",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accounting/reconciliation/guides/how-fiskl-handles-reconciliation",
-              "path": "/es/docs/accounting/reconciliation/guides/how-fiskl-handles-reconciliation",
+              "path": "/docs/core-features/accounting/journal-entries/guides/how-fiskl-handles-reconciliation",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accounting/reconciliation/guides/overview",
-              "path": "/es/docs/accounting/reconciliation/guides/overview",
+              "path": "/docs/accounting/reconciliation/guides/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accounting/reconciliation/guides/reconciliation-best-practices",
-              "path": "/es/docs/accounting/reconciliation/guides/reconciliation-best-practices",
+              "path": "/docs/accounting/reconciliation/guides/reconciliation-best-practices",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accounting/reconciliation/guides/reconciliation-reports",
-              "path": "/es/docs/accounting/reconciliation/guides/reconciliation-reports",
+              "path": "/docs/core-features/accounting/journal-entries/guides/reconciliation-reports",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accounting/reconciliation/overview",
-              "path": "/es/docs/core-features/accounting/journal-entries/guides/account-reconciliation",
+              "path": "/docs/accounting/reconciliation/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "accounting/reimbursement-guide",
-              "path": "/es/docs/accounting/reimbursement-guide",
+              "path": "/docs/accounting/reimbursement-guide",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "ai/fi",
-              "path": "/es/docs/ai/fi",
+              "path": "/docs/ai/fi",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "ai/overview",
-              "path": "/es/docs/ai/overview",
+              "path": "/docs/ai/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "clients-vendors/clients",
-              "path": "/es/docs/clients-vendors/clients",
+              "path": "/docs/clients-vendors/clients",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "clients-vendors/overview",
-              "path": "/es/docs/clients-vendors/overview",
+              "path": "/docs/clients-vendors/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "clients-vendors/vendors",
-              "path": "/es/docs/clients-vendors/vendors",
+              "path": "/docs/clients-vendors/vendors",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "dashboard/customizing-dashboard",
-              "path": "/es/docs/dashboard/customizing-dashboard",
+              "path": "/docs/dashboard/customizing-dashboard",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "dashboard/navigation-basics",
-              "path": "/es/docs/dashboard/navigation-basics",
+              "path": "/docs/dashboard/navigation-basics",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "dashboard/overview",
-              "path": "/es/docs/dashboard/overview",
+              "path": "/docs/dashboard/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "dashboard/quick-actions",
-              "path": "/es/docs/dashboard/quick-actions",
+              "path": "/docs/dashboard/quick-actions",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "expenses/ai-expenses/managing-ai-expenses",
-              "path": "/es/docs/expenses/ai-expenses/managing-ai-expenses",
+              "path": "/docs/expenses/ai-expenses/managing-ai-expenses",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "expenses/ai-expenses/overview",
-              "path": "/es/docs/expenses/ai-expenses/overview",
+              "path": "/docs/expenses/ai-expenses/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "expenses/ai-expenses/reconciliation",
-              "path": "/es/docs/expenses/ai-expenses/reconciliation",
+              "path": "/docs/expenses/ai-expenses/reconciliation",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "expenses/ai-expenses/uploading",
-              "path": "/es/docs/expenses/ai-expenses/uploading",
+              "path": "/docs/expenses/ai-expenses/uploading",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "expenses/expense-categories",
-              "path": "/es/docs/expenses/expense-categories",
+              "path": "/docs/expenses/expense-categories",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "expenses/overview",
-              "path": "/es/docs/expenses/overview",
+              "path": "/docs/expenses/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "expenses/traditional-expenses/overview",
-              "path": "/es/docs/expenses/traditional-expenses/overview",
+              "path": "/docs/expenses/traditional-expenses/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "getting-started/as-a-business-owner",
-              "path": "/es/docs/getting-started/as-a-business-owner",
+              "path": "/docs/getting-started/as-a-business-owner",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "getting-started/as-an-accountant",
-              "path": "/es/docs/getting-started/as-an-accountant",
+              "path": "/docs/getting-started/as-an-accountant",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "getting-started/connecting-your-bank",
-              "path": "/es/docs/getting-started/connecting-your-bank",
+              "path": "/docs/getting-started/connecting-your-bank",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "getting-started/importing-data",
-              "path": "/es/docs/getting-started/importing-data",
+              "path": "/docs/getting-started/importing-data",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "getting-started/overview",
-              "path": "/es/docs/getting-started/overview",
+              "path": "/docs/getting-started/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "getting-started/with-invoicing",
-              "path": "/es/docs/getting-started/with-invoicing",
+              "path": "/docs/getting-started/invoicing",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "getting-started/your-first-invoice",
-              "path": "/es/docs/getting-started/your-first-invoice",
+              "path": "/docs/getting-started/your-first-invoice",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "glossary/accounting-fundamentals",
-              "path": "/es/docs/glossary/accounting-fundamentals",
+              "path": "/docs/glossary/accounting-fundamentals",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "glossary/accounts-and-transactions",
-              "path": "/es/docs/glossary/accounts-and-transactions",
+              "path": "/docs/glossary/accounts-and-transactions",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "glossary/assets-and-liabilities",
-              "path": "/es/docs/glossary/assets-and-liabilities",
+              "path": "/docs/glossary/assets-and-liabilities",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "glossary/cash-and-banking",
-              "path": "/es/docs/glossary/cash-and-banking",
+              "path": "/docs/glossary/cash-and-banking",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "glossary/financial-statements",
-              "path": "/es/docs/glossary/financial-statements",
+              "path": "/docs/glossary/financial-statements",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "glossary/overview",
-              "path": "/es/docs/glossary/overview",
+              "path": "/docs/glossary/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "integrations/banking/connect-saltedge",
-              "path": "/es/docs/integrations/banking/connect-saltedge",
+              "path": "/docs/integrations/banking/connecting-saltedge",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "integrations/banking/connect-stripe",
-              "path": "/es/docs/integrations/banking/connect-stripe",
+              "path": "/docs/integrations/banking/connecting-stripe",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "integrations/banking/connect-wio",
-              "path": "/es/docs/integrations/banking/connect-wio",
+              "path": "/docs/integrations/banking/connecting-wio",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "integrations/banking/connect-yodlee",
-              "path": "/es/docs/integrations/banking/connect-yodlee",
+              "path": "/docs/integrations/banking/connecting-yodlee",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "integrations/banking/overview",
-              "path": "/es/docs/integrations/banking/overview",
+              "path": "/docs/integrations/banking/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "integrations/overview",
-              "path": "/es/docs/integrations/overview",
+              "path": "/docs/integrations/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "integrations/payments/gocardless-integration",
-              "path": "/es/docs/integrations/payments/gocardless-integration",
+              "path": "/docs/integrations/payments/gocardless",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "integrations/payments/overview",
-              "path": "/es/docs/integrations/payments/overview",
+              "path": "/docs/integrations/payments/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "integrations/payments/paypal-integration",
-              "path": "/es/docs/integrations/payments/paypal-integration",
+              "path": "/docs/integrations/payments/paypal",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "integrations/payments/stripe-integration",
-              "path": "/es/docs/integrations/payments/stripe-integration",
+              "path": "/docs/integrations/payments/stripe",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "intro",
-              "path": "/es/docs/intro",
+              "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "invoicing/create-recurring-invoices",
-              "path": "/es/docs/invoicing/create-recurring-invoices",
+              "path": "/docs/core-features/invoicing/recurring/creating-recurring-invoices",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "invoicing/creating-invoices",
-              "path": "/es/docs/invoicing/creating-invoices",
+              "path": "/docs/invoicing/creating-invoices",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "invoicing/creating-quotes",
-              "path": "/es/docs/invoicing/creating-quotes",
+              "path": "/docs/core-features/quotes/creating-quotes.md",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "invoicing/invoice-management",
-              "path": "/es/docs/invoicing/invoice-management",
+              "path": "/docs/invoicing/invoice-management",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "invoicing/overview",
-              "path": "/es/docs/invoicing/overview",
+              "path": "/docs/invoicing/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "invoicing/quote-management",
-              "path": "/es/docs/invoicing/quote-management",
+              "path": "/docs/core-features/quotes/quote-management",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "invoicing/recurring-invoice-management",
-              "path": "/es/docs/core-features/invoicing/recurring/recurring-invoice-management",
+              "path": "/docs/core-features/invoicing/recurring/recurring-invoice-management",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "invoicing/sending-invoices",
-              "path": "/es/docs/invoicing/sending-invoices",
+              "path": "/docs/core-features/invoicing/sending-invoices.md",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "plans-billing/applying-offer-codes",
-              "path": "/es/docs/plans-billing/applying-offer-codes",
+              "path": "/docs/plans-billing/applying-offer-codes",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "plans-billing/canceling-subscription",
-              "path": "/es/docs/plans-billing/canceling-subscription",
+              "path": "/docs/plans-billing/canceling-subscription",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "plans-billing/deleting-account",
-              "path": "/es/docs/plans-billing/deleting-account",
+              "path": "/docs/plans-billing/deleting-account",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "plans-billing/managing-subscription",
-              "path": "/es/docs/plans-billing/managing-subscription",
+              "path": "/docs/plans-billing/managing-subscription",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "plans-billing/overview",
-              "path": "/es/docs/plans-billing/overview",
+              "path": "/docs/plans-billing/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "plans-billing/selecting-plans",
-              "path": "/es/docs/plans-billing/selecting-plans",
+              "path": "/docs/plans-billing/selecting-plans",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "plans-billing/updating-billing-info",
-              "path": "/es/docs/plans-billing/updating-billing-info",
+              "path": "/docs/plans-billing/updating-billing-info",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "products-services/creating-products",
-              "path": "/es/docs/products-services/creating-products",
+              "path": "/docs/products-services/creating-products",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "products-services/managing-catalog",
-              "path": "/es/docs/products-services/managing-catalog",
+              "path": "/docs/products-services/managing-catalog",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "products-services/managing-services",
-              "path": "/es/docs/products-services/managing-services",
+              "path": "/docs/products-services/managing-services",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "products-services/overview",
-              "path": "/es/docs/products-services/overview",
+              "path": "/docs/products-services/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "reporting/balance-sheet",
-              "path": "/es/docs/reporting/balance-sheet",
+              "path": "/docs/reporting/balance-sheet",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "reporting/cash-flow",
-              "path": "/es/docs/reporting/cash-flow",
+              "path": "/docs/reporting/cash-flow",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "reporting/client-aging",
-              "path": "/es/docs/reporting/client-aging",
+              "path": "/docs/reporting/client-aging",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "reporting/general-ledger",
-              "path": "/es/docs/reporting/general-ledger",
+              "path": "/docs/reporting/general-ledger",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "reporting/overview",
-              "path": "/es/docs/reporting/overview",
+              "path": "/docs/reporting/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "reporting/profit-and-loss",
-              "path": "/es/docs/reporting/profit-and-loss",
+              "path": "/docs/reporting/profit-and-loss",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "reporting/sales-tax",
-              "path": "/es/docs/reporting/sales-tax",
+              "path": "/docs/reporting/sales-tax",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "reporting/statement-of-accounts",
-              "path": "/es/docs/reporting/statement-of-accounts",
+              "path": "/docs/core-features/accounting/reports/statement-of-accounts",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "reporting/transactions-by-account",
-              "path": "/es/docs/reporting/transactions-by-account",
+              "path": "/docs/reporting/transactions-by-account",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "reporting/trial-balance",
-              "path": "/es/docs/core-features/accounting/reports/trial-balance",
+              "path": "/docs/core-features/accounting/reports/trial-balance",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "settings/accounting-settings",
-              "path": "/es/docs/settings/accounting-settings",
+              "path": "/docs/settings/accounting-settings",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "settings/company-settings",
-              "path": "/es/docs/settings/company-settings",
+              "path": "/docs/settings/company-settings",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "settings/currency-management",
-              "path": "/es/docs/settings/currency-management",
+              "path": "/docs/settings/currency-management",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "settings/invoice-quotes-settings",
-              "path": "/es/docs/settings/invoice-quotes-settings",
+              "path": "/docs/settings/invoice-quote-settings",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "settings/invoice-template-brands-settings",
-              "path": "/es/docs/settings/invoice-template-brands-settings",
+              "path": "/docs/settings/template-brand-settings",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "settings/overview",
-              "path": "/es/docs/settings/overview",
+              "path": "/docs/settings/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "settings/profile-settings",
-              "path": "/es/docs/settings/profile-settings",
+              "path": "/docs/settings/profile-settings",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "settings/tax-settings",
-              "path": "/es/docs/settings/tax-settings",
+              "path": "/docs/settings/tax-settings",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "support/overview",
-              "path": "/es/docs/support/overview",
+              "path": "/docs/support/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "team/inviting-users",
-              "path": "/es/docs/team/inviting-users",
+              "path": "/docs/team/inviting-users",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "team/overview",
-              "path": "/es/docs/team/overview",
+              "path": "/docs/team/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "team/roles-permissions",
-              "path": "/es/docs/team/roles-permissions",
+              "path": "/docs/team/roles-permissions",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "time-and-mileage/billing-time-and-mileage",
-              "path": "/es/docs/time-and-mileage/billing-time-and-mileage",
+              "path": "/docs/time-and-mileage/billing-time-and-mileage",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "time-and-mileage/mileage-tracking",
-              "path": "/es/docs/time-and-mileage/mileage-tracking",
+              "path": "/docs/time-and-mileage/mileage-tracking",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "time-and-mileage/overview",
-              "path": "/es/docs/time-and-mileage/overview",
+              "path": "/docs/time-and-mileage/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "time-and-mileage/time-tracking",
-              "path": "/es/docs/time-and-mileage/time-tracking",
+              "path": "/docs/time-and-mileage/time-tracking",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -700,8 +700,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/es/docs/getting-started/overview",
-                "label": "Getting Started"
+                "path": "/docs/intro",
+                "label": "Introduction"
               }
             }
           }

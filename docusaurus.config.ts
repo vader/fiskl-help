@@ -11,7 +11,30 @@ const config: Config = {
     markdown: {
         mermaid: true,
     },
-    // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
+    headTags: [
+        {
+            tagName: 'link',
+            attributes: {
+                rel: 'preconnect',
+                href: 'https://fonts.googleapis.com',
+            },
+        },
+        {
+            tagName: 'link',
+            attributes: {
+                rel: 'preconnect',
+                href: 'https://fonts.gstatic.com',
+                crossorigin: 'anonymous',
+            },
+        },
+        {
+            tagName: 'link',
+            attributes: {
+                rel: 'stylesheet',
+                href: 'https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&display=swap',
+            },
+        },
+    ],
     future: {
         v4: true, // Improve compatibility with the upcoming Docusaurus v4
     },
@@ -96,20 +119,23 @@ const config: Config = {
             },
             items: [
                 {
-                    type: 'localeDropdown',
-                    position: 'left',
-                },
-                {
                     type: 'docSidebar',
                     sidebarId: 'tutorialSidebar',
                     position: 'left',
-                    label: 'Tutorial',
+                    label: 'Documentation',
                 },
-                { to: '/blog', label: 'Blog', position: 'left' },
+                // Items moved to the right for a modern utility-bar look
+                { to: '/blog', label: 'Updates', position: 'right' },
                 {
-                    href: 'https://github.com/facebook/docusaurus',
-                    label: 'GitHub',
+                    type: 'localeDropdown',
                     position: 'right',
+                    className: 'navbar-language-picker', // custom class for styling
+                },
+                {
+                    href: 'https://app.fiskl.com', // Link to your actual app
+                    label: 'Go to App',
+                    position: 'right',
+                    className: 'navbar-cta-button', // custom class for the button look
                 },
             ],
         },
@@ -120,7 +146,7 @@ const config: Config = {
                     title: 'Docs',
                     items: [
                         {
-                            label: 'Tutorial',
+                            label: 'Documentation',
                             to: '/docs/intro',
                         },
                     ],
