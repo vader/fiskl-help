@@ -1,0 +1,28 @@
+{
+  "id": "settings/invoice-quotes-settings",
+  "title": "Invoice Quotes Settings",
+  "description": "",
+  "source": "@site/i18n/fr/docusaurus-plugin-content-docs/current/settings/invoice-quotes-settings.md",
+  "sourceDirName": "settings",
+  "slug": "/settings/invoice-quotes-settings",
+  "permalink": "/fr/docs/settings/invoice-quotes-settings",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/settings/invoice-quotes-settings.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Invoice Quotes Settings",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Currency Management",
+    "permalink": "/fr/docs/settings/currency-management"
+  },
+  "next": {
+    "title": "Invoice Template Brands Settings",
+    "permalink": "/fr/docs/settings/invoice-template-brands-settings"
+  }
+}

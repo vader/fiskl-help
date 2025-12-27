@@ -1,21 +1,52 @@
 {
   "id": "accounting/reconciliation/overview",
-  "title": "Overview",
-  "description": "Description of Overview",
+  "title": "Account reconciliation",
+  "description": "Master account reconciliation in Fiskl: Ensure your bank statements match your transaction records for accurate financial reporting and complete peace of mind.",
   "source": "@site/i18n/es/docusaurus-plugin-content-docs/current/accounting/reconciliation/overview.md",
   "sourceDirName": "accounting/reconciliation",
-  "slug": "/accounting/reconciliation/overview",
-  "permalink": "/es/docs/accounting/reconciliation/overview",
+  "slug": "/core-features/accounting/journal-entries/guides/account-reconciliation",
+  "permalink": "/es/docs/core-features/accounting/journal-entries/guides/account-reconciliation",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/accounting/reconciliation/overview.md",
-  "tags": [],
+  "tags": [
+    {
+      "inline": true,
+      "label": "Accounting",
+      "permalink": "/es/docs/tags/accounting"
+    },
+    {
+      "inline": true,
+      "label": "Reconciliation",
+      "permalink": "/es/docs/tags/reconciliation"
+    },
+    {
+      "inline": true,
+      "label": "Bank Statements",
+      "permalink": "/es/docs/tags/bank-statements"
+    }
+  ],
   "version": "current",
-  "sidebarPosition": 1,
+  "sidebarPosition": 12,
   "frontMatter": {
-    "title": "Overview",
-    "description": "Description of Overview",
-    "sidebar_position": 1
+    "title": "Account reconciliation",
+    "sidebar_position": 12,
+    "description": "Master account reconciliation in Fiskl: Ensure your bank statements match your transaction records for accurate financial reporting and complete peace of mind.",
+    "keywords": [
+      "Account reconciliation Fiskl",
+      "bank reconciliation",
+      "statement matching",
+      "financial accuracy",
+      "transaction verification"
+    ],
+    "slug": "/core-features/accounting/journal-entries/guides/account-reconciliation",
+    "toc_min_heading_level": 2,
+    "toc_max_heading_level": 4,
+    "tags": [
+      "Accounting",
+      "Reconciliation",
+      "Bank Statements"
+    ]
   },
   "sidebar": "tutorialSidebar",
   "previous": {
@@ -23,7 +54,7 @@
     "permalink": "/es/docs/accounting/journal-entries/guides/opening-balances"
   },
   "next": {
-    "title": "Reconciliation Guides",
-    "permalink": "/es/docs/category/reconciliation-guides"
+    "title": "Overview",
+    "permalink": "/es/docs/accounting/reconciliation/guides/overview"
   }
 }

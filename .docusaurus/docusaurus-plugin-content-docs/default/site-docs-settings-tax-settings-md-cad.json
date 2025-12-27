@@ -42,8 +42,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "subscription billing",
-    "permalink": "/docs/settings/subscription-billing"
+    "title": "Accounting Settings",
+    "permalink": "/docs/settings/accounting-settings"
   },
   "next": {
     "title": "Invoice Templates",

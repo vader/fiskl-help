@@ -1,0 +1,9 @@
+{
+  "label": "Dashboard",
+  "position": 16,
+  "link": {
+    "type": "doc",
+    "id": "dashboard/overview"
+  },
+  "description": "Learn how to navigate and customize your Fiskl dashboard to monitor your business performance"
+}

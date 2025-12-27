@@ -148,7 +148,8 @@ Set a calendar reminder to check your connections every 30 days to avoid interru
 
 ## Related Topics
 
-- [Connect with Salt Edge](/docs/integrations/banking/connecting-saltedge)
-- [Managing bank transactions](/docs/banking/managing-transactions)
-- [Reconciling accounts](/docs/banking/reconciliation)
-- [Banking overview](/docs/banking/overview)
+- [Connect with Salt Edge](/docs/integrations/banking/connect-saltedge.md)
+- [Manage bank transactions](/docs/accounting/journal-entries/overview.md) - Categorize and reconcile imported transactions
+- [Multi-currency accounting](/docs/accounting/journal-entries/guides/multi-currency-transactions.md) - Handle transactions in multiple currencies
+- [Reconciliation](/docs/accounting/reconciliation/overview.md) - Reconcile your accounts and verify accuracy
+- [Banking overview](/docs/integrations/banking/overview.md) - Learn about Fiskl Banking features

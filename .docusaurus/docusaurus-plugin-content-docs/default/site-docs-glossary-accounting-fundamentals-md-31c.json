@@ -19,11 +19,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "general faqs",
-    "permalink": "/docs/faqs/general-faqs"
+    "title": "Glossary Overview",
+    "permalink": "/docs/glossary/overview"
   },
   "next": {
-    "title": "Technical Terms",
-    "permalink": "/docs/glossary/technical-terms"
+    "title": "Assets & Liabilities",
+    "permalink": "/docs/glossary/assets-and-liabilities"
   }
 }

@@ -1,4 +1,9 @@
 {
   "label": "Clients & Vendors",
-  "position": 9
+  "position": 9,
+  "link": {
+    "type": "doc",
+    "id": "clients-vendors/overview"
+  },
+  "description": "Manage clients and vendors to organize contacts, streamline invoicing, and track expenses efficiently."
 }

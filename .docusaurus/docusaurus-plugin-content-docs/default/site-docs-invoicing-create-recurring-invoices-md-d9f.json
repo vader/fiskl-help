@@ -44,7 +44,7 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Sending Invoices",
-    "permalink": "/docs/core-features/invoicing/sending-invoices"
+    "permalink": "/docs/core-features/invoicing/sending-invoices.md"
   },
   "next": {
     "title": "Managing Recurring Invoices",

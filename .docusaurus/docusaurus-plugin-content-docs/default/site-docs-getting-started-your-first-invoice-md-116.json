@@ -1,0 +1,39 @@
+{
+  "id": "getting-started/your-first-invoice",
+  "title": "Creating Your First Invoice",
+  "description": "Complete guide to creating your first professional invoice in Fiskl, including tax setup, template customization, language settings, and email configuration.",
+  "source": "@site/docs/getting-started/your-first-invoice.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/your-first-invoice",
+  "permalink": "/docs/getting-started/your-first-invoice",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/your-first-invoice.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Creating Your First Invoice",
+    "description": "Complete guide to creating your first professional invoice in Fiskl, including tax setup, template customization, language settings, and email configuration.",
+    "keywords": [
+      "first invoice",
+      "create invoice",
+      "invoice setup",
+      "invoice template",
+      "tax settings",
+      "invoice language",
+      "email templates",
+      "invoice branding"
+    ],
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Importing Bank Statements",
+    "permalink": "/docs/getting-started/importing-data"
+  },
+  "next": {
+    "title": "Accounting Overview",
+    "permalink": "/docs/accounting/overview"
+  }
+}

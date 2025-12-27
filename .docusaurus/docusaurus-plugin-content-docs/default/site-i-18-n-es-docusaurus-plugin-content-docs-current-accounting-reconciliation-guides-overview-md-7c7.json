@@ -1,0 +1,28 @@
+{
+  "id": "accounting/reconciliation/guides/overview",
+  "title": "Overview",
+  "description": "",
+  "source": "@site/i18n/es/docusaurus-plugin-content-docs/current/accounting/reconciliation/guides/overview.md",
+  "sourceDirName": "accounting/reconciliation/guides",
+  "slug": "/accounting/reconciliation/guides/overview",
+  "permalink": "/es/docs/accounting/reconciliation/guides/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/accounting/reconciliation/guides/overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Overview",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Account reconciliation",
+    "permalink": "/es/docs/core-features/accounting/journal-entries/guides/account-reconciliation"
+  },
+  "next": {
+    "title": "Bank Account Reconciliation",
+    "permalink": "/es/docs/accounting/reconciliation/guides/bank-account-reconciliation"
+  }
+}

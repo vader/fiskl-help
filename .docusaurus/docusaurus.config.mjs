@@ -46,7 +46,7 @@ export default {
     "experimental_router": "browser"
   },
   "url": "https://your-docusaurus-site.example.com",
-  "baseUrl": "/",
+  "baseUrl": "/es/",
   "organizationName": "facebook",
   "projectName": "docusaurus",
   "onBrokenLinks": "throw",
@@ -112,9 +112,9 @@ export default {
       }
     },
     "navbar": {
-      "title": "My Site",
+      "title": "Fiskl Help",
       "logo": {
-        "alt": "My Site Logo",
+        "alt": "Fiskl Accounting",
         "src": "img/fi/fi-ai.svg"
       },
       "items": [

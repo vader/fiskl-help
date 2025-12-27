@@ -1,0 +1,38 @@
+{
+  "id": "accountant-portal/client-management/client-access-levels",
+  "title": "Client Access Levels",
+  "description": "Configure and manage client access levels to control what clients can see and do in their own Fiskl accounts through the Accountant Portal.",
+  "source": "@site/docs/accountant-portal/client-management/client-access-levels.md",
+  "sourceDirName": "accountant-portal/client-management",
+  "slug": "/accountant-portal/client-management/client-access-levels",
+  "permalink": "/docs/accountant-portal/client-management/client-access-levels",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/accountant-portal/client-management/client-access-levels.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Client Access Levels",
+    "description": "Configure and manage client access levels to control what clients can see and do in their own Fiskl accounts through the Accountant Portal.",
+    "keywords": [
+      "client access",
+      "access levels",
+      "client permissions",
+      "full access",
+      "view only",
+      "no access",
+      "custom access"
+    ],
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Client Connections",
+    "permalink": "/docs/accountant-portal/client-management/client-connections"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/accountant-portal/team-collaboration/overview"
+  }
+}

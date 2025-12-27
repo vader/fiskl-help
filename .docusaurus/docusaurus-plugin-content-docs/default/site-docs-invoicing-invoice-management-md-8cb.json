@@ -4,8 +4,8 @@
   "description": "Streamline your billing process with Fiskl's invoice management: From creation to payment tracking, improve your cash flow management.",
   "source": "@site/docs/invoicing/invoice-management.md",
   "sourceDirName": "invoicing",
-  "slug": "/core-features/invoicing/invoice-management",
-  "permalink": "/docs/core-features/invoicing/invoice-management",
+  "slug": "/invoicing/invoice-management",
+  "permalink": "/docs/invoicing/invoice-management",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/invoicing/invoice-management.md",
@@ -43,7 +43,6 @@
       "payment tracking",
       "cash flow management"
     ],
-    "slug": "/core-features/invoicing/invoice-management",
     "tags": [
       "Invoice",
       "Client",
@@ -58,6 +57,6 @@
   },
   "next": {
     "title": "Sending Invoices",
-    "permalink": "/docs/core-features/invoicing/sending-invoices"
+    "permalink": "/docs/core-features/invoicing/sending-invoices.md"
   }
 }

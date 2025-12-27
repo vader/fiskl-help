@@ -48,11 +48,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Getting Started with Fiskl",
-    "permalink": "/docs/getting-started/overview"
+    "title": "Getting Started as a Business Owner",
+    "permalink": "/docs/getting-started/as-a-business-owner"
   },
   "next": {
-    "title": "Invoice Basics",
-    "permalink": "/docs/getting-started/invoicing"
+    "title": "Connecting Your Bank",
+    "permalink": "/docs/getting-started/connecting-your-bank"
   }
 }

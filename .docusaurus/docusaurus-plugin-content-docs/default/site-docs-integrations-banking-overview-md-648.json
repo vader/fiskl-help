@@ -19,8 +19,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Client Aging Report",
-    "permalink": "/docs/reporting/client-aging"
+    "title": "Integrations Overview",
+    "permalink": "/docs/integrations/overview"
   },
   "next": {
     "title": "Connect Stripe",

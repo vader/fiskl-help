@@ -1,0 +1,28 @@
+{
+  "id": "accountant-portal/client-management/client-connections",
+  "title": "Client Connections",
+  "description": "",
+  "source": "@site/i18n/fr/docusaurus-plugin-content-docs/current/accountant-portal/client-management/client-connections.md",
+  "sourceDirName": "accountant-portal/client-management",
+  "slug": "/accountant-portal/client-management/client-connections",
+  "permalink": "/fr/docs/accountant-portal/client-management/client-connections",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/accountant-portal/client-management/client-connections.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Client Connections",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Client Access Levels",
+    "permalink": "/fr/docs/accountant-portal/client-management/client-access-levels"
+  },
+  "next": {
+    "title": "Inviting Clients",
+    "permalink": "/fr/docs/accountant-portal/client-management/inviting-clients"
+  }
+}

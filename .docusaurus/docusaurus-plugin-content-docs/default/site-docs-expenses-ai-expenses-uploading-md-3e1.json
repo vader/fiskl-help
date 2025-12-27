@@ -1,0 +1,36 @@
+{
+  "id": "expenses/ai-expenses/uploading",
+  "title": "Uploading Expenses to AI Expenses",
+  "description": "Learn how to upload receipt and invoice images to AI Expenses for automatic data extraction and processing.",
+  "source": "@site/docs/expenses/ai-expenses/uploading.md",
+  "sourceDirName": "expenses/ai-expenses",
+  "slug": "/expenses/ai-expenses/uploading",
+  "permalink": "/docs/expenses/ai-expenses/uploading",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/expenses/ai-expenses/uploading.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Uploading Expenses to AI Expenses",
+    "description": "Learn how to upload receipt and invoice images to AI Expenses for automatic data extraction and processing.",
+    "keywords": [
+      "upload expenses",
+      "AI expense upload",
+      "receipt upload",
+      "invoice scanning",
+      "expense processing"
+    ],
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AI Expenses Overview",
+    "permalink": "/docs/expenses/ai-expenses/overview"
+  },
+  "next": {
+    "title": "Managing AI Expenses",
+    "permalink": "/docs/expenses/ai-expenses/managing-ai-expenses"
+  }
+}

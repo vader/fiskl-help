@@ -19,8 +19,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Invoicing & Quotes",
-    "permalink": "/fr/docs/category/invoicing--quotes"
+    "title": "recurring invoices",
+    "permalink": "/fr/docs/invoicing/create-recurring-invoices"
   },
   "next": {
     "title": "creating quotes",

@@ -1,0 +1,28 @@
+{
+  "id": "accountant-portal/reporting-analytics/overview",
+  "title": "Overview",
+  "description": "",
+  "source": "@site/i18n/fr/docusaurus-plugin-content-docs/current/accountant-portal/reporting-analytics/overview.md",
+  "sourceDirName": "accountant-portal/reporting-analytics",
+  "slug": "/accountant-portal/reporting-analytics/overview",
+  "permalink": "/fr/docs/accountant-portal/reporting-analytics/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/accountant-portal/reporting-analytics/overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Overview",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Referral Tracking",
+    "permalink": "/fr/docs/accountant-portal/partner-program/referral-tracking"
+  },
+  "next": {
+    "title": "Billing Reports",
+    "permalink": "/fr/docs/accountant-portal/reporting-analytics/billing-reports"
+  }
+}

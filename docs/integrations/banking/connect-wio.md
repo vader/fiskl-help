@@ -91,7 +91,7 @@ Fiskl automatically categorizes your WIO Bank transactions based on transaction 
 
 You can review and adjust automatic categorizations in the **Banking** section. Select any transaction to change its category or add additional details.
 
-Learn more about [managing bank transactions](/docs/banking/transactions) in Fiskl.
+Learn more about [managing bank transactions](/docs/accounting/journal-entries/guides/overview.md) in Fiskl.
 
 ## Maintain Your Connection
 
@@ -164,7 +164,7 @@ Note: Disconnecting removes future transaction syncing but doesn't delete histor
 
 ## Related Topics
 
-- [Manage bank transactions](/docs/banking/transactions) - Categorize and reconcile imported transactions
-- [Multi-currency accounting](/docs/accounting/multi-currency) - Handle transactions in multiple currencies
-- [Reconciliation](/docs/accounting/reconciliation) - Reconcile your accounts and verify accuracy
-- [Banking overview](/docs/banking/overview) - Learn about Fiskl Banking features
+- [Manage bank transactions](/docs/accounting/journal-entries/overview.md) - Categorize and reconcile imported transactions
+- [Multi-currency accounting](/docs/accounting/journal-entries/guides/multi-currency-transactions.md) - Handle transactions in multiple currencies
+- [Reconciliation](/docs/accounting/reconciliation/overview.md) - Reconcile your accounts and verify accuracy
+- [Banking overview](/docs/integrations/banking/overview.md) - Learn about Fiskl Banking features

@@ -1,0 +1,37 @@
+{
+  "id": "time-and-mileage/time-tracking",
+  "title": "Time Tracking",
+  "description": "Track billable hours in Fiskl using timers, manual entry, or start/end times. Learn best practices for accurate time tracking and client billing.",
+  "source": "@site/docs/time-and-mileage/time-tracking.md",
+  "sourceDirName": "time-and-mileage",
+  "slug": "/time-and-mileage/time-tracking",
+  "permalink": "/docs/time-and-mileage/time-tracking",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/time-and-mileage/time-tracking.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Time Tracking",
+    "description": "Track billable hours in Fiskl using timers, manual entry, or start/end times. Learn best practices for accurate time tracking and client billing.",
+    "keywords": [
+      "time tracking",
+      "billable hours",
+      "timer",
+      "hourly rate",
+      "time entry",
+      "productivity tracking"
+    ],
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Time & Mileage Overview",
+    "permalink": "/docs/time-and-mileage/overview"
+  },
+  "next": {
+    "title": "Mileage Tracking",
+    "permalink": "/docs/time-and-mileage/mileage-tracking"
+  }
+}

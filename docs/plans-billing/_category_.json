@@ -1,0 +1,9 @@
+{
+  "label": "Plans and Billing",
+  "position": 10,
+  "link": {
+    "type": "doc",
+    "id": "plans-billing/overview"
+  },
+  "description": "Manage your Fiskl subscription, billing, and account settings"
+}

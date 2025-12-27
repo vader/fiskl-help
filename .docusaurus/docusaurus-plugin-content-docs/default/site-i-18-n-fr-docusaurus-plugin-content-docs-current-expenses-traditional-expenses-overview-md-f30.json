@@ -1,0 +1,28 @@
+{
+  "id": "expenses/traditional-expenses/overview",
+  "title": "Overview",
+  "description": "",
+  "source": "@site/i18n/fr/docusaurus-plugin-content-docs/current/expenses/traditional-expenses/overview.md",
+  "sourceDirName": "expenses/traditional-expenses",
+  "slug": "/expenses/traditional-expenses/overview",
+  "permalink": "/fr/docs/expenses/traditional-expenses/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/expenses/traditional-expenses/overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Overview",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Uploading",
+    "permalink": "/fr/docs/expenses/ai-expenses/uploading"
+  },
+  "next": {
+    "title": "Expense Categories",
+    "permalink": "/fr/docs/expenses/expense-categories"
+  }
+}

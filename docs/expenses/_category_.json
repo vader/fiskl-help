@@ -1,0 +1,9 @@
+{
+  "label": "Expenses",
+  "position": 6,
+  "link": {
+    "type": "doc",
+    "id": "expenses/overview"
+  },
+  "description": "Track and manage business expenses with AI-powered receipt scanning and automated categorization."
+}

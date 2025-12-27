@@ -1,7 +1,7 @@
 {
   "id": "glossary/assets-and-liabilities",
-  "title": "Financial Statements and Reports",
-  "description": "Understanding key financial reports including balance sheets, income statements, and cash flow statements in Fiskl",
+  "title": "Assets & Liabilities",
+  "description": "Understanding assets, liabilities, and equity accounts in your Fiskl Chart of Accounts for complete financial position tracking",
   "source": "@site/docs/glossary/assets-and-liabilities.md",
   "sourceDirName": "glossary",
   "slug": "/glossary/assets-and-liabilities",
@@ -13,14 +13,24 @@
   "version": "current",
   "sidebarPosition": 2,
   "frontMatter": {
-    "title": "Financial Statements and Reports",
-    "description": "Understanding key financial reports including balance sheets, income statements, and cash flow statements in Fiskl",
+    "title": "Assets & Liabilities",
+    "description": "Understanding assets, liabilities, and equity accounts in your Fiskl Chart of Accounts for complete financial position tracking",
+    "keywords": [
+      "assets",
+      "liabilities",
+      "equity",
+      "balance sheet",
+      "accounts receivable",
+      "accounts payable",
+      "fixed assets",
+      "current assets"
+    ],
     "sidebar_position": 2
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Technical Terms",
-    "permalink": "/docs/glossary/technical-terms"
+    "title": "Accounting Fundamentals",
+    "permalink": "/docs/glossary/accounting-fundamentals"
   },
   "next": {
     "title": "Financial Statements and Reports",

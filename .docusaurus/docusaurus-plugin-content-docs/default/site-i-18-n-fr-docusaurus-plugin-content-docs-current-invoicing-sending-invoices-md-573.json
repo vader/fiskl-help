@@ -19,11 +19,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "recurring invoices",
-    "permalink": "/fr/docs/invoicing/recurring-invoices"
+    "title": "quote management",
+    "permalink": "/fr/docs/invoicing/quote-management"
   },
   "next": {
-    "title": "Overview",
-    "permalink": "/fr/docs/integrations/overview"
+    "title": "Managing Recurring Invoices",
+    "permalink": "/fr/docs/core-features/invoicing/recurring/recurring-invoice-management"
   }
 }

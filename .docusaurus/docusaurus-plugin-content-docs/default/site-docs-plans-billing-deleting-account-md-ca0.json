@@ -1,0 +1,58 @@
+{
+  "id": "plans-billing/deleting-account",
+  "title": "Delete Account",
+  "description": "Permanently delete your Fiskl account and all associated data. Learn the complete process and what happens to your information.",
+  "source": "@site/docs/plans-billing/deleting-account.md",
+  "sourceDirName": "plans-billing",
+  "slug": "/plans-billing/deleting-account",
+  "permalink": "/docs/plans-billing/deleting-account",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/plans-billing/deleting-account.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "Billing",
+      "permalink": "/docs/tags/billing"
+    },
+    {
+      "inline": true,
+      "label": "Plans",
+      "permalink": "/docs/tags/plans"
+    },
+    {
+      "inline": true,
+      "label": "Account Management",
+      "permalink": "/docs/tags/account-management"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "title": "Delete Account",
+    "description": "Permanently delete your Fiskl account and all associated data. Learn the complete process and what happens to your information.",
+    "sidebar_position": 7,
+    "keywords": [
+      "delete account",
+      "permanent deletion",
+      "close account",
+      "remove data",
+      "account closure"
+    ],
+    "slug": "/plans-billing/deleting-account",
+    "tags": [
+      "Billing",
+      "Plans",
+      "Account Management"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Cancel Subscription",
+    "permalink": "/docs/plans-billing/canceling-subscription"
+  },
+  "next": {
+    "title": "Settings Overview",
+    "permalink": "/docs/settings/overview"
+  }
+}

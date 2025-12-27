@@ -1,0 +1,28 @@
+{
+  "id": "support/overview",
+  "title": "Overview",
+  "description": "",
+  "source": "@site/i18n/es/docusaurus-plugin-content-docs/current/support/overview.md",
+  "sourceDirName": "support",
+  "slug": "/support/overview",
+  "permalink": "/es/docs/support/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/support/overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Overview",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "tax settings",
+    "permalink": "/es/docs/settings/tax-settings"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/es/docs/team/overview"
+  }
+}

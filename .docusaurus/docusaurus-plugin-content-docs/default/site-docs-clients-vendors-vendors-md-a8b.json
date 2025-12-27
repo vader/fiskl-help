@@ -1,0 +1,37 @@
+{
+  "id": "clients-vendors/vendors",
+  "title": "Managing Vendors",
+  "description": "Learn how to create and manage vendors in Fiskl to track purchases, process payments, and maintain accurate expense records for your business.",
+  "source": "@site/docs/clients-vendors/vendors.md",
+  "sourceDirName": "clients-vendors",
+  "slug": "/clients-vendors/vendors",
+  "permalink": "/docs/clients-vendors/vendors",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/clients-vendors/vendors.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Managing Vendors",
+    "description": "Learn how to create and manage vendors in Fiskl to track purchases, process payments, and maintain accurate expense records for your business.",
+    "keywords": [
+      "vendors",
+      "vendor management",
+      "expense tracking",
+      "purchase tracking",
+      "payment processing",
+      "supplier management"
+    ],
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Managing Clients",
+    "permalink": "/docs/clients-vendors/clients"
+  },
+  "next": {
+    "title": "Accountant Portal Overview",
+    "permalink": "/docs/accountant-portal/overview"
+  }
+}

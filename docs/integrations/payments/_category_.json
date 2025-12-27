@@ -5,5 +5,5 @@
     "type": "doc",
     "id": "integrations/payments/overview"
   },
-  "description": "Enable payment processing for your invoices with popular payment gateways"
+  "description": "Connect payment gateways to accept online payments on invoices with Stripe, PayPal, and GoCardless"
 }

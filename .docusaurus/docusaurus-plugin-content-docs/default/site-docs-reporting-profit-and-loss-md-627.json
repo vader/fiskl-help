@@ -27,8 +27,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Financial Reports",
-    "permalink": "/docs/category/financial-reports"
+    "title": "Financial Reports Overview",
+    "permalink": "/docs/reporting/overview"
   },
   "next": {
     "title": "Balance Sheet Report",

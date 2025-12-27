@@ -19,11 +19,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "with banking",
-    "permalink": "/fr/docs/getting-started/with-banking"
+    "title": "Importing Data",
+    "permalink": "/fr/docs/getting-started/importing-data"
   },
   "next": {
-    "title": "Invoicing & Quotes",
-    "permalink": "/fr/docs/category/invoicing--quotes"
+    "title": "Your First Invoice",
+    "permalink": "/fr/docs/getting-started/your-first-invoice"
   }
 }

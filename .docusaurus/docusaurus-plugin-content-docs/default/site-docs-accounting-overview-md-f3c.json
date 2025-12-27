@@ -26,8 +26,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "With Banking",
-    "permalink": "/docs/getting-started/banking"
+    "title": "Creating Your First Invoice",
+    "permalink": "/docs/getting-started/your-first-invoice"
   },
   "next": {
     "title": "Chart of Accounts",

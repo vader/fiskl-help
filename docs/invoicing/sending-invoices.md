@@ -3,7 +3,7 @@ title: Sending Invoices
 sidebar_position: 4
 description: Send professional, branded invoices easily with Fiskl. Provide clear billing statements and flexible payment options to clients.
 keywords: ["Sending invoices Fiskl", "professional billing", "branded invoices", "payment options"]
-slug: /core-features/invoicing/sending-invoices
+slug: /core-features/invoicing/sending-invoices.md
 toc_min_heading_level: 2
 toc_max_heading_level: 4
 tags:
@@ -21,7 +21,7 @@ Ensure that:
 1. You've reviewed the invoice for accuracy
 1. You've selected the appropriate payment methods
 
-For details on creating invoices, refer to the [Create invoices](./creating-invoices.md) section of this guide.
+For details on creating invoices, refer to the [Create invoices](creating-invoices.md) section of this guide.
 
 ## Sending Options
 

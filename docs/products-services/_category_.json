@@ -1,0 +1,9 @@
+{
+  "label": "Products & Services",
+  "position": 5,
+  "link": {
+    "type": "doc",
+    "id": "products-services/overview"
+  },
+  "description": "Create and manage your product and service catalog for streamlined invoicing and accurate financial reporting"
+}

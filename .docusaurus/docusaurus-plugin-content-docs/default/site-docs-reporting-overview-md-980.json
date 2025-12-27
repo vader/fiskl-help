@@ -1,0 +1,40 @@
+{
+  "id": "reporting/overview",
+  "title": "Financial Reports Overview",
+  "description": "Generate comprehensive financial reports in Fiskl including Profit & Loss, Balance Sheet, Cash Flow, and Tax reports for complete business insights.",
+  "source": "@site/docs/reporting/overview.md",
+  "sourceDirName": "reporting",
+  "slug": "/reporting/overview",
+  "permalink": "/docs/reporting/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reporting/overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Financial Reports Overview",
+    "description": "Generate comprehensive financial reports in Fiskl including Profit & Loss, Balance Sheet, Cash Flow, and Tax reports for complete business insights.",
+    "keywords": [
+      "financial reports",
+      "accounting reports",
+      "profit and loss",
+      "balance sheet",
+      "cash flow",
+      "general ledger",
+      "trial balance",
+      "tax reports",
+      "business analytics"
+    ],
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Managing Your Catalog",
+    "permalink": "/docs/products-services/managing-catalog"
+  },
+  "next": {
+    "title": "Profit and Loss Report",
+    "permalink": "/docs/reporting/profit-and-loss"
+  }
+}

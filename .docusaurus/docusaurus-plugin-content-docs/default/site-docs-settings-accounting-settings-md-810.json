@@ -42,11 +42,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "user management",
-    "permalink": "/docs/settings/user-management"
+    "title": "Company Settings",
+    "permalink": "/docs/settings/company-settings"
   },
   "next": {
-    "title": "subscription billing",
-    "permalink": "/docs/settings/subscription-billing"
+    "title": "Tax Settings",
+    "permalink": "/docs/settings/tax-settings"
   }
 }

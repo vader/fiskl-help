@@ -80,11 +80,11 @@ For example if you were adding a `Travel - Accommodation` expense to `Cash on Ha
 
 Alternatively, if there was an expense created in Fiskl you would match this expense from `Assets > Cash & Cash Equivalents > Cash on Hand`.
 
-For making adjustments or for a more accountant familiar feel you can use the [Multi journal entry](multi-journal-entries.md) which also supports multi-currency.
+For making adjustments or for a more accountant familiar feel you can use the [Multi journal entry](multi-journal-entries) which also supports multi-currency.
 
 **Journal entry guides**
 
-- Learn more about [multi journal entries](multi-journal-entries.md)
+- Learn more about [multi journal entries](multi-journal-entries)
 
 [//]: # (- See how to [create a manual]&#40;Journal-Entry-Guides/create-manual-transactions.md&#41; transaction)
 
@@ -111,9 +111,9 @@ When adding or viewing a transaction we add a `CR` or `DR` under the category wh
 
 You can view your transactions in their individual accounts. This is useful if you are viewing them with the intent of making adjustments.
 
-For a bigger picture on your transactions you can use the [Transactions by Account](../../reporting/transactions-by-account.md) report.
+For a bigger picture on your transactions you can use the [Transactions by Account](../../reporting/transactions-by-account) report.
 
-Depending on your reason you can use the reports like [Balance Sheet](../../reporting/balance-sheet.md) or [Profit and Loss (P&L)](../../reporting/profit-and-loss.md).
+Depending on your reason you can use the reports like [Balance Sheet](../../reporting/balance-sheet) or [Profit and Loss (P&L)](../../reporting/profit-and-loss).
 
 :::info[tip]
 Setting the reports to **detailed** allows you to drill down to transaction level.
@@ -131,7 +131,7 @@ Remember, Fiskl's accounting reports draw directly from these journal entries, s
 
 Now that you understand the basics of journal entries in Fiskl, you might want to explore:
 
-[//]: # (- Setting up your Chart of Accounts [CoA]&#40;../chart-of-accounts.md&#41; transaction)
+- Setting up your Chart of Accounts [CoA](../chart-of-accounts.md) transaction
 
 [//]: # (- See how to [create a manual journal]&#40;Journal-Entry-Guides/create-manual-transactions.md&#41; entries)
 

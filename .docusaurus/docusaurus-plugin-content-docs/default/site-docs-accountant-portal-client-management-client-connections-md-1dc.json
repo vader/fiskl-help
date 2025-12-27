@@ -1,0 +1,37 @@
+{
+  "id": "accountant-portal/client-management/client-connections",
+  "title": "Client Connections",
+  "description": "Manage client connections, view connection details, transfer clients between branches, and disconnect client relationships in the Accountant Portal.",
+  "source": "@site/docs/accountant-portal/client-management/client-connections.md",
+  "sourceDirName": "accountant-portal/client-management",
+  "slug": "/accountant-portal/client-management/client-connections",
+  "permalink": "/docs/accountant-portal/client-management/client-connections",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/accountant-portal/client-management/client-connections.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Client Connections",
+    "description": "Manage client connections, view connection details, transfer clients between branches, and disconnect client relationships in the Accountant Portal.",
+    "keywords": [
+      "client connections",
+      "manage clients",
+      "disconnect client",
+      "transfer branch",
+      "client status",
+      "connection management"
+    ],
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Inviting Clients",
+    "permalink": "/docs/accountant-portal/client-management/inviting-clients"
+  },
+  "next": {
+    "title": "Client Access Levels",
+    "permalink": "/docs/accountant-portal/client-management/client-access-levels"
+  }
+}

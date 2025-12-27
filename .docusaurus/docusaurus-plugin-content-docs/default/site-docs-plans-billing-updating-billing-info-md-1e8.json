@@ -1,0 +1,58 @@
+{
+  "id": "plans-billing/updating-billing-info",
+  "title": "Update Billing Information",
+  "description": "Update your credit card and billing address in Fiskl to ensure uninterrupted service and accurate invoicing.",
+  "source": "@site/docs/plans-billing/updating-billing-info.md",
+  "sourceDirName": "plans-billing",
+  "slug": "/plans-billing/updating-billing-info",
+  "permalink": "/docs/plans-billing/updating-billing-info",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/plans-billing/updating-billing-info.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "Billing",
+      "permalink": "/docs/tags/billing"
+    },
+    {
+      "inline": true,
+      "label": "Plans",
+      "permalink": "/docs/tags/plans"
+    },
+    {
+      "inline": true,
+      "label": "Payment",
+      "permalink": "/docs/tags/payment"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Update Billing Information",
+    "description": "Update your credit card and billing address in Fiskl to ensure uninterrupted service and accurate invoicing.",
+    "sidebar_position": 5,
+    "keywords": [
+      "update credit card",
+      "billing address",
+      "payment method",
+      "card details",
+      "billing information"
+    ],
+    "slug": "/plans-billing/updating-billing-info",
+    "tags": [
+      "Billing",
+      "Plans",
+      "Payment"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Apply Offer Codes",
+    "permalink": "/docs/plans-billing/applying-offer-codes"
+  },
+  "next": {
+    "title": "Cancel Subscription",
+    "permalink": "/docs/plans-billing/canceling-subscription"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "id": "integrations/overview",
-  "title": "Overview",
-  "description": "Description of Overview",
+  "title": "Integrations Overview",
+  "description": "Connect Fiskl with banks, payment gateways, and financial services to automate bookkeeping, accept payments, and streamline your financial workflows.",
   "source": "@site/docs/integrations/overview.md",
   "sourceDirName": "integrations",
   "slug": "/integrations/overview",
@@ -13,17 +13,29 @@
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
-    "title": "Overview",
-    "description": "Description of Overview",
+    "title": "Integrations Overview",
+    "description": "Connect Fiskl with banks, payment gateways, and financial services to automate bookkeeping, accept payments, and streamline your financial workflows.",
+    "keywords": [
+      "integrations",
+      "banking connections",
+      "payment gateways",
+      "Stripe",
+      "PayPal",
+      "Salt Edge",
+      "Yodlee",
+      "Wio Bank",
+      "GoCardless",
+      "financial automation"
+    ],
     "sidebar_position": 1
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Connect WIO Bank",
-    "permalink": "/docs/integrations/banking/connecting-wio"
+    "title": "Fi - Your AI Advisor",
+    "permalink": "/docs/ai/fi"
   },
   "next": {
-    "title": "Overview",
-    "permalink": "/docs/integrations/payments/overview"
+    "title": "Banking Connections Overview",
+    "permalink": "/docs/integrations/banking/overview"
   }
 }

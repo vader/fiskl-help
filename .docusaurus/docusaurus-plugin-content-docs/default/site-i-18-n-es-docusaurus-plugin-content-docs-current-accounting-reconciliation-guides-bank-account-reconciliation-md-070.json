@@ -19,8 +19,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Accounting Faqs",
-    "permalink": "/es/docs/accounting/reconciliation/guides/accounting-faqs"
+    "title": "Overview",
+    "permalink": "/es/docs/accounting/reconciliation/guides/overview"
   },
   "next": {
     "title": "Handling Reconciliation Discrepancies",

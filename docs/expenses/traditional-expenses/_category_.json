@@ -1,0 +1,9 @@
+{
+  "label": "Traditional Expenses",
+  "position": 3,
+  "link": {
+    "type": "doc",
+    "id": "expenses/traditional-expenses/overview"
+  },
+  "description": "View and manage legacy expenses created before AI-powered expense processing."
+}

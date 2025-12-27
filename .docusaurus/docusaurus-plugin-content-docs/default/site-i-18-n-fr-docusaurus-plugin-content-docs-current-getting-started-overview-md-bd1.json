@@ -18,12 +18,8 @@
     "sidebar_position": 1
   },
   "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "as an accountant",
-    "permalink": "/fr/docs/getting-started/as-an-accountant"
-  },
   "next": {
-    "title": "with banking",
-    "permalink": "/fr/docs/getting-started/with-banking"
+    "title": "As A Business Owner",
+    "permalink": "/fr/docs/getting-started/as-a-business-owner"
   }
 }

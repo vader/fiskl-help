@@ -1,0 +1,40 @@
+{
+  "id": "getting-started/connecting-your-bank",
+  "title": "Connecting Your Bank",
+  "description": "Step-by-step guide to connecting your bank accounts to Fiskl using automated banking connections, Stripe integration, or manual imports.",
+  "source": "@site/docs/getting-started/connecting-your-bank.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/connecting-your-bank",
+  "permalink": "/docs/getting-started/connecting-your-bank",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/connecting-your-bank.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Connecting Your Bank",
+    "description": "Step-by-step guide to connecting your bank accounts to Fiskl using automated banking connections, Stripe integration, or manual imports.",
+    "keywords": [
+      "banking connection",
+      "connect bank",
+      "bank integration",
+      "Salt Edge",
+      "Yodlee",
+      "Wio Bank",
+      "Stripe",
+      "bank import",
+      "transaction sync"
+    ],
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "As an Accountant",
+    "permalink": "/docs/getting-started/as-an-accountant"
+  },
+  "next": {
+    "title": "Invoice Basics",
+    "permalink": "/docs/getting-started/invoicing"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "team/inviting-users",
+  "title": "Inviting and Managing Users",
+  "description": "Learn how to invite team members, manage their roles and access, and maintain your team roster in Fiskl.",
+  "source": "@site/docs/team/inviting-users.md",
+  "sourceDirName": "team",
+  "slug": "/team/inviting-users",
+  "permalink": "/docs/team/inviting-users",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/team/inviting-users.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Inviting and Managing Users",
+    "description": "Learn how to invite team members, manage their roles and access, and maintain your team roster in Fiskl.",
+    "keywords": [
+      "invite users",
+      "manage team",
+      "add team members",
+      "change roles",
+      "deactivate users",
+      "user management"
+    ],
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "User Roles and Permissions",
+    "permalink": "/docs/team/roles-permissions"
+  },
+  "next": {
+    "title": "Dashboard Overview",
+    "permalink": "/docs/dashboard/overview"
+  }
+}

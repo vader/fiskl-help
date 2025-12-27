@@ -44,10 +44,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Creating Quotes",
-    "permalink": "/docs/core-features/quotes/creating-quotes"
+    "permalink": "/docs/core-features/quotes/creating-quotes.md"
   },
   "next": {
-    "title": "Financial Reports",
-    "permalink": "/docs/category/financial-reports"
+    "title": "Time & Mileage Overview",
+    "permalink": "/docs/time-and-mileage/overview"
   }
 }

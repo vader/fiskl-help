@@ -19,11 +19,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Introduction",
-    "permalink": "/fr/docs/intro"
+    "title": "Accounting Settings",
+    "permalink": "/fr/docs/settings/accounting-settings"
   },
   "next": {
-    "title": "subscription billing",
-    "permalink": "/fr/docs/settings/subscription-billing"
+    "title": "Currency Management",
+    "permalink": "/fr/docs/settings/currency-management"
   }
 }

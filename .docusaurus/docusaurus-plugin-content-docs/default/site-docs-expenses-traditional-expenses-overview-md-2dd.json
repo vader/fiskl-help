@@ -1,0 +1,35 @@
+{
+  "id": "expenses/traditional-expenses/overview",
+  "title": "Traditional Expenses Overview",
+  "description": "View and manage expenses created before AI Expenses. This system is being phased out in favor of AI-powered expense processing.",
+  "source": "@site/docs/expenses/traditional-expenses/overview.md",
+  "sourceDirName": "expenses/traditional-expenses",
+  "slug": "/expenses/traditional-expenses/overview",
+  "permalink": "/docs/expenses/traditional-expenses/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/expenses/traditional-expenses/overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Traditional Expenses Overview",
+    "description": "View and manage expenses created before AI Expenses. This system is being phased out in favor of AI-powered expense processing.",
+    "keywords": [
+      "traditional expenses",
+      "legacy expenses",
+      "manual expenses",
+      "old expense system"
+    ],
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AI Expense Reconciliation",
+    "permalink": "/docs/expenses/ai-expenses/reconciliation"
+  },
+  "next": {
+    "title": "Expense Categories",
+    "permalink": "/docs/expenses/expense-categories"
+  }
+}

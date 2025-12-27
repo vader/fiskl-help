@@ -113,7 +113,7 @@ Review your Stripe connection regularly to ensure accurate operation. Verify tha
 Monitor the transaction feed for any sync errors or warnings. When you add new payout accounts in Stripe, Fiskl creates corresponding ledger accounts automatically within minutes. The system adapts to your Stripe configuration without requiring manual updates in Fiskl.
 
 :::info
-Connecting Stripe as a payment method for invoices is separate from this banking integration. See [Payment Gateways](/docs/payments/gateways) for invoice payment setup.
+Connecting Stripe as a payment method for invoices is separate from this banking integration. See [Payment Gateways](/docs/integrations/payments/overview.md) for invoice payment setup.
 :::
 
 ## Common Issues
@@ -160,7 +160,7 @@ Temporary warning icons during initial sync are normal while Fiskl calculates ba
 
 ## Related Topics
 
-- [Fiskl Banking Overview](/docs/banking/overview) - Learn about the complete banking feature
-- [Chart of Accounts](/docs/accounting/chart-of-accounts) - Understand how ledger accounts work
-- [Internal Transfers](/docs/banking/internal-transfers) - Manage transfers between accounts
-- [Payment Gateways](/docs/payments/gateways) - Set up Stripe for invoice payments
+- [Fiskl Banking Overview](/docs/integrations/banking/overview.md) - Learn about the complete banking feature
+- [Chart of Accounts](/docs/accounting/chart-of-accounts.md) - Understand how ledger accounts work
+- [Internal Transfers](/docs/accounting/journal-entries/guides/internal-transfers.md) - Manage transfers between accounts
+- [Payment Gateways](/docs/integrations/payments/overview.md) - Set up Stripe for invoice payments

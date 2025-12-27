@@ -1,0 +1,9 @@
+{
+  "label": "Reporting & Analytics",
+  "position": 6,
+  "link": {
+    "type": "doc",
+    "id": "accountant-portal/reporting-analytics/overview"
+  },
+  "description": "Access practice dashboards, client portfolio views, and billing reports."
+}

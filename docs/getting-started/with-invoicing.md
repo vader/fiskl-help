@@ -136,7 +136,7 @@ that best suit your needs.
 
 4. Save and review
 
-[//]: # (Learn more about [Creating invoices]&#40;/docs/core-features/invoicing/creating-invoices&#41;)
+[//]: # (Learn more about [Creating invoices]&#40;/docs/core-features/invoicing/creating-invoices.md&#41;)
 
 </LayoutPair>
 
@@ -177,7 +177,7 @@ that best suit your needs.
 [//]: # (      </a>)
 
 [//]: # (   )
-[//]: # (   <a href="/docs/settings/tax-settings">)
+[//]: # (   <a href="/docs/settings/tax-settings.md">)
 
 [//]: # (   <div className="container_card">)
 

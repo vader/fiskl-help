@@ -1,0 +1,9 @@
+{
+  "label": "Time & Mileage",
+  "position": 4,
+  "link": {
+    "type": "doc",
+    "id": "time-and-mileage/overview"
+  },
+  "description": "Track billable hours and business travel for accurate invoicing and tax reporting"
+}

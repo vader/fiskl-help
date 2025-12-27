@@ -50,11 +50,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "As an Accountant",
-    "permalink": "/docs/getting-started/as-an-accountant"
+    "title": "Connecting Your Bank",
+    "permalink": "/docs/getting-started/connecting-your-bank"
   },
   "next": {
-    "title": "With Banking",
-    "permalink": "/docs/getting-started/banking"
+    "title": "Importing Bank Statements",
+    "permalink": "/docs/getting-started/importing-data"
   }
 }

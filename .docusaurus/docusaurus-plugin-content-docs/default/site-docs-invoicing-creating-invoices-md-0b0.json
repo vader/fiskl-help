@@ -55,11 +55,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Invoicing & Quotes",
-    "permalink": "/docs/category/invoicing--quotes"
+    "title": "Invoicing Overview",
+    "permalink": "/docs/invoicing/overview"
   },
   "next": {
     "title": "Invoice Management",
-    "permalink": "/docs/core-features/invoicing/invoice-management"
+    "permalink": "/docs/invoicing/invoice-management"
   }
 }

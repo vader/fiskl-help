@@ -1,0 +1,9 @@
+{
+  "label": "Team Management",
+  "position": 15,
+  "link": {
+    "type": "doc",
+    "id": "team/overview"
+  },
+  "description": "Team management"
+}

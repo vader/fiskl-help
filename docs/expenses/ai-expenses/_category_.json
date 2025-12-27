@@ -1,0 +1,9 @@
+{
+  "label": "AI Expenses",
+  "position": 2,
+  "link": {
+    "type": "doc",
+    "id": "expenses/ai-expenses/overview"
+  },
+  "description": "Automate expense processing with AI-powered OCR that extracts data from receipts automatically."
+}

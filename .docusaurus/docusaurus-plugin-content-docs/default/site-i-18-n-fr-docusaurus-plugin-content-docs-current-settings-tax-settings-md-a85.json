@@ -19,11 +19,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "subscription billing",
-    "permalink": "/fr/docs/settings/subscription-billing"
+    "title": "Profile Settings",
+    "permalink": "/fr/docs/settings/profile-settings"
   },
   "next": {
-    "title": "user management",
-    "permalink": "/fr/docs/settings/user-management"
+    "title": "Support",
+    "permalink": "/fr/docs/support/overview"
   }
 }

@@ -19,11 +19,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Getting Started",
-    "permalink": "/es/docs/category/getting-started"
+    "title": "As A Business Owner",
+    "permalink": "/es/docs/getting-started/as-a-business-owner"
   },
   "next": {
-    "title": "overview",
-    "permalink": "/es/docs/getting-started/overview"
+    "title": "Connecting Your Bank",
+    "permalink": "/es/docs/getting-started/connecting-your-bank"
   }
 }

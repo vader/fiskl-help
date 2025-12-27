@@ -1,4 +1,9 @@
 {
   "label": "Glossary",
-  "position": 20
+  "position": 20,
+  "link": {
+    "type": "doc",
+    "id": "glossary/overview"
+  },
+  "description": "Essential accounting and financial terminology explained in plain language for business owners."
 }

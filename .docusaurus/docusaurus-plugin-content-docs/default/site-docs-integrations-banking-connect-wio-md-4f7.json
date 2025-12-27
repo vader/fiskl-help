@@ -53,7 +53,7 @@
     "permalink": "/docs/integrations/banking/connecting-saltedge"
   },
   "next": {
-    "title": "Overview",
-    "permalink": "/docs/integrations/overview"
+    "title": "Payment Gateways Overview",
+    "permalink": "/docs/integrations/payments/overview"
   }
 }

@@ -1,0 +1,9 @@
+{
+  "label": "Team Collaboration",
+  "position": 4,
+  "link": {
+    "type": "doc",
+    "id": "accountant-portal/team-collaboration/overview"
+  },
+  "description": "Manage team members, roles, permissions, and branch access across your practice."
+}
