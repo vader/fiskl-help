@@ -4,11 +4,22 @@
  * work well for content-centric websites.
  */
 :root {
-  /* This sets the primary font for the body */
+  /* 1. Global Font Family (Already in your file) */
   --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
-
-  /* This sets the font for all headings (h1, h2, etc.) */
   --ifm-heading-font-family: 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* 2. Reduce Global Font Size (Default is usually 100% or 16px) */
+  --ifm-font-size-base: 95%; /* Adjust to 15px if you prefer absolute sizing */
+
+  /* 3. Make the font "finer" by reducing weight */
+  --ifm-font-weight-base: 200;     /* Standard weight for Inter */
+  --ifm-heading-font-weight: 300;  /* Makes headings less "bulky" than the default 700 */
+
+  /* 4. Fine-tune line height for smaller text to keep it readable */
+  --ifm-line-height-base: 1.6;
+
+  /* Existing variables... */
+  --ifm-color-primary: #2e8555;
 }
 /* You can override the default Infima variables here. */
 :root {
