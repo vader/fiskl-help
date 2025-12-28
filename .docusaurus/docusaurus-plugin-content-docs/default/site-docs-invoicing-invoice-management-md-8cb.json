@@ -52,11 +52,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Creating Invoices",
-    "permalink": "/docs/invoicing/creating-invoices"
-  },
-  "next": {
     "title": "Sending Invoices",
     "permalink": "/docs/core-features/invoicing/sending-invoices.md"
+  },
+  "next": {
+    "title": "Creating Quotes",
+    "permalink": "/docs/core-features/quotes/creating-quotes.md"
   }
 }

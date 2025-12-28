@@ -56,11 +56,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Managing Multi-Currency Transactions",
-    "permalink": "/docs/core-features/accounting/journal-entries/guides/multi-currency-transactions"
+    "title": "Matching and Splitting Transactions",
+    "permalink": "/docs/core-features/accounting/journal-entries/guides/match-and-split-transactions"
   },
   "next": {
-    "title": "Working with Accounts Payable",
-    "permalink": "/docs/core-features/accounting/journal-entries/guides/accounts-payable-transactions"
+    "title": "Working with Accounts Receivable",
+    "permalink": "/docs/core-features/accounting/journal-entries/guides/accounts-receivable-transactions"
   }
 }

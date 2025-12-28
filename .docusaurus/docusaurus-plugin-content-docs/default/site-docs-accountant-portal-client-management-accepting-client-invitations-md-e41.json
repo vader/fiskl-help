@@ -26,11 +26,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Client Management Overview",
-    "permalink": "/docs/accountant-portal/client-management/overview"
-  },
-  "next": {
     "title": "Inviting Clients",
     "permalink": "/docs/accountant-portal/client-management/inviting-clients"
+  },
+  "next": {
+    "title": "Client Connections",
+    "permalink": "/docs/accountant-portal/client-management/client-connections"
   }
 }

@@ -59,7 +59,7 @@
     "permalink": "/docs/invoicing/overview"
   },
   "next": {
-    "title": "Invoice Management",
-    "permalink": "/docs/invoicing/invoice-management"
+    "title": "Sending Invoices",
+    "permalink": "/docs/core-features/invoicing/sending-invoices.md"
   }
 }

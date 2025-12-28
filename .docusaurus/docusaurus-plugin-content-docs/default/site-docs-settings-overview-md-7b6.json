@@ -28,11 +28,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Delete Account",
-    "permalink": "/docs/plans-billing/deleting-account"
+    "title": "Referral Tracking",
+    "permalink": "/docs/accountant-portal/partner-program/referral-tracking"
   },
   "next": {
-    "title": "Company Settings",
-    "permalink": "/docs/settings/company-settings"
+    "title": "Profile Settings",
+    "permalink": "/docs/settings/profile-settings"
   }
 }

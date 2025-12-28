@@ -50,8 +50,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Connect Stripe",
-    "permalink": "/docs/integrations/banking/connecting-stripe"
+    "title": "Banking Connections Overview",
+    "permalink": "/docs/integrations/banking/overview"
   },
   "next": {
     "title": "Connect with Salt Edge",

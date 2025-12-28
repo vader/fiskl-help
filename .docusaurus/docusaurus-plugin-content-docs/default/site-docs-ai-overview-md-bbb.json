@@ -26,8 +26,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Managing Reimbursements",
-    "permalink": "/docs/accounting/reimbursement-guide"
+    "title": "PayPal",
+    "permalink": "/docs/integrations/payments/paypal"
   },
   "next": {
     "title": "Fi - Your AI Advisor",

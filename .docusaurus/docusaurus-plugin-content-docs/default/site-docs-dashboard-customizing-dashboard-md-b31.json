@@ -26,11 +26,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Dashboard Navigation Basics",
-    "permalink": "/docs/dashboard/navigation-basics"
-  },
-  "next": {
     "title": "Dashboard Quick Actions",
     "permalink": "/docs/dashboard/quick-actions"
+  },
+  "next": {
+    "title": "Invoicing Overview",
+    "permalink": "/docs/invoicing/overview"
   }
 }

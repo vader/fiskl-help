@@ -18,11 +18,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Referral Tracking",
-    "permalink": "/docs/accountant-portal/partner-program/referral-tracking"
+    "title": "Workflow Assignments",
+    "permalink": "/docs/accountant-portal/team-collaboration/workflow-assignments"
   },
   "next": {
-    "title": "Billing Reports",
-    "permalink": "/docs/accountant-portal/reporting-analytics/billing-reports"
+    "title": "Practice Dashboard",
+    "permalink": "/docs/accountant-portal/reporting-analytics/practice-dashboard"
   }
 }

@@ -48,11 +48,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Apply Offer Codes",
-    "permalink": "/docs/plans-billing/applying-offer-codes"
+    "title": "Manage Your Subscription",
+    "permalink": "/docs/plans-billing/managing-subscription"
   },
   "next": {
-    "title": "Cancel Subscription",
-    "permalink": "/docs/plans-billing/canceling-subscription"
+    "title": "Apply Offer Codes",
+    "permalink": "/docs/plans-billing/applying-offer-codes"
   }
 }

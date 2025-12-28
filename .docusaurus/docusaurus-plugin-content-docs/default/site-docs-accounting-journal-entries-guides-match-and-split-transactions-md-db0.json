@@ -53,7 +53,7 @@
     "permalink": "/docs/core-features/accounting/journal-entries/guides/manual-transactions"
   },
   "next": {
-    "title": "Managing Multi-Currency Transactions",
-    "permalink": "/docs/core-features/accounting/journal-entries/guides/multi-currency-transactions"
+    "title": "Moving Transactions Between Accounts",
+    "permalink": "/docs/core-features/accounting/journal-entries/guides/move-transactions"
   }
 }

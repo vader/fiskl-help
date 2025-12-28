@@ -27,11 +27,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Support",
-    "permalink": "/docs/support/overview"
+    "title": "Currency Management",
+    "permalink": "/docs/settings/currency-management"
   },
   "next": {
-    "title": "User Roles and Permissions",
-    "permalink": "/docs/team/roles-permissions"
+    "title": "Inviting and Managing Users",
+    "permalink": "/docs/team/inviting-users"
   }
 }

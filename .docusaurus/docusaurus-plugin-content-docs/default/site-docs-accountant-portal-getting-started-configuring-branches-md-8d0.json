@@ -18,11 +18,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Getting Started with Accountant Portal",
-    "permalink": "/docs/accountant-portal/getting-started/overview"
+    "title": "Understanding Team Structure",
+    "permalink": "/docs/accountant-portal/getting-started/team-structure"
   },
   "next": {
-    "title": "Setting Up Your Practice",
-    "permalink": "/docs/accountant-portal/getting-started/setting-up-your-practice"
+    "title": "Client Management Overview",
+    "permalink": "/docs/accountant-portal/client-management/overview"
   }
 }

@@ -27,11 +27,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Profile Settings",
-    "permalink": "/docs/settings/profile-settings"
+    "title": "Financial Statements and Reports",
+    "permalink": "/docs/glossary/financial-statements"
   },
   "next": {
-    "title": "Team Members Overview",
-    "permalink": "/docs/team/overview"
+    "title": "Support",
+    "permalink": "/docs/support/overview"
   }
 }

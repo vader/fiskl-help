@@ -46,7 +46,7 @@
     "permalink": "/docs/settings/company-settings"
   },
   "next": {
-    "title": "Tax Settings",
-    "permalink": "/docs/settings/tax-settings"
+    "title": "Invoice and Quote Settings",
+    "permalink": "/docs/settings/invoice-quote-settings"
   }
 }

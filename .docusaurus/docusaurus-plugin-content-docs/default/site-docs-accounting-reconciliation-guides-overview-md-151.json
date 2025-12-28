@@ -30,7 +30,7 @@
     "permalink": "/docs/accounting/reconciliation/overview"
   },
   "next": {
-    "title": "Reconciliation Best Practices",
-    "permalink": "/docs/accounting/reconciliation/guides/reconciliation-best-practices"
+    "title": "How Fiskl Handles Account Reconciliation",
+    "permalink": "/docs/core-features/accounting/journal-entries/guides/how-fiskl-handles-reconciliation"
   }
 }

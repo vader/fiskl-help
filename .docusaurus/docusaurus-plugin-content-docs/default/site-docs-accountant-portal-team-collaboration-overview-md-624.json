@@ -18,11 +18,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Client Access Levels",
-    "permalink": "/docs/accountant-portal/client-management/client-access-levels"
+    "title": "Switching Billing Models",
+    "permalink": "/docs/accountant-portal/billing-models/switching-billing-models"
   },
   "next": {
-    "title": "Branch Management",
-    "permalink": "/docs/accountant-portal/team-collaboration/branch-management"
+    "title": "Managing Team Members",
+    "permalink": "/docs/accountant-portal/team-collaboration/managing-team-members"
   }
 }

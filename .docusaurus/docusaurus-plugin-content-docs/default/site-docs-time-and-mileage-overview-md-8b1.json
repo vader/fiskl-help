@@ -27,8 +27,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Quote Management",
-    "permalink": "/docs/core-features/quotes/quote-management"
+    "title": "Expense Categories",
+    "permalink": "/docs/expenses/expense-categories"
   },
   "next": {
     "title": "Time Tracking",

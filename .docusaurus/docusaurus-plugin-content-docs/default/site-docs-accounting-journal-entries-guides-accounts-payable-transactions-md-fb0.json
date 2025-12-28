@@ -51,11 +51,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Moving Transactions Between Accounts",
-    "permalink": "/docs/core-features/accounting/journal-entries/guides/move-transactions"
-  },
-  "next": {
     "title": "Working with Accounts Receivable",
     "permalink": "/docs/core-features/accounting/journal-entries/guides/accounts-receivable-transactions"
+  },
+  "next": {
+    "title": "Handling Internal Transfers",
+    "permalink": "/docs/core-features/accounting/journal-entries/guides/internal-transfers"
   }
 }

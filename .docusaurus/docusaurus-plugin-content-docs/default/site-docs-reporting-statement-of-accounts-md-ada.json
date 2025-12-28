@@ -55,8 +55,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Trial Balance Report",
-    "permalink": "/docs/core-features/accounting/reports/trial-balance"
+    "title": "Transactions by Account",
+    "permalink": "/docs/reporting/transactions-by-account"
   },
   "next": {
     "title": "Client Aging Report",

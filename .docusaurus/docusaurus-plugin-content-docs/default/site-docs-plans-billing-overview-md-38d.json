@@ -49,8 +49,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Team Performance",
-    "permalink": "/docs/accountant-portal/reporting-analytics/team-performance"
+    "title": "User Roles and Permissions",
+    "permalink": "/docs/team/roles-permissions"
   },
   "next": {
     "title": "Choose Your Fiskl Plan",

@@ -29,11 +29,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Accounting Fundamentals",
-    "permalink": "/docs/glossary/accounting-fundamentals"
+    "title": "Accounts and Transactions",
+    "permalink": "/docs/glossary/accounts-and-transactions"
   },
   "next": {
-    "title": "Financial Statements and Reports",
-    "permalink": "/docs/glossary/financial-statements"
+    "title": "Cash and Banking",
+    "permalink": "/docs/glossary/cash-and-banking"
   }
 }

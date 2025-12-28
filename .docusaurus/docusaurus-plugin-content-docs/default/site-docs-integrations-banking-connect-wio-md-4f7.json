@@ -49,8 +49,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Connect with Salt Edge",
-    "permalink": "/docs/integrations/banking/connecting-saltedge"
+    "title": "Connect Stripe",
+    "permalink": "/docs/integrations/banking/connecting-stripe"
   },
   "next": {
     "title": "Payment Gateways Overview",

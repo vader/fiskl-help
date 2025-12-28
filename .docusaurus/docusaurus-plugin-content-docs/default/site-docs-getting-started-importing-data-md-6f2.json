@@ -29,8 +29,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Invoice Basics",
-    "permalink": "/docs/getting-started/invoicing"
+    "title": "Connecting Your Bank",
+    "permalink": "/docs/getting-started/connecting-your-bank"
   },
   "next": {
     "title": "Creating Your First Invoice",

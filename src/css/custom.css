@@ -98,3 +98,16 @@
   --ifm-scrollbar-thumb-background-color: #4e4e5a;
   --ifm-scrollbar-thumb-hover-background-color: #6a6a7a;
 }
+
+/* Make the Accountant Portal category label look distinct */
+.sidebar-portal-header > .menu__link {
+  background-color: rgba(139, 125, 255, 0.1); /* Subtle purple tint if in dark mode */
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+  color: var(--ifm-color-primary);
+}
+
+/* Adjust spacing for HR separators */
+.menu__list-item hr {
+  opacity: 0.5;
+}

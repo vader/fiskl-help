@@ -29,8 +29,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "PayPal",
-    "permalink": "/docs/integrations/payments/paypal"
+    "title": "Customizing Your Dashboard",
+    "permalink": "/docs/dashboard/customizing-dashboard"
   },
   "next": {
     "title": "Creating Invoices",

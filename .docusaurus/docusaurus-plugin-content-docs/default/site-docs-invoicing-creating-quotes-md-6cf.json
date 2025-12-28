@@ -50,8 +50,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Managing Recurring Invoices",
-    "permalink": "/docs/core-features/invoicing/recurring/recurring-invoice-management"
+    "title": "Invoice Management",
+    "permalink": "/docs/invoicing/invoice-management"
   },
   "next": {
     "title": "Quote Management",

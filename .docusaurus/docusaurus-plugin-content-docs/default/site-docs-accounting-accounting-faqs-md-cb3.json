@@ -45,11 +45,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Filtering and Exporting Journal Entries",
-    "permalink": "/docs/core-features/accounting/journal-entries/guides/exporting-transactions"
+    "title": "Managing Reimbursements",
+    "permalink": "/docs/accounting/reimbursement-guide"
   },
   "next": {
-    "title": "Account Reconciliation Overview",
-    "permalink": "/docs/accounting/reconciliation/overview"
+    "title": "Financial Reports Overview",
+    "permalink": "/docs/reporting/overview"
   }
 }

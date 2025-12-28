@@ -28,11 +28,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Sales Tax Report",
-    "permalink": "/docs/reporting/sales-tax"
+    "title": "Balance Sheet Report",
+    "permalink": "/docs/reporting/balance-sheet"
   },
   "next": {
-    "title": "Trial Balance Report",
-    "permalink": "/docs/core-features/accounting/reports/trial-balance"
+    "title": "General Ledger Report",
+    "permalink": "/docs/reporting/general-ledger"
   }
 }

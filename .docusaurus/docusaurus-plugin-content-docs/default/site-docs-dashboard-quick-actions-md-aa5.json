@@ -27,11 +27,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Customizing Your Dashboard",
-    "permalink": "/docs/dashboard/customizing-dashboard"
+    "title": "Dashboard Navigation Basics",
+    "permalink": "/docs/dashboard/navigation-basics"
   },
   "next": {
-    "title": "Glossary Overview",
-    "permalink": "/docs/glossary/overview"
+    "title": "Customizing Your Dashboard",
+    "permalink": "/docs/dashboard/customizing-dashboard"
   }
 }

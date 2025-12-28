@@ -54,7 +54,7 @@
     "permalink": "/docs/integrations/banking/connecting-yodlee"
   },
   "next": {
-    "title": "Connect WIO Bank",
-    "permalink": "/docs/integrations/banking/connecting-wio"
+    "title": "Connect Stripe",
+    "permalink": "/docs/integrations/banking/connecting-stripe"
   }
 }

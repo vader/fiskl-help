@@ -48,11 +48,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Balance Sheet Report",
-    "permalink": "/docs/reporting/balance-sheet"
+    "title": "Trial Balance Report",
+    "permalink": "/docs/core-features/accounting/reports/trial-balance"
   },
   "next": {
-    "title": "General Ledger Report",
-    "permalink": "/docs/reporting/general-ledger"
+    "title": "Statement of Accounts",
+    "permalink": "/docs/core-features/accounting/reports/statement-of-accounts"
   }
 }

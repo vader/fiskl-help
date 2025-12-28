@@ -54,11 +54,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Understanding Journal Entries",
-    "permalink": "/docs/accounting/journal-entries/overview"
+    "title": "Filtering and Exporting Journal Entries",
+    "permalink": "/docs/core-features/accounting/journal-entries/guides/exporting-transactions"
   },
   "next": {
-    "title": "Journal Entry Guides Overview",
-    "permalink": "/docs/accounting/journal-entries/guides/overview"
+    "title": "Account Reconciliation Overview",
+    "permalink": "/docs/accounting/reconciliation/overview"
   }
 }

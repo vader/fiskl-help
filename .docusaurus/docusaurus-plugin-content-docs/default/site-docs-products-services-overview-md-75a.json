@@ -27,8 +27,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Billing Time and Mileage",
-    "permalink": "/docs/time-and-mileage/billing-time-and-mileage"
+    "title": "Managing Vendors",
+    "permalink": "/docs/clients-vendors/vendors"
   },
   "next": {
     "title": "Creating Products",

@@ -27,11 +27,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "General Ledger Report",
-    "permalink": "/docs/reporting/general-ledger"
+    "title": "Client Aging Report",
+    "permalink": "/docs/reporting/client-aging"
   },
   "next": {
-    "title": "Statement of Cash Flows",
-    "permalink": "/docs/reporting/cash-flow"
+    "title": "Clients & Vendors Overview",
+    "permalink": "/docs/clients-vendors/overview"
   }
 }

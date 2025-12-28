@@ -18,11 +18,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Billing Reports",
-    "permalink": "/docs/accountant-portal/reporting-analytics/billing-reports"
-  },
-  "next": {
     "title": "Practice Dashboard",
     "permalink": "/docs/accountant-portal/reporting-analytics/practice-dashboard"
+  },
+  "next": {
+    "title": "Billing Reports",
+    "permalink": "/docs/accountant-portal/reporting-analytics/billing-reports"
   }
 }

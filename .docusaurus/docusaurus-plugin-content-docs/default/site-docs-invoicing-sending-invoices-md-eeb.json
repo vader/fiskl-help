@@ -49,11 +49,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Invoice Management",
-    "permalink": "/docs/invoicing/invoice-management"
+    "title": "Creating Invoices",
+    "permalink": "/docs/invoicing/creating-invoices"
   },
   "next": {
-    "title": "Creating Recurring Invoices",
-    "permalink": "/docs/core-features/invoicing/recurring/creating-recurring-invoices"
+    "title": "Invoice Management",
+    "permalink": "/docs/invoicing/invoice-management"
   }
 }

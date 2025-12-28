@@ -27,11 +27,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "User Roles and Permissions",
-    "permalink": "/docs/team/roles-permissions"
+    "title": "Team Members Overview",
+    "permalink": "/docs/team/overview"
   },
   "next": {
-    "title": "Dashboard Overview",
-    "permalink": "/docs/dashboard/overview"
+    "title": "User Roles and Permissions",
+    "permalink": "/docs/team/roles-permissions"
   }
 }

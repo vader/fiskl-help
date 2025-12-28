@@ -28,8 +28,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Expense Categories",
-    "permalink": "/docs/expenses/expense-categories"
+    "title": "Sales Tax Report",
+    "permalink": "/docs/reporting/sales-tax"
   },
   "next": {
     "title": "Managing Clients",

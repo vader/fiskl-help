@@ -49,11 +49,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Banking Connections Overview",
-    "permalink": "/docs/integrations/banking/overview"
+    "title": "Connect with Salt Edge",
+    "permalink": "/docs/integrations/banking/connecting-saltedge"
   },
   "next": {
-    "title": "Connect with Yodlee",
-    "permalink": "/docs/integrations/banking/connecting-yodlee"
+    "title": "Connect WIO Bank",
+    "permalink": "/docs/integrations/banking/connecting-wio"
   }
 }

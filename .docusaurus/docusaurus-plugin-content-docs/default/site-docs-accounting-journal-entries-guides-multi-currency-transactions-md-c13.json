@@ -56,11 +56,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Matching and Splitting Transactions",
-    "permalink": "/docs/core-features/accounting/journal-entries/guides/match-and-split-transactions"
+    "title": "Handling Internal Transfers",
+    "permalink": "/docs/core-features/accounting/journal-entries/guides/internal-transfers"
   },
   "next": {
-    "title": "Moving Transactions Between Accounts",
-    "permalink": "/docs/core-features/accounting/journal-entries/guides/move-transactions"
+    "title": "Creating Opening Balances",
+    "permalink": "/docs/core-features/accounting/journal-entries/guides/opening-balances"
   }
 }

@@ -26,11 +26,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Multi Journal Entries",
-    "permalink": "/docs/accounting/journal-entries/multi-journal-entries"
+    "title": "Understanding Journal Entries",
+    "permalink": "/docs/accounting/journal-entries/overview"
   },
   "next": {
-    "title": "Creating Opening Balances",
-    "permalink": "/docs/core-features/accounting/journal-entries/guides/opening-balances"
+    "title": "Recording Manual Transactions",
+    "permalink": "/docs/core-features/accounting/journal-entries/guides/manual-transactions"
   }
 }

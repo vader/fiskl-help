@@ -18,11 +18,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Overview",
-    "permalink": "/docs/accountant-portal/reporting-analytics/overview"
-  },
-  "next": {
     "title": "Client Portfolio View",
     "permalink": "/docs/accountant-portal/reporting-analytics/client-portfolio-view"
+  },
+  "next": {
+    "title": "Team Performance",
+    "permalink": "/docs/accountant-portal/reporting-analytics/team-performance"
   }
 }

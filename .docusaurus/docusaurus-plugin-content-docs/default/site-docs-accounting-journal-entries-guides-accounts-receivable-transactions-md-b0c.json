@@ -43,11 +43,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Working with Accounts Payable",
-    "permalink": "/docs/core-features/accounting/journal-entries/guides/accounts-payable-transactions"
+    "title": "Moving Transactions Between Accounts",
+    "permalink": "/docs/core-features/accounting/journal-entries/guides/move-transactions"
   },
   "next": {
-    "title": "Handling Internal Transfers",
-    "permalink": "/docs/core-features/accounting/journal-entries/guides/internal-transfers"
+    "title": "Working with Accounts Payable",
+    "permalink": "/docs/core-features/accounting/journal-entries/guides/accounts-payable-transactions"
   }
 }

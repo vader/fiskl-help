@@ -49,11 +49,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Statement of Cash Flows",
-    "permalink": "/docs/reporting/cash-flow"
+    "title": "General Ledger Report",
+    "permalink": "/docs/reporting/general-ledger"
   },
   "next": {
-    "title": "Statement of Accounts",
-    "permalink": "/docs/core-features/accounting/reports/statement-of-accounts"
+    "title": "Transactions by Account",
+    "permalink": "/docs/reporting/transactions-by-account"
   }
 }

@@ -47,11 +47,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Invoice and Quote Settings",
-    "permalink": "/docs/settings/invoice-quote-settings"
+    "title": "Settings Overview",
+    "permalink": "/docs/settings/overview"
   },
   "next": {
-    "title": "Support",
-    "permalink": "/docs/support/overview"
+    "title": "Company Settings",
+    "permalink": "/docs/settings/company-settings"
   }
 }

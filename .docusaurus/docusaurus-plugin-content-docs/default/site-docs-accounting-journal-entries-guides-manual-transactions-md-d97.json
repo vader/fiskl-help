@@ -55,8 +55,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Creating Opening Balances",
-    "permalink": "/docs/core-features/accounting/journal-entries/guides/opening-balances"
+    "title": "Journal Entry Guides Overview",
+    "permalink": "/docs/accounting/journal-entries/guides/overview"
   },
   "next": {
     "title": "Matching and Splitting Transactions",

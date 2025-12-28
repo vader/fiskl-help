@@ -19,11 +19,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Reconciliation Guides Overview",
-    "permalink": "/docs/accounting/reconciliation/guides/overview"
+    "title": "Handling Reconciliation Discrepancies",
+    "permalink": "/docs/core-features/accounting/journal-entries/guides/handling-reconciliation-discrepancies"
   },
   "next": {
-    "title": "How Fiskl Handles Account Reconciliation",
-    "permalink": "/docs/core-features/accounting/journal-entries/guides/how-fiskl-handles-reconciliation"
+    "title": "Reconciliation Reports",
+    "permalink": "/docs/core-features/accounting/journal-entries/guides/reconciliation-reports"
   }
 }

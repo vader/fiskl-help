@@ -19,7 +19,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Accounts and Transactions",
-    "permalink": "/docs/glossary/accounts-and-transactions"
+    "title": "Assets & Liabilities",
+    "permalink": "/docs/glossary/assets-and-liabilities"
+  },
+  "next": {
+    "title": "Financial Statements and Reports",
+    "permalink": "/docs/glossary/financial-statements"
   }
 }

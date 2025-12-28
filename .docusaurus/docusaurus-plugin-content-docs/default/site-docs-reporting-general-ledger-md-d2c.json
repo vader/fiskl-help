@@ -27,11 +27,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Transactions by Account",
-    "permalink": "/docs/reporting/transactions-by-account"
+    "title": "Statement of Cash Flows",
+    "permalink": "/docs/reporting/cash-flow"
   },
   "next": {
-    "title": "Sales Tax Report",
-    "permalink": "/docs/reporting/sales-tax"
+    "title": "Trial Balance Report",
+    "permalink": "/docs/core-features/accounting/reports/trial-balance"
   }
 }

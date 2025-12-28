@@ -49,8 +49,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Handling Reconciliation Discrepancies",
-    "permalink": "/docs/core-features/accounting/journal-entries/guides/handling-reconciliation-discrepancies"
+    "title": "Reconciliation Best Practices",
+    "permalink": "/docs/accounting/reconciliation/guides/reconciliation-best-practices"
   },
   "next": {
     "title": "Managing Reimbursements",

@@ -42,11 +42,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Invoice Templates",
-    "permalink": "/docs/settings/template-brand-settings"
+    "title": "Tax Settings",
+    "permalink": "/docs/settings/tax-settings"
   },
   "next": {
-    "title": "Invoice and Quote Settings",
-    "permalink": "/docs/settings/invoice-quote-settings"
+    "title": "Team Members Overview",
+    "permalink": "/docs/team/overview"
   }
 }

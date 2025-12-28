@@ -27,8 +27,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Understanding Team Structure",
-    "permalink": "/docs/accountant-portal/getting-started/team-structure"
+    "title": "Client Access Levels",
+    "permalink": "/docs/accountant-portal/client-management/client-access-levels"
   },
   "next": {
     "title": "Client Pays Model",

@@ -55,11 +55,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Handling Internal Transfers",
-    "permalink": "/docs/core-features/accounting/journal-entries/guides/internal-transfers"
+    "title": "Creating Opening Balances",
+    "permalink": "/docs/core-features/accounting/journal-entries/guides/opening-balances"
   },
   "next": {
-    "title": "Accounting FAQs",
-    "permalink": "/docs/accounting/accounting-faqs"
+    "title": "Multi Journal Entries",
+    "permalink": "/docs/accounting/journal-entries/multi-journal-entries"
   }
 }

@@ -18,11 +18,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Overview",
-    "permalink": "/docs/accountant-portal/team-collaboration/overview"
+    "title": "Roles Permissions",
+    "permalink": "/docs/accountant-portal/team-collaboration/roles-permissions"
   },
   "next": {
-    "title": "Managing Team Members",
-    "permalink": "/docs/accountant-portal/team-collaboration/managing-team-members"
+    "title": "Workflow Assignments",
+    "permalink": "/docs/accountant-portal/team-collaboration/workflow-assignments"
   }
 }

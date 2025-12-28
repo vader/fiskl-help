@@ -42,8 +42,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Settings Overview",
-    "permalink": "/docs/settings/overview"
+    "title": "Profile Settings",
+    "permalink": "/docs/settings/profile-settings"
   },
   "next": {
     "title": "Accounting Settings",

@@ -48,11 +48,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Tax Settings",
-    "permalink": "/docs/settings/tax-settings"
+    "title": "Invoice and Quote Settings",
+    "permalink": "/docs/settings/invoice-quote-settings"
   },
   "next": {
-    "title": "Currency Management",
-    "permalink": "/docs/settings/currency-management"
+    "title": "Tax Settings",
+    "permalink": "/docs/settings/tax-settings"
   }
 }

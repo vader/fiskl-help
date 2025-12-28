@@ -28,8 +28,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Client Aging Report",
-    "permalink": "/docs/reporting/client-aging"
+    "title": "Managing Recurring Invoices",
+    "permalink": "/docs/core-features/invoicing/recurring/recurring-invoice-management"
   },
   "next": {
     "title": "AI Expenses Overview",

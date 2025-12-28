@@ -26,8 +26,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Creating Your First Invoice",
-    "permalink": "/docs/getting-started/your-first-invoice"
+    "title": "Billing Time and Mileage",
+    "permalink": "/docs/time-and-mileage/billing-time-and-mileage"
   },
   "next": {
     "title": "Chart of Accounts",

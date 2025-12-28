@@ -19,11 +19,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Assets & Liabilities",
-    "permalink": "/docs/glossary/assets-and-liabilities"
+    "title": "Cash and Banking",
+    "permalink": "/docs/glossary/cash-and-banking"
   },
   "next": {
-    "title": "Accounts and Transactions",
-    "permalink": "/docs/glossary/accounts-and-transactions"
+    "title": "Support",
+    "permalink": "/docs/support/overview"
   }
 }
