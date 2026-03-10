@@ -5,22 +5,22 @@ keywords: ["invite users", "manage team", "add team members", "change roles", "d
 sidebar_position: 3
 ---
 
-# Inviting and Managing Users
-
-This guide explains how to invite team members to your Fiskl account, change their roles, and manage their access over time.
+This guide explains how to invite and manage team members in Fiskl and helps you control who has access to your company's financial data.
 
 ## Before You Begin
 
-Ensure you have:
+Before you begin, ensure you have:
 - Owner or Admin role (required to manage users)
 - Team member's email address
-- Determined the appropriate role for the new member
+- Decided which role to assign the new member
 
-Only Owners and Admins can invite and manage team members. If you don't see the Team Members menu option, you don't have sufficient permissions.
+Learn more about [user roles and their permissions](./roles-permissions).
+
+Only Owners and Admins can invite and manage team members. If you don't see **Team Members** in the left sidebar, you don't have sufficient permissions.
 
 ## Inviting a New Team Member
 
-Add team members by sending email invitations:
+Add team members by sending email invitations.
 
 **Steps:**
 
@@ -28,117 +28,105 @@ Add team members by sending email invitations:
 2. Select **Invite new member** or the **+ icon**
 3. Complete the invitation form:
 
-   **Name**
-   Enter the team member's full name.
+   **Name**  
+   Enter the team member's full name.  
    Example: John Smith
 
-   **Email address**
-   Enter their work email address. They'll receive the invitation here.
+   **Email address**  
+   Enter their work email address. They'll receive the invitation here.  
    Example: john.smith@company.com
 
-   **Role**
+   **Role**  
    Select the appropriate role from the dropdown:
-    - Owner (only if transferring ownership)
-    - Admin
-    - Billing User
-    - User
-    - Accountant
+   - Owner (only if transferring ownership)
+   - Admin
+   - Billing User
+   - User
+   - Accountant
 
 4. Review the information
 5. Select **Send invite**
 
-The invitation is sent immediately via email.
+Fiskl sends the invitation immediately via email.
 
 ### What Happens Next
 
-After sending the invitation:
+After you send the invitation, the team member receives an email with an invitation link. They appear in your Team Members list with a "Pending" status.
 
-1. **The team member receives an email** with an invitation link
-2. **They appear in your team list** with a "Pending" status
-3. **They click the invitation link** and create their Fiskl account
-4. **They set their own password** and complete registration
-5. **Their status changes to "Active"** once they log in
-6. **They can access Fiskl** with the permissions of their assigned role
+When they select the invitation link, they create their Fiskl account and set a password. Once they complete registration and log in, their status changes to "Active." They can now access Fiskl with the permissions of their assigned role.
 
 :::tip
-Invitation links expire after 7 days. If the team member doesn't accept within that time, you'll need to resend the invitation.
+Invitation links expire after 7 days. Resend if the team member hasn't accepted by then.
 :::
 
 ## Monitoring Invitation Status
 
-Track which invitations have been accepted:
+Track which invitations have been accepted.
 
 **To view invitation status:**
 
 1. Go to **Team Members**
 2. Check the status column for each team member:
-    - **Active**: User has accepted and can log in
-    - **Pending**: Invitation sent but not yet accepted
-    - **Inactive**: User has been deactivated
+   - **Active**: User has accepted and can log in
+   - **Pending**: Invitation sent but not yet accepted
+   - **Inactive**: User has been deactivated
 
 ### Resending Invitations
 
-If a team member didn't receive the invitation or it expired:
+If a team member didn't receive the invitation or it expired, you can resend it.
 
 **Steps:**
 
 1. Go to **Team Members**
 2. Locate the pending invitation
 3. Select **Resend invitation** or the resend icon
-4. A new invitation email is sent
 
-The team member receives a fresh invitation link valid for another 7 days.
+Fiskl sends a new invitation email. The team member receives a fresh invitation link valid for another 7 days.
 
 ## Changing User Roles
 
-Update team member roles as responsibilities evolve:
+Update team member roles as their responsibilities change. Role changes take effect immediately.
 
 **Steps:**
 
 1. Go to **Team Members**
 2. Locate the team member in the list
 3. Select their current role (displayed as a dropdown)
-4. Choose the new role from the dropdown menu
-5. The change takes effect immediately
+4. Select the new role from the dropdown menu
 
-**Important considerations:**
-
-- Role changes apply instantly—the user's access updates immediately
-- If the user is currently logged in, they may need to refresh their browser to see changes
-- Role changes are logged and visible to all Admins and the Owner
-- You cannot change the Owner's role (ownership must be transferred)
+The change applies instantly. If the user is currently logged in, they may need to refresh their browser to see the changes. All role changes are logged and visible to Admins and the Owner.
 
 **Common role transitions:**
-
 - **User → Billing User**: When they start handling client invoicing
 - **Billing User → Admin**: When they take on financial management
 - **Admin → Billing User**: When reducing access after role changes
 - **Any role → Accountant**: When converting internal staff to read-only access
 
 :::info
-Admins cannot modify the Owner's role. Only the Owner can transfer ownership to another user.
+You cannot change the Owner's role. Only the Owner can transfer ownership to another user.
 :::
 
 ## Activating and Deactivating Users
 
-Control whether team members can log in without permanently removing them:
+Control whether team members can log in without permanently removing them.
 
 ### Deactivating a User
 
-Temporarily remove access while keeping the user in your system:
+Temporarily remove access while keeping the user in your system.
 
 **Steps:**
 
 1. Go to **Team Members**
 2. Locate the team member
 3. Toggle the switch next to their name to **Off**
-4. The user status changes to "Inactive"
+
+The user status changes to "Inactive."
 
 **What happens when deactivated:**
 - User cannot log in to Fiskl
 - All their historical data remains intact
 - Invoices, expenses, and time they created remain visible
-- User appears in your team list as "Inactive"
+- User appears in your Team Members list as "Inactive"
 - No charges apply for inactive users
 
 **When to deactivate:**
@@ -149,30 +137,30 @@ Temporarily remove access while keeping the user in your system:
 
 ### Reactivating a User
 
-Restore access for previously deactivated users:
+Restore access for previously deactivated users.
 
 **Steps:**
 
 1. Go to **Team Members**
 2. Locate the inactive user
 3. Toggle the switch next to their name to **On**
-4. The user status changes to "Active"
-5. The user can log in immediately with their existing credentials
+
+The user status changes to "Active." The user can log in immediately with their existing credentials.
 
 ## Deleting Team Members
 
-Permanently remove users who will never return:
+Permanently remove users who will never return.
 
 **Steps:**
 
 1. Go to **Team Members**
-2. **Deactivate the user first** (toggle to Off)
+2. Deactivate the user first by toggling to **Off**
 3. After deactivation, a **delete button** appears next to their name
 4. Select the **delete button**
 5. Confirm the deletion in the dialog
 
 **What happens when deleted:**
-- User is permanently removed from your team list
+- User is permanently removed from your Team Members list
 - User cannot log in (even if they had credentials)
 - All their historical data remains intact
 - Invoices, expenses, and time they created remain visible
@@ -184,7 +172,7 @@ Deleting a team member is permanent. They will need a new invitation to regain a
 
 ## Transferring Ownership
 
-If you're the Owner and need to transfer ownership to another user:
+If you're the Owner and need to transfer ownership to another user, follow these steps.
 
 **Steps:**
 
@@ -192,7 +180,7 @@ If you're the Owner and need to transfer ownership to another user:
 2. Ensure the target user is already an Admin
 3. Select your own user profile or settings
 4. Select **Transfer ownership**
-5. Choose the Admin to become the new Owner
+5. Select the Admin to become the new Owner
 6. Confirm the transfer
 
 **Important notes:**
@@ -202,77 +190,57 @@ If you're the Owner and need to transfer ownership to another user:
 - The new Owner gains subscription and billing access
 - Transfers cannot be reversed automatically (new Owner must transfer back)
 
-This is typically done when:
+**When to transfer ownership:**
 - Business ownership changes
 - Primary contact person changes
 - Retiring or leaving the company
 
-## Managing Your Team List
+## Managing Your Team Members
 
 ### Viewing Team Members
 
-The Team Members page displays:
-- Name
-- Email address
-- Role
-- Status (Active, Pending, Inactive)
-- Last login date (for active users)
+The Team Members page shows key information about each person on your team. You can see their name, email address, assigned role, and current status. For active users, you can also see when they last logged in.
 
 ### Sorting and Filtering
 
-Organize your team view:
+Organize your team view by status or role.
 
-**By status:**
+**Filter by status:**
 - Select **Active** to see only active members
 - Select **Pending** to see only pending invitations
 - Select **Inactive** to see only deactivated members
 - Select **All** to see everyone
 
-**By role:**
+**Filter by role:**  
 Some views allow filtering by role to see all Billing Users, all Users, etc.
 
-### Understanding Team List Information
+### Understanding Team Information
 
-**Last Login:**
-Shows when the team member last accessed Fiskl. Useful for:
-- Confirming active users
-- Identifying unused accounts
-- Security auditing
+**Last Login**  
+Shows when the team member last accessed Fiskl. This is useful for confirming active users, identifying unused accounts, and security auditing.
 
-**Pending Duration:**
-For pending invitations, shows how long ago you sent the invitation. Follow up if it's been more than 2-3 days.
+**Pending Duration**  
+For pending invitations, this shows how long ago you sent the invitation. Follow up if it's been more than 2-3 days.
 
 ## Team Management Best Practices
 
-**Onboard gradually:**
-Add one or two team members at a time. Ensure they understand their access before adding more.
+### Onboarding New Members
 
-**Follow up on pending invitations:**
-If someone hasn't accepted within 2-3 days, reach out directly. They may have missed the email.
+Add one or two team members at a time. Ensure they understand their access before adding more. If someone hasn't accepted within 2-3 days, reach out directly. Invitation emails sometimes land in spam, so remind them to check there.
 
-**Check spam folders:**
-Invitation emails sometimes land in spam. Remind team members to check there.
-
-**Use descriptive names:**
 Enter full names (not nicknames) so everyone knows who has access.
 
-**Regular access reviews:**
-Review your team list quarterly:
-- Deactivate users who no longer need access
-- Update roles for people with changed responsibilities
-- Delete users who have left the organization
+### Maintaining Your Team
 
-**Document your team structure:**
-Keep a separate document showing who should have what role. Makes it easier to audit.
+Review your Team Members list quarterly. Deactivate users who no longer need access. Update roles for people with changed responsibilities. Delete users who have left permanently.
 
-**Communicate role changes:**
-When you change someone's role, let them know. They may be confused if features disappear or appear.
+When you change someone's role, let them know. They may be confused if features disappear or appear unexpectedly.
 
-**Deactivate before termination:**
-When someone leaves, deactivate their account on or before their last day.
+Keep a separate document showing who should have what role. This makes auditing easier.
 
-**Use accountant role correctly:**
-Always use the Accountant role for external accounting professionals, not Admin.
+### Security Best Practices
+
+When someone leaves, deactivate their account on or before their last day. Always use the Accountant role for external accounting professionals, not Admin.
 
 ## Troubleshooting
 
@@ -280,57 +248,47 @@ Always use the Accountant role for external accounting professionals, not Admin.
 
 **Possible causes and solutions:**
 
-1. **Email in spam folder**
-    - Ask them to check spam/junk folders
-    - Add noreply@fiskl.com to their contacts
+**Email in spam folder**  
+Ask them to check spam/junk folders. Add noreply@fiskl.com to their contacts.
 
-2. **Email address typo**
-    - Verify the email address in your invitation
-    - Resend with corrected email
+**Email address typo**  
+Verify the email address in your invitation. Resend with the corrected email.
 
-3. **Corporate email filter**
-    - Check with their IT department
-    - Ask them to whitelist fiskl.com emails
+**Corporate email filter**  
+Check with their IT department. Ask them to whitelist fiskl.com emails.
 
-4. **Invitation expired**
-    - Resend the invitation
-    - Invitations expire after 7 days
+**Invitation expired**  
+Resend the invitation. Invitations expire after 7 days.
 
 ### Can't Change a User's Role
 
 **Possible causes:**
-
 - You're trying to modify the Owner (only Owner can transfer ownership)
 - You're an Admin trying to modify another Admin's role to Owner
 - You don't have Owner or Admin permissions yourself
 
-**Solution:**
+**Solution:**  
 Ensure you have appropriate permissions. Admins cannot modify the Owner or create new Owners.
 
 ### User Can't Access Features They Should Have
 
 **Possible causes:**
 
-1. **Wrong role assigned**
-    - Verify their role matches their needs
-    - See [Roles and Permissions](./roles-permissions) for details
+**Wrong role assigned**  
+Verify their role matches their needs. See [Roles and Permissions](./roles-permissions) for details.
 
-2. **Need to log out and back in**
-    - Ask them to log out completely
-    - Log back in to refresh permissions
+**Need to log out and back in**  
+Ask them to log out completely. Log back in to refresh permissions.
 
-3. **Browser cache issue**
-    - Clear browser cache
-    - Try a different browser
+**Browser cache issue**  
+Clear browser cache. Try a different browser.
 
 ### User Sees "Access Denied"
 
 **Cause:** They're trying to access a feature their role doesn't permit.
 
-**Solution:**
-- Review their role and permissions
-- Upgrade their role if appropriate
-- Explain which features are available to their role
+**Solution:**  
+Review their role and permissions. Upgrade their role if appropriate. Explain which features are available to their role.
 
 ---
 
