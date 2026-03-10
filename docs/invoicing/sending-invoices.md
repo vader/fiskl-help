@@ -3,7 +3,6 @@ title: Sending Invoices
 sidebar_position: 4
 description: Send professional, branded invoices easily with Fiskl. Provide clear billing statements and flexible payment options to clients.
 keywords: ["Sending invoices Fiskl", "professional billing", "branded invoices", "payment options"]
-slug: /core-features/invoicing/sending-invoices.md
 toc_min_heading_level: 2
 toc_max_heading_level: 4
 tags:

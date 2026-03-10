@@ -111,7 +111,7 @@ Keep cash flow healthy with automated payment reminders and overdue notices.
 - Client communication history
 - Stop reminders when paid
 
-**Learn more:** [Sending Invoices](/docs/invoicing/sending-invoices.md)
+**Learn more:** [Sending Invoices](/docs/invoicing/sending-invoices)
 
 ## Invoice Lifecycle
 
