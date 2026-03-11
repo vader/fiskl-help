@@ -63,9 +63,9 @@ Frequencies: daily, weekly, monthly, quarterly, yearly
 
 ```bash
 npm run generate-doc -- \
-  --file="drafts/recurring-invoices.txt" \
-  --title="Set Up Recurring Invoices" \
-  --category="Invoicing"
+  --file="drafts/temp.md" \
+  --title="Setting up invoice payment schedule" \
+  --category="Invoicing" | pbcopy
 ```
 
 ### 3. Copy Output to Claude

@@ -168,6 +168,7 @@ Check the bottom of the invoice for the subtotal, tax, and total amount.
 Now that you have created your first invoice, you can:
 
 - **Send the invoice** — If you saved it as a draft, open it and select **Send** to email it to your client. See [Sending Invoices](/docs/invoicing/sending-invoices)
-- **Set up recurring invoices** — If you bill the same client regularly, automate it. See [Recurring Invoices](/docs/invoicing/recurring-invoice-management)
+- **Set up recurring invoices** — If you bill the same client regularly, automate it. See [Recurring Invoices](create-recurring-invoices)
 - **Add payment schedules** — Split a single invoice into two to twelve instalments. See [Payment Schedules](/docs/invoicing/invoice-payment-schedules)
-- **Customise your template** — Change logo, colours, and layout in **Settings** > **Templates & Brands**. See [Templates & Brands](/docs/settings/template-brand-settings)
+
+[//]: # (- **Customise your template** — Change logo, colours, and layout in **Settings** > **Templates & Brands**. See [Templates & Brands]&#40;/docs/settings/template-brand-settings&#41;)
