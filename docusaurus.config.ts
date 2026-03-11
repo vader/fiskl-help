@@ -52,15 +52,13 @@ const config: Config = {
     },
 
     // Set the production url of your site here
-    url: 'https://your-docusaurus-site.example.com',
-    // Set the /<baseUrl>/ pathname under which your site is served
-    // For GitHub pages deployment, it is often '/<projectName>/'
+    url: 'https://help.fiskl.com',
     baseUrl: '/',
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: 'facebook', // Usually your GitHub org/user name.
-    projectName: 'docusaurus', // Usually your repo name.
+    organizationName: 'Fiskl', // Usually your GitHub org/user name.
+    projectName: 'Fiskl Accounting', // Usually your repo name.
 
     onBrokenLinks: 'throw',
 
@@ -167,16 +165,16 @@ const config: Config = {
                     title: 'Community',
                     items: [
                         {
-                            label: 'Stack Overflow',
-                            href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                            label: 'Facebook',
+                            href: 'https://www.facebook.com/FisklAI/',
                         },
                         {
-                            label: 'Discord',
-                            href: 'https://discordapp.com/invite/docusaurus',
+                            label: 'Youtube',
+                            href: 'http://www.youtube.com/@fiskl',
                         },
                         {
                             label: 'X',
-                            href: 'https://x.com/docusaurus',
+                            href: 'https://x.com/FisklAI',
                         },
                     ],
                 },
@@ -186,15 +184,11 @@ const config: Config = {
                         {
                             label: 'Blog',
                             to: '/blog',
-                        },
-                        {
-                            label: 'GitHub',
-                            href: 'https://github.com/facebook/docusaurus',
-                        },
+                        }
                     ],
                 },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+            copyright: `Copyright © ${new Date().getFullYear()} Fiskl Accounting`,
         },
         prism: {
             theme: prismThemes.github,
