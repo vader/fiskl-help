@@ -11,6 +11,18 @@ const config: Config = {
     markdown: {
         mermaid: true,
     },
+    plugins: [
+        [
+            '@signalwire/docusaurus-plugin-llms-txt',
+            {
+                siteTitle: 'Fiskl Accounting Documentation',
+                content: {
+                    enableLlmsFullTxt: true,
+                    includeDocs: true,
+                }
+            },
+        ],
+    ],
     headTags: [
         {
             tagName: 'link',
