@@ -2,63 +2,112 @@
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  /* Aligns items at the top */
-}
-
-.layout-pair-container .layout-pair-markdown,
-.layout-pair-container .image {
-  flex: 1 1 50%;
-  /* Takes up half the width on larger screens */
+  gap: 24px;
+  margin-bottom: 24px;
 }
 
 .layout-pair-container .layout-pair-markdown {
-  padding-right: 20px;
-  /* Adds some space between the text and the image */
+  flex: 1 1 45%;
+  min-width: 280px;
 }
 
-@media (max-width: 768px) {
-
-  .layout-pair-container .layout-pair-markdown,
-  .layout-pair-container .image {
-    flex-basis: 100%;
-    /* Stacks the items on smaller screens */
-  }
+.layout-pair-container .image {
+  flex: 1 1 45%;
+  min-width: 280px;
 }
 
-/* Style the selector  */
+/* ── Video wrapper ── */
+.layout-pair-container .video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
 
+.layout-pair-container .video-wrapper iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
 
+/* ── Expander (details / summary) ── */
 .layout-pair-container details {
-  border: 1px solid var(--ifm-color-primary-lighter); /* lighter primary color for border */
-  border-radius: 6px;
-  padding: 10px;
-  margin-top: 10px;
-  color: var(--ifm-font-color-base); /* default text color */
+  border: 1px solid var(--ifm-color-primary-lightest);
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--ifm-background-surface-color, #f8fafc);
+  transition: box-shadow 0.2s ease;
+}
+
+.layout-pair-container details:hover {
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--ifm-color-primary) 15%, transparent);
 }
 
 .layout-pair-container summary {
-  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  font-size: 13.5px;
+  font-weight: 500;
   cursor: pointer;
-  color: var(--ifm-color-primary-dark); /* darker primary color for summary text */
+  color: var(--ifm-color-primary-dark);
+  list-style: none;
+  user-select: none;
+  transition: color 0.15s ease;
+}
+
+.layout-pair-container summary::before {
+  content: '▶';
+  font-size: 9px;
+  transition: transform 0.2s ease;
+  opacity: 0.7;
+}
+
+.layout-pair-container details[open] summary::before {
+  transform: rotate(90deg);
 }
 
 .layout-pair-container summary::-webkit-details-marker {
-  display: none; /* hides the default arrow icon in Chrome */
+  display: none;
 }
 
 .layout-pair-container details[open] summary {
-  color: var(--ifm-color-primary); /* primary color when expanded */
+  color: var(--ifm-color-primary);
+  border-bottom: 1px solid var(--ifm-color-primary-lightest);
 }
 
+.layout-pair-container details > :not(summary) {
+  padding: 0;
+}
+
+/* ── Dark mode ── */
 [data-theme='dark'] .layout-pair-container details {
-  border: 1px solid var(--ifm-color-primary-darker); /* darker primary color for border */
-  color: var(--ifm-font-color-base); /* should define this for dark mode if not defined */
+  border-color: rgba(125, 164, 255, 0.2);
+  background: rgba(125, 164, 255, 0.04);
+}
+
+[data-theme='dark'] .layout-pair-container details:hover {
+  box-shadow: 0 0 0 3px rgba(125, 164, 255, 0.15);
 }
 
 [data-theme='dark'] .layout-pair-container summary {
-  color: #fff; /* lighter primary color for summary text */
+  color: #a8c1ff;
 }
 
 [data-theme='dark'] .layout-pair-container details[open] summary {
-  color: var(--ifm-color-secondary-dark); /* lightest primary color when expanded */
+  color: #7da4ff;
+  border-bottom-color: rgba(125, 164, 255, 0.2);
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .layout-pair-container .layout-pair-markdown,
+  .layout-pair-container .image {
+    flex-basis: 100%;
+  }
 }

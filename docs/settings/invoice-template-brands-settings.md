@@ -1,52 +1,49 @@
 ---
-title: Invoice Templates
+title: "Templates and Brands"
+description: "Create and manage invoice and quote templates in Fiskl. Customise layouts, colours, logos, display options, and custom emails."
+keywords: ["invoice templates", "brands", "custom emails", "invoice layout", "logo", "template settings", "display options"]
 sidebar_position: 6
-description: Maintain brand consistency with Fiskl's template management. Create and edit templates for documents and branding elements effortlessly.
-keywords: ["Templates Fiskl", "brand management", "document templates", "customize branding", "professional templates"]
-slug: /settings/template-brand-settings
 tags:
   - Settings
   - Templates
   - Brands
+toc_min_heading_level: 2
+toc_max_heading_level: 3
 ---
 
-The Templates and brands Settings page allows you to create and manage various styled invoices, quotes, and emails. You can also set up multiple brands within one account, giving you flexibility in how you present your business to clients.
+The Templates and brands page lets you control the visual appearance of your invoices, quotes, and emails. You can create multiple templates with different layouts, colours, and logos, and set up brands to represent different business identities under one account.
 
-Access Templates and brands Settings using the `gear icon` on the top left menu or visit the [Template settings page](https://sandbox.fiskl.ca/templates) on the web dashboard.
+import TOCInline from '@theme/TOCInline';
+
+<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
+
+Access Templates and brands by selecting the **gear icon** in the top left menu, then selecting **Templates & Brands**. You can also go directly to the [Template settings page](https://sandbox.fiskl.ca/templates) on the web Dashboard.
+
+:::warning
+Modifying an existing template affects all invoices and quotes that use it, including previously sent documents. Create a new template if you want to preserve the original appearance of sent documents.
+:::
 
 ## Templates
 
-A template defines the style and content of your invoices, quotes, and emails. With templates, you can:
+A template defines the style and content of your invoices, quotes, and emails. You can create multiple templates and assign different ones to different invoices.
 
-- Choose different invoice layouts
-- Customize colors and fonts
-- Add and resize logos
-- Include attachments
-- Create custom emails for various scenarios
+### Create or edit a template
 
-:::info[caution]
-Modifying a template affects previously sent invoices using that template. Consider creating a new template to avoid unintended changes to historical documents.
-:::
+1. Select **Add New Template**, or select an existing template to edit
+2. Configure each section as described below
+3. Use the live preview on the right side of the screen to see your changes in real time
+4. Select **Save** when finished
 
-## Brands
+## Name and Header
 
-A brand is a template with overridden company details. This feature is particularly useful if you operate multiple brands under one accounting entity.
+- Enter a descriptive template name (visible only to you, not to clients)
+- Upload and resize your logo for invoices and quotes
+- Upload a separate email logo for standard emails (square image, maximum 100 KB, rendered at 70×70 px)
 
-## Configuring Templates and Brands
+## Brand Overrides
 
-Follow these steps to set up your templates and brands:
+A brand is a template with overridden company details. This is useful if you operate multiple businesses or brands under one Fiskl account. You can override:
 
-1. Navigate to the Templates and brands settings page via the gear icon at the top of the left menu
-2. Click "Add New Template" or select an existing template to edit
-3. Customize the following sections:
-
-### Name & Header
-- Give your template a descriptive name (visible only to you)
-- Add and adjust the size of your logo
-- Upload an email logo for standard emails (square image, max 100KB, rendered at 70x70 px)
-
-### Brand Over-rides
-Override these company details if creating a brand:
 - Company name
 - Email address
 - Phone number
@@ -54,74 +51,78 @@ Override these company details if creating a brand:
 - Invoice name
 - Quote name
 
-:::info[tip]
-As you change these values, you'll see them update in the preview on the right. Use this to adjust the layout, especially for the address
+:::tip
+As you change brand values, the preview on the right updates in real time. Use this to check the layout, especially for the address block.
 :::
 
-### Theme and Colors
+## Theme and Colours
+
 - Select a pre-set invoice layout
-- Customize colors for various elements (header, text, labels, dividers)
+- Customise colours for individual elements: header, text, labels, and dividers
 
-### Fonts
-Choose from available fonts for your documents
+## Fonts
 
-:::info[caution]
-Not all fonts support languages like Chinese, Cyrillic, or Arabic when generating PDFs. Always test your invoice by downloading the PDF after changing fonts
-:::
+Select from available fonts for your documents.
 
-### Display Options
-Toggle visibility for:
+Not all fonts support non-Latin scripts such as Chinese, Cyrillic, or Arabic when generating PDFs. After changing fonts, download a test PDF to confirm your text renders correctly.
+
+## Display Options
+
+Toggle visibility for the following elements on your invoices and quotes:
+
 - Company ID
-- `Tax ID` (must be enabled in tax settings)
+- Tax ID (must also be enabled in [Tax Settings](/docs/settings/tax-settings))
 - FX rates for multi-currency line items
 - Units
 - Quantity
 - Proforma label
 
-### Attachments
-Add files to be included with all invoices or quotes using this template (e.g., terms of service)
+## Attachments
 
-### Custom Emails
-Create custom emails for:
-- Invoices
-- Deposit requests
-- Partial payments
-- Overdue reminders
-- Quotes
+Attach files to all invoices or quotes that use this template. This is useful for including standard documents such as terms of service or payment policies.
 
-Use provided templates and placeholders for dynamic content (e.g., `[Company name]`, `[Total]`, `[Client name]`)
+## Custom Emails
 
-:::info[note]
-Custom emails are plain text without HTML formatting. The email logo is only available for standard emails.
+Create custom email content for different scenarios:
+
+- Invoice emails
+- Deposit request emails
+- Partial payment emails
+- Overdue reminder emails
+- Quote emails
+
+Use the provided placeholders for dynamic content such as `[Company name]`, `[Total]`, and `[Client name]`. These are replaced with actual values when the email is sent.
+
+:::info
+Custom emails are plain text without HTML formatting. The email logo (uploaded in the Name and Header section) is only available for standard emails, not custom emails.
 :::
 
-## Interactive Guides
+## Common Issues
 
-Use these interactive demos to learn how to set up templates and brands:
+<details>
+<summary>Tax ID not appearing on invoices</summary>
 
-### Configure Your Template
-<div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, width: '100%' }}>
-  <iframe
-    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0 }}
-    src="https://demo.fiskl.com/e/clz9jx3mf0030l30d73gjxbhl/tour"
-    allowFullScreen
-    webkitallowfullscreen="true"
-    mozallowfullscreen="true"
-    allowtransparency="true"
-  ></iframe>
-</div>
+Two settings control tax ID visibility. First, go to **Settings** > **Tax Settings** and confirm the **Display tax number on invoices** option is enabled. Then, in **Templates & Brands**, open the template and confirm the **Tax ID** display option is toggled on (not hidden). Both must be enabled for the tax ID to appear.
 
-### Create a Branded Template
+</details>
 
-<div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, width: '100%' }}>
-  <iframe
-    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0 }}
-    src="https://demo.fiskl.com/e/clzazu9qj0007ie0c8f76kk8r/tour"
-    allowFullScreen
-    webkitallowfullscreen="true"
-    mozallowfullscreen="true"
-    allowtransparency="true"
-  ></iframe>
-</div>
+<details>
+<summary>Font not rendering correctly in PDF</summary>
 
-Remember: Regularly review and update your templates and brands to ensure they reflect your current business needs and branding guidelines. Test all changes by generating sample documents before using them with clients.
+Not all fonts support non-Latin characters in PDF generation. Switch to a font that supports your language, then download a test PDF to confirm. Common safe choices support Latin, Cyrillic, and CJK characters.
+
+</details>
+
+<details>
+<summary>Template changes affected previously sent invoices</summary>
+
+Template changes apply globally to all documents using that template. To preserve the original appearance of sent invoices, create a new template for future use. Assign the new template to new invoices and leave the old template for historical documents.
+
+</details>
+
+## Related Topics
+
+- [Invoice and Quote Settings](/docs/settings/invoice-quotes-settings) — Configure payment terms, manual payment methods, languages, and email delivery
+- [Tax Settings](/docs/settings/tax-settings) — Set up tax agencies and rates that appear on your invoices
+- [Creating Invoices](/docs/invoicing/creating-invoices) — Apply templates when creating invoices
+- [Company Settings](/docs/settings/company-settings) — Set your default company details that appear on templates

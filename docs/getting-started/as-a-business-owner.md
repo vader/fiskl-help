@@ -138,7 +138,7 @@ The Chart of Accounts is the foundation of your financial reporting. Fiskl provi
 
 Most businesses can use the default chart without modifications. You can always add accounts later as your business grows.
 
-**Learn more:** [Chart of Accounts](/docs/accounting/chart-of-accounts.md)
+**Learn more:** [Chart of Accounts](/docs/accounting/chart-of-accounts)
 
 ### 6. Invite Your Accountant
 

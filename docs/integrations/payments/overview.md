@@ -452,7 +452,7 @@ Begin with the payment gateway that best matches your business model:
 
 **Overall integrations:** [Integrations Overview](/docs/integrations/overview.md)
 
-**Recurring invoices:** [Creating Recurring Invoices](/docs/invoicing/create-recurring-invoices.md)
+**Recurring invoices:** [Creating Recurring Invoices](/docs/invoicing/create-recurring-invoices)
 
 ---
 

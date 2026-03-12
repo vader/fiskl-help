@@ -282,5 +282,5 @@ Yes. Create a service with a unit type of "project" or "package" and set a fixed
 
 - [Creating Products](/docs/products-services/creating-products.md) - Create product templates for tangible goods
 - [Time Tracking](/docs/time-and-mileage/time-tracking.md) - Log billable hours for service invoicing
-- [Creating Recurring Invoices](/docs/invoicing/create-recurring-invoices.md) - Use template services for automated billing
-- [Managing Your Catalog](/docs/accounting/chart-of-accounts.md) - Organize and maintain your products and services
+- [Creating Recurring Invoices](/docs/invoicing/create-recurring-invoices) - Use template services for automated billing
+- [Managing Your Catalog](/docs/accounting/chart-of-accounts) - Organize and maintain your products and services

@@ -268,7 +268,7 @@ Your Chart of Accounts in Fiskl organizes all financial accounts into five main 
 4. **Income** - Revenue from business activities
 5. **Expenses** - Costs of doing business
 
-**Learn more:** [Chart of Accounts](/docs/accounting/chart-of-accounts.md)
+**Learn more:** [Chart of Accounts](/docs/accounting/chart-of-accounts)
 
 ### Reconciliation
 
@@ -427,7 +427,7 @@ In Fiskl reports, "Revenue" and "Income" both refer to money earned from busines
 
 **Get started with Fiskl:** [Getting Started Overview](/docs/getting-started/overview.md)
 
-**Configure Chart of Accounts:** [Chart of Accounts](/docs/accounting/chart-of-accounts.md)
+**Configure Chart of Accounts:** [Chart of Accounts](/docs/accounting/chart-of-accounts)
 
 **Generate reports:** [Financial Reports](/docs/reporting/overview.md)
 

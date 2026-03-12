@@ -11,22 +11,28 @@ task: create-invoice
 difficulty: beginner
 estimated_time: "5 minutes"
 prerequisites:
-  - task: company-settings
-    label: "Company settings are complete"
-    check: "Is your company name and address set up in Settings > Company Settings?"
-    resolve_url: /docs/settings/company-settings
+  - task: configure-invoice-settings
+    label: "Invoice settings configured"
+    check: "Have you set up your payment terms and payment methods in Settings > Invoice & Quote Settings?"
+    resolve_url: /docs/settings/invoice-quotes-settings
+  - task: configure-template-brand
+    label: "Invoice template configured"
+    check: "Have you set up an invoice template with your logo and branding in Settings > Templates & Brands?"
+    resolve_url: /docs/settings/invoice-template-brands-settings
   - task: create-client
     label: "At least one client exists"
     check: "Do you have a client set up already, or do you need to create one?"
     resolve_url: /docs/clients-vendors/clients
-  - task: payment-method
-    label: "A payment method is connected"
-    check: "Is Stripe or another payment gateway connected in Settings > Payment Methods?"
-    resolve_url: /docs/integrations/payments/overview
+  - task: set-up-tax-rates
+    label: "Tax rates configured (if applicable)"
+    check: "Do you need to charge tax on your invoices? If so, have you set up your tax agencies and rates?"
+    resolve_url: /docs/settings/tax-settings
 related_tutorials:
   - send-invoice
   - recurring-invoices
   - payment-schedules
+  - configure-invoice-settings
+  - configure-template-brand
 ---
 
 # Tutorial: Create Your First Invoice
@@ -37,12 +43,13 @@ This tutorial walks you through creating and sending your first invoice in Fiskl
 
 Before you start, confirm the following:
 
-1. **Company settings are complete** — Your company name and address appear on every invoice. If not set up, go to **Settings** > **Company Settings** and enter your details. See [Company Settings](/docs/settings/company-settings).
-2. **At least one client exists** — Every invoice requires a client. You can create one during invoice creation, but having one ready saves time. See [Managing Clients](/docs/clients-vendors/clients).
-3. **A payment method is connected** — Without this, your client cannot pay online. Go to **Settings** > **Payment Methods** and connect Stripe or add a manual payment method. See [Payment Gateways](/docs/integrations/payments/overview).
+1. **Invoice settings configured** — Payment terms, manual payment methods, and language preferences affect every invoice you create. If not set up, go to **Settings** > **Invoice & Quote Settings**. See [Invoice and Quote Settings](/docs/settings/invoice-quotes-settings).
+2. **Invoice template configured** — Your template controls the logo, colours, layout, and display options on invoices. If not set up, go to **Settings** > **Templates & Brands**. See [Templates and Brands](/docs/settings/invoice-template-brands-settings).
+3. **At least one client exists** — Every invoice requires a client. You can create one during invoice creation, but having one ready saves time. See [Managing Clients](/docs/clients-vendors/clients).
+4. **Tax rates configured (if applicable)** — If your business charges tax, set up your tax agencies and rates before creating invoices. See [Tax Settings](/docs/settings/tax-settings).
 
 :::warning
-If your company address is incomplete, it appears incorrectly on all invoices. Fix this in **Company Settings** before creating your first invoice.
+If your invoice settings and template are not configured first, your invoices may display incorrect payment terms, missing logos, or no tax ID. Complete those settings before creating your first invoice.
 :::
 
 ## QUICK_PATH
@@ -80,10 +87,10 @@ If the client has a default currency different from your base currency, the invo
 
 ### Step 3: Set the dates
 
-Two date fields appear below the client:
+Two date fields appear below the client.
 
 - **Invoice date** defaults to today. Change it if the invoice is for a different date.
-- **Due date** defaults to seven days after the invoice date. Change it to match your payment terms.
+- **Due date** defaults based on your payment terms setting. Change it to match specific terms for this client if needed.
 
 To change the default due date period for all future invoices, go to **Settings** > **Invoice & Quote Settings**.
 
@@ -107,7 +114,7 @@ If your business charges tax, apply it to each line item.
 - To switch between tax-inclusive and tax-exclusive pricing, select the **+/-** button next to the tax field
 
 :::tip
-If your tax number is not showing on the invoice, check two settings: **Settings** > **Tax Settings** (enable "Display tax number on invoices") and **Settings** > **Templates & Brands** (confirm "Hide tax number" is not selected).
+If your tax number is not showing on the invoice, check two settings: **Settings** > **Tax Settings** (enable "Display tax number on invoices") and **Settings** > **Templates & Brands** (confirm the **Tax ID** display option is toggled on).
 :::
 
 ### Step 6: Review and save or send
@@ -122,14 +129,14 @@ Check the bottom of the invoice for the subtotal, tax, and total amount.
 
 ### Tax number not showing on the invoice
 
-**Symptom:** The invoice renders without your tax/VAT registration number, even though you have tax applied to line items.
+**Symptom:** The invoice renders without your tax or VAT registration number, even though tax is applied to line items.
 
 **Cause:** Two separate settings control tax number visibility. Both must be enabled.
 
 **Fix:**
-1. Go to **Settings** > **Tax Settings** and confirm the **Display tax number on invoices** checkbox is selected
-2. Go to **Settings** > **Templates & Brands** and confirm the **Hide tax number** option is not selected
-3. Ensure at least one line item on the invoice has tax applied — the tax number only appears when tax is present
+1. Go to **Settings** > **Tax Settings** and confirm **Display tax number on invoices** is selected
+2. Go to **Settings** > **Templates & Brands** and confirm the **Tax ID** display option is toggled on
+3. Confirm at least one line item on the invoice has a tax rate applied
 
 ### Invoice currency is wrong
 
@@ -143,31 +150,37 @@ Check the bottom of the invoice for the subtotal, tax, and total amount.
 
 **Symptom:** Your client sees the invoice but there is no payment button.
 
-**Cause:** No payment gateway is connected, or the gateway is not active.
+**Cause:** No payment gateway is connected, or the gateway is not active for this invoice.
 
-**Fix:** Go to **Settings** > **Payment Methods** and confirm that Stripe or another gateway is connected and shows as active. If no payment method exists, select **Add Payment Method** and follow the setup steps.
+**Fix:**
+1. Go to **Settings** > **Invoice & Quote Settings** and check whether **Auto-select payment gateways** is enabled
+2. Go to **Settings** > **Payment Methods** and confirm a gateway (such as Stripe) is connected and active
+3. If using manual payment methods only, confirm the method is assigned to the invoice
 
 ### Invoice number is out of sequence
 
-**Symptom:** The invoice number does not follow the expected sequence (e.g. jumps from INV-0005 to INV-0020).
+**Symptom:** The invoice number does not follow the expected sequence (for example, jumps from INV-0005 to INV-0020).
 
 **Cause:** A previous invoice number was edited manually, and Fiskl uses the last number as the base for auto-increment.
 
-**Fix:** Create a new invoice and manually set the number to the correct value (e.g. INV-0006). All subsequent invoices increment from that point.
+**Fix:** Create a new invoice and manually set the number to the correct value (for example, INV-0006). All subsequent invoices increment from that point.
 
-### Template changes affected sent invoices
+### Template or logo not appearing correctly
 
-**Symptom:** An invoice you already sent to a client looks different because you changed the template.
+**Symptom:** The invoice does not show your logo, uses the wrong colours, or displays the default layout.
 
-**Cause:** Template changes apply globally to all invoices using that template, including ones already sent.
+**Cause:** The invoice may be using a different template, or the template has not been configured yet.
 
-**Fix:** Create a new template in **Settings** > **Templates & Brands** and apply it only to new invoices going forward. The old template preserves the original styling for sent invoices.
+**Fix:**
+1. Open the invoice in edit mode and check which template is selected
+2. If the wrong template is assigned, change it to the correct one
+3. If no template is configured, go to **Settings** > **Templates & Brands** and set one up first
 
 ## NEXT_STEPS
 
 Now that you have created your first invoice, you can:
 
 - **Send the invoice** — If you saved it as a draft, open it and select **Send** to email it to your client. See [Sending Invoices](/docs/invoicing/sending-invoices)
-- **Set up recurring invoices** — If you bill the same client regularly, automate it. See [Recurring Invoices](/docs/invoicing/recurring-invoice-management)
-- **Add payment schedules** — Split a single invoice into two to twelve instalments. See [Payment Schedules](/docs/invoicing/invoice-payment-schedules)
-- **Customise your template** — Change logo, colours, and layout in **Settings** > **Templates & Brands**. See [Templates & Brands](/docs/settings/template-brand-settings)
+- **Set up recurring invoices** — If you bill the same client regularly, automate it. See [Recurring Invoices](/docs/invoicing/create-recurring-invoices)
+- **Add payment schedules** — Split a single invoice into instalments. See [Payment Schedules](/docs/invoicing/invoice-payment-schedules)
+- **Customise your template** — Adjust logo, colours, and layout. See [Templates and Brands](/docs/settings/invoice-template-brands-settings)

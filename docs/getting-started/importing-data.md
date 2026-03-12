@@ -384,6 +384,6 @@ Import historical data during your initial Fiskl setup, before your busy season.
 
 **Understand reconciliation:** [Reconciliation Overview](/docs/accounting/reconciliation/overview.md)
 
-**Set up your Chart of Accounts:** [Chart of Accounts](/docs/accounting/chart-of-accounts.md)
+**Set up your Chart of Accounts:** [Chart of Accounts](/docs/accounting/chart-of-accounts)
 
 **Contact support:** [Get Support](/docs/support/overview.md)

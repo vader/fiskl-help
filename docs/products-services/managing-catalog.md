@@ -255,4 +255,4 @@ Create template items with placeholders for clients you bill regularly with simi
 - [Creating Products](./creating-products.md) - Build product templates
 - [Managing Services](./managing-services.md) - Create service templates
 - [Creating Invoices](/docs/invoicing/creating-invoices.md) - Use catalog items in invoices
-- [Chart of Accounts](/docs/accounting/chart-of-accounts.md) - Understand ledger account assignments
+- [Chart of Accounts](/docs/accounting/chart-of-accounts) - Understand ledger account assignments

@@ -171,4 +171,4 @@ Now that you have created your first invoice, you can:
 - **Set up recurring invoices** — If you bill the same client regularly, automate it. See [Recurring Invoices](create-recurring-invoices)
 - **Add payment schedules** — Split a single invoice into two to twelve instalments. See [Payment Schedules](/docs/invoicing/invoice-payment-schedules)
 
-[//]: # (- **Customise your template** — Change logo, colours, and layout in **Settings** > **Templates & Brands**. See [Templates & Brands]&#40;/docs/settings/template-brand-settings&#41;)
+[//]: # (- **Customise your template** — Change logo, colours, and layout in **Settings** > **Templates & Brands**. See [Templates & Brands]&#40;/docs/settings/invoice-template-brands-settings&#41;)

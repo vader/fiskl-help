@@ -71,4 +71,4 @@ Use percentage-based payments when the invoice total may change before you final
 
 - [Creating invoices](/docs/invoicing/creating-invoices) — Learn how to create and send invoices
 - [Invoice deposits](/docs/invoicing/creating-invoices) — Collect upfront payments before delivering work
-- [Recurring invoices](/docs/settings/template-brand-settings) — Automate repeated billing with separate invoices
+- [Recurring invoices](/docs/settings/invoice-template-brands-settings) — Automate repeated billing with separate invoices

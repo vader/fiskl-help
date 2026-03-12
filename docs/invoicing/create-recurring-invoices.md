@@ -3,7 +3,6 @@ title: Creating Recurring Invoices
 sidebar_position: 5
 description: Automate your billing with Fiskl's recurring invoice feature. Save time and ensure consistent revenue streams for your business.
 keywords: ["Recurring invoices Fiskl", "automated billing", "subscription management", "revenue automation"]
-slug: /core-features/invoicing/recurring/creating-recurring-invoices
 toc_min_heading_level: 2
 toc_max_heading_level: 4
 tags:

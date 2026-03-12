@@ -47,7 +47,7 @@ Yes, you can customize your Chart of Accounts to fit your business needs. Here's
 
    Select **Save** to add the category to your Chart of Accounts.
 
-For more details, see [Managing your Chart of Accounts](/docs/accounting/chart-of-accounts.md).
+For more details, see [Managing your Chart of Accounts](/docs/accounting/chart-of-accounts).
 
 ### How do I delete an account from my Chart of Accounts?
 

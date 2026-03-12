@@ -73,7 +73,7 @@ Automate subscription and regular billing with recurring invoice templates and s
 - Monthly maintenance fees
 - Membership billing
 
-**Learn more:** [Creating Recurring Invoices](/docs/invoicing/create-recurring-invoices.md)
+**Learn more:** [Creating Recurring Invoices](/docs/invoicing/create-recurring-invoices)
 
 ### Payment Integration
 
@@ -188,7 +188,7 @@ Tailor invoices to match your brand and business requirements.
 - Maintain separate branding
 - Select template per invoice
 
-**Learn more:** [Invoice Templates](/docs/settings/template-brand-settings)
+**Learn more:** [Invoice Templates](/docs/settings/invoice-template-brands-settings)
 
 ### Language and Localization
 
@@ -207,7 +207,7 @@ Invoice in your client's language with automatic translations.
 - Multi-currency reporting
 - Base currency conversion
 
-**Learn more:** [Invoice & Quote Settings](/docs/settings/invoice-quote-settings)
+**Learn more:** [Invoice & Quote Settings](/docs/settings/invoice-quotes-settings)
 
 ### Tax Management
 
@@ -347,7 +347,7 @@ Begin invoicing in minutes with this quick setup:
 
 **Create your first invoice:** [Your First Invoice](/docs/getting-started/your-first-invoice)
 
-**Set up templates:** [Invoice Templates](/docs/settings/template-brand-settings)
+**Set up templates:** [Invoice Templates](/docs/settings/invoice-template-brands-settings)
 
 **Connect payments:** [Payment Gateways](/docs/integrations/payments/overview)
 

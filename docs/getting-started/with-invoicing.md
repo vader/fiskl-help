@@ -45,7 +45,7 @@ that best suit your needs.
 3. Review the pre-set payment terms (days)
 4. Add notes to appear on every invoice
 
-[//]: # (Learn more about [Invoice settings]&#40;/docs/settings/invoice-quote-settings&#41;)
+[//]: # (Learn more about [Invoice settings]&#40;/docs/settings/invoice-quotes-settings&#41;)
 
 </LayoutPair>
 
@@ -63,7 +63,7 @@ that best suit your needs.
 4. Style your invoice with colors, fonts, and display options
 5. Add attachments to include with each invoice
 
-[//]: # (Learn more about [Templates & brands]&#40;/docs/settings/template-brand-settings&#41;)
+[//]: # (Learn more about [Templates & brands]&#40;/docs/settings/invoice-template-brands-settings&#41;)
 
 </LayoutPair>
 
@@ -101,7 +101,7 @@ that best suit your needs.
 2. Add a manual payment method
 3. Add name, customer notes, and payment details
 
-[//]: # (Learn more about [Manual payment methods]&#40;/docs/settings/invoice-quote-settings#payment-methods&#41;)
+[//]: # (Learn more about [Manual payment methods]&#40;/docs/settings/invoice-quotes-settings#payment-methods&#41;)
 
 </LayoutPair>
 

@@ -14,7 +14,7 @@ tags:
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-Journal entries also referred to as `Account transactions` and are the foundation of your accounting system. Journal entries are the record of all financial transactions in your business. You can think of the [Chart of Accounts](../chart-of-accounts.md) as your folder structure and journal entries as the transactions within them.
+Journal entries also referred to as `Account transactions` and are the foundation of your accounting system. Journal entries are the record of all financial transactions in your business. You can think of the [Chart of Accounts](../chart-of-accounts) as your folder structure and journal entries as the transactions within them.
 
 ## How Fiskl handles Journal Entries
 
@@ -131,7 +131,7 @@ Remember, Fiskl's accounting reports draw directly from these journal entries, s
 
 Now that you understand the basics of journal entries in Fiskl, you might want to explore:
 
-- Setting up your Chart of Accounts [CoA](../chart-of-accounts.md) transaction
+- Setting up your Chart of Accounts [CoA](../chart-of-accounts) transaction
 
 [//]: # (- See how to [create a manual journal]&#40;Journal-Entry-Guides/create-manual-transactions.md&#41; entries)
 

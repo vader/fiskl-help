@@ -152,7 +152,7 @@ Create custom language versions for regional dialects or specific terminology:
 
 Your custom language appears in the language selector when creating invoices.
 
-**Learn more:** [Invoice and Quote Settings](/docs/settings/invoice-quotes-settings.md)
+**Learn more:** [Invoice and Quote Settings](/docs/settings/invoice-quotes-settings)
 
 ## Step 4: Configure Email Templates
 

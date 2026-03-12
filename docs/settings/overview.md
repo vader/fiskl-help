@@ -534,7 +534,7 @@ Settings interact with various Fiskl features:
 
 **Get started:** [Getting Started Overview](/docs/getting-started/overview.md)
 
-**Understand Chart of Accounts:** [Chart of Accounts](/docs/accounting/chart-of-accounts.md)
+**Understand Chart of Accounts:** [Chart of Accounts](/docs/accounting/chart-of-accounts)
 
 ---
 

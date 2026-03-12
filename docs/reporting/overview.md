@@ -426,7 +426,7 @@ Begin reporting with this priority approach:
 
 **Get started:** [Getting Started with Fiskl](/docs/getting-started/overview.md)
 
-**Set up accounts:** [Chart of Accounts](/docs/accounting/chart-of-accounts.md)
+**Set up accounts:** [Chart of Accounts](/docs/accounting/chart-of-accounts)
 
 **Reconcile accounts:** [Reconciliation Overview](/docs/accounting/reconciliation/overview.md)
 
