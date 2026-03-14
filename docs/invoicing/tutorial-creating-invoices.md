@@ -10,23 +10,28 @@ document_type: tutorial
 task: create-invoice
 difficulty: beginner
 estimated_time: "5 minutes"
+app_url: https://app.fiskl.com/dashboard/invoices
 prerequisites:
   - task: configure-invoice-settings
     label: "Invoice settings configured"
     check: "Have you set up your payment terms and payment methods in Settings > Invoice & Quote Settings?"
     resolve_url: /docs/settings/invoice-quotes-settings
+    resolve_tutorial: configure-invoice-settings
   - task: configure-template-brand
     label: "Invoice template configured"
     check: "Have you set up an invoice template with your logo and branding in Settings > Templates & Brands?"
     resolve_url: /docs/settings/invoice-template-brands-settings
+    resolve_tutorial: configure-template-brand
   - task: create-client
     label: "At least one client exists"
     check: "Do you have a client set up already, or do you need to create one?"
     resolve_url: /docs/clients-vendors/clients
+    resolve_tutorial: manage-clients
   - task: set-up-tax-rates
     label: "Tax rates configured (if applicable)"
     check: "Do you need to charge tax on your invoices? If so, have you set up your tax agencies and rates?"
     resolve_url: /docs/settings/tax-settings
+    resolve_tutorial: set-up-tax-rates
 related_tutorials:
   - send-invoice
   - recurring-invoices

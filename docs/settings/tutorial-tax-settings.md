@@ -15,6 +15,7 @@ prerequisites:
     label: "Company details configured"
     check: "Have you set up your company details including your business country and base currency?"
     resolve_url: /docs/settings/company-settings
+    # resolve_tutorial: configure-company-settings  — add when that tutorial is written
 related_tutorials:
   - create-invoice
   - send-invoice
@@ -30,12 +31,15 @@ This tutorial walks you through setting up tax agencies, creating tax rates, and
 Before you start, confirm the following:
 
 1. **Company details configured** — Your business country and base currency determine your default tax jurisdiction. If not set up, go to **Settings** > **Company Settings**. See [Company Settings](/docs/settings/company-settings).
+   app_url: https://app.fiskl.com/dashboard/settings/company
 
 :::warning
 You must create a tax agency before you can add any tax rates. The agency defines the country and currency for all rates assigned to it.
 :::
 
 ## QUICK_PATH
+
+app_url: https://app.fiskl.com/dashboard/settings/taxes/agencies
 
 For experienced users who need a refresher:
 
@@ -51,6 +55,8 @@ For experienced users who need a refresher:
 
 ### Step 1: Open Tax settings
 
+app_url: https://app.fiskl.com/dashboard/settings/taxes/rates
+
 You need to navigate to the Tax settings page to begin.
 
 - Select the **gear icon** in the top left menu, then select **Tax Settings**
@@ -58,13 +64,16 @@ You need to navigate to the Tax settings page to begin.
 
 ### Step 2: Create a tax agency
 
+app_url: https://app.fiskl.com/dashboard/settings/taxes/agencies
+
 A tax agency represents the authority you pay taxes to, such as HMRC or the IRS.
 
 - Select the **Tax Agencies** tab
-- Select **Add**
+- Select **New Tax Agency**
 - Enter the agency name (for example, "HMRC" or "IRS")
 - Select the country and currency for this agency
-- Select **Save**
+- Select the filing period to get notified of when your taxes are due
+- Select **Create**
 
 :::tip
 If you operate in multiple countries, create a separate tax agency for each jurisdiction. For example, one for UK VAT in GBP and another for French VAT in EUR.
@@ -72,9 +81,11 @@ If you operate in multiple countries, create a separate tax agency for each juri
 
 ### Step 3: Confirm the ledger account
 
+app_url: https://app.fiskl.com/dashboard/accounting/chart-of-accounts
+
 After saving, Fiskl automatically creates a Liability ledger account for this agency.
 
-- You can verify this in **Settings** > **Chart of Accounts**
+- Go to **Accounting** > **Chart of Accounts** and select **Liabilities** > **Sales Taxes Payable**
 - The ledger account has the same name as your tax agency
 - All tax transactions linked to this agency are recorded in that account
 
@@ -96,14 +107,16 @@ You can assign multiple tax rates to a single agency. For example, a standard ra
 
 ### Step 5: Create a tax group (optional)
 
+app_url: https://app.fiskl.com/dashboard/settings/taxes/groups
+
 If your jurisdiction requires multiple taxes on the same transaction, you can group them.
 
 - Select the **Tax Groups** tab
-- Select **Add**
+- Select **New Tax Group**
 - Enter a name for the group (for example, "BC Sales Tax" or "Quebec GST+QST")
 - Select two or more tax rates to include in the group
 - If one tax should be calculated on top of another, toggle the **Compound** option
-- Select **Save**
+- Select **Create**
 
 ### Step 6: Apply your tax rates
 
@@ -143,7 +156,7 @@ Your tax rates and groups are now available throughout Fiskl.
 **Cause:** The ledger account is created automatically but may not appear if the page has not refreshed.
 
 **Fix:**
-1. Go to **Settings** > **Chart of Accounts**
+1. Go to **Accounting** > **Chart of Accounts**
 2. Search for the name of your tax agency
 3. The account should appear under **Liabilities**
 4. If still missing, try refreshing the page or contact support

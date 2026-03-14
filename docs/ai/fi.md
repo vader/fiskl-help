@@ -1,105 +1,154 @@
 ---
-title: Fi - Your AI Advisor
+title: "Fi - Your AI Advisor"
+description: "Get instant answers, financial insights, and guided actions from Fi, your agentic AI advisor built into Fiskl."
+keywords: ["Fi AI advisor", "Fiskl AI assistant", "agentic AI accounting", "AI financial insights", "multilingual AI support", "business advisor AI"]
 sidebar_position: 2
-description: "Get instant answers about Fiskl and accounting from Fi, your AI advisor. Ask questions in multiple languages and optimize your business operations."
-keywords: ["Fi AI advisor", "Fiskl AI assistant", "accounting chatbot", "multilingual AI support", "business advisor AI"]
+tags:
+  - AI
+  - Fi
+toc_min_heading_level: 2
+toc_max_heading_level: 3
 ---
 
-Fi is Fiskl's AI-powered advisor that helps you navigate the platform, understand accounting concepts, and optimize your business operations—all in your preferred language.
+Fi is your AI-powered advisor built into Fiskl. It answers questions, analyses your financial data, and helps you take action — all from a single conversation.
+
+import TOCInline from '@theme/TOCInline';
+
+<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## What is Fi?
 
-Fi provides instant answers to your questions about Fiskl and accounting. With comprehensive knowledge of Fiskl's features and accounting principles, Fi helps you work more confidently and efficiently.
+Fi is an agentic AI advisor that goes beyond answering questions. It connects directly to your Fiskl account data, retrieves real numbers, spots patterns, and presents insights — so you can make informed decisions without leaving the conversation.
 
-Fi draws on Fiskl's complete documentation, tutorials, FAQs, and general accounting knowledge to give you accurate, helpful responses. You can ask questions in your preferred language and receive the same level of expertise regardless of which language you use.
+Previous versions of Fi worked as a knowledge-base chatbot. The current version operates as an intelligent agent that reasons through your questions, decides which data to pull, and delivers tailored answers with supporting charts and detail.
 
-## How Fi Helps You
+## What Fi Can Do
 
-Fi acts as your personal accounting advisor within Fiskl. Ask questions about features, get help with accounting concepts, or troubleshoot issues—Fi provides instant, accurate answers.
+Fi combines platform knowledge with live access to your financial data. Here is what that means in practice.
 
-**Core capabilities:**
-- **Platform guidance** - Navigate Fiskl's features and learn best practices
-- **Accounting education** - Understand financial concepts and business principles
-- **Multilingual support** - Communicate in your preferred language with the same level of expertise
+### Answer Questions About Fiskl
 
-Whether you're reconciling transactions, creating your first invoice, or trying to understand a balance sheet, Fi helps you work confidently.
+Fi draws on the complete Fiskl help documentation, tutorials, and FAQs. Ask about any feature and get a clear, accurate answer with relevant context.
 
-## Fi's Knowledge Base
+### Analyse Your Financial Data
 
-Fi's expertise covers:
+Fi retrieves data directly from your Fiskl account. Ask questions like:
 
-- Fiskl's complete help documentation
-- Step-by-step tutorials and guides
-- Frequently Asked Questions
-- General accounting principles
-- Small business management strategies
-- Tax-related information
-- International business practices and terminology
+- "How is my business doing compared to last year?"
+- "Show me my revenue trends for the past six months"
+- "Which clients owe me the most right now?"
 
-## Multilingual Support
+Fi pulls the relevant numbers, runs the analysis, and responds with a summary you can act on.
 
-Fi communicates in multiple languages with the same level of accounting and Fiskl expertise. The system automatically detects your language and responds accordingly.
+### Visualise Your Numbers
 
-**Supported languages include:**
-- English, Spanish, French, German, Mandarin
-- And many other major world languages
+When a chart or graph helps tell the story, Fi generates visual summaries inline. You see the data presented clearly without needing to open a separate report.
 
-Fi adapts to cultural nuances in financial terminology and practices across different regions. This ensures you receive relevant, contextually appropriate guidance regardless of where you operate your business.
+### Detect Anomalies
 
-## What Fi Can't Do
+Fi applies built-in rules to flag unusual transactions or patterns. If something looks out of place — a duplicate entry, an unexpected spike, or a missing categorisation — Fi highlights it and suggests next steps.
 
-Fi currently has some limitations to be aware of:
+### Speak Your Language
 
-- Fi can't access your personal account data or generate custom reports based on your specific numbers
-- Fi can't make changes to your Fiskl account or perform actions on your behalf
-- Questions unrelated to Fiskl, accounting, or small business management are outside Fi's scope
+Fi communicates in multiple languages with the same level of expertise. The system detects your language automatically and responds accordingly. Supported languages include English, Spanish, French, German, Mandarin, and many other major world languages.
 
-:::info
-We're continuously expanding Fi's capabilities. Fi is a core part of Fiskl's long-term strategy, and we envision it evolving into a more comprehensive advisor that could potentially interact with your account data and perform more advanced tasks. Stay tuned for updates as we progress on this journey.
+Fi adapts to regional financial terminology and practices so you receive contextually appropriate guidance regardless of where you operate.
+
+## Tax and Regional Knowledge
+
+Beyond general accounting principles, Fi draws on indexed content from official tax authorities. Fiskl regularly scans and indexes guidance from government tax agencies so Fi can answer region-specific tax questions with up-to-date information.
+
+The depth of tax content available depends on your Fiskl plan. All plans include core tax guidance for supported regions. Pro and Prime plans unlock deeper coverage such as professional guidance, legislative updates, and advanced rulings.
+
+Fiskl currently indexes tax authority content for several major regions and is actively expanding coverage. If your country's tax authority is not yet indexed, contact our support team — we can add new sources quickly to ensure Fi has the regional knowledge you need.
+
+:::tip
+Ask Fi a tax question specific to your region. If the information is available in the knowledge base, Fi surfaces it automatically alongside your account data and general accounting guidance.
+:::
+
+## How Fi Works
+
+When you ask a question, Fi follows an intelligent reasoning process to deliver the best answer.
+
+1. **Understand your question** — Fi analyses what you need, whether that is a feature explanation, a data insight, or a specific action.
+2. **Gather the right information** — Fi decides which tools to use: searching the knowledge base, calling your account data, or both.
+3. **Reason through the answer** — Fi processes the information, connects related data points, and builds a clear response.
+4. **Deliver your answer** — You receive a tailored response that may include explanations, data summaries, charts, or recommendations.
+
+Fi maintains context throughout your conversation. Ask follow-up questions to drill deeper into any topic without repeating background information.
+
+:::tip
+Start a fresh conversation when you switch to a new topic. This helps Fi give you the most focused and accurate responses.
 :::
 
 ## Getting the Best Results from Fi
 
-Follow these practices for more helpful answers:
+Follow these practices for more useful answers.
 
-1. **Be specific**
+### Be Specific
 
-   Instead of "How do expenses work?", ask "Why don't my expenses appear on my Dashboard or P&L report?"
+The more detail you provide, the more targeted the response.
 
-2. **Provide context**
+| Instead of | Try |
+|---|---|
+| "How are my finances?" | "How does my revenue this quarter compare to last quarter?" |
+| "Tell me about expenses" | "Why don't my expenses appear on my Dashboard or P&L report?" |
+| "Show me reports" | "Show me my cash flow for the last three months" |
 
-   Mention the specific feature or report you're working with in Fiskl.
+### Provide Context
 
-3. **Give feedback**
+Mention the specific feature, report, or time period you are working with. For example, "I'm looking at my March P&L and the travel expenses seem high — can you break them down?" gives Fi enough context to pull the right data.
 
-   Rate Fi's answers using the thumbs up or thumbs down buttons. Your feedback improves Fi's responses over time.
+### Ask Follow-Up Questions
 
-4. **Start fresh for new topics**
+Fi remembers what you discussed earlier in the conversation. Build on previous answers:
 
-   Clear the conversation when switching subjects to ensure tailored responses.
+- "Can you break that down by client?"
+- "What about the same period last year?"
+- "Show me that as a chart"
 
-:::tip
-Fi works in multiple languages. Communicate in whichever language you're most comfortable with for the same level of expertise.
+### Give Feedback
+
+Rate Fi's answers using the thumbs up or thumbs down buttons. Your feedback helps improve responses over time.
+
+## Current Limitations
+
+Fi is a powerful tool, but there are some boundaries to be aware of:
+
+- Fi cannot make changes to your account or perform actions on your behalf — it provides information and guidance
+- Fi cannot access data from external systems outside Fiskl
+- Questions unrelated to Fiskl, accounting, or business management are outside Fi's scope
+
+:::info
+Fi's capabilities are expanding. Future updates may include the ability to perform actions on your behalf, deeper integrations, and more advanced analytical features. Your feedback shapes what comes next.
 :::
 
-## What's Coming Next
+## Common Issues
 
-We're committed to enhancing Fi's capabilities. Future updates may include:
+<details>
+<summary>Fi gives a generic answer instead of using my data</summary>
 
-- Integration with your Fiskl account data for personalized insights
-- Ability to generate custom reports and analysis based on your numbers
-- Expanded knowledge base covering more advanced accounting topics
-- Support for additional languages and regional accounting practices
-- Enhanced understanding of complex, nuanced questions
+Make sure your question references specific data. For example, ask "What is my revenue for Q1?" rather than "Tell me about revenue." If Fi still does not pull your data, start a new conversation and try again.
 
-Your feedback shapes Fi's development. We encourage you to share your experiences and suggestions.
+</details>
 
-:::note
-Fi is designed to complement, not replace, human expertise. For complex financial decisions or account-specific issues, we recommend consulting with a qualified accountant or contacting our support team.
-:::
+<details>
+<summary>Fi responds in the wrong language</summary>
+
+Fi detects your language from the text you type. Write your question in the language you want the response in. If detection is incorrect, state your preferred language at the start of the conversation — for example, "Responde en español."
+
+</details>
+
+<details>
+<summary>Fi seems to lose context mid-conversation</summary>
+
+Very long conversations can reduce accuracy. Start a fresh conversation when you switch topics or if responses become less relevant.
+
+</details>
 
 ## Related Topics
 
-- [Getting Started with Fiskl](/docs/getting-started/overview) - Learn the basics of using Fiskl
-- [Dashboard Overview](/docs/dashboard/overview) - Understand your financial dashboard
-- [Support Options](/docs/support/overview) - Get help from our support team
+- [Fiskl AI Overview](/docs/ai/overview) — Learn about all AI-powered features in Fiskl
+- [Dashboard Overview](/docs/dashboard/overview) — Understand your financial dashboard
+- [Profit and Loss Report](/docs/reporting/profit-and-loss) — View your income and expenses
+- [Getting Started with Fiskl](/docs/getting-started/overview) — Learn the basics of using Fiskl
