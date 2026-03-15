@@ -10,7 +10,6 @@ document_type: tutorial
 task: configure-template-brand
 difficulty: intermediate
 estimated_time: "10 minutes"
-app_url: https://app.fiskl.com/dashboard/settings/invoices/templates
 prerequisites:
   - task: company-settings
     label: "Company details configured"
@@ -34,9 +33,10 @@ This tutorial walks you through creating an invoice template with your branding 
 
 Before you start, confirm the following:
 
-1. **Company details configured** — Your company name, address, and logo are used as defaults on every template. If not set up, go to **Settings** > **Company Settings**. See [Company Settings](/docs/settings/company-settings)   app_url: https://app.fiskl.com/dashboard/settings
-2. **Tax rates configured (if applicable)** — If you want to display a tax ID on your invoices, you need a tax agency and rate set up first. See [Tax Settings](/docs/settings/tax-settings). app_url: https://app.fiskl.com/dashboard/settings/taxes/agencies
-
+1. **Company details configured** — Your company name, address, and logo are used as defaults on every template. If not set up, go to **Settings** > **Company Settings**. See [Company Settings](/docs/settings/company-settings)
+   app_url: https://app.fiskl.com/dashboard/settings
+2. **Tax rates configured (if applicable)** — If you want to display a tax ID on your invoices, you need a tax agency and rate set up first. See [Tax Settings](/docs/settings/tax-settings)
+   app_url: https://app.fiskl.com/dashboard/settings/taxes/agencies
 
 :::warning
 Editing an existing template changes the appearance of all invoices and quotes using that template, including previously sent documents. If you want to preserve the look of sent documents, create a new template instead.
@@ -65,9 +65,9 @@ app_url: https://app.fiskl.com/dashboard/settings/invoices/templates
 
 Navigate to the template configuration page.
 
-- Select the **gear icon** in the top left menu
+- Select the **gear icon** in the bottom left menu
 - Select **Templates & Brands**
-- You see a list of your existing templates, or an empty state if this is your first
+- Your existing templates appear here, or an empty state if this is your first
 
 ### Step 2: Create a new template
 
@@ -119,7 +119,7 @@ Attach files and customise the email messages sent with your invoices and quotes
 
 If you operate multiple businesses or brands under one Fiskl account, override the company details on this template.
 
-- In the **Brand Overrides** section, enter different values for any of: company name, email address, phone number, address, invoice name, or quote name
+- In the **Brand Overrides** section, enter different values for company name, email, phone, address, invoice name, or quote name
 - The preview updates in real time as you make changes
 - When you assign this template to an invoice, the overridden details appear instead of your default company settings
 
@@ -164,16 +164,6 @@ Review the live preview to confirm everything looks correct.
 1. Open the template and switch to a font that supports your language
 2. Download a test PDF to verify
 
-### Template changes affected previously sent invoices
-
-**Symptom:** A client reports that an invoice you sent earlier looks different now.
-
-**Cause:** Template changes apply to all documents using that template, including sent invoices.
-
-**Fix:**
-1. Create a new template for future invoices
-2. Assign the new template to new invoices going forward
-
 ### Custom email placeholders not working
 
 **Symptom:** The email your client receives shows `[Company name]` or `[Total]` as literal text instead of actual values.
@@ -185,6 +175,16 @@ Review the live preview to confirm everything looks correct.
 2. Check the placeholder text against the available options shown in the editor
 3. Correct any misspelled or incorrectly formatted placeholders
 4. Select **Save** and send a test invoice to verify
+
+### Template changes affected previously sent invoices
+
+**Symptom:** A client reports that an invoice you sent earlier looks different now.
+
+**Cause:** Template changes apply to all documents using that template, including sent invoices.
+
+**Fix:**
+1. Create a new template for future invoices
+2. Assign the new template to new invoices going forward
 
 ## NEXT_STEPS
 
