@@ -49,7 +49,9 @@ This tutorial walks you through creating and sending your first invoice in Fiskl
 Before you start, confirm the following:
 
 1. **Invoice settings configured** — Payment terms, manual payment methods, and language preferences affect every invoice you create. If not set up, go to **Settings** > **Invoice & Quote Settings**. See [Invoice and Quote Settings](/docs/settings/invoice-quotes-settings).
+   app_url: https://app.fiskl.com/dashboard/settings/invoices/invoice-quote-settings
 2. **Invoice template configured** — Your template controls the logo, colours, layout, and display options on invoices. If not set up, go to **Settings** > **Templates & Brands**. See [Templates and Brands](/docs/settings/invoice-template-brands-settings).
+   app_url: https://app.fiskl.com/dashboard/settings/invoices/templates
 3. **At least one client exists** — Every invoice requires a client. You can create one during invoice creation, but having one ready saves time. See [Managing Clients](/docs/clients-vendors/clients).
 4. **Tax rates configured (if applicable)** — If your business charges tax, set up your tax agencies and rates before creating invoices. See [Tax Settings](/docs/settings/tax-settings).
 
@@ -58,6 +60,8 @@ If your invoice settings and template are not configured first, your invoices ma
 :::
 
 ## QUICK_PATH
+
+app_url: https://app.fiskl.com/dashboard/invoices
 
 For experienced users who need a refresher:
 
@@ -73,35 +77,37 @@ For experienced users who need a refresher:
 
 ### Step 1: Open the invoice screen
 
-In the left sidebar, select **Invoices**. You see your invoice list. If this is your first invoice, the list is empty.
+app_url: https://app.fiskl.com/dashboard/invoices
+
+In the left sidebar, select **Invoices**. You see your invoice list.
 
 - Select the **+ New Invoice** button in the top right corner
-- A blank invoice form opens with your company details pre-filled at the top
+- A blank invoice form opens with your company details pre-filled
 
 ### Step 2: Select your client
 
-Every invoice needs a client. The **Client** field is at the top of the form.
+app_url: https://app.fiskl.com/dashboard/invoices/new
 
-- Select the **Client** dropdown
-- Choose an existing client from the list, or select **Add Client** to create one now
-- Once selected, the client's name, address, and default currency populate automatically
+Every invoice needs a client.
+
+- Select the **Client** dropdown at the top of the form
+- Choose an existing client, or select **Add Client** to create one now
+- The client's name, address, and default currency populate automatically
 
 :::tip
-If the client has a default currency different from your base currency, the invoice switches to that currency automatically. You can change it manually by selecting the currency name next to the total.
+If the client has a default currency different from your base currency, the invoice switches to that currency automatically. Select the currency name next to the total to change it.
 :::
 
 ### Step 3: Set the dates
 
 Two date fields appear below the client.
 
-- **Invoice date** defaults to today. Change it if the invoice is for a different date.
-- **Due date** defaults based on your payment terms setting. Change it to match specific terms for this client if needed.
-
-To change the default due date period for all future invoices, go to **Settings** > **Invoice & Quote Settings**.
+- **Invoice date** defaults to today. Change it if needed.
+- **Due date** defaults based on your payment terms setting. Adjust for this client if needed.
 
 ### Step 4: Add line items
 
-Line items are the billable rows on your invoice. Fiskl supports five types: Product, Service, Expense, Mileage, and Time.
+Line items are the billable rows on your invoice.
 
 - Select **Add Line Item**
 - Choose the item type (most common: **Product** or **Service**)
@@ -117,10 +123,6 @@ If your business charges tax, apply it to each line item.
 - Choose the correct tax rate from the dropdown
 - Fiskl calculates the tax amount and updates the invoice total automatically
 - To switch between tax-inclusive and tax-exclusive pricing, select the **+/-** button next to the tax field
-
-:::tip
-If your tax number is not showing on the invoice, check two settings: **Settings** > **Tax Settings** (enable "Display tax number on invoices") and **Settings** > **Templates & Brands** (confirm the **Tax ID** display option is toggled on).
-:::
 
 ### Step 6: Review and save or send
 
@@ -147,7 +149,7 @@ Check the bottom of the invoice for the subtotal, tax, and total amount.
 
 **Symptom:** The invoice shows a different currency than expected.
 
-**Cause:** The currency defaults to the client's default currency (if set), or your company's base currency. If the client profile has a different currency, it overrides your base currency.
+**Cause:** The currency defaults to the client's default currency. If the client profile has a different currency, it overrides your base currency.
 
 **Fix:** Select the currency name next to the invoice total and choose the correct currency. To change the client's default currency permanently, go to **Clients**, select the client, and update their currency setting.
 
@@ -164,11 +166,11 @@ Check the bottom of the invoice for the subtotal, tax, and total amount.
 
 ### Invoice number is out of sequence
 
-**Symptom:** The invoice number does not follow the expected sequence (for example, jumps from INV-0005 to INV-0020).
+**Symptom:** The invoice number does not follow the expected sequence.
 
-**Cause:** A previous invoice number was edited manually, and Fiskl uses the last number as the base for auto-increment.
+**Cause:** A previous invoice number was edited manually. Fiskl uses the last number as the base for auto-increment.
 
-**Fix:** Create a new invoice and manually set the number to the correct value (for example, INV-0006). All subsequent invoices increment from that point.
+**Fix:** Create a new invoice and manually set the number to the correct value. All subsequent invoices increment from that point.
 
 ### Template or logo not appearing correctly
 

@@ -10,6 +10,7 @@ document_type: tutorial
 task: configure-template-brand
 difficulty: intermediate
 estimated_time: "10 minutes"
+app_url: https://app.fiskl.com/dashboard/settings/invoices/templates
 prerequisites:
   - task: company-settings
     label: "Company details configured"
@@ -33,8 +34,9 @@ This tutorial walks you through creating an invoice template with your branding 
 
 Before you start, confirm the following:
 
-1. **Company details configured** — Your company name, address, and logo are used as defaults on every template. If not set up, go to **Settings** > **Company Settings**. See [Company Settings](/docs/settings/company-settings).
-2. **Tax rates configured (if applicable)** — If you want to display a tax ID on your invoices, you need a tax agency and rate set up first. See [Tax Settings](/docs/settings/tax-settings).
+1. **Company details configured** — Your company name, address, and logo are used as defaults on every template. If not set up, go to **Settings** > **Company Settings**. See [Company Settings](/docs/settings/company-settings)   app_url: https://app.fiskl.com/dashboard/settings
+2. **Tax rates configured (if applicable)** — If you want to display a tax ID on your invoices, you need a tax agency and rate set up first. See [Tax Settings](/docs/settings/tax-settings). app_url: https://app.fiskl.com/dashboard/settings/taxes/agencies
+
 
 :::warning
 Editing an existing template changes the appearance of all invoices and quotes using that template, including previously sent documents. If you want to preserve the look of sent documents, create a new template instead.
@@ -42,22 +44,24 @@ Editing an existing template changes the appearance of all invoices and quotes u
 
 ## QUICK_PATH
 
+app_url: https://app.fiskl.com/dashboard/settings/invoices/templates
+
 For experienced users who need a refresher:
 
 1. Go to **Settings** > **Templates & Brands**
 2. Select **Add New Template** or select an existing template
 3. Enter a template name and upload your logo
-4. Select a layout and customise colours
-5. Choose a font
-6. Toggle display options (Tax ID, FX rates, units, quantity)
-7. Add attachments if needed (for example, terms of service)
-8. Customise email content for invoices, reminders, and quotes
-9. Optionally, override company details to create a brand
-10. Select **Save**
+4. Select a layout, customise colours, and choose a font
+5. Toggle display options (Tax ID, FX rates, units, quantity)
+6. Optionally add attachments and customise email content
+7. Optionally override company details to create a brand
+8. Select **Save**
 
 ## STEP_DETAIL
 
 ### Step 1: Open Templates and Brands
+
+app_url: https://app.fiskl.com/dashboard/settings/invoices/templates
 
 Navigate to the template configuration page.
 
@@ -73,68 +77,45 @@ Start a new template so you can configure it from scratch.
 - A template editor opens with a live preview on the right side
 - Enter a descriptive template name (only you see this, not your clients)
 
-### Step 3: Upload your logo
+### Step 3: Customise your template appearance
 
-Your logo appears at the top of every invoice and quote using this template.
+Upload your logo, choose a layout, set your colours, and select a font. The live preview on the right updates as you make changes.
 
-- In the **Name & Header** section, select the logo upload area
-- Upload your company logo
-- Resize the logo using the available controls until it looks right in the preview
-- Optionally, upload a separate email logo (square image, maximum 100 KB, rendered at 70×70 px)
+- In the **Name & Header** section, upload your company logo and resize it using the available controls
+- Optionally upload a separate email logo (square image, maximum 100 KB, rendered at 70×70 px)
+- In the **Theme and Colours** section, select a pre-set invoice layout and customise individual colour elements: header, text, labels, and dividers
+- In the **Fonts** section, select from the available fonts
 
 :::tip
-Check the live preview on the right after uploading. Adjust the logo size so it does not crowd the invoice header or look too small.
+After changing fonts, download a test PDF to confirm your text renders correctly. Not all fonts support non-Latin scripts such as Chinese, Cyrillic, or Arabic in PDF format.
 :::
 
-### Step 4: Choose a layout and customise colours
-
-Select the visual style for your invoices.
-
-- In the **Theme and Colours** section, select a pre-set invoice layout
-- Customise individual colour elements: header, text, labels, and dividers
-- Watch the live preview update as you change each colour
-
-### Step 5: Select a font
-
-Choose the font used across your invoices and quotes.
-
-- In the **Fonts** section, select from the available fonts
-- After changing the font, download a test PDF to confirm your text renders correctly
-
-Not all fonts support non-Latin scripts such as Chinese, Cyrillic, or Arabic in PDF format. Test before using the template with clients.
-
-### Step 6: Configure display options
+### Step 4: Configure display options
 
 Control which details appear on your invoices and quotes.
 
 - In the **Display Options** section, toggle each option on or off:
-    - **Company ID** — your business registration number
-    - **Tax ID** — your tax or VAT number (must also be enabled in [Tax Settings](/docs/settings/tax-settings))
-    - **FX rates** — exchange rates for multi-currency line items
-    - **Units** — unit labels on line items
-    - **Quantity** — quantity column on line items
-    - **Proforma label** — marks the invoice as proforma
+  - **Company ID** — your business registration number
+  - **Tax ID** — your tax or VAT number (must also be enabled in [Tax Settings](/docs/settings/tax-settings))
+  - **FX rates** — exchange rates for multi-currency line items
+  - **Units** — unit labels on line items
+  - **Quantity** — quantity column on line items
+  - **Proforma label** — marks the invoice as proforma
 
 :::tip
 If your tax ID is not appearing on invoices, check both this setting and the matching setting in **Tax Settings**. Both must be enabled.
 :::
 
-### Step 7: Add attachments (optional)
+### Step 5: Add attachments and custom emails (optional)
 
-Attach files that are sent with every invoice or quote using this template.
+Attach files and customise the email messages sent with your invoices and quotes.
 
-- In the **Attachments** section, upload any standard documents
-- Common attachments include terms of service, payment policies, or product catalogues
-
-### Step 8: Customise email content (optional)
-
-Create custom email messages for different scenarios.
-
+- In the **Attachments** section, upload any standard documents (for example, terms of service or payment policies)
 - In the **Custom Emails** section, select the email type to customise: invoice, deposit request, partial payment, overdue reminder, or quote
 - Edit the email text and use placeholders like `[Company name]`, `[Total]`, and `[Client name]` for dynamic content
 - Custom emails are plain text without HTML formatting
 
-### Step 9: Create a brand (optional)
+### Step 6: Create a brand (optional)
 
 If you operate multiple businesses or brands under one Fiskl account, override the company details on this template.
 
@@ -142,7 +123,7 @@ If you operate multiple businesses or brands under one Fiskl account, override t
 - The preview updates in real time as you make changes
 - When you assign this template to an invoice, the overridden details appear instead of your default company settings
 
-### Step 10: Save your template
+### Step 7: Save your template
 
 Review the live preview to confirm everything looks correct.
 
@@ -182,7 +163,6 @@ Review the live preview to confirm everything looks correct.
 **Fix:**
 1. Open the template and switch to a font that supports your language
 2. Download a test PDF to verify
-3. Common safe choices include fonts with broad Unicode support
 
 ### Template changes affected previously sent invoices
 
@@ -193,7 +173,6 @@ Review the live preview to confirm everything looks correct.
 **Fix:**
 1. Create a new template for future invoices
 2. Assign the new template to new invoices going forward
-3. The old template preserves the original styling for documents that used it before the change
 
 ### Custom email placeholders not working
 
