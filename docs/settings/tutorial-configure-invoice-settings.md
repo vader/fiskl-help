@@ -29,7 +29,8 @@ This tutorial walks you through setting up your invoice defaults — payment ter
 
 Before you start, confirm the following:
 
-1. **Company details configured** — Your company name and address appear on every invoice. If not set up, go to **Settings** > **Company Settings** and enter your details. See [Company Settings](/docs/settings/company-settings).
+1. **Company details configured** — Your company name and address appear on every invoice. If not set up, go to **Settings** > **Company Settings** and enter your details. See [Company Settings](/docs/settings/company-settings)
+   app_url: https://app.fiskl.com/dashboard/settings
 
 :::warning
 If your company address is incomplete, it appears incorrectly on all invoices. Complete your company settings before configuring invoice settings.
@@ -37,23 +38,27 @@ If your company address is incomplete, it appears incorrectly on all invoices. C
 
 ## QUICK_PATH
 
+app_url: https://app.fiskl.com/dashboard/settings/invoices/invoice-quote-settings
+
 For experienced users who need a refresher:
 
 1. Go to **Settings** > **Invoice & Quote Settings**
 2. Set the default payment terms (days until due)
 3. Toggle **Auto-select payment gateways** on or off
-4. Add default invoice notes if needed
-5. Select **+** to add a manual payment method with instructions
-6. Select a primary language for invoices and quotes
+4. Add default invoice notes and terms and conditions if needed
+5. Go to **Manual Payment Methods** and select **+** to add a method with instructions
+6. Go to **Languages** and select a primary language for invoices and quotes
 7. Optionally clone and customise a language for regional needs
 
 ## STEP_DETAIL
 
 ### Step 1: Open invoice and quote settings
 
+app_url: https://app.fiskl.com/dashboard/settings/invoices/invoice-quote-settings
+
 You need to access the settings page where invoice defaults are configured.
 
-- Select the **gear icon** in the top left menu
+- Select the **gear icon** in the bottom left menu
 - Select **Invoice & Quote Settings**
 - The settings page opens showing general invoice options
 
@@ -77,10 +82,23 @@ This setting controls whether payment methods are automatically enabled on invoi
 If you have multiple payment gateways connected (for example, Stripe and PayPal), enabling auto-selection ensures your clients always see every available option.
 :::
 
-### Step 4: Add a manual payment method
+### Step 4: Add default invoice notes and terms (optional)
+
+Notes and terms appear at the bottom of every invoice. Use them for standard reminders, payment instructions, or legal terms.
+
+- Find the **Invoice notes** and **Terms and conditions** fields
+- These fields are shown in view mode by default — select **Edit** to switch to edit mode
+- Enter your default text (limited HTML is supported for basic styling such as bold, italic, and links)
+- Select **Save** to return to view mode
+- These defaults appear on all new invoices but you can override them individually
+
+### Step 5: Add a manual payment method
+
+app_url: https://app.fiskl.com/dashboard/settings/invoices/invoice-manual-payment-methods
 
 Manual payment methods give your clients instructions for paying outside of online gateways, such as bank transfer or cheque.
 
+- Select **Manual Payment Methods** from the settings menu
 - Select the **+** icon to add a new payment method
 - Enter a descriptive name that your client sees on the invoice (for example, "Bank Transfer — Chase ACH")
 - Add clear instructions in the **Client notes** field
@@ -89,25 +107,19 @@ Manual payment methods give your clients instructions for paying outside of onli
 
 Your client sees a copy-to-clipboard button next to each payment detail.
 
-### Step 5: Set the primary language
+### Step 6: Set the primary language
+
+app_url: https://app.fiskl.com/dashboard/settings/invoices/languages
 
 Fiskl supports over 60 languages for invoices, quotes, emails, and client-facing screens.
 
-- Find the **Language** section
+- Select **Languages** from the settings menu
 - Select the default language for all new invoices and quotes
 - You can change the language on individual invoices when needed
 
 :::tip
 If you need to adapt a language for a specific region, select **Clone** next to a base language. Edit the translations and save your custom version. This is useful for regional dialects or changing terms like "Client" to "Customer" on your documents.
 :::
-
-### Step 6: Add default invoice notes (optional)
-
-Notes appear at the bottom of every invoice. Use them for standard reminders or terms.
-
-- Find the **Invoice notes** field
-- Enter your default notes (basic HTML styling is supported)
-- These notes appear on all new invoices but can be overridden individually
 
 ## COMMON_FAILURES
 
@@ -151,7 +163,7 @@ Notes appear at the bottom of every invoice. Use them for standard reminders or 
 **Cause:** The cloned language may not have been saved, or the page needs to be refreshed.
 
 **Fix:**
-1. Go to **Invoice & Quote Settings** > **Language** section
+1. Go to **Invoice & Quote Settings** > **Languages**
 2. Look for the cloned language in the list
 3. If missing, clone the base language again and confirm you select **Save** after editing
 

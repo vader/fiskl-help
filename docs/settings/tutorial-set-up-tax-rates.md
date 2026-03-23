@@ -10,12 +10,7 @@ document_type: tutorial
 task: set-up-tax-rates
 difficulty: beginner
 estimated_time: "5 minutes"
-prerequisites:
-  - task: company-settings
-    label: "Company details configured"
-    check: "Have you set up your company details including your business country and base currency?"
-    resolve_url: /docs/settings/company-settings
-    # resolve_tutorial: configure-company-settings  — add when that tutorial is written
+
 related_tutorials:
   - create-invoice
   - send-invoice
@@ -24,18 +19,7 @@ related_tutorials:
 
 # Tutorial: Setting Up Tax Rates
 
-This tutorial walks you through setting up tax agencies, creating tax rates, and optionally grouping taxes. By the end, you will have tax rates ready to apply to your invoices and expenses.
-
-## PREREQUISITE_CHECK
-
-Before you start, confirm the following:
-
-1. **Company details configured** — Your business country and base currency determine your default tax jurisdiction. If not set up, go to **Settings** > **Company Settings**. See [Company Settings](/docs/settings/company-settings).
-   app_url: https://app.fiskl.com/dashboard/settings/company
-
-:::warning
-You must create a tax agency before you can add any tax rates. The agency defines the country and currency for all rates assigned to it.
-:::
+This tutorial walks you through setting up tax agencies (also known as tax numbers), creating tax rates, and optionally grouping taxes. By the end, you will have tax rates ready to apply to your invoices and expenses.
 
 ## QUICK_PATH
 
@@ -44,22 +28,22 @@ app_url: https://app.fiskl.com/dashboard/settings/taxes/agencies
 For experienced users who need a refresher:
 
 1. Go to **Settings** > **Tax Settings** > **Tax Agencies** tab
-2. Select **Add** and enter agency name, country, and currency
-3. Select **Save** to create the agency
+2. Select **New Tax Agency** and enter agency name, country, and currency
+3. Select **Create** to create the agency
 4. Switch to the **Tax Rates** tab
-5. Select **Add** and enter the tax name, percentage, and assign it to your agency
-6. Select **Save** to create the rate
+5. Select **New Tax Rate** and enter the tax name, percentage, and assign it to your agency
+6. Select **Create** to create the rate
 7. Optionally, go to the **Tax Groups** tab to combine multiple rates
 
 ## STEP_DETAIL
 
 ### Step 1: Open Tax settings
 
-app_url: https://app.fiskl.com/dashboard/settings/taxes/rates
+app_url: https://app.fiskl.com/dashboard/settings/taxes/agencies
 
 You need to navigate to the Tax settings page to begin.
 
-- Select the **gear icon** in the top left menu, then select **Tax Settings**
+- Select the **gear icon** in the bottom left, then select **Tax Management**
 - The Tax settings page opens with three tabs: **Tax Agencies**, **Tax Rates**, and **Tax Groups**
 
 ### Step 2: Create a tax agency
@@ -91,18 +75,20 @@ After saving, Fiskl automatically creates a Liability ledger account for this ag
 
 ### Step 4: Add a tax rate
 
+app_url: https://app.fiskl.com/dashboard/settings/taxes/rates
+
 Now that you have an agency, you can create tax rates.
 
 - Select the **Tax Rates** tab
-- Select **Add**
+- Select **New Tax Rate**
 - Enter the tax name (for example, "Standard VAT" or "Sales Tax")
 - Enter the tax percentage
 - Select the **Tax Agency** to assign this rate to
 - Choose whether this is a **Sales** or **Non-Sales** tax
-- Select **Save**
+- Select **Create**
 
 :::tip
-You can assign multiple tax rates to a single agency. For example, a standard rate of 20% and a reduced rate of 5% can both belong to the same agency.
+You can assign multiple tax rates to a single agency. For example, a standard rate of 20% and a reduced rate of 5% can both belong to the same agency. You cannot change a tax rate after it has been created. If the rate changes, archive the existing rate and create a new one.
 :::
 
 ### Step 5: Create a tax group (optional)
@@ -127,39 +113,40 @@ Your tax rates and groups are now available throughout Fiskl.
 
 ## COMMON_FAILURES
 
-### Cannot find the option to add a tax rate
+### Cannot find the tax agency when adding a new rate
 
-**Symptom:** The **Add** button on the Tax Rates tab does not appear, or no tax agency is available to select.
+**Symptom:** The **Tax Agency** selector is empty when you create a new tax rate.
 
 **Cause:** You have not created a tax agency yet. Tax rates require an agency to be assigned to.
 
 **Fix:**
 1. Select the **Tax Agencies** tab
-2. Select **Add** and create at least one tax agency
+2. Select **New Tax Agency** and create your agency first
 3. Return to the **Tax Rates** tab and try again
 
-### Tax rate shows the wrong currency
+### Tax rate not appearing on invoices
 
-**Symptom:** A tax rate displays a currency that does not match your expectation.
+**Symptom:** When creating an invoice, the tax rate you created does not appear in the tax dropdown.
 
-**Cause:** The tax rate inherits its currency from the assigned tax agency. If the agency uses EUR, all rates assigned to it use EUR.
-
-**Fix:**
-1. Create a new tax agency with the correct country and currency
-2. Create a new tax rate and assign it to the new agency
-3. Delete or ignore the incorrect rate
-
-### Missing ledger account after creating an agency
-
-**Symptom:** You cannot find the Liability ledger account for your tax agency in the Chart of Accounts.
-
-**Cause:** The ledger account is created automatically but may not appear if the page has not refreshed.
+**Cause:** The tax rate may not be marked as a sales tax, or it may be assigned to an agency with a different currency than the invoice.
 
 **Fix:**
-1. Go to **Accounting** > **Chart of Accounts**
-2. Search for the name of your tax agency
-3. The account should appear under **Liabilities**
-4. If still missing, try refreshing the page or contact support
+1. Go to **Settings** > **Tax Settings** > **Tax Rates**
+2. Select the tax rate to edit
+3. Confirm it is set to **Sales** tax (not Non-Sales)
+4. Confirm the assigned agency currency matches the invoice currency
+5. Select **Save**
+
+### Unable to change a tax rate
+
+**Symptom:** The tax percentage field is disabled when you edit an existing tax rate.
+
+**Cause:** Tax rates cannot be changed after they have been created. You need to archive the rate and create a new one.
+
+**Fix:**
+1. Go to **Settings** > **Tax Settings** > **Tax Rates**
+2. Archive the tax rate
+3. Create a new tax rate with the updated percentage
 
 ### Compound tax calculating incorrectly
 
@@ -174,18 +161,17 @@ Your tax rates and groups are now available throughout Fiskl.
 4. Check that the taxes are in the correct order (the base tax should appear first)
 5. Select **Save**
 
-### Tax rate not appearing on invoices
+### Missing ledger account after creating an agency
 
-**Symptom:** When creating an invoice, the tax rate you created does not appear in the tax dropdown.
+**Symptom:** You cannot find the Liability ledger account for your tax agency in the Chart of Accounts.
 
-**Cause:** The tax rate may not be marked as a sales tax, or it may be assigned to an agency with a different currency than the invoice.
+**Cause:** The ledger account is created automatically but may not appear if the page has not refreshed.
 
 **Fix:**
-1. Go to **Settings** > **Tax Settings** > **Tax Rates**
-2. Select the tax rate to edit
-3. Confirm it is set to **Sales** tax (not Non-Sales)
-4. Confirm the assigned agency currency matches the invoice currency
-5. Select **Save**
+1. Go to **Accounting** > **Chart of Accounts**
+2. Search for the name of your tax agency
+3. The account should appear under **Liabilities**
+4. If still missing, try refreshing the page or contact support
 
 ## NEXT_STEPS
 
