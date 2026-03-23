@@ -1,0 +1,14 @@
+shawn:
+  name: Shawn Vader
+  title: CTO at Fiskl
+  url: https://fiskl.com
+  image_url: https://fiskl-public.s3.eu-west-1.amazonaws.com/assets/sv-li.jpg
+  socials:
+    linkedin: https://www.linkedin.com/in/shawnvader/
+monica:
+  name: Monica Burian
+  title: Chief Product Officer at Fiskl
+  url: https://fiskl.com
+  image_url: https://fiskl-public.s3.eu-west-1.amazonaws.com/assets/moni-li.jpg
+  socials:
+    linkedin: https://www.linkedin.com/in/monica-burian-99553444

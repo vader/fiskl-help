@@ -83,22 +83,15 @@ const config: Config = {
             {
                 docs: {
                     sidebarPath: './sidebars.ts',
-                    // Please change this to your repo.
-                    // Remove this to remove the "edit this page" links.
-                    editUrl:
-                        'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
                 },
                 blog: {
+                    path: 'updates',          // The name of the directory on your file system
+                    routeBasePath: 'updates',  // The URL segment (e.g., /updates)
                     showReadingTime: true,
                     feedOptions: {
                         type: ['rss', 'atom'],
                         xslt: true,
                     },
-                    // Please change this to your repo.
-                    // Remove this to remove the "edit this page" links.
-                    editUrl:
-                        'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-                    // Useful options to enforce blogging best practices
                     onInlineTags: 'warn',
                     onInlineAuthors: 'warn',
                     onUntruncatedBlogPosts: 'warn',
@@ -135,7 +128,7 @@ const config: Config = {
                     label: 'Documentation',
                 },
                 // Items moved to the right for a modern utility-bar look
-                { to: '/blog', label: 'Updates', position: 'right' },
+                { to: '/updates', label: 'Updates', position: 'right' },
                 {
                     type: 'localeDropdown',
                     position: 'right',
@@ -182,8 +175,8 @@ const config: Config = {
                     title: 'More',
                     items: [
                         {
-                            label: 'Blog',
-                            to: '/blog',
+                            label: 'Updates',
+                            to: '/updates',
                         }
                     ],
                 },
