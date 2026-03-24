@@ -2,7 +2,7 @@
 slug: welcome
 title: Welcome
 authors: [shawn, monica]
-tags: [Fiskl, Accounting]
+tags: [new-release]
 ---
 
 Here are a few tips you might find useful.
