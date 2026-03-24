@@ -83,6 +83,7 @@ const config: Config = {
             {
                 docs: {
                     sidebarPath: './sidebars.ts',
+                    routeBasePath: '/',
                 },
                 blog: {
                     path: 'updates',          // The name of the directory on your file system

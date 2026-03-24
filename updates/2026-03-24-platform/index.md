@@ -1,6 +1,6 @@
 ---
 slug: 2026-03-24-platform
-title: The platform has a new interface, here is what changed and why
+title: Fiskl has changed, here's what you need to know.
 authors: [shawn]
 tags: [platform-update, ai-features, new-release]
 date: 2026-03-24T09:00

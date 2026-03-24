@@ -12,3 +12,9 @@ monica:
   image_url: https://fiskl-public.s3.eu-west-1.amazonaws.com/assets/moni-li.jpg
   socials:
     linkedin: https://www.linkedin.com/in/monica-burian-99553444
+alina:
+  name: Alina Lapusneanu
+  title: Chief Executive Officer
+  url: https://fiskl.com
+  socials:
+    linkedin: https://uk.linkedin.com/in/alinalapusneanu

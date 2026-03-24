@@ -3,3 +3,7 @@ new-release:
   description: "Updates regarding new platform features in Fiskl."
 announcement:
   label: "Announcement"
+ai-features:
+  label: "AI Features"
+platform-update:
+  label: "Platform Updates"

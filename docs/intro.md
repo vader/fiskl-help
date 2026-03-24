@@ -3,6 +3,7 @@ title: Welcome to Fiskl Help
 sidebar_label: Introduction
 sidebar_position: 1
 description: The official guide to Fiskl's automated accounting platform. Learn how to manage invoices, quotes, and finances.
+slug: /
 ---
 
 # Welcome to Fiskl Help
