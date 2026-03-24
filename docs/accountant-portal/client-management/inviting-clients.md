@@ -39,7 +39,7 @@ Generate links for clients you will bill through your practice subscription.
 - Small clients needing complete support
 - Clients requiring minimal system access
 
-**Learn more:** [Bill Us Model](/docs/accountant-portal/billing-models/bill-us-model)
+**Learn more:** [Bill Us Model](/accountant-portal/billing-models/bill-us-model)
 
 ### Client Pays Invitation Links
 
@@ -59,7 +59,7 @@ Generate links for clients who will pay their own subscriptions.
 - Larger clients with internal teams
 - Practices wanting flexible relationships
 
-**Learn more:** [Client Pays Model](/docs/accountant-portal/billing-models/client-pays-model)
+**Learn more:** [Client Pays Model](/accountant-portal/billing-models/client-pays-model)
 
 ## Generating Invitation Links
 
@@ -280,7 +280,7 @@ Track which clients use your invitation links and when.
 - Accept or reject each invitation
 - Monitor time from signup to invitation
 
-**Learn more:** [Accepting Client Invitations](/docs/accountant-portal/client-management/accepting-client-invitations)
+**Learn more:** [Accepting Client Invitations](/accountant-portal/client-management/accepting-client-invitations)
 
 ## Client Signup Experience
 
@@ -416,12 +416,12 @@ Understand what happens when clients use your invitation links.
 
 ## Need More Help?
 
-**Accept invitations:** [Accepting Client Invitations](/docs/accountant-portal/client-management/accepting-client-invitations)
+**Accept invitations:** [Accepting Client Invitations](/accountant-portal/client-management/accepting-client-invitations)
 
-**Manage connections:** [Client Connections](/docs/accountant-portal/client-management/client-connections)
+**Manage connections:** [Client Connections](/accountant-portal/client-management/client-connections)
 
-**Configure access:** [Client Access Levels](/docs/accountant-portal/client-management/client-access-levels)
+**Configure access:** [Client Access Levels](/accountant-portal/client-management/client-access-levels)
 
-**Understand billing models:** [Billing Models Overview](/docs/accountant-portal/billing-models/overview)
+**Understand billing models:** [Billing Models Overview](/accountant-portal/billing-models/overview)
 
-**Set up branches:** [Configuring Branches](/docs/accountant-portal/getting-started/configuring-branches)
+**Set up branches:** [Configuring Branches](/accountant-portal/getting-started/configuring-branches)

@@ -13,7 +13,7 @@ A payment schedule divides a single invoice into two to 12 scheduled payments. E
 
 :::info
 
-[//]: # (Payment schedules apply to a single invoice with multiple payments. If you need a separate invoice for each billing period, use [recurring invoices]&#40;/docs/core-features/invoicing/recurring/recurring-invoice-management&#41; instead.)
+[//]: # (Payment schedules apply to a single invoice with multiple payments. If you need a separate invoice for each billing period, use [recurring invoices]&#40;/core-features/invoicing/recurring/recurring-invoice-management&#41; instead.)
 :::
 
 ## Payment Schedule vs Recurring Invoice

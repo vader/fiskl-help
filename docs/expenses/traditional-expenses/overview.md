@@ -217,4 +217,4 @@ Reports automatically include both traditional and AI expenses, providing comple
 - [AI Expenses Overview](../ai-expenses/overview) - Modern expense processing system
 - [Uploading AI Expenses](../ai-expenses/uploading) - How to use the new system
 - [Expense Categories](../expense-categories) - Category management across both systems
-- [Mileage Tracking](/docs/time-and-mileage/mileage-tracking) - Track vehicle expenses (works with both systems)
+- [Mileage Tracking](/time-and-mileage/mileage-tracking) - Track vehicle expenses (works with both systems)

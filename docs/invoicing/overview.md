@@ -38,7 +38,7 @@ Create fully customized invoices that reflect your brand and meet your business 
 - Attachments and notes
 - Custom fields and numbering
 
-**Learn more:** [Creating Invoices](/docs/invoicing/creating-invoices.md)
+**Learn more:** [Creating Invoices](/invoicing/creating-invoices.md)
 
 ### Quote Management
 
@@ -52,7 +52,7 @@ Provide detailed price estimates before finalizing sales with professional quote
 - Quote versioning
 - Same branding as invoices
 
-**Learn more:** [Creating Quotes](/docs/invoicing/creating-quotes.md)
+**Learn more:** [Creating Quotes](/invoicing/creating-quotes.md)
 
 ### Recurring Invoices
 
@@ -73,7 +73,7 @@ Automate subscription and regular billing with recurring invoice templates and s
 - Monthly maintenance fees
 - Membership billing
 
-**Learn more:** [Creating Recurring Invoices](/docs/invoicing/create-recurring-invoices)
+**Learn more:** [Creating Recurring Invoices](/invoicing/create-recurring-invoices)
 
 ### Payment Integration
 
@@ -92,7 +92,7 @@ Connect payment gateways to accept payments directly on invoices.
 - Partial payment support
 - Payment tracking and reconciliation
 
-**Learn more:** [Payment Integrations](/docs/integrations/payments/overview)
+**Learn more:** [Payment Integrations](/integrations/payments/overview)
 
 ### Automated Reminders
 
@@ -111,7 +111,7 @@ Keep cash flow healthy with automated payment reminders and overdue notices.
 - Client communication history
 - Stop reminders when paid
 
-**Learn more:** [Sending Invoices](/docs/invoicing/sending-invoices)
+**Learn more:** [Sending Invoices](/invoicing/sending-invoices)
 
 ## Invoice Lifecycle
 
@@ -188,7 +188,7 @@ Tailor invoices to match your brand and business requirements.
 - Maintain separate branding
 - Select template per invoice
 
-**Learn more:** [Invoice Templates](/docs/settings/invoice-template-brands-settings)
+**Learn more:** [Invoice Templates](/settings/invoice-template-brands-settings)
 
 ### Language and Localization
 
@@ -207,7 +207,7 @@ Invoice in your client's language with automatic translations.
 - Multi-currency reporting
 - Base currency conversion
 
-**Learn more:** [Invoice & Quote Settings](/docs/settings/invoice-quotes-settings)
+**Learn more:** [Invoice & Quote Settings](/settings/invoice-quotes-settings)
 
 ### Tax Management
 
@@ -221,7 +221,7 @@ Handle tax calculation and compliance automatically.
 - Tax authority integration
 - Automatic tax calculation
 
-**Learn more:** [Tax Settings](/docs/settings/tax-settings.md)
+**Learn more:** [Tax Settings](/settings/tax-settings.md)
 
 ## Invoice Management Features
 
@@ -307,7 +307,7 @@ Begin invoicing in minutes with this quick setup:
 2. Set up automatic reminders
 3. Create recurring invoices if needed
 
-**Next steps:** [Your First Invoice](/docs/getting-started/your-first-invoice.md)
+**Next steps:** [Your First Invoice](/getting-started/your-first-invoice.md)
 
 ## Common Use Cases
 
@@ -345,13 +345,13 @@ Begin invoicing in minutes with this quick setup:
 
 ## Need More Help?
 
-**Create your first invoice:** [Your First Invoice](/docs/getting-started/your-first-invoice)
+**Create your first invoice:** [Your First Invoice](/getting-started/your-first-invoice)
 
-**Set up templates:** [Invoice Templates](/docs/settings/invoice-template-brands-settings)
+**Set up templates:** [Invoice Templates](/settings/invoice-template-brands-settings)
 
-**Connect payments:** [Payment Gateways](/docs/integrations/payments/overview)
+**Connect payments:** [Payment Gateways](/integrations/payments/overview)
 
-**Configure taxes:** [Tax Settings](/docs/settings/tax-settings.md)
+**Configure taxes:** [Tax Settings](/settings/tax-settings.md)
 
 ---
 

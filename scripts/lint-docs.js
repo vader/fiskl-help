@@ -256,7 +256,7 @@ class DocLinter {
                         line: index + 1,
                         issue: 'Internal link uses absolute URL',
                         text: match[0],
-                        fix: 'Use relative path: /docs/...'
+                        fix: 'Use relative path: /...'
                     });
                 }
             }

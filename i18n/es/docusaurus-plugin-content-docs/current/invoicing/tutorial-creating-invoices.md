@@ -14,15 +14,15 @@ prerequisites:
   - task: company-settings
     label: "Company settings are complete"
     check: "Is your company name and address set up in Settings > Company Settings?"
-    resolve_url: /docs/settings/company-settings
+    resolve_url: /settings/company-settings
   - task: create-client
     label: "At least one client exists"
     check: "Do you have a client set up already, or do you need to create one?"
-    resolve_url: /docs/clients-vendors/clients
+    resolve_url: /clients-vendors/clients
   - task: payment-method
     label: "A payment method is connected"
     check: "Is Stripe or another payment gateway connected in Settings > Payment Methods?"
-    resolve_url: /docs/integrations/payments/overview
+    resolve_url: /integrations/payments/overview
 related_tutorials:
   - send-invoice
   - recurring-invoices
@@ -37,9 +37,9 @@ This tutorial walks you through creating and sending your first invoice in Fiskl
 
 Before you start, confirm the following:
 
-1. **Company settings are complete** — Your company name and address appear on every invoice. If not set up, go to **Settings** > **Company Settings** and enter your details. See [Company Settings](/docs/settings/company-settings).
-2. **At least one client exists** — Every invoice requires a client. You can create one during invoice creation, but having one ready saves time. See [Managing Clients](/docs/clients-vendors/clients).
-3. **A payment method is connected** — Without this, your client cannot pay online. Go to **Settings** > **Payment Methods** and connect Stripe or add a manual payment method. See [Payment Gateways](/docs/integrations/payments/overview).
+1. **Company settings are complete** — Your company name and address appear on every invoice. If not set up, go to **Settings** > **Company Settings** and enter your details. See [Company Settings](/settings/company-settings).
+2. **At least one client exists** — Every invoice requires a client. You can create one during invoice creation, but having one ready saves time. See [Managing Clients](/clients-vendors/clients).
+3. **A payment method is connected** — Without this, your client cannot pay online. Go to **Settings** > **Payment Methods** and connect Stripe or add a manual payment method. See [Payment Gateways](/integrations/payments/overview).
 
 :::warning
 If your company address is incomplete, it appears incorrectly on all invoices. Fix this in **Company Settings** before creating your first invoice.
@@ -167,8 +167,8 @@ Check the bottom of the invoice for the subtotal, tax, and total amount.
 
 Now that you have created your first invoice, you can:
 
-- **Send the invoice** — If you saved it as a draft, open it and select **Send** to email it to your client. See [Sending Invoices](/docs/invoicing/sending-invoices)
+- **Send the invoice** — If you saved it as a draft, open it and select **Send** to email it to your client. See [Sending Invoices](/invoicing/sending-invoices)
 - **Set up recurring invoices** — If you bill the same client regularly, automate it. See [Recurring Invoices](create-recurring-invoices)
-- **Add payment schedules** — Split a single invoice into two to twelve instalments. See [Payment Schedules](/docs/invoicing/invoice-payment-schedules)
+- **Add payment schedules** — Split a single invoice into two to twelve instalments. See [Payment Schedules](/invoicing/invoice-payment-schedules)
 
-[//]: # (- **Customise your template** — Change logo, colours, and layout in **Settings** > **Templates & Brands**. See [Templates & Brands]&#40;/docs/settings/invoice-template-brands-settings&#41;)
+[//]: # (- **Customise your template** — Change logo, colours, and layout in **Settings** > **Templates & Brands**. See [Templates & Brands]&#40;/settings/invoice-template-brands-settings&#41;)

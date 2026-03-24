@@ -131,7 +131,7 @@ Understanding the difference helps you choose the right option:
 | **Best for** | Taking a break | Permanent closure |
 
 :::warning
-If you want to permanently remove all your data, use account deletion instead of cancellation. See [Delete Account](/docs/plans-billing/deleting-account) for details.
+If you want to permanently remove all your data, use account deletion instead of cancellation. See [Delete Account](/plans-billing/deleting-account) for details.
 :::
 
 ## When to Cancel vs Downgrade
@@ -150,10 +150,10 @@ Consider these options based on your needs:
 - Need basic functionality but not advanced features
 - Want to maintain active banking connections
 
-Learn more about downgrading in [Manage Your Subscription](/docs/plans-billing/managing-subscription).
+Learn more about downgrading in [Manage Your Subscription](/plans-billing/managing-subscription).
 
 ## Related Topics
 
-- [Delete Account](/docs/plans-billing/deleting-account) - Permanently remove all data
-- [Manage Your Subscription](/docs/plans-billing/managing-subscription) - Downgrade to a lower tier
-- [Choose Your Fiskl Plan](/docs/plans-billing/selecting-plans) - Review Free plan features
+- [Delete Account](/plans-billing/deleting-account) - Permanently remove all data
+- [Manage Your Subscription](/plans-billing/managing-subscription) - Downgrade to a lower tier
+- [Choose Your Fiskl Plan](/plans-billing/selecting-plans) - Review Free plan features

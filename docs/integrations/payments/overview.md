@@ -70,7 +70,7 @@ Stripe provides comprehensive payment processing with the widest range of paymen
 
 **Typical payout:** 2 business days
 
-**Learn more:** [Stripe Integration Guide](/docs/integrations/payments/stripe-integration.md)
+**Learn more:** [Stripe Integration Guide](/integrations/payments/stripe-integration.md)
 
 ### PayPal
 
@@ -91,7 +91,7 @@ PayPal offers globally recognized payment processing with instant trust from cli
 
 **Typical payout:** 1-2 business days
 
-**Learn more:** [PayPal Integration Guide](/docs/integrations/payments/paypal-integration.md)
+**Learn more:** [PayPal Integration Guide](/integrations/payments/paypal-integration.md)
 
 ### GoCardless
 
@@ -116,7 +116,7 @@ GoCardless specializes in recurring payments and automated direct debit collecti
 - Lower fees than card payments
 - Suitable for high-value recurring payments
 
-**Learn more:** [GoCardless Integration Guide](/docs/integrations/payments/gocardless-integration.md)
+**Learn more:** [GoCardless Integration Guide](/integrations/payments/gocardless-integration.md)
 
 ## Selecting the Right Payment Gateway
 
@@ -444,15 +444,15 @@ Begin with the payment gateway that best matches your business model:
 
 ## Need More Help?
 
-**Connect Stripe:** [Stripe Integration Guide](/docs/integrations/payments/stripe-integration.md)
+**Connect Stripe:** [Stripe Integration Guide](/integrations/payments/stripe-integration.md)
 
-**Connect PayPal:** [PayPal Integration Guide](/docs/integrations/payments/paypal-integration.md)
+**Connect PayPal:** [PayPal Integration Guide](/integrations/payments/paypal-integration.md)
 
-**Connect GoCardless:** [GoCardless Integration Guide](/docs/integrations/payments/gocardless-integration.md)
+**Connect GoCardless:** [GoCardless Integration Guide](/integrations/payments/gocardless-integration.md)
 
-**Overall integrations:** [Integrations Overview](/docs/integrations/overview.md)
+**Overall integrations:** [Integrations Overview](/integrations/overview.md)
 
-**Recurring invoices:** [Creating Recurring Invoices](/docs/invoicing/create-recurring-invoices)
+**Recurring invoices:** [Creating Recurring Invoices](/invoicing/create-recurring-invoices)
 
 ---
 

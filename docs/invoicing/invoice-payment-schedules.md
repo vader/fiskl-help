@@ -12,7 +12,7 @@ This guide explains how to set up payment schedules on invoices in Fiskl, so you
 A payment schedule divides a single invoice into two to 12 scheduled payments. Each payment has its own due date and amount, giving your client a clear plan for paying over time. Payment schedules extend the deposit feature — instead of one upfront payment, you define multiple payments against the same invoice.
 
 :::info
-Payment schedules apply to a single invoice with multiple payments. If you need a separate invoice for each billing period, use [recurring invoices](/docs/invoicing/recurring-invoice-management) instead.
+Payment schedules apply to a single invoice with multiple payments. If you need a separate invoice for each billing period, use [recurring invoices](/invoicing/recurring-invoice-management) instead.
 :::
 
 ## Payment Schedule vs Recurring Invoice
@@ -69,6 +69,6 @@ Use percentage-based payments when the invoice total may change before you final
 
 ## Related Topics
 
-- [Creating invoices](/docs/invoicing/creating-invoices) — Learn how to create and send invoices
-- [Invoice deposits](/docs/invoicing/creating-invoices) — Collect upfront payments before delivering work
-- [Recurring invoices](/docs/settings/invoice-template-brands-settings) — Automate repeated billing with separate invoices
+- [Creating invoices](/invoicing/creating-invoices) — Learn how to create and send invoices
+- [Invoice deposits](/invoicing/creating-invoices) — Collect upfront payments before delivering work
+- [Recurring invoices](/settings/invoice-template-brands-settings) — Automate repeated billing with separate invoices

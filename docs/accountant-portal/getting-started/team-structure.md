@@ -194,8 +194,8 @@ This flexibility matches permissions to responsibilities per location.
 
 ## Need More Help?
 
-**Manage roles and permissions:** [Roles and Permissions](/docs/accountant-portal/team-collaboration/roles-permissions)
+**Manage roles and permissions:** [Roles and Permissions](/accountant-portal/team-collaboration/roles-permissions)
 
-**Add team members:** [Managing Team Members](/docs/accountant-portal/team-collaboration/managing-team-members)
+**Add team members:** [Managing Team Members](/accountant-portal/team-collaboration/managing-team-members)
 
-**Set up your practice:** [Setting Up Your Practice](/docs/accountant-portal/getting-started/setting-up-your-practice)
+**Set up your practice:** [Setting Up Your Practice](/accountant-portal/getting-started/setting-up-your-practice)

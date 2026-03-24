@@ -296,4 +296,4 @@ Review their role and permissions. Upgrade their role if appropriate. Explain wh
 
 - [User Roles and Permissions](./roles-permissions) - Understand what each role can access
 - [Team Members Overview](./overview) - Learn about team management concepts
-- [User Settings](/docs/settings/profile-settings) - How team members manage their own preferences
+- [User Settings](/settings/profile-settings) - How team members manage their own preferences

@@ -59,14 +59,14 @@ Before starting setup:
 
 Ready to begin? Follow this guide:
 
-1. [Setting Up Your Practice](/docs/accountant-portal/getting-started/setting-up-your-practice) - Initial account and organization setup
-2. [Configuring Branches](/docs/accountant-portal/getting-started/configuring-branches) - Create branches for your locations
-3. [Team Structure](/docs/accountant-portal/getting-started/team-structure) - Understand roles and team organization
+1. [Setting Up Your Practice](/accountant-portal/getting-started/setting-up-your-practice) - Initial account and organization setup
+2. [Configuring Branches](/accountant-portal/getting-started/configuring-branches) - Create branches for your locations
+3. [Team Structure](/accountant-portal/getting-started/team-structure) - Understand roles and team organization
 
 After completing setup, you can:
-- [Invite clients](/docs/accountant-portal/client-management/inviting-clients)
-- [Manage team permissions](/docs/accountant-portal/team-collaboration/roles-permissions)
-- [Select billing models](/docs/accountant-portal/billing-models/overview)
+- [Invite clients](/accountant-portal/client-management/inviting-clients)
+- [Manage team permissions](/accountant-portal/team-collaboration/roles-permissions)
+- [Select billing models](/accountant-portal/billing-models/overview)
 
 ---
 

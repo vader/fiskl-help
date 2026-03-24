@@ -148,7 +148,7 @@ Very long conversations can reduce accuracy. Start a fresh conversation when you
 
 ## Related Topics
 
-- [Fiskl AI Overview](/docs/ai/overview) — Learn about all AI-powered features in Fiskl
-- [Dashboard Overview](/docs/dashboard/overview) — Understand your financial dashboard
-- [Profit and Loss Report](/docs/reporting/profit-and-loss) — View your income and expenses
-- [Getting Started with Fiskl](/docs/getting-started/overview) — Learn the basics of using Fiskl
+- [Fiskl AI Overview](/ai/overview) — Learn about all AI-powered features in Fiskl
+- [Dashboard Overview](/dashboard/overview) — Understand your financial dashboard
+- [Profit and Loss Report](/reporting/profit-and-loss) — View your income and expenses
+- [Getting Started with Fiskl](/getting-started/overview) — Learn the basics of using Fiskl

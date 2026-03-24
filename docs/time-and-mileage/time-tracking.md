@@ -244,7 +244,7 @@ Check the date range and filters:
 
 ## Related Topics
 
-- [Mileage Tracking](/docs/time-and-mileage/mileage-tracking.md) - Track business travel
-- [Billing Time and Mileage](/docs/time-and-mileage/billing-time-and-mileage.md) - Add entries to invoices
-- [Creating Invoices](/docs/invoicing/creating-invoices.md) - Generate client invoices
-- [Company Settings](/docs/settings/company-settings.md) - Configure default rates
+- [Mileage Tracking](/time-and-mileage/mileage-tracking.md) - Track business travel
+- [Billing Time and Mileage](/time-and-mileage/billing-time-and-mileage.md) - Add entries to invoices
+- [Creating Invoices](/invoicing/creating-invoices.md) - Generate client invoices
+- [Company Settings](/settings/company-settings.md) - Configure default rates

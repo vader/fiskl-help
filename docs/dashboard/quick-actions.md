@@ -212,5 +212,5 @@ Always select **Save** before closing to ensure your data is retained.
 
 - [Dashboard Overview](./overview) - Learn about Dashboard widgets and sections
 - [Navigation Basics](./navigation-basics) - Master Fiskl navigation
-- [Creating Invoices](/docs/invoicing/creating-invoices.md) - Detailed invoice creation guide
-- [Tracking Time](/docs/time-and-mileage/time-tracking.md) - Complete time tracking documentation
+- [Creating Invoices](/invoicing/creating-invoices.md) - Detailed invoice creation guide
+- [Tracking Time](/time-and-mileage/time-tracking.md) - Complete time tracking documentation

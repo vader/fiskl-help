@@ -311,4 +311,4 @@ Each person should have their own account. Shared logins make it impossible to t
 
 - [Inviting and Managing Users](./inviting-users) - Add team members and manage their access
 - [Team Members Overview](./overview) - Understand team management basics
-- [User Settings](/docs/settings/profile-settings) - Manage personal account preferences
+- [User Settings](/settings/profile-settings) - Manage personal account preferences

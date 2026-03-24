@@ -54,7 +54,7 @@ Essential accounting concepts and principles that form the foundation of financi
 - Preparing for tax season
 - Making sense of financial reports
 
-**Learn more:** [Accounting Fundamentals](/docs/glossary/accounting-fundamentals)
+**Learn more:** [Accounting Fundamentals](/glossary/accounting-fundamentals)
 
 ### Assets & Liabilities
 
@@ -77,7 +77,7 @@ Terms related to what your business owns (assets) and owes (liabilities), plus o
 - Assessing business financial health
 - Planning for growth and investments
 
-**Learn more:** [Assets & Liabilities](/docs/glossary/assets-and-liabilities)
+**Learn more:** [Assets & Liabilities](/glossary/assets-and-liabilities)
 
 ### Cash and Banking
 
@@ -99,7 +99,7 @@ Banking-related terms and concepts for managing business cash and bank accounts.
 - Managing payment processing
 - Keeping accurate records
 
-**Learn more:** [Cash and Banking](/docs/glossary/cash-and-banking)
+**Learn more:** [Cash and Banking](/glossary/cash-and-banking)
 
 ### Accounts and Transactions
 
@@ -121,7 +121,7 @@ Terms related to managing financial accounts and recording business transactions
 - Maintaining accurate records
 - Preparing for financial reports
 
-**Learn more:** [Accounts and Transactions](/docs/glossary/accounts-and-transactions)
+**Learn more:** [Accounts and Transactions](/glossary/accounts-and-transactions)
 
 ### Financial Statements
 
@@ -143,7 +143,7 @@ Terms related to the major financial reports that summarize your business perfor
 - Tax preparation
 - Strategic planning
 
-**Learn more:** [Financial Statements](/docs/glossary/financial-statements)
+**Learn more:** [Financial Statements](/glossary/financial-statements)
 
 ## Common Accounting Concepts
 
@@ -198,7 +198,7 @@ This system maintains the accounting equation balance automatically.
 - Required for larger businesses
 - Matches revenue with related expenses
 
-**Learn more:** [Accounting Fundamentals](/docs/glossary/accounting-fundamentals)
+**Learn more:** [Accounting Fundamentals](/glossary/accounting-fundamentals)
 
 ## Financial Statement Overview
 
@@ -254,7 +254,7 @@ Shows cash movements over a period.
 - Manage working capital
 - Make investment decisions
 
-**Learn more:** [Financial Statements](/docs/glossary/financial-statements)
+**Learn more:** [Financial Statements](/glossary/financial-statements)
 
 ## Key Fiskl Features and Terms
 
@@ -268,7 +268,7 @@ Your Chart of Accounts in Fiskl organizes all financial accounts into five main 
 4. **Income** - Revenue from business activities
 5. **Expenses** - Costs of doing business
 
-**Learn more:** [Chart of Accounts](/docs/accounting/chart-of-accounts)
+**Learn more:** [Chart of Accounts](/accounting/chart-of-accounts)
 
 ### Reconciliation
 
@@ -281,7 +281,7 @@ The process of matching your Fiskl records with bank statements to ensure accura
 4. Make corrections
 5. Confirm balances match
 
-**Learn more:** [Reconciliation Overview](/docs/accounting/reconciliation/overview)
+**Learn more:** [Reconciliation Overview](/accounting/reconciliation/overview)
 
 ### Multi-Currency
 
@@ -303,7 +303,7 @@ Fiskl tracks various tax types automatically:
 - **Withholding Tax** - Tax withheld from payments
 - **Income Tax** - Tax on business profits
 
-**Learn more:** [Tax Settings](/docs/settings/tax-settings.md)
+**Learn more:** [Tax Settings](/settings/tax-settings.md)
 
 ## How Fiskl Uses These Terms
 
@@ -415,21 +415,21 @@ In Fiskl reports, "Revenue" and "Income" both refer to money earned from busines
 
 ## Need More Help?
 
-**Learn accounting basics:** [Accounting Fundamentals](/docs/glossary/accounting-fundamentals.md)
+**Learn accounting basics:** [Accounting Fundamentals](/glossary/accounting-fundamentals.md)
 
-**Understand financial position:** [Assets & Liabilities](/docs/glossary/assets-and-liabilities.md)
+**Understand financial position:** [Assets & Liabilities](/glossary/assets-and-liabilities.md)
 
-**Master bank reconciliation:** [Cash and Banking](/docs/glossary/cash-and-banking.md)
+**Master bank reconciliation:** [Cash and Banking](/glossary/cash-and-banking.md)
 
-**Record transactions:** [Accounts and Transactions](/docs/glossary/accounts-and-transactions.md)
+**Record transactions:** [Accounts and Transactions](/glossary/accounts-and-transactions.md)
 
-**Read financial reports:** [Financial Statements](/docs/glossary/financial-statements.md)
+**Read financial reports:** [Financial Statements](/glossary/financial-statements.md)
 
-**Get started with Fiskl:** [Getting Started Overview](/docs/getting-started/overview.md)
+**Get started with Fiskl:** [Getting Started Overview](/getting-started/overview.md)
 
-**Configure Chart of Accounts:** [Chart of Accounts](/docs/accounting/chart-of-accounts)
+**Configure Chart of Accounts:** [Chart of Accounts](/accounting/chart-of-accounts)
 
-**Generate reports:** [Financial Reports](/docs/reporting/overview.md)
+**Generate reports:** [Financial Reports](/reporting/overview.md)
 
 ---
 

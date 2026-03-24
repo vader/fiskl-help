@@ -14,11 +14,11 @@ prerequisites:
   - task: company-settings
     label: "Company details configured"
     check: "Have you set up your company name, address, and logo in Settings > Company Settings?"
-    resolve_url: /docs/settings/company-settings
+    resolve_url: /settings/company-settings
   - task: set-up-tax-rates
     label: "Tax rates configured (if applicable)"
     check: "Do you have tax rates set up? You need these if you want to display a tax ID on your invoices."
-    resolve_url: /docs/settings/tax-settings
+    resolve_url: /settings/tax-settings
 related_tutorials:
   - configure-invoice-settings
   - create-invoice
@@ -33,9 +33,9 @@ This tutorial walks you through creating an invoice template with your branding 
 
 Before you start, confirm the following:
 
-1. **Company details configured** — Your company name, address, and logo are used as defaults on every template. If not set up, go to **Settings** > **Company Settings**. See [Company Settings](/docs/settings/company-settings)
+1. **Company details configured** — Your company name, address, and logo are used as defaults on every template. If not set up, go to **Settings** > **Company Settings**. See [Company Settings](/settings/company-settings)
    app_url: https://app.fiskl.com/dashboard/settings
-2. **Tax rates configured (if applicable)** — If you want to display a tax ID on your invoices, you need a tax agency and rate set up first. See [Tax Settings](/docs/settings/tax-settings)
+2. **Tax rates configured (if applicable)** — If you want to display a tax ID on your invoices, you need a tax agency and rate set up first. See [Tax Settings](/settings/tax-settings)
    app_url: https://app.fiskl.com/dashboard/settings/taxes/agencies
 
 :::warning
@@ -96,7 +96,7 @@ Control which details appear on your invoices and quotes.
 
 - In the **Display Options** section, toggle each option on or off:
   - **Company ID** — your business registration number
-  - **Tax ID** — your tax or VAT number (must also be enabled in [Tax Settings](/docs/settings/tax-settings))
+  - **Tax ID** — your tax or VAT number (must also be enabled in [Tax Settings](/settings/tax-settings))
   - **FX rates** — exchange rates for multi-currency line items
   - **Units** — unit labels on line items
   - **Quantity** — quantity column on line items
@@ -190,7 +190,7 @@ Review the live preview to confirm everything looks correct.
 
 Now that you have set up your template, you can:
 
-- **Configure invoice settings** — Set payment terms, manual payment methods, and language preferences. See [Invoice and Quote Settings](/docs/settings/invoice-quotes-settings)
-- **Create your first invoice** — Apply your new template when billing a client. See [Creating Invoices](/docs/invoicing/creating-invoices)
-- **Send invoices** — Email invoices to clients with your branded template. See [Sending Invoices](/docs/invoicing/sending-invoices)
-- **Set up recurring invoices** — Automate regular billing with your template. See [Recurring Invoices](/docs/invoicing/create-recurring-invoices)
+- **Configure invoice settings** — Set payment terms, manual payment methods, and language preferences. See [Invoice and Quote Settings](/settings/invoice-quotes-settings)
+- **Create your first invoice** — Apply your new template when billing a client. See [Creating Invoices](/invoicing/creating-invoices)
+- **Send invoices** — Email invoices to clients with your branded template. See [Sending Invoices](/invoicing/sending-invoices)
+- **Set up recurring invoices** — Automate regular billing with your template. See [Recurring Invoices](/invoicing/create-recurring-invoices)

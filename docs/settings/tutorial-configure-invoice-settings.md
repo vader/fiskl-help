@@ -14,7 +14,7 @@ prerequisites:
   - task: company-settings
     label: "Company details configured"
     check: "Have you set up your company name, address, and base currency in Settings > Company Settings?"
-    resolve_url: /docs/settings/company-settings
+    resolve_url: /settings/company-settings
 related_tutorials:
   - configure-template-brand
   - create-invoice
@@ -29,7 +29,7 @@ This tutorial walks you through setting up your invoice defaults — payment ter
 
 Before you start, confirm the following:
 
-1. **Company details configured** — Your company name and address appear on every invoice. If not set up, go to **Settings** > **Company Settings** and enter your details. See [Company Settings](/docs/settings/company-settings)
+1. **Company details configured** — Your company name and address appear on every invoice. If not set up, go to **Settings** > **Company Settings** and enter your details. See [Company Settings](/settings/company-settings)
    app_url: https://app.fiskl.com/dashboard/settings
 
 :::warning
@@ -183,7 +183,7 @@ If you need to adapt a language for a specific region, select **Clone** next to 
 
 Now that you have configured your invoice settings, you can:
 
-- **Set up your invoice template** — Configure the visual appearance of your invoices including logo, colours, and layout. See [Templates and Brands](/docs/settings/invoice-template-brands-settings)
-- **Create your first invoice** — Use your new settings to bill a client. See [Creating Invoices](/docs/invoicing/creating-invoices)
-- **Set up tax rates** — Configure tax agencies and rates to apply on invoices. See [Tax Settings](/docs/settings/tax-settings)
-- **Connect a payment gateway** — Enable online payments through Stripe, PayPal, or GoCardless. See [Payment Gateways](/docs/integrations/payments/overview)
+- **Set up your invoice template** — Configure the visual appearance of your invoices including logo, colours, and layout. See [Templates and Brands](/settings/invoice-template-brands-settings)
+- **Create your first invoice** — Use your new settings to bill a client. See [Creating Invoices](/invoicing/creating-invoices)
+- **Set up tax rates** — Configure tax agencies and rates to apply on invoices. See [Tax Settings](/settings/tax-settings)
+- **Connect a payment gateway** — Enable online payments through Stripe, PayPal, or GoCardless. See [Payment Gateways](/integrations/payments/overview)

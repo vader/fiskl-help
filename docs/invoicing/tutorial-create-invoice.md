@@ -15,22 +15,22 @@ prerequisites:
   - task: configure-invoice-settings
     label: "Invoice settings configured"
     check: "Have you set up your payment terms and payment methods in Settings > Invoice & Quote Settings?"
-    resolve_url: /docs/settings/invoice-quotes-settings
+    resolve_url: /settings/invoice-quotes-settings
     resolve_tutorial: configure-invoice-settings
   - task: configure-template-brand
     label: "Invoice template configured"
     check: "Have you set up an invoice template with your logo and branding in Settings > Templates & Brands?"
-    resolve_url: /docs/settings/invoice-template-brands-settings
+    resolve_url: /settings/invoice-template-brands-settings
     resolve_tutorial: configure-template-brand
   - task: create-client
     label: "At least one client exists"
     check: "Do you have a client set up already, or do you need to create one?"
-    resolve_url: /docs/clients-vendors/clients
+    resolve_url: /clients-vendors/clients
     resolve_tutorial: manage-clients
   - task: set-up-tax-rates
     label: "Tax rates configured (if applicable)"
     check: "Do you need to charge tax on your invoices? If so, have you set up your tax agencies and rates?"
-    resolve_url: /docs/settings/tax-settings
+    resolve_url: /settings/tax-settings
     resolve_tutorial: set-up-tax-rates
 related_tutorials:
   - send-invoice
@@ -48,12 +48,12 @@ This tutorial walks you through creating and sending your first invoice in Fiskl
 
 Before you start, confirm the following:
 
-1. **Invoice settings configured** — Payment terms, manual payment methods, and language preferences affect every invoice you create. If not set up, go to **Settings** > **Invoice & Quote Settings**. See [Invoice and Quote Settings](/docs/settings/invoice-quotes-settings).
+1. **Invoice settings configured** — Payment terms, manual payment methods, and language preferences affect every invoice you create. If not set up, go to **Settings** > **Invoice & Quote Settings**. See [Invoice and Quote Settings](/settings/invoice-quotes-settings).
    app_url: https://app.fiskl.com/dashboard/settings/invoices/invoice-quote-settings
-2. **Invoice template configured** — Your template controls the logo, colours, layout, and display options on invoices. If not set up, go to **Settings** > **Templates & Brands**. See [Templates and Brands](/docs/settings/invoice-template-brands-settings).
+2. **Invoice template configured** — Your template controls the logo, colours, layout, and display options on invoices. If not set up, go to **Settings** > **Templates & Brands**. See [Templates and Brands](/settings/invoice-template-brands-settings).
    app_url: https://app.fiskl.com/dashboard/settings/invoices/templates
-3. **At least one client exists** — Every invoice requires a client. You can create one during invoice creation, but having one ready saves time. See [Managing Clients](/docs/clients-vendors/clients).
-4. **Tax rates configured (if applicable)** — If your business charges tax, set up your tax agencies and rates before creating invoices. See [Tax Settings](/docs/settings/tax-settings).
+3. **At least one client exists** — Every invoice requires a client. You can create one during invoice creation, but having one ready saves time. See [Managing Clients](/clients-vendors/clients).
+4. **Tax rates configured (if applicable)** — If your business charges tax, set up your tax agencies and rates before creating invoices. See [Tax Settings](/settings/tax-settings).
 
 :::warning
 If your invoice settings and template are not configured first, your invoices may display incorrect payment terms, missing logos, or no tax ID. Complete those settings before creating your first invoice.
@@ -187,7 +187,7 @@ Check the bottom of the invoice for the subtotal, tax, and total amount.
 
 Now that you have created your first invoice, you can:
 
-- **Send the invoice** — If you saved it as a draft, open it and select **Send** to email it to your client. See [Sending Invoices](/docs/invoicing/sending-invoices)
-- **Set up recurring invoices** — If you bill the same client regularly, automate it. See [Recurring Invoices](/docs/invoicing/create-recurring-invoices)
-- **Add payment schedules** — Split a single invoice into instalments. See [Payment Schedules](/docs/invoicing/invoice-payment-schedules)
-- **Customise your template** — Adjust logo, colours, and layout. See [Templates and Brands](/docs/settings/invoice-template-brands-settings)
+- **Send the invoice** — If you saved it as a draft, open it and select **Send** to email it to your client. See [Sending Invoices](/invoicing/sending-invoices)
+- **Set up recurring invoices** — If you bill the same client regularly, automate it. See [Recurring Invoices](/invoicing/create-recurring-invoices)
+- **Add payment schedules** — Split a single invoice into instalments. See [Payment Schedules](/invoicing/invoice-payment-schedules)
+- **Customise your template** — Adjust logo, colours, and layout. See [Templates and Brands](/settings/invoice-template-brands-settings)

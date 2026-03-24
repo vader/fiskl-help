@@ -47,7 +47,7 @@ Banking connections link your bank accounts, credit cards, and business accounts
 - Multi-account management
 - International businesses with multiple currencies
 
-**Learn more:** [Banking Connections](/docs/integrations/banking/overview)
+**Learn more:** [Banking Connections](/integrations/banking/overview)
 
 ### Payment Gateways
 
@@ -72,7 +72,7 @@ Payment gateways let you accept online payments directly on your Fiskl invoices 
 - International client payments
 - Improving cash flow with automated collection
 
-**Learn more:** [Payment Gateways](/docs/integrations/payments/overview)
+**Learn more:** [Payment Gateways](/integrations/payments/overview)
 
 ## How Integrations Work
 
@@ -250,13 +250,13 @@ Begin with the integration that provides the most immediate benefit:
 
 ## Need More Help?
 
-**Connect your bank:** [Banking Connections Overview](/docs/integrations/banking/overview)
+**Connect your bank:** [Banking Connections Overview](/integrations/banking/overview)
 
-**Accept payments:** [Payment Gateways Overview](/docs/integrations/payments/overview)
+**Accept payments:** [Payment Gateways Overview](/integrations/payments/overview)
 
-**Getting started guide:** [Connecting Your Bank](/docs/getting-started/connecting-your-bank)
+**Getting started guide:** [Connecting Your Bank](/getting-started/connecting-your-bank)
 
-**Import statements manually:** [Importing Data](/docs/getting-started/importing-data)
+**Import statements manually:** [Importing Data](/getting-started/importing-data)
 
 ---
 

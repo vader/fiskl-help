@@ -64,7 +64,7 @@ Configure default taxes that apply automatically to new invoices:
 
 This tax applies automatically to all line items unless you specify otherwise.
 
-**Learn more:** [Tax Settings](/docs/settings/tax-settings.md)
+**Learn more:** [Tax Settings](/settings/tax-settings.md)
 
 ## Step 2: Set Up Company Information and Branding
 
@@ -117,7 +117,7 @@ This creates separate branded invoices without multiple accounts.
 - Select which fields to display
 - Adjust spacing and formatting
 
-**Learn more:** [Invoice Templates](/docs/settings/invoice-template-brands-settings.md)
+**Learn more:** [Invoice Templates](/settings/invoice-template-brands-settings.md)
 
 ## Step 3: Configure Language Settings
 
@@ -152,7 +152,7 @@ Create custom language versions for regional dialects or specific terminology:
 
 Your custom language appears in the language selector when creating invoices.
 
-**Learn more:** [Invoice and Quote Settings](/docs/settings/invoice-quotes-settings)
+**Learn more:** [Invoice and Quote Settings](/settings/invoice-quotes-settings)
 
 ## Step 4: Configure Email Templates
 
@@ -575,12 +575,12 @@ Create invoice templates for your most common services or products. This speeds 
 
 ## Need More Help?
 
-**Configure tax settings:** [Tax Settings](/docs/settings/tax-settings.md)
+**Configure tax settings:** [Tax Settings](/settings/tax-settings.md)
 
-**Customize templates and branding:** [Invoice Templates](/docs/settings/invoice-template-brands-settings.md)
+**Customize templates and branding:** [Invoice Templates](/settings/invoice-template-brands-settings.md)
 
-**Adjust language and payment options:** [Invoice and Quote Settings](/docs/settings/invoice-quotes-settings.md)
+**Adjust language and payment options:** [Invoice and Quote Settings](/settings/invoice-quotes-settings.md)
 
-[//]: # (**Manage invoices:** [Invoice Management]&#40;/docs/invoicing/invoice-management.md&#41;)
+[//]: # (**Manage invoices:** [Invoice Management]&#40;/invoicing/invoice-management.md&#41;)
 
-**Contact support:** [Get Support](/docs/support/overview.md)
+**Contact support:** [Get Support](/support/overview.md)

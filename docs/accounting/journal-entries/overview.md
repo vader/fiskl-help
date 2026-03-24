@@ -59,17 +59,17 @@ As the business owner you would typically be adding journal entries directly to 
 
 **Journal entry guides**
 
-[//]: # (- See how to [create a manual]&#40;/docs/core-features/accounting/journal-entries/guides/manual-transactions&#41; transaction)
+[//]: # (- See how to [create a manual]&#40;/core-features/accounting/journal-entries/guides/manual-transactions&#41; transaction)
 
-[//]: # (- See how to [create a split]&#40;/docs/core-features/accounting/journal-entries/guides/match-and-split-transactions&#41; transaction)
+[//]: # (- See how to [create a split]&#40;/core-features/accounting/journal-entries/guides/match-and-split-transactions&#41; transaction)
 
-[//]: # (- See how to [create a matched]&#40;/docs/core-features/accounting/journal-entries/guides/multi-currency-transactions&#41; transaction)
+[//]: # (- See how to [create a matched]&#40;/core-features/accounting/journal-entries/guides/multi-currency-transactions&#41; transaction)
 
-[//]: # (- See how to [create an Accounts Receivable]&#40;/docs/core-features/accounting/journal-entries/guides/accounts-receivable-transactions&#41; transaction)
+[//]: # (- See how to [create an Accounts Receivable]&#40;/core-features/accounting/journal-entries/guides/accounts-receivable-transactions&#41; transaction)
 
-[//]: # (- See how to [create an Accounts Payable]&#40;/docs/core-features/accounting/journal-entries/guides/accounts-payable-transactions&#41; transaction)
+[//]: # (- See how to [create an Accounts Payable]&#40;/core-features/accounting/journal-entries/guides/accounts-payable-transactions&#41; transaction)
 
-[//]: # (- See how to [create an Opening Balance]&#40;/docs/core-features/accounting/journal-entries/guides/opening-balances&#41;)
+[//]: # (- See how to [create an Opening Balance]&#40;/core-features/accounting/journal-entries/guides/opening-balances&#41;)
 
   </TabItem>
     <TabItem value="accountant" label="Accountant" default>
@@ -141,6 +141,6 @@ Now that you understand the basics of journal entries in Fiskl, you might want t
 
 [//]: # (- See how to [create an Accounts Payable &#40;AP&#41;]&#40;Journal-Entry-Guides/create-ap-transactions.md&#41; transaction)
 
-[//]: # (- See how to [create an Opening Balance]&#40;/docs/core-features/accounting/journal-entries/guides/opening-balances&#41; transaction)
+[//]: # (- See how to [create an Opening Balance]&#40;/core-features/accounting/journal-entries/guides/opening-balances&#41; transaction)
 
 [//]: # (- Learn more about [multi journal entries]&#40;./multi-journal-entries.md&#41; used by accountants)

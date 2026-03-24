@@ -146,13 +146,13 @@ No advance setup required:
 
 Learn more about each billing model:
 
-**Implement Bill Us:** [Bill Us Model](/docs/accountant-portal/billing-models/bill-us-model)
+**Implement Bill Us:** [Bill Us Model](/accountant-portal/billing-models/bill-us-model)
 
-**Implement Client Pays:** [Client Pays Model](/docs/accountant-portal/billing-models/client-pays-model)
+**Implement Client Pays:** [Client Pays Model](/accountant-portal/billing-models/client-pays-model)
 
-**Switch models:** [Switching Billing Models](/docs/accountant-portal/billing-models/switching-billing-models)
+**Switch models:** [Switching Billing Models](/accountant-portal/billing-models/switching-billing-models)
 
-**Earn commissions:** [Partner Program](/docs/accountant-portal/partner-program/overview)
+**Earn commissions:** [Partner Program](/accountant-portal/partner-program/overview)
 
 ---
 

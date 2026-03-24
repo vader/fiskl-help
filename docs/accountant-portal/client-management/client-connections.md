@@ -157,7 +157,7 @@ Adjust how much access the client has to their own account.
 5. Select **Save Changes**
 6. Client access updates immediately
 
-**Learn more:** [Client Access Levels](/docs/accountant-portal/client-management/client-access-levels)
+**Learn more:** [Client Access Levels](/accountant-portal/client-management/client-access-levels)
 
 ### Update Team Assignments
 
@@ -528,12 +528,12 @@ Track communication history with clients.
 
 ## Need More Help?
 
-**Invite clients:** [Inviting Clients](/docs/accountant-portal/client-management/inviting-clients)
+**Invite clients:** [Inviting Clients](/accountant-portal/client-management/inviting-clients)
 
-**Accept invitations:** [Accepting Client Invitations](/docs/accountant-portal/client-management/accepting-client-invitations)
+**Accept invitations:** [Accepting Client Invitations](/accountant-portal/client-management/accepting-client-invitations)
 
-**Configure access:** [Client Access Levels](/docs/accountant-portal/client-management/client-access-levels)
+**Configure access:** [Client Access Levels](/accountant-portal/client-management/client-access-levels)
 
-**Understand billing:** [Billing Models Overview](/docs/accountant-portal/billing-models/overview)
+**Understand billing:** [Billing Models Overview](/accountant-portal/billing-models/overview)
 
-**Manage team:** [Managing Team Members](/docs/accountant-portal/team-collaboration/managing-team-members)
+**Manage team:** [Managing Team Members](/accountant-portal/team-collaboration/managing-team-members)

@@ -137,7 +137,7 @@ The right card displays your current payment method. Use this area to update car
 - You want to change payment methods
 - You need to update billing address details
 
-Learn more in [Update Billing Information](/docs/plans-billing/updating-billing-info).
+Learn more in [Update Billing Information](/plans-billing/updating-billing-info).
 
 ## What You Can Control
 
@@ -151,6 +151,6 @@ Your subscription management capabilities include:
 
 ## Related Topics
 
-- [Choose Your Fiskl Plan](/docs/plans-billing/selecting-plans) - Compare and select the right tier
-- [Update Billing Information](/docs/plans-billing/updating-billing-info) - Change payment method or address
-- [Cancel Subscription](/docs/plans-billing/canceling-subscription) - Stop renewal while keeping your data
+- [Choose Your Fiskl Plan](/plans-billing/selecting-plans) - Compare and select the right tier
+- [Update Billing Information](/plans-billing/updating-billing-info) - Change payment method or address
+- [Cancel Subscription](/plans-billing/canceling-subscription) - Stop renewal while keeping your data

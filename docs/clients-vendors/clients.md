@@ -98,7 +98,7 @@ The client list updates in real-time as you add, edit, or archive clients.
 
 ## Direct Debit Mandates
 
-Fiskl integrates with [GoCardless](/docs/integrations/payments/gocardless-integration.md) for automated Direct Debit payments. When you enable this feature, clients can authorize automatic payment collection for recurring invoices.
+Fiskl integrates with [GoCardless](/integrations/payments/gocardless-integration.md) for automated Direct Debit payments. When you enable this feature, clients can authorize automatic payment collection for recurring invoices.
 
 **Mandate statuses in the client list:**
 
@@ -136,6 +136,6 @@ Accurate client records streamline your invoicing workflow, reduce payment delay
 
 ## Related Topics
 
-- [Creating Invoices](/docs/invoicing/creating-invoices.md) - Learn how to bill clients
-- [GoCardless Integration](/docs/integrations/payments/gocardless-integration.md) - Set up automated payments
+- [Creating Invoices](/invoicing/creating-invoices.md) - Learn how to bill clients
+- [GoCardless Integration](/integrations/payments/gocardless-integration.md) - Set up automated payments
 - [Managing Vendors](./vendors) - Track businesses you pay

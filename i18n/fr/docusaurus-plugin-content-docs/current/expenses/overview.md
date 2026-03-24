@@ -48,7 +48,7 @@ Modern AI-powered expense processing with automatic data extraction.
 - Teams wanting efficiency
 - Businesses of any size
 
-**Learn more:** [AI Expenses Overview](/docs/expenses/ai-expenses/overview)
+**Learn more:** [AI Expenses Overview](/expenses/ai-expenses/overview)
 
 ### Traditional Expenses (Legacy)
 
@@ -66,7 +66,7 @@ Original expense tracking system for historical records.
 - Editing legacy records
 - Cleaning up old data
 
-**Learn more:** [Traditional Expenses Overview](/docs/expenses/traditional-expenses/overview)
+**Learn more:** [Traditional Expenses Overview](/expenses/traditional-expenses/overview)
 
 ## AI Expenses Workflow
 
@@ -147,7 +147,7 @@ Organize expenses with customizable categories for accurate reporting.
 - Track by project or department
 - Multi-level category hierarchy
 
-**Learn more:** [Expense Categories](/docs/expenses/expense-categories)
+**Learn more:** [Expense Categories](/expenses/expense-categories)
 
 ## Expense Management Features
 
@@ -270,7 +270,7 @@ Expenses integrate seamlessly with Fiskl's banking features.
 4. Confirm reconciliation
 5. Verify in reports
 
-**Learn more:** [Reconciliation](/docs/expenses/ai-expenses/reconciliation)
+**Learn more:** [Reconciliation](/expenses/ai-expenses/reconciliation)
 
 ## Expense Reporting
 
@@ -294,7 +294,7 @@ Generate comprehensive expense reports for analysis and tax preparation.
 - Drill-down to transactions
 - Visual charts and graphs
 
-**Learn more:** [Financial Reports](/docs/reporting/overview)
+**Learn more:** [Financial Reports](/reporting/overview)
 
 ## Tax and Compliance
 
@@ -499,19 +499,19 @@ If you have existing Traditional Expenses, follow this approach:
 
 ## Need More Help?
 
-**Start with AI Expenses:** [AI Expenses Overview](/docs/expenses/ai-expenses/overview)
+**Start with AI Expenses:** [AI Expenses Overview](/expenses/ai-expenses/overview)
 
-**Upload receipts:** [Uploading AI Expenses](/docs/expenses/ai-expenses/uploading)
+**Upload receipts:** [Uploading AI Expenses](/expenses/ai-expenses/uploading)
 
-**Manage expenses:** [Managing AI Expenses](/docs/expenses/ai-expenses/managing-ai-expenses)
+**Manage expenses:** [Managing AI Expenses](/expenses/ai-expenses/managing-ai-expenses)
 
-**Reconcile expenses:** [Reconciliation](/docs/expenses/ai-expenses/reconciliation)
+**Reconcile expenses:** [Reconciliation](/expenses/ai-expenses/reconciliation)
 
-**Configure categories:** [Expense Categories](/docs/expenses/expense-categories)
+**Configure categories:** [Expense Categories](/expenses/expense-categories)
 
-**Connect banking:** [Banking Connections](/docs/integrations/banking/overview)
+**Connect banking:** [Banking Connections](/integrations/banking/overview)
 
-**View legacy data:** [Traditional Expenses](/docs/expenses/traditional-expenses/overview)
+**View legacy data:** [Traditional Expenses](/expenses/traditional-expenses/overview)
 
 ---
 

@@ -267,10 +267,10 @@ Once you accept an invitation, begin working with your new client.
 
 ## Need More Help?
 
-**Invite clients to you:** [Inviting Clients](/docs/accountant-portal/client-management/inviting-clients)
+**Invite clients to you:** [Inviting Clients](/accountant-portal/client-management/inviting-clients)
 
-**Understand Client Pays model:** [Client Pays Model](/docs/accountant-portal/billing-models/client-pays-model)
+**Understand Client Pays model:** [Client Pays Model](/accountant-portal/billing-models/client-pays-model)
 
-**Manage client connections:** [Client Connections](/docs/accountant-portal/client-management/client-connections)
+**Manage client connections:** [Client Connections](/accountant-portal/client-management/client-connections)
 
-**Set client access levels:** [Client Access Levels](/docs/accountant-portal/client-management/client-access-levels)
+**Set client access levels:** [Client Access Levels](/accountant-portal/client-management/client-access-levels)

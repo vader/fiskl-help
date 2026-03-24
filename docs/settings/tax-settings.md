@@ -26,7 +26,7 @@ Before you can create a tax rate, you must first set up a tax agency. The tax ag
 
 A tax agency represents the authority you pay taxes to, such as HMRC, the IRS, or a regional VAT office. Each tax agency is associated with a specific country and currency.
 
-When you create a tax agency, Fiskl automatically creates a matching **Liability** ledger account in your [Chart of Accounts](/docs/accounting/chart-of-accounts). All transactions involving taxes linked to that agency are recorded as journal entries in this ledger account. If you rename a tax agency, the corresponding ledger account is also renamed.
+When you create a tax agency, Fiskl automatically creates a matching **Liability** ledger account in your [Chart of Accounts](/accounting/chart-of-accounts). All transactions involving taxes linked to that agency are recorded as journal entries in this ledger account. If you rename a tax agency, the corresponding ledger account is also renamed.
 
 ### Set up a tax agency
 
@@ -123,13 +123,13 @@ A tax rate inherits its currency from the assigned tax agency. To use a differen
 <details>
 <summary>Missing ledger account for a tax agency</summary>
 
-Fiskl creates a Liability ledger account automatically when you add a tax agency. If the account is missing, check the [Chart of Accounts](/docs/accounting/chart-of-accounts) for an account with the same name as your tax agency.
+Fiskl creates a Liability ledger account automatically when you add a tax agency. If the account is missing, check the [Chart of Accounts](/accounting/chart-of-accounts) for an account with the same name as your tax agency.
 
 </details>
 
 ## Related Topics
 
-- [Chart of Accounts](/docs/accounting/chart-of-accounts) — Manage your ledger accounts, including auto-created tax liability accounts
-- [Accounting Settings](/docs/settings/accounting-settings) — Configure your accounting preferences
-- [Creating Invoices](/docs/invoicing/creating-invoices) — Apply tax rates when billing clients
-- [Sales Tax Report](/docs/reporting/sales-tax) — Review your tax liabilities and filings
+- [Chart of Accounts](/accounting/chart-of-accounts) — Manage your ledger accounts, including auto-created tax liability accounts
+- [Accounting Settings](/settings/accounting-settings) — Configure your accounting preferences
+- [Creating Invoices](/invoicing/creating-invoices) — Apply tax rates when billing clients
+- [Sales Tax Report](/reporting/sales-tax) — Review your tax liabilities and filings

@@ -25,7 +25,7 @@ This guide explains how to create invoices in Fiskl and helps you bill clients p
 Three things must be in place before you can create a complete, sendable invoice:
 
 1. **Company Settings are complete** — Your company name and address appear on every invoice. Go to **Settings** > **Company Settings** and confirm your details are correct.
-2. **A client exists** — Every invoice requires a client. You can create one during invoice creation, but having clients set up in advance is faster. See [Managing Clients](/docs/clients-vendors/clients).
+2. **A client exists** — Every invoice requires a client. You can create one during invoice creation, but having clients set up in advance is faster. See [Managing Clients](/clients-vendors/clients).
 3. **A payment method is set up** — Without this, your client cannot pay online. Set up an integrated gateway like **Stripe** or a manual payment method in **Settings** > **Payment Methods**.
 
 :::warning
@@ -223,7 +223,7 @@ Split a single invoice into two to twelve instalments using payment schedules.
 Each instalment can be a fixed amount or a percentage of the total. Fiskl tracks each instalment's payment status separately.
 
 :::tip
-Use payment schedules for short-term instalment billing. For long-term or indefinitely recurring billing, use [Recurring Invoices](/docs/invoicing/recurring-invoice-management) instead.
+Use payment schedules for short-term instalment billing. For long-term or indefinitely recurring billing, use [Recurring Invoices](/invoicing/recurring-invoice-management) instead.
 :::
 
 ---
@@ -276,9 +276,9 @@ Template changes apply globally to all invoices using that template. If you need
 
 ## Related Topics
 
-- [Invoice Management](/docs/invoicing/invoice-management) — Edit, duplicate, void, and archive invoices
-- [Sending Invoices](/docs/invoicing/sending-invoices) — Email options, reminders, and client view
-- [Recurring Invoices](/docs/invoicing/recurring-invoice-management) — Automate regular billing
-- [Tax Settings](/docs/settings/tax-settings) — Configure tax rates and display options
-- [Managing Clients](/docs/clients-vendors/clients) — Set up client profiles and defaults
-- [Payment Gateways](/docs/integrations/payments/overview) — Connect Stripe and other payment methods
+- [Invoice Management](/invoicing/invoice-management) — Edit, duplicate, void, and archive invoices
+- [Sending Invoices](/invoicing/sending-invoices) — Email options, reminders, and client view
+- [Recurring Invoices](/invoicing/recurring-invoice-management) — Automate regular billing
+- [Tax Settings](/settings/tax-settings) — Configure tax rates and display options
+- [Managing Clients](/clients-vendors/clients) — Set up client profiles and defaults
+- [Payment Gateways](/integrations/payments/overview) — Connect Stripe and other payment methods

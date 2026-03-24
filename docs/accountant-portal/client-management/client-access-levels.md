@@ -534,12 +534,12 @@ Access levels support data security and compliance requirements.
 
 ## Need More Help?
 
-**Manage connections:** [Client Connections](/docs/accountant-portal/client-management/client-connections)
+**Manage connections:** [Client Connections](/accountant-portal/client-management/client-connections)
 
-**Invite clients:** [Inviting Clients](/docs/accountant-portal/client-management/inviting-clients)
+**Invite clients:** [Inviting Clients](/accountant-portal/client-management/inviting-clients)
 
-**Accept invitations:** [Accepting Client Invitations](/docs/accountant-portal/client-management/accepting-client-invitations)
+**Accept invitations:** [Accepting Client Invitations](/accountant-portal/client-management/accepting-client-invitations)
 
-**Understand roles:** [Roles and Permissions](/docs/accountant-portal/team-collaboration/roles-permissions)
+**Understand roles:** [Roles and Permissions](/accountant-portal/team-collaboration/roles-permissions)
 
-**Set up services:** [Client Management Overview](/docs/accountant-portal/client-management/overview)
+**Set up services:** [Client Management Overview](/accountant-portal/client-management/overview)

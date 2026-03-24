@@ -211,6 +211,6 @@ The Reimbursables account balance will show zero when all expenses are reimburse
 
 ## Related Topics
 
-- [Chart of Accounts](/docs/accounting/chart-of-accounts) - Learn about account types and setup
-- [Manual Transactions](/docs/accounting/journal-entries/overview) - Understanding transaction entries
-- [Expense Management](/docs/expenses/overview) - Complete guide to tracking expenses
+- [Chart of Accounts](/accounting/chart-of-accounts) - Learn about account types and setup
+- [Manual Transactions](/accounting/journal-entries/overview) - Understanding transaction entries
+- [Expense Management](/expenses/overview) - Complete guide to tracking expenses

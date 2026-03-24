@@ -232,5 +232,5 @@ Product templates store one default price. Adjust the unit price on individual i
 ## Related Topics
 
 - [Managing Services](./managing-services) - Create service templates for intangible offerings
-- [Creating Invoices](/docs/invoicing/creating-invoices.md) - Use products when building invoices
+- [Creating Invoices](/invoicing/creating-invoices.md) - Use products when building invoices
 - [Managing Your Catalog](./managing-catalog.md) - Organize and maintain your products and services

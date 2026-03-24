@@ -145,13 +145,13 @@ Before deleting, consider these options:
 - Keep your data while stopping charges
 - Maintain access to the Free plan
 - Easy to re-subscribe if you return
-- Learn more in [Cancel Subscription](/docs/plans-billing/canceling-subscription)
+- Learn more in [Cancel Subscription](/plans-billing/canceling-subscription)
 
 **Downgrade to Free:**
 - Access basic features without cost
 - Keep your data intact
 - No billing or payment required
-- See [Choose Your Fiskl Plan](/docs/plans-billing/selecting-plans)
+- See [Choose Your Fiskl Plan](/plans-billing/selecting-plans)
 
 **Export and pause:**
 - Download all your data
@@ -180,6 +180,6 @@ If you delete your account and later want to use Fiskl again:
 
 ## Related Topics
 
-- [Cancel Subscription](/docs/plans-billing/canceling-subscription) - Stop billing while keeping your data
-- [Manage Your Subscription](/docs/plans-billing/managing-subscription) - Downgrade to a lower plan
-- [Choose Your Fiskl Plan](/docs/plans-billing/selecting-plans) - Learn about the Free plan option
+- [Cancel Subscription](/plans-billing/canceling-subscription) - Stop billing while keeping your data
+- [Manage Your Subscription](/plans-billing/managing-subscription) - Downgrade to a lower plan
+- [Choose Your Fiskl Plan](/plans-billing/selecting-plans) - Learn about the Free plan option

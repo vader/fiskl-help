@@ -93,7 +93,7 @@ Money owed to your business by clients or customers for goods or services delive
 **In Fiskl**: Accounts receivable automatically increase when you send invoices and decrease when you receive payments.
 
 :::tip
-Monitor your accounts receivable with the [Client Aging Report](/docs/reporting/client-aging) to track overdue invoices and improve collections.
+Monitor your accounts receivable with the [Client Aging Report](/reporting/client-aging) to track overdue invoices and improve collections.
 :::
 
 ## Receivables {#receivables}

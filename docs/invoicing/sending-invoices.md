@@ -42,7 +42,7 @@ Standard emails are HTML-formatted and provided by Fiskl. They offer the followi
 
 ##### Custom Emails
 
-Custom emails allow you to create unique, company-specific messages. You can set these up in [Templates and Brands](/docs/settings/invoice-template-brands-settings#custom-emails) for various scenarios, such as:
+Custom emails allow you to create unique, company-specific messages. You can set these up in [Templates and Brands](/settings/invoice-template-brands-settings#custom-emails) for various scenarios, such as:
 
 - Overdue reminders
 - Deposit requests
@@ -70,11 +70,11 @@ You add CC and or BCC addresses.
 To add a CC or BCC type the email into the respective input fields.
 
 :::info[tip]
-To send emails from your own domain, you can whitelist it in [Invoice & quote settings](/docs/settings/invoice-quotes-settings).
+To send emails from your own domain, you can whitelist it in [Invoice & quote settings](/settings/invoice-quotes-settings).
 :::
 
 :::info[tip]
-You can add a default BCC to every email in (Invoice & Quote Settings)[/docs/settings/invoice-quotes-settings#bcc-for-all-emails]
+You can add a default BCC to every email in (Invoice & Quote Settings)[/settings/invoice-quotes-settings#bcc-for-all-emails]
 :::
 
 ### Share Link

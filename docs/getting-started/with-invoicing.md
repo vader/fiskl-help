@@ -28,7 +28,7 @@ that best suit your needs.
 1. Check and adjust the invoice address format if necessary
 1. Add and size your logo
 
-[//]: # (Learn more about [Company settings]&#40;/docs/settings/company-settings&#41;)
+[//]: # (Learn more about [Company settings]&#40;/settings/company-settings&#41;)
 
 </LayoutPair>
 
@@ -45,7 +45,7 @@ that best suit your needs.
 3. Review the pre-set payment terms (days)
 4. Add notes to appear on every invoice
 
-[//]: # (Learn more about [Invoice settings]&#40;/docs/settings/invoice-quotes-settings&#41;)
+[//]: # (Learn more about [Invoice settings]&#40;/settings/invoice-quotes-settings&#41;)
 
 </LayoutPair>
 
@@ -63,7 +63,7 @@ that best suit your needs.
 4. Style your invoice with colors, fonts, and display options
 5. Add attachments to include with each invoice
 
-[//]: # (Learn more about [Templates & brands]&#40;/docs/settings/invoice-template-brands-settings&#41;)
+[//]: # (Learn more about [Templates & brands]&#40;/settings/invoice-template-brands-settings&#41;)
 
 </LayoutPair>
 
@@ -85,7 +85,7 @@ that best suit your needs.
     - iDeal (Netherlands)
     - Bancontact (Belgium)
 
-[//]: # (Learn more about [Payment integrations]&#40;/docs/category/payment-gateways&#41;)
+[//]: # (Learn more about [Payment integrations]&#40;/category/payment-gateways&#41;)
 
 </LayoutPair>
 
@@ -101,7 +101,7 @@ that best suit your needs.
 2. Add a manual payment method
 3. Add name, customer notes, and payment details
 
-[//]: # (Learn more about [Manual payment methods]&#40;/docs/settings/invoice-quotes-settings#payment-methods&#41;)
+[//]: # (Learn more about [Manual payment methods]&#40;/settings/invoice-quotes-settings#payment-methods&#41;)
 
 </LayoutPair>
 
@@ -132,11 +132,11 @@ that best suit your needs.
 1. Open `Sales` from the left menu, choose `Invoices`
 2. Click the plus button
 
-[//]: # (3. Add a [client]&#40;../Core-Features/Clients-Vendors/clients.md&#41; and [line items]&#40;/docs/category/line-items&#41;)
+[//]: # (3. Add a [client]&#40;../Core-Features/Clients-Vendors/clients.md&#41; and [line items]&#40;/category/line-items&#41;)
 
 4. Save and review
 
-[//]: # (Learn more about [Creating invoices]&#40;/docs/core-features/invoicing/creating-invoices.md&#41;)
+[//]: # (Learn more about [Creating invoices]&#40;/core-features/invoicing/creating-invoices.md&#41;)
 
 </LayoutPair>
 
@@ -146,7 +146,7 @@ that best suit your needs.
 
 [//]: # (   <div className="card-grid invoicing-cards">)
 
-[//]: # (      <a href="/docs/getting-started/accounting#connect-your-bank">)
+[//]: # (      <a href="/getting-started/accounting#connect-your-bank">)
 
 [//]: # (         <div className="container_card">)
 
@@ -177,7 +177,7 @@ that best suit your needs.
 [//]: # (      </a>)
 
 [//]: # (   )
-[//]: # (   <a href="/docs/settings/tax-settings.md">)
+[//]: # (   <a href="/settings/tax-settings.md">)
 
 [//]: # (   <div className="container_card">)
 

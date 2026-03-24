@@ -50,7 +50,7 @@ Configure your business identity and basic company information.
 - Compliance requirements
 - Professional presentation
 
-**Learn more:** [Company Settings](/docs/settings/company-settings.md)
+**Learn more:** [Company Settings](/settings/company-settings.md)
 
 ### Profile Settings
 
@@ -79,7 +79,7 @@ Manage your personal user account preferences and security.
 - Setting personal billing rates
 - Language preferences
 
-**Learn more:** [Profile Settings](/docs/settings/profile-settings.md)
+**Learn more:** [Profile Settings](/settings/profile-settings.md)
 
 ### Tax Settings
 
@@ -108,7 +108,7 @@ Configure tax rates, rules, and reporting requirements.
 - Tax reporting preparation
 - International business
 
-**Learn more:** [Tax Settings](/docs/settings/tax-settings.md)
+**Learn more:** [Tax Settings](/settings/tax-settings.md)
 
 ### Invoice & Quote Settings
 
@@ -138,7 +138,7 @@ Configure defaults for invoices and quotes.
 - Payment automation
 - Clear terms and conditions
 
-**Learn more:** [Invoice & Quote Settings](/docs/settings/invoice-quotes-settings.md)
+**Learn more:** [Invoice & Quote Settings](/settings/invoice-quotes-settings.md)
 
 ### Invoice Templates & Brands
 
@@ -168,7 +168,7 @@ Design and manage invoice templates with custom branding.
 - Visual differentiation
 - Marketing consistency
 
-**Learn more:** [Invoice Templates & Brands](/docs/settings/invoice-template-brands-settings.md)
+**Learn more:** [Invoice Templates & Brands](/settings/invoice-template-brands-settings.md)
 
 ### Accounting Settings
 
@@ -197,7 +197,7 @@ Configure accounting-related preferences and options.
 - Accountant collaboration
 - Audit preparation
 
-**Learn more:** [Accounting Settings](/docs/settings/accounting-settings.md)
+**Learn more:** [Accounting Settings](/settings/accounting-settings.md)
 
 ### Currency Management
 
@@ -226,7 +226,7 @@ Manage multiple currencies and exchange rates.
 - Global client base
 - Currency risk management
 
-**Learn more:** [Currency Management](/docs/settings/currency-management.md)
+**Learn more:** [Currency Management](/settings/currency-management.md)
 
 ## Settings Hierarchy
 
@@ -518,23 +518,23 @@ Settings interact with various Fiskl features:
 
 ## Need More Help?
 
-**Configure company details:** [Company Settings](/docs/settings/company-settings.md)
+**Configure company details:** [Company Settings](/settings/company-settings.md)
 
-**Manage personal preferences:** [Profile Settings](/docs/settings/profile-settings.md)
+**Manage personal preferences:** [Profile Settings](/settings/profile-settings.md)
 
-**Set up taxes:** [Tax Settings](/docs/settings/tax-settings.md)
+**Set up taxes:** [Tax Settings](/settings/tax-settings.md)
 
-**Customize invoices:** [Invoice & Quote Settings](/docs/settings/invoice-quotes-settings.md)
+**Customize invoices:** [Invoice & Quote Settings](/settings/invoice-quotes-settings.md)
 
-**Design templates:** [Invoice Templates & Brands](/docs/settings/invoice-template-brands-settings.md)
+**Design templates:** [Invoice Templates & Brands](/settings/invoice-template-brands-settings.md)
 
-**Configure accounting:** [Accounting Settings](/docs/settings/accounting-settings.md)
+**Configure accounting:** [Accounting Settings](/settings/accounting-settings.md)
 
-**Manage currencies:** [Currency Management](/docs/settings/currency-management.md)
+**Manage currencies:** [Currency Management](/settings/currency-management.md)
 
-**Get started:** [Getting Started Overview](/docs/getting-started/overview.md)
+**Get started:** [Getting Started Overview](/getting-started/overview.md)
 
-**Understand Chart of Accounts:** [Chart of Accounts](/docs/accounting/chart-of-accounts)
+**Understand Chart of Accounts:** [Chart of Accounts](/accounting/chart-of-accounts)
 
 ---
 

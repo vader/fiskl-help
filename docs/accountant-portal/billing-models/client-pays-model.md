@@ -104,6 +104,6 @@ You cannot move clients between branches after creation. Choose the appropriate 
 
 ## Related Topics
 
-- [Partner Program Overview](/docs/accountant-portal/partner-program/overview) - Earn referral revenue
-- [Bill Us Model](/docs/accountant-portal/billing-models/bill-us-model) - Alternative billing option
-- [Managing Team Access](/docs/accountant-portal/team-collaboration/managing-team-members) - Control permissions
+- [Partner Program Overview](/accountant-portal/partner-program/overview) - Earn referral revenue
+- [Bill Us Model](/accountant-portal/billing-models/bill-us-model) - Alternative billing option
+- [Managing Team Access](/accountant-portal/team-collaboration/managing-team-members) - Control permissions

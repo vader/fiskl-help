@@ -129,7 +129,7 @@ Yodlee supports most banks in the United States, Canada, and South Africa. If yo
 2. Check if your bank is listed under a parent company name
 3. Try browsing by region instead of searching
 
-If you still can't find your bank, try [connecting with Salt Edge](/docs/integrations/banking/connecting-saltedge) as an alternative.
+If you still can't find your bank, try [connecting with Salt Edge](/integrations/banking/connecting-saltedge) as an alternative.
 </details>
 
 <details>
@@ -148,8 +148,8 @@ Set a calendar reminder to check your connections every 30 days to avoid interru
 
 ## Related Topics
 
-- [Connect with Salt Edge](/docs/integrations/banking/connect-saltedge.md)
-- [Manage bank transactions](/docs/accounting/journal-entries/overview.md) - Categorize and reconcile imported transactions
-- [Multi-currency accounting](/docs/accounting/journal-entries/guides/multi-currency-transactions.md) - Handle transactions in multiple currencies
-- [Reconciliation](/docs/accounting/reconciliation/overview.md) - Reconcile your accounts and verify accuracy
-- [Banking overview](/docs/integrations/banking/overview.md) - Learn about Fiskl Banking features
+- [Connect with Salt Edge](/integrations/banking/connect-saltedge.md)
+- [Manage bank transactions](/accounting/journal-entries/overview.md) - Categorize and reconcile imported transactions
+- [Multi-currency accounting](/accounting/journal-entries/guides/multi-currency-transactions.md) - Handle transactions in multiple currencies
+- [Reconciliation](/accounting/reconciliation/overview.md) - Reconcile your accounts and verify accuracy
+- [Banking overview](/integrations/banking/overview.md) - Learn about Fiskl Banking features

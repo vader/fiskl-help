@@ -136,5 +136,5 @@ If the connection shows as active but transactions don't sync:
 
 ## Related Topics
 
-- [Reconciling accounts](/docs/accounting/reconciliation/overview.md)
-- [Banking overview](/docs/integrations/overview.md)
+- [Reconciling accounts](/accounting/reconciliation/overview.md)
+- [Banking overview](/integrations/overview.md)

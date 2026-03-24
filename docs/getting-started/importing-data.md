@@ -380,10 +380,10 @@ Import historical data during your initial Fiskl setup, before your busy season.
 
 ## Need More Help?
 
-**Learn about automated connections:** [Connecting Your Bank](/docs/getting-started/connecting-your-bank.md)
+**Learn about automated connections:** [Connecting Your Bank](/getting-started/connecting-your-bank.md)
 
-**Understand reconciliation:** [Reconciliation Overview](/docs/accounting/reconciliation/overview.md)
+**Understand reconciliation:** [Reconciliation Overview](/accounting/reconciliation/overview.md)
 
-**Set up your Chart of Accounts:** [Chart of Accounts](/docs/accounting/chart-of-accounts)
+**Set up your Chart of Accounts:** [Chart of Accounts](/accounting/chart-of-accounts)
 
-**Contact support:** [Get Support](/docs/support/overview.md)
+**Contact support:** [Get Support](/support/overview.md)

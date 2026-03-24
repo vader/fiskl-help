@@ -189,7 +189,7 @@ Connect expense categories to your accounting structure.
 | Software Subscriptions | 6400 - Technology Expenses |
 | Legal Fees | 6500 - Professional Services |
 
-**Learn more:** [Chart of Accounts](/docs/accounting/chart-of-accounts)
+**Learn more:** [Chart of Accounts](/accounting/chart-of-accounts)
 
 ## Tax Treatment of Categories
 
@@ -384,7 +384,7 @@ Generate reports based on expense categories.
 - Operating profit by period
 - Multi-period comparison
 
-**Learn more:** [Financial Reports](/docs/reporting/overview)
+**Learn more:** [Financial Reports](/reporting/overview)
 
 ## Best Practices
 
@@ -535,12 +535,12 @@ Generate reports based on expense categories.
 
 ## Need More Help?
 
-**Upload expenses:** [AI Expenses Overview](/docs/expenses/ai-expenses/overview)
+**Upload expenses:** [AI Expenses Overview](/expenses/ai-expenses/overview)
 
-**Reconcile expenses:** [Reconciliation](/docs/expenses/ai-expenses/reconciliation)
+**Reconcile expenses:** [Reconciliation](/expenses/ai-expenses/reconciliation)
 
-**Configure accounts:** [Chart of Accounts](/docs/accounting/chart-of-accounts)
+**Configure accounts:** [Chart of Accounts](/accounting/chart-of-accounts)
 
-**Generate reports:** [Financial Reports](/docs/reporting/overview)
+**Generate reports:** [Financial Reports](/reporting/overview)
 
-**Tax settings:** [Tax Settings](/docs/settings/tax-settings.md)
+**Tax settings:** [Tax Settings](/settings/tax-settings.md)

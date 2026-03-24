@@ -540,7 +540,7 @@ npm run dev
 
 **Internal links** - Use relative paths:
 ```markdown
-Learn more about [invoices](/docs/invoicing/overview)
+Learn more about [invoices](/invoicing/overview)
 ```
 
 **External links** - Use full URLs:
@@ -549,10 +549,10 @@ Visit [our website](https://fiskl.com)
 ```
 
 **Descriptive anchor text:**
-✅ "Learn about [tax calculations](/docs/tax)"
-✅ "See the [API documentation](/docs/api)"
-❌ "Click [here](/docs/tax) for tax info"
-❌ "[This page](/docs/api) has more details"
+✅ "Learn about [tax calculations](/tax)"
+✅ "See the [API documentation](/api)"
+❌ "Click [here](/tax) for tax info"
+❌ "[This page](/api) has more details"
 
 <###############MARKDOWN_PATTERNS##################>
 
@@ -685,8 +685,8 @@ Before you begin:
 
 ## Related Features
 
-- [Feature one](/docs/path)
-- [Feature two](/docs/path)
+- [Feature one](/path)
+- [Feature two](/path)
 ```
 
 ## Opening Summary Pattern
@@ -1160,11 +1160,11 @@ This helps AI understand relationships between topics.
 
 **Use meaningful anchor text:**
 
-✅ "Learn about [tax calculations](/docs/tax)"
-✅ "See [how to create invoices](/docs/invoicing/create)"
+✅ "Learn about [tax calculations](/tax)"
+✅ "See [how to create invoices](/invoicing/create)"
 
-❌ "Click [here](/docs/tax)"
-❌ "[This](/docs/invoicing/create) shows you how"
+❌ "Click [here](/tax)"
+❌ "[This](/invoicing/create) shows you how"
 
 ### 4. Keyword Distribution
 
@@ -1200,8 +1200,8 @@ At the end of pages, include:
 ```markdown
 ## Related Topics
 
-- [Topic One](/docs/path) - Brief description
-- [Topic Two](/docs/path) - Brief description
+- [Topic One](/path) - Brief description
+- [Topic Two](/path) - Brief description
 ```
 
 <###############RAG_OPTIMIZATION_RULES###########>
@@ -1364,12 +1364,12 @@ This guide explains how to create invoices in Fiskl and helps you bill clients p
 
 **Wrong:**
 ```markdown
-For more information about taxes, click [here](/docs/tax).
+For more information about taxes, click [here](/tax).
 ```
 
 **Correct:**
 ```markdown
-Learn more about [tax calculations and rates](/docs/tax).
+Learn more about [tax calculations and rates](/tax).
 ```
 
 ### ❌ Vague Alt Text

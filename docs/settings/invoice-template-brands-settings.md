@@ -71,7 +71,7 @@ Not all fonts support non-Latin scripts such as Chinese, Cyrillic, or Arabic whe
 Toggle visibility for the following elements on your invoices and quotes:
 
 - Company ID
-- Tax ID (must also be enabled in [Tax Settings](/docs/settings/tax-settings))
+- Tax ID (must also be enabled in [Tax Settings](/settings/tax-settings))
 - FX rates for multi-currency line items
 - Units
 - Quantity
@@ -122,7 +122,7 @@ Template changes apply globally to all documents using that template. To preserv
 
 ## Related Topics
 
-- [Invoice and Quote Settings](/docs/settings/invoice-quotes-settings) — Configure payment terms, manual payment methods, languages, and email delivery
-- [Tax Settings](/docs/settings/tax-settings) — Set up tax agencies and rates that appear on your invoices
-- [Creating Invoices](/docs/invoicing/creating-invoices) — Apply templates when creating invoices
-- [Company Settings](/docs/settings/company-settings) — Set your default company details that appear on templates
+- [Invoice and Quote Settings](/settings/invoice-quotes-settings) — Configure payment terms, manual payment methods, languages, and email delivery
+- [Tax Settings](/settings/tax-settings) — Set up tax agencies and rates that appear on your invoices
+- [Creating Invoices](/invoicing/creating-invoices) — Apply templates when creating invoices
+- [Company Settings](/settings/company-settings) — Set your default company details that appear on templates

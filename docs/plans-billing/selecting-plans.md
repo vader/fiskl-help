@@ -90,6 +90,6 @@ Your data remains intact. If you re-subscribe later, all information will be ava
 
 ## Related Topics
 
-- [Manage Your Subscription](/docs/plans-billing/managing-subscription) - Upgrade, downgrade, and view billing history
-- [Apply Offer Codes](/docs/plans-billing/applying-offer-codes) - Use discount and partner codes
-- [Cancel Subscription](/docs/plans-billing/canceling-subscription) - Stop renewal while keeping your data
+- [Manage Your Subscription](/plans-billing/managing-subscription) - Upgrade, downgrade, and view billing history
+- [Apply Offer Codes](/plans-billing/applying-offer-codes) - Use discount and partner codes
+- [Cancel Subscription](/plans-billing/canceling-subscription) - Stop renewal while keeping your data

@@ -177,7 +177,7 @@ Your tax rates and groups are now available throughout Fiskl.
 
 Now that you have set up your tax rates, you can:
 
-- **Create an invoice** — Apply your new tax rates when billing clients. See [Creating Invoices](/docs/invoicing/creating-invoices)
-- **Record expenses** — Assign tax rates to your business expenses. See [Expenses Overview](/docs/expenses/overview)
-- **Run a sales tax report** — Review your tax liabilities across a date range. See [Sales Tax Report](/docs/reporting/sales-tax)
-- **Manage your Chart of Accounts** — Review the auto-created tax liability accounts. See [Chart of Accounts](/docs/accounting/chart-of-accounts)
+- **Create an invoice** — Apply your new tax rates when billing clients. See [Creating Invoices](/invoicing/creating-invoices)
+- **Record expenses** — Assign tax rates to your business expenses. See [Expenses Overview](/expenses/overview)
+- **Run a sales tax report** — Review your tax liabilities across a date range. See [Sales Tax Report](/reporting/sales-tax)
+- **Manage your Chart of Accounts** — Review the auto-created tax liability accounts. See [Chart of Accounts](/accounting/chart-of-accounts)

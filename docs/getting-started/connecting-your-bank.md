@@ -104,9 +104,9 @@ If you operate in multiple regions, connect accounts from different providers in
 :::
 
 **Detailed provider guides:**
-- [Connect via Salt Edge](/docs/integrations/banking/connect-saltedge.md)
-- [Connect via Yodlee](/docs/integrations/banking/connect-yodlee.md)
-- [Connect Wio Bank](/docs/integrations/banking/connect-wio.md)
+- [Connect via Salt Edge](/integrations/banking/connect-saltedge.md)
+- [Connect via Yodlee](/integrations/banking/connect-yodlee.md)
+- [Connect Wio Bank](/integrations/banking/connect-wio.md)
 
 ### Connect Stripe
 
@@ -120,7 +120,7 @@ Stripe integration automatically imports payment data, fees, and payouts.
 
 Stripe data syncs daily and appears in your **Banking** tab alongside bank transactions.
 
-**Learn more:** [Connect Stripe](/docs/integrations/banking/connect-stripe.md)
+**Learn more:** [Connect Stripe](/integrations/banking/connect-stripe.md)
 
 ### Manual Bank Statement Import
 
@@ -239,10 +239,10 @@ Set aside 15-30 minutes weekly to review and categorize new transactions. This r
 
 ## Need More Help?
 
-**Explore detailed provider guides:** [Banking Connections Overview](/docs/integrations/banking/overview.md)
+**Explore detailed provider guides:** [Banking Connections Overview](/integrations/banking/overview.md)
 
-**Learn about reconciliation:** [Reconciliation Overview](/docs/accounting/reconciliation/overview.md)
+**Learn about reconciliation:** [Reconciliation Overview](/accounting/reconciliation/overview.md)
 
-**Import historical data:** [Importing Data](/docs/getting-started/importing-data.md)
+**Import historical data:** [Importing Data](/getting-started/importing-data.md)
 
-**Contact support:** [Get Support](/docs/support/overview.md)
+**Contact support:** [Get Support](/support/overview.md)

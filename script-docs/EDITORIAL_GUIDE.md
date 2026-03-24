@@ -540,11 +540,11 @@ Go to the Dashboard.
 
 ❌ **Poor link text:**
 ```markdown
-For more information, click [here](/docs/invoicing).
+For more information, click [here](/invoicing).
 ```
 ✅ **Descriptive link text:**
 ```markdown
-Learn more about [creating and managing invoices](/docs/invoicing).
+Learn more about [creating and managing invoices](/invoicing).
 ```
 
 ---

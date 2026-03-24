@@ -45,7 +45,7 @@ Your transactions will sync automatically within minutes.
 If you take payments through Stripe (either in Fiskl or externally), connect your Stripe account to automatically import payment data and reconcile against invoices.
 :::
 
-**Learn more:** [Connecting Your Bank](/docs/getting-started/connecting-your-bank.md)
+**Learn more:** [Connecting Your Bank](/getting-started/connecting-your-bank.md)
 
 ### 2. Set Up Invoicing
 
@@ -71,7 +71,7 @@ Professional invoicing helps you get paid faster and maintains your brand consis
 
 After connecting payment gateways, clients can pay invoices directly online.
 
-**Learn more:** [Your First Invoice](/docs/getting-started/your-first-invoice.md)
+**Learn more:** [Your First Invoice](/getting-started/your-first-invoice.md)
 
 ### 3. Complete Your Business Settings
 
@@ -91,7 +91,7 @@ Accurate business information ensures your invoices, reports, and tax filings ar
 3. Set your fiscal year start date
 4. Select your accounting method (Cash or Accrual)
 
-**Learn more:** [Profile Settings](/docs/settings/profile-settings.md)
+**Learn more:** [Profile Settings](/settings/profile-settings.md)
 
 ### 4. Configure Tax Settings
 
@@ -138,7 +138,7 @@ The Chart of Accounts is the foundation of your financial reporting. Fiskl provi
 
 Most businesses can use the default chart without modifications. You can always add accounts later as your business grows.
 
-**Learn more:** [Chart of Accounts](/docs/accounting/chart-of-accounts)
+**Learn more:** [Chart of Accounts](/accounting/chart-of-accounts)
 
 ### 6. Invite Your Accountant
 
@@ -154,7 +154,7 @@ Give your accountant secure access to your financial data for collaboration and 
 
 Your accountant receives an invitation email and can access your account immediately after accepting.
 
-**Learn more:** [Getting Started as an Accountant](/docs/getting-started/as-an-accountant.md)
+**Learn more:** [Getting Started as an Accountant](/getting-started/as-an-accountant.md)
 
 ## Get Help from Fi, Your AI Assistant
 
@@ -200,8 +200,8 @@ Use the Dashboard to get a quick overview of your business health. The Dashboard
 
 ## Need More Help?
 
-**Import data from another system:** [Importing Data](/docs/getting-started/importing-data.md)
+**Import data from another system:** [Importing Data](/getting-started/importing-data.md)
 
-**Customize your workflow:** [Dashboard Navigation](/docs/dashboard/overview.md)
+**Customize your workflow:** [Dashboard Navigation](/dashboard/overview.md)
 
-**Contact support:** [Get Support](/docs/support/overview.md)
+**Contact support:** [Get Support](/support/overview.md)

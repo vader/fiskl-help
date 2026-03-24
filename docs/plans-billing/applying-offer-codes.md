@@ -131,6 +131,6 @@ You can downgrade to a lower-tier plan before the offer expires if the new rate 
 
 ## Related Topics
 
-- [Choose Your Fiskl Plan](/docs/plans-billing/selecting-plans) - Compare standard pricing and features
-- [Manage Your Subscription](/docs/plans-billing/managing-subscription) - View active offers and billing details
-- [Update Billing Information](/docs/plans-billing/updating-billing-info) - Ensure payment method is current
+- [Choose Your Fiskl Plan](/plans-billing/selecting-plans) - Compare standard pricing and features
+- [Manage Your Subscription](/plans-billing/managing-subscription) - View active offers and billing details
+- [Update Billing Information](/plans-billing/updating-billing-info) - Ensure payment method is current

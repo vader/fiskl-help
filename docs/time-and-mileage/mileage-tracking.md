@@ -267,7 +267,7 @@ Update your unit preference:
 
 ## Related Topics
 
-- [Time Tracking](/docs/time-and-mileage/time-tracking.md) - Track billable hours
-- [Billing Time and Mileage](/docs/time-and-mileage/billing-time-and-mileage.md) - Add entries to invoices
-- [Creating Invoices](/docs/invoicing/creating-invoices.md) - Generate client invoices
-- [Company Settings](/docs/settings/company-settings.md) - Configure default rates
+- [Time Tracking](/time-and-mileage/time-tracking.md) - Track billable hours
+- [Billing Time and Mileage](/time-and-mileage/billing-time-and-mileage.md) - Add entries to invoices
+- [Creating Invoices](/invoicing/creating-invoices.md) - Generate client invoices
+- [Company Settings](/settings/company-settings.md) - Configure default rates

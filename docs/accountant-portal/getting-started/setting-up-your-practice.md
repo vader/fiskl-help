@@ -138,7 +138,7 @@ Add accountants to help manage your practice.
 
 The team member receives an email invitation to join your practice.
 
-**Learn more:** [Team Structure](/docs/accountant-portal/getting-started/team-structure)
+**Learn more:** [Team Structure](/accountant-portal/getting-started/team-structure)
 
 ## What's Next?
 
@@ -195,10 +195,10 @@ Start with a single branch and a few clients to familiarize yourself with the po
 
 ## Need More Help?
 
-**Configure branches:** [Configuring Branches](/docs/accountant-portal/getting-started/configuring-branches)
+**Configure branches:** [Configuring Branches](/accountant-portal/getting-started/configuring-branches)
 
-**Understand team structure:** [Team Structure](/docs/accountant-portal/getting-started/team-structure)
+**Understand team structure:** [Team Structure](/accountant-portal/getting-started/team-structure)
 
-**Add clients:** [Inviting Clients](/docs/accountant-portal/client-management/inviting-clients)
+**Add clients:** [Inviting Clients](/accountant-portal/client-management/inviting-clients)
 
-**Manage permissions:** [Roles and Permissions](/docs/accountant-portal/team-collaboration/roles-permissions)
+**Manage permissions:** [Roles and Permissions](/accountant-portal/team-collaboration/roles-permissions)

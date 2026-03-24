@@ -40,7 +40,7 @@ You invite clients and manage their billing through your practice subscription.
 - Clients requiring minimal system access
 - Practices managing many small clients
 
-**Learn more:** [Bill Us Model](/docs/accountant-portal/billing-models/bill-us-model)
+**Learn more:** [Bill Us Model](/accountant-portal/billing-models/bill-us-model)
 
 ### Client Pays Model
 
@@ -60,7 +60,7 @@ Clients create their own accounts and invite you, paying for their own subscript
 - Clients who may switch accountants
 - Practices wanting flexible client relationships
 
-**Learn more:** [Client Pays Model](/docs/accountant-portal/billing-models/client-pays-model)
+**Learn more:** [Client Pays Model](/accountant-portal/billing-models/client-pays-model)
 
 ## Client Management Workflow
 
@@ -122,7 +122,7 @@ Control how much access clients have to their own accounts and what they can see
 - Client views specific reports
 - You maintain chart of accounts
 
-**Learn more:** [Client Access Levels](/docs/accountant-portal/client-management/client-access-levels)
+**Learn more:** [Client Access Levels](/accountant-portal/client-management/client-access-levels)
 
 ## Client Connection Management
 
@@ -144,7 +144,7 @@ Monitor and manage all aspects of your client connections.
 - Disconnect relationship
 - Reconnect disconnected clients
 
-**Learn more:** [Client Connections](/docs/accountant-portal/client-management/client-connections)
+**Learn more:** [Client Connections](/accountant-portal/client-management/client-connections)
 
 ## Inviting Multiple Clients
 
@@ -317,7 +317,7 @@ When client relationships end, disconnect properly.
    - Client retains their account (Client Pays model)
    - Historical records preserved for your compliance
 
-**Learn more:** [Client Connections](/docs/accountant-portal/client-management/client-connections)
+**Learn more:** [Client Connections](/accountant-portal/client-management/client-connections)
 
 ## Common Use Cases
 
@@ -347,15 +347,15 @@ When client relationships end, disconnect properly.
 
 ## Need More Help?
 
-**Invite clients to you:** [Inviting Clients](/docs/accountant-portal/client-management/inviting-clients)
+**Invite clients to you:** [Inviting Clients](/accountant-portal/client-management/inviting-clients)
 
-**Accept client invitations:** [Accepting Client Invitations](/docs/accountant-portal/client-management/accepting-client-invitations)
+**Accept client invitations:** [Accepting Client Invitations](/accountant-portal/client-management/accepting-client-invitations)
 
-**Manage connections:** [Client Connections](/docs/accountant-portal/client-management/client-connections)
+**Manage connections:** [Client Connections](/accountant-portal/client-management/client-connections)
 
-**Configure access:** [Client Access Levels](/docs/accountant-portal/client-management/client-access-levels)
+**Configure access:** [Client Access Levels](/accountant-portal/client-management/client-access-levels)
 
-**Understand billing models:** [Billing Models Overview](/docs/accountant-portal/billing-models/overview)
+**Understand billing models:** [Billing Models Overview](/accountant-portal/billing-models/overview)
 
 ---
 

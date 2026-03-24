@@ -49,7 +49,7 @@ Track revenue, expenses, and profitability over any time period to understand bu
 - Investor and lender reporting
 - Strategic planning decisions
 
-**Learn more:** [Profit and Loss Report](/docs/reporting/profit-and-loss.md)
+**Learn more:** [Profit and Loss Report](/reporting/profit-and-loss.md)
 
 ### Balance Sheet Report
 
@@ -78,7 +78,7 @@ View your financial position at any point in time showing assets, liabilities, a
 - Year-end financial statements
 - Investor presentations
 
-**Learn more:** [Balance Sheet Report](/docs/reporting/balance-sheet.md)
+**Learn more:** [Balance Sheet Report](/reporting/balance-sheet.md)
 
 ### Statement of Cash Flows
 
@@ -103,7 +103,7 @@ Monitor cash movements across operating, investing, and financing activities.
 - Working capital analysis
 - Growth planning
 
-**Learn more:** [Statement of Cash Flows](/docs/reporting/cash-flow.md)
+**Learn more:** [Statement of Cash Flows](/reporting/cash-flow.md)
 
 ### General Ledger Report
 
@@ -130,7 +130,7 @@ Access detailed transaction-level data with flexible grouping and multi-currency
 - Detailed financial analysis
 - Multi-currency tracking
 
-**Learn more:** [General Ledger Report](/docs/reporting/general-ledger.md)
+**Learn more:** [General Ledger Report](/reporting/general-ledger.md)
 
 ### Trial Balance Report
 
@@ -150,7 +150,7 @@ Verify accounting accuracy with a summary of all account balances.
 - Month-end closing verification
 - Account balance review
 
-**Learn more:** [Trial Balance Report](/docs/reporting/trial-balance.md)
+**Learn more:** [Trial Balance Report](/reporting/trial-balance.md)
 
 ## Operational Reports
 
@@ -174,7 +174,7 @@ Track outstanding invoices and accounts receivable by aging period.
 - Accounts receivable monitoring
 - Payment follow-up prioritization
 
-**Learn more:** [Client Aging Report](/docs/reporting/client-aging.md)
+**Learn more:** [Client Aging Report](/reporting/client-aging.md)
 
 ### Statement of Accounts
 
@@ -194,7 +194,7 @@ Generate client-specific statements showing transaction history and balances.
 - Account reconciliation with clients
 - Regular client reporting
 
-**Learn more:** [Statement of Accounts](/docs/reporting/statement-of-accounts.md)
+**Learn more:** [Statement of Accounts](/reporting/statement-of-accounts.md)
 
 ### Transactions by Account
 
@@ -214,7 +214,7 @@ Analyze transaction activity within specific ledger accounts.
 - Budget comparison
 - Anomaly identification
 
-**Learn more:** [Transactions by Account](/docs/reporting/transactions-by-account.md)
+**Learn more:** [Transactions by Account](/reporting/transactions-by-account.md)
 
 ## Tax and Compliance Reports
 
@@ -245,7 +245,7 @@ Track tax collected and owed with detailed tax transaction reporting.
 - Audit preparation
 - Compliance verification
 
-**Learn more:** [Sales Tax Report](/docs/reporting/sales-tax.md)
+**Learn more:** [Sales Tax Report](/reporting/sales-tax.md)
 
 ## Report Features
 
@@ -424,13 +424,13 @@ Begin reporting with this priority approach:
 
 ## Need More Help?
 
-**Get started:** [Getting Started with Fiskl](/docs/getting-started/overview.md)
+**Get started:** [Getting Started with Fiskl](/getting-started/overview.md)
 
-**Set up accounts:** [Chart of Accounts](/docs/accounting/chart-of-accounts)
+**Set up accounts:** [Chart of Accounts](/accounting/chart-of-accounts)
 
-**Reconcile accounts:** [Reconciliation Overview](/docs/accounting/reconciliation/overview.md)
+**Reconcile accounts:** [Reconciliation Overview](/accounting/reconciliation/overview.md)
 
-**Configure taxes:** [Tax Settings](/docs/settings/tax-settings.md)
+**Configure taxes:** [Tax Settings](/settings/tax-settings.md)
 
 ---
 

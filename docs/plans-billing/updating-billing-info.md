@@ -152,6 +152,6 @@ If you have pending charges when updating your billing information:
 
 ## Related Topics
 
-- [Manage Your Subscription](/docs/plans-billing/managing-subscription) - View billing history and invoices
-- [Cancel Subscription](/docs/plans-billing/canceling-subscription) - Stop automatic renewal
-- [Choose Your Fiskl Plan](/docs/plans-billing/selecting-plans) - Review plan pricing and features
+- [Manage Your Subscription](/plans-billing/managing-subscription) - View billing history and invoices
+- [Cancel Subscription](/plans-billing/canceling-subscription) - Stop automatic renewal
+- [Choose Your Fiskl Plan](/plans-billing/selecting-plans) - Review plan pricing and features

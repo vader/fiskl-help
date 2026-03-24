@@ -298,7 +298,7 @@ Sent invoices cannot be modified:
 
 ## Related Topics
 
-- [Time Tracking](/docs/time-and-mileage/time-tracking.md) - Track billable hours
-- [Mileage Tracking](/docs/time-and-mileage/mileage-tracking.md) - Track business travel
+- [Time Tracking](/time-and-mileage/time-tracking.md) - Track billable hours
+- [Mileage Tracking](/time-and-mileage/mileage-tracking.md) - Track business travel
 - [Creating Invoices](docs/invoicing/creating-invoices.md) - Generate client invoices
-- [Editing Invoices](/docs/invoicing/invoice-management.md) - Modify draft invoices
+- [Editing Invoices](/invoicing/invoice-management.md) - Modify draft invoices

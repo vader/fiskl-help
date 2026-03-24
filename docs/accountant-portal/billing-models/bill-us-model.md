@@ -243,10 +243,10 @@ If payment fails:
 
 ## Need More Help?
 
-**Compare billing models:** [Billing Models Overview](/docs/accountant-portal/billing-models/overview)
+**Compare billing models:** [Billing Models Overview](/accountant-portal/billing-models/overview)
 
-**Learn Client Pays:** [Client Pays Model](/docs/accountant-portal/billing-models/client-pays-model)
+**Learn Client Pays:** [Client Pays Model](/accountant-portal/billing-models/client-pays-model)
 
-**Switch models:** [Switching Billing Models](/docs/accountant-portal/billing-models/switching-billing-models)
+**Switch models:** [Switching Billing Models](/accountant-portal/billing-models/switching-billing-models)
 
-**Invite clients:** [Inviting Clients](/docs/accountant-portal/client-management/inviting-clients)
+**Invite clients:** [Inviting Clients](/accountant-portal/client-management/inviting-clients)

@@ -130,7 +130,7 @@ The due date is calculated from the invoice date using the payment terms value. 
 
 ## Related Topics
 
-- [Templates and Brands](/docs/settings/invoice-template-brands-settings) — Configure the visual appearance of your invoices, quotes, and emails
-- [Tax Settings](/docs/settings/tax-settings) — Set up tax agencies and rates for your invoices
-- [Creating Invoices](/docs/invoicing/creating-invoices) — Create and send invoices using your configured settings
-- [Payment Gateways](/docs/integrations/payments/overview) — Connect Stripe, PayPal, or GoCardless for online payments
+- [Templates and Brands](/settings/invoice-template-brands-settings) — Configure the visual appearance of your invoices, quotes, and emails
+- [Tax Settings](/settings/tax-settings) — Set up tax agencies and rates for your invoices
+- [Creating Invoices](/invoicing/creating-invoices) — Create and send invoices using your configured settings
+- [Payment Gateways](/integrations/payments/overview) — Connect Stripe, PayPal, or GoCardless for online payments

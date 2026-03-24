@@ -50,7 +50,7 @@ Clients are individuals or businesses who pay you for goods or services.
 - Individual contracting your expertise
 - Company licensing your software
 
-**Learn more:** [Managing Clients](/docs/clients-vendors/clients)
+**Learn more:** [Managing Clients](/clients-vendors/clients)
 
 ### Vendors (Money Going Out)
 
@@ -80,7 +80,7 @@ Vendors are individuals or businesses you pay for goods or services.
 - Contractor performing services
 - Office supply retailer
 
-**Learn more:** [Managing Vendors](/docs/clients-vendors/vendors)
+**Learn more:** [Managing Vendors](/clients-vendors/vendors)
 
 ## Contact Management Workflow
 
@@ -154,7 +154,7 @@ Configure hourly rates for clients billed by time.
 - Freelancers with hourly contracts
 - Professional services firms
 
-**Learn more:** [Time Tracking](/docs/time-and-mileage/time-tracking.md)
+**Learn more:** [Time Tracking](/time-and-mileage/time-tracking.md)
 
 ### Direct Debit Mandates
 
@@ -179,7 +179,7 @@ Enable automated payment collection through GoCardless integration.
 - Monthly service contracts
 - Predictable payment schedules
 
-**Learn more:** [Payment Integrations](/docs/integrations/payments/overview)
+**Learn more:** [Payment Integrations](/integrations/payments/overview)
 
 ## Contact Organization Features
 
@@ -461,17 +461,17 @@ Begin contact management with this prioritized approach:
 
 ## Need More Help?
 
-**Set up clients:** [Managing Clients](/docs/clients-vendors/clients)
+**Set up clients:** [Managing Clients](/clients-vendors/clients)
 
-**Track vendors:** [Managing Vendors](/docs/clients-vendors/vendors)
+**Track vendors:** [Managing Vendors](/clients-vendors/vendors)
 
-**Create invoices:** [Creating Invoices](/docs/invoicing/creating-invoices.md)
+**Create invoices:** [Creating Invoices](/invoicing/creating-invoices.md)
 
-**Record expenses:** [Recording Expenses](/docs/expenses/ai-expenses/uploading)
+**Record expenses:** [Recording Expenses](/expenses/ai-expenses/uploading)
 
-**Payment automation:** [Payment Integrations](/docs/integrations/payments/overview)
+**Payment automation:** [Payment Integrations](/integrations/payments/overview)
 
-**Time tracking:** [Time Tracking Overview](/docs/time-and-mileage/time-tracking.md)
+**Time tracking:** [Time Tracking Overview](/time-and-mileage/time-tracking.md)
 
 ---
 
