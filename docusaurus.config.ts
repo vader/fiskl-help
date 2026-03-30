@@ -75,7 +75,26 @@ const config: Config = {
     //     },
     // },
 
-    themes: ['@docusaurus/theme-mermaid'],
+    themes: [
+        '@docusaurus/theme-mermaid',
+        [
+            '@easyops-cn/docusaurus-search-local',
+            /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+            ({
+                // `hashed` is recommended as long-term-cache of index file is possible.
+                hashed: true,
+                // Specify the languages you are using for i18n.
+                // If you only end up using English, you can remove this array entirely.
+                language: ["en", "fr", "es"],
+                // Index your /docs, /updates (blog), and static pages
+                indexDocs: true,
+                indexBlog: true,
+                indexPages: true,
+                // Since your blog is routed to /updates, map it here:
+                blogRouteBasePath: '/updates',
+            }),
+        ],
+    ],
 
     presets: [
         [
