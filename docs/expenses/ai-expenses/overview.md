@@ -59,7 +59,7 @@ Each plan includes a monthly allowance of scans. Usage is counted per page, not 
 | **Tier 3** | 15 |
 
 :::info
-The ability to purchase additional scans beyond your plan allowance is coming soon. For details on plan features, see [Plans and Billing](/docs/plans-billing/overview).
+The ability to purchase additional scans beyond your plan allowance is coming soon. For details on plan features, see [Plans and Billing](/plans-billing/overview).
 :::
 
 ## Supported File Formats

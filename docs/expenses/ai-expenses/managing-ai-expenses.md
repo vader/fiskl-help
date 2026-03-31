@@ -256,7 +256,7 @@ After reviewing and managing your AI Expenses:
 
 ## Related Topics
 
-- [AI Expense Reconciliation](/docs/expenses/ai-expenses/reconciliation) — Automatic matching with bank transactions
-- [Uploading AI Expenses](/docs/expenses/ai-expenses/uploading) — How to upload receipt images
-- [Expense Categories](/docs/expenses/expense-categories) — Managing expense categories
-- [Traditional Expenses](/docs/expenses/traditional-expenses/overview) — Legacy expense system (view only)
+- [AI Expense Reconciliation](/expenses/ai-expenses/reconciliation) — Automatic matching with bank transactions
+- [Uploading AI Expenses](/expenses/ai-expenses/uploading) — How to upload receipt images
+- [Expense Categories](/expenses/expense-categories) — Managing expense categories
+- [Traditional Expenses](/expenses/traditional-expenses/overview) — Legacy expense system (view only)

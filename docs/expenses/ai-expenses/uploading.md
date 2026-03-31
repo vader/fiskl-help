@@ -107,7 +107,7 @@ Processing is asynchronous. Each document goes through multiple stages, and if t
 
 ## Scan Usage
 
-Each page in an uploaded document counts as one scan against your monthly plan allowance. A five-page PDF uses five scans. For plan limits, see [AI Expenses Overview](/docs/expenses/ai-expenses/overview).
+Each page in an uploaded document counts as one scan against your monthly plan allowance. A five-page PDF uses five scans. For plan limits, see [AI Expenses Overview](/expenses/ai-expenses/overview).
 
 ## Duplicate Detection
 
@@ -132,7 +132,7 @@ Processing is asynchronous and goes through multiple stages. During periods of h
 <details>
 <summary>Extracted data is inaccurate</summary>
 
-Ensure the original image is clear and readable. Faded or damaged documents may produce less accurate results. Try re-uploading with a better quality image. You can also edit extracted data manually after processing. See [Managing AI Expenses](/docs/expenses/ai-expenses/managing-ai-expenses) for editing instructions.
+Ensure the original image is clear and readable. Faded or damaged documents may produce less accurate results. Try re-uploading with a better quality image. You can also edit extracted data manually after processing. See [Managing AI Expenses](/expenses/ai-expenses/managing-ai-expenses) for editing instructions.
 
 </details>
 
@@ -165,6 +165,6 @@ After upload and processing complete:
 
 ## Related Topics
 
-- [Managing AI Expenses](/docs/expenses/ai-expenses/managing-ai-expenses) — Edit and review processed expenses
-- [AI Expense Reconciliation](/docs/expenses/ai-expenses/reconciliation) — How automatic matching works
-- [Traditional Expenses](/docs/expenses/traditional-expenses/overview) — Legacy expense system (view only)
+- [Managing AI Expenses](/expenses/ai-expenses/managing-ai-expenses) — Edit and review processed expenses
+- [AI Expense Reconciliation](/expenses/ai-expenses/reconciliation) — How automatic matching works
+- [Traditional Expenses](/expenses/traditional-expenses/overview) — Legacy expense system (view only)

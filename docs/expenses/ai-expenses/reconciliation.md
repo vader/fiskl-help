@@ -277,7 +277,7 @@ Once an expense reconciles with a bank transaction:
 
 ## Related Topics
 
-- [Managing AI Expenses](/docs/expenses/ai-expenses/managing-ai-expenses) — Edit and review expenses
-- [Uploading AI Expenses](/docs/expenses/ai-expenses/uploading) — Upload receipt images
-- [Banking Connections](/docs/integrations/banking/overview) — Connect bank accounts
-- [Traditional Expenses](/docs/expenses/traditional-expenses/overview) — Legacy expense system (view only)
+- [Managing AI Expenses](/expenses/ai-expenses/managing-ai-expenses) — Edit and review expenses
+- [Uploading AI Expenses](/expenses/ai-expenses/uploading) — Upload receipt images
+- [Banking Connections](/integrations/banking/overview) — Connect bank accounts
+- [Traditional Expenses](/expenses/traditional-expenses/overview) — Legacy expense system (view only)
