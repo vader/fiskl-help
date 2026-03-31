@@ -1,8 +1,10 @@
 ---
 title: "Managing AI Expenses"
-description: "Review, edit, and manage expenses processed through AI Expenses including viewing extracted data and attached documents."
+description: "Review, edit, and manage expenses processed through AI Expenses including verifying extracted data and attached documents."
 keywords: ["manage AI expenses", "edit expenses", "review expenses", "expense details", "expense documents"]
 sidebar_position: 3
+toc_min_heading_level: 2
+toc_max_heading_level: 3
 ---
 
 This guide explains how to review and manage expenses after AI processing and helps you verify extracted data accuracy.
@@ -21,25 +23,25 @@ To view your processed expenses:
 
 3. **View expense details**
 
-   Select any expense to see complete extracted data and attached documents.
+   Select any expense to see the complete extracted data and attached documents.
 
 ## Understanding Expense Details
 
-Each AI Expense includes:
+Each AI Expense includes extracted information and stored documents.
 
-**Extracted Information:**
-- **Vendor name** - Business that issued the receipt
-- **Date** - Transaction date from document
-- **Amount** - Total expense amount
-- **Tax/VAT** - Tax amount if shown on receipt
-- **Category** - Suggested expense category
-- **Line items** - Individual items if applicable (detailed invoices)
-- **Payment method** - How expense was paid (if indicated)
+**Extracted information:**
+- **Vendor name** — Business that issued the receipt
+- **Date** — Transaction date from the document
+- **Amount** — Total expense amount
+- **Tax / VAT** — Tax amount if shown on the receipt
+- **Category** — Suggested expense category
+- **Line items** — Individual items if applicable (detailed invoices)
+- **Payment method** — How the expense was paid (if indicated)
 
-**Document Storage:**
-- **Original image** - Preserved receipt or invoice image
-- **Processing metadata** - Extraction confidence scores
-- **Upload timestamp** - When document was uploaded
+**Document storage:**
+- **Original image** — Preserved receipt or invoice image
+- **Processing metadata** — Extraction confidence scores
+- **Upload timestamp** — When the document was uploaded
 
 ## Reviewing Extracted Data
 
@@ -51,19 +53,19 @@ After processing completes, review the extracted information:
 
 2. **Verify amount**
 
-   Confirm total matches the receipt (most important field).
+   Confirm the total matches the receipt. This is the most important field.
 
 3. **Validate date**
 
-   Ensure transaction date is accurate.
+   Ensure the transaction date is accurate.
 
 4. **Review category**
 
-   Check if suggested category is appropriate for this expense.
+   Check whether the suggested category is appropriate for this expense.
 
 5. **Examine line items**
 
-   For detailed invoices, verify individual line items were extracted correctly.
+   For detailed invoices, verify that individual line items were extracted correctly.
 
 ## Editing AI Expenses
 
@@ -71,7 +73,7 @@ If extracted data needs correction:
 
 1. **Select the expense**
 
-   Choose the expense you need to edit.
+   Select the expense you need to edit.
 
 2. **Select Edit**
 
@@ -80,12 +82,12 @@ If extracted data needs correction:
 3. **Make corrections**
 
    Update any fields that were extracted incorrectly:
-    - Vendor name
-    - Amount
-    - Date
-    - Category
-    - Line items
-    - Notes
+   - Vendor name
+   - Amount
+   - Date
+   - Category
+   - Line items
+   - Notes
 
 4. **Save changes**
 
@@ -117,21 +119,21 @@ To find specific expenses:
 
 **By date range:**
 1. Select the date filter
-2. Choose start and end dates
+2. Select start and end dates
 3. Select **Apply**
 
 **By vendor:**
 1. Use the search box
-2. Enter vendor name
+2. Enter the vendor name
 3. Results filter automatically
 
 **By category:**
-1. Select category filter
-2. Choose one or more categories
+1. Select the category filter
+2. Select one or more categories
 3. View filtered results
 
 **By amount:**
-1. Select amount filter
+1. Select the amount filter
 2. Enter minimum and/or maximum amount
 3. Select **Apply**
 
@@ -142,9 +144,9 @@ Each expense shows its reconciliation status:
 | Status | Meaning |
 |--------|---------|
 | **Unreconciled** | No matching bank transaction found yet |
-| **Matched** | System identified potential bank transaction match |
+| **Matched** | System identified a potential bank transaction match |
 | **Reconciled** | Confirmed match with bank transaction |
-| **Manual** | User manually linked to transaction |
+| **Manual** | You manually linked the expense to a transaction |
 
 ## Deleting AI Expenses
 
@@ -152,7 +154,7 @@ To remove an expense:
 
 1. **Select the expense**
 
-   Choose the expense you want to delete.
+   Select the expense you want to delete.
 
 2. **Select Delete**
 
@@ -176,57 +178,57 @@ To export expense data:
 
 2. **Select Export**
 
-   Choose your export format:
-    - CSV for spreadsheet analysis
-    - PDF for printing or sharing
+   Select your export format:
+   - CSV for spreadsheet analysis
+   - PDF for printing or sharing
 
 3. **Download file**
 
    Save the exported file to your computer.
 
-## Common Management Tasks
+## Common Issues
 
 <details>
-  <summary>Correcting misread vendor names</summary>
+<summary>Correcting misread vendor names</summary>
 
-**Steps:**
 1. Select the expense
 2. Select **Edit**
-3. Update the **Vendor** field with correct name
+3. Update the **Vendor** field with the correct name
 4. Select **Save**
 
 The system learns from this correction for future uploads.
+
 </details>
 
 <details>
-  <summary>Changing expense category</summary>
+<summary>Changing expense category</summary>
 
-**Steps:**
 1. Select the expense
 2. Select **Edit**
-3. Choose different category from dropdown
+3. Select a different category from the dropdown
 4. Select **Save**
 
-This updates both the expense and its accounting categorization.
+This updates both the expense and its accounting categorisation.
+
 </details>
 
 <details>
-  <summary>Adding notes to expense</summary>
+<summary>Adding notes to an expense</summary>
 
-**Steps:**
 1. Select the expense
 2. Select **Edit**
-3. Enter notes in **Description** or **Notes** field
+3. Enter notes in the **Description** or **Notes** field
 4. Select **Save**
 
-Use notes to add context like meeting purpose, project code, or approval status.
+Use notes to add context such as meeting purpose, project code, or approval status.
+
 </details>
 
 ## Tips for Efficient Management
 
 **Review regularly:**
 - Check processed expenses daily or weekly
-- Verify accuracy while memory is fresh
+- Verify accuracy while your memory is fresh
 - Correct errors immediately
 
 **Use categories consistently:**
@@ -239,7 +241,7 @@ Use notes to add context like meeting purpose, project code, or approval status.
 - Reference related invoices or projects
 - Document business purpose for tax records
 
-**Keep documents organized:**
+**Keep documents organised:**
 - Original images are preserved automatically
 - Download important receipts for backup
 - Use consistent vendor names for easier searching
@@ -249,12 +251,12 @@ Use notes to add context like meeting purpose, project code, or approval status.
 After reviewing and managing your AI Expenses:
 - Corrected data improves future AI extractions
 - Expenses remain in Accounts Payable until reconciled
-- System continues monitoring for matching bank transactions
+- The system continues monitoring for matching bank transactions
 - Reconciliation happens automatically when matches appear
 
 ## Related Topics
 
-- [AI Expense Reconciliation](./reconciliation) - Automatic matching with bank transactions
-- [Uploading AI Expenses](./uploading) - How to upload receipt images
-- [Expense Categories](../expense-categories) - Managing expense categories
-- [Traditional Expenses](../traditional-expenses/overview) - Legacy expense system (view only)
+- [AI Expense Reconciliation](/docs/expenses/ai-expenses/reconciliation) — Automatic matching with bank transactions
+- [Uploading AI Expenses](/docs/expenses/ai-expenses/uploading) — How to upload receipt images
+- [Expense Categories](/docs/expenses/expense-categories) — Managing expense categories
+- [Traditional Expenses](/docs/expenses/traditional-expenses/overview) — Legacy expense system (view only)
