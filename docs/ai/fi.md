@@ -10,21 +10,18 @@ toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
-Fi is your AI-powered advisor built into Fiskl. It answers questions, analyses your financial data, and helps you take action — all from a single conversation.
+Fi is your AI-powered advisor built into Fiskl. It answers questions, analyses your financial data, runs reports, and helps you take action — all from a single conversation.
 
-import TOCInline from '@theme/TOCInline';
 
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
-
-## What is Fi?
+## What Is Fi?
 
 Fi is an agentic AI advisor that goes beyond answering questions. It connects directly to your Fiskl account data, retrieves real numbers, spots patterns, and presents insights — so you can make informed decisions without leaving the conversation.
 
-Previous versions of Fi worked as a knowledge-base chatbot. The current version operates as an intelligent agent that reasons through your questions, decides which data to pull, and delivers tailored answers with supporting charts and detail.
+Fi operates as an intelligent agent that reasons through your questions, decides which data to pull, and delivers tailored answers with supporting charts and detail. It can search the knowledge base, run accounting reports, analyse your transactions, or walk you through a task step by step — all determined automatically based on what you ask.
 
 ## What Fi Can Do
 
-Fi combines platform knowledge with live access to your financial data. Here is what that means in practice.
+Fi combines platform knowledge, live data access, and regional tax guidance. Here is what that means in practice.
 
 ### Answer Questions About Fiskl
 
@@ -32,13 +29,21 @@ Fi draws on the complete Fiskl help documentation, tutorials, and FAQs. Ask abou
 
 ### Analyse Your Financial Data
 
-Fi retrieves data directly from your Fiskl account. Ask questions like:
+Fi retrieves data directly from your Fiskl account. You can ask questions across your clients, invoices, expenses, and accounting transactions. Examples include:
 
 - "How is my business doing compared to last year?"
 - "Show me my revenue trends for the past six months"
 - "Which clients owe me the most right now?"
+- "Break down my expenses by category for Q1"
+- "What is my accounts receivable balance?"
 
 Fi pulls the relevant numbers, runs the analysis, and responds with a summary you can act on.
+
+### Run Accounting Reports
+
+Fi can generate and interpret all standard accounting reports through conversation. Ask for a profit and loss statement, balance sheet, cash flow report, trial balance, or any other report — Fi retrieves the data and presents the results with explanations.
+
+You can also ask follow-up questions to explore the data further. For example, ask for a P&L summary and then drill into a specific expense category or compare periods.
 
 ### Visualise Your Numbers
 
@@ -48,6 +53,10 @@ When a chart or graph helps tell the story, Fi generates visual summaries inline
 
 Fi applies built-in rules to flag unusual transactions or patterns. If something looks out of place — a duplicate entry, an unexpected spike, or a missing categorisation — Fi highlights it and suggests next steps.
 
+### Follow Guided Tutorials
+
+For common tasks, Fi can walk you through the process step by step. Instead of reading a help article and switching back to Fiskl, you follow along in the conversation while Fi guides each action. This is especially useful for tasks you perform infrequently, such as setting up recurring invoices or configuring tax settings.
+
 ### Speak Your Language
 
 Fi communicates in multiple languages with the same level of expertise. The system detects your language automatically and responds accordingly. Supported languages include English, Spanish, French, German, Mandarin, and many other major world languages.
@@ -56,11 +65,21 @@ Fi adapts to regional financial terminology and practices so you receive context
 
 ## Tax and Regional Knowledge
 
-Beyond general accounting principles, Fi draws on indexed content from official tax authorities. Fiskl regularly scans and indexes guidance from government tax agencies so Fi can answer region-specific tax questions with up-to-date information.
+Fi draws on indexed content from official tax authorities to answer region-specific questions. Fiskl regularly scans and indexes guidance from government tax agencies on a daily, weekly, and monthly schedule so Fi has access to current information.
+
+Tax guidance is matched to your region automatically. When you ask a tax question, Fi surfaces the relevant information for your country alongside your account data and general accounting guidance. For example, if you ask about electric vehicle subsidies, Fi provides the answer specific to your country's tax authority.
+
+Fiskl currently indexes content from several major tax authorities including:
+
+- **IRS** (United States)
+- **HMRC** (United Kingdom)
+- **IRAS** (Singapore)
+- **ATO** (Australia)
+- **SARS** (South Africa)
 
 The depth of tax content available depends on your Fiskl plan. All plans include core tax guidance for supported regions. Pro and Prime plans unlock deeper coverage such as professional guidance, legislative updates, and advanced rulings.
 
-Fiskl currently indexes tax authority content for several major regions and is actively expanding coverage. If your country's tax authority is not yet indexed, contact our support team — we can add new sources quickly to ensure Fi has the regional knowledge you need.
+Fiskl is actively expanding coverage to additional regions. If your country's tax authority is not yet indexed, contact our support team — new sources can be added quickly to ensure Fi has the regional knowledge you need.
 
 :::tip
 Ask Fi a tax question specific to your region. If the information is available in the knowledge base, Fi surfaces it automatically alongside your account data and general accounting guidance.
@@ -68,12 +87,16 @@ Ask Fi a tax question specific to your region. If the information is available i
 
 ## How Fi Works
 
-When you ask a question, Fi follows an intelligent reasoning process to deliver the best answer.
+When you ask a question, Fi follows an intelligent routing process to deliver the best answer.
 
-1. **Understand your question** — Fi analyses what you need, whether that is a feature explanation, a data insight, or a specific action.
-2. **Gather the right information** — Fi decides which tools to use: searching the knowledge base, calling your account data, or both.
-3. **Reason through the answer** — Fi processes the information, connects related data points, and builds a clear response.
-4. **Deliver your answer** — You receive a tailored response that may include explanations, data summaries, charts, or recommendations.
+1. **Classify your question** — Fi determines the type of question you are asking. This might be a knowledge question, a data analysis request, or a task you need help completing.
+2. **Route to the right approach** — Based on the classification, Fi takes one of several paths:
+    - **Knowledge base** — For questions about Fiskl features, accounting concepts, or tax guidance, Fi searches the knowledge base and delivers a clear answer.
+    - **Data and reports** — For questions about your financial data, Fi retrieves live information from your account using the appropriate tools and presents the results.
+    - **Guided tutorial** — For step-by-step tasks, Fi combines knowledge base content with interactive guidance to walk you through the process.
+    - **Direct response** — For straightforward questions, Fi responds immediately from its built-in expertise.
+3. **Gather and reason** — Fi pulls the relevant information, connects related data points, and builds a tailored response.
+4. **Deliver your answer** — You receive a response that may include explanations, data summaries, charts, or recommendations.
 
 Fi maintains context throughout your conversation. Ask follow-up questions to drill deeper into any topic without repeating background information.
 
@@ -92,8 +115,9 @@ The more detail you provide, the more targeted the response.
 | Instead of | Try |
 |---|---|
 | "How are my finances?" | "How does my revenue this quarter compare to last quarter?" |
-| "Tell me about expenses" | "Why don't my expenses appear on my Dashboard or P&L report?" |
+| "Tell me about expenses" | "Break down my travel expenses for March by vendor" |
 | "Show me reports" | "Show me my cash flow for the last three months" |
+| "Tax question" | "What are the VAT thresholds for small businesses in the UK?" |
 
 ### Provide Context
 
@@ -106,22 +130,38 @@ Fi remembers what you discussed earlier in the conversation. Build on previous a
 - "Can you break that down by client?"
 - "What about the same period last year?"
 - "Show me that as a chart"
+- "Which invoices are overdue?"
 
 ### Give Feedback
 
 Rate Fi's answers using the thumbs up or thumbs down buttons. Your feedback helps improve responses over time.
 
-## Current Limitations
+## Your Data and Privacy
 
-Fi is a powerful tool, but there are some boundaries to be aware of:
+Your financial data stays private when you use Fi. Fiskl runs its AI on private, sandboxed models that are completely isolated from public AI training. Your questions, account data, and any information Fi retrieves during a conversation are never used to train AI models and are never accessible to other users or third parties.
 
-- Fi cannot make changes to your account or perform actions on your behalf — it provides information and guidance
-- Fi cannot access data from external systems outside Fiskl
-- Questions unrelated to Fiskl, accounting, or business management are outside Fi's scope
+Fi only accesses your Fiskl account data when you ask a question that requires it. The data retrieved is used solely to answer your question within that conversation. Fiskl does not store conversation content beyond what is needed to maintain context during your active session.
+
+This means you can ask Fi about your revenue, clients, transactions, and tax situation with confidence that your information remains secure and private.
+
+## Current Capabilities and Roadmap
+
+Fi currently provides read access to your financial data. You can ask Fi to retrieve, analyse, and report on your clients, invoices, expenses, transactions, and accounting reports.
+
+Write operations — such as creating invoices, updating records, or performing actions on your behalf — are planned for an upcoming release. Fi's capabilities are expanding continuously, and your feedback shapes what comes next.
 
 :::info
-Fi's capabilities are expanding. Future updates may include the ability to perform actions on your behalf, deeper integrations, and more advanced analytical features. Your feedback shapes what comes next.
+Fi's data access is expanding steadily. Future updates will include the ability to perform actions on your behalf, deeper integrations, and more advanced analytical features.
 :::
+
+## Current Limitations
+
+There are some boundaries to be aware of:
+
+- Fi provides information and analysis but cannot yet make changes to your account
+- Fi cannot access data from external systems outside Fiskl
+- Questions unrelated to Fiskl, accounting, or business management are outside Fi's scope
+- Very long conversations can reduce accuracy — start a fresh conversation when switching topics
 
 ## Common Issues
 
@@ -143,6 +183,13 @@ Fi detects your language from the text you type. Write your question in the lang
 <summary>Fi seems to lose context mid-conversation</summary>
 
 Very long conversations can reduce accuracy. Start a fresh conversation when you switch topics or if responses become less relevant.
+
+</details>
+
+<details>
+<summary>Fi does not have tax information for my country</summary>
+
+Fiskl indexes tax authority content for several major regions and is actively expanding. Contact our support team to request coverage for your country — new sources can be added quickly.
 
 </details>
 
