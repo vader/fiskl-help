@@ -2,8 +2,6 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
-
 const config: Config = {
     title: 'Fiskl Help',
     tagline: 'Fiskl accounting',
@@ -11,6 +9,7 @@ const config: Config = {
     markdown: {
         mermaid: true,
     },
+
     plugins: [
         [
             '@signalwire/docusaurus-plugin-llms-txt',
@@ -18,11 +17,14 @@ const config: Config = {
                 siteTitle: 'Fiskl Accounting Documentation',
                 content: {
                     enableLlmsFullTxt: true,
-                    includeDocs: true,
+                    includeDocs: true,   // Indexes core documentation (docs/ folder)
+                    includeBlog: true,   // Indexes posts (updates/ folder)
+                    includePages: true,  // Indexes standalone pages like the homepage (src/pages/ folder)
                 }
             },
         ],
     ],
+
     headTags: [
         {
             tagName: 'link',
@@ -47,33 +49,16 @@ const config: Config = {
             },
         },
     ],
+
     future: {
-        v4: true, // Improve compatibility with the upcoming Docusaurus v4
+        v4: true, // Improves compatibility with upcoming Docusaurus v4
     },
 
-    // Set the production url of your site here
     url: 'https://help.fiskl.com',
     baseUrl: '/',
-
-    // GitHub pages deployment config.
-    // If you aren't using GitHub pages, you don't need these.
-    organizationName: 'Fiskl', // Usually your GitHub org/user name.
-    projectName: 'Fiskl Accounting', // Usually your repo name.
-
+    organizationName: 'Fiskl',
+    projectName: 'Fiskl Accounting',
     onBrokenLinks: 'throw',
-
-    // Even if you don't use internationalization, you can use this field to set
-    // useful metadata like html lang. For example, if your site is Chinese, you
-    // may want to replace "en" with "zh-Hans".
-    // i18n: {
-    //     defaultLocale: 'en',
-    //     locales: ['en', 'fr', 'es'],
-    //     localeConfigs: {
-    //         en: {
-    //             htmlLang: 'en-GB',
-    //         }
-    //     },
-    // },
 
     themes: [
         '@docusaurus/theme-mermaid',
@@ -81,17 +66,14 @@ const config: Config = {
             '@easyops-cn/docusaurus-search-local',
             /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
             ({
-                // `hashed` is recommended as long-term-cache of index file is possible.
                 hashed: true,
-                // Specify the languages you are using for i18n.
-                // If you only end up using English, you can remove this array entirely.
-                language: ["en", "fr", "es"],
-                // Index your /docs, /updates (blog), and static pages
+                language: ["en"],
                 indexDocs: true,
                 indexBlog: true,
                 indexPages: true,
-                // Since your blog is routed to /updates, map it here:
+                // Maps the search indexer to the custom updates directory
                 blogRouteBasePath: '/updates',
+                blogDir: 'updates',
             }),
         ],
     ],
@@ -105,8 +87,8 @@ const config: Config = {
                     routeBasePath: '/',
                 },
                 blog: {
-                    path: 'updates',          // The name of the directory on your file system
-                    routeBasePath: 'updates',  // The URL segment (e.g., /updates)
+                    path: 'updates',
+                    routeBasePath: 'updates',
                     showReadingTime: true,
                     feedOptions: {
                         type: ['rss', 'atom'],
@@ -124,7 +106,6 @@ const config: Config = {
     ],
 
     themeConfig: {
-        // Replace with your project's social card
         image: 'img/fi/fi-ai.svg',
         colorMode: {
             respectPrefersColorScheme: true,
@@ -147,18 +128,21 @@ const config: Config = {
                     position: 'left',
                     label: 'Documentation',
                 },
-                // Items moved to the right for a modern utility-bar look
-                { to: '/updates', label: 'Updates', position: 'right' },
+                {
+                    to: '/updates',
+                    label: 'Updates',
+                    position: 'right'
+                },
                 {
                     type: 'localeDropdown',
                     position: 'right',
-                    className: 'navbar-language-picker', // custom class for styling
+                    className: 'navbar-language-picker', // Custom class for CSS targeting
                 },
                 {
-                    href: 'https://app.fiskl.com', // Link to your actual app
+                    href: 'https://app.fiskl.com',
                     label: 'Go to App',
                     position: 'right',
-                    className: 'navbar-cta-button', // custom class for the button look
+                    className: 'navbar-cta-button', // Custom class for CSS targeting
                 },
             ],
         },

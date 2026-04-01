@@ -10,13 +10,13 @@ toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
-The Tax settings page lets you manage your tax agencies, tax rates, and tax groups. Fiskl supports multiple tax agencies in various currencies, including single rates, multiple rates, and compound taxes.
+The Tax Settings page lets you manage your tax agencies, tax rates, and tax groups. Fiskl supports multiple tax agencies in various currencies, including single rates, multiple rates, and compound taxes.
 
 import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
-Access Tax settings by selecting the **gear icon** on the top left menu, or go to **Settings** > **Tax Settings** on the web Dashboard.
+Access Tax Settings by selecting the **gear icon** on the top left menu, or go to **Settings** > **Tax Settings** on the web Dashboard.
 
 :::info
 Before you can create a tax rate, you must first set up a tax agency. The tax agency determines the currency and country for all rates assigned to it.
@@ -32,9 +32,14 @@ When you create a tax agency, Fiskl automatically creates a matching **Liability
 
 1. Go to **Settings** > **Tax Settings**
 2. Select the **Tax Agencies** tab
-3. Select **Add**
-4. Enter the agency name, country, and currency
-5. Select **Save**
+3. Select **New Tax Agency**
+4. Enter the tax number
+5. Select a country and currency from the dropdown menus
+6. Enter a **Prefix** (optional)
+7. Select whether to include this tax number in generated reports
+8. Select the filing period (for example, monthly or quarterly)
+9. Select a filing date
+10. Select **Create**
 
 :::tip
 If your business operates in multiple countries, create a separate tax agency for each jurisdiction. For example, create one agency for UK VAT (GBP) and another for French VAT (EUR).
@@ -50,11 +55,13 @@ The currency of a tax rate is determined by its assigned tax agency. You can ass
 
 1. Go to **Settings** > **Tax Settings**
 2. Select the **Tax Rates** tab
-3. Select **Add**
-4. Enter the tax name and percentage
-5. Select the **Tax Agency** to assign this rate to
-6. Choose whether this is a sales or non-sales tax
-7. Select **Save**
+3. Select **New Tax Rate**
+4. Enter the tax name (for example, VAT 20%)
+5. Enter the percentage in the **Rate (%)** field
+6. Select the **Tax Agency** to assign this rate to
+7. Select whether this is a sales or non-sales tax
+8. A summary of the selected tax agency details is displayed
+9. Select **Create**
 
 ## Tax Groups
 
@@ -98,11 +105,26 @@ Total taxes: $5.00 + $10.47 = $15.47
 
 1. Go to **Settings** > **Tax Settings**
 2. Select the **Tax Groups** tab
-3. Select **Add**
+3. Select **New Tax Group**
 4. Enter a name for the group
 5. Select two or more tax rates to include
-6. If needed, toggle the **Compound** option for stacked calculation
-7. Select **Save**
+6. If needed, select the **Compound** checkbox for stacked calculation
+7. Select **Create**
+
+## Additional Actions
+
+Select **Refresh** to ensure you are viewing the most up-to-date information.
+
+From any tax list, you can perform the following actions:
+
+- To set a default tax, select the **star** icon
+- To edit a record, select the **edit** icon. To ensure the accuracy of past transactions, tax groups, rates, and agencies cannot be fully edited after creation. You can only update the name and default status
+- To archive a record, select the **archive** icon. Use the **Status** filter to switch between **Active** and **Inactive** records
+- From the **Tax Rates** list, you can also filter by **Tax Type**
+
+:::tip
+If you need to adjust the tax composition or rates, archive the existing group and create a new one. For example, if a tax rate changes, create a new tax group with the updated rate.
+:::
 
 ## Common Issues
 
