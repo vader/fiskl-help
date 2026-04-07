@@ -52,7 +52,7 @@ Provide detailed price estimates before finalizing sales with professional quote
 - Quote versioning
 - Same branding as invoices
 
-**Learn more:** [Creating Quotes](/invoicing/creating-quotes.md)
+**Learn more:** [Creating Quotes](../invoicing/creating-quotes.md)
 
 ### Recurring Invoices
 
