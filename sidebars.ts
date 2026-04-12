@@ -370,6 +370,7 @@ const sidebars: SidebarsConfig = {
         'settings/invoice-template-brands-settings',
         'settings/tax-settings',
         'settings/currency-management',
+        'settings/languages',
       ],
     },
 

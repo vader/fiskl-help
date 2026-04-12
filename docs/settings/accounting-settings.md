@@ -1,31 +1,31 @@
 ---
-title: Accounting Settings
-sidebar_position: 2
-description: Customize Fiskl's accounting settings to match your business needs. Configure taxes and reporting preferences for optimal performance.
-keywords: ["Accounting settings Fiskl", "tax settings", "reporting preferences", "customize", "business accounting software"]
-slug: /settings/accounting-settings
+title: "Accounting Settings"
+description: "Configure your accounting preferences in Fiskl — set your fiscal year, accounting method, tax type, auto matching, and standard income accounts."
+keywords: ["accounting settings", "fiscal year", "cash accounting", "accrual accounting", "auto matching", "auto categorisation", "standard income accounts", "ledger accounts"]
+sidebar_position: 3
 tags:
- - Settings
- - Accounting settings
+  - Settings
+  - Accounting
+toc_min_heading_level: 2
+toc_max_heading_level: 3
 ---
 
-The `Accounting Settings` page allows you to configure your accounting preferences and standard accounts in Fiskl. These settings ensure accurate financial reporting and streamline your bookkeeping process.
+Configure your accounting preferences and standard ledger accounts for accurate financial reporting across Fiskl. These settings control your fiscal year, accounting method, and default income accounts.
 
-Access `Accounting Settings` using the `gear icon` on the top left menu or visit the [Accounting settings page](https://my.fiskl.com/accounting-settings) on the web dashboard.
+## Accessing Accounting Settings
+
+Go to **Settings** > **Accounting Settings** in the left sidebar.
 
 ## Accounting Settings
 
-- **Company currency**: Displays your base currency. This cannot be changed after account creation
-
-- **Fiscal year end**: Set your company's fiscal year end date. This affects date periods in filters, such as:
-    - This year / Last year
-    - This financial year
-    - This quarter / Last quarter
-    - This financial quarter
-
-- **Accounting method**: Choose between Cash or Accrual accounting
-    - Cash: Income and expenses are recorded when money changes hands
-    - Accrual: Income and expenses are recorded when they're earned or incurred
+| Setting | Description                                                                                                      |
+|---|------------------------------------------------------------------------------------------------------------------|
+| **Company Currency** | Your base currency, set at account creation. Cannot be changed.                                                  |
+| **Company Tax Type** | Select **No Tax**, **Single**, or **Multiple**. Applied across the entire platform.                              |
+| **Fiscal Year End** | Sets the date ranges for period filters in reports (this financial year, this quarter, and so on).               |
+| **Accounting Method** | **Cash** records income and expenses when money changes hands. **Accrual** records them when earned or incurred. |
+| **Auto Matching** | Automatically matches imported bank transactions to invoices and expenses.                                       |
+| **Auto Categorisation** | Automatically assigns ledger accounts to transactions based on learned patterns.                                 |
 
 :::info
 Changing your accounting method can significantly impact your financial reports. However, Fiskl offers unique flexibility:
@@ -35,21 +35,57 @@ Changing your accounting method can significantly impact your financial reports.
 - You can start with Cash accounting and later switch to Accrual (or vice versa) at any time
 - Fiskl enables you to generate reports in both Cash and Accrual methods, regardless of your chosen setting
 
-This flexibility allows you to adapt your accounting view as your business needs evolve, without the need for data migration or reorganization
+This flexibility allows you to adapt your accounting view as your business needs evolve, without the need for data migration or reorganisation.
 :::
 
 ## Standard Income Accounts
 
-Set standard ledger accounts for various income types to automate your bookkeeping:
+Set the default ledger account for each income type. Fiskl pre-fills these when you create invoices or add billable items.
 
-- **Products**: Standard account for product sales (e.g., "Sales of Products")
-- **Services**: Standard account for service income
-- **Time**: Standard account for billable time
-- **Mileage**: Standard account for mileage charges (e.g., "Sales Others")
-- **Billable expenses**: Standard account for reimbursable expenses
+| Income Type | Example Account |
+|---|---|
+| **Products** | Sales of Products |
+| **Services** | Sales of Services |
+| **Time** | Sales Other |
+| **Mileage** | Sales Other |
+| **Billable Expenses** | Sales — Billed Expenses |
 
-:::info[tip]
-You can override these standard accounts when creating individual items or during transactions.
-:::
+Accounts are drawn from your [Chart of Accounts](/accounting/chart-of-accounts). You can override the standard account at the product, service, or line item level.
 
-Need help? [Contact Fiskl Support](mailto:support@fiskl.com) for assistance.
+Select **Save** to apply your changes.
+
+## Common Issues
+
+<details>
+<summary>Report date filters are showing the wrong periods</summary>
+
+Check that **Fiscal Year End** is set correctly and re-run the report.
+
+</details>
+
+<details>
+<summary>Auto Matching is creating incorrect matches</summary>
+
+1. Go to the **Bank Account** and open the relevant transaction
+2. Delete the incorrect line item
+3. Select **Match** and select the correct match
+4. Select **Finish**
+
+Ensure your invoices and expenses have accurate amounts and dates to improve future matching.
+
+</details>
+
+<details>
+<summary>A ledger account is missing from the Standard Income Accounts dropdowns</summary>
+
+Add the account in [Chart of Accounts](/accounting/chart-of-accounts) first, then return here to assign it.
+
+</details>
+
+## Related Topics
+
+- [Tax Settings](/settings/tax-settings) — Set up and manage tax rates
+- [Currency Management](/settings/currency-management) — Add and manage currencies
+- [Chart of Accounts](/accounting/chart-of-accounts) — View and manage your ledger accounts
+- [Profit and Loss Report](/reporting/profit-and-loss) — See how your accounting method affects reports
+- [Banking Overview](/integrations/banking/overview) — Connect your bank and manage transaction matching

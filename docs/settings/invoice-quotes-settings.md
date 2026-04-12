@@ -1,136 +1,80 @@
 ---
-title: "Invoice and Quote Settings"
-description: "Configure invoice payment terms, manual payment methods, email settings, and quote preferences to match your business needs in Fiskl."
-keywords: ["invoice settings", "quote settings", "payment terms", "manual payment methods", "email domain", "BCC"]
-sidebar_position: 10
+title: "Invoice & Quote Settings"
+description: "Configure invoice and quote settings in Fiskl — templates, brands, payment terms, payment gateways, manual payment methods, language, and email delivery."
+keywords: ["invoice settings", "quote settings", "payment terms", "templates", "brands", "payment gateways", "manual payments", "email delivery"]
+sidebar_position: 1
 tags:
   - Settings
-  - Invoice and quote settings
+  - Invoicing
+  - Quotes
 toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
-The Invoice and quote settings page lets you configure payment terms, manual payment methods, language preferences, and email delivery for your invoices and quotes.
+Configure how your invoices and quotes look, behave, and reach your clients. Set templates, brands, payment terms, language, email delivery, and auto-add your connected payment gateways to every new invoice.
 
-import TOCInline from '@theme/TOCInline';
+## Why Configure Invoice & Quote Settings
 
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
+Your invoice and quote settings affect every document you send to clients. Setting these up carefully saves time on every invoice and quote you create and ensures a consistent, professional experience for your clients.
 
-Access these settings by selecting the **gear icon** in the top left menu, then selecting **Invoice & Quote Settings**. You can also go directly to the [Invoice and quote settings page](https://my.fiskl.com/invoice-settings) on the web Dashboard.
+Getting these settings right means you won't need to adjust payment terms, languages, or branding manually on each document.
 
-## General Settings
+## Accessing Invoice & Quote Settings
 
-### Payment terms
+Go to **Settings** in the left menu, then select **Invoice & Quote Settings**. You can also open the [Invoice & Quote Settings page](https://app.fiskl.com) directly from the web Dashboard.
 
-Set the default number of days between the invoice date and the due date. The default is seven days. You can override this on individual invoices.
+## Key Concepts
 
-### Auto-select payment gateways
+These are the key concepts used across your invoice and quote settings:
 
-Toggle this option to automatically select all available payment methods that match the invoice's country, currency, and amount. When enabled, your client sees every compatible payment option.
+- **Template**: The layout and design applied to your invoices and quotes
+- **Brand**: A set of visual elements — logo, colours, and fonts — applied to a template
+- **Payment Terms**: The due date rules applied to invoices (e.g., due on receipt, net 30)
+- **Payment Gateway**: An online payment method your clients can use to pay invoices directly
+- **Manual Payment Method**: An offline payment option you present to clients (e.g., bank transfer, cheque)
+- **Language**: The language used for invoices, quotes, emails, and payments
 
-### Invoice notes
+## What You Can Configure
 
-Add default notes that appear on all invoices. Basic HTML styling is supported. You can override these notes on individual invoices.
+### General Settings
 
-## Manual Payment Methods
+Set your default payment terms for new invoices and quotes. Payment terms control when payment is due and appear on every document you send. You can override these per invoice or quote when needed.
 
-Manual payment methods provide your clients with instructions for paying outside of integrated gateways (such as bank transfer or cheque). These appear on invoices and payment pages alongside any connected gateways.
+### Templates & Brands
 
-### Add a manual payment method
+Create and manage the visual templates applied to your invoices and quotes. Each template can have its own brand with your logo, colour scheme, and font choices. You can maintain multiple templates for different clients or use cases.
 
-1. Select the **+** icon to add a new payment method
-2. Enter a descriptive name that your client sees on the invoice (for example, "Bank Transfer — Chase ACH")
-3. Add clear instructions in the **Client notes** field
-4. Include relevant details in name-value format: account number, sort code, bank name, and similar fields
-5. Select **Save**
+### Payment Gateways
+
+Enable connected payment gateways to be added to every invoice automatically. Payment gateways are connected via **Integrations** in the left menu. Fiskl supports integrations with payment providers so your clients can pay directly from the invoice.
 
 :::tip
-Use basic HTML to style your payment instructions for readability. For example: `<b>Bank name:</b> Example Bank<br>` followed by an italicised reminder to include the invoice number.
+Enabling online payment gateways reduces the time it takes clients to pay. Invoices with a payment link get paid faster on average.
 :::
 
-Your client sees a copy-to-clipboard button next to each payment detail for convenience.
+### Manual Payment Methods
 
-## Language Settings
+Add offline payment instructions that appear on your invoices and quotes. Common examples include bank transfer details, cheque payable information, or cash payment instructions. You can create multiple manual payment methods and select them from the invoice.
 
-Fiskl supports over 60 languages for invoices, quotes, emails, and client-facing screens including payment pages and payment schedules.
+### Language Settings
 
-### Set your primary language
+Set the default language for invoices, quotes, emails, and payments. This is useful if you bill clients in a language other than your own. Fiskl translates system-generated content — including emails such as the sending invoice notification — into the selected language while keeping your custom content as entered.
 
-Select the default language for all new invoices and quotes. You can change the language on individual invoices when needed.
+### Email Delivery
 
-### Clone and customise a language
+Configure the default email subject line, body text, and sender details used when you send invoices and quotes to clients. Setting a clear, professional email template means every document lands in your client's inbox with the right context.
 
-If you need to adapt translations for a specific region or change terminology:
 
-1. Select a base language to clone
-2. Edit any translations you want to change
-3. Select **Save** to create your custom language version
 
-This is useful for adapting languages to regional dialects (for example, adapting Spanish for a specific Latin American market) or changing default terms such as replacing "Client" with "Customer" on your documents.
+## Available Guides
 
-## Quote Settings
+import DocCardList from '@theme/DocCardList';
 
-### Terms and conditions
-
-Add standard terms and conditions that appear on all quotes. Basic HTML styling is supported.
-
-### Quote notes
-
-Add default notes for your quotes. You can override these on individual quotes.
-
-### Quote validity period
-
-Set the number of days a quote remains valid. The default is seven days.
-
-## Email Settings
-
-### Custom domain
-
-Send invoices and quotes from your own email domain instead of Fiskl's default domain. This improves deliverability and brand recognition.
-
-1. Go to [Dashboard Invoice & Quote Settings](https://my.fiskl.com/invoice-settings)
-2. Enter your email address
-3. Set up the required CNAME records (Fiskl sends instructions to the email you provide)
-4. Wait for domain verification to complete
-
-:::warning
-Your domain must have proper DMARC and SPF records for reliable email delivery. Without these, providers like Gmail or Yahoo Mail may reject your emails. You can verify your settings using a [DMARC Checker](https://dnschecker.org/dmarc-record-validation.php) or [SPF Checker](https://dnschecker.org/spf-record-validation.php). Removing the CNAME records from your DNS after verification prevents emails from being delivered.
-:::
-
-### BCC for all emails
-
-Set a BCC email address to receive a copy of every system-sent email. This is useful for keeping a centralised record of all sent invoices and quotes, and for team oversight.
-
-:::info
-BCC captures emails sent through Fiskl, but invoices and quotes shared via direct link are not included. Do not rely on BCC as a complete audit trail.
-:::
-
-## Common Issues
-
-<details>
-<summary>Client cannot see payment instructions</summary>
-
-Confirm you have created a manual payment method and that the payment method is assigned to the invoice. Go to **Invoice & Quote Settings** and check that the method appears in the **Manual Payment Methods** section.
-
-</details>
-
-<details>
-<summary>Emails going to spam or being rejected</summary>
-
-If you use a custom email domain, verify your DMARC and SPF records are correctly configured. Use the checker tools linked in the Email Settings section above. If records were recently changed, allow up to 48 hours for DNS propagation.
-
-</details>
-
-<details>
-<summary>Due date not calculating correctly on new invoices</summary>
-
-The due date is calculated from the invoice date using the payment terms value. Confirm the correct number of days is set in **General Settings** > **Payment terms**. Individual invoices can override this default.
-
-</details>
+<DocCardList />
 
 ## Related Topics
 
-- [Templates and Brands](/settings/invoice-template-brands-settings) — Configure the visual appearance of your invoices, quotes, and emails
-- [Tax Settings](/settings/tax-settings) — Set up tax agencies and rates for your invoices
-- [Creating Invoices](/invoicing/creating-invoices) — Create and send invoices using your configured settings
-- [Payment Gateways](/integrations/payments/overview) — Connect Stripe, PayPal, or GoCardless for online payments
+- [Creating Invoices](/invoicing/creating-invoices) — Build and send invoices to your clients
+- [Creating Quotes](/invoicing/creating-quotes) — Create quotes and convert them to invoices
+- [Payment Integrations](/integrations/payments/overview) — Connect and manage your payment gateway accounts
+- [Company Settings](/settings/company-settings) — Update your business details, logo, and base currency

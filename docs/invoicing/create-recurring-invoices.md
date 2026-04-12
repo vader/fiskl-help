@@ -1,73 +1,107 @@
 ---
-title: Creating Recurring Invoices
+title: "Create Recurring Invoices"
+description: "Set up recurring invoices in Fiskl to automate billing schedules, send invoices automatically, and include unbilled time, mileage, and expenses."
+keywords: ["recurring invoices", "automated billing", "invoice schedule", "auto-send invoice", "recurring billing", "Fiskl invoicing"]
 sidebar_position: 5
-description: Automate your billing with Fiskl's recurring invoice feature. Save time and ensure consistent revenue streams for your business.
-keywords: ["Recurring invoices Fiskl", "automated billing", "subscription management", "revenue automation"]
-toc_min_heading_level: 2
-toc_max_heading_level: 4
 tags:
-  - Invoice
-  - Recurring invoices
+  - Invoicing
+  - Recurring
+  - Automation
+toc_min_heading_level: 2
+toc_max_heading_level: 3
 ---
 
-Recurring invoices offer a practical solution for freelancers and small businesses by streamlining the billing process. They help ensure timely payments, reduce manual work, and keep your finances organized, allowing you to focus more on your core business activities.
+Recurring invoices let you automate billing for clients you invoice on a regular basis. You set up a schedule once, and Fiskl creates and sends the invoices for you — reducing manual work and keeping your cash flow consistent.
 
-Recurring invoices in Fiskl consist of a regular invoice which serves as a template and a schedule that controls when the invoice will be created and sent. It has some other nifty features like automatically including billing items for a client. (e.g., time booked during the week that is allocated to the same client can be automatically included.)
+## Before You Begin
 
-## Creating a Recurring Invoice
+- Make sure the client you want to bill exists in Fiskl. See [Clients](../clients-vendors/clients.md) for setup instructions.
+- If you plan to include unbilled time, mileage, or expenses, record those entries before creating the recurring invoice.
+- To use a reusable product or service template with placeholders, set it up in [Products and Services](../products-services/creating-products.md) first.
 
-1. Select Sales from the left menu
-2. Select the plus button next to Recurring invoices
+## Create a Recurring Invoice
 
-### Set up the Schedule
+A recurring invoice has two parts: a **schedule** that controls when invoices are created and sent, and an **invoice template** that defines what each invoice contains.
 
-1. Set the start date and choose the frequency
-2. For custom frequencies (e.g., every two weeks), select "Custom" and enter your preferences
-3. Choose when your recurring schedule will end:
-    - Add an end date
-    - Set it to end after a number of occurrences
-    - Toggle "Never stop" for indefinite recurrence
-4. Decide on auto-send options:
-    - Check "Auto-send" for Fiskl to automatically create and send your invoices
-    - Uncheck "Auto-send" for Fiskl to create the invoice and notify you when it's ready to send
-5. To include unbilled items (e.g., Time, Mileage, or Expenses), check the unbilled items option and select the required items
+### Set Up the Schedule
 
-:::info[tip]
-Fiskl will remember your recurring settings for future recurring invoice templates.
+1. In the left sidebar, select **Sales**
+2. Select **New Recurring Invoice**
+3. Set the **Start Date** for your first invoice
+4. Select the billing frequency — weekly, monthly, or another interval
+5. For a custom frequency (for example, every two weeks), select **Custom** and enter your preferences
+6. Select when the schedule ends:
+   - Select **Runs indefinitely** to continue until you stop it manually
+   - Set an **End Date** to stop on a specific date
+   - Set a number of occurrences to stop after a fixed number of invoices
+7. Set the **Auto-send** toggle:
+   - Toggle **Auto-send** on to have Fiskl create and send each invoice automatically
+   - Toggle **Auto-send** off to have Fiskl create the invoice as a draft and notify you when it is ready to review
+8. To include unbilled items, select the **Unbilled Items** checkbox and select the item types to include — **Time**, **Mileage**, or **Expenses**
+
+:::tip
+Fiskl saves your recurring schedule settings and applies them as defaults the next time you create a recurring invoice.
 :::
 
 ### Create the Invoice Template
 
-Follow the steps in the "Create invoices" section to complete your invoice template, then select "Save and review".
+Complete the invoice template the same way you would a standard invoice. See [Creating Invoices](creating-invoices.md) for full details on line items, tax settings, and payment terms.
 
 :::info
-For recurring products/services, create a template in Products and Services with placeholders that auto-fill when added to a recurring invoice
-- e.g., 1-year gardening contract for "JP Photographers", expires 30/09/2025
-- Go to Products/Services, turn [template toggle] on and add a name
-- Select relevant placeholders, e.g., 1-year gardening contract for [client_name] expires [day+1Y]/[month+1Y]/[year+1Y]
-  :::
-
-## Starting Your Recurring Invoice
-
-1. On the sending screen, review and edit:
-    - Schedule settings
-    - Payment methods
-    - Email content
-    - Attachments
-    - Template or brand
-2. Select "Start" to activate the recurring schedule
-
-:::info
-For auto-send invoices, Fiskl will:
-
-- Automatically send the invoice by email and mark it as "Sent"
-- Email you the day before the invoice is scheduled to be sent
-
-For manual-send invoices, Fiskl will:
-
-- Create the invoice and mark it as "Draft"
-- Email you when the invoice is ready to send
-
+For products or services that repeat across invoices, you can create a template in **Products and Services** with dynamic placeholders. For example: "1-year gardening contract for [client_name], expires [day+1Y]/[month+1Y]/[year+1Y]". When added to a recurring invoice, Fiskl fills in the placeholders automatically.
 :::
 
-Remember: Regularly review your recurring invoices to ensure they remain accurate and up-to-date with your business needs.
+## Start the Schedule
+
+Once your template is complete, select **Start Schedule** to activate the recurring invoice.
+
+**What happens next depends on your Auto-send setting:**
+
+| Setting | Fiskl action | You receive |
+|---|---|---|
+| Auto-send on | Creates and sends the invoice, marks it as **Sent** | An email notification the day before each invoice is sent |
+| Auto-send off | Creates the invoice, marks it as **Draft** | An email notification when each invoice is ready to send |
+
+## Manage a Recurring Invoice
+
+After saving a recurring invoice, select the **More** button to access these actions:
+
+- **Edit** — Update the template or schedule settings
+- **Print** — Download or print the current template
+- **End Schedule** — Stop future invoices from being created
+
+For a full list of management options, see [Recurring Invoice Management](recurring-invoice-management.md).
+
+## Common Issues
+
+<details>
+<summary>Unbilled items are not appearing in the recurring invoice</summary>
+
+Unbilled items only appear if they have been recorded against the same client and are not already included on another invoice.
+
+1. Verify the time, mileage, or expense entries are assigned to the correct client
+2. Check that the entries have not already been billed on a previous invoice
+3. IVerify the **Unbilled Items** checkbox is selected and the correct item types are enabled
+
+</details>
+
+<details>
+<summary>The recurring invoice is not sending automatically</summary>
+
+If invoices are being created as drafts instead of sending automatically, the **Auto-send** toggle may be off.
+
+1. Select **More** next to the recurring invoice
+2. Select **Edit**
+3. Toggle **Auto-send** on
+4. Select **Save**
+
+</details>
+
+## Related Topics
+
+- [Creating Invoices](create-recurring-invoices.md) — How to build a standard invoice template
+- [Recurring Invoice Management](recurring-invoice-management.md) — Edit, pause, and review recurring invoices
+- [Sending Invoices](sending-invoices.md) — Manual sending options and delivery settings
+- [Products and Services](../products-services/creating-products.md) — Set up reusable product and service templates
+- [Time Tracking](../time-and-mileage/time-tracking.md) — Record billable time to include in recurring invoices
+- [Mileage Tracking](../time-and-mileage/mileage-tracking.md) — Record billable mileage to include in recurring invoices

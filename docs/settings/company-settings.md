@@ -1,55 +1,61 @@
 ---
-title: Company Settings
+title: "Company Settings"
+description: "Manage your company name, logo, address, and time zone in Fiskl to ensure accurate invoices, quotes, and reports."
+keywords: ["company settings", "company name", "logo", "address", "time zone", "tax ID", "company number"]
 sidebar_position: 1
-description: Configure your Fiskl company profile for a professional presentation. Update contact information, branding, and business preferences easily.
-keywords: ["Company settings Fiskl", "business configuration", "branding", "contact information", "business settings"]
-slug: /settings/company-settings
 tags:
- - Settings
- - Company settings
+  - Settings
+  - Company Settings
+toc_min_heading_level: 2
+toc_max_heading_level: 3
 ---
 
-The `Company Settings` page allows you to manage your basic company information in Fiskl. This information is used across various features to ensure accurate reporting and invoicing.
+Manage your company name, logo, address, time zone, and registration details in Fiskl. This information appears on your invoices, quotes, and reports.
 
-Access Company settings using the `gear icon` on the top left menu or visit the [Company settings page](https://my.fiskl.com/company-settings) on the web dashboard.
+## Accessing Company Settings
+
+Go to **Settings** > **Company settings** in the left sidebar.
 
 ## General
-TODO ADD LINK
 
-[//]: # (Most values in `Company Settings` can be overridden by a brand in [Templates and brands]&#40;../Settings-Configurations/templates-and-brands.md&#41;.)
+| Field | Description |
+|---|---|
+| **Logo** | Upload your company logo (JPEG, PNG, SVG, or WebP, up to 2 MB) |
+| **Company Name** | Your business name as it appears on documents |
+| **Email** | Email address for account notifications |
+| **Telephone** | Main business contact number |
+| **Company Number** | Company registration number or Tax ID |
+| **Time Zone** | Your local time zone for timestamps, notifications, and recurring invoices |
 
-- **Company name**: Your official name for invoices, quotes, and reports
-- **Industry**: Helps Fiskl provide relevant features and reports
-- **Email**: Used for important account notifications
-- **Phone**: Your main business contact number for invoices, quotes, and reports
-- **ID/Registration no.**: Often required on invoices in many countries
-- **Currency**: Your base company currency (can't be changed after account creation)
-- **Time zone**: Ensures all Fiskl timestamps, notifications, and recurring invoices align with your local time
-- **Logo**: Used on your invoices, quotes, and reports
-
-:::info[tip]
-You can add a different logo or change its size and layout for invoices and quotes in `Templates and brands`
+:::tip
+To adjust logo size and placement on invoices and quotes, go to [Templates and brands settings](/settings/invoice-template-brands-settings).
 :::
 
 ## Address
 
-Enter your company's official address for use on invoices and financial reports
+Enter your company's official address. Start typing your company name or street to search — Fiskl suggests addresses formatted for your region. Edit the result to finalise it.
 
-:::info[tip]
-Type your company name or street to find your address and its preferred layout for your region.
+Select **Save** to apply your changes.
 
-You can edit the formatted part of the address to ensure it appears exactly as you want in your invoices, quotes, and reports.
-:::
+## Common Issues
 
-## Time Name Template
+<details>
+<summary>My logo appears on the dashboard but not on invoices</summary>
 
-Create a template for all recorded time entries. A descriptive line item name can be useful when billing a client via an invoice.
+Logo display on invoices is controlled by your template, not this setting. Go to **Settings** > [**Templates and brands**](/settings/invoice-template-brands-settings) and verify that a logo is assigned to your active template.
 
-Example template:
-```
-[hours]:[minutes] on [date_short][time] - [client_name]
-```
+</details>
 
-This template will result in a time name like: `03:00 on 6/8/24 1:34 pm - SG-Client`
+<details>
+<summary>Recurring invoices are sending at the wrong time</summary>
 
-Need help? [Contact Fiskl support](mailto:support@fiskl.com) for assistance.
+Check your **Time Zone** setting in **General** and save. New recurring invoices will use the updated time zone going forward.
+
+</details>
+
+## Related Topics
+
+- [Invoice and quotes settings](/settings/invoice-quotes-settings) — Configure default invoice and quote behaviour
+- [Templates and brands settings](/settings/invoice-template-brands-settings) — Customise logo placement, colours, and layouts
+- [Tax settings](/settings/tax-settings) — Set up tax rates and rules for your invoices
+- [Profile settings](/settings/profile-settings) — Update your personal account details

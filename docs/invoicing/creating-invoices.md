@@ -1,230 +1,443 @@
 ---
 title: "Creating Invoices"
-description: "Create and send professional invoices in Fiskl. This guide covers setup, line items, tax, payment options, and common issues."
-keywords: ["create invoice", "invoice Fiskl", "send invoice", "invoice line items", "invoice tax", "invoice payment", "recurring invoice"]
+description: "Learn how to create professional invoices in Fiskl. Configure tax, branding, and email settings, then build and send invoices to your clients."
+keywords: ["create invoice", "invoice", "invoicing", "line items", "tax", "payment methods", "invoice template", "billing"]
 sidebar_position: 2
 tags:
-  - Invoice
-  - Client
-  - Invoice payment
-  - Stripe
+  - Invoicing
+  - Getting Started
 toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
-
-This guide explains how to create invoices in Fiskl and helps you bill clients professionally from your first invoice to advanced configurations.
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
-
----
-
 ## Before You Begin
 
-Three things must be in place before you can create a complete, sendable invoice:
+Completing the setup steps below before creating your first invoice ensures accuracy and consistent branding. These settings take ten to fifteen minutes to configure and streamline all future invoicing.
 
-1. **Company Settings are complete** — Your company name and address appear on every invoice. Go to **Settings** > **Company Settings** and confirm your details are correct.
-2. **A client exists** — Every invoice requires a client. You can create one during invoice creation, but having clients set up in advance is faster. See [Managing Clients](/clients-vendors/clients).
-3. **A payment method is set up** — Without this, your client cannot pay online. Set up an integrated gateway like **Stripe** or a manual payment method in **Settings** > **Payment Methods**.
+**Setup checklist:**
 
-:::warning
-If your company address is incomplete, it will appear incorrectly on all invoices. Fix this in **Company Settings** before creating your first invoice.
-:::
+- Configure tax settings (if you charge tax)
+- Set up company information and branding
+- Customise invoice templates
+- Configure language settings (if invoicing in multiple languages)
+- Set up email templates
+
+
+<details>
+<summary>Step 1: Configure Tax Settings</summary>
+
+If you charge tax on products or services, configure your tax settings before creating invoices.
+
+### Set Up a Tax Agency
+
+1. Go to **Settings** > **Tax Management** > **Tax Agencies**
+2. Select **Add Tax ID**
+3. Enter your tax authority details:
+   - Tax authority name (for example, "VAT UK" or "Sales Tax CA")
+   - Tax identification number
+   - Tax type (Sales Tax, VAT, GST, and so on)
+4. Select **Save**
+
+Fiskl automatically creates a corresponding ledger account in your Chart of Accounts for this tax agency.
+
+### Add Tax Rates
+
+1. In **Tax Management**, go to the **Tax Rates** section
+2. Select **Add Tax**
+3. Configure the tax rate:
+   - Tax name (for example, "Standard VAT 20%")
+   - Tax rate percentage
+   - Assign to your tax agency
+   - Mark as Sales Tax or Non-Sales Tax
+4. Select **Save**
+
+**Example tax rates:**
+
+- Standard rate: 20%
+- Reduced rate: 5%
+- Zero rate: 0%
+
+### Set a Default Tax Rate
+
+1. In **Tax Rates**, find your primary tax rate
+2. Mark it as the default for sales
+3. Select **Save**
+
+This rate applies automatically to all line items unless you specify otherwise on the invoice.
+
+**Learn more:** [Tax Settings](/settings/tax-settings)
+
+</details>
+
+<details>
+<summary>Step 2: Set Up Company Information and Branding</summary>
+
+Your company information appears on every invoice. Configure it once for consistent branding across all documents.
+
+### Add Company Details
+
+1. Go to **Settings** > **Company Profile**
+2. Complete your company information:
+   - Legal business name
+   - Business address
+   - Phone number
+   - Email address
+   - Website
+   - Business registration number
+3. Upload your company logo
+4. Select your timezone
+5. Select **Save**
+
+### Configure Invoice Templates and Brands
+
+Templates control the appearance and content of your invoices.
+
+1. Go to **Settings** > **Invoice & Quote Settings** > **Templates and Brands**
+2. Select **Add New Template** or edit the default template
+3. Customise the template using the tabs below
+
+**General Settings tab**
+
+In the **Name & Header** section, you can:
+
+- Set a template name (internal use only)
+- Upload your logo and adjust its size
+- Upload an email logo (square format, 100 KB max, displays at 70×70 px)
+
+If you operate multiple brands under one entity, use **Brand Overrides** to set a separate company name, address, contact details, and logo. This lets you create distinct branded invoices without managing multiple accounts.
+
+**Design tab**
+
+- Select brand colours and font styles
+- Preview changes in real time
+- Select a layout style: Classic, Modern, or Minimal
+- Choose which fields to display and adjust spacing
+
+**Learn more:** [Invoice Templates and Brands](/settings/invoice-template-brands-settings)
+
+</details>
+
+<details>
+<summary>Step 3: Configure Email Templates</summary>
+
+Fiskl sends email notifications when you issue invoices, payment reminders, and overdue notices.
+
+### Choose an Email Strategy
+
+Fiskl offers two approaches:
+
+**Option 1: Fiskl HTML email templates (recommended)**
+
+Pre-designed HTML emails that automatically match your invoice language. These include dynamic placeholders and apply to all notification types: invoices, reminders, overdue notices, and recurring invoices.
+
+**Option 2: Custom email text**
+
+Write your own email content with full control over wording, tone, and messaging per scenario. Dynamic placeholders are still available.
+
+### Set Up Your Email Template
+
+1. Go to **Settings** > **Templates and Brands**
+2. Select your template
+3. Select the **Email** tab
+4. Select your email strategy:
+   - **Fiskl templates** — leave the toggle off
+   - **Custom text** — toggle on
+
+**If using custom email text**, configure each scenario separately:
+
+- New invoice email
+- Payment reminder email
+- Overdue notice email
+- Recurring invoice email
+
+### Email Placeholders
+
+Placeholders insert invoice data into your email automatically.
+
+| Placeholder | Description |
+| --- | --- |
+| `{invoice_number}` | Invoice number |
+| `{invoice_date}` | Invoice date |
+| `{due_date}` | Payment due date |
+| `{client_name}` | Client name |
+| `{company_name}` | Your company name |
+| `{invoice_total}` | Total amount |
+| `{invoice_link}` | Link to view and pay the invoice online |
+
+**Example custom email:**
+
+```
+Subject: Invoice {invoice_number} from {company_name}
+
+Dear {client_name},
+
+Please find invoice {invoice_number} for {invoice_total} attached.
+
+Payment is due by {due_date}.
+
+View and pay online: {invoice_link}
+
+Best regards,
+{company_name}
+```
+
+</details>
+
+<details>
+<summary>Step 4: Configure Language Settings</summary>
+
+If you invoice clients in multiple languages, configure your language settings before creating invoices.
+
+### Set a Default Language
+
+1. Go to **Settings** > **Invoice and Quote Settings**
+2. Under **Language Settings**, select your primary language
+3. Select **Save**
+
+All new invoices use this language by default. You can change the language for individual invoices when needed.
+
+Fiskl supports over 60 languages across invoice and quote translations, email templates, client-facing payment screens, and payment schedule interfaces.
+
+### Customise Language Translations (Optional)
+
+To create a version for a regional dialect or specific terminology:
+
+1. In **Language Settings**, select **Clone Language**
+2. Select the base language to customise
+3. Edit the translations: terminology, regional phrasing, or field labels
+4. Select **Save**
+
+Your custom language appears in the language selector when creating invoices.
+
+**Learn more:** [Invoice and Quote Settings](/settings/invoice-quotes-settings)
+
+</details>
 
 ---
 
-## Create a Basic Invoice
+## Create an Invoice
 
-1. **Open Invoices**
+### Start a New Invoice
 
-   In the left sidebar, select **Invoices**.
+1. In the left navigation, select **Invoices**
+2. Select **New Invoice**
 
-2. **Select New Invoice**
+### Add Client Details
 
-   Select the **+ New Invoice** button in the top right corner.
+The invoice pulls the following fields from the client profile automatically:
 
-3. **Select or add a client**
-
-   Choose an existing client from the **Client** dropdown, or select **Add Client** to create one now.
-
-4. **Set the invoice date and due date**
-
-   The invoice date defaults to today. The due date defaults to seven days after the invoice date. You can change both.
-
-5. **Add line items**
-
-   Select **Add Line Item** and choose the type: **Product**, **Service**, **Expense**, **Mileage**, or **Time**. Enter the description, quantity, and rate for each item.
-
-6. **Apply tax if required**
-
-   Select the tax rate for each line item using the tax field. Fiskl calculates the total automatically.
-
-7. **Review the total**
-
-   Check the subtotal, tax, and total amount at the bottom of the invoice.
-
-8. **Save or send**
-
-   Select **Save** to keep the invoice as a draft, or select **Send** to email it to your client immediately.
-
-:::tip
-Use the interactive demo to walk through invoice creation step by step: [Launch demo](https://demo.fiskl.com/e/clzctmgxx008yl30czzc6urmn/tour)
-:::
-
----
-
-## Invoice Components
-
-This section explains every part of an invoice and how to configure each one.
-
-### Company Information
-
-Fiskl pulls three fields from your **Company Settings** onto every invoice:
-
-- Company name
-- Company address
-- Company ID or registration number
-
-To change how your address is formatted on invoices, go to **Settings** > **Company Settings** and update the address layout.
-
-### Client Details
-
-The invoice uses the following fields from the client profile:
-
-- Client name
-- Client address
+- Client name and address
 - Client email (including CC and BCC addresses)
-- Tax/VAT registration number (displayed automatically if set on the client)
+- Tax/VAT registration number (if set on the client)
 - Default currency and time rate
 
-You can add a client directly during invoice creation. For recurring clients, set up their profile in advance to save time.
+**If the client already exists:**
 
-### Invoice Number
+1. Select the client from the **Client** dropdown
+2. Their details populate automatically
 
-Invoice numbers start at INV-0001 and increment automatically with each new invoice.
+**If this is a new client:**
 
-**Customising the format:**
+1. Select **Add New Client**
+2. Enter the client details: name, email address, billing address, and phone number (optional)
+3. Select **Save**
 
-To use a different format, edit the invoice number on any new invoice. Fiskl uses that format for all subsequent invoices.
+:::info
+Fiskl saves the client automatically under **Clients** in the left navigation.
+:::
+
+### Select a Currency
+
+The invoice currency defaults to your company's base currency, or to the client's default currency if one is set on their profile. To change the currency for this invoice, select it from the currency dropdown in the **Basic Details** section.
+
+### Select a Language
+
+Your default language is selected automatically. To use a different language for this invoice, select it from the language dropdown.
+
+The language you select affects the invoice itself, standard email templates, and all client-facing screens.
+
+### Select a Template
+
+The default template applies automatically. If you use multiple templates or brands, select the appropriate one from the dropdown.
+
+### Set Invoice Details
+
+**Invoice number**
+
+Invoice numbers start at `INV-0001` and increment automatically. To use a different format, edit the number on any new invoice — Fiskl uses that format for all subsequent invoices.
 
 Two limitations apply:
+
 - Auto-increment only works if the number ends with a digit
-- Date-based formats (e.g., `2025-01-0001`) require manual updates at each period change
+- Date-based formats (for example, `2025-01-0001`) require manual updates at each period change
 
-### Invoice Dates
-
-Every invoice has three date fields:
+**Invoice dates**
 
 | Field | Purpose | Default |
-|---|---|---|
-| Invoice date | The date the invoice was created | Today |
+| --- | --- | --- |
+| Invoice date | The date the invoice was issued | Today |
 | Due date | The payment deadline | Seven days after invoice date |
 | Sales date | Optional — records when the sale occurred | Empty |
 
 To change the default due date period, go to **Settings** > **Invoice & Quote Settings**.
 
-### Invoice Status
+### Add Custom Fields
 
-Fiskl updates invoice status automatically based on the due date and payments received.
+To add a purchase order or reference number, select **Custom Fields** > **Plus** > **Add Field**. Enter the label (for example, "Purchase Order") and value.
 
-```mermaid
-stateDiagram-v2
-    [*] --> Draft : Create
-    Draft --> Sent : Send
-    Sent --> Draft : Recall
-    Sent --> Overdue : Past Due
-    Sent --> Paid : Full Payment
-    Sent --> Partial : Partial Payment
-    Sent --> Rejected : Reject / Cancel
-    Overdue --> Paid : Late Payment
-    Overdue --> Partial : Partial Payment
-    Partial --> Paid : Complete Payment
-    Partial --> Overdue : Missed Balance
-    Paid --> [*] : Closed
+---
 
-    note right of Overdue
-      Invoice past the due date
-    end note
-```
-
-### Line Items
+## Add Line Items
 
 Line items are the billable rows on your invoice. Fiskl supports five types:
 
 | Type | Description |
-|---|---|
+| --- | --- |
 | **Product** | A physical or digital item. Products are reusable templates. |
 | **Service** | A service you provide. Services are reusable templates. |
 | **Expense** | A business expense you are billing to the client. |
 | **Mileage** | Travel distance billed at a per-kilometre or per-mile rate. |
 | **Time** | Billable hours tracked against the invoice. |
 
-You can create line items directly on the invoice, or set up Products and Services in advance under **Line Items** in the left sidebar.
+You can create line items directly on the invoice, or set them up in advance under **Products & Services** in the left navigation.
 
-### Tax and VAT
+### Add a Product or Service
+
+1. Select **Plus** in the line item section
+2. Select **Add New** > **Product or Service**
+3. Enter the line item details:
+   - Item name and description
+   - Quantity and unit price
+   - Tax rate (defaults to your primary tax rate)
+4. The amount calculates automatically
+
+To add more detail, select **More details**:
+
+- Change the default **Income Account** from the dropdown
+- Select a different currency to create a multi-currency item
+- Adjust the exchange rate and preview the converted total
+
+### Add an Expense
+
+1. Select **Plus** in the line item section
+2. Select **Add New** > **Expense**
+3. Enter the expense details:
+   - Select a vendor from the dropdown or create one by entering the vendor name and selecting **+ Create**
+   - Description and price
+   - Tax rate (defaults to your primary tax rate)
+4. The amount calculates automatically
+
+To add more detail, select **More details**:
+
+- Change the **Expense Account** or **Expense Category** from the dropdowns
+- Select a different currency
+- Add a receipt number if required
+
+### Add Time
+
+1. Select **Plus** in the line item section
+2. Select **Add New** > **Time**
+3. Enter the time details:
+   - Name and description
+   - Quantity (total time)
+   - Rate (defaults to your saved preference, or the client default rate if set)
+   - Tax rate (defaults to your primary tax rate)
+4. The amount calculates automatically
+
+To add more detail, select **More details**:
+
+- Change the **Income Account** from the dropdown
+- Select a different currency
+- Toggle **Start – End time** on to enter specific start and end times — the duration calculates automatically
+
+### Add Mileage
+
+1. Select **Plus** in the line item section
+2. Select **Add New** > **Mileage**
+3. Enter the mileage details:
+   - Name and description
+   - Quantity (total distance in miles or kilometres)
+   - Rate (defaults to your saved preference)
+   - Tax rate (defaults to your primary tax rate)
+4. The total calculates automatically
+
+To add more detail, select **More details** and choose a distance entry method:
+
+- **Direct** — total distance already entered (default)
+- **Odometer** — enter start and end readings; toggle on for a round trip
+- **Maps** — enter start and end addresses or use **Current Location**; drag the route line to adjust the path
+
+Toggle **Reimbursement** on to mark the mileage as eligible for expense reimbursement.
+
+### Select from Your Products & Services Catalogue
+
+To add existing items instead of creating new ones:
+
+1. Select **Plus** in the line item section
+2. Select **Select Existing**
+3. Select items from your Products & Services catalogue or saved client items
+
+You can filter the list by type and currency.
+
+---
+
+## Apply Tax
 
 Apply tax at the line item level. Fiskl supports single taxes, multiple taxes, and compound taxes per item.
 
-To switch between tax-inclusive and tax-exclusive pricing, select the **+/-** button next to the tax field on any line item.
+Toggle the **excl** option on a line item to switch between tax-exclusive and tax-inclusive pricing.
 
-**If your tax number is not showing on the invoice**, check both of these:
+If your tax number is not showing on the invoice, check both settings:
 
-1. Go to **Settings** > **Tax Settings** and confirm the **Display tax number on invoices** checkbox is selected.
-2. Go to **Settings** > **Templates & Brands** and confirm the **Hide tax number** checkbox is not selected.
+1. Go to **Settings** > **Tax Management** > **Tax Rates** and confirm the **Display tax number on invoices** checkbox is selected
+2. Go to **Settings** > **Templates & Brands** and confirm the **Hide tax number** option is not selected
 
 Your tax number appears automatically when at least one line item has tax applied.
 
-### Discounts and Deposits
+---
+
+## Apply Discounts and Deposits (Optional)
 
 Apply discounts or request deposits at the invoice level, not per line item.
 
-- **Fixed amount**: Enter the number only — for example, `100` for a $100 discount
-- **Percentage**: Add a `%` sign — for example, `15%` for a 15% discount
+1. Select **Edit** next to **Payment Terms**
+2. Toggle the **Discount** and/or **Deposit** options on
+3. Enter a fixed amount (for example, `100` for a £100 discount) or a percentage (for example, `15%`)
+4. The total updates automatically
 
-Deposits work the same way and appear as a line on the invoice total.
+Deposits appear as a separate line in the invoice total.
 
-### Currency
+---
 
-The invoice currency defaults to your company's base currency, unless the selected client has a different default currency set on their profile.
+## Set Up Payment Schedules (Optional)
 
-To change the currency for an individual invoice, select the currency name next to the invoice total and choose a different currency.
-
-:::info
-When line items are in a different currency from the invoice, you can adjust the exchange rate manually for each item.
-:::
-
-### Invoice Language
-
-Fiskl supports over 60 languages. The selected language affects the invoice itself, standard email templates, and all customer-facing screens.
-
-To set a default language for all invoices, go to **Settings** > **Invoice & Quote Settings**.
-
-### Styling and Templates
-
-Customise the invoice appearance — logo, colours, fonts, and layout — in **Settings** > **Templates & Brands**.
-
-:::warning
-Changes to a template apply to all invoices using that template, including already-sent invoices viewed by clients.
-:::
-
-### Additional Fields
-
-**PO Number and custom fields**: Add a purchase order number or other reference fields in the **Additional Information** section of the invoice.
-
-**Notes**: Include a custom note on each invoice, or set a default note for all invoices in **Settings** > **Invoice & Quote Settings**.
-
-**Payment Terms**: The due date calculates automatically based on the payment terms set in **Settings** > **Invoice & Quote Settings**.
-
-### Payment Schedules
-
-Split a single invoice into two to twelve instalments using payment schedules.
-
-Each instalment can be a fixed amount or a percentage of the total. Fiskl tracks each instalment's payment status separately.
+Split a single invoice into two to twelve instalments using payment schedules. Each instalment can be a fixed amount or a percentage of the total, and Fiskl tracks each instalment's payment status separately.
 
 :::tip
 Use payment schedules for short-term instalment billing. For long-term or indefinitely recurring billing, use [Recurring Invoices](/invoicing/recurring-invoice-management) instead.
 :::
+
+---
+
+## Select Payment Methods
+
+If you have connected a payment gateway, it appears under **Payment Methods**. Toggle each gateway on to make it available to your client on the invoice and payment page. Fiskl updates the invoice status automatically when your client pays.
+
+Supported gateways: Stripe, Bancontact, iDEAL, GoCardless, Apple Pay, Google Pay, and PayPal.
+
+:::tip
+To automatically select available payment gateways on new invoices, go to **Settings** > **Invoice & Quote Settings** > **Manual Payment Methods** and toggle **Auto-select Payment Gateways** on.
+:::
+
+Manual payment methods are saved under **Settings** > **Invoice & Quote Settings** > **Manual Payment Methods**.
+
+---
+
+## Save and Send
+
+Select **Save** to save your invoice as a draft.
+
+To send the invoice, see [Sending Invoices](/invoicing/sending-invoices).
 
 ---
 
@@ -233,42 +446,44 @@ Use payment schedules for short-term instalment billing. For long-term or indefi
 <details>
 <summary>My tax number is not showing on the invoice</summary>
 
-Two settings control tax number visibility. Check both:
+Two settings control tax number visibility — both must be configured correctly.
 
-1. Go to **Settings** > **Tax Settings** and confirm the **Display tax number on invoices** checkbox is selected.
-2. Go to **Settings** > **Templates & Brands** and confirm the **Hide tax number** option is not selected.
+1. Go to **Settings** > **Tax Management** > **Tax Rates** and confirm the **Display tax number on invoices** checkbox is selected
+2. Go to **Settings** > **Templates & Brands** and confirm the **Hide tax number** option is not selected
 
-Your tax number only appears if at least one line item on the invoice has tax applied.
+Your tax number only appears when at least one line item on the invoice has tax applied.
 
 </details>
 
 <details>
 <summary>The invoice currency is wrong</summary>
 
-The currency defaults to your company base currency, or the client's default currency if one is set. To change it for an individual invoice, select the currency name next to the total amount and choose the correct currency.
+The currency defaults to your company's base currency, or the client's default currency if one is set. To change it for an individual invoice, select the currency from the dropdown in the **Basic Details** section.
 
-To change the client's default currency, go to **Clients**, select the client, and update their currency setting.
+To update the client's default currency, go to **Clients**, select the client, and update their currency setting.
 
 </details>
 
 <details>
 <summary>My client cannot pay online</summary>
 
-Online payment requires an active payment gateway. Go to **Settings** > **Payment Methods** and confirm that Stripe or another gateway is connected and active. If no payment method is set up, your client will see the invoice but will not have a payment button.
+Online payment requires an active payment gateway. Go to **Integrations** and confirm that Stripe or another gateway is connected and active. Check that the payment gateway toggle is also turned on within the invoice itself.
+
+If no payment method is set up, your client will see the invoice but will not have a payment button.
 
 </details>
 
 <details>
 <summary>The invoice number is out of sequence</summary>
 
-If you edited an invoice number manually, Fiskl uses that as the new base for auto-increment. Create a new invoice and manually set the number to the correct value. All subsequent invoices will increment from that point.
+If you edited an invoice number manually, Fiskl uses that number as the new base for auto-increment. Create a new invoice and manually enter the correct number. All subsequent invoices will increment from that point.
 
 </details>
 
 <details>
 <summary>Template changes affected invoices I already sent</summary>
 
-Template changes apply globally to all invoices using that template. If you need to change styling without affecting existing invoices, create a new template in **Settings** > **Templates & Brands** and apply it only to new invoices going forward.
+Template changes apply to all invoices using that template. If you need to change styling without affecting existing invoices, create a new template in **Settings** > **Templates & Brands** and apply it only to new invoices going forward.
 
 </details>
 
@@ -276,9 +491,11 @@ Template changes apply globally to all invoices using that template. If you need
 
 ## Related Topics
 
-- [Invoice Management](/invoicing/invoice-management) — Edit, duplicate, void, and archive invoices
-- [Sending Invoices](/invoicing/sending-invoices) — Email options, reminders, and client view
-- [Recurring Invoices](/invoicing/recurring-invoice-management) — Automate regular billing
-- [Tax Settings](/settings/tax-settings) — Configure tax rates and display options
-- [Managing Clients](/clients-vendors/clients) — Set up client profiles and defaults
-- [Payment Gateways](/integrations/payments/overview) — Connect Stripe and other payment methods
+- [Invoice Management](invoice-management.md) — Edit, duplicate, void, and archive invoices
+- [Sending Invoices](sending-invoices.md) — Email options, reminders, and client view
+- [Recurring Invoices](recurring-invoice-management.md) — Automate regular billing
+- [Invoice Payment Schedules](invoice-payment-schedules.md) — Split invoices into instalments
+- [Tax Settings](../settings/tax-settings.md) — Configure tax rates and display options
+- [Managing Clients](../clients-vendors/overview.md) — Set up client profiles and defaults
+- [Payment Gateways](../integrations/payments/overview.md) — Connect Stripe and other payment methods
+- [Products & Services](../products-services/overview.md) — Build a reusable catalogue of items
