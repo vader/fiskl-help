@@ -1,137 +1,170 @@
 ---
-title: Sending Invoices
-sidebar_position: 4
-description: Send professional, branded invoices easily with Fiskl. Provide clear billing statements and flexible payment options to clients.
-keywords: ["Sending invoices Fiskl", "professional billing", "branded invoices", "payment options"]
-toc_min_heading_level: 2
-toc_max_heading_level: 4
+title: "Sending Invoices"
+description: "Learn how to send invoices in Fiskl via email or share link, add CC and BCC recipients, set up automated overdue reminders, and track delivery status."
+keywords: ["send invoice", "invoice email", "share link", "invoice reminder", "overdue reminder", "CC BCC invoice", "custom email"]
+sidebar_position: 3
 tags:
-  - Invoice
-  - Email
-  - Reminders
+  - Invoicing
+toc_min_heading_level: 2
+toc_max_heading_level: 3
 ---
 
-Once you've created an invoice in Fiskl, you have several options for sending it to your client. This guide will walk you through the process of sending invoices and setting up automated reminders.
+This guide explains how to send invoices to your clients using email or a share link, and how to set up automated reminders for overdue invoices.
 
-## Before Sending
+---
 
-Ensure that:
 
-1. You've reviewed the invoice for accuracy
-1. You've selected the appropriate payment methods
+## Before You Begin
 
-For details on creating invoices, refer to the [Create invoices](creating-invoices.md) section of this guide.
+
+Before sending, confirm the following:
+
+
+- You have reviewed the invoice for accuracy
+- You have selected the appropriate payment methods
+
+
+For help creating invoices, see [Creating Invoices](/invoicing/creating-invoices).
+
+
+---
+
 
 ## Sending Options
 
-There are multiple methods to sending invoices.
 
-### Email
+Fiskl gives you two ways to send an invoice. You can send by email directly from the app or share a link through any messaging platform.
 
-#### Email Types
 
-Fiskl offers two types of email formats for sending invoices:
+---
 
-##### Standard Emails
 
-Standard emails are HTML-formatted and provided by Fiskl. They offer the following features:
+## Send by Email
 
-- Respect the language setting of the invoice
-- Can be customized with a specific email logo set in Templates and brands
-- Use the primary header color from your invoice template for branding consistency
 
-##### Custom Emails
+### Email Types
 
-Custom emails allow you to create unique, company-specific messages. You can set these up in [Templates and Brands](/settings/invoice-template-brands-settings#custom-emails) for various scenarios, such as:
 
-- Overdue reminders
-- Deposit requests
-- Invoice delivery
+Fiskl offers two email formats:
 
-Custom emails provide you with special templates to give you control over the tone and content of your automated communications.
 
-<details>
+**Standard emails** are HTML-formatted templates provided by Fiskl. They respect the language setting of the invoice, use the email logo set in Templates and Brands, and apply the primary header colour from your invoice template.
 
-<summary>See all the steps to sending an invoice via email</summary>
 
-1. Click on the "Email" tab in the invoice review screen
-2. Choose between standard or custom email format
-3. Edit the email text if needed
-4. Add Cc or Bcc recipients if required
-5. Click "Send"
+**Custom emails** let you write company-specific messages for different scenarios, such as overdue reminders, deposit requests, and invoice delivery. Set these up in [Templates and Brands](/settings/invoice-template-brands-settings).
 
-</details>
 
-#### Email Options
+### Send an Invoice by Email
 
-##### Email CC & BCC
 
-You add CC and or BCC addresses.
-To add a CC or BCC type the email into the respective input fields.
+1. Open the invoice
+2. Go to the **Email** section
+3. Select **Standard** or **Custom** email format
+4. Edit the email text if needed
+5. Add **CC** or **BCC** recipients if required
+6. Select **Send**
 
-:::info[tip]
-To send emails from your own domain, you can whitelist it in [Invoice & quote settings](/settings/invoice-quotes-settings).
-:::
 
-:::info[tip]
-You can add a default BCC to every email in (Invoice & Quote Settings)[/settings/invoice-quotes-settings#bcc-for-all-emails]
-:::
+### Email CC and BCC
 
-### Share Link
 
-Share links offer a versatile way to send invoices without relying on email. This method generates the same link used in the "Pay Now" button of emailed invoices, directing your client to a secure page for invoice preview and payment.
+To add a CC or BCC address, enter the email address into the respective input field in the **Email** section of the invoice. You can also set a default BCC for all outgoing invoice emails in [Invoice & Quote Settings](/settings/invoice-quotes-settings).
 
-Key benefits:
-- Send invoices through any communication channel
-- Use your preferred email client or messaging apps
-- Accommodate clients who prefer non-email communication
-
-**Steps to send an invoice via share link**
-
-1. Open the invoice review screen
-1. Click "Generate share link"
-1. Copy the generated link
-1. Paste the link into your preferred messaging app or communication method
 
 :::info
-Generating a share link automatically marks the invoice as "Sent" in the system.
+To send emails from your own domain, whitelist it in [Invoice & Quote Settings](/settings/invoice-quotes-settings).
 :::
+
+
+---
+
+
+## Send via Share Link
+
+
+**Generate Share Link** marks the invoice as Sent and creates a shareable link. You can send this link through any channel, such as WhatsApp, a messaging app, or your own email client. The link takes your client to a secure page where they can preview and pay the invoice.
+
+
+### Send an Invoice via Share Link
+
+
+1. Open the invoice
+2. Select **Send Invoice**
+3. Select **Generate Share Link**
+4. Copy the generated link
+5. Paste the link into your preferred messaging app or communication method
+
 
 :::tip
-On Android and iOS devices, you can send your invoice directly through any messaging platform. This process generates and sends the link via your chosen message service.
+Messaging apps provide read receipts and conversation history, making it easy to track delivery and follow up with clients.
 :::
 
-### Send via Messaging App
 
-Sending invoices through messaging apps offers a casual yet trackable method of delivery:
+---
 
-In the invoice review screen, select "Share"
-Choose your preferred messaging app
-Send the pre-populated message with the invoice link
 
-:::info
-The share link directs clients to a secure invoice preview and payment page. Messaging apps provide features like read receipts and conversation history for easy tracking and follow-ups.
-:::
+## Set Up Automated Reminders
 
-:::info[tip]
-Consider your client's preferences when choosing between email and messaging apps for invoice delivery.
-:::
-
-## Setting up Automated Reminders
 
 Fiskl can send automated reminders for overdue invoices:
 
-1. Go to the "Email" tab in the invoice review screen
-2. Scroll down to "Overdue reminders"
+
+1. Go to the **Email** section in the invoice
+2. Scroll down to **Overdue Reminders**
 3. Select your preferred reminder schedule
 
-## Best Practices for Sending Invoices
 
-- Always double-check the invoice details before sending
-- Use custom emails for a more personalized touch with regular clients
+---
+
+
+## Best Practices
+
+
+- Double-check invoice details before sending
+- Use custom emails for a more personalised approach with regular clients
 - Set up automated reminders to improve cash flow
-- Keep your email templates professional and consistent with your brand voice
-- Use the Fiskl Android and iOS apps to receive push notifications on invoice delivery statuses
-- Check your notifications and emails for any failed delivery notifications
+- Keep email templates professional and consistent with your brand
+- Use the Fiskl iOS and Android apps to receive push notifications on invoice delivery status
+- Check your notifications for failed delivery alerts
 
-Remember: Clear communication and timely follow-ups are key to maintaining healthy client relationships and ensuring prompt payments.
+
+---
+
+
+## Common Issues
+
+
+<details>
+<summary>Client did not receive the invoice email</summary>
+
+Ask your client to check their spam or junk folder. Verify that the email address on the invoice is correct. If the problem persists, check your notifications for a failed delivery alert and try resending.
+
+</details>
+
+
+<details>
+<summary>Invoice still shows as Draft after sharing the link</summary>
+
+Make sure you used **Generate Share Link** from the **Send Invoice** option. Copying the browser URL directly does not change the invoice status to Sent.
+
+</details>
+
+
+<details>
+<summary>CC or BCC recipients are not receiving emails</summary>
+
+Confirm the email addresses are entered correctly in the **Email** section. If you have a default BCC set in [Invoice & Quote Settings](/settings/invoice-quotes-settings), check that the address is still valid.
+
+</details>
+
+
+---
+
+
+## Related Topics
+
+
+- [Creating Invoices](/invoicing/creating-invoices) — Build and configure invoices before sending
+- [Invoice Management](/invoicing/invoice-management) — Track, edit, and manage sent invoices
+- [Templates and Brands Settings](/settings/invoice-template-brands-settings) — Customise email templates and branding
+- [Invoice & Quote Settings](/settings/invoice-quotes-settings) — Configure default BCC, domain whitelisting, and more

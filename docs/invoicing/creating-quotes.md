@@ -500,7 +500,7 @@ The **Convert to Invoice** option is available on quotes of any status. If you c
 
 ## Related Topics
 
-- [Quote Management](  quote-management.md) — Send, edit, duplicate, and manage quote statuses
+- [Quote Management](quote-management.md) — Send, edit, duplicate, and manage quote statuses
 - [Creating Invoices](creating-invoices.md) — Bill clients once a quote is accepted
 - [Tax Settings](../settings/tax-settings) — Configure tax rates and display options
 - [Invoice and Quote Settings](../settings/invoice-quotes-settings) — Set defaults for numbering, expiry, and language

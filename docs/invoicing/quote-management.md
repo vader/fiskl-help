@@ -1,50 +1,140 @@
 ---
-title: Quote Management
-sidebar_position: 8
-description: "Streamline your sales process with Fiskl's quote management: From creation to invoice conversion, close deals more efficiently."
-keywords: ["Quote management Fiskl", "sales process", "convert quotes to invoices", "business software"]
-slug: /core-features/quotes/quote-management
-toc_min_heading_level: 2
-toc_max_heading_level: 4
+title: "Quote Management"
+description: "Manage quotes in Fiskl — edit, send, convert to invoice, change status, and cancel quotes to keep your sales pipeline organised and accurate."
+keywords: ["quote management", "edit quote", "convert quote to invoice", "cancel quote", "quote status", "send quote"]
+sidebar_position: 2
 tags:
-  - Quote
-  - Invoice
+  - Invoicing
+  - Quotes
+toc_min_heading_level: 2
+toc_max_heading_level: 3
 ---
 
-# Managing Your Quote
+This page explains how to manage quotes in Fiskl after you have created them — from editing and sending to converting to an invoice or cancelling.
 
-After creating a quote, select it to open the preview screen. You'll see how your client will view the quote on the left, and management options on the right.
+## Quote Preview
 
-## Convert to Invoice
+When you select a quote, a preview screen opens. The left side shows how your client will see the quote. The right side shows your management options. Use this view to review the quote before taking any action.
 
-A quote that has been accepted can be converted to an invoice.
+## Draft Quotes
 
-## Draft Quote
+A draft quote is not yet visible to your client. While a quote is in draft status, you can:
 
-For draft quote, you can:
-
+- Edit all quote details
 - Configure email delivery settings
-- Add attachments to be included with the invoice
+- Add or remove attachments
 - Change the associated brand
 
-Draft quote doesn't have a shared link available.
+Draft quotes do not have a share link available. Your client cannot view the quote until you send it.
 
-## Sent Quote
+## Sent Quotes
 
-Once an quote is sent, you can view its history, manage emails and add or remove attachments.
+Once you send a quote, Fiskl marks it as **Sent** and makes it visible to your client. You have two ways to send a quote:
 
-## Editing Quote
+- **Generate Share Link** — marks the quote as Sent and gives you a link to share via your preferred channel, such as a messaging app or email.
+- **Send by email** — sends the quote directly to your client and marks it as Sent automatically.
 
-You can only edit the quote in "Draft" status directly. To edit a sent quote, set it to draft mode, make your changes, then save.
+After sending, you can view the quote history, manage emails, and add or remove attachments.
 
-:::info[caution]
-In draft mode previous share links will not work until the quote is back into sent status
+## Editing a Quote
+
+You can only edit a quote directly when it is in **Draft** status. To edit a sent quote, you need to revert it to draft first. Status options are available once the quote has been saved.
+
+1. Open the quote from your quote list
+2. Select the current status
+3. Select **Draft** from the dropdown
+4. Make your changes
+5. Select **Save**
+
+:::warning
+While a quote is in draft mode, any previously shared links will not work. The link becomes active again once the quote is back in **Sent** status.
 :::
+
+## Converting a Quote to an Invoice
+
+When a client accepts your quote, you can convert it to an invoice.
+
+1. Open the accepted quote
+2. Select **More**
+3. Select **Convert to Invoice**
+
+Fiskl creates a new invoice pre-filled with the quote details. You can review and edit the invoice before sending it to your client.
+
+## Cancelling a Quote
+
+When you need to cancel a quote, consider your records and any requirements in your region. Fiskl gives you three options.
+
+### Option 1: Mark as Rejected (Recommended)
+
+Marking a quote as Rejected is the best practice for cancellations. It preserves your records without permanently removing the quote.
+
+1. Open the quote from your quote list
+2. Select the current status
+3. Select **Rejected** from the dropdown
+
+This keeps a record of the quote, maintains your quote history, and does not create gaps in your numbering sequence.
+
+### Option 2: Revert to Draft
+
+If you need to make changes before deciding what to do with the quote, revert it to draft status.
+
+1. Open the quote from your quote list
+2. Select the current status
+3. Select **Draft** from the dropdown
+
+This allows you to edit the quote details before resending or cancelling.
+
+### Option 3: Delete the Quote
+
+As a last resort, you can delete the quote permanently.
+
+1. Locate the quote in your quote list
+2. Select the dropdown options on the right
+3. Select **Delete**
+
+:::warning
+Deleting a quote permanently removes it from your records. This action cannot be undone.
+:::
+
+## Changing Quote Status
+
+You can change the status of one or more quotes directly from the quote list without opening each one individually.
+
+1. Select one or more quotes from the list
+2. Select **Status**
+3. Select the new status from the dropdown
 
 ## Additional Actions
 
-You can print, duplicate, or delete the quote as needed. Deletion is available from the quote list.
+From the quote list, you can download a PDF, generate a share link, duplicate, or delete quotes. Duplication is useful when you need to create a similar quote for another client. Deletion is only available from the quote list view.
 
-## Best Practices for Quotes
+## Best Practices
 
-Regularly review your quote statuses and double-check changes before saving edited quote. Be cautious when changing dates on the quote with existing payments to maintain accurate records and ensure smooth transactions with your clients.
+Regularly review your open quotes so nothing is left waiting for a response. Before saving any changes to a sent quote, double-check all details to avoid sending incorrect information to your client.
+
+:::tip
+Always consult your accountant or local tax authority about the correct way to handle cancelled quotes in your region.
+:::
+
+## Common Issues
+
+<details>
+<summary>My shared quote link is not working</summary>
+
+If a client reports that your shared link is not working, the quote may have been reverted to draft status. While in draft, share links are disabled. To restore the link, set the quote back to **Sent** status.
+
+</details>
+
+<details>
+<summary>I cannot edit my sent quote</summary>
+
+You can only edit a quote directly in **Draft** status. To edit a sent quote, open it, select the current status, and select **Draft**. Make your changes and save. Then set it back to **Sent** to restore the share link.
+
+</details>
+
+## Related Topics
+
+- [Creating Quotes](creating-quotes.md) — How to create and configure a new quote
+- [Invoice Management](invoice-management.md) — Manage invoices after sending
+- [Sending Invoices](sending-invoices.md) — How to send an invoice once a quote is converted
+- [Invoice and Quote Settings](../settings/invoice-quotes-settings.md) — Configure defaults for quotes and invoices

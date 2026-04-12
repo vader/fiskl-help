@@ -63,6 +63,7 @@ const sidebars: SidebarsConfig = {
         'invoicing/quote-management',
         'invoicing/create-recurring-invoices',
         'invoicing/recurring-invoice-management',
+        'invoicing/manual-payment-methods',
       ],
     },
 
@@ -369,6 +370,7 @@ const sidebars: SidebarsConfig = {
         'settings/invoice-quotes-settings',
         'settings/invoice-template-brands-settings',
         'settings/tax-settings',
+        'settings/tax-management',
         'settings/currency-management',
         'settings/languages',
       ],
