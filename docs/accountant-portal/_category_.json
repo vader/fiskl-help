@@ -1,9 +1,0 @@
-{
-  "label": "Accountant Portal",
-  "position": 10,
-  "link": {
-    "type": "doc",
-    "id": "accountant-portal/overview"
-  },
-  "description": "Manage multiple clients, branches, and team members with flexible billing models for accounting practices."
-}

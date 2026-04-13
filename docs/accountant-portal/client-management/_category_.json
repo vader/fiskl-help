@@ -1,9 +1,0 @@
-{
-  "label": "Client Management",
-  "position": 3,
-  "link": {
-    "type": "doc",
-    "id": "accountant-portal/client-management/overview"
-  },
-  "description": "Add, invite, and manage client accounts with flexible access controls."
-}

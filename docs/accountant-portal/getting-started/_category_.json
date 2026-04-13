@@ -1,9 +1,0 @@
-{
-  "label": "Portal Getting Started",
-  "position": 1,
-  "link": {
-    "type": "doc",
-    "id": "accountant-portal/getting-started/overview"
-  },
-  "description": "Set up your accounting practice with branches, team members, and initial configuration."
-}

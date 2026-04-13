@@ -17,10 +17,26 @@ const config: Config = {
                 siteTitle: 'Fiskl Accounting Documentation',
                 content: {
                     enableLlmsFullTxt: true,
-                    includeDocs: true,   // Indexes core documentation (docs/ folder)
-                    includeBlog: true,   // Indexes posts (updates/ folder)
-                    includePages: true,  // Indexes standalone pages like the homepage (src/pages/ folder)
+                    includeDocs: true,
+                    includeBlog: true,
+                    includePages: true,
                 }
+            },
+        ],
+
+        // ----------------------------------------------------------------
+        // Atlas — second docs instance
+        // Source:   docs-atlas/
+        // Routes:   /atlas/*
+        // Sidebar:  sidebarsAtlas.ts
+        // ----------------------------------------------------------------
+        [
+            '@docusaurus/plugin-content-docs',
+            {
+                id: 'atlas',
+                path: 'docs-atlas',
+                routeBasePath: 'atlas',
+                sidebarPath: './sidebarsAtlas.ts',
             },
         ],
     ],
@@ -51,7 +67,7 @@ const config: Config = {
     ],
 
     future: {
-        v4: true, // Improves compatibility with upcoming Docusaurus v4
+        v4: true,
     },
 
     url: 'https://help.fiskl.com',
@@ -71,9 +87,11 @@ const config: Config = {
                 indexDocs: true,
                 indexBlog: true,
                 indexPages: true,
-                // Maps the search indexer to the custom updates directory
                 blogRouteBasePath: '/updates',
                 blogDir: 'updates',
+                // Index both docs instances
+                docsRouteBasePath: ['/', '/atlas'],
+                docsDir: ['docs', 'docs-atlas'],
             }),
         ],
     ],
@@ -122,11 +140,20 @@ const config: Config = {
                 src: 'img/fi/fi-ai.svg',
             },
             items: [
+                // ── Fiskl docs (default instance) ──
                 {
                     type: 'docSidebar',
                     sidebarId: 'tutorialSidebar',
                     position: 'left',
-                    label: 'Documentation',
+                    label: 'Fiskl Accounting',
+                },
+                // ── Atlas docs (second instance) ──
+                {
+                    type: 'docSidebar',
+                    sidebarId: 'atlasSidebar',
+                    docsPluginId: 'atlas',
+                    position: 'left',
+                    label: 'Fiskl Atlas',
                 },
                 {
                     to: '/updates',
@@ -136,13 +163,13 @@ const config: Config = {
                 {
                     type: 'localeDropdown',
                     position: 'right',
-                    className: 'navbar-language-picker', // Custom class for CSS targeting
+                    className: 'navbar-language-picker',
                 },
                 {
                     href: 'https://app.fiskl.com',
                     label: 'Go to App',
                     position: 'right',
-                    className: 'navbar-cta-button', // Custom class for CSS targeting
+                    className: 'navbar-cta-button',
                 },
             ],
         },
@@ -153,8 +180,12 @@ const config: Config = {
                     title: 'Docs',
                     items: [
                         {
-                            label: 'Documentation',
+                            label: 'Fiskl Accounting',
                             to: '/',
+                        },
+                        {
+                            label: 'Fiskl Atlas',
+                            to: '/atlas',
                         },
                     ],
                 },
