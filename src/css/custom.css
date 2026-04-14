@@ -154,6 +154,17 @@
 .navbar__brand {
   font-weight: 600;
 }
+.navbar__item{
+  font-weight: var(--ifm-font-weight-normal);
+}
+
+.navbar-language-picker{
+  font-weight: var(--ifm-font-weight-normal);
+}
+
+.clean-btn {
+  color: var(--ifm-color-emphasis-700);
+}
 
 /* ============================================================================
    CONTENT AREA
