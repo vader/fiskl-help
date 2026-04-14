@@ -77,7 +77,7 @@ const sidebars: SidebarsConfig = {
             label: 'Client Management',
             link: {type: 'doc', id: 'client-management/client-management-overview'},
             items: [
-                'client-management/inviting-clients',
+                'client-management/adding-clients',
                 'client-management/accepting-client-invitations',
                 'client-management/client-connections',
                 'client-management/client-access-levels',

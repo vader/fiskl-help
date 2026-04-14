@@ -25,7 +25,7 @@ Whether you run a solo practice or a multi-office firm, Atlas gives you the stru
 - Choose between firm-paid or client-paid billing for each client
 - Monitor your practice through branch and organisation-level dashboards
 - Earn referral revenue through the Fiskl partner program
-- Free for accountants active on the platform
+- Free for accountants
 
 ## How Atlas Is Structured
 
