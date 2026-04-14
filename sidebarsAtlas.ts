@@ -32,7 +32,6 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
  *   │   ├── managing-team-members.md
  *   │   ├── roles-permissions.md
  *   │   ├── branch-management.md
- *   │   └── workflow-assignments.md
  *   ├── reporting-analytics/
  *   │   ├── overview.md
  *   │   ├── practice-dashboard.md
@@ -53,106 +52,105 @@ const sidebars: SidebarsConfig = {
         // ================================================================
         // GETTING STARTED
         // ================================================================
-        // {
-        //     type: 'category',
-        //     label: '🚀 Getting Started',
-        //     link: {type: 'doc', id: 'getting-started/overview'},
-        //     collapsed: false,
-        //     items: [
-        //         'getting-started/setting-up-your-practice',
-        //         'getting-started/team-structure',
-        //         'getting-started/configuring-branches',
-        //     ],
-        // },
-        //
-        // {
-        //     type: 'html',
-        //     value: '<div style="margin: 1.5rem 0 1rem 0; padding-top: 1rem; border-top: 2px solid var(--ifm-color-emphasis-300);"></div>',
-        // },
-        //
-        // // ================================================================
-        // // CLIENT MANAGEMENT
-        // // ================================================================
-        // {
-        //     type: 'category',
-        //     label: 'Client Management',
-        //     link: {type: 'doc', id: 'client-management/overview'},
-        //     items: [
-        //         'client-management/inviting-clients',
-        //         'client-management/accepting-client-invitations',
-        //         'client-management/client-connections',
-        //         'client-management/client-access-levels',
-        //     ],
-        // },
-        //
-        // // ================================================================
-        // // BILLING MODELS
-        // // ================================================================
-        // {
-        //     type: 'category',
-        //     label: 'Billing Models',
-        //     link: {type: 'doc', id: 'billing-models/overview'},
-        //     items: [
-        //         'billing-models/client-pays-model',
-        //         'billing-models/bill-us-model',
-        //         'billing-models/switching-billing-models',
-        //     ],
-        // },
-        //
-        // {
-        //     type: 'html',
-        //     value: '<div style="margin: 1.5rem 0 1rem 0; padding-top: 1rem; border-top: 2px solid var(--ifm-color-emphasis-300);"></div>',
-        // },
-        //
-        // // ================================================================
-        // // TEAM COLLABORATION
-        // // ================================================================
-        // {
-        //     type: 'category',
-        //     label: 'Team & Branches',
-        //     link: {type: 'doc', id: 'team-collaboration/overview'},
-        //     items: [
-        //         'team-collaboration/managing-team-members',
-        //         'team-collaboration/roles-permissions',
-        //         'team-collaboration/branch-management',
-        //         'team-collaboration/workflow-assignments',
-        //     ],
-        // },
-        //
-        // // ================================================================
-        // // REPORTS & ANALYTICS
-        // // ================================================================
-        // {
-        //     type: 'category',
-        //     label: 'Reports & Analytics',
-        //     link: {type: 'doc', id: 'reporting-analytics/overview'},
-        //     items: [
-        //         'reporting-analytics/practice-dashboard',
-        //         'reporting-analytics/client-portfolio-view',
-        //         'reporting-analytics/billing-reports',
-        //         'reporting-analytics/team-performance',
-        //     ],
-        // },
-        //
-        // {
-        //     type: 'html',
-        //     value: '<div style="margin: 1.5rem 0 1rem 0; padding-top: 1rem; border-top: 2px solid var(--ifm-color-emphasis-300);"></div>',
-        // },
-        //
-        // // ================================================================
-        // // PARTNER PROGRAM
-        // // ================================================================
-        // {
-        //     type: 'category',
-        //     label: 'Partner Program',
-        //     link: {type: 'doc', id: 'partner-program/overview'},
-        //     items: [
-        //         'partner-program/becoming-a-partner',
-        //         'partner-program/partner-benefits',
-        //         'partner-program/partner-resources',
-        //         'partner-program/referral-tracking',
-        //     ],
-        // },
+        {
+            type: 'category',
+            label: '🚀 Getting Started',
+            link: {type: 'doc', id: 'getting-started/getting-started-overview'},
+            collapsed: false,
+            items: [
+                'getting-started/setting-up-your-practice',
+                'getting-started/team-structure',
+                'getting-started/configuring-branches',
+            ],
+        },
+
+        {
+            type: 'html',
+            value: '<div style="margin: 1.5rem 0 1rem 0; padding-top: 1rem; border-top: 2px solid var(--ifm-color-emphasis-300);"></div>',
+        },
+
+        // ================================================================
+        // CLIENT MANAGEMENT
+        // ================================================================
+        {
+            type: 'category',
+            label: 'Client Management',
+            link: {type: 'doc', id: 'client-management/client-management-overview'},
+            items: [
+                'client-management/inviting-clients',
+                'client-management/accepting-client-invitations',
+                'client-management/client-connections',
+                'client-management/client-access-levels',
+            ],
+        },
+
+        // ================================================================
+        // BILLING MODELS
+        // ================================================================
+        {
+            type: 'category',
+            label: 'Billing Models',
+            link: {type: 'doc', id: 'billing-models/billing-models-overview'},
+            items: [
+                'billing-models/client-pays-model',
+                'billing-models/bill-us-model',
+                'billing-models/switching-billing-models',
+            ],
+        },
+
+        {
+            type: 'html',
+            value: '<div style="margin: 1.5rem 0 1rem 0; padding-top: 1rem; border-top: 2px solid var(--ifm-color-emphasis-300);"></div>',
+        },
+
+        // ================================================================
+        // TEAM COLLABORATION
+        // ================================================================
+        {
+            type: 'category',
+            label: 'Team & Branches',
+            link: {type: 'doc', id: 'team-collaboration/team-collaboration-overview'},
+            items: [
+                'team-collaboration/managing-team-members',
+                'team-collaboration/roles-permissions',
+                'team-collaboration/branch-management',
+            ],
+        },
+
+        // ================================================================
+        // REPORTS & ANALYTICS
+        // ================================================================
+        {
+            type: 'category',
+            label: 'Reports & Analytics',
+            link: {type: 'doc', id: 'reporting-analytics/reporting-analytics-overview'},
+            items: [
+                'reporting-analytics/practice-dashboard',
+                'reporting-analytics/client-portfolio-view',
+                'reporting-analytics/billing-reports',
+                'reporting-analytics/team-performance',
+            ],
+        },
+
+        {
+            type: 'html',
+            value: '<div style="margin: 1.5rem 0 1rem 0; padding-top: 1rem; border-top: 2px solid var(--ifm-color-emphasis-300);"></div>',
+        },
+
+        // ================================================================
+        // PARTNER PROGRAM
+        // ================================================================
+        {
+            type: 'category',
+            label: 'Partner Program',
+            link: {type: 'doc', id: 'partner-program/partner-program-overview'},
+            items: [
+                'partner-program/becoming-a-partner',
+                'partner-program/partner-benefits',
+                'partner-program/partner-resources',
+                'partner-program/referral-tracking',
+            ],
+        },
     ],
 };
 
