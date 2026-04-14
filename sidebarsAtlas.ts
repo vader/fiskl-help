@@ -90,7 +90,7 @@ const sidebars: SidebarsConfig = {
         {
             type: 'category',
             label: 'Billing Models',
-            link: {type: 'doc', id: 'billing-models/billing-models-overview'},
+            link: {type: 'doc', id: 'billing-models/overview'},
             items: [
                 'billing-models/client-pays-model',
                 'billing-models/bill-us-model',
@@ -109,7 +109,7 @@ const sidebars: SidebarsConfig = {
         {
             type: 'category',
             label: 'Team & Branches',
-            link: {type: 'doc', id: 'team-collaboration/team-collaboration-overview'},
+            link: {type: 'doc', id: 'team-collaboration/overview'},
             items: [
                 'team-collaboration/managing-team-members',
                 'team-collaboration/roles-permissions',

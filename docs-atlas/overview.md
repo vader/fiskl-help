@@ -138,9 +138,14 @@ Coming soon.
 
 ## Related Topics
 
-- [Setting Up Your Practice](../docs-atlas/getting-started/setting-up-your-practice.md) — Step-by-step guide to configuring your organisation and first branch
-- [Configuring Branches](../docs-atlas/getting-started/configuring-branches.md) — Create and manage branches for different locations or currencies
-- [Team Structure](../docs-atlas/getting-started/team-structure.md) — Understand organisation and branch-level roles
-- [Billing Models Overview](../docs-atlas/billing-models/overview.md) — Compare Bill Us and Client Pays models in detail
-- [Roles and Permissions](../docs-atlas/team-collaboration/roles-permissions.md) — Detailed breakdown of permission levels
-- [Partner Program](../docs-atlas/partner-program/overview.md) — Enrol in the referral program and track earnings
+[//]: # (- [Setting Up Your Practice]&#40;../docs-atlas/getting-started/setting-up-your-practice.md&#41; — Step-by-step guide to configuring your organisation and first branch)
+
+[//]: # (- [Configuring Branches]&#40;../docs-atlas/getting-started/configuring-branches.md&#41; — Create and manage branches for different locations or currencies)
+
+[//]: # (- [Team Structure]&#40;../docs-atlas/getting-started/team-structure.md&#41; — Understand organisation and branch-level roles)
+
+[//]: # (- [Billing Models Overview]&#40;../docs-atlas/billing-models/overview.md&#41; — Compare Bill Us and Client Pays models in detail)
+
+[//]: # (- [Roles and Permissions]&#40;../docs-atlas/team-collaboration/roles-permissions.md&#41; — Detailed breakdown of permission levels)
+
+[//]: # (- [Partner Program]&#40;../docs-atlas/partner-program/overview.md&#41; — Enrol in the referral program and track earnings)
