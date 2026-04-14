@@ -94,6 +94,7 @@ const sidebars: SidebarsConfig = {
             items: [
                 'billing-models/client-pays-model',
                 'billing-models/bill-us-model',
+                'billing-models/charge-us-subscriptions',
                 'billing-models/switching-billing-models',
             ],
         },
@@ -125,10 +126,8 @@ const sidebars: SidebarsConfig = {
             label: 'Reports & Analytics',
             link: {type: 'doc', id: 'reporting-analytics/reporting-analytics-overview'},
             items: [
-                'reporting-analytics/practice-dashboard',
-                'reporting-analytics/client-portfolio-view',
-                'reporting-analytics/billing-reports',
-                'reporting-analytics/team-performance',
+                'reporting-analytics/branch-dashboard',
+                'reporting-analytics/parent-dashboard',
             ],
         },
 

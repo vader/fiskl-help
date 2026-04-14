@@ -55,7 +55,7 @@ The summary section shows key information at a glance: the number of branches th
 
 ### Client Access
 
-This section shows a list of clients the team member is assigned to. Each client entry links to the client management section where you can adjust the assignment. For more detail on how client access works, see [Client Access Levels](/accountant-portal/client-management/client-access-levels).
+This section shows a list of clients the team member is assigned to. Each client entry links to the client management section where you can adjust the assignment. For more detail on how client access works, see [Client Access Levels](../client-management/client-access-levels.md).
 
 ### Branch Access
 

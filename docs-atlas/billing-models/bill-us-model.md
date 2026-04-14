@@ -12,7 +12,6 @@ toc_max_heading_level: 3
 
 This page explains how the Charge Us billing model works, including billing verification, monthly invoicing, and transferring account ownership to a client.
 
-
 ## How Charge Us Works
 
 With the Charge Us model, your firm pays the Fiskl subscription for the client. You create the client account from Atlas, choose their plan, and the cost appears on your branch's monthly invoice. Your firm owns the account and the client cannot disconnect the relationship.
@@ -51,12 +50,12 @@ The subscription plan can be upgraded or downgraded at any time after creation.
 
 ## Monthly Billing
 
-Fiskl generates one invoice per branch each month covering all Charge Us clients on that branch. Adding or upgrading clients during a billing cycle prorates automatically.
+Fiskl generates one invoice per branch each month covering all Charge Us clients on that branch. Adding or upgrading clients during a billing cycle prorates automatically. For a detailed breakdown of how prorating, mid-cycle charges, and estimated bills work, see [Charge Us Subscriptions](charge-us-subscriptions.md).
 
 To update your payment method or billing address:
 
-1. Go to the billing section in Atlas
-2. Fiskl redirects you to Stripe's secure hosted page
+1. Go to the **Billing** section in Atlas
+2. Fiskl redirects you to the Stripe customer portal
 3. Update your payment details or billing address
 4. Changes apply to future invoices automatically
 
@@ -93,6 +92,7 @@ Ownership transfer is useful when a client relationship ends but the client want
 
 ## Related Topics
 
+- [Charge Us Subscriptions](charge-us-subscriptions.md) — Prorating, mid-cycle billing, plan tiers, and payment management
 - [Client Pays Model](client-pays-model.md) — How client-paid billing works
 - [Switching Billing Models](switching-billing-models.md) — How to change a client's billing model
 - [Adding Clients](../client-management/adding-clients.md) — Step-by-step guide to adding clients
