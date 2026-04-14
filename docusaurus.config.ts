@@ -145,7 +145,7 @@ const config: Config = {
                     type: 'docSidebar',
                     sidebarId: 'tutorialSidebar',
                     position: 'left',
-                    label: 'Fiskl Accounting',
+                    label: 'Fiskl Accounting1',
                 },
                 // ── Atlas docs (second instance) ──
                 {

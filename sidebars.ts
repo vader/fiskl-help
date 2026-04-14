@@ -41,7 +41,7 @@ const sidebars: SidebarsConfig = {
 
     {
       type: 'html',
-      value: '<div style="margin: 1.5rem 0 1rem 0; padding-top: 1rem; border-top: 2px solid var(--ifm-color-emphasis-300);"></div>',
+      value: '<div style="margin: 1.5rem 0 1rem 0; padding-top: 1rem; border-top: 1px solid var(--ifm-color-emphasis-300);"></div>',
     },
 
     // ================================================================
@@ -79,7 +79,7 @@ const sidebars: SidebarsConfig = {
 
     {
       type: 'html',
-      value: '<div style="margin: 1.5rem 0 1rem 0; padding-top: 1rem; border-top: 2px solid var(--ifm-color-emphasis-300);"></div>',
+      value: '<div style="margin: 1.5rem 0 1rem 0; padding-top: 1rem; border-top: 1px solid var(--ifm-color-emphasis-300);"></div>',
     },
 
     // ================================================================
@@ -137,7 +137,7 @@ const sidebars: SidebarsConfig = {
 
     {
       type: 'html',
-      value: '<div style="margin: 1.5rem 0 1rem 0; padding-top: 1rem; border-top: 2px solid var(--ifm-color-emphasis-300);"></div>',
+      value: '<div style="margin: 1.5rem 0 1rem 0; padding-top: 1rem; border-top: 1px solid var(--ifm-color-emphasis-300);"></div>',
     },
 
     // ================================================================
@@ -221,7 +221,7 @@ const sidebars: SidebarsConfig = {
 
     {
       type: 'html',
-      value: '<div style="margin: 1.5rem 0 1rem 0; padding-top: 1rem; border-top: 2px solid var(--ifm-color-emphasis-300);"></div>',
+      value: '<div style="margin: 1.5rem 0 1rem 0; padding-top: 1rem; border-top: 1px solid var(--ifm-color-emphasis-300);"></div>',
     },
 
     // ================================================================
@@ -281,7 +281,7 @@ const sidebars: SidebarsConfig = {
 
     {
       type: 'html',
-      value: '<div style="margin: 1.5rem 0 1rem 0; padding-top: 1rem; border-top: 2px solid var(--ifm-color-emphasis-300);"></div>',
+      value: '<div style="margin: 1.5rem 0 1rem 0; padding-top: 1rem; border-top: 1px solid var(--ifm-color-emphasis-300);"></div>',
     },
 
     // ================================================================
@@ -299,7 +299,7 @@ const sidebars: SidebarsConfig = {
 
     {
       type: 'html',
-      value: '<div style="margin: 1.5rem 0 1rem 0; padding-top: 1rem; border-top: 2px solid var(--ifm-color-emphasis-300);"></div>',
+      value: '<div style="margin: 1.5rem 0 1rem 0; padding-top: 1rem; border-top: 1px solid var(--ifm-color-emphasis-300);"></div>',
     },
 
     // ================================================================
@@ -364,7 +364,7 @@ const sidebars: SidebarsConfig = {
 
     {
       type: 'html',
-      value: '<div style="margin: 1.5rem 0 1rem 0; padding-top: 1rem; border-top: 2px solid var(--ifm-color-emphasis-300);"></div>',
+      value: '<div style="margin: 1.5rem 0 1rem 0; padding-top: 1rem; border-top: 1px solid var(--ifm-color-emphasis-300);"></div>',
     },
 
     // ================================================================
