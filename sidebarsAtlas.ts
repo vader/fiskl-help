@@ -144,10 +144,7 @@ const sidebars: SidebarsConfig = {
             label: 'Partner Program',
             link: {type: 'doc', id: 'partner-program/partner-program-overview'},
             items: [
-                'partner-program/becoming-a-partner',
-                'partner-program/partner-benefits',
-                'partner-program/partner-resources',
-                'partner-program/referral-tracking',
+                'partner-program/managing-referrals',
             ],
         },
     ],
