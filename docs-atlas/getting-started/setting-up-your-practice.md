@@ -31,13 +31,18 @@ If your firm works in multiple currencies, you can add more branches later — o
 
 ## Step 3: Add a Payment Method (Charge Us only)
 
-If you plan to pay for client subscriptions on behalf of your firm, you need to add a payment method before you can add any Charge Us clients.
+If you plan to pay for client subscriptions on behalf of your firm, you need to
+add a payment method before you can add any Charge Us clients.
 
-1. Go to **Administration** > **Settings** > **Billing**
-2. Select the option to update your payment details
-3. Atlas redirects you to the Stripe portal to add your card or bank details
+1. Go to **Clients** > **New Client** > **Charge Us** > **Setup Account**
+2. Choose **Request billing verification**
+3. Enter a short reason. Note that the currency cannot be changed, as this is set
+   to your account's default currency.
+4. You will be redirected to the Stripe portal to add your card or bank details.
 
-Card payments are usually approved instantly. Direct debit payments take three to five days to verify. You cannot add Charge Us clients until verification is complete.
+Card payments are usually approved instantly. Direct debit payments take three to
+five business days to verify. You cannot add Charge Us clients until verification
+is complete.
 
 If you only plan to use the Client Pays model, you can skip this step entirely.
 

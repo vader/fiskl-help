@@ -38,6 +38,17 @@
   --ifm-code-font-size: 93%;
   --ifm-global-radius: 6px;
   --docusaurus-highlighted-code-line-bg: rgba(74, 124, 255, 0.08);
+
+  --ifm-color-info:    var(--ifm-color-primary); /* Matches your platform blue */
+  --ifm-color-success: oklch(0.6895 0.1494 162.47); /* --positive */
+  --ifm-color-warning: oklch(0.6804 0.214 39.54);   /* --warning */
+  --ifm-color-danger:  oklch(0.6537 0.2329 21.74);  /* --destructive */
+
+  /* Explicitly set the background tints using color-mix to avoid oklch rendering bugs */
+  --ifm-color-info-contrast-background:    color-mix(in oklch, var(--ifm-color-info) 10%, transparent);
+  --ifm-color-success-contrast-background: color-mix(in oklch, var(--ifm-color-success) 10%, transparent);
+  --ifm-color-warning-contrast-background: color-mix(in oklch, var(--ifm-color-warning) 10%, transparent);
+  --ifm-color-danger-contrast-background:  color-mix(in oklch, var(--ifm-color-danger) 10%, transparent);
 }
 
 /* ============================================================================
@@ -79,7 +90,6 @@
   --docusaurus-highlighted-code-line-bg: rgba(125, 164, 255, 0.12);
 
   /* Alerts */
-  --ifm-color-info:    #7da4ff;
   --ifm-color-success: #34d399;
   --ifm-color-warning: #fbbf24;
   --ifm-color-danger:  #f87171;
@@ -87,6 +97,18 @@
   /* Text */
   --ifm-font-color-base:      #e2e4f0;
   --ifm-font-color-secondary: #9095b0;
+
+  --ifm-color-info:    var(--ifm-color-primary); /* Matches your platform blue */
+  --ifm-color-success: oklch(66.53% 0.2059 160.61); /* --positive */
+  --ifm-color-warning: oklch(65.33% 0.1996 57.37);  /* --warning */
+  --ifm-color-danger:  oklch(0.649 0.241 14.681);   /* --destructive */
+
+  /* Slightly higher opacity (15%) for dark mode background visibility */
+  --ifm-color-info-contrast-background:    color-mix(in oklch, var(--ifm-color-info) 15%, transparent);
+  --ifm-color-success-contrast-background: color-mix(in oklch, var(--ifm-color-success) 15%, transparent);
+  --ifm-color-warning-contrast-background: color-mix(in oklch, var(--ifm-color-warning) 5%, transparent);
+  --ifm-color-danger-contrast-background:  color-mix(in oklch, var(--ifm-color-danger) 15%, transparent);
+  --ifm-color-warning-dark: #fbbf24;
 }
 
 /* ============================================================================
