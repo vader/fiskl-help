@@ -119,6 +119,18 @@ const sidebars: SidebarsConfig = {
         },
 
         // ================================================================
+        // DOCUMENT MANAGEMENT
+        // ================================================================
+        {
+            type: 'category',
+            label: 'Document Management',
+            link: {type: 'doc', id: 'document-management/overview'},
+            items: [
+                'document-management/document-billing'
+            ],
+        },
+
+        // ================================================================
         // REPORTS & ANALYTICS
         // ================================================================
         {
