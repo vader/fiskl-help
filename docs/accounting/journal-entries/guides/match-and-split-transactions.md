@@ -1,157 +1,164 @@
 ---
-title: Matching and Splitting Transactions
+title: "Matching and Splitting Transactions"
+description: "Learn how to match bank transactions to invoices and expenses, and split transactions across multiple accounts in Fiskl."
+keywords: ["transaction matching", "split transaction", "reconcile", "bank transactions", "multi-currency", "accounting"]
 sidebar_position: 6
-description: "Master complex transaction management in Fiskl: Learn to match and split entries for detailed and accurate financial records."
-keywords: ["Match and split transactions Fiskl", "complex transactions", "financial accuracy", "Fiskl tools"]
 slug: /core-features/accounting/journal-entries/guides/match-and-split-transactions
-toc_min_heading_level: 2
-toc_max_heading_level: 4
 tags:
- - Accounting
- - Journal entry
- - Transactions
+  - Accounting
+  - Journal entry
+  - Transactions
+toc_min_heading_level: 2
+toc_max_heading_level: 3
 ---
+
+import TOCInline from '@theme/TOCInline';
+
+This guide explains how to match bank transactions to your recorded financial activities and split transactions across multiple accounts in Fiskl.
+
+<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
+
+## Before You Begin
+
+- Your bank account is connected and transactions have been imported into Fiskl
+- The record you want to match has already been created — an invoice to a client, a vendor bill (added via Accounts Payable or AI Expense), or an incoming or outgoing payment
+- For multi-currency matching, the relevant currencies are enabled in [Currency Management](/settings/currency-management)
 
 ## What is transaction matching?
 
-Transaction matching in Fiskl allows you to reconcile recorded financial activities with your bank transactions. This process ensures your accounting records accurately reflect your actual financial position and helps maintain the integrity of your financial data.
+Transaction matching lets you reconcile your recorded financial activities with your bank transactions. This keeps your accounting records accurate and ensures your financial data reflects your actual position.
 
-<details>
-<summary>Common matching scenarios</summary>
+Common matching scenarios include:
 
 - Matching an expense to a bank transaction
 - Matching an invoice to a received payment
 - Matching an invoice payment to a received payment
-- Reconciling a batch payment (like a Stripe pay-out) with multiple invoices
+- Reconciling a batch payment (such as a Stripe payout) with multiple invoices
 - Matching a received payment to an Accounts Receivable transaction
-
-</details>
 
 ## How to match transactions
 
-<details>
-  <summary>Take an interactive video walkthrough of how to match an accounting transaction</summary>
-
-    <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, width: '100%' }}>
-    <iframe
-    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0 }}
-    src="https://demo.fiskl.com/e/cm0tm275x00all50cpp3xqp37/tour"
-    allowFullScreen
-    webkitallowfullscreen="true"
-    mozallowfullscreen="true"
-    allowtransparency="true"
-    ></iframe>
-    </div>
-
-</details>  
-
-1. Navigate to the `Accounting > Chart of Accounts` or `Accounting > Transactions` page from the left menu
-1. Find the account you want to work on and open it
-1. Select `Show matches` on the transaction
-1. Choose the corresponding transaction(s) from the list
-1. Review the match details
-1. Select `Update` to complete the process
+1. In the left sidebar, select **Accounting** > **Chart of Accounts** or **Accounting** > **Transactions**
+2. Find the ledger account you want to work on and open it
+3. Select **Show matches** on the transaction
+4. Choose the corresponding transaction or transactions from the list
+5. Review the match details
+6. Select **Save** to complete the process
 
 :::info
 When you match a payment to an invoice, Fiskl automatically creates a payment record for that invoice.
 :::
 
+## How to match transactions in different currencies
 
-# How to match transaction(s) in different currencies
-
-The process is exactly the same as a regular match. The only difference is we are selecting some multiple transactions.
-
-<details>
-
-  <summary>Take an interactive video walkthrough of matching multiple transactions in different currencies</summary>
-
-    <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, width: '100%' }}>
-    <iframe
-    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0 }}
-    src="https://demo.fiskl.com/e/cm0tpcjoe0008jv0cn17l57d9/tour"
-    allowFullScreen
-    webkitallowfullscreen="true"
-    mozallowfullscreen="true"
-    allowtransparency="true"
-    ></iframe>
-    </div>
-
-</details>  
+The process is the same as a standard match. When working with multi-currency transactions, Fiskl displays the applicable exchange rates. You can adjust amounts or rates as needed to balance the transaction.
 
 ## What is transaction splitting?
 
-Splitting allows you to divide a single transaction into multiple parts, assigning each to different accounts or categories. This is useful for accurately recording complex expenses or income.
-
+Splitting lets you divide a single transaction into multiple parts, assigning each part to a different ledger account or category. This is useful for accurately recording complex expenses or income.
 
 <details>
-  <summary>See an example of a real world split transaction</summary>
+<summary>See an example of a real world split transaction</summary>
 
 Imagine you're a freelance marketing consultant who attends a professional conference. You pay a single fee of $1,500 for the event, but this fee covers multiple aspects of your business expenses.
 
 Here's how you might split this transaction:
 
-  ```
-    $800 for Conference registration (Expense > Operating Expenses > Education and Training)
-    $400 for workshop materials (Expenses > Operating Expenses > Office Supplies)
-    $300 for included accommodation (Expenses > Operating Expenses > Travel - Accommodation)
-  ```
+- $800 for conference registration (Expenses > Operating Expenses > Education and Training)
+- $400 for workshop materials (Expenses > Operating Expenses > Office Supplies)
+- $300 for included accommodation (Expenses > Operating Expenses > Travel — Accommodation)
 
-This split allows you to accurately categorize your expenses for both accounting and tax purposes. It provides a clearer picture of how you're investing in different aspects of your business:
+This split lets you accurately categorise your expenses for both accounting and tax purposes:
 
-The conference registration fee is a direct professional development expense.
-The workshop materials are office supplies that you'll use beyond the conference.
-The accommodation portion could be considered a travel expense.
+- The conference registration fee is a direct professional development expense
+- The workshop materials are office supplies you'll use beyond the conference
+- The accommodation portion is a travel expense
 
 By splitting the transaction this way, you can:
 
-More accurately track different types of business expenses
-Better understand where your professional development budget is being allocated
-Potentially claim different tax deductions based on expense categories
-Gain insights into the cost breakdown of attending professional events
+- More accurately track different types of business expenses
+- Better understand where your professional development budget is being allocated
+- Potentially claim different tax deductions based on expense categories
+- Gain insights into the cost breakdown of attending professional events
 
 </details>
 
 ## How to split transactions
 
-<details>
+1. In the left sidebar, select **Accounting** > **Chart of Accounts** or **Accounting** > **Transactions**
+2. Find the transaction you want to split and open it
+3. Select **Split**
+4. Add new split lines, specifying the amount, ledger account, and optionally a vendor or client for each
+5. Verify the split amounts match the total transaction amount
+6. Select **Save** to confirm
 
-  <summary>Take an interactive video walkthrough of how to split a transaction across multiple accounts</summary>
-
-    <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, width: '100%' }}>
-    <iframe
-    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0 }}
-    src="https://demo.fiskl.com/e/cm0san1ul000sle0c9u0mxjrz/tour"
-    allowFullScreen
-    webkitallowfullscreen="true"
-    mozallowfullscreen="true"
-    allowtransparency="true"
-    ></iframe>
-    </div>
-
-</details>
-
-1. Navigate to the `Accounting > Chart of Accounts` or `Accounting > Transactions` page from the left menu
-1. Find the transaction you want to split and open it
-1. Select the "Split" option
-1. Add new split lines, specifying the amount and account for each
-1. Use the provided tools to ensure the split amounts match the total transaction amount
-1. Select "Update" to confirm
+:::info
+Fiskl displays transaction amounts as positive by default. For credit transactions, enter split amounts as negative numbers to record them correctly.
+:::
 
 <details>
 <summary>Tips for effective splitting</summary>
 
-- If the sum of the splits don't balance you will see the difference. Selecting the difference will add a new split line with this amount
+- If the sum of the splits don't balance, Fiskl shows the remaining difference. Select the difference to automatically add a new split line for that amount
 - Use meaningful descriptions and attach supporting files and images
-- Remember making changes are just as easy, open the transaction and edit
+- To make changes, open the transaction and edit the split lines directly
 
 </details>
 
 ## Matching and splitting with multiple currencies
 
-Fiskl supports matching and splitting transactions involving different currencies:
+Fiskl supports matching and splitting across different currencies. When you match or split a multi-currency transaction, Fiskl displays the exchange rates for each currency involved. You can adjust amounts or rates to balance the transaction, and choose which currency rate to adjust when working with multi-currency splits.
 
-1. When matching or splitting transactions with different currencies, Fiskl displays the exchange rates
-1. You can adjust amounts or rates to balance the transaction
-1. For multi-currency splits, choose which currency rate to adjust for matching
+Accurate matching and splitting is the foundation of reliable financial reporting in Fiskl.
 
-Remember, accurate matching and splitting of transactions forms the foundation of reliable financial reporting in Fiskl.
+## Common Issues
+
+<details>
+<summary>No matches appear when I select Show matches</summary>
+
+This usually means the transactions on both sides have not been imported or recorded yet. Check that:
+
+1. Your bank feed has synced — go to **Accounting** > **Transactions** and trigger a manual sync if needed
+2. The corresponding invoice, expense, or payment exists and is in the correct status
+3. The transaction amounts are close enough for Fiskl to suggest a match (small discrepancies due to fees are normal — you can adjust manually)
+
+</details>
+
+<details>
+<summary>My split amounts do not add up to the total</summary>
+
+Fiskl displays the unallocated difference at the top of the split panel. Select the difference amount to automatically create a new split line for the remaining balance. All split lines must total the original transaction amount before you can save.
+
+</details>
+
+<details>
+<summary>The exchange rate shown for a multi-currency match looks incorrect</summary>
+
+Fiskl uses the exchange rate at the time the transaction was recorded. You can manually adjust the rate or the converted amount directly in the match panel. If you need a specific rate for compliance purposes, enter it before selecting **Finish**.
+
+</details>
+
+<details>
+<summary>A bank transaction appeared after I already recorded it manually — now I have a duplicate</summary>
+
+This can happen when automatic bank feeds are delayed by a few days. If you recorded a transaction manually and the same transaction then imports automatically, both will appear in your unmatched list.
+
+Select **Show matches** on the manually recorded transaction and match it to the imported bank transaction. This reconciles them and clears both from your unmatched list. To avoid this situation, check your unmatched bank transactions before adding entries manually.
+
+</details>
+
+<details>
+<summary>How do I review or adjust automatically matched or categorised transactions?</summary>
+
+Fiskl can automatically match bank transactions to invoices and expenses, and categorise transactions based on learned patterns. Both settings are found in **Accounting** > **Accounting Settings**.
+
+We recommend reviewing automatically matched and categorised transactions regularly to ensure everything is recorded as expected. If you prefer to manage matching and categorisation manually, you can turn either setting off in **Accounting Settings**.
+
+</details>
+
+## Related Topics
+
+- [Manual Transactions](/core-features/accounting/journal-entries/guides/manual-transactions) — Record transactions manually in your ledger accounts
+- [Moving Transactions Between Accounts](/core-features/accounting/journal-entries/guides/move-transactions) — Transfer transactions to the correct ledger account
+- [Multi-currency Transactions](/core-features/accounting/journal-entries/guides/multi-currency-transactions) — Understand how Fiskl handles exchange rates and currency conversion
+- [Chart of Accounts](/accounting/chart-of-accounts) — View and manage your ledger account structure

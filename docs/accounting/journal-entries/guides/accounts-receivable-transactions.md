@@ -1,19 +1,36 @@
 ---
-title: Working with Accounts Receivable
+title: "Working with Accounts Receivable"
+description: "Learn how Fiskl tracks Accounts Receivable for invoices and manual transactions, including partial payments and multi-currency splits."
+keywords: ["accounts receivable", "AR", "invoicing", "partial payments", "multi-currency", "accrual accounting"]
 sidebar_position: 12
-description: "Efficiently manage Accounts Receivable with Fiskl: Track incoming payments, improve cash flow, and maintain healthy customer relationships."
-keywords: ["Create AR transactions Fiskl", "Accounts Receivable", "payment tracking", "cash flow management"]
 slug: /core-features/accounting/journal-entries/guides/accounts-receivable-transactions
-toc_min_heading_level: 2
-toc_max_heading_level: 4
 tags:
   - Accounting
   - Journal Entry
+toc_min_heading_level: 2
+toc_max_heading_level: 3
 ---
 
-Accounts Receivable (AR) is a key component in accrual accounting.
+import TOCInline from '@theme/TOCInline';
 
-AR is a record of money owed to your business by customers for goods or services you've provided but haven't been paid for yet. In Fiskl, the AR account automatically tracks these amounts in multiple currencies, displaying the total in your base currency. This gives you a clear overview of the payments you're expecting to receive.
+This guide explains how Accounts Receivable (AR) works in Fiskl — how it's created automatically for invoices, how to record manual AR transactions, and how to manage partial payments.
+
+:::tip
+You can ask **Fi**, Fiskl's AI advisor, questions about your AR balance, overdue invoices, or outstanding payments at any time. Select **Fi** in the top right of the screen to get started.
+:::
+
+<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
+
+## Before You Begin
+
+- Familiarise yourself with [accounting fundamentals](/glossary/accounting-fundamentals)
+- Ensure your base currency is set in [Company Settings](/settings/company-settings)
+
+## What Is Accounts Receivable
+
+Accounts Receivable is a record of money owed to your business for goods or services you've provided but haven't been paid for yet. In Fiskl, the AR ledger account automatically tracks these amounts in multiple currencies and displays the total in your base currency.
+
+If your Accounts Receivable balance is zero, all your invoices have been paid and you have no outstanding client payments to collect.
 
 <details>
 <summary>Why is managing Accounts Receivable important?</summary>
@@ -26,122 +43,147 @@ Proper AR management helps you:
 
 </details>
 
-:::tip
-If the balance in your Accounts Receivable account is zero, it means all your invoices have been paid, and you currently have no outstanding customer payments to collect.
-:::
+## How Fiskl Handles AR for Invoices
 
-## How Fiskl Handles AR Transactions
+Fiskl automates AR management for invoices and their payments:
 
-Account Receivable transactions are generated automatically for invoices and invoice payments but can also be added manually.
+1. **Invoice creation** — Each time you send an invoice, Fiskl automatically creates an AR record. This entry is an asset representing the income you expect to receive from your client.
+2. **Receiving payments** — When you receive a payment for an invoice, whether partial or in full, Fiskl automatically updates the AR transactions to reflect the payment and reduces the outstanding balance.
+3. **Bank account matching** — When transactions arrive via your connected bank feed, Fiskl's AI-powered automatch attempts to automatically match incoming payments to the corresponding invoice, reconciling the AR entry against your bank account.
 
-### How Fiskl Handles AR Transactions for Invoicing
+This automation keeps your AR up to date and accurately reflects outstanding client payments as bank transactions come in.
 
-Fiskl simplifies the management of your Accounts Receivable for invoices and their payments:
+## Recording Manual AR Transactions
 
-1. **Invoice creation**: Each time you generate an invoice, Fiskl automatically creates an Accounts Receivable (AR) record. This AR entry is an asset, representing the income you expect to receive from your customer
-1. **Receiving payments**: When a payment is received for an invoice, whether it's partial or in full, Fiskl automatically updates the AR transactions to reflect the payment, reducing the outstanding balance accordingly"
-
-This automation ensures your AR is always up-to-date and accurately reflects your outstanding customer payments.
-
-### How Fiskl Handles AR Transactions Manually
-
-You can also record manual AR that record payments expected in the future.
-
-You can enter an AR transaction in any currency and can also split the transaction into multiple accounts.
+You can also record manual AR transactions to capture payments expected in the future. You can enter a manual AR transaction in any currency and split it across multiple ledger accounts.
 
 <details>
 <summary>Real world example of an Accounts Receivable with splits in non-base currency</summary>
 
 You are invited to speak at a conference abroad and are being paid in a currency different from your base currency.
 
-Suppose the contract stipulates a total payment of €3000 EUR. Of this amount, €2500 is allocated for your speaking engagement, classified as 'Sales of Services,' and the remaining €500 is for merchandise you are selling at the event, categorized under `Sales of Products`.
+Suppose the contract stipulates a total payment of €3000 EUR. Of this amount, €2500 is allocated for your speaking engagement, classified as Sales of Services, and the remaining €500 is for merchandise you are selling at the event, categorised under Sales of Products.
 
-Splitting these transactions in your Accounts Receivable not only allows you to accurately track revenue streams but also manages the complexities of foreign currency transactions.
-
-This separation helps in analyzing the profitability of different business activities and is crucial for accurate financial reporting, strategic financial planning, and tax preparation in your base currency.
+Splitting these transactions in your Accounts Receivable lets you accurately track revenue streams and manage the complexities of foreign currency transactions. This separation helps analyse the profitability of different business activities and is important for accurate financial reporting, strategic financial planning, and tax preparation in your base currency.
 
 </details>
 
 ## Viewing AR Transactions
 
-View your Accounts Receivable transactions in many ways:
+You can view your Accounts Receivable transactions in several ways:
 
-1. Go to `Accounting > Transactions` from the left menu and choose `Accounts Receivable`
-1. Go to ``Accounting` > `Chart of Accounts`` from the left menu and choose `Accounts Receivable`
-1. In your accounting reports
-    1. Go to `Accounting` > `Reports` from the left menu and choose `Balance Sheet` and select the detailed option.
-    1. Go to `Accounting` > `Reports` from the left menu and choose `Transactions by Account`.
-    1. Go to `Accounting > Reports` from the left menu and choose `Trial Balance`.
+- In the left sidebar, select **Accounting** > **Transactions**, then select **Accounts Receivable**
+- In the left sidebar, select **Accounting** > **Chart of Accounts**, then select **Accounts Receivable**
+- In the left sidebar, select **Accounting** > **Reports**, then select [Balance Sheet](/reporting/balance-sheet) and enable the detailed option
+- In the left sidebar, select **Accounting** > **Reports**, then select [Transactions by Account](/reporting/transactions-by-account)
+- In the left sidebar, select **Accounting** > **Reports**, then select **Trial Balance**
 
 ## Understanding AR Transaction Types
 
 In your Accounts Receivable list, you'll see two main types of transactions:
 
-1. **In debit**: These are invoices you've sent to customers, increasing your AR balance
-2. **In credit**: These are payments received from customers, decreasing your AR balance
+- **Debit entries** — Invoices you've sent to clients, which increase your AR balance
+- **Credit entries** — Payments received from clients, which decrease your AR balance
 
 ## Matching AR Transactions
 
-As with Accounts Payable you can also match your Accounts Receivable transactions.
+As with Accounts Payable, you can match your Accounts Receivable transactions.
 
-:::note
-It's not possible to manually match your invoice AR transactions as this is done automatically by Fiskl.
+:::info
+It's not possible to manually match invoice AR transactions. Fiskl handles this automatically.
 :::
 
-<details>
-<summary>Take an interactive walkthrough of matching an Accounts Receivable transaction</summary>
+## AI-Powered Bank Categorisation
 
-<div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, width: '100%' }}>
-<iframe
-style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0 }}
-src="https://demo.fiskl.com/e/cm0tqaxvh007ejv0cvo0mwavc/tour"
-allowFullScreen
-webkitallowfullscreen="true"
-mozallowfullscreen="true"
-allowtransparency="true"
-></iframe>
-</div>
-</details>
+When bank transactions arrive via your connected bank feed, Fiskl's AI does two things to help reconcile your AR automatically:
+
+- **Automatch** — attempts to match the incoming payment directly to the corresponding AR entry, linking the bank transaction to the correct invoice without any manual intervention
+- **Category suggestions** — where an exact match isn't found, Fiskl's AI suggests the most likely ledger account category based on the transaction description, amount, and your previous categorisation patterns
+
+You can accept a suggestion with one select, or override it manually if needed. The more you use Fiskl, the more accurate these suggestions become as the AI learns your patterns.
+
+:::info
+Automatch and category suggestions work best when your bank transactions include clear payment references. Including your invoice number in payment instructions you send to clients improves match accuracy.
+:::
 
 ## Partial Payments in Accounts Receivable
 
-<details>
-<summary>Take an interactive walkthrough of processing partial payments</summary>
-<div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, width: '100%' }}>
-<iframe
-style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0 }}
-src="https://demo.fiskl.com/share/cm8h7sngf000lic0cy2e0yjax/tour"
-allowFullScreen
-webkitallowfullscreen="true"
-mozallowfullscreen="true"
-allowtransparency="true"
-></iframe>
-</div>
-</details>
+When recording partial payments against an invoice, you need to match these transactions accurately to maintain correct accounting records.
 
-When making partial payments against an invoice, you'll need to properly record and match these transactions to maintain accurate accounting records:
+### Recording a Partial Payment
 
-### Recording a Partial Payment in Accounts Receivable
+You can partially match an AR transaction with a partial payment from your bank or cash accounts. Payments can be in your base currency, a foreign currency, or multiple currencies:
 
-You can partially match an AR transaction with a partial payment in your bank or cash accounts, which can be in home currency, foreign currency, or multiple currencies:
-1. Find the relevant transaction in your Cash & Cash Equivalents account, i.e., your bank account
-2. Select "Show matches"
-3. Choose the corresponding AP transaction from the list for the full amount
-4. Fiskl will automatically adjust the matched amount to the partial payment, along with applying relevant exchange rates
-5. Select "Update" to confirm the match
+1. Find the relevant transaction in your Cash & Cash Equivalents ledger account (your bank account)
+2. Select **Show matches**
+3. Select the corresponding AR transaction from the list for the full amount
+4. Fiskl automatically adjusts the matched amount to the partial payment and applies relevant exchange rates
+5. Select **Save** to confirm the match
 
-Your partial payment will automatically be linked to Accounts Receivable.
+Repeat this process for all related partial payments until the AR transaction is fully settled.
 
-Repeat the process for all related partial payments until the AR transaction has been fully paid.
-
-### Reporting Considerations
+### How Partial Payments Appear in Reports
 
 Partial payments affect your financial reports in specific ways:
 
-- **Balance Sheet**: Shows the remaining liability for partially paid AR Transactions
-- **Transactions by Account**: Displays each partial payment as a separate entry linked to the original invoice
-- **Aging Reports**: Includes the unpaid portion of partially paid invoices
-- **Trial Balance**: Reflects the current outstanding balance for all AR transactions
+- **Balance Sheet** — Shows the remaining outstanding amount for partially paid AR transactions
+- **Transactions by Account** — Displays each partial payment as a separate entry linked to the original invoice
+- **Client Aging report** — Includes the unpaid portion of partially paid invoices
+- **Trial Balance** — Reflects the current outstanding balance for all AR transactions
 
+## Common Issues
 
-Remember, effective AR management is crucial for maintaining healthy cash flow and strong customer relationships. Fiskl's automatic AR handling simplifies this process, allowing you to focus on growing your business.
+<details>
+<summary>My AR balance doesn't match my invoice totals</summary>
+
+This usually means one or more invoices have been partially matched, matched to the wrong transaction, or a manual AR entry has been created in addition to the automatic invoice entry.
+
+1. In the left sidebar, select **Accounting** > **Transactions**, then select **Accounts Receivable**
+2. Review each debit entry and check whether a corresponding credit entry exists
+3. If a manual AR entry duplicates an invoice, delete the manual entry
+4. If a payment has been matched incorrectly, unmatch it and re-match it to the correct invoice
+
+</details>
+
+<details>
+<summary>Automatch didn't link my bank payment to the invoice</summary>
+
+Automatch may not trigger if the payment amount differs from the invoice total, the payment arrived in a different currency, or the bank transaction description doesn't closely match the invoice reference.
+
+1. In the left sidebar, select **Accounting** > **Transactions**, then select **Cash & Cash Equivalents**
+2. Find the bank payment and select **Show matches**
+3. Select the correct AR transaction from the list
+4. Select **Save** to confirm the match
+
+For partial payments, Fiskl adjusts the matched amount automatically — see [Recording a Partial Payment](#recording-a-partial-payment) above.
+
+</details>
+
+<details>
+<summary>My foreign currency AR transaction shows an unexpected base currency amount</summary>
+
+The base currency value of a foreign currency AR transaction is calculated using the exchange rate at the time the transaction was recorded. If the rate has changed since then, the displayed amount may differ from what you expected.
+
+To adjust the exchange rate on a manual AR transaction, open the transaction and update the rate field before saving. For invoice-generated AR entries, the rate is set at invoice creation and updated automatically when a payment is matched.
+
+</details>
+
+<details>
+<summary>I can't find the AR transaction for a specific invoice</summary>
+
+AR transactions for invoices are created automatically but may not appear immediately if the invoice is still in draft status. Only sent or approved invoices generate an AR entry.
+
+1. Confirm the invoice has been sent — select **Invoicing** in the left sidebar and check the invoice status
+2. If the invoice is in draft, select **Send** to generate the AR entry
+3. If the invoice has been sent but no AR entry appears, select **Accounting** > **Transactions** > **Accounts Receivable** and filter by date range to locate it
+
+</details>
+
+## Related Topics
+
+- [Working with Accounts Payable](/core-features/accounting/journal-entries/guides/accounts-payable-transactions) — Manage money your business owes to vendors
+- [Matching and Splitting Transactions](/core-features/accounting/journal-entries/guides/match-and-split-transactions) — Match bank transactions to invoices and expenses
+- [Multi-Currency Transactions](/core-features/accounting/journal-entries/guides/multi-currency-transactions) — Record and reconcile transactions in foreign currencies
+- [Balance Sheet](/reporting/balance-sheet) — View your assets, liabilities, and equity at a point in time
+- [Transactions by Account](/reporting/transactions-by-account) — Review all transactions for a specific ledger account
+- [Fi — Your AI Advisor](/ai/fi) — Ask Fi questions about your AR balance, overdue invoices, and cash flow

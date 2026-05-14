@@ -1,55 +1,32 @@
 ---
-title: Working with Accounts Payable
+title: "Accounts Payable Transactions"
+description: "Learn how to create, pay, and manage Accounts Payable transactions in Fiskl, including partial payments, foreign currencies, and splits."
+keywords: ["accounts payable", "AP", "bills", "vendor payments", "accrual accounting", "journal entry", "partial payment", "foreign currency"]
 sidebar_position: 10
-description: "Learn how to create and manage Accounts Payable entries and bills in Fiskl, including split transactions and multi-currency entries."
-keywords: [ "Accounts Payable", "Fiskl", "bills", "expenses", "financial management", "accrual accounting" ]
 slug: /core-features/accounting/journal-entries/guides/accounts-payable-transactions
-toc_min_heading_level: 2
-toc_max_heading_level: 4
 tags:
   - Accounting
-  - Journal entry
+  - Journal Entry
   - Accounts Payable
+toc_min_heading_level: 2
+toc_max_heading_level: 3
 ---
+
+import TOCInline from '@theme/TOCInline';
+
+This guide explains how to create and manage Accounts Payable (AP) transactions in Fiskl. It covers recording bills, matching payments, handling partial payments, and working with foreign currencies.
+
+<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## Understanding Accounts Payable
 
-Accounts Payable (AP) is a key component in accrual accounting. It's a record of what your business owes to suppliers or
-vendors, including goods or services you've bought on credit but haven't paid for yet. In Fiskl, Accounts Payable is
-used to record future payments that you owe to vendors and suppliers.
+Accounts Payable is used in accrual accounting to record money your business owes to vendors for goods or services received but not yet paid for. Recording AP entries in Fiskl gives you an accurate picture of your liabilities and future payment obligations.
 
-While there isn't a specific "Bills" entry screen in Fiskl, you can use the Accounts Payable feature to record and
-manage your bills. This approach aligns with accrual accounting principles and provides a comprehensive view of your
-future payment obligations.
+When you create an AP transaction, Fiskl records the liability in the Accounts Payable ledger account. When you later pay the bill, you match the payment to the original AP entry. This zeroes out the outstanding balance and keeps your Balance Sheet, Trial Balance, and Transactions by Account reports accurate.
 
-Fiskl's AP account helps you track these amounts in multiple currencies, displaying the total in your base currency.
-This feature allows you to easily see how much you need to pay without any surprises, making financial planning and cash
-flow management more efficient.
-
-:::note
-For payments that have already occurred, use Operating Expenses or other relevant Expenses accounts instead of Accounts
-Payable.
+:::info
+For payments that have already occurred, use Operating Expenses or other relevant expense ledger accounts instead of Accounts Payable.
 :::
-
-Let's explore how to create and manage Accounts Payable entries, including bills, in Fiskl.
-
-## Creating a Basic Accounts Payable Entry
-
-Follow these steps to create a basic Accounts Payable entry or bill in Fiskl:
-
-1. From the left menu, click on "Purchasing" and select "Accounts Payable".
-1. Click on the "+In" button to create a new entry.
-1. Complete the following fields:
-    - Date
-    - Name or number for your entry (e.g., "Broadband bill" or "Office Supplies Invoice #1234")
-    - Category (select from the dropdown or create a new one)
-    - Tax (if applicable)
-    - Amount (in your default currency)
-    - Vendor (select or create a new one)
-    - Bill number (if applicable)
-    - Client (if relevant to a specific client)
-1. To attach supporting documents, such as a scanned copy of the bill, click on the attach button.
-1. Click "Create" to save your Accounts Payable entry.
 
 <details>
 <summary>Why is managing Accounts Payable important?</summary>
@@ -58,150 +35,163 @@ Proper AP management helps you:
 
 - Track your short-term obligations.
 - Accurately report your financial position.
+- Maintain healthy cash flow by knowing what payments are due and when.
+- Build stronger vendor relationships through timely and accurate payments.
 
 </details>
-
-:::tip
-If the balance in your Accounts Payable account is zero, it means you currently have no future payments or liabilities
-recorded.
-:::
 
 ## Creating an AP Transaction
 
-To record a new Accounts Payable transaction:
+To record a bill or future payment you owe to a vendor:
 
-<details>
-<summary>Take an interactive walkthrough of creating an Accounts Payable transaction</summary>
+1. Go to **Accounting** in the left menu and select **Transactions**
+2. Select **Accounts Payable** from the account list
+3. Select **+ Credit** to create a new AP entry
+4. Complete the transaction details:
+   - **Name** — a clear description such as "Broadband bill" or "Office Supplies Invoice #1234"
+   - **Currency** — select the currency if different from your base currency
+   - **Amount** — enter the amount owed
+   - **Description** — add any internal notes (optional)
+   - **Date** — the invoice or bill date
+   - **Category** — select the relevant expense ledger account from the dropdown, or create a new one
+   - **Tax** — select the applicable tax rate. If you are VAT or sales tax registered, this is required for accurate tax reporting.
+   - **Vendor** — select an existing vendor or create a new one
+   - **Client** — link to a client if the expense relates to a specific job (optional)
+   - **Reference** — enter the vendor's invoice or bill number (optional)
+5. Select the attachment icon to upload a copy of the bill or invoice
+6. Select **Save** to save the transaction
 
-<div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, width: '100%' }}>
-<iframe
-style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0 }}
-src="https://demo.fiskl.com/e/cm0to7dr7000gl60cstgelqbl/tour"
-allowFullScreen
-webkitallowfullscreen="true"
-mozallowfullscreen="true"
-allowtransparency="true"
-></iframe>
-</div>
-</details>
+Your new AP transaction now appears in the Accounts Payable ledger account and the corresponding expense ledger account.
 
-1. Go to `Accounting > Transactions` from the left menu
-2. Select "Accounts Payable" from the account list
-3. Click "+In Credit" to create a new AP transaction
-4. Enter the transaction details:
-    - Name
-    - Category
-    - Amount
-    - Currency (if different from base currency)
-    - Vendor
-    - Reference number (optional)
-    - Description (optional)
-5. Attach any relevant documents by clicking the attachment button
-6. Click "Create" to save the transaction
+:::tip
+If the balance in your Accounts Payable account is zero, it means you currently have no future payments or liabilities recorded.
+:::
 
-Your new AP transaction will now appear in the Accounts Payable list and the corresponding expense account.
+## Matching an AP Transaction with a Payment
 
-## Matching AP Transactions with Payments
+When you pay a bill, Fiskl can match the bank payment to the original AP transaction automatically, or you can manually assign or change a match. Matching clears the outstanding liability and updates your financial reports.
 
-<details>
-<summary>Take an interactive walkthrough of matching an accounts payable transaction</summary>
+### How automatic matching works
 
-<div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, width: '100%' }}>
-<iframe
-style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0 }}
-src="https://demo.fiskl.com/e/cm0wgvisu0001l20cj12y07xb/tour"
-allowFullScreen
-webkitallowfullscreen="true"
-mozallowfullscreen="true"
-allowtransparency="true"
-></iframe>
-</div>
-</details>
+Fiskl monitors your connected bank accounts for transactions that correspond to recorded AP entries. When a match is found, the AP transaction reconciles automatically without any manual steps.
 
-When you pay an AP transaction, you need to match it with the payment in your bank or credit card account:
+**The matching process:**
 
-1. Go to the relevant bank or credit card account
-2. Find the relevant transaction
-3. Select "Show matches"
-4. Choose the corresponding AP transaction from the list
-5. Select "Update" to confirm the match
+1. **AP transaction saved** — the liability is recorded in your Accounts Payable ledger account
+2. **Monitoring begins** — Fiskl watches for incoming bank transactions that correspond to the AP entry
+3. **Match identified** — the system finds a bank transaction matching the vendor, amount, and date
+4. **Automatic reconciliation** — the AP transaction links to the bank transaction and your accounting records update
 
-In the Accounts Payable section, you will find two transactions associated with this transaction. The initial
-transaction logs the future expense, while the subsequent transaction records its payment. Consequently, the outstanding
-balance for this payable is zeroed out. These updates are reflected in the account transactions and are visible on your
-Balance Sheet, Transactions by Account and Trial Balance reports.
+**What Fiskl matches on:**
 
-## Matching AP transactions with partial payments
+- **Amount** — exact match or within a small tolerance
+- **Date** — bank transaction date is within a reasonable range of the AP entry date
+- **Vendor** — bank transaction description corresponds to the vendor name
 
-<details>
-<summary>Take an interactive walkthrough of processing partial payments</summary>
-<div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, width: '100%' }}>
-<iframe
-style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0 }}
-src="https://demo.fiskl.com/share/cm8hh9lpe0010l70c9h84pt41/tour"
-allowFullScreen
-webkitallowfullscreen="true"
-mozallowfullscreen="true"
-allowtransparency="true"
-></iframe>
-</div>
-</details>
+After automatic matching, Fiskl records two entries in the Accounts Payable account: the original liability entry and the payment entry. The outstanding balance returns to zero.
 
-You can partially match an AP transaction with a partial payment in your bank or cash accounts, can be also in home,
-foreign currency or multiple currencies:
+### Manually matching or changing a match
 
-1. Find the relevant transaction in your Cash & Cash Equivalents account, ie US bank account.
-2. Select "Show matches".
-3. Choose the corresponding AP transaction from the list for the full amount.
-4. Fiskl will automatically adjust the matched amount to the partial payment, along with apply relevant exchange rates.
-5. Select "Update" to confirm the match.
+If you need to manually assign a match, or if an automatic match is incorrect and you want to change it:
 
-Your partial payment will automatically be linked to Accounts Payable.
+1. Go to **Accounting** > **Transactions** and open the relevant bank or credit card ledger account
+2. Find the payment transaction
+3. Select **Show matches** on the transaction
+4. Review the list of available AP transactions and select the correct one
+5. If an incorrect match has already been applied, select it to deselect it — it moves back to the available list
+6. Select the correct AP transaction from the list
+7. Select **Update** to apply the match
+8. Select **Finish** once all matches for the transaction are complete
 
-Repeat the process for all related partial payments until the AP transaction has been fully paid.
+You only need to select **Finish** once — after all matches are done, not after each individual one.
 
-### Reporting Considerations
+## Matching an AP Transaction with Partial Payments
 
-Partial payments affect your financial reports in specific ways:
+If you pay a bill in instalments, you can match each partial payment to the same AP transaction:
 
-•    **Balance Sheet**: Shows the remaining liability for partially paid bills.
-•    **Transactions by Account**: Displays each partial payment as a separate entry linked to the original bill.
-•    **Aging Reports**: Includes the unpaid portion of partially paid bill.
-•    **Trial Balance**: Reflects the current outstanding balance for all AP transactions
+1. Go to **Accounting** > **Transactions** and open the relevant bank or cash ledger account
+2. Find the first partial payment transaction
+3. Select **Show matches**
+4. Select the corresponding AP transaction from the list — Fiskl automatically adjusts the matched amount to the partial payment
+5. Select **Update** to confirm
+6. Repeat for each subsequent partial payment until the AP transaction is fully paid
+7. Select **Finish** after the final payment is matched to close out the AP transaction
+
+If currencies differ between the payment and the AP entry, Fiskl applies the relevant exchange rate automatically.
+
+### How partial payments appear in reports
+
+Partial payments update your financial reports as each instalment is matched:
+
+- **Balance Sheet** — shows the remaining unpaid liability after each payment
+- **Transactions by Account** — each partial payment appears as a separate entry linked to the original AP transaction
+- **Trial Balance** — reflects the current outstanding balance across all AP transactions
 
 ## Working with Foreign Currency AP Transactions
 
-Fiskl supports AP transactions in multiple currencies:
+Fiskl supports AP transactions in any currency. When a vendor invoices you in a currency different from your base currency:
 
-1. When creating an AP transaction, select the appropriate currency.
-2. The transaction will display both the foreign and base currency amounts.
-3. When matching, you will be presented with matches in all currencies. You can filter these to specific currencies
-   using the currency selector.
-4. Select the correct match, and adjust the exchange rate if necessary.
+1. When creating the AP transaction, select the appropriate currency from the **Currency** dropdown
+2. Fiskl displays both the foreign currency amount and the equivalent in your base currency
+3. When you come to match the payment, select **Show matches** — Fiskl presents matches across all currencies
+4. Use the currency selector to filter matches to a specific currency if needed
+5. Select the correct match and adjust the exchange rate if required
+6. Select **Update** to confirm
 
-For payments covering multiple foreign currency invoices:
+### Paying multiple foreign currency bills in one payment
 
-1. Select all relevant matches from the list.
-2. Use the "Auto-adjust FX rate" option to proportionally adjust exchange rates if needed.
-3. Click "Create" to finalize the matched transaction.
+If a single bank payment covers several AP transactions in a foreign currency:
 
-## Splitting AP Transactions
+1. Select **Show matches** on the payment transaction
+2. Select all relevant AP transactions from the matches list
+3. Select **Auto-adjust FX rate** to proportionally distribute the exchange rate across all matched transactions
+4. Select **Update** to finalise
 
-You can split a single AP transaction across multiple categories, currencies, or vendors:
+## Splitting an AP Transaction
 
-1. Create or open an AP transaction.
-2. Click "Split".
-3. Add details for each split:
-    - Amount
-    - Category
-    - Currency (if different)
-    - Tax information (if applicable)
-    - Vendor (if different)
-    - Client (if applicable)
-4. The "Difference" field shows any remaining amount to be allocated
-5. Click "Create" to save the split transaction
+If a single bill covers multiple expense categories, vendors, or currencies, you can split the AP transaction:
 
-Each split will appear in its respective account, providing detailed transaction tracking.
+1. Open an existing AP transaction or create a new one
+2. Select **Split**
+3. For each split line, enter:
+   - **Amount**
+   - **Category** — the expense ledger account for that portion
+   - **Currency** — if different from the base currency
+   - **Tax** — if applicable
+   - **Vendor** — if different from the primary vendor
+   - **Client** — if applicable
+4. The **Difference** field shows any remaining amount not yet allocated — ensure this reaches zero before saving
+5. Select **Save** to save the split transaction
 
-Remember, accurate AP management is crucial for maintaining your business's financial health and relationships with
-suppliers.
+Each split portion appears in its respective ledger account, giving you detailed tracking across categories and vendors.
+
+## Common Issues
+
+<details>
+<summary>My AP balance is not zeroing out after I matched a payment</summary>
+
+This usually means the payment and the AP transaction were matched at different amounts. Open the Accounts Payable ledger account and check whether the two entries are equal — the original credit and the payment debit should match. If they differ due to a currency exchange rate change, you may need to record a foreign exchange gain or loss entry. See the [multi-currency transactions guide](/core-features/accounting/journal-entries/guides/multi-currency-transactions) for details.
+
+</details>
+
+<details>
+<summary>I recorded an AP transaction by mistake</summary>
+
+If the AP transaction has not been matched to any payment, open the transaction and select **Delete**. If it has already been matched, unmatch the payment first. Open the matched bank transaction, remove the match, then delete the AP transaction.
+
+</details>
+
+<details>
+<summary>Not sure how to categorise a bill or set up your AP workflow?</summary>
+
+Fi, Fiskl's built-in AI advisor, can help you think through your accounting setup, suggest the right expense categories, and guide you through more complex AP scenarios. Select the **Ask Fi** icon within the platform to get started.
+
+</details>
+
+## Related Topics
+
+- [Multi-journal Entries](/accounting/journal-entries/multi-journal-entries) — Record complex transactions with multiple debit and credit lines
+- [Multi-currency Transactions](/core-features/accounting/journal-entries/guides/multi-currency-transactions) — Handle exchange rates and currency differences in your ledger
+- [Accounts Receivable Transactions](/core-features/accounting/journal-entries/guides/accounts-receivable-transactions) — Record income owed to your business
+- [Chart of Accounts](/accounting/chart-of-accounts) — View and manage your ledger account structure
+- [Managing Vendors](/clients-vendors/vendors) — Create and manage your vendor records
