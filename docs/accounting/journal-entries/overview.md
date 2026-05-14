@@ -57,12 +57,11 @@ While Fiskl automates much of the process, there are many reasons why you may ne
 <Tabs>
   <TabItem value="business-owner" label="Business owner" default>
 
-![Business owner journal entries view](/img/accounting/journal-entries-business-owner.png)
 
   </TabItem>
   <TabItem value="accountant" label="Accountant">
 
-![Accountant journal entries view](/img/accounting/journal-entries-accountant.png)
+[//]: # (![Accountant journal entries view]&#40;/img/accounting/journal-entries-accountant.png&#41;)
 
   </TabItem>
 </Tabs>
@@ -83,7 +82,7 @@ Fiskl's accounting reports draw directly from journal entries, so keeping them a
 
 ## Cheat sheet
 
-![Debit and credit cheat sheet for common transaction types](/img/accounting/journal-entries-cheat-sheet.png)
+[//]: # (![Debit and credit cheat sheet for common transaction types]&#40;/img/accounting/journal-entries-cheat-sheet.png&#41;)
 
 ## Related topics
 
