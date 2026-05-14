@@ -1,11 +1,12 @@
 ---
 title: "Account Reconciliation Overview"
-description: "Learn how to reconcile bank accounts in Fiskl to verify transactions, catch errors, and maintain accurate financial records."
+description: "Reconcile bank accounts in Fiskl to verify transactions, catch errors, prevent fraud, and maintain accurate financial records for confident reporting."
 sidebar_position: 1
 keywords: ["account reconciliation", "bank reconciliation", "statement matching", "financial accuracy", "transaction verification"]
+tags:
+  - Accounting
+  - Reconciliation
 ---
-
-# Account Reconciliation
 
 This section explains how to reconcile your bank and financial accounts in Fiskl. Account reconciliation verifies that your recorded transactions match your actual bank statements, ensuring your books accurately reflect your true financial position.
 
@@ -16,10 +17,10 @@ Reconciliation is one of the most critical accounting processes for maintaining 
 **Catch errors before they compound:**
 - Identify data entry mistakes early
 - Spot duplicate transactions
-- Find missing or incorrectly categorized transactions
+- Find missing or incorrectly categorised transactions
 - Detect timing differences between when you record and when banks process transactions
 
-**Protect against fraud and unauthorized activity:**
+**Protect against fraud and unauthorised activity:**
 - Quickly identify unexpected withdrawals
 - Spot unusual transaction patterns
 - Detect compromised accounts
@@ -59,7 +60,7 @@ Fiskl streamlines the reconciliation process through automation and intelligent 
 2. **Automatic matching**: Fiskl instantly compares your transactions with statement data, identifying matches automatically
 3. **Review discrepancies**: Examine any differences between your records and the statement
 4. **Resolve issues**: Add missing transactions, correct errors, or mark timing differences
-5. **Complete reconciliation**: Finalize when the difference reaches zero
+5. **Complete reconciliation**: Finalise when the difference reaches zero
 
 The system handles the complex matching logic while you focus on resolving genuine discrepancies.
 
@@ -70,7 +71,7 @@ You'll encounter different situations during reconciliation:
 **Perfect match (zero difference):**
 - All transactions align perfectly
 - Statement balance equals ledger balance
-- Ready to finalize immediately
+- Ready to finalise immediately
 
 **Discrepancies requiring attention:**
 - Missing transactions in Fiskl

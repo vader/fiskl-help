@@ -10,9 +10,11 @@ toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
+This guide explains how to create professional invoices in Fiskl, from configuring tax and branding through to adding line items and sending the invoice to your client. Following the setup steps in order ensures accuracy and consistent branding across every invoice you send.
+
 ## Before You Begin
 
-Completing the setup steps below before creating your first invoice ensures accuracy and consistent branding. These settings take ten to fifteen minutes to configure and streamline all future invoicing.
+Completing the setup steps below before creating your first invoice ensures accuracy and consistent branding. These settings take 10 to 15 minutes to configure and streamline all future invoicing.
 
 **Setup checklist:**
 
@@ -411,7 +413,7 @@ Deposits appear as a separate line in the invoice total.
 
 ## Set Up Payment Schedules (Optional)
 
-Split a single invoice into two to twelve instalments using payment schedules. Each instalment can be a fixed amount or a percentage of the total, and Fiskl tracks each instalment's payment status separately.
+Split a single invoice into 2 to 12 instalments using payment schedules. Each instalment can be a fixed amount or a percentage of the total, and Fiskl tracks each instalment's payment status separately.
 
 :::tip
 Use payment schedules for short-term instalment billing. For long-term or indefinitely recurring billing, use [Recurring Invoices](/invoicing/recurring-invoice-management) instead.

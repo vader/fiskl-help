@@ -1,15 +1,18 @@
 ---
 title: "Profit and Loss Report"
-description: "Learn how to generate and analyze Profit and Loss statements in Fiskl to track revenue, expenses, and profitability for better business decisions."
+description: "Generate and analyse Profit and Loss statements in Fiskl to track revenue, expenses, and profitability for better business decisions and reporting."
 keywords: ["profit and loss", "P&L report", "income statement", "financial reporting", "business profitability", "Fiskl accounting"]
 sidebar_position: 3
+tags:
+  - Reporting
+  - Accounting
 ---
 
-This guide explains how to generate and analyze Profit and Loss reports in Fiskl to understand your business's financial performance.
+This guide explains how to generate and analyse Profit and Loss reports in Fiskl to understand your business's financial performance.
 
 ## Understanding the Profit and Loss Report
 
-The Profit and Loss report, also known as an Income Statement, summarizes your business's financial performance over a specific period. It shows your revenue, costs, and expenses to help you determine whether your business is profitable.
+The Profit and Loss report, also known as an Income Statement, summarises your business's financial performance over a specific period. It shows your revenue, costs, and expenses to help you determine whether your business is profitable.
 
 <details>
 <summary>Why is the Profit and Loss report important?</summary>
@@ -47,17 +50,17 @@ Monitor your Gross Profit and Operating Profit closely. These figures help you i
 
 ## Generating Your Report
 
-To create and customize your Profit and Loss report:
+To create and customise your Profit and Loss report:
 
 1. **Navigate to reports**
 
-   Click **Accounting** in the left menu, then select **Reports** and choose **Profit and Loss**.
+   Select **Accounting** in the left menu, then select **Reports** and select **Profit and Loss**.
 
 2. **Select your date range**
 
    Choose the date as of which you want to view the report.
 
-3. **Customize display options**
+3. **Customise display options**
 
    Adjust the report using these options:
     - Compare periods side by side
@@ -71,8 +74,8 @@ To create and customize your Profit and Loss report:
 
 You can compare up to three different time periods to track performance:
 
-1. Click **Compare** after selecting your initial period
-2. Choose additional periods to compare
+1. Select **Compare** after selecting your initial period
+2. Select additional periods to compare
 3. View differences shown in both monetary values and percentages
 
 This comparison helps you identify trends, seasonality patterns, and unusual variances in your business performance.
@@ -91,7 +94,7 @@ Learn more about [Cash vs Accrual accounting](../glossary/accounting-fundamental
 
 </details>
 
-## Analyzing Your Report
+## Analysing Your Report
 
 To get the most value from your P&L report:
 
@@ -115,8 +118,8 @@ To get the most value from your P&L report:
 
    Apply insights from your P&L to budget planning and financial projections.
 
-:::note[Drill Down into Details]
-Click on any total in the detailed view to see all related transactions. This helps you investigate specific entries and understand the numbers behind your report.
+:::tip
+Select any total in the detailed view to see all related transactions. This helps you investigate specific entries and understand the numbers behind your report.
 :::
 
 ## Exporting and Sharing
@@ -124,11 +127,11 @@ Click on any total in the detailed view to see all related transactions. This he
 You can export your P&L report in multiple formats:
 
 **Export to spreadsheet:**
-1. Click the export button at the top right of the screen
+1. Select the export button at the top right of the screen
 2. Choose between Google Sheets or Excel format
 
 **Create a PDF:**
-1. Click the print button at the top right of the screen
+1. Select the print button at the top right of the screen
 2. Save as PDF or print a physical copy
 
 All exported reports include a timestamp and the selected accounting method for reference.
@@ -137,8 +140,15 @@ All exported reports include a timestamp and the selected accounting method for 
 
 To provide context or explanations for your financial data:
 
-1. Click the note icon at the top right of your screen
+1. Select the note icon at the top right of your screen
 2. Add your comments or explanations
 3. Your notes will be included when you export or print the report
 
 Regular review and analysis of your Profit and Loss report helps you make informed decisions and drive your business toward greater profitability.
+
+## Related Topics
+
+- [Balance Sheet](/reporting/balance-sheet) — See your assets, liabilities, and equity at a point in time
+- [Cash Flow Report](/reporting/cash-flow) — Track money moving in and out of your business
+- [General Ledger](/reporting/general-ledger) — Drill into the underlying transactions behind every report
+- [Reporting Overview](/reporting/overview) — Browse all available financial reports
