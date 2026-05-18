@@ -10,15 +10,17 @@ toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
-This guide explains how to stay safe when you receive an invoice or payment request through Fiskl, and what to do if something doesn't look right.
+## Stop. Think.
 
-Fiskl is an accounting and invoicing platform used by businesses around the world to send invoices, quotes, and payment requests to their own customers. **Fiskl does not send invoices on its own behalf.** The company asking you to pay is the business named on the invoice, not Fiskl.
+You are on this page because something does not feel right. Trust that feeling.
 
-Most invoices you receive through Fiskl are completely legitimate. But like any payment platform, Fiskl can occasionally be misused by bad actors. This page helps you decide, in a few seconds, whether to pay an invoice and what to do if you think something is wrong.
+Before you pay, ask yourself **one question**:
 
-import TOCInline from '@theme/TOCInline';
+> **Do you really know the person asking you for this money, and do you really know what it is for?**
 
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
+If the answer is **no**, or **"I'm not sure"**, please do not pay yet. Even when you really want the thing you have been promised, it is much easier to walk away now than to get your money back after you have paid.
+
+Fiskl is the platform that delivered this invoice to you. **The person asking you for money is the business named on the invoice, not Fiskl.** Paying through Fiskl does not make that business real. A few minutes reading this page could save you from losing money you may never get back.
 
 ## Three questions before you pay
 
