@@ -63,7 +63,7 @@ Most users follow this sequence:
 4. **Review your Chart of Accounts** - Ensure accounting categories match your business structure
 5. **Create your first invoice or record an expense** - Start using Fiskl with real transactions
 
-You can complete these steps in any order based on your immediate needs. Each guide stands alone and takes 3-10 minutes to complete.
+You can complete these steps in any order based on your immediate needs. Each guide stands alone and takes 5-10 minutes to complete.
 
 :::tip
 If you're migrating from another system, start by connecting your bank and importing historical transactions. This gives you a complete financial picture from day one.
