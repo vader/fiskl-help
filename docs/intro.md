@@ -1,5 +1,5 @@
 ---
-title: Welcome to Fiskl Help 2
+title: Welcome to Fiskl Help 3
 description: The official guide to Fiskl's automated accounting platform. Learn
   how to manage invoices, quotes, banking, and finances in one place.
 sidebar_position: 1
