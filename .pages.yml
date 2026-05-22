@@ -1,56 +1,76 @@
-media: static/img
+  media: static/img
 
-content:
-  # 1. Main Documentation Folder
-  - name: docs
-    label: Documentation
-    type: collection
-    path: docs
-    fields:
-      - name: title
-        label: Title
-        type: string
-        required: true
-      - name: description
-        label: Description
-        type: string
-      - name: sidebar_position
-        label: Sidebar Position
-        type: number
-      - name: body
-        label: Content
-        type: rich-text
+  content:
+    # 1. Main Documentation Folder
+    - name: docs
+      label: Documentation
+      type: collection
+      path: docs
+      fields:
+        - name: title
+          label: Title
+          type: string
+          required: true
+        - name: description
+          label: Description
+          type: string
+        - name: sidebar_position
+          label: Sidebar Position
+          type: number
+        - name: body
+          label: Content
+          type: rich-text
 
-  # 2. Updates / Blog Folder
-  - name: updates
-    label: Updates / Blog
-    type: collection
-    path: updates
-    subfolders: true
-    format: yaml-frontmatter
-    filename: '{fields.date | date: "YYYY-MM-DD"}-{primary}/index.md'
-    view:
-      fields: [title, date, authors]
-      sort: [date]
-      default:
-        sort: date
-        order: desc
-    fields:
-      - { name: title, label: Title, type: string, required: true }
-      - { name: slug, label: Slug, type: string, required: true }
-      - { name: date, label: Date, type: date, required: true }
-      - name: authors
-        label: Authors
-        type: select
-        list: true
-        options:
-          values: [shawn, monica, alina]
-      - name: tags
-        label: Tags
-        type: select
-        list: true
-        options:
-          creatable: true
-          values: [platform-update, ai-features, new-release]
-      - { name: description, label: Description, type: string }
-      - { name: body, label: Content, type: code, options: { language: markdown } }
+    # 2. Atlas Documentation Folder (for accountants / partners)
+    - name: docs-atlas
+      label: Atlas Documentation
+      type: collection
+      path: docs-atlas
+      fields:
+        - name: title
+          label: Title
+          type: string
+          required: true
+        - name: description
+          label: Description
+          type: string
+        - name: sidebar_position
+          label: Sidebar Position
+          type: number
+        - name: body
+          label: Content
+          type: rich-text
+
+    # 3. Updates / Blog Folder
+    - name: updates
+      label: Updates / Blog
+      type: collection
+      path: updates
+      subfolders: true
+      format: yaml-frontmatter
+      filename: '{fields.date | date: "YYYY-MM-DD"}-{primary}/index.md'
+      view:
+        fields: [title, date, authors]
+        sort: [date]
+        default:
+          sort: date
+          order: desc
+      fields:
+        - { name: title, label: Title, type: string, required: true }
+        - { name: slug, label: Slug, type: string, required: true }
+        - { name: date, label: Date, type: date, required: true }
+        - name: authors
+          label: Authors
+          type: select
+          list: true
+          options:
+            values: [shawn, monica, alina]
+        - name: tags
+          label: Tags
+          type: select
+          list: true
+          options:
+            creatable: true
+            values: [platform-update, ai-features, new-release]
+        - { name: description, label: Description, type: string }
+        - { name: body, label: Content, type: code, options: { language: markdown } }
