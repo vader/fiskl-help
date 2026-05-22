@@ -142,7 +142,7 @@ Go to the destination account and check the date range filter — the transactio
 ## Related Topics
 
 
-- [Internal Transfers](/accounting/journal-entries/guides/internal-transfers) — Record money moving between your own accounts
-- [Journal Entries overview](/accounting/journal-entries/overview) — Understand how journal entries work in Fiskl
-- [Transaction Guides overview](/accounting/journal-entries/guides/overview) — Browse all transaction workflow guides
-- [Match and Split Transactions](/accounting/journal-entries/guides/match-and-split-transactions) — Match imported transactions or split them across accounts
+- [Internal Transfers](internal-transfers.md) — Record money moving between your own accounts
+- [Journal Entries overview](../overview.md) — Understand how journal entries work in Fiskl
+- [Transaction Guides overview](overview.md) — Browse all transaction workflow guides
+- [Match and Split Transactions](match-and-split-transactions.md) — Match imported transactions or split them across accounts
