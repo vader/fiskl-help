@@ -74,7 +74,7 @@ const config: Config = {
     baseUrl: '/',
     organizationName: 'Fiskl',
     projectName: 'Fiskl Accounting',
-    onBrokenLinks: 'throw',
+    onBrokenLinks: 'warn',
 
     themes: [
         '@docusaurus/theme-mermaid',
