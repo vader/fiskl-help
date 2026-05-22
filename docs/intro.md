@@ -3,6 +3,7 @@ title: Welcome to Fiskl Help
 description: The official guide to Fiskl's automated accounting platform. Learn
   how to manage invoices, quotes, banking, and finances in one place.
 sidebar_position: 1
+slug: /
 ---
 This guide introduces Fiskl's AI-powered accounting and invoicing platform and helps you find the right documentation for your role and workflow.
 
