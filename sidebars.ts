@@ -41,7 +41,7 @@ const sidebars: SidebarsConfig = {
 
     {
       type: 'html',
-      value: '<div style="margin: 1.5rem 0 1rem 0; padding-top: 1rem; border-top: 1px solid var(--ifm-color-emphasis-300);"></div>',
+      value: '<div class="sidebar-divider"></div>',
     },
 
     // ================================================================
@@ -49,7 +49,7 @@ const sidebars: SidebarsConfig = {
     // ================================================================
     {
       type: 'html',
-      value: '<div style="margin: 0 0 0.75rem 0.5rem; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: var(--ifm-color-emphasis-600); opacity: 0.8;">Sales</div>',
+      value: '<div class="sidebar-section-label">Sales</div>',
     },
 
     {
@@ -79,7 +79,7 @@ const sidebars: SidebarsConfig = {
 
     {
       type: 'html',
-      value: '<div style="margin: 1.5rem 0 1rem 0; padding-top: 1rem; border-top: 1px solid var(--ifm-color-emphasis-300);"></div>',
+      value: '<div class="sidebar-divider"></div>',
     },
 
     // ================================================================
@@ -87,7 +87,7 @@ const sidebars: SidebarsConfig = {
     // ================================================================
     {
       type: 'html',
-      value: '<div style="margin: 0 0 0.75rem 0.5rem; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: var(--ifm-color-emphasis-600); opacity: 0.8;">Purchases</div>',
+      value: '<div class="sidebar-section-label">Purchases</div>',
     },
 
     {
@@ -137,7 +137,7 @@ const sidebars: SidebarsConfig = {
 
     {
       type: 'html',
-      value: '<div style="margin: 1.5rem 0 1rem 0; padding-top: 1rem; border-top: 1px solid var(--ifm-color-emphasis-300);"></div>',
+      value: '<div class="sidebar-divider"></div>',
     },
 
     // ================================================================
@@ -145,7 +145,7 @@ const sidebars: SidebarsConfig = {
     // ================================================================
     {
       type: 'html',
-      value: '<div style="margin: 0 0 0.75rem 0.5rem; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: var(--ifm-color-emphasis-600); opacity: 0.8;">Accounting</div>',
+      value: '<div class="sidebar-section-label">Accounting</div>',
     },
 
     {
@@ -221,7 +221,7 @@ const sidebars: SidebarsConfig = {
 
     {
       type: 'html',
-      value: '<div style="margin: 1.5rem 0 1rem 0; padding-top: 1rem; border-top: 1px solid var(--ifm-color-emphasis-300);"></div>',
+      value: '<div class="sidebar-divider"></div>',
     },
 
     // ================================================================
@@ -281,7 +281,7 @@ const sidebars: SidebarsConfig = {
 
     {
       type: 'html',
-      value: '<div style="margin: 1.5rem 0 1rem 0; padding-top: 1rem; border-top: 1px solid var(--ifm-color-emphasis-300);"></div>',
+      value: '<div class="sidebar-divider"></div>',
     },
 
     // ================================================================
@@ -299,7 +299,7 @@ const sidebars: SidebarsConfig = {
 
     {
       type: 'html',
-      value: '<div style="margin: 1.5rem 0 1rem 0; padding-top: 1rem; border-top: 1px solid var(--ifm-color-emphasis-300);"></div>',
+      value: '<div class="sidebar-divider"></div>',
     },
 
     // ================================================================
@@ -308,18 +308,7 @@ const sidebars: SidebarsConfig = {
     // ================================================================
     {
       type: 'html',
-      value: `<a href="/atlas" style="
-        display: flex; align-items: center; gap: 0.5rem;
-        margin: 0.25rem 0.5rem 1rem; padding: 0.625rem 0.75rem;
-        border-radius: 8px; border: 1px solid var(--ifm-color-emphasis-300);
-        background: var(--ifm-color-emphasis-100);
-        color: var(--ifm-color-primary);
-        font-size: 0.8125rem; font-weight: 600;
-        text-decoration: none; transition: background 0.15s;
-      ">
-        <span style="font-size: 1rem;">👔</span>
-        Fiskl Atlas (Accountant Portal) →
-      </a>`,
+      value: '<a href="/atlas" class="sidebar-atlas-link">Fiskl Atlas (Accountant Portal) →</a>',
     },
 
     // ================================================================
@@ -327,7 +316,7 @@ const sidebars: SidebarsConfig = {
     // ================================================================
     {
       type: 'html',
-      value: '<div style="margin: 0 0 0.75rem 0.5rem; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: var(--ifm-color-emphasis-600); opacity: 0.8;">Administration</div>',
+      value: '<div class="sidebar-section-label">Administration</div>',
     },
 
     {
@@ -364,7 +353,7 @@ const sidebars: SidebarsConfig = {
 
     {
       type: 'html',
-      value: '<div style="margin: 1.5rem 0 1rem 0; padding-top: 1rem; border-top: 1px solid var(--ifm-color-emphasis-300);"></div>',
+      value: '<div class="sidebar-divider"></div>',
     },
 
     // ================================================================
@@ -372,7 +361,7 @@ const sidebars: SidebarsConfig = {
     // ================================================================
     {
       type: 'html',
-      value: '<div style="margin: 0 0 0.75rem 0.5rem; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: var(--ifm-color-emphasis-600); opacity: 0.8;">Reference</div>',
+      value: '<div class="sidebar-section-label">Reference</div>',
     },
 
     {

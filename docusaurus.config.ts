@@ -174,7 +174,7 @@ const config: Config = {
             ],
         },
         footer: {
-            style: 'dark',
+            style: 'light',
             links: [
                 {
                     title: 'Docs',
@@ -212,7 +212,11 @@ const config: Config = {
                         {
                             label: 'Updates',
                             to: '/updates',
-                        }
+                        },
+                        {
+                            label: 'Fiskl.com',
+                            href: 'https://fiskl.com',
+                        },
                     ],
                 },
             ],
@@ -220,7 +224,7 @@ const config: Config = {
         },
         prism: {
             theme: prismThemes.github,
-            darkTheme: prismThemes.dracula,
+            darkTheme: prismThemes.oneDark,
         },
     } satisfies Preset.ThemeConfig,
 };
