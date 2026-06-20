@@ -10,11 +10,17 @@ toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
-This guide explains how to create professional invoices in Fiskl, from configuring tax and branding through to adding line items and sending the invoice to your client. Following the setup steps in order ensures accuracy and consistent branding across every invoice you send.
+import TOCInline from '@theme/TOCInline';
+
+This guide explains how to create invoices in Fiskl and bill clients professionally, from first-time setup through to advanced configuration.
+
+<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
+
+---
 
 ## Before You Begin
 
-Completing the setup steps below before creating your first invoice ensures accuracy and consistent branding. These settings take 10 to 15 minutes to configure and streamline all future invoicing.
+Completing the setup steps below before creating your first invoice ensures accuracy and consistent branding. These settings take ten to fifteen minutes to configure and streamline all future invoicing.
 
 **Setup checklist:**
 
@@ -23,6 +29,7 @@ Completing the setup steps below before creating your first invoice ensures accu
 - Customise invoice templates
 - Configure language settings (if invoicing in multiple languages)
 - Set up email templates
+- Connect payment gateways and manual payment methods
 
 
 <details>
@@ -212,6 +219,25 @@ To create a version for a regional dialect or specific terminology:
 Your custom language appears in the language selector when creating invoices.
 
 **Learn more:** [Invoice and Quote Settings](/settings/invoice-quotes-settings)
+
+</details>
+
+<details>
+<summary>Step 5: Connect Payment Gateways and Manual Payment Methods</summary>
+
+Connecting a payment gateway lets clients pay invoices online directly from the invoice page.
+
+1. Go to **Integrations**
+2. Select the **Connect** button for your preferred payment gateway
+3. Follow the on-screen instructions to complete the connection
+
+Supported gateways include Stripe, GoCardless, PayPal, Google Pay, Apple Pay, iDEAL, and Bancontact.
+
+You can also add manual payment methods (for example, bank transfer or cheque details) from **Settings** > **Invoice & Quote Settings** > **Manual Payment Methods**.
+
+To automatically apply all active payment gateways to every new invoice, toggle **Auto-select Payment Gateways** on in **Settings** > **Invoice & Quote Settings** > **Manual Payment Methods**.
+
+**Learn more:** [Payment Gateways](/integrations/payments/overview) | [Invoice & Quote Settings](/settings/invoice-quotes-settings)
 
 </details>
 
@@ -413,7 +439,7 @@ Deposits appear as a separate line in the invoice total.
 
 ## Set Up Payment Schedules (Optional)
 
-Split a single invoice into 2 to 12 instalments using payment schedules. Each instalment can be a fixed amount or a percentage of the total, and Fiskl tracks each instalment's payment status separately.
+Split a single invoice into two to twelve instalments using payment schedules. Each instalment can be a fixed amount or a percentage of the total, and Fiskl tracks each instalment's payment status separately.
 
 :::tip
 Use payment schedules for short-term instalment billing. For long-term or indefinitely recurring billing, use [Recurring Invoices](/invoicing/recurring-invoice-management) instead.
@@ -493,11 +519,11 @@ Template changes apply to all invoices using that template. If you need to chang
 
 ## Related Topics
 
-- [Invoice Management](invoice-management.md) — Edit, duplicate, void, and archive invoices
-- [Sending Invoices](sending-invoices.md) — Email options, reminders, and client view
-- [Recurring Invoices](recurring-invoice-management.md) — Automate regular billing
-- [Invoice Payment Schedules](invoice-payment-schedules.md) — Split invoices into instalments
-- [Tax Settings](../settings/tax-settings.md) — Configure tax rates and display options
-- [Managing Clients](../clients-vendors/overview.md) — Set up client profiles and defaults
-- [Payment Gateways](../integrations/payments/overview.md) — Connect Stripe and other payment methods
-- [Products & Services](../products-services/overview.md) — Build a reusable catalogue of items
+- [Invoice Management](/invoicing/invoice-management) — Edit, duplicate, void, and archive invoices
+- [Sending Invoices](/invoicing/sending-invoices) — Email options, reminders, and client view
+- [Recurring Invoices](/invoicing/recurring-invoice-management) — Automate regular billing
+- [Invoice Payment Schedules](/invoicing/invoice-payment-schedules) — Split invoices into instalments
+- [Tax Settings](/settings/tax-settings) — Configure tax rates and display options
+- [Managing Clients](/clients-vendors/clients) — Set up client profiles and defaults
+- [Payment Gateways](/integrations/payments/overview) — Connect Stripe and other payment methods
+- [Products & Services](/products-services/overview) — Build a reusable catalogue of items
