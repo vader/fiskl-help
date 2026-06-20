@@ -195,4 +195,3 @@ Using `Ctrl+/` for search saves time over using your mouse.
 ## Related Topics
 
 - [Customizing Your Dashboard](./customizing-dashboard) - Personalize widget visibility and order
-- [Quick Actions Guide](./quick-actions) - Learn all available shortcuts
