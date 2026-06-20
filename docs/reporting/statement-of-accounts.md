@@ -144,5 +144,5 @@ Ensure the client is accessing the PDF version of the statement, not a screensho
 
 - [Client Aging Report](/reporting/client-aging) — View overdue balances across all clients
 - [Managing Clients](/clients-vendors/clients) — Add and manage your client records
-- [Accounts Receivable Transactions](/core-features/accounting/journal-entries/guides/accounts-receivable-transactions) — Understand how AR entries are created
+- [Accounts Receivable Transactions](/accounting/journal-entries/guides/accounts-receivable-transactions) — Understand how AR entries are created
 - [General Ledger](/reporting/general-ledger) — View all transactions across ledger accounts

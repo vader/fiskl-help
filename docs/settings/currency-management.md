@@ -101,5 +101,5 @@ Corporate groups often require a standard monthly or quarterly rate for all inte
 ## Related Topics
 
 - [Accounting Settings](/settings/accounting-settings) — Configure your base currency and accounting preferences
-- [Multi-currency Transactions](/core-features/accounting/journal-entries/guides/multi-currency-transactions) — Record transactions in foreign currencies
+- [Multi-currency Transactions](/accounting/journal-entries/guides/multi-currency-transactions) — Record transactions in foreign currencies
 - [Chart of Accounts](/accounting/chart-of-accounts) — Manage your ledger accounts

@@ -175,4 +175,4 @@ If **Hide Empty Accounts** is enabled in **Filters & Settings**, ledger accounts
 - [Cash Flow Report](/reporting/cash-flow) — Track cash movements in and out of your business
 - [Chart of Accounts](/accounting/chart-of-accounts) — Manage the ledger accounts that drive your reports
 - [Accounting Fundamentals](/glossary/accounting-fundamentals) — Understand cash vs. accrual and other key concepts
-- [Bank Account Reconciliation](/core-features/accounting/journal-entries/guides/bank-account-reconciliation) — Ensure your transactions are accurate before reporting
+- [Bank Account Reconciliation](/accounting/reconciliation/guides/bank-account-reconciliation) — Ensure your transactions are accurate before reporting

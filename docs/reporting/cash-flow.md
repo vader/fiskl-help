@@ -179,4 +179,4 @@ If the report is empty, check that:
 - [Balance Sheet](/reporting/balance-sheet) — See your assets, liabilities, and equity at a point in time
 - [Chart of Accounts](/accounting/chart-of-accounts) — Configure how transactions are categorised
 - [Currency Management](/settings/currency-management) — Set your base currency and manage exchange rates
-- [Bank Account Reconciliation](/core-features/accounting/journal-entries/guides/bank-account-reconciliation) — Match your Fiskl records to your bank statements
+- [Bank Account Reconciliation](/accounting/reconciliation/guides/bank-account-reconciliation) — Match your Fiskl records to your bank statements

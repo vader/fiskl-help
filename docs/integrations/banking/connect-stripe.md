@@ -140,4 +140,4 @@ Temporary warning icons during the initial sync are normal while Fiskl calculate
 - [Banking Overview](/integrations/banking/overview) — Introduction to Fiskl Banking and supported connections
 - [Payment Gateways](/integrations/payments/overview) — Set up Stripe to accept invoice payments (separate from this banking integration)
 - [Chart of Accounts](/accounting/chart-of-accounts) — Understand how ledger accounts are structured
-- [Internal Transfers](/core-features/accounting/journal-entries/guides/internal-transfers) — Manage transfers between accounts manually
+- [Internal Transfers](/accounting/journal-entries/guides/internal-transfers) — Manage transfers between accounts manually

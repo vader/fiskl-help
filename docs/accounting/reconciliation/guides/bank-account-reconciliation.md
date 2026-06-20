@@ -3,7 +3,6 @@ title: Bank Account Reconciliation
 sidebar_position: 14
 description: "Step-by-step guide to performing bank account reconciliation in Fiskl, from setup to completion with perfect transaction matching."
 keywords: ["bank account reconciliation", "Fiskl reconciliation setup", "transaction matching", "bank statement reconciliation"]
-slug: /core-features/accounting/journal-entries/guides/bank-account-reconciliation
 toc_min_heading_level: 2 
 toc_max_heading_level: 4
 tags: 

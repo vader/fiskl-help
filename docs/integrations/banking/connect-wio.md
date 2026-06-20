@@ -134,4 +134,4 @@ Disconnecting stops future transaction syncing but does not delete historical tr
 - [Banking overview](/integrations/banking/overview) — Learn about Fiskl Banking features and connected accounts
 - [Journal entries overview](/accounting/journal-entries/overview) — Categorise and manage imported transactions
 - [Reconciliation overview](/accounting/reconciliation/overview) — Reconcile your accounts and verify accuracy
-- [Multi-currency transactions](/core-features/accounting/journal-entries/guides/multi-currency-transactions) — Handle transactions across different currencies
+- [Multi-currency transactions](/accounting/journal-entries/guides/multi-currency-transactions) — Handle transactions across different currencies

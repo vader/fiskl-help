@@ -164,4 +164,4 @@ If the report appears empty, check the following:
 - [Statement of Accounts](/core-features/accounting/reports/statement-of-accounts) — Send clients a summary of their outstanding balances and payment history
 - [Managing Clients](/clients-vendors/clients) — Add and manage client records in Fiskl
 - [Invoice Management](/invoicing/invoice-management) — View, edit, and track the status of your invoices
-- [Accounts Receivable Transactions](/core-features/accounting/journal-entries/guides/accounts-receivable-transactions) — Understand how AR transactions are recorded in your ledger
+- [Accounts Receivable Transactions](/accounting/journal-entries/guides/accounts-receivable-transactions) — Understand how AR transactions are recorded in your ledger
