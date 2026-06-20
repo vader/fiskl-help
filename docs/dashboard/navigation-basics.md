@@ -1,198 +1,149 @@
 ---
 title: "Dashboard Navigation Basics"
-description: "Learn how to navigate your Fiskl dashboard, access different sections, and use the sidebar menu effectively."
-keywords: ["navigation", "sidebar", "menu", "dashboard navigation", "getting around"]
-sidebar_position: 2
+description: "Learn how to navigate your Fiskl dashboard, use the sidebar menu, top bar controls, and account menu to access features efficiently."
+keywords: ["navigation", "sidebar", "menu", "dashboard navigation", "quick actions", "top bar"]
+sidebar_position: 1
+tags:
+  - Dashboard
+  - Navigation
+toc_min_heading_level: 2
+toc_max_heading_level: 3
 ---
 
-# Dashboard Navigation Basics
+This guide explains how to navigate Fiskl and access different areas of the application efficiently.
 
-This guide explains how to navigate your Fiskl dashboard and access different areas of the application efficiently.
-
-## Understanding the Layout
+## Understanding the layout
 
 Fiskl uses a three-part layout:
 
-1. **Left Sidebar**: Main navigation menu with expandable sections
-2. **Top Header**: Search, Quick Actions, notifications, and user menu
-3. **Main Content Area**: The Dashboard or selected page content
+- **Left sidebar** — the main navigation menu with expandable sections, Settings, and your account menu at the bottom
+- **Top bar** — sidebar toggle, breadcrumb, display settings, Ask Fi, and Dashboard controls
+- **Main content area** — the Dashboard or the selected page content
 
-## Using the Sidebar Menu
+## Using the sidebar menu
 
-The sidebar organizes features into logical groups:
+The sidebar organises features into logical groups. Sections with a chevron icon contain submenu items.
 
-### Main Navigation Sections
+### Main navigation sections
 
 **Dashboard**
-- Your home page showing key metrics and summaries
-- Select **Dashboard** at the top of the sidebar to return here anytime
+
+Select **Dashboard** at the top of the sidebar to return to your home page at any time.
 
 **Sales**
+
 - Invoices
 - Recurring Invoices
-- Quotes (if available)
-- Clients
+- Quotes
+- Customers (also referred to as Clients)
 
 **Purchases**
-- Time tracking
-- Mileage tracking
+
+- Time
+- Mileage
 - Vendors
 - Expenses
-- AI Expenses (expense capture)
+- AI Expenses
 
 **Accounting**
+
 - Chart of Accounts
 - Reports
-- Multi-journal entries
+- Multi Journal
 - Transactions
+- Reconciliation
 
 **Products & Services**
-- Your service catalog and product inventory
+
+Your product and service catalogue for use on invoices and quotes.
 
 **Banking**
-- Connected bank accounts and transactions
+
+Connected bank accounts and their transactions.
 
 **Team Members**
-- User management and permissions
 
-### Expanding Menu Sections
+User management and role assignments.
 
-Sections with a chevron icon (>) contain submenu items:
+**Integrations**
 
-1. **Select the section name** (e.g., **Sales**)
-2. The section expands to show available options
-3. **Select a submenu item** to navigate to that page
-4. The section remains expanded until you collapse it
+Connect third-party services including payment providers and bank feeds.
 
-### Collapsing the Sidebar
+**Settings**
 
-On mobile or smaller screens:
+Company, accounting, tax, invoice, and billing settings. Settings sits just above your account menu at the bottom of the sidebar.
 
-1. **Select the menu icon** (three horizontal lines) in the top-left
-2. The sidebar slides in from the left
-3. **Select outside the sidebar** or the close icon to hide it
+### Expanding and collapsing sections
 
-## Using Quick Actions
+1. Select a section name in the sidebar — for example, **Sales**.
+2. The section expands to show its submenu items.
+3. Select a submenu item to go to that page.
+4. Select the section name again to collapse it.
 
-The **Quick Actions** button in the top-right provides shortcuts to common tasks:
+The sidebar highlights your current location with bold text and a background colour on the active item. The parent section stays expanded automatically while you are in that area.
 
-**To use Quick Actions:**
+### Collapsing the sidebar
 
-1. Select **+ Quick Actions** in the top-right corner
-2. Choose from options like:
-    - Create Invoice
-    - Record Expense
-    - Log Time
-    - Add Mileage
-3. The relevant form opens in a modal or new page
+Select the **sidebar toggle** icon in the top-left of the top bar to collapse or expand the sidebar. This is useful on smaller screens or when you want more space for the main content area.
 
-:::tip
-Quick Actions adapt based on your permissions. You only see options for features you can access.
+## Using the top bar
+
+The top bar runs across the top of every page and contains the following controls:
+
+| Control | What it does |
+|---|---|
+| **Sidebar toggle** | Collapses or expands the left sidebar |
+| **Welcome, [name] > [company]** | Shows your current company context |
+| Notifications icon | View recent alerts and activity |
+| Book icon | Access help and support resources |
+| Eye icon | Blur the screen for privacy |
+| **Display Settings** (screen icon) | Set theme (Light, Dark, System), font size, and language |
+| **Ask Fi** | Open the Fi AI advisor — available on every page |
+
+When you are on the Dashboard, an additional sliders icon appears in the top bar. Select it to customise which widgets are visible and their order.
+
+## Account menu
+
+Select your company name and avatar in the bottom-left of the sidebar to open the account menu. From here you can access:
+
+- **Billing** — manage your Fiskl subscription and plan
+- **Integrations** — connect third-party services
+- **External Access** — manage external access to your account
+- **API Access** — view and manage API credentials
+- **Webhooks** — configure webhook endpoints
+- **Get Help** — access support resources
+- **Refer & Earn** — share Fiskl with others
+- **Account** — your personal account details
+- **Preferences** — personal display and notification preferences
+- **Log out** — sign out of Fiskl
+
+## Permission-based navigation
+
+The menu items you see depend on your role and the permissions your account administrator has assigned. If a section is not visible in your sidebar, you may not have access to it. Contact your account administrator to request a change.
+
+:::info
+Settings is always visible in the sidebar regardless of role, but the options available within Settings depend on your permissions.
 :::
 
-## Navigating Widget Content
+## Common Issues
 
-Dashboard widgets are interactive:
+<details className="blue-box">
+<summary>A sidebar section is missing</summary>
 
-**To view details:**
-1. **Select the widget title** or **View All** link
-2. You navigate to the full page for that feature
-3. Use your browser's back button or the sidebar to return
+If you cannot see a section in the sidebar, your role may not include access to that feature. Contact your account administrator to review your permissions under **Settings** > **Team Members**.
 
-**Example:**
-- Select **View All** on the Invoicing widget
-- You navigate to the full Invoices page
-- Select **Dashboard** in the sidebar to return
+</details>
 
-## Understanding Active States
+<details className="blue-box">
+<summary>I cannot find the account menu</summary>
 
-The sidebar highlights your current location:
+The account menu is at the bottom-left of the sidebar. Select your company logo and name to open it.
 
-- **Bold text**: The active page you're viewing
-- **Background color**: The active section is highlighted
-- **Expanded section**: The parent category of your current page stays open
-
-## Breadcrumb Navigation
-
-Some pages show breadcrumbs below the header:
-
-Dashboard > Sales > Invoices > Invoice #001
-
-**To navigate with breadcrumbs:**
-1. **Select any level** in the breadcrumb trail
-2. You navigate back to that section
-3. This provides a quick way to move up levels
-
-## User Menu Options
-
-Select your avatar or name in the bottom-left sidebar to access:
-
-- **Settings**: Personal and company settings
-- **Subscriptions & Billing**: Manage your Fiskl subscription
-- **Log out**: Sign out of your account
-
-## Keyboard Navigation
-
-Speed up navigation with keyboard shortcuts:
-
-| Shortcut | Action |
-|----------|--------|
-| `Ctrl+/` or `Cmd+/` | Focus search bar |
-| `Esc` | Close modals or panels |
-| `Tab` | Navigate between fields |
-| `Enter` | Confirm actions |
-
-## Search Functionality
-
-The search bar in the top header finds:
-
-- Invoices by number or client name
-- Expenses by vendor or description
-- Clients and vendors by name
-- Transactions by amount or account
-
-**To search:**
-1. **Select the search bar** or press `Ctrl+/`
-2. **Enter your search terms**
-3. Results appear as you type
-4. **Select a result** to view that record
-
-## Mobile Navigation
-
-On mobile devices:
-
-1. **Tap the menu icon** to open the sidebar
-2. **Tap section names** to expand submenus
-3. **Swipe right** from the left edge to open the sidebar
-4. **Tap outside** the sidebar to close it
-
-## Permission-Based Navigation
-
-Menu items adapt to your role:
-
-- **Full Account Access**: See all menu sections
-- **Billing & Invoicing**: See Sales and Purchases sections
-- **Limited Access**: See only Time and Mileage
-
-If you don't see a menu item, you may not have permission. Contact your account administrator to request access.
-
-## Tips for Efficient Navigation
-
-**Use the Dashboard as your home base:**
-Return to the Dashboard frequently to check metrics and access Quick Actions.
-
-**Keep frequently used sections expanded:**
-The sidebar remembers which sections you leave open.
-
-**Bookmark specific pages:**
-Save direct URLs to pages you visit often (e.g., the Invoices list).
-
-**Learn the keyboard shortcuts:**
-Using `Ctrl+/` for search saves time over using your mouse.
-
----
+</details>
 
 ## Related Topics
 
-- [Customizing Your Dashboard](./customizing-dashboard) - Personalize widget visibility and order
-- [Quick Actions Guide](./quick-actions) - Learn all available shortcuts
+- [Dashboard Overview](/dashboard/overview) — an introduction to the Dashboard and its widgets
+- [Dashboard Quick Actions](/dashboard/quick-actions) — a full list of available Quick Actions
+- [Customising Your Dashboard](/dashboard/customizing-dashboard) — personalise widget visibility and order
+- [Team Members](/team/overview) — manage roles and permissions

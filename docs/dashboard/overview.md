@@ -1,85 +1,110 @@
 ---
 title: "Dashboard Overview"
-description: "Learn how to use your Fiskl dashboard to monitor business performance, track key metrics, and access important features quickly."
-keywords: ["dashboard", "business metrics", "overview", "home page", "performance monitoring"]
+description: "Get a complete picture of your business finances on the Fiskl Dashboard — key metrics, cash flow, invoicing, ageing, categories, and banking at a glance."
+keywords: ["dashboard", "key metrics", "cash flow", "financial ratios", "AR ageing", "AP ageing", "banking", "overview"]
 sidebar_position: 1
+tags:
+  - Dashboard
+toc_min_heading_level: 2
+toc_max_heading_level: 2
 ---
+
+import DocCardList from '@theme/DocCardList';
 
 # Dashboard
 
-Your Fiskl Dashboard is your business command center. It provides real-time visibility into your financial performance, outstanding invoices, expenses, and banking activity across all your connected accounts.
+This section covers the Fiskl Dashboard — your central view of business performance — and how to navigate the application.
 
-## Why Use the Dashboard
+The Dashboard updates automatically as you work. When you create an invoice, record an expense, or sync a bank account, the relevant sections refresh to reflect the latest data. Use the **Period** selector at the top of the page to filter all metrics and charts by a specific date range.
 
-The Dashboard centralizes your most important business data in one place. Instead of navigating through multiple sections to check your status, you can see everything at a glance and take immediate action.
+## What the Dashboard shows
 
-**Key benefits:**
-- Monitor revenue, expenses, and cash flow in real-time
-- Track overdue invoices and outstanding payments
-- View recent transactions across all connected banks
-- Access frequently used features with Quick Actions
-- Customize sections to match your workflow
+The Dashboard is organised into sections, each covering a different area of your finances.
 
-## Key Concepts
+### Key Metrics
 
-Understanding these elements helps you get the most from your Dashboard:
+Four summary cards at the top of the Dashboard give you an immediate snapshot of your financial position for the selected period:
 
-- **Widgets**: Individual sections displaying specific metrics or data (e.g., Revenue Chart, Recent Invoices)
-- **Quick Actions**: Shortcuts to common tasks like creating invoices or recording expenses
-- **Base Currency**: The primary currency your Dashboard uses for reporting and calculations
-- **Time Period Filters**: Controls that adjust date ranges for metrics and charts
-- **Widget Visibility**: Your ability to show or hide specific Dashboard sections
+| Metric | What it shows |
+|---|---|
+| **Cash & Equivalents** | Your current cash balance across connected accounts |
+| **Total Revenue** | Income received in the period, with year-on-year comparison |
+| **Total Expenses** | Total spending in the period, with year-on-year comparison |
+| **Net Profit** | Revenue minus expenses, including profit margin |
 
-## How It Works
+Each card shows the change versus the same period last year and, where relevant, any FX gain or loss.
 
-The Dashboard automatically updates as you work in Fiskl. When you create an invoice, record an expense, or sync your bank accounts, the relevant widgets refresh to reflect the new data.
+### Cash Flow Analysis
 
-1. **Real-Time Updates**: Metrics update immediately when you complete transactions
-2. **Customizable Layout**: Show only the widgets relevant to your business and role
-3. **Quick Access**: Navigate to detailed views by selecting any widget or metric
-4. **Role-Based Display**: The Dashboard adapts based on your user permissions
+The Cash Flow Analysis section tracks money moving in and out of your business over time. It displays **Money In**, **Money Out**, **Net Flow**, and **Burn Rate** for the selected period, with a chart showing the trend across months. Toggle **Bank Only** to limit the view to bank-connected transactions, or switch between **Days**, **Weeks**, and **Months** views.
 
-## Default Dashboard Sections
+### Financial Ratios
 
-Your Dashboard displays different sections depending on your permissions:
+Financial Ratios gives you a health check on four key indicators:
 
-**For Full Account Access:**
-- Key Metrics (Revenue, Expenses, Profit, Cash Balance)
-- Cashflow Chart
-- Financial Ratios
-- Invoicing Summary
-- AR Aging (Accounts Receivable)
-- AP Aging (Accounts Payable)
-- Banking Activity
-- Time Tracking Summary
-- Mileage Summary
+| Ratio | What it measures |
+|---|---|
+| **Net Profit Margin** | Profitability as a percentage of revenue |
+| **Liquidity Ratios** | Current and quick ratios — your ability to cover short-term obligations |
+| **Working Capital** | The difference between current assets and current liabilities |
+| **Capital Efficiency** | How effectively your capital generates revenue |
 
-**For Billing & Invoicing Access:**
-- Invoicing Summary
-- Time Tracking Summary
-- Mileage Summary
+Each ratio shows a trend indicator and a plain-language status (such as "At risk" or "Review needed") so you can act quickly on areas that need attention.
 
-**For Limited Access:**
-- Time Tracking Summary
-- Mileage Summary
+### Invoicing
 
-:::tip
-You can customize which sections appear and their order. See [Customizing Your Dashboard](./customizing-dashboard) to personalize your view.
-:::
+The Invoicing section summarises your sales activity for the period:
 
-## Getting Started
+| Metric | What it shows |
+|---|---|
+| **Total Paid** | Invoices paid in the period |
+| **Total Due** | Invoices issued but not yet paid |
+| **Total Overdue** | Invoices past their due date |
+| **Average Time to Pay** | How quickly clients are paying on average |
 
-After logging in, you land directly on your Dashboard. From here:
+Below the summary, **Top Clients** ranks your highest-value clients by paid amount, and the **Sales Trend** chart shows monthly revenue progression across the period.
 
-1. **Review your key metrics** in the top section
-2. **Check for urgent items** like overdue invoices highlighted in red
-3. **Use Quick Actions** in the top-right to create new records
-4. **Select any widget** to view detailed information
+### Accounts Receivable Ageing
 
----
+The AR Ageing section shows the total amount owed to you, broken down by age:
 
-## Available Guides
+- **Current (0–30 days)**
+- **Overdue (30–90 days)**
+- **Critical (90+ days)**
 
-import DocCardList from '@theme/DocCardList';
+**Top Clients by AR** lists the clients with the highest outstanding balances. The **AR Ageing Breakdown** chart shows the distribution across ageing periods visually.
+
+### Accounts Payable Ageing
+
+The AP Ageing section mirrors AR Ageing but for amounts you owe to vendors:
+
+- **Current (0–30 days)**
+- **Overdue (30–90 days)**
+- **Critical (90+ days)**
+
+**Top Vendors by AP** lists vendors with the highest outstanding balances, and the **AP Ageing Breakdown** chart shows the distribution.
+
+### Income Categories, Expense Categories, and Income to Profit
+
+Three charts give you a breakdown of where your money comes from and where it goes:
+
+- **Income Categories** — a radar chart showing the distribution across your largest income ledger accounts
+- **Expense Categories** — a radar chart showing the distribution across your largest expense ledger accounts
+- **Income to Profit** — a waterfall chart showing how total income flows through expenses to reach net profit
+
+### Banking
+
+The Banking section shows the total balance across your connected bank accounts and the last sync date for each connection. Select **Refresh** to trigger a manual sync.
+
+## Dashboard controls
+
+Two controls appear at the top-right of the Dashboard page:
+
+- **AI Analysis by Fi** — select this to get a plain-language interpretation of your Dashboard data from Fi, Fiskl's AI advisor. Fi can summarise your financial position, highlight areas of concern, and answer follow-up questions.
+- **Customise** (sliders icon) — select this to show, hide, or reorder the Dashboard widgets to match your workflow.
+
+**Ask Fi** is also available on every page via the **Ask Fi** button in the top bar.
+
+## In this section
 
 <DocCardList />
