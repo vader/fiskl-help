@@ -19,7 +19,6 @@ echo "--------------------------------------------------"
 echo "Creating Dashboard section..."
 npm run create-page dashboard/overview.md
 npm run create-page dashboard/navigation-basics.md
-npm run create-page dashboard/quick-actions.md
 npm run create-page dashboard/customizing-dashboard.md
 
 # Support Section
