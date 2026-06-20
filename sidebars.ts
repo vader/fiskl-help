@@ -326,6 +326,7 @@ const sidebars: SidebarsConfig = {
         'settings/company-settings',
         'settings/profile-settings',
         'settings/accounting-settings',
+        'settings/locked-period',
         'settings/currency-management',
         'settings/tax-settings',
         'settings/tax-management',
