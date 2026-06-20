@@ -3,7 +3,6 @@ title: "Recording Manual Transactions"
 description: "Learn how to create manual journal entries in Fiskl to record cash purchases, future payments, and other transactions not captured automatically."
 keywords: ["manual transaction", "journal entry", "account transaction", "chart of accounts", "manual entry", "debit", "credit"]
 sidebar_position: 1
-slug: /core-features/accounting/journal-entries/guides/manual-transactions
 tags:
   - Accounting
   - Journal entry
@@ -13,11 +12,7 @@ toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
-
 This guide explains how to record manual transactions in Fiskl — money moving in and out of your cash accounts. This is sometimes called an account transaction. It is different from a [Multi-journal Entry](/accounting/journal-entries/multi-journal-entries), which records transactions across multiple ledger accounts simultaneously.
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## Before You Begin
 
@@ -58,6 +53,7 @@ Not all transactions are captured automatically. Here are two common examples of
 6. Enter the transaction amount
 7. Select a category. The category represents the other side of the transaction — for example, the expense or income account being affected. The category must already exist in your Chart of Accounts. If left unassigned, the transaction is recorded as Uncategorised Income or Uncategorised Expense with no VAT applied. Selecting a category is mandatory
 8. Add a tax or create a new tax if applicable. Tax cannot be applied to credit (OUT) entries — if you are recording a payment to a vendor, the tax field will not be available
+
 9. Select a client or vendor if this transaction is associated with either
 10. Enter a reference number in the number field if needed
 11. To add an attachment, select the paperclip icon
@@ -89,7 +85,7 @@ Your transaction appears in your account displaying both the foreign and base cu
 </details>
 
 :::info
-When viewing a transaction, you may also see options for **Split**, **Match**, and **Internal Transfer**. These are separate features not covered in this guide. See [Matching and Splitting Transactions](/core-features/accounting/journal-entries/guides/match-and-split-transactions) for more information.
+When viewing a transaction, you may also see options for **Split**, **Match**, and **Internal Transfer**. These are separate features not covered in this guide. See [Match and Split Transactions](/accounting/journal-entries/guides/match-and-split-transactions) for more information.
 :::
 
 ## Common Issues
@@ -113,4 +109,4 @@ The exchange rate displayed is pulled automatically but can be adjusted manually
 - [Journal Entry Guides Overview](/accounting/journal-entries/guides/overview) — Browse all transaction guide types
 - [Multi-journal Entries](/accounting/journal-entries/multi-journal-entries) — Record complex transactions across multiple ledger accounts
 - [Chart of Accounts](/accounting/chart-of-accounts) — Manage and organise your ledger accounts
-- [Multi-Currency Transactions](/core-features/accounting/journal-entries/guides/multi-currency-transactions) — Detailed guidance on foreign currency entries
+- [Multi-Currency Transactions](/accounting/journal-entries/guides/multi-currency-transactions) — Detailed guidance on foreign currency entries

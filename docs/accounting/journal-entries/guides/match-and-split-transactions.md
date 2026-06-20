@@ -2,8 +2,7 @@
 title: "Matching and Splitting Transactions"
 description: "Learn how to match bank transactions to invoices and expenses, and split transactions across multiple accounts in Fiskl."
 keywords: ["transaction matching", "split transaction", "reconcile", "bank transactions", "multi-currency", "accounting"]
-sidebar_position: 6
-slug: /core-features/accounting/journal-entries/guides/match-and-split-transactions
+sidebar_position: 5
 tags:
   - Accounting
   - Journal entry
@@ -12,11 +11,7 @@ toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
-
 This guide explains how to match bank transactions to your recorded financial activities and split transactions across multiple accounts in Fiskl.
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## Before You Begin
 
@@ -158,7 +153,7 @@ We recommend reviewing automatically matched and categorised transactions regula
 
 ## Related Topics
 
-- [Manual Transactions](/core-features/accounting/journal-entries/guides/manual-transactions) — Record transactions manually in your ledger accounts
-- [Moving Transactions Between Accounts](/core-features/accounting/journal-entries/guides/move-transactions) — Transfer transactions to the correct ledger account
-- [Multi-currency Transactions](/core-features/accounting/journal-entries/guides/multi-currency-transactions) — Understand how Fiskl handles exchange rates and currency conversion
+- [Manual Transactions](/accounting/journal-entries/guides/manual-transactions) — Record transactions manually in your ledger accounts
+- [Moving Transactions Between Accounts](/accounting/journal-entries/guides/move-transactions) — Transfer transactions to the correct ledger account
+- [Multi-currency Transactions](/accounting/journal-entries/guides/multi-currency-transactions) — Understand how Fiskl handles exchange rates and currency conversion
 - [Chart of Accounts](/accounting/chart-of-accounts) — View and manage your ledger account structure

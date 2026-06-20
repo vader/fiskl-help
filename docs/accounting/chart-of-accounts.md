@@ -1,221 +1,142 @@
 ---
-title: Chart of Accounts
+title: "Chart of Accounts"
+description: "Understand and manage your Fiskl Chart of Accounts. Learn about account types, sub-accounts, creating custom accounts, and organising your finances."
+keywords: ["chart of accounts", "COA", "account types", "ledger accounts", "sub-accounts", "accounting", "fiskl"]
 sidebar_position: 2
-description: "Organize your finances effectively with Fiskl's Chart of Accounts feature: Learn to structure your accounts for clearer insights."
-keywords: ["chart of accounts", "financial organization", "Fiskl feature"]
-toc_min_heading_level: 2
-toc_max_heading_level: 4
 tags:
   - Accounting
   - Chart of Accounts
   - Financial Reports
+toc_min_heading_level: 2
+toc_max_heading_level: 3
 ---
 
-import Mermaid from '@theme/Mermaid';
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+import TOCInline from '@theme/TOCInline';
 
-## What is a Chart of Accounts?
+This guide explains the Chart of Accounts in Fiskl — what it is, how it's structured, and how to manage it for your business.
 
-A Chart of Accounts (CoA) is a fundamental tool for organizing your business finances. It acts as a roadmap, helping you categorize transactions and group similar accounts for reporting and analysis.
+<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
-In Fiskl, you can view your Chart of Accounts filtered by account type or as a complete list.
+## What Is a Chart of Accounts?
 
-## Account Types
+The Chart of Accounts (CoA) is the foundation of your accounting in Fiskl. It's the complete list of ledger accounts used to categorise every financial transaction in your business.
 
-Your Chart of Accounts is divided into five main account types:
-
-1. Assets
-2. Liabilities
-3. Equity
-4. Income
-5. Expenses
-
-Let's explore each of these account types in more detail.
-
-### Assets
-
-Assets are resources your business owns that have economic value.
-
-Examples include:
-
-- Cash
-- Bank accounts
-- Inventory
-- Equipment
-- Accounts receivable (money owed to you by customers)
-
-Assets appear on your Balance Sheet and are categorized based on their nature, use, and how quickly you can convert them to cash (liquidity).
-
-### Liabilities
-
-Liabilities are debts or financial obligations your business owes to others.
-
-Examples include:
-
-- Bank loans
-- Mortgages
-- Unpaid bills
-- Sales taxes owed
-
-Liabilities appear on your Balance Sheet and are classified as either current (to be paid within a year) or non-current (long-term obligations).
-
-### Equity
-
-Equity represents your company's net worth or book value. It's the difference between your assets and liabilities.
-
-Equity can increase through:
-
-- Profitable operations
-- Capital contributions by shareholders
-- Increases in asset values
-
-Equity can decrease due to:
-
-- Losses
-- Dividend payments
-- Share re-purchases
-
-### Income
-
-Income accounts show how much your company has earned through its primary business activities.
-
-Key points about income accounts:
-
-- They represent revenue from sales of goods, services, or other activities
-- A credit increases income, while a debit decreases it
-- Income appears on your income statement
-
-### Expenses
-
-Expense accounts show how much your company has spent on its operations.
-
-Key points about expense accounts:
-
-- They represent costs incurred in generating revenue
-- A debit increases expenses, while a credit decreases them
-- Expenses appear on your income statement and are subtracted from revenue to calculate net income
-
-## Managing Your Chart of Accounts in Fiskl
-
-Fiskl provides a comprehensive selection of commonly used accounts. You can also add custom categories to match your specific business needs.
+Fiskl provides a default set of commonly used accounts to get you started. You can customise this list by adding, editing, or archiving accounts to match your business structure.
 
 To access your Chart of Accounts:
 
-1. Select "Accounting" from the left menu
-2. Choose "Chart of Accounts" from the submenu
+1. Select **Accounting** in the left menu
+2. Select **Chart of Accounts**
+
+You can view accounts filtered by type using the tabs at the top, or view the full list together.
+
+## Account Types
+
+Your Chart of Accounts is organised into five account types. Each type groups related ledger accounts and determines how transactions are reported.
+
+### Assets
+
+Assets are resources your business owns that have economic value. They appear on your Balance Sheet.
+
+Examples include:
+
+- Cash and bank accounts
+- Accounts receivable (amounts owed to you by clients)
+- Inventory
+- Equipment and property
+
+Assets are classified by liquidity — how quickly they can be converted to cash. Current assets (such as cash) are more liquid than non-current assets (such as equipment).
+
+### Liabilities
+
+Liabilities are financial obligations your business owes to others. They also appear on your Balance Sheet.
+
+Examples include:
+
+- Bank loans and mortgages
+- Accounts payable (amounts you owe to vendors)
+- Sales taxes collected but not yet remitted
+
+Liabilities are classified as current (due within a year) or non-current (long-term obligations).
+
+### Equity
+
+Equity represents the net worth of your business — the difference between your assets and liabilities. It appears on your Balance Sheet.
+
+Equity increases through profitable operations or capital contributions. It decreases through losses, dividend payments, or share buybacks.
+
+### Income
+
+Income accounts track revenue earned through your business activities. They appear on your Profit and Loss report.
+
+A credit increases an income account. A debit decreases it.
+
+### Expenses
+
+Expense accounts track the costs of running your business. They also appear on your Profit and Loss report.
+
+A debit increases an expense account. A credit decreases it. Expenses are subtracted from income to calculate your net profit or loss.
+
+## Sub-Accounts
+
+Sub-accounts let you break a parent account into more detailed categories. This gives you finer control over how transactions are grouped without cluttering your top-level account list.
+
+For example, you might create sub-accounts under a parent **Travel Expenses** account for **Flights**, **Accommodation**, and **Meals**.
+
+Sub-accounts roll up into their parent account in reports, so your totals remain clean at the summary level.
+
+## Managing Your Chart of Accounts
+
+### Adding a New Account
+
+1. Select **Accounting** > **Chart of Accounts**
+2. Select **Add account**
+3. Select a **Parent account** if this is a sub-account
+4. Enter the **Account name**
+5. Add a **Description** to help identify the account's purpose
+6. Select a **Currency** for the account
+7. Select an **Account type**
+8. Select **Create Account**
+
+### Editing an Account
+
+1. Select **Accounting** > **Chart of Accounts**
+2. Find the account you want to edit
+3. Select the edit icon
+4. Update the relevant fields
+5. Select **Save Changes**
+
+:::info
+Editing an account name updates it everywhere in Fiskl, including existing transactions and reports.
+:::
+
+### Archiving an Account
+
+You cannot delete an account that has transactions linked to it. Instead, you can archive it to hide it from active use.
+
+1. Select **Accounting** > **Chart of Accounts**
+2. Find the account you want to archive
+3. Select the archive icon
+
+Archived accounts no longer appear in dropdowns when categorising transactions. To view and restore archived accounts, select the **Archived** tab.
+
+## Default Accounts
+
+Fiskl assigns certain ledger accounts as defaults for specific transaction types — for example, the account used for sales income or bank fees. You can review and update these defaults in **Settings** > **Accounting Settings**.
 
 <details>
-<summary>Why is a well-structured Chart of Accounts important?</summary>
+<summary>Why does account structure matter for reporting?</summary>
 
-A properly maintained Chart of Accounts:
+The way your Chart of Accounts is structured directly affects how your financial reports look. Reports like the Profit and Loss and Balance Sheet group transactions by account type and sub-type. A well-organised CoA means your reports reflect your business accurately and make it easier to spot trends, prepare tax filings, or work with an accountant.
 
-- Enables effective financial management
-- Supports informed decision-making
-- Organizes financial data systematically
-- Facilitates accurate reporting of your financial position and performance
-- Establishes a foundation for sound accounting practices
-- Ensures reliable financial information is available when needed
+If accounts are miscategorised — for example, an expense recorded under assets — your Balance Sheet and Profit and Loss will both show incorrect figures.
 
 </details>
 
-## Visualize the Default Chart of Accounts
+## Related Topics
 
-<details>
-
-    <summary>Show a visual view of the default Chart of Accounts</summary>
-
-<Tabs>
-  <TabItem value="assets" label="Assets" default>
-
-```mermaid
-flowchart TD
-    Assets --> CashAndCashEquivalents
-    Assets --> AccountsReceivable
-    Assets --> Inventory
-    Assets --> PrepaidExpenses
-    Assets --> OtherCurrentAssets
-    Assets --> ShortTermLoansReceivable
-    Assets --> PropertyPlantEquipment
-    Assets --> OtherLongTermAssets
-
-    CashAndCashEquivalents --> CCC["Cash on Hand\nBank Account\nUndeposited Funds"]
-    AccountsReceivable --> AR["Accounts Receivable\nCustomer Deposits"]
-    Inventory --> INV["Inventory\nRaw Materials\nWork in Progress\nFinished Goods\nSupplies Inventory"]
-    PrepaidExpenses --> PE["Prepaid Insurance\nPrepaid Rent\nPrepaid Advertising\nPrepaid Taxes"]
-    OtherCurrentAssets --> OCA["Advances Received\nOther Current Assets\nManual Journal"]
-    ShortTermLoansReceivable --> SLR["Loan Receivable >1y"]
-    PropertyPlantEquipment --> PPE["Office Equipment\nComputer Equipment\nFurniture and Fixtures\nBuildings\nLeasehold Improvements\nVehicles\nMachinery and Equipment\nIntangibles"]
-    OtherLongTermAssets --> OLTA["Security Deposits\nLoans Receivable\nInvestments"]
-```
-
-  </TabItem>
-  <TabItem value="Liabilities" label="Liabilities">
-
-```mermaid
-flowchart TD
-    Liabilities --> AccountsPayable
-    Liabilities --> CreditCards
-    Liabilities --> OtherTaxesPayable
-    Liabilities --> PayrollPayable
-    Liabilities --> ShortTermLoansLiabilities
-    Liabilities --> OtherCurrentLiabilities
-    Liabilities --> LongTermLoan
-    Liabilities --> OtherLongTermLiabilities
-
-    AccountsPayable --> AP["Accounts Payable\nVendor Deposits"]
-    CreditCards --> CC["Credit Card Account"]
-    OtherTaxesPayable --> OTP["Other Taxes Payable\nIncome Tax Payable"]
-    PayrollPayable --> PP["Payroll Payable\nPayroll Taxes Payable"]
-    ShortTermLoansLiabilities --> STL["Loan Payable <1y"]
-    OtherCurrentLiabilities --> OCL["Accrued Liabilities\nDeferred Income"]
-    LongTermLoan --> LTL["Loan Payable >1y\nShareholder Loan"]
-    OtherLongTermLiabilities --> OLTL["Other Long-Term Liabilities"]
-```
-
-  </TabItem>
-    <TabItem value="equity" label="Equity">
-
-      ```mermaid
-      flowchart TD
-          Equity --> OwnersEquity
-              OwnersEquity --> OE["Share Capital\nOpening Balance\nOwner's Draw\nRetained Earnings\nProfit for the Year"]
-      ```
-
-      </TabItem>
-    <TabItem value="income" label="Income">
-
-      ```mermaid
-flowchart TD
-Income --> OperatingIncome
-Income --> OtherIncome
-Income --> UncategorisedIncome
-
-    OperatingIncome --> OI["Sales\nSales of Products\nSales of Services\nSales - Billed Expenses\nSales - Other\nDiscounts\nRefunds Given"]
-    OtherIncome --> OInc["Dividend Income\nInterest Earned\nOther Income"]
-    UncategorisedIncome --> UInc["Uncategorised Income"]
-
-      ```
-
-      </TabItem>
-    <TabItem value="expenses" label="Expenses">
-
-      ```mermaid
-flowchart TD
-Expenses --> CostOfSales
-Expenses --> OperatingExpenses
-Expenses --> OtherExpenses
-Expenses --> UncategorisedExpenses
-
-    CostOfSales --> COS["Cost of Goods Sold\nCost of Labour - COS\nSupplies & Materials - COS\nShipping & Delivery - COS\nOther Costs of Sales - COS\nBillable Expenses - COS"]
-    OperatingExpenses --> OpExp["Travel - Accommodation\nAdvertising & Promotion\nTravel - Transportation\nBank Charges\nEntertainment & Meals - Business\nInsurance\nContractors\nDividends Paid\nEducation & Training\nEmployee Benefits\nFuel & Mileage\nInternet & Phone\nEntertainment & Meals - Non-business\nOther Miscellaneous Expenses\nOffice Equipment & Hardware\nOffice Supplies\nTravel - Other\nPostage & Printing\nLegal & Professional Fees\nLease or Rent\nRepairs & Maintenance\nEntertainment - Staff\nSubscriptions & Memberships\nLicenses & Other Taxes\nTaxi & Parking\nUse of Home\nUtilities\nPayroll - Salary & Wages\nPayroll - Taxes\nPayment Processing Fees"]
-    OtherExpenses --> OExp["Depreciation\nInterest Paid\nRealised Exchange Gain or Loss\nUnrealised Exchange Gain or Loss\nCompany Taxes\nOther Expenses"]
-    UncategorisedExpenses --> UExp["Uncategorised Expenses"]
-
-      ```
-    </TabItem>
-</Tabs>
-
-</details>
-
-Remember: Your Chart of Accounts is a living document. As your business grows and changes, you may need to add, remove, or modify accounts to keep your financial structure aligned with your operations.
+- [Accounting Overview](/accounting/overview) — How accounting works in Fiskl
+- [Accounting Settings](/settings/accounting-settings) — Configure default accounts and accounting preferences
+- [Journal Entries Overview](/accounting/journal-entries/overview) — Record manual transactions against ledger accounts
+- [General Ledger Report](/reporting/general-ledger) — View all transactions by ledger account
+- [Trial Balance Report](/reporting/trial-balance) — Review account balances across your Chart of Accounts
