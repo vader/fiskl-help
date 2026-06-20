@@ -1,51 +1,53 @@
 ---
-title: "AI Expenses Overview"
-description: "Automate expense processing with AI and machine learning that extracts data from receipts and invoices automatically."
+title: "AI-Powered Expenses Overview"
+description: "Automate expense processing in Fiskl using AI to extract data from receipts and invoices, eliminating manual data entry."
 keywords: ["AI expenses", "automated expense processing", "receipt scanning", "expense automation", "machine learning"]
 sidebar_position: 1
+tags:
+  - Expenses
+  - AI
 toc_min_heading_level: 2
-toc_max_heading_level: 3
+toc_max_heading_level: 2
 ---
 
-AI Expenses automates your expense processing by extracting data from receipt and invoice images using AI and machine learning. Upload your documents and Fiskl handles the data entry automatically.
+This section covers AI-Powered Expenses, which automates expense processing by extracting data from receipt and invoice images using AI and machine learning. Upload your documents and Fiskl handles the data entry automatically.
 
-## Why Use AI Expenses
+## Why Use AI-Powered Expenses
 
-Manual expense entry is time-consuming and error-prone. AI Expenses eliminates data entry by automatically extracting vendor details, amounts, dates, and line items from your uploaded documents.
+AI-Powered Expenses replaces manual expense handling with a fully automated pipeline. Upload a receipt or invoice and Fiskl extracts the data, categorises the expense, and reconciles it against your bank transactions — without any manual intervention.
 
-**Key benefits:**
-- Eliminate manual data entry completely
-- Process expenses in seconds, not minutes
-- Reduce human error in expense recording
-- Automatic categorisation of expenses
-- Automatic reconciliation with bank transactions
+**Extraction** — AI reads vendor name, date, amount, tax, and line items directly from the document image.
+
+**Categorisation** — The expense is assigned to the correct category automatically based on the document content.
+
+**Reconciliation** — Once your bank transaction appears, Fiskl matches it to the expense automatically, completing the record without manual matching.
 
 ## How It Works
 
-The AI Expenses workflow follows four steps:
+The AI-Powered Expenses workflow follows four steps:
 
-1. **Upload** — Upload receipt or invoice images through the [web interface](https://app.fiskl.com/dashboard/expense-ingestion)
+1. **Upload** — Upload receipt or invoice images through the web app
 2. **Extract** — AI and machine learning extract all relevant data from the document
-3. **Save** — The expense saves to Accounts Payable with proper categorisation automatically
-4. **Reconcile** — The system matches with bank transactions automatically when they appear
+3. **Save** — The expense saves to Accounts Payable with categorisation applied automatically
+4. **Reconcile** — The system matches expenses with bank transactions when they appear
 
 ## Key Features
 
-- **Intelligent extraction** — AI and machine learning extract vendor name, date, amount, tax, line items, and more
+- **Intelligent extraction** — Extracts vendor name, date, amount, tax, and line items
 - **Automatic categorisation** — Suggests the correct expense category based on document content
 - **Multi-document support** — Upload multiple receipts at once for batch processing
 - **Original document storage** — All original images are preserved with the expense record
 - **Automatic reconciliation** — Matches expenses with bank transactions without manual intervention
-- **Duplicate detection** — Automatically rejects duplicate uploads
+- **Duplicate detection** — Rejects duplicate uploads automatically
 
 ## Usage and Limits
 
-Each plan includes a monthly allowance of scans. Usage is counted per page, not per document. For example, if you upload a five-page invoice, that counts as five scans against your allowance.
+Each plan includes a monthly allowance of scans. Usage is counted per page, not per document. A five-page invoice counts as five scans.
 
 **Standard plans:**
 
 | Plan | Monthly Scans Included |
-|------|----------------------|
+|------|------------------------|
 | **Solo** | 25 |
 | **Pro** | 100 |
 | **Prime** | 300 |
@@ -53,7 +55,7 @@ Each plan includes a monthly allowance of scans. Usage is counted per page, not 
 **Gift and lifetime plans:**
 
 | Plan Tier | Monthly Scans Included |
-|-----------|----------------------|
+|-----------|------------------------|
 | **Tier 1** | 5 |
 | **Tier 2** | 10 |
 | **Tier 3** | 15 |
@@ -64,8 +66,6 @@ The ability to purchase additional scans beyond your plan allowance is coming so
 
 ## Supported File Formats
 
-AI Expenses accepts these image and document formats:
-
 | Format | Extension | Notes |
 |--------|-----------|-------|
 | **PDF** | `.pdf` | Multi-page documents supported |
@@ -73,34 +73,14 @@ AI Expenses accepts these image and document formats:
 | **PNG** | `.png` | High-quality screenshots |
 | **HEIC** | `.heic` | Apple photos (auto-converted to JPEG) |
 
-**Automatic conversions:**
-- HEIC files convert to JPEG automatically. The original HEIC file is not preserved.
-- Large PNG files convert to JPEG for faster processing
-- Oversized images are resized to optimise processing speed
-
-## Processing Time
-
-Processing time depends on document complexity and system load. Processing is asynchronous, so documents go through multiple stages.
-
-- **Simple receipts** — A few seconds
-- **Complex invoices** — Up to one minute
-- **High system load** — May take several minutes while queued
-
-You can continue working while documents process in the background.
-
-## Accessing AI Expenses
-
-AI Expenses is available from the left sidebar menu:
-
-1. Select **AI Expenses** from the main navigation
-2. Upload your documents to begin processing
-
-You can also access AI Expenses directly at [app.fiskl.com/dashboard/expense-ingestion](https://app.fiskl.com/dashboard/expense-ingestion).
+HEIC files convert to JPEG automatically. Large PNG files and oversized images are also converted or resized for faster processing. Original HEIC files are not preserved after conversion.
 
 ---
 
 ## Available Guides
 
-import DocCardList from '@theme/DocCardList';
+[📄️ Uploading Expenses to AI Expenses Upload receipt and invoice images to AI-Powered Expenses for automatic data extraction using AI and machine learning.](/expenses/ai-expenses/uploading)
 
-<DocCardList />
+[📄️ Managing AI Expenses Review, edit, and manage expenses processed through AI-Powered Expenses including verifying extracted data and attached documents.](/expenses/ai-expenses/managing-ai-expenses)
+
+[📄️ AI Expense Reconciliation Understand how Fiskl automatically matches AI-Powered Expenses with bank transactions for seamless expense reconciliation.](/expenses/ai-expenses/reconciliation)

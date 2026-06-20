@@ -1,109 +1,105 @@
 ---
 title: "Uploading Expenses to AI Expenses"
-description: "Upload receipt and invoice images to AI Expenses for automatic data extraction using AI and machine learning."
+description: "Upload receipts and invoices to Fiskl AI Expenses for automatic data extraction. Supports PDF, JPEG, PNG, and HEIC formats."
 keywords: ["upload expenses", "AI expense upload", "receipt upload", "invoice scanning", "expense processing", "machine learning"]
-sidebar_position: 2
+sidebar_position: 1
+tags:
+   - Expenses
+   - AI Expenses
 toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
-This guide explains how to upload expense documents to AI Expenses and helps you process multiple receipts quickly using AI and machine learning.
+This guide explains how to upload receipts and invoices to AI Expenses, where Fiskl extracts the data automatically using AI and machine learning.
 
 ## Before You Begin
 
-Ensure you have:
-- Receipt or invoice images in supported formats (PDF, JPEG, PNG, HEIC)
-- Access to the Fiskl web interface at [app.fiskl.com](https://app.fiskl.com/dashboard/expense-ingestion)
-- Clear, legible document images
+Before uploading, confirm you have:
 
-## Uploading Single Expenses
+- Receipt or invoice images in a supported format: PDF, JPEG, PNG, or HEIC
+- Clear, legible document images — blurry or poorly lit photos reduce accuracy
 
-To upload a single expense document:
+## Uploading a Single Expense
 
-1. **Open AI Expenses**
-
-   Select **AI Expenses** from the left sidebar.
-
-2. **Start upload**
-
-   Select **Upload** or drag a file to the upload area.
-
-3. **Select your file**
-
-   Select the receipt or invoice image from your computer.
-
-4. **Wait for processing**
-
-   The system extracts data automatically. This takes a few seconds to a few minutes depending on document complexity.
-
-5. **Review extracted data**
-
-   After processing completes, review the extracted information for accuracy.
+1. Select **Purchases** > **AI Expenses** from the left sidebar.
+2. Select **Upload** to open the file picker.
+3. Select the receipt or invoice image from your device.
+4. Wait for the system to extract the data. This takes a few seconds to a few minutes depending on document complexity.
+5. Review the extracted information for accuracy.
 
 ## Uploading Multiple Expenses
 
-To process multiple receipts at once:
+1. Select **Purchases** > **AI Expenses** from the left sidebar.
+2. Hold `Ctrl` (Windows) or `Cmd` (Mac) while selecting files to upload a batch.
+3. All files upload and queue for processing automatically.
+4. Monitor the processing status for each document. You can continue working while files process in the background.
 
-1. **Open AI Expenses**
+## Creating an Expense Manually
 
-   Select **AI Expenses** from the left sidebar.
+Use this method when you do not have a document to upload — for example, a verbal agreement or a missing receipt.
 
-2. **Select multiple files**
+1. Select **Purchases** > **AI Expenses** from the left sidebar.
+2. Select **Create New** to open the transaction form.
+3. Enter the expense **Name** and **Amount**.
+4. Set the **Date** and **Due Date**.
+5. Select a **Category**, **Tax** rate, and **Vendor** as needed.
+6. Select **Save**.
 
-   Hold `Ctrl` (Windows) or `Cmd` (Mac) while selecting multiple files, or drag multiple files to the upload area.
-
-3. **Upload batch**
-
-   All files upload and queue for processing automatically.
-
-4. **Monitor progress**
-
-   The system shows processing status for each document. You can continue working while files process in the background.
+:::info
+Manually created expenses are saved to Accounts Payable but do not go through AI extraction or processing.
+:::
 
 ## What Happens During Processing
 
 When you upload a document, Fiskl automatically:
 
-1. **Validates the file** — Checks format and file size
-2. **Converts if needed** — Converts HEIC to JPEG and resizes large images
-3. **Optimises the image** — Processes the image to ensure accurate scanning. The stored image may differ from your original upload.
-4. **Extracts data** — Uses AI and machine learning to read all text and structure
-5. **Identifies fields** — Recognises vendor, date, amount, tax, and line items
-6. **Categorises expense** — Suggests an appropriate expense category
-7. **Saves to Accounts Payable** — Creates the expense record automatically
-8. **Stores the document** — Preserves the processed image with the expense
+1. **Validates the file** — Checks format and file size.
+2. **Converts if needed** — Converts HEIC to JPEG and resizes large images. Your original HEIC file is not preserved.
+3. **Optimises the image** — Processes the image for accurate scanning. The stored image may differ from your original upload.
+4. **Extracts data** — Uses AI and machine learning to read text and structure.
+5. **Identifies fields** — Recognises vendor, date, amount, and tax.
+6. **Categorises the expense** — Suggests an appropriate expense category.
+7. **Saves to Accounts Payable** — Creates the expense record automatically.
+8. **Queues for reconciliation** — Makes the expense available for automatic matching against bank transactions.
+9. **Stores the document** — Preserves the processed image with the expense.
 
-:::info
-Processing is asynchronous. Each document goes through multiple stages, and if the system is busy, documents queue and may take several minutes to complete.
-:::
+## Processing Time
+
+Processing time depends on document complexity and system load. Processing is asynchronous, so documents go through multiple stages.
+
+- **Simple receipts** — A few seconds
+- **Complex invoices** — Up to one minute
+- **High system load** — May take several minutes while queued
+
+You can continue working while documents process in the background.
 
 ## File Requirements
 
 **Supported formats:**
+
 - PDF (single or multi-page)
 - JPEG / JPG
 - PNG
 - HEIC (Apple photos)
 
 **Automatic conversions:**
-- HEIC files convert to JPEG before processing. Your original HEIC file is not preserved.
-- Large PNG files convert to JPEG for faster processing
-- Oversized images are resized automatically
 
-**Image quality tips:**
-- Ensure text is clear and readable
-- Avoid blurry or poorly lit images
-- Capture the entire document in frame
-- Keep images flat — avoid wrinkles or folds
+- HEIC files convert to JPEG before processing
+- Large PNG files convert to JPEG for faster processing
+- Oversized images resize automatically
+
+:::tip
+For best results, use well-lit images with all text clearly visible and the entire document in frame. Avoid shadows, glare, and wrinkled documents.
+:::
 
 ## Upload Status Indicators
 
 | Status | Meaning |
-|--------|---------|
+|---|---|
 | **Uploading** | File is transferring to Fiskl |
-| **Ingesting** | AI and machine learning are extracting data from the document |
+| **Ingesting** | AI and machine learning are extracting data |
 | **Complete** | Expense is saved and ready for review |
-| **Error** | Processing failed — see error message for details |
+| **Error** | Processing failed — see the error message for details |
 
 ## Scan Usage
 
@@ -116,55 +112,29 @@ The system automatically rejects duplicate uploads. If you upload a document tha
 ## Common Issues
 
 <details>
-<summary>Upload fails with unsupported file type</summary>
+<summary>Upload fails with an unsupported file type error</summary>
 
-Verify your file is in PDF, JPEG, PNG, or HEIC format. Check that the file extension matches the actual file type. If the issue persists, try converting the file to JPEG or PDF before uploading.
+Verify your file is in PDF, JPEG, PNG, or HEIC format. Check that the file extension matches the actual file type. If the issue continues, convert the file to JPEG or PDF before uploading.
 
 </details>
 
 <details>
 <summary>Processing takes longer than expected</summary>
 
-Processing is asynchronous and goes through multiple stages. During periods of high demand, documents queue and may take several minutes. You can continue working while processing completes in the background. If processing takes over ten minutes, contact support.
+Processing is asynchronous and goes through multiple stages. During periods of high demand, documents queue and may take several minutes. You can continue working while processing completes in the background. If a document takes over ten minutes, contact support.
 
 </details>
 
 <details>
 <summary>Extracted data is inaccurate</summary>
 
-Ensure the original image is clear and readable. Faded or damaged documents may produce less accurate results. Try re-uploading with a better quality image. You can also edit extracted data manually after processing. See [Managing AI Expenses](/expenses/ai-expenses/managing-ai-expenses) for editing instructions.
+Faded or damaged documents produce less accurate results. Re-upload using a clearer image. You can also edit extracted data manually after processing — see [Managing AI Expenses](/expenses/ai-expenses/managing-ai-expenses) for instructions.
 
 </details>
 
-## Tips for Best Results
-
-**Take clear photos:**
-- Use good lighting
-- Hold your camera steady
-- Capture the entire receipt
-- Avoid shadows and glare
-
-**Organise before uploading:**
-- Sort receipts by date or vendor
-- Remove duplicates before uploading
-- Batch similar expenses together
-
-**Upload regularly:**
-- Upload receipts as you receive them
-- Don't wait until the end of the month
-- Fresher receipts are easier to read
-
-## What Happens Next
-
-After upload and processing complete:
-- The expense appears in your AI Expenses list
-- The processed image is attached to the expense record
-- The expense saves to Accounts Payable
-- The system suggests an expense category automatically
-- The expense is ready for automatic reconciliation when a matching bank transaction appears
-
 ## Related Topics
 
+- [AI Expenses Overview](/expenses/ai-expenses/overview) — What AI Expenses does and how it works
 - [Managing AI Expenses](/expenses/ai-expenses/managing-ai-expenses) — Edit and review processed expenses
 - [AI Expense Reconciliation](/expenses/ai-expenses/reconciliation) — How automatic matching works
-- [Traditional Expenses](/expenses/traditional-expenses/overview) — Legacy expense system (view only)
+- [Traditional Expenses](/expenses/traditional-expenses/overview) — Manual expense entry

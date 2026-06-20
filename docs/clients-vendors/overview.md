@@ -1,482 +1,256 @@
 ---
-title: "Clients & Vendors Overview"
-description: "Manage clients and vendors in Fiskl to organize contacts, streamline invoicing, track expenses, and maintain accurate financial records for your business."
-keywords: ["clients", "vendors", "contact management", "customer database", "supplier tracking", "invoicing", "expense tracking"]
+title: "Clients Overview"
+description: "Manage clients in Fiskl to streamline invoicing, quotes, and payment collection with multi-currency support and automated direct debit."
+keywords: ["clients", "client management", "invoicing", "accounts receivable", "direct debit", "GoCardless", "multi-currency", "time billing"]
 sidebar_position: 1
 ---
 
-This section explains how Fiskl's contact management system helps you organize clients and vendors for efficient invoicing, expense tracking, and financial record-keeping.
+This section explains how Fiskl's client management system helps you store contact details, streamline invoicing, and automate payment collection.
 
-## Why Manage Clients and Vendors?
+## Why Manage Clients in Fiskl?
 
-Fiskl's contact management system provides the foundation for all your business transactions. By maintaining organized client and vendor records, you create accurate financial documentation, streamline workflows, and gain insights into your business relationships.
+Maintaining accurate client records gives you a single source of truth for all your income-side transactions. When you create a client once, their details carry through automatically to every invoice, quote, and payment you process.
 
 **Key benefits:**
-- Centralized contact database for all business relationships
-- Automated invoicing with saved client details
-- Consistent expense tracking with vendor records
-- Accurate financial reporting by contact
-- Payment automation through client mandates
-- Multi-currency support for international contacts
 
-## Two Types of Contacts
+- Automatic population of client details on invoices and quotes
+- Default currency settings for international billing
+- Hourly rate configuration for time-based billing
+- Automated payment collection through GoCardless direct debit
+- Accounts receivable tracking and invoice history per client
+- Revenue reporting by client
 
-Fiskl organizes your business contacts into two distinct categories based on transaction flow.
 
-### Clients (Money Coming In)
+## Client Workflow
 
-Clients are individuals or businesses who pay you for goods or services.
+The typical client workflow moves from setup through invoicing to payment collection and reporting.
 
-**What clients are for:**
-- Creating and sending invoices
-- Generating quotes and estimates
-- Tracking accounts receivable
-- Managing payment collection
-- Recording customer payments
-- Analyzing revenue by client
+### 1. Create the Client
 
-**Client capabilities:**
-- Store billing and shipping addresses
-- Set default currencies for invoicing
-- Configure time-based billing rates
-- Enable direct debit mandates
-- Track payment history
-- View client-specific reports
+Add a client from the **Clients** section or directly during invoice creation.
 
-**Example client relationships:**
-- Customer purchasing your products
-- Business hiring your consulting services
-- Organization subscribing to your services
-- Individual contracting your expertise
-- Company licensing your software
+**Information you can store:**
 
-**Learn more:** [Managing Clients](/clients-vendors/clients)
+- Client name and email address
+- Billing and shipping addresses
+- Tax/VAT ID
+- Notes about the client or billing requirements
+- Default billing currency
+- Default hourly rate (for time-based billing)
+- Cc and Bcc addresses for invoice delivery
 
-### Vendors (Money Going Out)
 
-Vendors are individuals or businesses you pay for goods or services.
+**Creation methods:**
 
-**What vendors are for:**
-- Recording expenses and purchases
-- Tracking accounts payable
-- Managing supplier relationships
-- Categorizing business expenses
-- Analyzing spending by vendor
-- Organizing tax-deductible expenses
+- Manual entry in the **Clients** section
+- Inline creation during invoice or quote creation
 
-**Vendor capabilities:**
-- Store vendor contact information
-- Track purchase history
-- Link to expense categories
-- Add notes about vendor relationships
-- Archive inactive vendors
-- View vendor-specific spending
 
-**Example vendor relationships:**
-- Utility company providing services
-- Supplier providing inventory
-- Landlord collecting rent
-- Software subscription provider
-- Contractor performing services
-- Office supply retailer
+### 2. Create Invoices and Quotes
 
-**Learn more:** [Managing Vendors](/clients-vendors/vendors)
+Once a client exists, their details populate automatically on new invoices and quotes.
 
-## Contact Management Workflow
+**What carries through automatically:**
 
-### Setting Up Clients
+- Client name and email
+- Billing address (formatted as configured)
+- Default currency
+- Time rate (on time-based line items)
 
-**Initial client setup:**
-1. Add client from Clients section or during invoice creation
-2. Enter client name and contact information
-3. Configure billing address format
-4. Set default currency and time rate (if applicable)
-5. Add payment preferences and methods
-6. Save client record
 
-**Bulk client import:**
-1. Prepare CSV file with client data
-2. Go to Clients section and select Import
-3. Upload CSV file
-4. Map CSV columns to Fiskl fields
-5. Review and confirm import
-6. Verify imported clients
+**Learn more:** [Creating Invoices](/invoicing/creating-invoices)
 
-### Setting Up Vendors
+### 3. Automate Direct Debit Collection
 
-**Creating vendors:**
-1. Add vendor from Vendors section or during expense entry
-2. Enter vendor name
-3. Add contact information (optional)
-4. Add notes about vendor relationship
-5. Save vendor record
+Automate payment collection through GoCardless direct debit. Other payment methods are available at the invoice level — see [Payment Integrations](/integrations/payments/overview).
 
-**Vendor usage:**
-- Select vendor when recording expenses
-- Select vendor when entering accounting transactions
-- Vendor appears automatically in categorized expense reports
-- Track spending trends by vendor over time
+**How it works:**
+
+1. Enable GoCardless on an invoice
+2. The client receives a mandate authorisation link
+3. The client completes the authorisation
+4. Future invoices collect automatically on the due date
+
+### 4. Review and Report
+
+Use client records to monitor outstanding balances and analyse revenue.
+
+**Available views and reports:**
+
+- Invoice history per client
+- Accounts receivable ageing report
+- Client statement — download from the invoice list within a client record, or from **Reports** in the left menu
+
+**Learn more:** [Financial Reports](/reporting/overview)
+
 
 ## Client Features in Detail
 
 ### Default Currency
 
-Set the preferred billing currency for each client.
+Set a preferred billing currency on each client record. Fiskl applies this currency automatically when you create an invoice for that client and handles exchange rate conversion.
 
-**Why it matters:**
-- Ensures invoices generate in correct currency
-- Supports international client relationships
-- Automatic exchange rate handling
-- Multi-currency reporting capability
-- Professional client experience
+This is particularly useful for international clients or businesses that bill in multiple currencies.
 
-**Common scenarios:**
-- US-based business billing European clients in EUR
-- Freelancer working with clients in multiple countries
-- International company maintaining regional currencies
-- Service provider offering local currency convenience
+### Time-Based Billing Rate
 
-### Time-Based Billing Rates
+Set a client-specific default hourly rate that overrides the default rate saved in **Settings** > **Preferences**. When you log time against this client, Fiskl applies their rate automatically and pulls billable hours through to invoices. You can still override the rate on individual time entries when needed.
 
-Configure hourly rates for clients billed by time.
+**Learn more:** [Time Tracking](/time-and-mileage/time-tracking)
 
-**Rate configuration:**
-- Set default hourly rate per client
-- Override rate on specific time entries
-- Track billable hours automatically
-- Include unbilled time on invoices
-- Generate time-based revenue reports
+### Tax/VAT ID
 
-**Best for:**
-- Consultants billing hourly
-- Law firms tracking billable hours
-- Agencies billing client time
-- Freelancers with hourly contracts
-- Professional services firms
+Store the client's Tax or VAT registration number on their record. This appears on invoices automatically, which is important for B2B invoicing and tax compliance in many regions.
 
-**Learn more:** [Time Tracking](/time-and-mileage/time-tracking.md)
+### Notes
+
+Add free-text notes to a client record for anything relevant to the relationship — billing preferences, special requirements, account references, or internal context. Notes are visible only to your team and do not appear on invoices.
+
+### Invoice Statistics
+
+Each client record shows a summary of invoice activity. This includes payments recorded against invoices (marked as paid) and the unreconciled balance from your books — giving you a quick view of what has been received and what is still owed.
 
 ### Direct Debit Mandates
 
-Enable automated payment collection through GoCardless integration.
-
-**How mandates work:**
-1. Enable GoCardless on invoice
-2. Client receives invoice with mandate setup link
-3. Client authorizes direct debit mandate
-4. Future invoices collect automatically
-5. Track mandate status in client list
+GoCardless integration enables automated payment collection for recurring or regular clients.
 
 **Mandate statuses:**
-- **Success** - Active and ready for automatic collection
-- **Pending** - Client hasn't completed authorization
-- **Revoked** - Client cancelled or authorization failed
 
-**Best for:**
-- Recurring service invoicing
-- Subscription-based billing
-- Regular retainer clients
-- Monthly service contracts
-- Predictable payment schedules
+- **Success** — Active and ready for automatic collection
+- **Pending** — The client has not yet completed authorisation
+- **Revoked** — The client cancelled, or authorisation failed
 
-**Learn more:** [Payment Integrations](/integrations/payments/overview)
 
-## Contact Organization Features
+Monitor mandate statuses directly from the client list.
 
-### Contact List Management
 
-Both clients and vendors benefit from powerful list management capabilities.
+## Client List Management
 
-**Search and filter:**
+### Searching and Filtering
+
+From the **Clients** section you can:
+
 - Search by name or contact details
-- Filter by currency
-- Filter by status (active/archived)
-- Sort by name or date added
-- Custom tags for organization
-- Quick actions per contact
+- Filter by status (active or archived)
+- Filter by date the client was added or last updated
+- Access quick actions from the three-dot menu next to each client
+- Select a client to view their invoice list and download a client statement (also available from **Reports** in the left menu)
 
-**List views:**
-- Comprehensive contact information
-- Transaction summary per contact
-- Last activity date
-- Total billed or spent
-- Outstanding balances (clients)
-- Payment status indicators
 
-### Importing Contacts
+### Archiving Clients
 
-Fiskl supports bulk import for efficient setup.
+Archiving removes a client from your active list without deleting their history. Archived clients and all associated transactions remain visible in reports.
 
-**CSV import features:**
-- Import multiple clients at once
-- Map custom CSV fields
-- Validate data before import
-- Error reporting for corrections
-- Import confirmation summary
-- Mobile app contact import
+To archive a client, select the three-dot menu next to their name and select **Archive**.
 
-**Import workflow:**
-1. Prepare CSV with contact data
-2. Access import function
-3. Upload CSV file
-4. Map columns to Fiskl fields
-5. Review preview
-6. Confirm and import
-7. Verify imported contacts
-
-### Contact Updates and Maintenance
-
-Keep contact information current for accurate records.
-
-**Update capabilities:**
-- Edit contact information anytime
-- Update billing addresses
-- Change currency or rate defaults
-- Add or modify notes
-- Update payment preferences
-- Archive inactive contacts
-
-**Best practices:**
-- Review contact list quarterly
-- Update addresses when notified
-- Archive inactive contacts annually
-- Maintain consistent naming conventions
-- Use notes for important relationship details
-- Tag contacts for easy filtering
-
-## Client vs. Vendor: Key Differences
-
-| Feature | Clients | Vendors |
-|---------|---------|---------|
-| **Transaction Direction** | Receive money from | Pay money to |
-| **Primary Use** | Invoicing and quotes | Expenses and purchases |
-| **Financial Impact** | Revenue and income | Expenses and costs |
-| **Detailed Configuration** | Currency, rates, mandates | Basic contact info |
-| **Payment Automation** | Direct debit collection | Manual payment tracking |
-| **Default Settings** | Currency, time rate | None required |
-| **Address Requirements** | Billing and shipping | Optional |
-| **Reports** | AR aging, client statements | Vendor spending, expenses |
-
-## Integration with Financial Workflows
-
-Contacts integrate seamlessly with Fiskl's financial features.
-
-### Client Integration Points
-
-**Invoicing:**
-- Client details populate invoice automatically
-- Default currency applies
-- Billing address appears correctly
-- Payment preferences transfer
-- Time rates calculate automatically
-
-**Quotes:**
-- Generate quotes using saved client data
-- Convert quotes to invoices instantly
-- Client-specific terms apply
-- Consistent branding per client
-
-**Payments:**
-- Record payments against client invoices
-- Track payment history
-- Generate client statements
-- Monitor outstanding balances
-- Automate direct debit collection
-
-**Reporting:**
-- Client aging reports
-- Revenue by client analysis
-- Statement of accounts
-- Payment trend reports
-- Client profitability tracking
-
-### Vendor Integration Points
-
-**Expenses:**
-- Select vendor when recording expenses
-- Categorize purchases by vendor
-- Track tax-deductible expenses
-- Link receipts to vendor
-- Generate expense reports
-
-**Banking:**
-- Match bank transactions to vendors
-- Categorize imported transactions
-- Reconcile vendor payments
-- Track cash flow by vendor
-- Identify spending patterns
-
-**Reporting:**
-- Vendor spending analysis
-- Expense category reports
-- Tax reporting by vendor
-- Cash flow tracking
-- Budget variance by vendor
 
 ## Common Use Cases
 
-### Small Business Owner
-
-**Client management:**
-- 20-50 active clients
-- Recurring monthly invoicing
-- Direct debit for 70% of clients
-- Multi-currency for international clients
-- Time-based billing for consulting
-
-**Vendor management:**
-- 10-15 regular vendors
-- Utility and subscription tracking
-- Office supply vendors
-- Contractor vendors for projects
-- Expense categorization for taxes
-
 ### Freelancer or Consultant
 
-**Client management:**
-- 5-10 active clients
-- Project-based invoicing
-- Multiple time rates per client
-- International clients in multiple currencies
-- Quote generation for new projects
+**Typical workflow:**
 
-**Vendor management:**
-- 5-10 vendors maximum
-- Software subscriptions
-- Home office expenses
-- Occasional contractor vendors
-- Simple expense tracking
+- 5–10 active clients
+- Project and hourly invoicing
+- Different time rates per client
+- Quotes for new project scopes
+- International clients in multiple currencies
+
+
+**Key features used:**
+
+- Default hourly rate per client
+- Multi-currency invoicing
+- Quote-to-invoice conversion
+
+
+### Small Business Owner
+
+**Typical workflow:**
+
+- 20–50 active clients
+- Recurring monthly invoicing
+- Direct debit for regular clients
+- Mix of one-off and retainer billing
+
+
+**Key features used:**
+
+- GoCardless mandates for automated collection
+- Default currency per client
+- Client statement download from the invoice list
+- Accounts receivable ageing report
+
 
 ### Agency or Service Business
 
-**Client management:**
-- 50+ clients across team
+**Typical workflow:**
+
+- 50+ clients across a team
 - Retainer and project billing
 - Team time tracked per client
 - Client-specific billing rates
-- Automated recurring invoicing
 
-**Vendor management:**
-- 20+ vendors
-- Contractor and freelancer vendors
-- Software and tool subscriptions
-- Office and equipment vendors
-- Detailed vendor expense tracking
 
-### Product-Based Business
+**Key features used:**
 
-**Client management:**
-- Retail and wholesale clients
-- Volume-based pricing tiers
-- Multi-currency international sales
-- Direct debit for recurring orders
-- Statement generation for reconciliation
+- Per-client time rates
+- Team time tracking linked to clients
+- Revenue reporting by client
 
-**Vendor management:**
-- Inventory suppliers
-- Packaging and shipping vendors
-- Manufacturing vendors
-- Distribution partners
-- Equipment maintenance vendors
 
 ## Best Practices
 
-### For Client Management
+### Setting Up Clients
 
-**Setup:**
-- Configure complete client details before first invoice
-- Set accurate default currencies
-- Establish time rates for all billable clients
-- Enable direct debit for recurring clients
-- Use consistent address formatting
+- Configure complete client details before creating the first invoice
+- Set accurate default currencies for international clients
+- Set client-specific default time rates to override the global rate in Settings
+- Store Tax/VAT IDs for all B2B clients
+- Enable direct debit early for recurring clients
+- Use consistent address formatting across records
 
-**Maintenance:**
-- Update contact information promptly
-- Archive inactive clients annually
-- Review time rates quarterly
-- Monitor mandate statuses monthly
-- Clean up duplicate entries
 
-**Organization:**
+### Maintaining Client Records
+
+- Update contact information promptly when notified of changes
+- Archive inactive clients rather than leaving them in the active list
+- Review time rates periodically to keep them current
+- Monitor mandate statuses monthly for active GoCardless clients
+- Remove duplicate entries when found
+
+
+### Staying Organised
+
 - Use clear, consistent naming conventions
-- Add notes for important client details
-- Tag clients for easy filtering
-- Group clients by service type or industry
-- Document special billing requirements
+- Add notes to client records for billing requirements or preferences
+- Review the client list quarterly
+- Download client statements from the invoice list for reconciliation
 
-### For Vendor Management
 
-**Setup:**
-- Create vendors as you encounter them
-- Use complete, official vendor names
-- Add contact information when available
-- Note important vendor details
-- Maintain consistent naming
+## Getting Started with Clients
 
-**Maintenance:**
-- Review vendor list quarterly
-- Archive vendors no longer used
-- Consolidate duplicate entries
-- Update vendor information as needed
-- Remove test or temporary vendors
+Add your first clients from **Clients** in the left sidebar. Enter their details, set a default currency and time rate if applicable, and add a Tax/VAT ID for B2B clients. Once saved, create a test invoice to verify the details carry through correctly.
 
-**Organization:**
-- Use official business names
-- Add notes for account numbers or references
-- Track primary contact information
-- Document payment terms
-- Note preferred communication methods
+To set up automated payment collection, connect GoCardless under **Integrations** > **Payments**, then enable direct debit on invoices for recurring clients.
 
-## Getting Started
+From there, add new clients as you acquire them, keep contact details current, and archive inactive clients quarterly to keep your list clean.
 
-Begin contact management with this prioritized approach:
-
-**Step 1: Set Up First Clients**
-1. Identify 3-5 primary clients
-2. Enter complete client information
-3. Configure currencies and rates
-4. Create first invoice to test
-5. Verify client details on invoice
-
-**Step 2: Add Regular Vendors**
-1. List your regular business expenses
-2. Create vendor records for each
-3. Test vendor selection on expense entry
-4. Review vendor categorization
-5. Verify expense reports show vendors correctly
-
-**Step 3: Import Remaining Contacts**
-1. Prepare CSV files for bulk import
-2. Import remaining clients
-3. Import additional vendors
-4. Verify imported data
-5. Make corrections as needed
-
-**Step 4: Establish Routines**
-1. Add new clients as acquired
-2. Create vendors during expense entry
-3. Update contact information promptly
-4. Review contact list monthly
-5. Archive inactive contacts quarterly
 
 ## Need More Help?
 
-**Set up clients:** [Managing Clients](/clients-vendors/clients)
+**Set up and manage clients:** [Managing Clients](/clients-vendors/clients)
 
-**Track vendors:** [Managing Vendors](/clients-vendors/vendors)
+**Create invoices:** [Creating Invoices](/invoicing/creating-invoices)
 
-**Create invoices:** [Creating Invoices](/invoicing/creating-invoices.md)
+**Set up payment automation:** [Payment Integrations](/integrations/payments/overview)
 
-**Record expenses:** [Recording Expenses](/expenses/ai-expenses/uploading)
+**Track billable time:** [Time Tracking](/time-and-mileage/time-tracking)
 
-**Payment automation:** [Payment Integrations](/integrations/payments/overview)
-
-**Time tracking:** [Time Tracking Overview](/time-and-mileage/time-tracking.md)
+**View financial reports:** [Financial Reports](/reporting/overview)
 
 ---
 
 ## Available Guides
 
-import DocCardList from '@theme/DocCardList';
-
-<DocCardList />
+[📄️ Managing Clients — Learn how to add and manage clients in Fiskl for streamlined invoicing, quotes, and payment processing.](/clients-vendors/clients)

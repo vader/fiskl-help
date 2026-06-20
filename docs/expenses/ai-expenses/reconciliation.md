@@ -1,256 +1,187 @@
 ---
 title: "AI Expense Reconciliation"
-description: "Understand how Fiskl automatically matches AI Expenses with bank transactions for seamless expense reconciliation."
-keywords: ["expense reconciliation", "automatic matching", "bank transactions", "expense matching", "AI reconciliation"]
-sidebar_position: 4
+description: "Learn how AI Expenses reconcile with bank transactions in Fiskl, including automatic matching, manual reconciliation, and troubleshooting tips."
+keywords: ["AI expenses", "expense reconciliation", "bank matching", "reconcile expenses", "Fiskl expenses"]
+sidebar_position: 3
+tags:
+   - Expenses
+   - AI Expenses
+   - Reconciliation
 toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
-This guide explains how AI Expenses automatically reconcile with bank transactions and helps you understand the matching process.
+This guide explains how AI Expenses reconcile with bank transactions and how to manage the matching process.
 
 ## How Automatic Reconciliation Works
 
-When you upload an expense through AI Expenses, Fiskl monitors your connected bank accounts for matching transactions. When a match is found, the expense reconciles automatically without manual intervention.
+When you upload a receipt/bill through AI Expenses, Fiskl monitors your connected bank accounts for a matching transaction. When a match is found, the expense reconciles automatically.
 
 **The matching process:**
 
-1. **Expense created** — AI extracts data from the uploaded receipt
+1. **Expense created** — AI extracts data from the uploaded receipt/bill
 2. **Saved to Accounts Payable** — The expense enters your records as unpaid
 3. **Monitoring begins** — The system watches for matching bank transactions
 4. **Match identified** — The system finds a transaction matching vendor, amount, and date
 5. **Automatic reconciliation** — The expense links to the transaction and accounting records update
+
+:::info
+Reconciliation requires at least one connected bank account. Go to **Banking** to connect your accounts before uploading expenses.
+:::
 
 ## What the System Matches
 
 Fiskl uses multiple data points to identify matching transactions.
 
 **Primary matching criteria:**
-- **Amount** — Transaction amount matches expense amount (exact or within tolerance)
-- **Date** — Transaction date within a reasonable range of the expense date
+
+- **Amount** — Transaction amount matches the expense amount (exact or within tolerance)
+- **Date** — Transaction date falls within a reasonable range of the expense date
 - **Vendor** — Bank transaction description contains the vendor name
 
 **Secondary criteria:**
-- **Currency** — Transaction currency matches expense currency
+
+- **Currency** — Transaction currency matches the expense currency
 - **Account** — Transaction is in the expected payment account
-- **Category** — Transaction category aligns with the expense type
 
 ## Reconciliation Status
 
-AI Expenses display their reconciliation status:
+AI Expenses display their processing status in the expense list:
 
-| Status | What It Means | Next Steps |
-|--------|---------------|------------|
-| **Unreconciled** | No matching transaction found yet | Wait for the bank transaction to appear |
-| **Potential Match** | System identified a likely match | Review and confirm the match |
-| **Reconciled** | Confirmed match with bank transaction | No action needed |
-| **Manual Review** | Multiple possible matches found | Select the correct transaction |
+| Status | Meaning | Next steps |
+|---|---|---|
+| **Processed** | The receipt/bill was successfully extracted and saved | Review the expense details and confirm they are correct |
+| **Processing** | The AI is currently extracting data from the receipt/bill | Wait for processing to complete before taking action |
+| **Failed** | The AI could not extract data from the receipt/bill | Re-upload the receipt/bill or enter the expense manually |
+| **Duplicate** | The receipt/bill matches an expense already in your records | Review and delete the duplicate if not needed |
+
+On the **Transactions** side, a **Linked** status (shown in green) means the transaction has been matched to a bank transaction, either fully or partially.
 
 ## Viewing Reconciliation Details
 
-To see reconciliation status:
-
-1. **Open AI Expenses**
-
-   Select **AI Expenses** from the left sidebar.
-
-2. **Check status column**
-
-   The status column shows each expense's reconciliation state.
-
-3. **View match details**
-
-   Select an expense to see:
-   - Matched bank transaction
-   - Match confidence score
-   - Matching criteria used
-   - Reconciliation timestamp
+1. Go to **AI Expenses** in the left sidebar
+2. Select an expense to view the matched bank transaction and matching details, along with the payment status (Paid or Overdue)
 
 ## Confirming Potential Matches
 
 When the system identifies a potential match:
 
-1. **Review suggestion**
-
-   Select the expense to view the suggested bank transaction match.
-
-2. **Verify accuracy**
-
-   Compare:
-   - Amounts match
-   - Dates are close
-   - Vendor names correspond
-   - Currency is correct
-
-3. **Confirm or reject**
-
-   - Select **Confirm Match** if correct
-   - Select **Find Different Match** if incorrect
+1. Select the expense to view the suggested bank transaction
+2. Compare the amounts, dates, vendor names, and currency
+3. Select **Confirm** if correct, or reject the match to find a different transaction
 
 ## Manual Reconciliation
 
-If automatic matching does not find the transaction:
+If automatic matching does not find the correct transaction:
 
-1. **Select the expense**
+1. Select the unreconciled expense
+2. Select the option to match manually
+3. Browse or search your bank transactions to find the correct one
+4. Select the matching transaction
+5. Select **Confirm** to reconcile the expense
 
-   Select the unreconciled expense.
-
-2. **Select Manual Match**
-
-   Select **Find Transaction** or **Manual Match**.
-
-3. **Search transactions**
-
-   Browse or search your bank transactions to find the correct one.
-
-4. **Select transaction**
-
-   Select the matching transaction from the list.
-
-5. **Confirm match**
-
-   Select **Confirm** to reconcile the expense.
-
-## Why Matches Might Not Happen Automatically
-
-Common reasons for non-matching:
+## Why Matches May Not Happen Automatically
 
 **Transaction not yet imported:**
-- Bank transaction has not appeared in your account yet
+
+- The bank transaction has not appeared in your account yet
 - Bank sync has not run recently
-- Transaction is still pending
+- The transaction is still pending
 
 **Vendor name mismatch:**
-- Bank shows a different business name
-- Receipt shows a subsidiary or parent company
-- Transaction description is abbreviated or cryptic
+
+- The bank shows a different business name from the receipt/bill
+- The receipt/bill shows a subsidiary or parent company name
+- The transaction description is abbreviated
 
 **Amount difference:**
-- Receipt shows pre-tip amount, bank shows total with tip
+
+- The receipt/bill shows a pre-tip amount but the bank shows the total with tip
 - Currency conversion occurred
-- Partial payment or split transaction
+- A partial payment or split transaction was made
 
 **Date discrepancy:**
-- Transaction posted days after the expense date
-- International transaction with delayed processing
-- Pre-authorised vs. final charge dates differ
 
-## Handling Split Transactions
-
-If an expense was paid across multiple transactions:
-
-1. **Select the expense**
-
-   Select the expense that was split.
-
-2. **Select Split Match**
-
-   Select **Match Multiple Transactions**.
-
-3. **Select transactions**
-
-   Select all bank transactions that together equal the expense total.
-
-4. **Verify total**
-
-   Confirm the combined transaction amounts match the expense.
-
-5. **Confirm split match**
-
-   Select **Confirm** to reconcile the expense across multiple transactions.
+- The transaction posted several days after the expense date
+- International transactions may have delayed processing
+- Pre-authorised and final charge dates differ
 
 ## Tips for Better Automatic Matching
 
 **Keep vendor names consistent:**
-- Edit vendor names to match bank descriptions
-- Use common abbreviations
-- Note parent company vs. subsidiary names
+
+- Edit vendor names to match the descriptions shown in your bank feed
+- Note parent company versus subsidiary names where relevant
 
 **Upload promptly:**
-- Upload receipts soon after purchase
-- Don't wait weeks or months
-- Fresh uploads match more reliably
 
-**Connect bank accounts:**
-- Ensure all payment accounts are connected
+- Upload receipts/bills soon after purchase for more reliable matching
+
+**Keep bank connections active:**
+
+- Ensure all payment accounts are connected in **Banking**
 - Enable automatic bank syncs
-- Keep bank connections active
 
 **Review regularly:**
+
 - Check unreconciled expenses weekly
-- Investigate expenses unreconciled for seven or more days
-- Manually match problematic transactions
+- Manually match any expenses unreconciled for seven or more days
 
 ## Common Issues
 
-<details>
-<summary>Credit card expenses that reconcile to bank transfer</summary>
+<details className="blue-box">
+<summary>Credit card expenses reconcile to a bank transfer instead of the card transaction</summary>
 
-If you paid with a credit card but the bank transaction shows a payment to the credit card company:
+If you paid with a credit card, the expense should match the credit card transaction — not the later bank transfer to the credit card company.
 
-1. Ensure the credit card account is connected to Fiskl
-2. The expense should match with the credit card transaction
-3. The credit card payment to your bank shows separately
-4. Don't manually match the expense to the bank transfer
-
-</details>
-
-<details>
-<summary>Foreign currency transactions</summary>
-
-If the expense amount in a foreign currency does not exactly match the bank transaction due to exchange rate differences:
-
-1. The system accounts for exchange rate variations
-2. Match tolerance allows for small differences
-3. Confirm the match if amounts are close (within two to three percent)
-4. Foreign exchange variance is recorded separately
+1. Ensure the credit card account is connected in **Banking**
+2. The expense should match the transaction on the credit card account
+3. The payment from your bank to the credit card appears as a separate transaction
 
 </details>
 
-<details>
-<summary>Subscription payments that recur</summary>
+<details className="blue-box">
+<summary>Foreign currency expense does not match due to exchange rate differences</summary>
 
-For monthly subscriptions that create recurring expenses and transactions:
+Small differences between the expense amount and the bank transaction amount are normal when foreign currency is involved.
 
-1. Upload the receipt for the first month
-2. Subsequent months auto-match to recurring transactions
-3. Alternatively, upload each month's receipt if needed for records
-4. The system learns the pattern and improves matching over time
+1. The system allows for exchange rate variations within a tolerance range
+2. Confirm the match if the amounts are close
+3. Any foreign exchange variance is recorded separately in your accounting
 
 </details>
 
-<details>
-<summary>Expense will not reconcile despite matching transaction</summary>
+<details className="blue-box">
+<summary>Expense will not reconcile despite a matching bank transaction</summary>
 
-1. Check that the bank account is properly connected
+1. Check that the bank account is properly connected in **Banking**
 2. Verify the transaction was imported successfully
-3. Ensure amounts match (including currency)
-4. Check the vendor name in both records
-5. Try manual match if automatic matching fails
+3. Confirm amounts and currency match
+4. Check the vendor name in both the expense and the bank transaction
+5. Try matching manually if automatic matching fails
 6. Contact support if the issue persists
 
 </details>
 
-<details>
+<details className="blue-box">
 <summary>Wrong transaction was automatically matched</summary>
 
 1. Select the expense
-2. Select **Unmatch Transaction**
-3. The system returns the expense to unreconciled status
-4. Manually find and match the correct transaction
-5. Confirm the new match
+2. Select the option to unmatch the transaction
+3. The expense returns to unreconciled status
+4. Manually find and confirm the correct transaction
 
 </details>
 
-<details>
+<details className="blue-box">
 <summary>Multiple expenses match the same transaction</summary>
 
-This indicates a split transaction scenario:
+This may indicate a split transaction scenario.
 
-1. Verify whether a single receipt covers multiple items
-2. Check whether items should be separate expenses
-3. Either keep as multiple expenses (split match) or combine into a single expense
-4. Match appropriately based on your business logic
+1. Verify whether a single receipt/bill covers multiple items
+2. Check whether the items should be separate expenses
+3. Either keep as separate expenses and split-match the transaction, or combine into a single expense
+4. Match based on your records
 
 </details>
 
@@ -259,25 +190,24 @@ This indicates a split transaction scenario:
 Once an expense reconciles with a bank transaction:
 
 **Accounting updates:**
-- Expense moves from Accounts Payable to paid status
-- The connected bank account balance decreases
-- The expense category updates with actual payment
+
+- The expense moves from Accounts Payable to paid status
+- The connected bank account balance updates
 - Financial reports reflect the reconciled expense
 
 **Record keeping:**
-- The original receipt image remains attached
-- The bank transaction links to the expense permanently
-- An audit trail shows the reconciliation timestamp
-- Both expense and transaction appear in reports
 
-**No further action needed:**
-- The expense is complete
-- No manual entries are required
-- Reports update automatically
+- The original receipt/bill image remains attached to the expense
+- The bank transaction links to the expense permanently
+- An audit trail records the reconciliation
+
+:::tip
+Use **Ask Fi** in the top right of the screen if you need help understanding a reconciliation status or matching outcome.
+:::
 
 ## Related Topics
 
-- [Managing AI Expenses](/expenses/ai-expenses/managing-ai-expenses) — Edit and review expenses
-- [Uploading AI Expenses](/expenses/ai-expenses/uploading) — Upload receipt images
-- [Banking Connections](/integrations/banking/overview) — Connect bank accounts
-- [Traditional Expenses](/expenses/traditional-expenses/overview) — Legacy expense system (view only)
+- [Managing AI Expenses](/expenses/ai-expenses/managing-ai-expenses) — Edit, review, and manage AI-processed expenses
+- [Uploading AI Expenses](/expenses/ai-expenses/uploading) — Upload receipt images for AI processing
+- [Banking Connections](/integrations/banking/overview) — Connect bank accounts to enable reconciliation
+- [Traditional Expenses](/expenses/traditional-expenses/overview) — View-only legacy expense records
