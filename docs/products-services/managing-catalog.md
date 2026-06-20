@@ -1,258 +1,126 @@
 ---
 title: "Managing Your Catalog"
-description: "Learn how to organize, search, edit, and maintain your products and services catalog in Fiskl for efficient invoicing."
-keywords: ["catalog management", "edit products", "search services", "organize catalog", "bulk updates"]
-sidebar_position: 4
+description: "Learn how to view, search, edit, and delete products and services in your Fiskl catalog to keep invoicing accurate."
+keywords: ["catalog management", "edit products", "search services", "delete product", "products and services"]
+sidebar_position: 3
+tags:
+  - Products
+  - Services
+  - Catalog
+toc_min_heading_level: 2
+toc_max_heading_level: 3
 ---
 
-# Managing Your Catalog
+import TOCInline from '@theme/TOCInline';
 
-This guide explains how to organize, search, update, and maintain your products and services catalog to keep your invoicing process efficient and accurate.
+This guide explains how to view, search, edit, and delete items in your products and services catalog.
+
+<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
+
+## Before You Begin
+
+- You need at least one product or service in your catalog. See [Creating Products](/products-services/creating-products) or [Managing Services](/products-services/managing-services) to add items.
 
 ## Viewing Your Catalog
 
-The Products & Services page displays all your items in a searchable list.
+Go to **Products & Services** in the left sidebar to open your catalog. All items appear in a list showing:
 
-**To view your catalog:**
+- Name
+- Type
+- Price/Rate
+- Currency
+- Account
+- Sales Tax
+- Unit
+- Last updated
 
-1. Go to **Products & Services** in the left sidebar
-2. The catalog displays showing:
-    - Item name
-    - Type (Product or Service)
-    - Unit price
-    - Unit of measurement
-    - Tax rate
+Sort the list by selecting the arrows next to any column header.
 
-3. Use tabs to filter by type:
-    - **All**: View products and services together
-    - **Products**: View only products
-    - **Services**: View only services
+Select the **Filter** icon to filter the list by:
+
+- **Type** — Product or Service
+- **Currency** — select one or more currencies
+
+Select **Reset** to return to the full catalog.
 
 ## Searching Your Catalog
 
-Find items quickly using the search bar:
-
-**To search:**
-
-1. Select the **search bar** at the top of the catalog
-2. Enter keywords from the item name or description
-3. Results filter as you type
-4. Clear the search to view the full catalog again
-
-**Search tips:**
-- Search matches item names and descriptions
-- Partial words work (e.g., "web" finds "Website Design")
-- Search is case-insensitive
+Select the **Search** icon and enter keywords to find items by name or description.
 
 ## Editing Products and Services
 
-Update item details at any time:
-
-**To edit an item:**
-
 1. Go to **Products & Services**
-2. Locate the item you want to edit
-3. Select the item row to open details
-4. Update any fields:
-    - Name
-    - Unit
-    - Amount
-    - Account
-    - Tax
-    - Description
-5. Add or remove attachments
-6. Select **Save**
-
-The updated template applies to new invoices only. Existing invoices using the old details remain unchanged.
+2. Select the item you want to edit
+3. Update any of the following fields:
+   - **Name**
+   - **Dynamic Name Template**
+   - **Price/Rate**
+   - **Currency**
+   - **Account**
+   - **Sales Tax**
+   - **Description**
+4. Add or remove attachments if needed
+5. Select **Save**
 
 :::info
-Changes to templates don't affect line items on existing invoices. This protects historical records from unintended modifications.
+Edits apply to future use only. Existing invoices that already include the item are not affected.
 :::
 
 ## Deleting Products and Services
 
-Remove items you no longer offer:
-
-**To delete an item:**
-
 1. Go to **Products & Services**
-2. Locate the item you want to delete
-3. Select the item row to open details
-4. Select **Delete** or the delete icon
-5. Confirm the deletion
+2. Select the checkbox next to the item you want to delete
+3. Select the red **Delete** button at the top of the list
+4. Confirm the deletion
 
-**Important considerations:**
-- Existing invoices containing the deleted item remain intact
-- You can't add the deleted item to new invoices
-- Deletion is permanent and cannot be undone
-- Financial reports still show historical data from the deleted item
+Existing invoices that include the deleted item remain intact. Financial reports continue to show historical data from the item. The item is permanently removed from your catalog and cannot be added to new invoices.
 
 :::warning
-Deleting an item removes it from your catalog permanently. If you might use the item again, consider keeping it and using search to filter your active offerings instead.
+Deletion is permanent and cannot be undone. If you may need the item again, consider keeping it and using search to locate your active offerings instead.
 :::
 
-## Organizing Your Catalog
+## Common Issues
 
-Keep your catalog manageable as it grows:
+<details>
+<summary>I deleted an item but it still appears on an existing invoice</summary>
 
-### Naming Conventions
+This is expected behaviour. Deleting an item removes it from your catalog but does not change any invoices already created with that item. Your historical records remain intact.
 
-Use consistent naming patterns for related items:
+</details>
 
-**Good structure:**
+<details>
+<summary>I edited an item but the price on an existing invoice didn't update</summary>
 
-Service Type - Variant - Unit
-Example: Consulting - Standard - Hour
-Example: Consulting - Premium - Hour
-Example: Training - Group Session - Day
+Edits to catalog items only apply to future invoices. Existing invoices keep the details that were in place when they were created. To update pricing on an existing invoice, open the invoice directly and edit the line item there.
 
-**Product structure:**
+</details>
 
-Category - Product Name - Variant
-Example: Software - Pro License - Annual
-Example: Software - Basic License - Monthly
-Example: Hardware - Keyboard - Wireless
+<details>
+<summary>I can't find an item in the catalog</summary>
 
-### Categorization
+Select the **Filter** icon and check whether a Type or Currency filter is active. Select **Reset** to clear all filters and return to the full catalog, then use the **Search** icon to locate the item by name or description.
 
-Assign items to appropriate ledger accounts:
+</details>
 
-**For products:**
-- Sales of Products (general)
-- Software Revenue (digital products)
-- Equipment Sales (physical goods)
+<details>
+<summary>A catalog item is adding the wrong tax to invoices</summary>
 
-**For services:**
-- Sales of Services (general)
-- Consulting Revenue (advisory services)
-- Maintenance Revenue (support contracts)
+Open the item and check the **Sales Tax** field. If the wrong tax rate is assigned, update it and select **Save**. The corrected rate applies to new invoices. Existing invoices are not affected and must be updated manually.
 
-Proper categorization ensures accurate financial reporting and tax compliance.
+</details>
 
-## Reviewing Pricing
+## Ask Fi
 
-Regularly audit your catalog to ensure pricing accuracy:
+If you're unsure which account to assign to a product or service, or need help setting up your catalog, ask Fi. Select the **Fi** icon from any page and describe what you need.
 
-**Monthly review checklist:**
-- [ ] Check prices reflect current costs
-- [ ] Verify tax rates are correct
-- [ ] Update descriptions if offerings changed
-- [ ] Remove discontinued items
-- [ ] Add new offerings
+Fi can help you:
 
-**When to update prices:**
-- Annual price increases
-- Cost changes from suppliers
-- Tax rate changes
-- Competitive adjustments
-- New service tiers
-
-## Using Attachments Effectively
-
-Attachments help your team and clients understand offerings:
-
-**For products:**
-- Product photos
-- Technical specifications
-- User manuals
-- Warranty information
-- Installation guides
-
-**For services:**
-- Scope of work templates
-- Service agreements
-- Sample deliverables
-- Portfolio examples
-- Terms and conditions
-
-**Attachment best practices:**
-- Use descriptive file names
-- Keep files under 5MB for faster loading
-- Update attachments when offerings change
-- Remove outdated documents
-
-## Common Catalog Management Tasks
-
-### Creating Item Variants
-
-For items with variations (sizes, durations, tiers):
-
-1. Create the base item first
-2. Duplicate by creating a new item
-3. Modify the name to indicate the variant
-4. Adjust pricing and details
-5. Save each variant separately
-
-Example variants:
-- Consulting - Standard Hour ($100)
-- Consulting - Premium Hour ($150)
-- Consulting - Emergency Hour ($200)
-
-### Seasonal Pricing
-
-For items with seasonal pricing:
-
-**Option 1: Create seasonal variants**
-- "Lawn Care - Summer" vs "Lawn Care - Winter"
-
-**Option 2: Update existing item**
-- Edit the item when seasons change
-- Note the effective date in the description
-
-**Option 3: Adjust per invoice**
-- Keep one template with standard pricing
-- Override unit price on invoices during off-season
-
-### Handling Discontinued Items
-
-When you stop offering an item:
-
-**Don't delete immediately if:**
-- You might reintroduce it later
-- You want to analyze historical performance
-- Clients might request it occasionally
-
-**Instead:**
-- Add "[Discontinued]" to the name
-- Update the description to note it's no longer available
-- Keep it in the catalog for reference
-
-### Bulk Updates
-
-Currently, Fiskl doesn't support bulk editing. To update multiple items:
-
-1. Create a spreadsheet listing items and new values
-2. Update each item individually in Fiskl
-3. Check off items in your spreadsheet as you complete them
-
-## Tips for Efficient Catalog Management
-
-**Start with a core catalog:**
-Create templates for your most common offerings first. Add specialty items as needed.
-
-**Use descriptive names:**
-Make items easy to find in search. "Website Design - Hourly" beats "WD-HR".
-
-**Set realistic defaults:**
-Use your standard pricing as template defaults. It's easier to discount on invoices than to remember to increase prices.
-
-**Review quarterly:**
-Set a recurring reminder to review your catalog every three months. Update pricing, remove unused items, and add new offerings.
-
-**Document your naming convention:**
-Write down your naming structure so your team creates consistent items.
-
-**Archive, don't delete:**
-For items you might use again, mark them as discontinued rather than deleting.
-
-**Use templates for recurring billing:**
-Create template items with placeholders for clients you bill regularly with similar services.
-
----
+- identify the right ledger account for a product or service
+- understand how Sales Tax settings affect your invoices
 
 ## Related Topics
 
-- [Creating Products](./creating-products.md) - Build product templates
-- [Managing Services](./managing-services.md) - Create service templates
-- [Creating Invoices](/invoicing/creating-invoices.md) - Use catalog items in invoices
-- [Chart of Accounts](/accounting/chart-of-accounts) - Understand ledger account assignments
+- [Creating Products](/products-services/creating-products) — Add new products to your catalog
+- [Managing Services](/products-services/managing-services) — Add new services to your catalog
+- [Creating Invoices](/invoicing/creating-invoices) — Use catalog items as line items on invoices
+- [Chart of Accounts](/accounting/chart-of-accounts) — Understand ledger account assignments

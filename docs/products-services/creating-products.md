@@ -1,236 +1,154 @@
 ---
 title: "Creating Products"
-description: "Learn how to create and manage product templates in Fiskl for faster invoicing and accurate inventory tracking."
-keywords: ["create product", "product template", "inventory", "pricing", "product catalog"]
-sidebar_position: 2
+description: "Learn how to create product templates in Fiskl to speed up invoicing and ensure consistent pricing across all your transactions."
+keywords: ["create product", "product template", "product catalog", "invoicing", "pricing", "ledger account"]
+sidebar_position: 1
+tags:
+  - Products
+  - Invoicing
+toc_min_heading_level: 2
+toc_max_heading_level: 3
 ---
 
-# Creating Products
+import TOCInline from '@theme/TOCInline';
 
-This guide explains how to create product templates in Fiskl that streamline your invoicing process and ensure consistent pricing across all transactions.
+This guide explains how to create product templates in Fiskl that store your standard pricing, tax rate, and description, so adding items to invoices is fast and consistent.
 
-## What Are Products
+<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
-Products are tangible items your business sells, such as physical goods, software licenses, or equipment. Each product template stores standard information like price, tax rate, and description that populates automatically when you add it to an invoice.
+## Before you begin
 
-## Before You Begin
+Before creating a product, have the following ready:
 
-Ensure you have:
-- The product name and pricing information
-- The correct ledger account for revenue tracking (usually "Sales of Products")
-- Tax rate information if applicable
-- Any product images or specification documents
+- Product name and unit price
+- The correct ledger account for revenue tracking (typically Sales of Products)
+- The applicable tax rate
 
-## Creating a New Product
-
-**Steps:**
+## Creating a new product from the catalog
 
 1. Go to **Products & Services** in the left sidebar
-2. Select the **+ icon** or **New Product/Service**
-3. Ensure the **Product** tab is selected (not Service)
-4. Complete the required fields:
+2. Select **+ New Product/Service**
+3. Select the **Product** tab if it is not already active
+4. Complete the fields:
 
-   **Name**
-   Enter a clear, descriptive name your team will recognize.
-   Example: "Pro Software License - Annual"
+   - **Name** — Enter a clear, descriptive name. Example: "Pro Software License - Annual"
+   - **Unit** — Enter the measurement unit. Common options include each, box, pallet, license, and unit
+   - **Price/Rate** — Enter the unit price
+   - **Currency** — Select the currency for this product
+   - **Account** — Select the ledger account for revenue categorisation. Most products use Sales of Products
+   - **Sales Tax** — Select the applicable tax rate or tax group
 
-   **Unit**
-   Choose the measurement unit for pricing.
-   Common options: each, box, pallet, unit, license
-   Example: "license"
-
-   **Amount**
-   Enter the unit price in your base currency.
-   Example: 499.00
-
-   **Account**
-   Select the ledger account for revenue categorization.
-   Most products use "Sales of Products"
-   Choose a different account if needed for specialized reporting
-
-   **Tax**
-   Select the applicable tax rate or choose "Create new tax" if needed.
-   Example: "Standard VAT (20%)" or "Tax Exempt"
-
-5. Add optional details:
-
-   **Description**
-   Provide details about the product. This text appears on invoices.
-   Example: "Annual subscription to Pro software suite including all features and updates"
-
-   **Attachments**
-   Upload product images, spec sheets, or documentation:
-    - Drag and drop files onto the attachment area
-    - Or select **Choose files** to browse your computer
-    - Supported formats: PNG, JPG, PDF
-    - Multiple files allowed
-
-6. Select **Save**
+5. Optionally, enter a **Description** — this text appears on invoices, so write it with your client in mind
+6. Select **Save Product/Service**
 
 The product appears in your catalog and is ready to add to invoices.
 
 :::tip
-Use descriptive names that distinguish similar products. "Software License - Pro Annual" is clearer than just "License" when you have multiple license types.
+Use descriptive names that distinguish similar products. "Software License - Pro Annual" is clearer than "License" when you have multiple license types.
 :::
 
-## Creating Products Inline During Invoicing
+## Dynamic name templates
 
-You can create products on the fly while building invoices:
+When creating or editing a product, you can build a dynamic name that updates automatically on recurring invoices. Toggle on **Dynamic name templates for recurring invoices** to reveal the available tokens.
 
-**Steps:**
+- **Date Templates** — insert Day, Month, Year, Date, Date Short, or Date Medium
+- **Client Templates** — insert the Client Name
 
-1. While creating or editing an invoice, navigate to the line items section
-2. Start typing a product name in the item field
-3. If no matching product exists, press **Enter** or continue typing
-4. A new line item appears with editable fields
-5. Complete the fields (name, quantity, price, tax)
-6. Select **Save** on the invoice
+Select a token to insert it into the **Name** field. Use **+/-** to adjust date offsets for recurring items.
 
-Fiskl automatically creates a product template from this inline entry. The product appears in your catalog for future use.
+**Example:** You provide monthly maintenance to several clients. Create a product with the name `Website Maintenance - {Client Name} - {Month} {Year}`. Each time a recurring invoice generates, the name updates automatically — for example, "Website Maintenance - Acme Inc - July 2025".
 
-**When to use inline creation:**
-- You need to invoice quickly for a one-time item
-- You're selling something new and want to test pricing
-- You'll standardize the details later
+:::info
+Product type cannot be changed after creation. If you need to change a product to a service or vice versa, create a new entry with the correct type.
+:::
 
-## Product Components Explained
+## Creating products inline during invoicing
+
+You can create a new product while building an invoice:
+
+1. Open a new or existing invoice and go to the line items section
+2. Select **Click to add**
+3. Select **Add new**, then select **Product**
+4. Enter a product name in the item field
+5. Complete the fields — unit, price/rate, currency, and sales tax
+6. Select **More Details** to set additional fields including **Account** and **Currency** (you can also adjust the exchange rate here)
+7. Continue adding more items as needed, then select **Done**
+
+Fiskl saves the entry as a product template in your catalog for future use.
+
+## Product fields explained
 
 ### Name
-The primary identifier in your catalog and on invoices. Make it specific enough to distinguish similar items but concise enough to read easily.
+
+The primary identifier in your catalog and on invoices. Make it specific enough to distinguish similar items, but concise enough to read at a glance.
 
 ### Unit
-Defines how the product is measured and sold. Choose units that match how you price and deliver:
-- **each**: Individual items (most common)
-- **box**: Bulk packaging
-- **pallet**: Large quantity shipments
-- **license**: Software or digital rights
-- **unit**: Generic measurement
 
-The unit label appears on invoices next to quantity.
+Defines how the product is measured and sold. The unit label appears on invoices next to the quantity. Common options include each, box, pallet, license, and unit.
 
-### Amount
+### Price/Rate
+
 The standard selling price per unit. You can adjust this price on individual invoices without changing the template.
 
+### Currency
+
+The currency in which this product is priced. When adding the product to an invoice, you can adjust the exchange rate from the **More Details** panel in the line item.
+
 ### Account
-Links the product to your Chart of Accounts for financial reporting. Revenue from this product credits the selected account when invoices are paid.
 
-Common accounts for products:
-- Sales of Products (general merchandise)
-- Software Revenue (digital products)
-- Equipment Sales (machinery or tools)
+Links the product to a ledger account in your Chart of Accounts. Revenue from this product is assigned to the selected ledger account when invoices are paid. Common options include Sales of Products, Software Revenue, and Equipment Sales.
 
-### Tax
-The default tax rate applied when adding this product to invoices. You can override the tax rate on individual invoices if needed.
+### Sales Tax
+
+The default tax rate or tax group applied when you add this product to an invoice. You can override the rate on individual line items if needed.
+
+:::tip
+If your business is VAT-registered, always assign a sales tax to your products to ensure accurate tax reporting.
+:::
 
 ### Description
-Explains what the product is and what it includes. This text appears on invoices, so write it for client-facing clarity.
 
-Good descriptions:
-- Explain what's included
-- Note any limitations or terms
-- Keep it concise (1-3 sentences)
+Explains what the product includes. This text appears on invoices. Keep it to one to three sentences and note any relevant terms or limitations.
 
 ### Attachments
-Store product-related files for reference or client sharing:
-- Product photos
-- Technical specifications
-- User guides
-- Warranty information
 
-Attachments don't automatically appear on invoices but are available for reference.
+You can attach product-related files — such as photos, technical specifications, or warranty documents — from the **Attachments** panel on the right side of the invoice form. Select **Add files** to upload. A maximum of three files, up to 5MB each, are supported.
 
-## Using Products in Invoices
+## Adding saved products to invoices
 
-Once created, add products to invoices in three ways:
+To add an existing product from your catalog to an invoice:
 
-### Method 1: From the Products List
+1. Open a new or existing invoice and go to the line items section
+2. Select **Select Existing**
+3. Select the product or products from the list
+4. Select **Attach Selected**
+5. Adjust the quantity as needed
 
-1. Go to **Products & Services**
-2. Locate the product
-3. Select the product row to open details
-4. Select **Add to new invoice** or **Add to existing invoice**
-5. Choose the target invoice if adding to existing
-6. The product appears as a line item
+## Editing a product on an invoice
 
-### Method 2: From the Invoice
+When you add a product to an invoice, it becomes a line item you can edit for that transaction. In the line items section, select **Edit** on the line item and make your changes. Select **More Details** to update fields such as **Account** or **Currency**.
 
-1. Open an invoice (new or existing)
-2. Navigate to the line items section
-3. Select **Add item** or start typing in the item field
-4. Select the product from the dropdown list
-5. The product populates with preset details
-6. Adjust quantity as needed
+Changes to a line item do not affect the original product template. Future invoices continue to use the template's default values.
 
-### Method 3: Quick Search While Invoicing
+## Common issues
 
-1. While creating an invoice, type the product name in the item field
-2. Matching products appear as you type
-3. Select the product from suggestions
-4. It populates automatically with preset details
+<details>
+<summary>Can I use the same product in multiple currencies?</summary>
 
-## Adjusting Products on Invoices
+Each product template stores a single default currency. If you invoice clients in different currencies, you have two options. You can create separate product templates for each currency — for example, "Consulting Day - USD" and "Consulting Day - EUR". Alternatively, add the product to an invoice and select **More Details** on the line item to adjust the currency and exchange rate for that transaction without changing the template.
 
-When you add a product to an invoice, it becomes a line item you can customize:
+</details>
 
-**Adjustable fields:**
-- **Quantity**: Change the number of units sold
-- **Unit Price**: Override the default price for this transaction
-- **Description**: Add transaction-specific notes
-- **Tax**: Change the tax rate for this line item
+<details>
+<summary>The wrong ledger account is assigned to a product</summary>
 
-**Important:** Changes to invoice line items don't affect the original product template. Future invoices still use the template's default values.
+Go to **Products & Services**, open the product, and select **Edit**. Update the **Account** field to the correct ledger account and select **Save Product/Service**. Alternatively, in the invoice line item section, select **Edit**, then **More Details**, and update the account there. Changes to the template apply to new invoices only. Existing invoices are not affected.
 
-## Best Practices
+</details>
 
-**Use consistent naming:**
-Develop a naming convention for related products.
-Example: "Software - Pro Annual", "Software - Basic Monthly", "Software - Enterprise Annual"
+## Related topics
 
-**Set accurate default prices:**
-Use your standard pricing as the template default. You can always adjust on specific invoices for discounts.
-
-**Assign products to correct accounts:**
-Choose ledger accounts carefully. This affects financial reports and tax categorization.
-
-**Add detailed descriptions:**
-Write descriptions that answer common client questions. This reduces follow-up inquiries.
-
-**Upload relevant attachments:**
-Include product images or spec sheets to help your team and clients understand what's being sold.
-
-**Review pricing regularly:**
-Update product templates when you change standard pricing. This keeps new invoices accurate.
-
-**Create products before invoicing:**
-Set up your catalog before busy invoicing periods. Last-minute inline creation works but isn't ideal for accuracy.
-
-## Common Questions
-
-### Can I change a product after using it on invoices?
-
-Yes. Changes to the product template don't affect existing invoices. Only new invoices use the updated details.
-
-### What happens if I delete a product?
-
-Existing invoices containing that product remain unchanged. You can't add the deleted product to new invoices.
-
-### Can I track inventory quantities?
-
-Fiskl products focus on pricing and invoicing templates, not inventory stock levels. For inventory management, consider using dedicated inventory software that integrates with Fiskl.
-
-### How do I handle product variations?
-
-Create separate product templates for each variation (size, color, model). Use clear naming to distinguish them.
-Example: "T-Shirt - Blue - Medium", "T-Shirt - Blue - Large"
-
-### Can I have different prices for different clients?
-
-Product templates store one default price. Adjust the unit price on individual invoices when needed, or create separate products for different pricing tiers.
-
----
-
-## Related Topics
-
-- [Managing Services](./managing-services) - Create service templates for intangible offerings
-- [Creating Invoices](/invoicing/creating-invoices.md) - Use products when building invoices
-- [Managing Your Catalog](./managing-catalog.md) - Organize and maintain your products and services
+- [Managing Services](/products-services/managing-services) — Create templates for intangible offerings
+- [Managing Your Catalog](/products-services/managing-catalog) — Organise, edit, and maintain your products and services
+- [Creating Invoices](/invoicing/creating-invoices) — Add products to invoices as line items
+- [Tax Settings](/settings/tax-settings) — Configure the tax rates available in your product templates

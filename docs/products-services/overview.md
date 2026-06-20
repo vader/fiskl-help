@@ -1,90 +1,58 @@
 ---
-title: "Products & Services Overview"
-description: "Learn how to manage your products and services catalog in Fiskl for streamlined invoicing and accurate financial tracking."
-keywords: ["products", "services", "catalog", "line items", "inventory", "pricing"]
+title: "Products & Services"
+description: "Manage your products and services catalog in Fiskl to speed up invoicing and quoting, maintain consistent pricing, and keep financial tracking accurate."
+keywords: ["products", "services", "catalog", "line items", "pricing", "invoicing", "templates"]
 sidebar_position: 1
+tags:
+  - Products
+  - Services
+  - Invoicing
+toc_min_heading_level: 2
+toc_max_heading_level: 2
 ---
 
-# Products & Services
+import TOCInline from '@theme/TOCInline';
+import DocCardList from '@theme/DocCardList';
 
-Products & Services in Fiskl serve as templates for invoice line items. They store your standard offerings with preset pricing, descriptions, and tax rates, making invoicing faster and more consistent.
+This section covers products and services in Fiskl — reusable templates for invoice and quote line items. Set them up once with your standard pricing, descriptions, and tax rates, then add them to invoices and quotes in a single step.
 
-## Why Use Products & Services
+<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
-Instead of manually entering item details on every invoice, create reusable templates that populate invoices with one click. This saves time, reduces errors, and ensures consistency across all your billing.
+## Why Use Products and Services
 
-**Key benefits:**
-- Speed up invoice creation with preset items
-- Maintain consistent pricing across clients
-- Apply correct tax rates automatically
-- Track which offerings generate the most revenue
-- Create dynamic templates with placeholders for recurring invoices
+Entering item details manually on every invoice or quote takes time and introduces inconsistencies. A products and services catalog gives you a single place to define your standard offerings. When you add an item to an invoice or quote, the name, price, tax rate, and description populate automatically.
 
-## Key Concepts
+You can adjust the quantity, price, or description for a specific transaction without affecting the original template. Your team always has access to the most up-to-date catalog, so everyone invoices and quotes from the same set of items.
 
-Understanding these terms helps you manage your catalog effectively:
-
-- **Product**: A tangible item you sell (e.g., software license, equipment, merchandise)
-- **Service**: An intangible offering you provide (e.g., consulting hours, maintenance, support)
-- **Line Item**: A product or service added to a specific invoice with quantity and pricing
-- **Template**: A product or service with placeholder fields for recurring invoices (e.g., client name, dates)
-- **Unit**: The measurement for pricing (e.g., each, hour, box, session)
-- **Ledger Account**: The accounting category for revenue tracking (e.g., Sales of Products, Professional Services)
-
-## How It Works
-
-Products and services act as templates:
-
-1. **Create once**: Define your offering with name, price, tax rate, and description
-2. **Reuse everywhere**: Add to invoices with a single click
-3. **Customize per invoice**: Adjust quantity, price, or description for specific transactions
-4. **Track separately**: Original template remains unchanged when you modify invoice line items
-
-**Example workflow:**
-
-You offer "Website Design" services at $100/hour. Create the service template once. When invoicing clients:
-- Add "Website Design" to an invoice
-- Adjust quantity to actual hours worked (e.g., 15 hours)
-- Total calculates automatically ($1,500)
-- Tax applies based on template settings
-
-The "Website Design" template remains at $100/hour for future invoices.
+:::tip
+You can also create a line item directly whilst building a quote or invoice if you need something that isn't in your catalog yet.
+:::
 
 ## Products vs Services
 
 | Aspect | Products | Services |
-|--------|----------|----------|
+|---|---|---|
 | **Nature** | Tangible items | Intangible offerings |
-| **Examples** | Software licenses, equipment, inventory | Consulting, repairs, training, support |
-| **Common Units** | each, box, pallet, unit | hour, session, day, project |
-| **Ledger Account** | Sales of Products | Sales of Services |
+| **Examples** | Software licenses, equipment | Consulting, repairs, training |
+| **Common units** | each, box, unit | hour, session, project |
+| **Ledger account** | Sales of Products | Sales of Services |
 
-Both function identically in Fiskl—the distinction helps with financial reporting and categorization.
+The distinction helps with financial reporting and revenue categorisation. Both function identically in Fiskl.
 
-## What You Can Do
+## Key Concepts
 
-**Create and organize:**
-- Build a catalog of your standard offerings
-- Set default prices and tax rates
-- Add detailed descriptions and specifications
-- Upload attachments (product images, spec sheets)
-- Assign to accounting categories
+- **Catalog**: Your full list of saved products and services
+- **Line item**: A product or service added to a specific invoice or quote, with quantity and pricing for that transaction
+- **Unit**: The pricing measurement for the item, such as each, hour, or session
+- **Ledger account**: The accounting category used to record revenue from the item
+- **Template placeholders**: Dynamic fields in a product or service description used for recurring invoices, such as client name or billing period
 
-**Use in invoicing:**
-- Add items to invoices with one click
-- Create inline items while building invoices
-- Use templates with placeholders for recurring billing
-- Adjust quantities and pricing per transaction
-
-**Track performance:**
-- See which items generate the most revenue
-- Review pricing history
-- Maintain consistency across client invoices
-
----
-
-## Available Guides
-
-import DocCardList from '@theme/DocCardList';
+## In This Section
 
 <DocCardList />
+
+## Related Topics
+
+- [Creating Invoices](/invoicing/creating-invoices) — Add products and services to invoices
+- [Tax Settings](/settings/tax-settings) — Configure the tax rates applied to your catalog items
+- [Chart of Accounts](/accounting/chart-of-accounts) — Set up the ledger accounts assigned to products and services
