@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
     title: 'Fiskl Help',
     tagline: 'Fiskl accounting',
-    favicon: 'img/favicon/favicon-32x32.png',
+    favicon: 'img/favicon/favicon.svg',
     markdown: {
         mermaid: true,
     },
