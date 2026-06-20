@@ -1,46 +1,74 @@
 ---
-title: PayPal
-sidebar_position: 6
-description: Expand payment options with Fiskl-PayPal integration. Offer customers convenient payment methods and streamline your invoicing.
-keywords: ["PayPal integration Fiskl", "payment processing", "customer payments", "invoicing software"]
+title: "PayPal Integration"
+description: "Connect PayPal to Fiskl to accept online payments on your invoices. Set up the integration in minutes and offer clients a familiar payment method."
+keywords: ["PayPal integration", "Fiskl PayPal", "accept PayPal payments", "invoice payment methods", "online payments"]
+sidebar_position: 3
 slug: /integrations/payments/paypal
-toc_min_heading_level: 2
-toc_max_heading_level: 4
 tags:
   - Integrations
   - Payment gateways
   - PayPal
+toc_min_heading_level: 2
+toc_max_heading_level: 3
 ---
 
-Connecting PayPal to Fiskl enhances your payment options, allowing you to accept payments through one of the world's most popular online payment systems. This integration simplifies the process of receiving payments from clients who prefer using PayPal.
+import TOCInline from '@theme/TOCInline';
 
-## Benefits
+This guide explains how to connect your PayPal account to Fiskl and offer PayPal as a payment method on your invoices.
 
-- **Global acceptance**: Tap into PayPal's large user base
-- **Easy setup**: Quick connection process
-- **Flexible payments**: Accept various payment methods through PayPal
-- **International transactions**: Easily receive payments from global clients
+<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
-## Connecting PayPal to Fiskl
+## Before You Begin
 
-1. Select Integrations from the left menu
-2. Choose "Connect to PayPal"
-3. Enter the email address associated with your PayPal account
-4. Select "Go to your account" to complete the connection
+You need an active PayPal account with a confirmed email address. If you don't have one, visit [paypal.com](https://www.paypal.com) and select **Sign Up** before proceeding.
 
-:::info[tip]
-If you don't have a PayPal account, visit [PayPal's website](https://www.paypal.com) and select "Sign Up" to create one before connecting to Fiskl.
+## Connect PayPal to Fiskl
+
+1. Go to **Integrations** in the left menu
+2. Select **Payment Integrations**
+3. Select **Connect** next to PayPal
+4. Enter the email address associated with your PayPal account
+5. Select **Save** to complete the connection
+
+:::tip
+Use the email address linked to your primary PayPal business account to ensure payments are routed correctly.
 :::
 
-## Using PayPal Payments
+## Use PayPal on Invoices
 
-Once connected, PayPal will appear as a payment method on your invoices.
+Once connected, PayPal appears as a payment option on each invoice. Toggle it on to enable it for that invoice.
 
 :::info
-Connected payment gateways are automatically selected for every invoice. You can change this in Invoice & quote settings.
+To have all connected payment gateways toggled on by default for every new invoice, enable this in **Settings** > **Invoice & Quote Settings**.
 :::
 
-TODO - UPDATE this to the new guide
-For more information on creating and sending invoices with PayPal as a payment option, refer to the "Sending Invoices" section in this guide.
+## Disconnect PayPal
 
-Remember: Keeping your PayPal connection up-to-date ensures smooth payment processing and accurate financial data in Fiskl.
+1. Go to **Integrations** in the left menu
+2. Select **Payment Integrations**
+3. Select **Disconnect** next to PayPal
+
+Disconnecting removes PayPal as a payment option from future invoices. It does not affect previously sent invoices or recorded payments.
+
+## Common Issues
+
+<details>
+<summary>PayPal payments are not appearing on invoices</summary>
+
+Confirm the integration is active under **Integrations** > **Payment Integrations**. If PayPal shows as connected but is not appearing on a specific invoice, check whether payment gateways have been manually adjusted for that invoice in **Invoice & Quote Settings**.
+
+</details>
+
+<details>
+<summary>Connection failed during setup</summary>
+
+Verify the email address you entered matches your PayPal account exactly. PayPal accounts must be active and in good standing. If the issue persists, disconnect and reconnect the integration.
+
+</details>
+
+## Related Topics
+
+- [Payment Integrations](/integrations/payments/overview) — Overview of all payment gateway options in Fiskl
+- [Stripe Integration](/integrations/payments/stripe) — Connect Stripe to accept card payments
+- [GoCardless Integration](/integrations/payments/gocardless) — Set up direct debit payments via GoCardless
+- [Invoice & Quote Settings](/settings/invoice-quotes-settings) — Manage default payment gateway options for invoices

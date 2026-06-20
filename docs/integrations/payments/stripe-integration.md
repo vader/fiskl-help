@@ -1,100 +1,116 @@
 ---
-title: Stripe
-sidebar_position: 2
-description: Optimize payment processing with Fiskl-Stripe integration. Automate invoicing and simplify financial transactions effortlessly.
-keywords: ["Stripe integration Fiskl", "payment processing", "invoicing automation", "small business payments", "Fiskl features"]
+title: "Stripe"
+description: "Connect Stripe to Fiskl to accept credit cards, debit cards, Google Pay, Apple Pay, iDEAL, and Bancontact on your invoices."
+keywords: ["Stripe", "Stripe integration", "payment gateway", "online payments", "Fiskl payments", "iDEAL", "Bancontact"]
+sidebar_position: 1
 slug: /integrations/payments/stripe
-toc_min_heading_level: 2
-toc_max_heading_level: 4
 tags:
- - Integrations
- - Payment gateways
- - Stripe
+  - Integrations
+  - Payment gateways
+  - Stripe
+toc_min_heading_level: 2
+toc_max_heading_level: 3
 ---
 
-# Connecting Stripe to Fiskl
+import TOCInline from '@theme/TOCInline';
 
-Connecting Stripe to Fiskl transforms how you process online payments for your business. This integration allows you to accept credit, debit, and various other payment methods quickly and securely.
+This guide explains how to connect Stripe to Fiskl so your clients can pay invoices online.
 
-Learn more about [Stripe](https://stripe.com/).
-
-<details>
-
-  <summary>TL;DR - Watch a detailed video on the Stripe integration </summary>
-
-  <div style={{ position: 'relative', paddingBottom: '40%', height: 0, width: '100%' }}>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Pt4kY-msSAY?si=P9mh4ODD3c0aq1Rm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-</details>
+<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## Benefits
 
-- **Quick setup**: Start accepting payments in minutes
-- **Multiple payment methods**: Support for credit cards, debit cards, and more
-- **Fast pay-outs**: Ensure you get paid quickly
-- **Additional payment options**: Includes GooglePay, ApplePay, iDEAL, and Bancontact
+Connecting Stripe gives you access to a range of payment options for your clients:
 
-## Connecting Stripe to Fiskl
+- Credit and debit card payments
+- Google Pay and Apple Pay (enabled automatically)
+- iDEAL for businesses based in the Netherlands
+- Bancontact for businesses based in Belgium
+- Fast payouts direct to your bank account
 
-You can either connect a new Stripe account or link an existing one.
+## Connect Stripe
 
-### Creating a New Stripe Account
+You can connect a new Stripe account or link an existing one.
 
-1. Select Integrations from the left menu
-2. Choose "Connect to Stripe"
+### Create a new Stripe account
+
+1. Go to **Integrations** in the left menu
+2. Select **Connect to Stripe**
 3. Enter your email address
-4. Follow the instructions in Stripe
-
-Once you've completed creating your new account, you may have to wait until all your KYC is verified and your account is approved. You can see the status of your account in your Stripe dashboard or in the Fiskl integration page.
-
-### Connecting an Existing Stripe Account
-
-1. Select Integrations from the left menu
-2. Choose "Connect to Stripe"
-3. Sign in
-4. Select the account you want to give Fiskl access to
-5. You will be redirected back to Fiskl
-
-## Using Stripe Payments
-
-Once connected, Stripe will appear as a payment method on your invoices.
+4. Follow the instructions in Stripe to complete account setup
 
 :::info
-Connected payment gateways are automatically selected for every invoice. You can change this in Invoice & quote settings.
+New Stripe accounts require KYC verification before you can accept payments. Check the status in your Stripe dashboard or on the **Integrations** page in Fiskl.
 :::
 
-## Additional Payment Methods
+### Connect an existing Stripe account
 
-Stripe enables access to several other payment methods:
+1. Go to **Integrations** in the left menu
+2. Select **Connect to Stripe**
+3. Sign in to your Stripe account
+4. Select the account you want to link to Fiskl
+5. Fiskl redirects you back after authorisation
 
-### GooglePay and ApplePay
+## Use Stripe on invoices
 
-These are automatically available when you connect Stripe. Clients can choose these options when paying your invoice.
+Once connected, Stripe appears as a payment option on all new invoices.
+
+Connected payment gateways are selected by default on every invoice. To change this default, go to **Settings** > **Invoice & Quote Settings**.
+
+You can also switch between payment gateways when creating an individual invoice.
+
+## Enable additional payment methods
+
+### Google Pay and Apple Pay
+
+Google Pay and Apple Pay are available automatically when you connect Stripe. Your clients see these as payment options when viewing your invoice.
 
 ### iDEAL (Netherlands)
 
-If you're based in the Netherlands:
+If your business is based in the Netherlands:
 
 1. Connect your Stripe account
-2. Go to Integrations and select "Enable iDEAL"
-3. Create invoices with iDEAL as a payment option
+2. Go to **Integrations** and select **Enable iDEAL**
+3. iDEAL appears as a payment option on new invoices
 
 ### Bancontact (Belgium)
 
-If you're based in Belgium:
+If your business is based in Belgium:
 
 1. Connect your Stripe account
-2. Go to Integrations and select "Enable Bancontact"
-3. Create invoices with Bancontact as a payment option
+2. Go to **Integrations** and select **Enable Bancontact**
+3. Bancontact appears as a payment option on new invoices
 
-## Managing Payment Gateways
+## Remove a payment gateway
 
-- You can switch between payment gateways when creating a new invoice
-- To remove a payment gateway, select the small "x" at the top of each gateway in the Integrations menu
+To remove a payment gateway from your invoices, go to **Integrations** and select the delete icon next to the connected gateway.
 
-## Disconnecting Stripe from Fiskl
+## Disconnect Stripe
 
 There are two ways to disconnect Stripe from Fiskl:
 
-1. In Stripe, see [Disconnect your Stripe from a third-party platform](https://support.stripe.com/questions/disconnect-your-stripe-account-from-a-connected-third-party-platform)
-2. In Fiskl, go to the `Integrations` page and select the X on the connected Stripe card
+- In Fiskl, go to **Integrations** and select the delete icon next to the connected Stripe account
+- In Stripe, follow the [Stripe guide for disconnecting a third-party platform](https://support.stripe.com/questions/disconnect-your-stripe-account-from-a-connected-third-party-platform)
+
+## Common Issues
+
+<details>
+<summary>My Stripe account is connected but not accepting payments</summary>
+
+Stripe requires KYC verification before processing live payments. Check your verification status in your Stripe dashboard. Until verification is complete, the account is in test mode only.
+
+</details>
+
+<details>
+<summary>iDEAL or Bancontact is not appearing on my invoices</summary>
+
+These methods must be enabled separately after connecting Stripe. Go to **Integrations**, confirm your Stripe account is connected, then select **Enable iDEAL** or **Enable Bancontact**.
+
+</details>
+
+## Related Topics
+
+- [Payment Integrations](/integrations/payments/overview) — Overview of all payment gateways available in Fiskl
+- [GoCardless](/integrations/payments/gocardless) — Accept direct debit payments via GoCardless
+- [PayPal](/integrations/payments/paypal) — Accept payments via PayPal
+- [Invoice & Quote Settings](/settings/invoice-quotes-settings) — Configure default payment methods and invoice behaviour
