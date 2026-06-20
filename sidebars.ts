@@ -34,7 +34,6 @@ const sidebars: SidebarsConfig = {
       link: {type: 'doc', id: 'dashboard/overview'},
       items: [
         'dashboard/navigation-basics',
-        'dashboard/quick-actions',
         'dashboard/customizing-dashboard',
       ],
     },

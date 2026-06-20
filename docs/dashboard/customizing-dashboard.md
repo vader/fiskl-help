@@ -221,4 +221,3 @@ You see only Time and Mileage widgets.
 
 - [Dashboard Overview](./overview) - Understand Dashboard sections and widgets
 - [Navigation Basics](./navigation-basics) - Learn how to move around Fiskl
-- [Quick Actions Guide](./quick-actions) - Use shortcuts for common tasks
