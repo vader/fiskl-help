@@ -1,151 +1,177 @@
 ---
 title: "Trial Balance Report"
-description: "Verify bookkeeping accuracy and prepare financial statements with Fiskl's Trial Balance report. Learn how to generate, analyze, and export your trial balance."
-keywords: ["trial balance", "account accuracy", "financial reporting", "bookkeeping", "debit credit balance", "general ledger"]
-sidebar_position: 6
+description: "Generate and analyse the Trial Balance report in Fiskl to verify bookkeeping accuracy and prepare financial statements."
+keywords: ["trial balance", "debit", "credit", "accrual", "cash basis", "financial reports", "bookkeeping"]
+sidebar_position: 5
 slug: /core-features/accounting/reports/trial-balance
 tags:
   - Accounting
   - Reports
   - Trial Balance
+toc_min_heading_level: 2
+toc_max_heading_level: 3
 ---
 
-This guide explains how to generate and analyze Trial Balance reports in Fiskl to verify your bookkeeping accuracy and prepare financial statements.
+import TOCInline from '@theme/TOCInline';
 
-## What is a Trial Balance Report?
+This guide explains how to generate and analyse the Trial Balance report in Fiskl. Use this report to verify that your total debits equal your total credits and to prepare your other financial statements. Reviewing it regularly helps you maintain clean books, catch issues early, and keep your financial statements on solid ground.
 
-A Trial Balance report lists all accounts in your general ledger with their debit or credit balances. It serves as a checkpoint to ensure the total of all debit balances equals the total of all credit balances, validating the mathematical accuracy of your bookkeeping.
+<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
+
+## What is the Trial Balance Report?
+
+The Trial Balance report lists every ledger account with its debit or credit balance. It confirms that your books are mathematically balanced before you produce other financial statements.
 
 <details>
-<summary>Why is the Trial Balance report important?</summary>
+<summary>Why is the Trial Balance important?</summary>
 
-The Trial Balance report is essential because it:
+The Trial Balance report helps you:
 
-- Helps identify accounting errors and discrepancies
-- Serves as a foundation for preparing financial statements
-- Provides a quick overview of all account balances
-- Assists in detecting unusual account balances or trends
+- Identify accounting errors and discrepancies before they affect your financial statements
+- Serve as the starting point for preparing your Balance Sheet and Profit and Loss report
+- Get a quick overview of all ledger account balances
+- Spot unusual balances or trends that may need investigation
 
 </details>
 
 ## Trial Balance vs. Other Financial Reports
 
-The Trial Balance differs from other financial reports in important ways:
+The Trial Balance differs from your other financial reports in important ways.
 
-- **Trial Balance**: A working document that lists all accounts with their debit or credit balances without categorization. It ensures your books balance mathematically.
+- **Trial Balance** — A working document that lists all ledger accounts with their debit or credit balances. It confirms mathematical accuracy but does not categorise accounts.
+- **Balance Sheet** — Organises accounts into assets, liabilities, and equity. It shows your company's financial position at a specific point in time.
+- **Profit and Loss report** — Shows income and expenses over a period. It demonstrates your company's profitability.
 
-- **Balance Sheet**: Organizes accounts into assets, liabilities, and equity, providing a snapshot of your company's financial position at a specific point in time.
+Think of the Trial Balance as the behind-the-scenes check that underpins your Balance Sheet and Profit and Loss report.
 
-- **Profit and Loss (P&L) report**: Shows income and expenses over a period, demonstrating your company's profitability.
+## Key Report Components
 
-Think of the Trial Balance as a behind-the-scenes check that helps create accurate Balance Sheets and P&L reports.
+Your Trial Balance report includes these elements:
 
-## Key Components
+- **Account names** — Every ledger account in your general ledger
+- **Account numbers** — The unique identifier for each account
+- **Debit column** — The debit balance for each account
+- **Credit column** — The credit balance for each account
+- **Totals** — The sum of all debits and all credits, which must be equal
 
-Your Trial Balance report includes these main elements:
-
-1. **Account names**: All accounts in your general ledger
-2. **Account numbers**: The unique identifier for each account
-3. **Debit column**: Debit balance for each account
-4. **Credit column**: Credit balance for each account
-5. **Total**: The sum of all debits and credits, which should be equal
-
-:::tip[Balance Check]
-If the total debits don't equal the total credits, there's an error in your bookkeeping that needs to be identified and corrected.
+:::info
+If total debits do not equal total credits, there is a bookkeeping error that needs to be identified and corrected before proceeding.
 :::
 
-## Generating a Trial Balance Report
+## Before You Begin
 
-To create and customize your Trial Balance report:
+Before generating your Trial Balance report, confirm that:
 
-1. **Navigate to the reports section**
+- Your transactions are posted and up to date
+- You know which accounting basis (cash or accrual) you want to use
+- Your reporting period is set correctly in your date selector
 
-   Click **Accounting** in the left menu, then select **Reports** and choose **Trial Balance**.
+## Generating the Trial Balance Report
 
-2. **Select your date**
-
-   Choose your desired date using the date selector at the top of the page.
-
-3. **Customize the report**
-
-   Use the available options to adjust your view:
-    - Switch between **Cash** and **Accrual** accounting methods
-    - Toggle **Hide empty accounts** to simplify the display
-    - Enable **Divide by 1000** to make large numbers easier to read
-    - Show or hide **unrealized foreign exchange gains/losses**
-
-### Cash vs. Accrual Accounting
-
-Fiskl offers both accounting methods for your Trial Balance report:
-
-- **Cash**: Shows account balances based on when cash is received or paid
-- **Accrual**: Records account balances when transactions are earned or incurred, regardless of when cash changes hands
+1. Select **Accounting** in the left menu.
+2. Select **Reports**, then select **Trial Balance**.
+3. Select **Filters & Settings** to open the configuration panel.
+4. Under **Report Data Settings**, set the **As of Date** — select a preset period or enter a custom date.
+5. Under **Report Basis**, toggle **Accrual Basis** on or off depending on your preferred method.
+6. Toggle **Unrealized FX Gain/Loss** on to include open foreign currency balances.
+7. Under **Display Options**, adjust how the report appears:
+   - **Divide by 1,000** — Scales large figures for easier reading
+   - **Hide Empty Accounts** — Removes accounts with no activity from the view
+   - **Show Subsections** — Breaks accounts into subsections within each category
+   - **Compact** — Reduces spacing for a condensed view
+8. Select **Run Report** to generate the report.
 
 <details>
-<summary>Which method should I use?</summary>
+<summary>Which accounting basis should I use?</summary>
 
-Learn more about the differences between [Cash vs Accrual accounting](../glossary/accounting-fundamentals.md#cash-vs-accrual) and how you can easily switch between them in Fiskl.
+Fiskl supports both cash and accrual reporting:
+
+- **Cash basis** — Balances reflect when cash was actually received or paid. Use this if you manage your books on a cash basis or want to see your actual cash position.
+- **Accrual basis** — Balances reflect when transactions were earned or incurred, regardless of when cash changed hands. Use this if your business operates on accrual accounting, or if your accountant requires it.
+
+If you are unsure which method applies to your business, refer to [Accounting Fundamentals](/glossary/accounting-fundamentals) or check with your accountant.
 
 </details>
 
-## Analyzing Your Report
-
-To get the most value from your Trial Balance report:
-
-1. **Verify the balance**
-
-   Ensure that the total debits equal the total credits. Any discrepancy indicates a bookkeeping error.
-
-2. **Review account balances**
-
-   Look for unusual or unexpected balances that may require investigation.
-
-3. **Compare periods**
-
-   Identify significant changes in account balances over time to spot trends or anomalies.
-
-4. **Prepare financial statements**
-
-   Use the Trial Balance as your starting point for creating your Balance Sheet and P&L report.
-
-5. **Investigate discrepancies**
-
-   If you notice errors or imbalances, trace them back to the original transactions.
-
-:::note[Quick Investigation]
-Click on any amount in the report to see a list of related transactions, helping you investigate specific entries.
+:::tip
+Your default cash or accrual basis can be set in [Accounting Settings](/settings/accounting-settings).
 :::
+
+## Analysing the Report
+
+Once your report is generated:
+
+1. **Check the totals** — Confirm that total debits equal total credits. Any difference indicates a bookkeeping error.
+2. **Review account balances** — Look for unusual or unexpected balances that may need investigation.
+3. **Drill into transactions** — Select any amount in the report to see the related transactions behind that balance.
+4. **Compare periods** — Re-run the report for a different date to identify changes or trends over time.
+5. **Prepare financial statements** — Use the balanced Trial Balance as your starting point for the Balance Sheet and Profit and Loss report.
+
+:::tip
+Select any amount in the report to see the transactions behind that figure. This helps you trace errors back to their source quickly.
+:::
+
+If you need help interpreting your balances, select the **Ask Fi** icon in the top right of the screen. Fi can help you understand what your figures mean and suggest where to investigate.
 
 ## Exporting and Sharing
 
-You can export your Trial Balance report in multiple formats:
+To export your Trial Balance report:
 
-1. **Export to spreadsheet**
+1. Select the **Export** button at the top right of the screen.
+2. Choose **Google Sheets**, **Excel**, or **CSV** format.
 
-   Click the **export button** at the top right of the screen and choose between **Google Sheets** or **Excel** format.
-
-2. **Create a PDF**
-
-   Click the **print button** at the top right of the screen, then save as PDF or print a physical copy.
-
-All exported reports include a date and time stamp, as well as the selected accounting method.
+All exported reports include the report date, time, and the accounting basis used.
 
 ## Adding Notes
 
-To provide context or explanations for your financial data:
+To add context or explanations to your report:
 
-1. Click the **note icon** at the top right of your screen
-2. Add your comments or explanations in the text field
-3. Click **Save**
+1. Select the **Note** icon at the bottom left of the screen.
+2. Enter your comments in the text field.
 
-These notes will be included when you export or print the report.
+Notes are included when you export the report.
 
-## Example Export
+## Common Issues
 
-Below is an example of how your Trial Balance appears when exported to Excel or Google Sheets:
+<details>
+<summary>Total debits and credits do not match</summary>
 
-![Example of Trial Balance exported to spreadsheet format showing account names, numbers, debit and credit columns with totals](/img/acounting/trial-balance-export-sample.png)
+A mismatch means there is an error in your bookkeeping. To investigate:
 
-:::info[Best Practice]
-Review your Trial Balance report regularly to maintain clean books, identify potential issues early, and ensure a solid foundation for your other financial statements.
-:::
+1. Select any amount in the report to view the related transactions.
+2. Look for transactions that were posted to only one side of an entry.
+3. Check for manual journal entries that may be missing a corresponding line.
+4. Review recent imports or bank feed transactions for duplicates or mispostings.
+
+If you cannot identify the source, select the **Ask Fi** icon in the top right of the screen for help tracing the discrepancy. If the issue persists, contact Fiskl support.
+
+</details>
+
+<details>
+<summary>Expected accounts are not showing in the report</summary>
+
+Accounts with no activity during the selected period may be hidden. Toggle **Hide Empty Accounts** off in **Filters & Settings**, then select **Run Report** again to show all ledger accounts.
+
+</details>
+
+<details>
+<summary>Accrual and cash figures are different</summary>
+
+This is expected. Cash basis shows balances based on actual cash movement. Accrual basis includes transactions that have been earned or incurred but not yet settled. The difference typically relates to unpaid invoices and outstanding bills.
+
+</details>
+
+<details>
+<summary>Unrealized FX Gain/Loss is not appearing</summary>
+
+The **Unrealized FX Gain/Loss** toggle is off by default. Open **Filters & Settings**, toggle **Unrealized FX Gain/Loss** on under **Report Basis**, then select **Run Report** to include open foreign currency balances in your report.
+
+</details>
+
+## Related Topics
+
+- [Balance Sheet](/reporting/balance-sheet) — View your assets, liabilities, and equity at a point in time
+- [Profit and Loss](/reporting/profit-and-loss) — Review income and expenses over a period
+- [General Ledger](/reporting/general-ledger) — See a full transaction-level view of every ledger account
+- [Accounting Fundamentals](/glossary/accounting-fundamentals) — Learn about cash vs. accrual accounting and core bookkeeping concepts
+- [Chart of Accounts](/accounting/chart-of-accounts) — Manage the ledger accounts that appear in your Trial Balance

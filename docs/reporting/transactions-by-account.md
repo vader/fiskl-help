@@ -1,135 +1,151 @@
 ---
-title: Transactions by Account
-sidebar_position: 4
-description: Gain detailed financial insights with Fiskl's account-based transaction tracking. Maintain organized records for informed decision-making.
-keywords: ["Transactions by account Fiskl", "financial tracking", "account management", "accounting software"]
-toc_min_heading_level: 2
-toc_max_heading_level: 4
+title: "Transactions by Account Report"
+description: "Generate the Transactions by Account report in Fiskl to view all transactions across your ledger accounts, with full multi-currency detail."
+keywords: ["transactions by account", "multi-currency report", "ledger transactions", "FX rate", "accounting reports", "cash accrual"]
+sidebar_position: 10
 tags:
   - Accounting
   - Reports
   - Multi-currency
+toc_min_heading_level: 2
+toc_max_heading_level: 3
 ---
 
-The Transactions by Account Report in Fiskl offers a comprehensive view of all transactions across all accounts over a specified period. This unified report is especially powerful for businesses managing multiple currencies, providing detailed insights with unparalleled granularity in transaction details.
+import TOCInline from '@theme/TOCInline';
+
+This guide explains how to generate and use the Transactions by Account report in Fiskl. Use this report to review all transactions across your ledger accounts with full multi-currency detail for any period.
+
+<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
+
+## What is the Transactions by Account Report?
+
+The Transactions by Account report shows every transaction recorded across your ledger accounts within a chosen date range. Each transaction displays gross, net, and tax amounts across three currency views — original, account, and base currency — making it especially useful for businesses that operate in multiple currencies.
 
 <details>
-<summary>Why is the Transactions by Account report important?</summary>
+<summary>Why is this report important?</summary>
 
-The Transactions by Account report is essential because it:
-- Offers a detailed view of all transactions for selected accounts
-- Provides multi-currency support at an unprecedented level of detail
-- Helps track and reconcile transactions across different currencies
-- Allows for in-depth analysis of account activity over time
-</details>
+The Transactions by Account report helps you:
 
-## Key Features of the Transactions by Account Report
-
-This report stands out for its comprehensive multi-currency support:
-
-- **Multiple currency views**: See the original currency amounts, ledger account currency, and base (accounting) currency
-- **Detailed transaction breakdown**: View gross amount, net amount, and tax amount for each transaction (per respective currency)
-- **Exchange rate information**: Includes FX rates for easy currency conversion tracking
-
-## Generating a Transactions by Account Report in Fiskl
-
-To create and customize your Transactions by Account report:
-
-1. Go to `Accounting > Reports` from the left menu and select "Transactions by Account"
-2. Use the account selector to choose all accounts or specific ones
-3. Set your desired date range
-4. Customize your report using the available options:
-    - Switch between Cash and Accrual accounting methods
-    - Toggle between summary and detailed views
-    - Divide large numbers by 1000 for easier reading
-    - Hide empty accounts (those with no transactions in the selected period)
-    - Show or hide opening and closing balances for each account
-
-### Customizing Your Report View
-
-Fiskl offers several options to tailor the report to your needs:
-
-- **Account selection**: Choose to view all accounts or focus on one or more specific accounts
-- **Date range**: Set the time period for which you want to see transactions
-- **Cash vs. Accrual**: Switch between cash and accrual accounting methods
-- **Summary/Detail toggle**: Choose between a high-level summary or a detailed transaction view
-- **Empty account visibility**: Option to hide accounts with no activity in the selected period
-- **Balance display**: Show or hide opening and closing balances for each account
-
-## Understanding the Report Columns
-
-The Transactions by Account report provides extensive information for each transaction:
-
-<details>
-<summary>See a break down of the columns in the report</summary>
-
-
-1. **Account**: The name of the account
-1. **Date**: The date of the transaction
-1. **Type**: The type of transaction (e.g., invoice, expense, transfer)
-1. **Name**: The name of the client or vendor
-1. **Category**: The category assigned to the transaction
-1. **Description**: A brief description of the transaction
-
-**For amounts, the report shows:**
-
-1. **Gross amount**: Total transaction amount
-1. **Net amount**: Amount excluding tax
-1. **Tax amount**: Tax portion of the transaction
-
-**Each of these amounts (Gross, Net, Tax) is shown in three currencies:
-
-- **Original currency**: The currency in which the transaction was originally recorded
-- **Account currency**: The currency of the account (for revenue and expenses, this is the base currency)
-- **Base currency**: Your company's base accounting currency
-
-1. **Balance**: Running balance of the account (if enabled)
-1. **Tax rate**: Applicable tax rate for the transaction
-1. **FX rate**: Exchange rate between the base currency and account currency
+- Review all transactions for one or more ledger accounts in a single view
+- Track and reconcile amounts across different currencies
+- Verify tax amounts and exchange rates on individual transactions
+- Analyse account activity over any time period
 
 </details>
 
-## Customizing Report Columns
+## Before You Begin
 
-Given the complexity and depth of information in the Transactions by Account report, Fiskl allows you to customize which columns are displayed. This feature helps you focus on the most relevant data for your needs and simplifies the report view.
+Before generating your Transactions by Account report, confirm that:
 
-To customize your report columns:
+- Your transactions are posted and up to date
+- You know which ledger accounts you want to review
+- You know the date range you want to analyse
+- You know whether you want to view results on a cash or accrual basis
 
-1. Click on the gear icon in the report view
-2. In the column selector, add or remove columns as needed
-3. Your selection will be applied to the report view and respected in exports
+## Generating the Report
 
-Available columns for customization include:
+1. Select **Accounting** in the left menu.
+2. Select **Reports**, then select **Transactions by Account**.
+3. Select a date range from the pre-set periods or choose a custom range.
+4. Select **Filters & Settings** to choose your accounts and apply any additional options.
 
-<details>
-<summary>Available columns for customization include</summary>
+To run the report immediately, select **Run With Defaults**. This uses a four-week date range, all accounts, and your default cash or accrual basis.
 
-- Number
-- Type
-- Client/Vendor
-- Description
-- Gross Amount (Original currency)
-- Net Amount (Original currency)
-- Tax Amount (Original currency)
-- FX rate
+## Report Options
 
-</details>
+You can customise the report using the following options in **Filters & Settings**. Use the account selector at the top of the panel to choose all accounts or one or more specific ledger accounts.
+
+- **Cash or Accrual** — Switch between cash and accrual accounting methods
+- **Summary or Detail** — Toggle between a high-level summary and a full transaction-level view
+- **Divide by 1000** — Scale large amounts for easier reading
+- **Hide empty accounts** — Remove ledger accounts with no transactions in the selected period from the report
+- **Show opening and closing balances** — Display the opening and closing balance for each account
 
 :::tip
-Customizing your columns can significantly streamline your report, especially when dealing with specific multi-currency scenarios or focusing on particular transaction details.
+Your default cash or accrual basis can be set in [Accounting Settings](/settings/accounting-settings).
 :::
 
+## Understanding Report Columns
 
-## Exporting your Transactions by Account Report
+The report shows amounts in up to three currencies for each transaction:
 
-Fiskl makes it easy to share and further analyze your report:
+- **Original currency** — the currency used when the transaction was recorded
+- **Account currency** — the currency of the ledger account
+- **Base currency** — your company's base accounting currency
 
-1. **Export to spreadsheet**:
-    - Click the export button at the top right of the screen
-    - Choose between Google Sheets or Excel format
+Each transaction also shows a breakdown of **gross amount** (total), **net amount** (excluding tax), and **tax amount**.
 
-:::tip
-Exporting to a spreadsheet allows for further customization and analysis, especially useful for complex multi-currency scenarios.
-:::
+## Customising Columns
 
-Remember, the Transactions by Account report is a powerful tool for managing multi-currency transactions and gaining deep insights into your account activities. Regular review can help you maintain accurate books, understand currency impacts on your finances, and make informed business decisions.
+In the **Column Visibility** section of **Filters & Settings**, toggle each column on or off to show only what you need. Your selection is also applied when you export the report.
+
+<details>
+<summary>See a breakdown of the columns available</summary>
+
+**Basic information:**
+
+- **Date** — when the transaction occurred
+- **Account** — the ledger account the transaction is posted to
+- **Number** — the transaction or document reference number
+- **Type** — the transaction type, such as invoice, expense, or transfer
+- **Name** — the name associated with the transaction
+- **Client/Vendor** — the client or vendor linked to the transaction
+- **Category** — the assigned transaction category
+- **Description** — a brief description of the transaction
+
+**Amount columns:**
+
+Each amount appears in three currencies:
+
+- **Original Currency Amount** — the currency used when the transaction was recorded
+- **Account Currency Amount** — the currency of the ledger account
+- **Base Currency Amount** — your company's base accounting currency
+
+**Additional:**
+
+- **Balance** — the running balance of the account (shown when opening and closing balances are enabled)
+- **Tax rate** — the tax rate applied to the transaction
+- **FX Rate** — the exchange rate between base currency and account currency at the time of the transaction
+
+</details>
+
+## Exporting the Report
+
+To export your Transactions by Account report:
+
+1. Select the export button at the top right of the report.
+2. Select **Google Sheets** or **Excel** as your export format.
+
+The exported file reflects your current column selection and filters.
+
+## Need Help Interpreting Your Report?
+
+Select the **Ask Fi** icon in the top right of the screen to get help from Fiskl's built-in AI advisor. Fi can help you interpret transaction data, explain currency differences, and answer accounting questions based on your specific figures.
+
+## Common Issues
+
+<details>
+<summary>I expected to see a transaction but it does not appear in the report</summary>
+
+Check the following:
+
+1. Confirm the date range covers the transaction date.
+2. Confirm you have selected the correct ledger account in the account selector, or select all accounts to search across everything.
+3. Check whether you are on cash or accrual basis — some transactions appear on different dates depending on the method selected.
+4. Confirm the transaction has been posted and is not still in draft.
+
+</details>
+
+<details>
+<summary>The original currency and base currency amounts look the same</summary>
+
+If the transaction was recorded in your base currency, all three currency columns will show the same amount. This is expected behaviour. Differences between columns only appear when a transaction involves a foreign currency.
+
+</details>
+
+## Related Topics
+
+- [Trial Balance Report](/core-features/accounting/reports/trial-balance) — Verify that total debits equal total credits across all accounts
+- [General Ledger Report](/reporting/general-ledger) — View a full record of all journal entries by account
+- [Chart of Accounts](/accounting/chart-of-accounts) — View and manage your ledger accounts
+- [Multi-currency Transactions](/core-features/accounting/journal-entries/guides/multi-currency-transactions) — Understand how Fiskl records and converts foreign currency amounts

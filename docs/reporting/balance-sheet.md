@@ -1,166 +1,196 @@
 ---
 title: "Balance Sheet Report"
-description: "Generate detailed balance sheets in Fiskl to understand your financial position, track assets and liabilities, and make informed business decisions."
-keywords: ["balance sheet", "financial position", "assets", "liabilities", "equity", "accounting reports", "Fiskl"]
-sidebar_position: 4
+description: "Learn how to generate and analyze your Balance Sheet report in Fiskl to understand your business's financial position at any point in time."
+keywords: ["balance sheet", "financial reports", "assets", "liabilities", "equity", "accrual", "cash accounting", "Fiskl reporting"]
+sidebar_position: 2
+tags:
+  - Reporting
+  - Accounting
+toc_min_heading_level: 2
+toc_max_heading_level: 3
 ---
 
-This guide explains how to generate and analyze balance sheet reports in Fiskl to understand your business's financial position at any point in time.
+import TOCInline from '@theme/TOCInline';
+
+This guide explains how to generate and analyze your Balance Sheet report in Fiskl. Use it to review your business's financial position and understand what you own, owe, and retain at any point in time.
+
+<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
+
+## Before You Begin
+
+To generate your Balance Sheet, you need at least one ledger account with transactions recorded. If you are just getting started, review the [chart of accounts](/accounting/chart-of-accounts) before running reports.
 
 ## Understanding the Balance Sheet
 
-The Balance Sheet is a financial statement that shows what your business owns (assets), what it owes (liabilities), and the owners' equity at a specific date. It provides a snapshot of your company's financial health and follows the fundamental accounting equation: `Assets = Liabilities + Equity`.
+The Balance Sheet is a financial statement that follows the fundamental accounting equation: Assets = Liabilities + Equity. It shows your financial position at a specific date — like a snapshot — rather than across a period.
 
-<details>
-<summary>Why is the Balance Sheet important?</summary>
+<details className="blue-box">
+<summary><strong>Why is the Balance Sheet important?</strong></summary>
 
 The Balance Sheet helps you:
-- Assess your business's financial position quickly
-- Evaluate liquidity and solvency
+
+- Assess your business's financial position at a glance
+- Evaluate your liquidity and ability to meet obligations
 - Meet requirements for tax filing and loan applications
-- Make strategic business decisions based on financial data
+- Make strategic decisions based on real financial data
+
 </details>
 
-## Balance Sheet vs. Profit and Loss
+### Balance Sheet vs Profit and Loss
 
-The Balance Sheet and Profit and Loss (P&L) report serve different purposes:
+The Balance Sheet and Profit and Loss (P&L) report serve different purposes.
 
-**Balance Sheet** captures your financial position at a specific moment in time, like a photograph. It shows what you own and owe on a particular date using the equation `Assets = Liabilities + Equity`.
+The **Balance Sheet** captures your financial position at a specific moment — what you own and owe on a particular date.
 
-**Profit and Loss** tracks your financial performance over a period, like a video. It starts with revenue and subtracts expenses to show your net profit or loss over weeks, months, or years.
+The **Profit and Loss** tracks your financial performance over a period. It starts with revenue, subtracts expenses, and shows your net profit or loss over weeks, months, or years.
+
+Use both reports together for a complete view of your business health.
 
 ## Key Components
 
-Your Balance Sheet contains three main sections:
+Your Balance Sheet contains three main sections.
 
 ### Assets
 
 Assets are what your business owns or controls:
-- **Current Assets**: Cash, accounts receivable, inventory, and other assets convertible to cash within one year
-- **Long-Term Assets**: Property, equipment, investments, and other assets held for more than one year
+
+- **Current assets** — Cash, accounts receivable, inventory, and other assets convertible to cash within one year
+- **Long-term assets** — Property, equipment, investments, and other assets held for more than one year
 
 ### Liabilities
 
 Liabilities are what your business owes:
-- **Current Liabilities**: Accounts payable, short-term loans, and other debts due within one year
-- **Long-Term Liabilities**: Long-term loans, bonds payable, and other debts due after one year
+
+- **Current liabilities** — Accounts payable, short-term loans, and other debts due within one year
+- **Long-term liabilities** — Long-term loans, bonds payable, and other debts due after one year
 
 ### Equity
 
-Equity represents the residual interest after subtracting liabilities from assets:
-- Share Capital
-- Retained Earnings
-- Current Year Profit/Loss
+Equity is the residual interest after subtracting liabilities from assets:
 
-:::tip[Quick Insight]
-Monitor your Current Assets and Current Liabilities closely. The ratio between these figures indicates your short-term financial health and ability to meet immediate obligations.
+- Share capital
+- Retained earnings
+- Current year profit or loss
+
+:::tip
+Monitor your current assets and current liabilities closely. The ratio between these figures shows your short-term ability to meet immediate obligations.
 :::
 
 ## Generating Your Balance Sheet
 
-To create a Balance Sheet report:
+1. In the left menu, select **Accounting** > **Reports** > **Balance Sheet**
+2. Select **Filters & Settings** at the top right
+3. Select your date range
+4. Adjust the display options as needed
 
-1. **Navigate to reports**
+### Display Options
 
-   Click **Accounting** in the sidebar, then select **Reports** and choose **Balance Sheet**.
+Use these options to customise how the report appears:
 
-2. **Select your date**
+- **Compare Periods** — Show multiple periods side by side
+- **Cash / Accrual** — Switch between accounting methods
+- **Show Unrealised FX Gains/Losses** — Include or exclude foreign exchange movements
+- **Reverse Period Order** — Show periods newest first
+- **Divide by 1000** — Scale large numbers for easier reading
+- **Hide Empty Accounts** — Remove accounts with no activity
+- **Hide Comparisons** — Show only the primary period
+- **Compact** — Reduce row spacing for a condensed view
 
-   Use the date selector to choose the specific date for your report.
+## Comparing Periods
 
-3. **Customize the report**
+You can compare up to 20 time periods side by side to identify trends.
 
-   Adjust these options to fit your needs:
-    - Enable period comparison
-    - Switch between Cash and Accrual methods
-    - Hide accounts with zero balances
-    - Divide large numbers by 1000 for readability
-    - Show or hide unrealized foreign exchange gains/losses
-    - Toggle between summary and detailed views
+1. Select **Filters & Settings**, then select **Compare Periods**
+2. Use the **−** and **+** buttons to set how many previous periods to include
+3. The report updates to show each period as a separate column, with differences in monetary values and percentages
 
-### Comparing Periods
+Comparing periods helps you spot seasonality patterns and unusual variances in your financial position.
 
-Compare up to three different dates to track changes:
+## Cash vs Accrual Accounting
 
-1. **Enable comparison**
+Fiskl supports both accounting methods for your Balance Sheet:
 
-   Click **Compare** after selecting your initial date.
+- **Cash** — Records income when payment is received and expenses when paid
+- **Accrual** — Records income when earned and expenses when incurred, regardless of when cash moves
 
-2. **Add comparison dates**
-
-   Select additional dates you want to compare.
-
-3. **Review changes**
-
-   View differences shown in both monetary amounts and percentage changes.
-
-This feature helps you identify trends and spot unusual changes in your financial position over time.
-
-### Cash vs. Accrual Accounting
-
-Choose the accounting method that matches your needs:
-
-**Cash** method shows assets and liabilities based on when cash actually moves in or out of your business.
-
-**Accrual** method records assets and liabilities when transactions occur, regardless of when cash is received or paid.
-
-<details>
-<summary>Which method should I use?</summary>
-
-The choice depends on your business needs and reporting requirements. Learn more about [Cash vs Accrual accounting](../glossary/accounting-fundamentals.md#cash-vs-accrual) to understand which method works best for your situation.
-</details>
+Select your preferred method in **Filters & Settings**. Learn more about [cash vs accrual accounting](/glossary/accounting-fundamentals).
 
 ## Analyzing Your Report
 
-Get meaningful insights from your Balance Sheet:
+Review your Balance Sheet regularly to stay informed about your financial position. These steps help you get the most from the data:
 
-1. **Review regularly**
+1. **Review monthly or quarterly** — Regular reviews help you catch changes early
+2. **Track trends** — Compare current figures to previous periods to identify patterns
+3. **Calculate financial ratios** — Use Balance Sheet figures to compute ratios like Current Ratio or Debt-to-Equity Ratio
+4. **Investigate changes** — When you notice significant shifts in any category, select the total in the detailed view to see the underlying transactions
+5. **Combine with other reports** — Use your Balance Sheet alongside your P&L and Cash Flow statements for complete financial insight
 
-   Examine your Balance Sheet monthly or quarterly to stay informed about your financial position.
-
-2. **Track trends**
-
-   Compare current figures to previous periods to identify patterns in assets, liabilities, and equity.
-
-3. **Calculate financial ratios**
-
-   Use Balance Sheet figures to compute ratios like Current Ratio or Debt-to-Equity Ratio for deeper analysis.
-
-4. **Investigate changes**
-
-   When you notice significant shifts in any category, explore the underlying transactions to understand why.
-
-5. **Combine with other reports**
-
-   Use your Balance Sheet alongside P&L and Cash Flow statements for comprehensive financial insights.
-
-:::note
-Click any total in the detailed view to see all related transactions. This helps you investigate specific entries and understand the details behind summary figures.
+:::info
+Select any total in the detailed view to see all related transactions. This helps you understand the details behind any summary figure.
 :::
 
 ## Exporting and Sharing
 
-Share your Balance Sheet with stakeholders or advisors:
+To export your Balance Sheet, select **Export** at the top right of the screen and choose one of the four options:
 
-**Export to spreadsheet:**
-1. Click the export button in the top-right corner
-2. Select either Google Sheets or Excel format
+- **Summary Excel** — Totals only, exported to Excel
+- **Detailed Excel** — All line items and transactions, exported to Excel
+- **Summary Google Sheets** — Totals only, opened in Google Sheets
+- **Detailed Google Sheets** — All line items and transactions, opened in Google Sheets
 
-**Create a PDF:**
-1. Click the print button in the top-right corner
-2. Save as PDF or print a physical copy
-
-All exports include a timestamp and the selected accounting method for your records.
+All exported reports include a timestamp and the selected accounting method.
 
 ## Adding Notes
 
-Provide context for your financial data:
+Add context directly to your report before sharing it with stakeholders or advisors:
 
-1. Click the note icon in the top-right corner
+1. Select **Notes** at the bottom of the report
 2. Enter your comments or explanations
-3. Your notes will appear on exported and printed versions
+3. Your notes appear on the export
 
-## Example
+## Ask Fi
 
-[Cash vs Accrual accounting](../glossary/accounting-fundamentals.md#cash-vs-accrual)
-Regular review of your Balance Sheet helps you understand your financial position and make informed decisions about managing assets, liabilities, and equity for long-term business health.
+If you need help interpreting your Balance Sheet, ask Fi. Select **Fi** in the top right of the screen and ask questions like "What does my current ratio tell me?" or "Why has my equity changed this month?" Fi can help you understand the figures and suggest next steps.
+
+## Common Issues
+
+<details>
+<summary>My Balance Sheet does not balance (Assets ≠ Liabilities + Equity)</summary>
+
+An unbalanced Balance Sheet usually indicates a data entry issue or an unreconciled transaction. To investigate:
+
+1. Run the report in **Accrual** mode to see all posted entries
+2. Check your [journal entries](/accounting/journal-entries/overview) for any incomplete or one-sided postings
+3. Review any manual adjustments made to ledger accounts
+4. Contact support if the imbalance persists after reviewing your entries
+
+</details>
+
+<details>
+<summary>Figures look different between Cash and Accrual views</summary>
+
+This is expected behaviour. Cash and Accrual methods record transactions at different points in time. Invoices not yet paid appear in Accrual but not in Cash. Switch between methods in **Filters & Settings** to compare the two views.
+
+</details>
+
+<details>
+<summary>A ledger account is missing from the report</summary>
+
+Ledger accounts with no transactions in the selected period are hidden by default. Select **Filters & Settings** and turn off **Hide Empty Accounts** to show all accounts regardless of activity.
+
+</details>
+
+<details>
+<summary>My export is missing data</summary>
+
+Check whether you selected a **Summary** option instead of a **Detailed** option. Summary exports show totals only. Select **Export** again and choose either **Detailed Excel** or **Detailed Google Sheets** to include all line items and transactions.
+
+</details>
+
+## Related Topics
+
+- [Profit and Loss Report](/reporting/profit-and-loss) — Track revenue and expenses over a period
+- [Cash Flow Report](/reporting/cash-flow) — Understand how cash moves through your business
+- [Trial Balance](/core-features/accounting/reports/trial-balance) — Review all ledger account balances before closing a period
+- [Chart of Accounts](/accounting/chart-of-accounts) — Manage the ledger accounts that feed your reports
+- [Cash vs Accrual Accounting](/glossary/accounting-fundamentals) — Understand the difference between accounting methods

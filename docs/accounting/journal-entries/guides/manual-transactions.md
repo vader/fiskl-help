@@ -2,7 +2,7 @@
 title: "Recording Manual Transactions"
 description: "Learn how to create manual journal entries in Fiskl to record cash purchases, future payments, and other transactions not captured automatically."
 keywords: ["manual transaction", "journal entry", "account transaction", "chart of accounts", "manual entry", "debit", "credit"]
-sidebar_position: 4
+sidebar_position: 1
 slug: /core-features/accounting/journal-entries/guides/manual-transactions
 tags:
   - Accounting
