@@ -70,7 +70,7 @@ If you use GoCardless, the mandate status for each client appears on their recor
 - **Pending** — The client has not yet completed authorisation
 - **Revoked** — The client cancelled or authorisation failed
 
-See [GoCardless Integration](/docs/integrations/payments/gocardless-integration.md) to get started.
+See [GoCardless Integration](../integrations/payments/gocardless-integration.md) to get started.
 
 ## Managing Your Client List
 
@@ -109,7 +109,7 @@ Go to **Sales** > **Clients** and set the status filter to **Archived**. Archive
 
 - [Vendors](/clients-vendors/vendors) — Add and manage the businesses you pay
 - [Creating Invoices](/invoicing/creating-invoices) — Create and send invoices to your clients
-- [GoCardless Integration](/docs/integrations/payments/gocardless-integration.md) — Set up direct debit collection
+- [GoCardless Integration](../integrations/payments/gocardless-integration.md) — Set up direct debit collection
 - [Time Tracking](/time-and-mileage/time-tracking) — Track and bill time against clients
 - [Client Aging Report](/reporting/client-aging) — View outstanding balances by client
-- [Statement of Accounts](/docs/reporting/statement-of-accounts.md) — Generate client account statements
+- [Statement of Accounts](../reporting/statement-of-accounts.md) — Generate client account statements

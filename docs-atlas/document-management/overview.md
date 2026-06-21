@@ -175,5 +175,5 @@ Folders are organisational only. When you delete a folder, the files inside are 
 ## Related Topics
 
 - [Storage Billing](document-billing.md) — Enable paid storage to upload past the 1 GB free allowance
-- [Roles and Permissions](/docs-atlas/team-collaboration/roles-permissions.md) — Manage what team members can do across the Accountant Portal
-- [Branch Management](/docs-atlas/team-collaboration/branch-management.md) — Configure branches in your Accountant Portal
+- [Roles and Permissions](../team-collaboration/roles-permissions.md) — Manage what team members can do across the Accountant Portal
+- [Branch Management](../team-collaboration/branch-management.md) — Configure branches in your Accountant Portal
