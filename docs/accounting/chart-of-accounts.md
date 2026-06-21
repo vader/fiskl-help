@@ -77,14 +77,6 @@ Expense accounts track the costs of running your business. They also appear on y
 
 A debit increases an expense account. A credit decreases it. Expenses are subtracted from income to calculate your net profit or loss.
 
-## Sub-Accounts
-
-Sub-accounts let you break a parent account into more detailed categories. This gives you finer control over how transactions are grouped without cluttering your top-level account list.
-
-For example, you might create sub-accounts under a parent **Travel Expenses** account for **Flights**, **Accommodation**, and **Meals**.
-
-Sub-accounts roll up into their parent account in reports, so your totals remain clean at the summary level.
-
 ## Managing Your Chart of Accounts
 
 ### Adding a New Account
