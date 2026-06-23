@@ -2,7 +2,8 @@
   command = "pnpm run build"
   publish = "build"
 
-[context.deploy-preview]
-  command = "pnpm run build"
-# This prevents the Netlify Dev plugin from overriding your build
-# with a local server expectation
+[dev]
+  command = "pnpm run start"
+  targetPort = 3000
+  port = 8888
+  framework = "#custom"
