@@ -11,11 +11,7 @@ toc_min_heading_level: 2
 toc_max_heading_level: 2
 ---
 
-import TOCInline from '@theme/TOCInline';
-
 This guide lists every permission in Fiskl, grouped by area. For each permission it shows what the permission controls, how it behaves in the app, and which OAuth scope grants it to a connected app. Use it to assign access precisely and to understand how the same permission applies across the app and the API.
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## How to Read This Reference
 
