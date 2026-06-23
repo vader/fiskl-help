@@ -21,7 +21,7 @@ You need:
 - An active subscription on the branch (paid storage attaches to your existing subscription)
 - Document storage already enabled on the branch
 
-If your branch uses the [client-pays billing model](/docs-atlas/billing-models/client-pays-model.md), you cannot enable paid storage on the branch itself — there is no branch subscription to attach it to.
+If your branch uses the [client-pays billing model](../billing-models/client-pays-model.md), you cannot enable paid storage on the branch itself — there is no branch subscription to attach it to.
 
 ## How Paid Storage Works
 
@@ -146,5 +146,5 @@ To free storage immediately, contact support — permanent deletion can be reque
 ## Related Topics
 
 - [Document Storage Overview](overview.md) — How document storage works and how to use it
-- [Billing Models Overview](/docs-atlas/billing-models/overview.md) — Bill-us vs client-pays models for your Accountant Portal
-- [Bill-Us Billing Model](/docs-atlas/billing-models/bill-us-model.md) — How branch-level billing works
+- [Billing Models Overview](../billing-models/overview.md) — Bill-us vs client-pays models for your Accountant Portal
+- [Bill-Us Billing Model](../billing-models/bill-us-model.md) — How branch-level billing works

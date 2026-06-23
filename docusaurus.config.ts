@@ -8,6 +8,26 @@ const config: Config = {
     favicon: 'img/favicon/favicon.svg',
     markdown: {
         mermaid: true,
+        // `.md` files are parsed as CommonMark (not MDX), so legacy
+        // heading-id syntax `## Heading {#anchor}` keeps working.
+        // `.mdx` files are still parsed as MDX.
+        format: 'detect',
+        mdx1Compat: {
+            // Re-enable HTML comments (e.g. `<!-- truncate -->` in blog posts),
+            // which v4's `mdx1CompatDisabledByDefault` turns off.
+            comments: true,
+        },
+    },
+
+    i18n: {
+        defaultLocale: 'en',
+        locales: ['en', 'de'],
+        localeConfigs: {
+            en: {label: 'English'},
+            // fr: {label: 'Français'},
+            // es: {label: 'Español'},
+            de: {label: 'Deutsch'},
+        },
     },
 
     plugins: [

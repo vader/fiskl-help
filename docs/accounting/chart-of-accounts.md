@@ -132,4 +132,4 @@ If accounts are miscategorised — for example, an expense recorded under assets
 - [Journal Entries Overview](/accounting/journal-entries/overview) — Record manual transactions against ledger accounts
 - [General Ledger Report](/reporting/general-ledger) — View all transactions by ledger account
 
-- [Trial Balance Report](/docs/reporting/trial-balance.md) — Review account balances across your Chart of Accounts
+- [Trial Balance Report](../reporting/trial-balance.md) — Review account balances across your Chart of Accounts

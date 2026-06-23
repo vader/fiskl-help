@@ -8,7 +8,7 @@ const path = require('path');
 // Configuration
 const DOCS_DIR = './docs';
 const I18N_BASE = './i18n';
-const LOCALES = ['fr', 'es'];
+const LOCALES = ['fr', 'es', 'de'];
 const PLUGIN_PATH = 'docusaurus-plugin-content-docs/current';
 
 /**

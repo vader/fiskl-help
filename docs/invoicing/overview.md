@@ -244,7 +244,7 @@ Monitor and manage all invoices from a central dashboard.
 - Record manual payments
 - Apply credits or refunds
 
-**Learn more:** [Invoice Management](docs/invoicing/invoice-management.md)
+**Learn more:** [Invoice Management](./invoice-management.md)
 
 ## Best Practices
 

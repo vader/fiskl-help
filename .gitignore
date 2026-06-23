@@ -3,6 +3,10 @@
 # dependencies
 /node_modules
 
+# python (i18n translation tooling)
+.venv/
+__pycache__/
+
 # next.js
 /.next/
 /out/

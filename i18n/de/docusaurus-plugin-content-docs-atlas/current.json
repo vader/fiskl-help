@@ -1,0 +1,34 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.atlasSidebar.category.🚀 Getting Started": {
+    "message": "🚀 Getting Started",
+    "description": "The label for category '🚀 Getting Started' in sidebar 'atlasSidebar'"
+  },
+  "sidebar.atlasSidebar.category.Client Management": {
+    "message": "Client Management",
+    "description": "The label for category 'Client Management' in sidebar 'atlasSidebar'"
+  },
+  "sidebar.atlasSidebar.category.Billing Models": {
+    "message": "Billing Models",
+    "description": "The label for category 'Billing Models' in sidebar 'atlasSidebar'"
+  },
+  "sidebar.atlasSidebar.category.Team & Branches": {
+    "message": "Team & Branches",
+    "description": "The label for category 'Team & Branches' in sidebar 'atlasSidebar'"
+  },
+  "sidebar.atlasSidebar.category.Document Management": {
+    "message": "Document Management",
+    "description": "The label for category 'Document Management' in sidebar 'atlasSidebar'"
+  },
+  "sidebar.atlasSidebar.category.Reports & Analytics": {
+    "message": "Reports & Analytics",
+    "description": "The label for category 'Reports & Analytics' in sidebar 'atlasSidebar'"
+  },
+  "sidebar.atlasSidebar.category.Partner Program": {
+    "message": "Partner Program",
+    "description": "The label for category 'Partner Program' in sidebar 'atlasSidebar'"
+  }
+}
