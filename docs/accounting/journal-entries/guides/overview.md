@@ -1,89 +1,95 @@
 ---
-title: "Journal Entry Guides Overview"
-description: "Learn how to record, manage, and organize all types of financial transactions in Fiskl for accurate bookkeeping and reporting."
+title: "Transaction Guides"
+description: "Learn how journal entries work in Fiskl, how transactions are recorded automatically, and when to create or edit them manually."
+keywords: ["journal entries", "account transactions", "double-entry accounting", "multi-currency", "opening balances", "ledger"]
 sidebar_position: 1
-keywords: ["journal entries", "transactions", "accounting", "bookkeeping", "financial records"]
+tags:
+  - Accounting
+  - Journal entries
+  - Financial reports
+toc_min_heading_level: 2
+toc_max_heading_level: 3
 ---
 
-# Journal Entry Guides
+import TOCInline from '@theme/TOCInline';
 
-This section explains how to record and manage all types of financial transactions in Fiskl. Understanding journal entries helps you maintain accurate books, track money movements, and generate reliable financial reports.
+This guide explains how journal entries work in Fiskl and how all financial transactions are recorded and managed in your accounting system.
 
-## Why Master Journal Entries
+<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
-Journal entries are the foundation of your accounting system. Every financial activity in your business—from receiving payments to paying vendors—is recorded through journal entries. Proper transaction management ensures:
+## What are journal entries?
 
-**Accurate financial records:**
-- Track every dollar flowing in and out of your business
-- Maintain a complete audit trail for all transactions
-- Support tax compliance and financial reporting requirements
+Journal entries — also called account transactions — are the foundation of your accounting system. Every financial event in Fiskl is recorded as a journal entry in one or more ledger accounts.
 
-**Better financial visibility:**
-- Understand your cash flow patterns
-- Monitor spending across categories and accounts
-- Identify trends in revenue and expenses
+You can think of the [Chart of Accounts](/accounting/chart-of-accounts) as your folder structure, and journal entries as the individual transactions filed within it.
 
-**Simplified reconciliation:**
-- Match bank transactions with accounting records
-- Resolve discrepancies quickly
-- Maintain clean, organized books
+## How Fiskl handles journal entries
 
-## Key Concepts
+Fiskl uses double-entry accounting, so every transaction affects at least two ledger accounts. Most journal entries are created automatically when you record invoices, expenses, or bank transactions.
 
-Understanding these concepts is essential for working with journal entries in Fiskl:
+<details>
+<summary>Key capabilities</summary>
 
-- **Journal Entry (Account Transaction)**: A record of a financial event that affects at least two accounts. Every entry maintains the accounting equation: Assets = Liabilities + Equity
-- **Debit and Credit**: The two sides of every transaction. In asset accounts, debits increase the balance and credits decrease it. The opposite applies to liability and equity accounts
-- **Chart of Accounts**: The organized list of all accounts where transactions are recorded. Understanding your chart helps you categorize transactions correctly
-- **Matching**: The process of linking related transactions together, such as connecting a bank payment to an invoice or expense
-- **Splitting**: Dividing a single transaction across multiple categories, accounts, or currencies for detailed tracking
-- **Base Currency**: Your primary business currency. All foreign currency transactions are also tracked in your base currency
-- **Opening Balance**: The starting amount in an account at the beginning of a financial period, representing all activity before your records begin
+- **Multi-currency support**: Full multi-currency support with cross-currency matching, splitting, internal transfers, and multi-currency reporting
+- **Automatic creation**: Most journal entries are created automatically when you record transactions such as sales, purchases, or bank transfers. Accounts receivable is managed automatically for invoices and payments. Banking feeds and imports generate their respective journal entries
+- **Real-time balances**: All reports and balances are generated in real time, so your financial data is always current
+- **Mobile access**: You can view and manage journal entries from both the web and mobile app
+- **Accounting method flexibility**: You can switch between cash and accrual accounting without affecting the underlying data
 
-## How Transaction Recording Works
+</details>
 
-Fiskl provides multiple ways to record financial activities:
+## Types of journal entries
 
-1. **Automatic recording**: Bank connections import transactions automatically. Invoices and bills create journal entries when saved
-2. **Manual entry**: Record cash transactions, adjustments, or activities not captured automatically
-3. **Matching**: Link imported bank transactions with existing records like invoices or expenses
-4. **Splitting**: Allocate complex transactions across multiple accounts or categories
+Fiskl supports several types of journal entries to cover all your accounting needs.
 
-The system maintains double-entry bookkeeping automatically. When you record money leaving one account, Fiskl ensures the corresponding entry appears in the receiving account or expense category.
+| Type | Description |
+|------|-------------|
+| Standard | Regular income and expense transactions |
+| [Multi-journal entries](/accounting/journal-entries/multi-journal-entries) | Create several entries across multiple accounts in one transaction |
+| Split transactions | A single transaction that affects multiple accounts |
+| Matched transactions | Reconcile bank transactions with your existing records |
+| Internal transfers | Move money between your own ledger accounts |
+| Multi-currency | Transactions involving more than one currency |
+| Opening balances | Set up your initial account balances when migrating to Fiskl |
 
-## Transaction Types You'll Record
+## Creating and managing journal entries
 
-Different business activities require different transaction types:
+While Fiskl automates most journal entries, you may need to create or edit them manually — for example, to record adjustments, opening balances, or transactions not captured by a feed.
 
-**Operating transactions:**
-- Manual entries for cash purchases and daily operations
-- Matches between bank imports and existing records
-- Split transactions for complex expenses
+For step-by-step instructions, see the [journal entry guides](/accounting/journal-entries/guides/overview).
 
-**Accounts Payable:**
-- Bills and vendor invoices you'll pay later
-- Payment tracking against outstanding bills
-- Vendor credit management
+## Viewing journal entries
 
-**Accounts Receivable:**
-- Customer invoices awaiting payment
-- Payment receipts and applications
-- Client credit tracking
+You can view transactions within each individual ledger account. This is useful when reviewing or making adjustments at the account level.
 
-**Internal movements:**
-- Transfers between your bank accounts
-- Currency conversions and exchanges
-- Equity contributions and distributions
+For a broader view across all accounts, use the [Transactions by Account](/reporting/transactions-by-account) report. For financial summaries, use the [Balance Sheet](/reporting/balance-sheet) or [Profit and Loss](/reporting/profit-and-loss) reports.
 
-**Period management:**
-- Opening balances for new periods
-- Adjusting entries for accruals
-- Closing entries at period end
+:::info
+Setting a report to **Detailed** view lets you drill down to transaction level.
+:::
 
----
+## Debit and credit reference
 
-## Available Guides
+This table shows how common transactions are recorded across your ledger accounts.
 
-import DocCardList from '@theme/DocCardList';
+| Transaction | Account | Debit | Credit |
+|-------------|---------|-------|--------|
+| Sales invoice raised | Accounts Receivable | ✓ | |
+| Sales invoice raised | Income | | ✓ |
+| Payment received from client | Bank | ✓ | |
+| Payment received from client | Accounts Receivable | | ✓ |
+| Expense recorded | Expense account | ✓ | |
+| Expense recorded | Accounts Payable | | ✓ |
+| Vendor payment made | Accounts Payable | ✓ | |
+| Vendor payment made | Bank | | ✓ |
+| Internal transfer out | Destination bank account | ✓ | |
+| Internal transfer out | Source bank account | | ✓ |
 
-<DocCardList />
+## Related topics
+
+- [Chart of Accounts](/accounting/chart-of-accounts) — Set up and manage your ledger account structure
+- [Multi-journal entries](/accounting/journal-entries/multi-journal-entries) — Create complex entries across multiple accounts
+- [Journal entry guides](/accounting/journal-entries/guides/overview) — Step-by-step instructions for specific transaction types
+- [Transactions by Account](/reporting/transactions-by-account) — View all transactions across your Chart of Accounts
+- [Balance Sheet](/reporting/balance-sheet) — Review your assets, liabilities, and equity
+- [Profit and Loss](/reporting/profit-and-loss) — Review income and expenses over a period

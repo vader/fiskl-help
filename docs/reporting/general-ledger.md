@@ -1,177 +1,168 @@
 ---
 title: "General Ledger Report"
-description: "View and analyze all financial transactions with flexible grouping, multi-currency support, and detailed reporting in Fiskl's General Ledger"
-keywords: ["general ledger", "financial transactions", "multi-currency reporting", "accounting reports", "transaction analysis", "ledger accounts"]
-sidebar_position: 5
+description: "Use the General Ledger report in Fiskl to view, group, and export all financial transactions with full multi-currency detail."
+keywords: ["general ledger", "GL report", "financial transactions", "multi-currency", "accounting reports", "Fiskl reports"]
+sidebar_position: 6
+tags:
+  - Reporting
+  - Accounting
+  - Multi-currency
+toc_min_heading_level: 2
+toc_max_heading_level: 3
 ---
 
-This guide explains how to use the General Ledger report to view and analyze all financial transactions in your organization with powerful grouping and multi-currency capabilities.
+import TOCInline from '@theme/TOCInline';
+
+This guide explains how to generate and use the General Ledger report to view all financial transactions in your organisation, with flexible grouping and multi-currency detail.
+
+<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## What is the General Ledger Report?
 
-The General Ledger report provides a comprehensive view of all financial transactions within your organization. This report is especially valuable for businesses managing multiple currencies, offering detailed insights with flexible transaction analysis across different dimensions.
+The General Ledger report gives you a complete view of every financial transaction in your organisation. It is especially useful for businesses managing multiple currencies, offering detailed insights and flexible analysis across accounts, transaction types, and time periods.
 
 <details>
 <summary>Why is the General Ledger report important?</summary>
 
-The General Ledger report is essential because it:
+The General Ledger report helps you:
 
-- Offers a detailed view of all transactions with flexible grouping options
-- Provides multi-currency support at an unprecedented level of detail
-- Helps track and analyze transactions across different dimensions like accounts, types, and dates
-- Allows for in-depth financial analysis and reconciliation
+- View all transactions with flexible grouping options
+- Track multi-currency transactions with original, account, and base currency amounts
+- Analyse activity across accounts, transaction types, and date periods
+- Reconcile accounts and support financial reviews
 
 </details>
 
 ## Key Features
 
-The General Ledger report includes powerful features for comprehensive financial analysis:
+- **Multiple currency views** — see original currency amounts, ledger account currency, and base accounting currency for every transaction
+- **Detailed transaction breakdown** — view gross, net, and tax amounts in each currency
+- **FX rate tracking** — monitor exchange rates applied at the time of each transaction
+- **Flexible grouping** — group transactions by Ledger Account, Transaction Type, Year, Quarter, Month, or Date
 
-- **Multiple currency views**: See original currency amounts, ledger account currency, and base accounting currency
-- **Detailed transaction breakdown**: View gross amount, net amount, and tax amount for each transaction in respective currencies
-- **Exchange rate information**: Track FX rates for easy currency conversion monitoring
-- **Flexible grouping options**: Group transactions by Ledger Account, Transaction Type, Date, Year, Quarter, or Month
+## Before You Begin
 
-## How to Generate a General Ledger Report
+- You need access to the **Accounting** section. If this section is not visible, check your permissions with your organisation owner.
+- The report only returns results for periods where transactions exist. If you are unsure, check the relevant ledger accounts in [Chart of Accounts](/accounting/chart-of-accounts) first.
+- For multi-currency businesses, enable the **FX Rate** column in Column Visibility to see the exchange rate applied to each transaction.
 
-Before you begin, ensure you have transactions recorded in your accounts for the period you want to analyze.
+## Generating the Report
 
-### Steps
+1. In the left menu, select **Accounting**, then select **Reports**.
+2. Select **General Ledger** from the list of available reports.
+3. Select **Configure** to open the settings panel.
+4. Set your **date range** for the period you want to analyse.
+5. Select a **grouping option** — choose one of: **Ledger Account**, **Transaction Type**, **Year**, **Quarter**, **Month**, or **Date**.
+6. Use the account selector to choose all accounts or specific ledger accounts to include.
+7. Set any additional display options as needed (see [Display Options](#display-options) below).
+8. Select **Run** to generate the report.
 
-1. **Navigate to the reports section**
+## Display Options
 
-   From the left menu, click **Accounting**, then select **Reports**. Choose **General Ledger** from the available reports.
+These options are available in the **Configure** panel and can be adjusted at any time:
 
-2. **Select your accounts**
+- **Cash or Accrual** — toggle between accounting methods to change how transactions are recognised
+- **Unrealised FX Gain/Loss** — toggle on to include unrealised foreign exchange movements
+- **Divide by 1,000** — simplifies large figures for easier reading
+- **Compact** — condenses the report layout for a tighter, print-friendly view
 
-   Use the account selector to choose all accounts or specific ones you want to include in the report.
+:::tip
+Your default cash or accrual basis can be set in [Accounting Settings](/settings/accounting-settings).
+:::
 
-3. **Set your date range**
-
-   Choose the time period for which you want to view transactions.
-
-4. **Choose your grouping option**
-
-   Select how you want to organize your transactions: **Ledger Account**, **Transaction Type**, **Date**, **Year**, **Quarter**, or **Month**.
-
-5. **Customize report settings**
-
-   Adjust the following options to tailor your report:
-    - Switch between **Cash** and **Accrual** accounting methods
-    - Toggle between **Summary** and **Detailed** views
-    - Enable the option to divide large numbers by 1000 for easier reading
-    - Hide empty accounts with no transactions in the selected period
-    - Show or hide opening and closing balances for each group
-
-### Customization Options
-
-You can tailor the report view with these options:
-
-- **Account selection**: View all accounts or focus on specific ones
-- **Date range**: Set the time period for transaction visibility
-- **Grouping option**: Choose how to organize transactions for analysis
-- **Cash vs. Accrual**: Switch between accounting methods
-- **Summary/Detail toggle**: Select between high-level overview or detailed transaction view
-- **Empty account visibility**: Hide accounts with no activity in the selected period
-- **Balance display**: Show or hide opening and closing balances for each group
+:::tip
+Use **Divide by 1,000** combined with **Compact** when presenting the report to stakeholders — it keeps figures readable and the layout clean.
+:::
 
 ## Understanding Report Columns
 
-The General Ledger report displays extensive information for each transaction across multiple columns.
+The General Ledger report shows amounts in up to three currencies for each transaction:
+
+- **Original currency** — the currency used when the transaction was recorded
+- **Account currency** — the currency of the ledger account
+- **Base currency** — your organisation's base accounting currency
+
+Each transaction also shows a breakdown of **gross amount** (total), **net amount** (excluding tax), and **tax amount**.
+
+## Customising Columns
+
+In the **Column Visibility** section, toggle each column on or off to show only what you need. Your selection is also applied when you export the report.
 
 <details>
-<summary>See a breakdown of the columns in the report</summary>
+<summary>See a breakdown of the columns available</summary>
 
-**Basic transaction information:**
+**Basic information:**
 
-- **Group**: The grouping category, such as Ledger Account, Transaction Type, or Date
-- **Date**: When the transaction occurred
-- **Type**: The transaction type, such as invoice, expense, or transfer
-- **Name**: The client or vendor name
-- **Category**: The assigned transaction category
-- **Description**: Brief transaction description
+- **Date** — when the transaction occurred
+- **Account** — the ledger account the transaction is posted to
+- **Number** — the transaction or document reference number
+- **Type** — the transaction type, such as invoice, expense, or transfer
+- **Name** — the name associated with the transaction
+- **Client/Vendor** — the client or vendor linked to the transaction
+- **Category** — the assigned transaction category
+- **Description** — a brief description of the transaction
 
-**Amount details:**
-
-The report shows three amount types:
-- **Gross amount**: Total transaction amount
-- **Net amount**: Amount excluding tax
-- **Tax amount**: Tax portion of the transaction
-
-**Currency breakdown:**
+**Amount columns:**
 
 Each amount appears in three currencies:
-- **Original currency**: The currency used when the transaction was recorded
-- **Account currency**: The currency of the account (for revenue and expenses, this is the base currency)
-- **Base currency**: Your company's base accounting currency
 
-**Additional information:**
+- **Original Currency Amount** — the currency used when the transaction was recorded
+- **Account Currency Amount** — the currency of the ledger account
+- **Base Currency Amount** — your organisation's base accounting currency
 
-- **Balance**: Running balance of the group when enabled
-- **Tax rate**: Applicable tax rate for the transaction
-- **FX rate**: Exchange rate between base currency and account currency
+**Additional:**
+
+- **FX Rate** — the exchange rate between base currency and account currency at the time of the transaction
 
 </details>
 
-## Customizing Report Columns
+## Exporting the Report
 
-You can customize which columns appear in your report to focus on the most relevant data for your needs.
+1. Select the export button at the top right of the report.
+2. Select **Google Sheets** or **Excel** as your format.
 
-### Steps to Customize Columns
+:::info
+Column customisation is respected on export. Set your preferred columns before exporting for a cleaner spreadsheet.
+:::
 
-1. **Open the column selector**
-
-   Click the gear icon in the report view.
-
-2. **Select your columns**
-
-   In the column selector, add or remove columns as needed.
-
-3. **Apply your changes**
-
-   Your column selection will be applied to the report view and respected when you export the report.
+## Common Issues
 
 <details>
-<summary>Available columns for customization</summary>
+<summary>The report shows no transactions for the selected period</summary>
 
-- Number
-- Type
-- Client/Vendor
-- Description
-- Gross Amount (Original Currency)
-- Net Amount (Original Currency)
-- Tax Amount (Original Currency)
-- FX rate
+This usually means no transactions have been recorded in the selected accounts for that date range.
+
+1. Widen the date range and reapply.
+2. Check that the correct ledger accounts are selected — use **All Accounts** to rule out an account filter issue.
+3. Confirm that transactions exist for the period by checking the relevant ledger account in **Chart of Accounts**.
 
 </details>
 
-:::tip[Pro Tip]
-Customizing your columns can significantly streamline your report, especially when dealing with specific multi-currency scenarios or focusing on particular transaction details.
-:::
+<details>
+<summary>Currency amounts look incorrect or inconsistent</summary>
 
-## Exporting Your Report
+The report shows amounts in three currencies: original, account, and base. If a figure looks unexpected:
 
-You can export your General Ledger report for further analysis or sharing with stakeholders.
+1. Check the **FX Rate** column to confirm the exchange rate used at the time of the transaction.
+2. Toggle **Unrealised FX Gain/Loss** on or off to see whether this accounts for the difference.
+3. Verify your accounting method in **Configure** — switching between Cash and Accrual changes which transactions appear.
 
-### Export Options
+</details>
 
-1. **Click the export button**
+<details>
+<summary>The export does not include all columns</summary>
 
-   Located at the top right of the screen.
+The export respects your active column selection. If columns are missing from the export:
 
-2. **Choose your format**
+1. Select **Filters & Settings** at the top right of the report.
+2. Confirm all required columns are toggled on in **Column Visibility**.
+3. Re-export the report.
 
-   Select between **Google Sheets** or **Excel** format.
+</details>
 
-:::tip[Analysis Tip]
-Exporting to a spreadsheet allows for further customization and analysis, especially useful for complex multi-currency scenarios and detailed financial reviews.
-:::
+## Related Topics
 
-## Best Practices
-
-Regular review of your General Ledger report helps you:
-- Maintain accurate books across multiple currencies
-- Understand currency impacts on your finances
-- Analyze financial data across various dimensions
-- Gain deep insights into your organization's financial activities
-- Make informed business decisions based on comprehensive transaction data
+- [Chart of Accounts](/accounting/chart-of-accounts) — View and manage your ledger accounts
+- [Accounting Settings](/settings/accounting-settings) — Set your base currency and accounting method
+- [Trial Balance](/core-features/accounting/reports/trial-balance) — View a summary of all account balances
+- [Profit and Loss](/reporting/profit-and-loss) — Analyse income and expenses over a period

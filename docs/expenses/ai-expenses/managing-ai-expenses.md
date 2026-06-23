@@ -1,262 +1,194 @@
 ---
 title: "Managing AI Expenses"
-description: "Review, edit, and manage expenses processed through AI Expenses including verifying extracted data and attached documents."
-keywords: ["manage AI expenses", "edit expenses", "review expenses", "expense details", "expense documents"]
-sidebar_position: 3
+description: "Review, edit, filter, and delete expenses processed through AI Expenses. Verify extracted data and manage attached documents."
+keywords: ["manage AI expenses", "edit expenses", "review expenses", "expense details", "expense documents", "AI expense reconciliation"]
+sidebar_position: 2
+tags:
+   - Expenses
+   - AI Expenses
 toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
-This guide explains how to review and manage expenses after AI processing and helps you verify extracted data accuracy.
+This guide covers how to review, edit, filter, and delete expenses after AI processing. Use it to verify extracted data and correct any inaccuracies before reconciliation.
 
 ## Viewing AI Expenses
 
 To view your processed expenses:
 
-1. **Open AI Expenses**
+1. Select **Purchasing** in the left sidebar.
+2. Select **AI Expenses**.
+3. Select any expense to open the full details view.
 
-   Select **AI Expenses** from the left sidebar.
-
-2. **Browse expense list**
-
-   All processed expenses appear in chronological order with key details visible.
-
-3. **View expense details**
-
-   Select any expense to see the complete extracted data and attached documents.
+All processed expenses appear in chronological order with key details visible in the list.
 
 ## Understanding Expense Details
 
-Each AI Expense includes extracted information and stored documents.
+Each AI expense includes extracted information from the original document.
 
 **Extracted information:**
-- **Vendor name** — Business that issued the receipt
+
+- **Vendor** — Business that issued the receipt or invoice
 - **Date** — Transaction date from the document
 - **Amount** — Total expense amount
-- **Tax / VAT** — Tax amount if shown on the receipt
+- **Tax** — Tax amount, if shown on the document
 - **Category** — Suggested expense category
-- **Line items** — Individual items if applicable (detailed invoices)
-- **Payment method** — How the expense was paid (if indicated)
 
 **Document storage:**
-- **Original image** — Preserved receipt or invoice image
-- **Processing metadata** — Extraction confidence scores
-- **Upload timestamp** — When the document was uploaded
+
+- **Original file** — The uploaded receipt or invoice
+- **Upload date** — When the document was uploaded
 
 ## Reviewing Extracted Data
 
-After processing completes, review the extracted information:
+After processing completes, open the AI expense to verify the extracted information:
 
-1. **Check vendor name**
-
-   Verify the business name is correct and properly spelled.
-
-2. **Verify amount**
-
-   Confirm the total matches the receipt. This is the most important field.
-
-3. **Validate date**
-
-   Ensure the transaction date is accurate.
-
-4. **Review category**
-
-   Check whether the suggested category is appropriate for this expense.
-
-5. **Examine line items**
-
-   For detailed invoices, verify that individual line items were extracted correctly.
+1. **Check the vendor name** — Confirm the business name is correct and properly spelled.
+2. **Verify the amount** — Confirm the total matches the receipt. This is the most important field.
+3. **Validate the date** — Ensure the transaction date is accurate.
+4. **Review the category** — Check whether the suggested category is appropriate.
 
 ## Editing AI Expenses
 
-If extracted data needs correction:
+To correct extracted data:
 
-1. **Select the expense**
-
-   Select the expense you need to edit.
-
-2. **Select Edit**
-
-   Select the **Edit** button to modify expense details.
-
-3. **Make corrections**
-
-   Update any fields that were extracted incorrectly:
-   - Vendor name
-   - Amount
-   - Date
+1. Select **Purchasing** in the left sidebar, then select **AI Expenses**.
+2. Select the expense you want to edit to open it.
+3. Update any fields that need correction:
+   - Name
+   - Date or due date
    - Category
-   - Line items
-   - Notes
-
-4. **Save changes**
-
-   Select **Save** to update the expense record.
+   - Tax
+   - Vendor
+   - Description
+4. Select **Save**.
 
 :::tip
-The system learns from your corrections to improve future extractions for similar vendors and document types.
+Review and correct expenses promptly while the original transaction is still fresh. Accurate vendor names and categories make filtering and reporting more reliable.
 :::
 
 ## Viewing Attached Documents
 
-To view the original receipt or invoice image:
+To view the original receipt or invoice:
 
-1. **Open expense details**
+1. Select **Purchasing** in the left sidebar, then select **AI Expenses**.
+2. Select the expense to open its details.
+3. Select the attachment to open the full-size view.
 
-   Select the expense to view its full information.
+:::tip
+You can also download the original document directly from the AI Expenses list without opening the expense. Select the **...** menu in the **Actions** column and select **Download**.
+:::
 
-2. **View attachment**
+## Filtering and Sorting
 
-   Select the document thumbnail to open the full-size image.
-
-3. **Download if needed**
-
-   Select **Download** to save the original image to your computer.
-
-## Filtering and Searching
-
-To find specific expenses:
+Use the filter and sort controls above the expense list to find specific expenses.
 
 **By date range:**
-1. Select the date filter
-2. Select start and end dates
-3. Select **Apply**
 
-**By vendor:**
-1. Use the search box
-2. Enter the vendor name
-3. Results filter automatically
+1. Select the date filter at the top of the list.
+2. Select your start and end dates.
 
-**By category:**
-1. Select the category filter
-2. Select one or more categories
-3. View filtered results
+**Sort the list:**
 
-**By amount:**
-1. Select the amount filter
-2. Enter minimum and/or maximum amount
-3. Select **Apply**
+Select any column header — **Upload Date**, **File**, or **Status** — to sort by that column. Select again to reverse the sort order.
 
-## Understanding Reconciliation Status
+## Understanding Expense Status
 
-Each expense shows its reconciliation status:
+Each expense displays its current processing status in the **Status** column.
 
 | Status | Meaning |
-|--------|---------|
-| **Unreconciled** | No matching bank transaction found yet |
-| **Matched** | System identified a potential bank transaction match |
-| **Reconciled** | Confirmed match with bank transaction |
-| **Manual** | You manually linked the expense to a transaction |
+|---|---|
+| **Processed** | AI extraction completed and a transaction has been created |
+| **Failed** | Processing was unsuccessful and no transaction was created |
+
+Processed expenses also display an accuracy percentage on the transaction. A **Linked** label on a transaction indicates it has been matched to a bank transaction.
+
+For guidance on the reconciliation process, see [AI Expense Reconciliation](/expenses/ai-expenses/reconciliation).
 
 ## Deleting AI Expenses
 
-To remove an expense:
+To delete an expense, select the **...** menu in the **Actions** column and select **Delete**.
 
-1. **Select the expense**
-
-   Select the expense you want to delete.
-
-2. **Select Delete**
-
-   Select the **Delete** button.
-
-3. **Confirm deletion**
-
-   Select **Confirm** in the dialog box.
-
-:::warning
-Deleting an expense removes both the expense record and its attached documents permanently. This action cannot be undone.
+:::info
+You cannot delete an AI expense that has already been matched to a bank transaction. To delete it, first go to the linked bank transaction and either delete the transaction or remove the match. Then return to AI Expenses to delete the expense.
 :::
-
-## Exporting AI Expenses
-
-To export expense data:
-
-1. **Apply filters** (optional)
-
-   Filter expenses by date, vendor, or category.
-
-2. **Select Export**
-
-   Select your export format:
-   - CSV for spreadsheet analysis
-   - PDF for printing or sharing
-
-3. **Download file**
-
-   Save the exported file to your computer.
 
 ## Common Issues
 
 <details>
-<summary>Correcting misread vendor names</summary>
+<summary>Vendor name was extracted incorrectly</summary>
 
-1. Select the expense
-2. Select **Edit**
-3. Update the **Vendor** field with the correct name
-4. Select **Save**
+The AI extraction may misread handwritten or low-contrast text on receipts.
 
-The system learns from this correction for future uploads.
+To correct this:
 
-</details>
+1. Select the expense to open it.
+2. Update the **Name** field with the correct vendor name.
+3. Select **Save**.
 
-<details>
-<summary>Changing expense category</summary>
-
-1. Select the expense
-2. Select **Edit**
-3. Select a different category from the dropdown
-4. Select **Save**
-
-This updates both the expense and its accounting categorisation.
+Using consistent vendor names across expenses makes filtering and reporting more accurate.
 
 </details>
 
 <details>
-<summary>Adding notes to an expense</summary>
+<summary>Expense has not been assigned a category</summary>
 
-1. Select the expense
-2. Select **Edit**
-3. Enter notes in the **Description** or **Notes** field
-4. Select **Save**
+If the AI could not determine an appropriate category, the expense is marked as **Uncategorised Expenses**.
 
-Use notes to add context such as meeting purpose, project code, or approval status.
+To assign a category:
+
+1. Select the expense to open it.
+2. Select the correct category from the **Category** dropdown.
+3. Select **Save**.
 
 </details>
 
-## Tips for Efficient Management
+<details>
+<summary>Poor image quality caused extraction errors</summary>
 
-**Review regularly:**
-- Check processed expenses daily or weekly
-- Verify accuracy while your memory is fresh
-- Correct errors immediately
+Low resolution or poorly lit images can cause extraction errors on amounts, dates, or vendor names.
 
-**Use categories consistently:**
-- Maintain consistent category usage
-- Create subcategories for detailed tracking
-- Review category suggestions and adjust as needed
+To correct the extracted data:
 
-**Add context:**
-- Include notes for unusual expenses
-- Reference related invoices or projects
-- Document business purpose for tax records
+1. Select the expense to open it.
+2. Update the incorrect fields manually.
+3. Select **Save**.
 
-**Keep documents organised:**
-- Original images are preserved automatically
-- Download important receipts for backup
-- Use consistent vendor names for easier searching
+If the same receipt consistently extracts incorrectly, try re-uploading a clearer image.
 
-## What Happens Next
+</details>
 
-After reviewing and managing your AI Expenses:
-- Corrected data improves future AI extractions
-- Expenses remain in Accounts Payable until reconciled
-- The system continues monitoring for matching bank transactions
-- Reconciliation happens automatically when matches appear
+<details>
+<summary>Expense shows a Failed status</summary>
+
+A **Failed** status means the AI could not process the document and no transaction was created.
+
+To resolve this:
+
+1. Select the **...** menu on the failed expense.
+2. Select **Delete** to remove it.
+3. Re-upload a clearer or correctly formatted version of the document.
+
+See [Uploading Expenses to AI Expenses](/expenses/ai-expenses/uploading) for supported file formats and image guidance.
+
+</details>
+
+<details>
+<summary>Reconciliation status not updating</summary>
+
+Matching requires a connected bank account with imported transactions. If an expense remains unlinked:
+
+1. Confirm your bank account is connected and transactions are importing.
+2. Check that the transaction date and amount in your bank data match the expense.
+3. Use manual linking if an automatic match is not identified.
+
+See [AI Expense Reconciliation](/expenses/ai-expenses/reconciliation) for full guidance.
+
+</details>
 
 ## Related Topics
 
-- [AI Expense Reconciliation](/expenses/ai-expenses/reconciliation) — Automatic matching with bank transactions
-- [Uploading AI Expenses](/expenses/ai-expenses/uploading) — How to upload receipt images
-- [Expense Categories](/expenses/expense-categories) — Managing expense categories
-- [Traditional Expenses](/expenses/traditional-expenses/overview) — Legacy expense system (view only)
+- [Uploading Expenses to AI Expenses](/expenses/ai-expenses/uploading) — How to upload receipt and invoice images
+- [AI Expense Reconciliation](/expenses/ai-expenses/reconciliation) — Matching expenses with bank transactions
+- [Expense Categories](/expenses/expense-categories) — Managing and customising expense categories
+- [AI-Powered Expenses Overview](/expenses/ai-expenses/overview) — How the AI Expenses feature works

@@ -1,67 +1,150 @@
 ---
-title: Creating Opening Balances
-sidebar_position: 2
-description: Set up opening balances in Fiskl accurately. Establish a clear financial starting point for precise accounting and reporting.
-keywords: ["Opening balances Fiskl", "financial setup", "accounting accuracy", "starting balances"]
-slug: /core-features/accounting/journal-entries/guides/opening-balances
-toc_min_heading_level: 2
-toc_max_heading_level: 4
+title: "Opening Balances"
+description: "Learn what opening balances are in Fiskl, when and why to create them, how to add them to your ledger accounts, and how to verify they balance correctly."
+keywords: ["opening balance", "starting balance", "accounting period", "ledger account", "chart of accounts", "financial reporting"]
+sidebar_position: 5
 tags:
- - Accounting
- - Journal Entry
- - Financial Reports
+  - Accounting
+  - Journal Entry
+  - Financial Reports
+toc_min_heading_level: 2
+toc_max_heading_level: 3
 ---
 
-# Opening balances in Fiskl
+import TOCInline from '@theme/TOCInline';
 
-## What are Opening Balances?
+This guide explains what opening balances are, why they matter, and how to create and verify them in Fiskl.
 
-An opening balance is the initial amount in an account at the start of a financial period. It's the starting point for recording all financial activities during that period, such as sales, purchases, expenses, and payments.
+<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
+
+## What Are Opening Balances?
+
+An opening balance is the starting amount in a ledger account at the beginning of a financial period. It forms the foundation for recording all financial activity during that period — sales, purchases, expenses, and payments.
+
+Opening balances serve several important purposes:
+
+- Ensuring your account balances are correct from day one
+- Maintaining continuity when starting a new accounting period
+- Preparing accurate financial statements
+- Supporting compliance with accounting standards
+
+**Opening balances for banking ledger accounts**
+
+When you import transactions for the current financial year, they may not add up to your actual bank balance. Your bank balance includes every transaction since the account was created, not just the imported ones.
+
+An opening balance represents all activity before your imported data. This ensures your ledger matches your bank balance and confirms that all transactions are accurately recorded.
+
+:::info
+For connected bank accounts, Fiskl automatically adds the opening balance as a transaction. You do not need to create one manually.
+:::
+
+## Before You Begin
+
+Before creating opening balances, confirm the following:
+
+- You have access to your previous accounting records or bank statements
+- You know the date of your earliest imported transaction
+- You have identified which ledger accounts need opening balances
+
+## Creating an Opening Balance
+
+The steps differ slightly depending on whether the account is new or already has transactions.
+
+**New account with no transactions**
+
+If your bank account is not connected, use this when setting up a new ledger account that needs a starting balance:
+
+1. In the left menu, select **Accounting** > **Transactions**
+2. Select the account from the **Select account** dropdown
+3. Select **+ Debit** or **- Credit** depending on the sign of your opening balance
+4. In the **Name** field, enter "Opening Balance"
+5. Enter the opening balance amount
+6. Select **Opening Balance** as the category
+7. Set the date to the start of your financial period
+8. Select **Save**
+
+The account balance shown at the top of the screen updates immediately to reflect the amount entered.
+
+**Existing account with transactions**
+
+Use this when your account already has transactions recorded, for example when you are switching from a previous accounting system. The opening balance should reflect the closing balance from your previous system. Alternatively, use the balance on your last bank statement before your earliest transaction in Fiskl:
+
+1. In the left menu, select **Accounting** > **Transactions**
+2. Select the account from the **Select account** dropdown
+3. Find your earliest existing transaction and note its date
+4. Select **+ Debit** or **- Credit** depending on the sign of your opening balance
+5. In the **Name** field, enter "Opening Balance"
+6. Enter the opening balance amount
+7. Select **Opening Balance** as the category
+8. Set the date to one day before your earliest transaction date
+9. Select **Save**
+
+:::tip
+If you are migrating from another accounting system, enter opening balances for every account before recording any new transactions. This keeps your records consistent from the start.
+:::
+
+## Viewing Opening Balances
+
+You can view opening balance transactions in several places:
+
+**In a specific ledger account:** Go to the account and filter transactions by the **Opening Balance** category.
+
+**Across all accounts:** In the left menu, select **Accounting** > **Transactions** and select the **Opening Balance** ledger account to see all entries together.
+
+**In reports:** Opening balances appear in the Trial Balance, Transactions by Account, and General Ledger reports.
+
+## Opening Balances — Migrating from Another Accounting System
+
+When switching accounting software, you need to replicate your closing position from the old system as opening balances in Fiskl.
+
+**How to Do It**
+
+1. Export the **Trial Balance** from your previous system (for example, Xero)
+2. In Fiskl, enter each account's **opening balance** to match the **closing balance** from the old system
+3. Once all balances are entered correctly, the **Opening Balances ledger account** in Fiskl should show **zero** — confirming the entries are balanced
+
+If you are unsure which accounts need opening balances or why your Trial Balance isn't zeroing out, select **Ask Fi** in the top right of the screen to ask for guidance specific to your accounts.
+
+:::caution
+If the Opening Balance account does not show zero, review each entry for missing or incorrect amounts. An unbalanced opening can affect every report going forward.
+:::
+
+## Common Issues
 
 <details>
-<summary>See why opening balances are needed</summary>
+<summary>My opening balance does not match my bank statement</summary>
 
-- Ensuring balances are correct
-- Starting a new accounting period
-- Maintaining financial continuity
-- Preparing accurate financial statements
-- Ensuring compliance with accounting standards
+This usually means the date or amount is incorrect. Check the following:
+
+1. Confirm the opening balance date is set to one day before your earliest imported transaction
+2. Check your bank statement for the balance on that date
+3. Ensure no duplicate transactions exist around the cutover date
+4. If the discrepancy remains, review the transaction history in your bank's records and adjust the opening balance amount accordingly
 
 </details>
 
-:::info[For banking ledger accounts]
-Opening balances bridge the gap between your imported transactions and your actual bank balance. When you import transactions for the current financial year, they may not sum up to your bank balance, which includes all transactions since the account's creation.
+<details>
+<summary>The Opening Balance account does not show zero after migration</summary>
 
-An opening balance represents all transactions before your imported data, ensuring your ledger matches your bank balance. This alignment helps verify that all transactions are accurately accounted for in your financial records.
-:::
+Each debit entry in your opening balances must have a matching credit entry. A non-zero balance means at least one account is missing or incorrectly entered.
 
-## Creating Opening Balances
+1. Go to **Reporting** > **Trial Balance** and identify accounts with unexpected balances
+2. Cross-reference each balance against your records from the previous system
+3. Add or correct opening balance entries until the Opening Balance account reaches zero
 
-For connected bank accounts, Fiskl automatically adds the opening balance as a transaction. For other accounts, follow these steps:
+</details>
 
-1. In your chosen account, find your earliest transaction
-1. Select IN or OUT depending on the sign of your opening balance
-1. Choose the category `Opening Balance`
-1. Set the date to be the earliest, usually the day before the earliest transaction date
-1. Save to complete the process
+<details>
+<summary>I cannot find the Opening Balance category when adding a transaction</summary>
 
-## Viewing Opening Balance transactions
+The **Opening Balance** category is only available when you are adding a transaction directly inside a ledger account. Make sure you are in **Accounting** > **Transactions**, have selected a specific account, and are using the **+ Debit** or **- Credit** button to create the transaction.
 
-There are many ways to view your opening balances
+</details>
 
-1. Individually in the account you can filter on opening balance
-1. Collectively
-    1. Select transactions in the left menu under accounting and select the account Opening Balance
-    1. In the reports like Trial Balance, Transactions by Account and General Ledger
+## Related Topics
 
-## Verifying Opening Balances
-
-When moving from a different accounting system to Fiskl, follow these steps:
-
-1. Enter opening balances for all your accounts
-1. Check the ending balance of the opening balance account
-1. Ensure this balance equals zero
-
-A zero balance confirms you've entered all balances correctly and completely.
-
-Remember, accurate opening balances are the foundation for reliable financial reporting and informed decision-making in your business.
+- [Chart of Accounts](/accounting/chart-of-accounts) — View and manage your ledger accounts
+- [Journal Entries Overview](/accounting/journal-entries/overview) — Learn how journal entries work in Fiskl
+- [Trial Balance](/core-features/accounting/reports/trial-balance) — Verify that your accounts are balanced
+- [General Ledger](/reporting/general-ledger) — Review all transactions across your accounts
+- [Transactions by Account](/reporting/transactions-by-account) — View transactions filtered by ledger account

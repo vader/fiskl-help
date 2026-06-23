@@ -3,7 +3,6 @@ title: "Accounts Payable Transactions"
 description: "Learn how to create, pay, and manage Accounts Payable transactions in Fiskl, including partial payments, foreign currencies, and splits."
 keywords: ["accounts payable", "AP", "bills", "vendor payments", "accrual accounting", "journal entry", "partial payment", "foreign currency"]
 sidebar_position: 10
-slug: /core-features/accounting/journal-entries/guides/accounts-payable-transactions
 tags:
   - Accounting
   - Journal Entry
@@ -170,7 +169,7 @@ Each split portion appears in its respective ledger account, giving you detailed
 <details>
 <summary>My AP balance is not zeroing out after I matched a payment</summary>
 
-This usually means the payment and the AP transaction were matched at different amounts. Open the Accounts Payable ledger account and check whether the two entries are equal — the original credit and the payment debit should match. If they differ due to a currency exchange rate change, you may need to record a foreign exchange gain or loss entry. See the [multi-currency transactions guide](/core-features/accounting/journal-entries/guides/multi-currency-transactions) for details.
+This usually means the payment and the AP transaction were matched at different amounts. Open the Accounts Payable ledger account and check whether the two entries are equal — the original credit and the payment debit should match. If they differ due to a currency exchange rate change, you may need to record a foreign exchange gain or loss entry. See the [multi-currency transactions guide](/accounting/journal-entries/guides/multi-currency-transactions) for details.
 
 </details>
 
@@ -191,7 +190,7 @@ Fi, Fiskl's built-in AI advisor, can help you think through your accounting setu
 ## Related Topics
 
 - [Multi-journal Entries](/accounting/journal-entries/multi-journal-entries) — Record complex transactions with multiple debit and credit lines
-- [Multi-currency Transactions](/core-features/accounting/journal-entries/guides/multi-currency-transactions) — Handle exchange rates and currency differences in your ledger
-- [Accounts Receivable Transactions](/core-features/accounting/journal-entries/guides/accounts-receivable-transactions) — Record income owed to your business
+- [Multi-currency Transactions](/accounting/journal-entries/guides/multi-currency-transactions) — Handle exchange rates and currency differences in your ledger
+- [Accounts Receivable Transactions](/accounting/journal-entries/guides/accounts-receivable-transactions) — Record income owed to your business
 - [Chart of Accounts](/accounting/chart-of-accounts) — View and manage your ledger account structure
 - [Managing Vendors](/clients-vendors/vendors) — Create and manage your vendor records

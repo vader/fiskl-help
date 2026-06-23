@@ -1,141 +1,182 @@
 ---
 title: "Statement of Cash Flows"
-description: "Track cash movements across operating, investing, and financing activities with Fiskl's Statement of Cash Flows report for better financial insights"
-keywords: ["cash flow statement", "cash flow report", "operating activities", "investing activities", "financing activities", "cash position", "liquidity report"]
-sidebar_position: 6
+description: "Generate and interpret the Statement of Cash Flows in Fiskl to monitor cash movements across operating, investing, and financing activities."
+keywords: ["cash flow", "statement of cash flows", "cash flow report", "operating activities", "investing activities", "financing activities", "Fiskl reports"]
+sidebar_position: 3
+tags:
+  - Reporting
+  - Accounting
+toc_min_heading_level: 2
+toc_max_heading_level: 3
 ---
+
+import TOCInline from '@theme/TOCInline';
 
 This guide explains how to generate and interpret the Statement of Cash Flows report in Fiskl to monitor your business's cash generation and usage patterns.
 
-## What is the Statement of Cash Flows?
+<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
-The Statement of Cash Flows report tracks all cash movements within your organization, organizing them into operating, investing, and financing activities. This report provides vital insights into your company's financial health and liquidity position by showing where cash comes from and how it's being used.
+## Before You Begin
 
-<details>
+- Your [Chart of Accounts](/accounting/chart-of-accounts) must be configured before running cash flow reports
+- Ensure your transactions are recorded and categorised correctly so cash flows appear in the right sections
+- If you use multiple currencies, all amounts display in your [base currency](/settings/currency-management)
+- Ensure all bank accounts are reconciled
+
+## What Is the Statement of Cash Flows?
+
+The Statement of Cash Flows tracks all cash movements in your business, organised into three categories: operating, investing, and financing activities. It shows where cash comes from and how it is being used — giving you a clear picture of your business's liquidity and financial health.
+
+Unlike the Profit and Loss report, which records income and expenses when they occur, the cash flow report reflects actual cash movement. A profitable business can still face cash shortfalls, so reviewing this report regularly is essential for sound financial management.
+
+<details className="blue-box">
 <summary>Why is this report important?</summary>
 
 The Statement of Cash Flows helps you:
+
 - Track the sources and uses of your cash
 - Monitor your business's ability to generate cash for future growth
 - Identify trends in cash flow patterns
 - Make informed decisions about timing of payments and investments
+
 </details>
-
-## Key Features
-
-Fiskl's Statement of Cash Flows report offers:
-
-- **Automatic categorization**: Transactions are automatically sorted into operating, investing, and financing activities
-- **Base currency view**: All transactions convert to your base currency for consistent reporting
-- **Real-time updates**: Cash flow data updates automatically as you record transactions
-- **Simple visualization**: Clear format showing cash inflows and outflows
 
 ## How to Generate Your Cash Flow Report
 
-1. **Navigate to Reports**
+1. In the left menu, select **Accounting** > **Reports** > **Cash Flow**
+2. Select **Filters & Settings** at the top right
+3. Select your date range
+4. Adjust the display options as needed
 
-   Click **Reports** in the left navigation menu.
+### Display Options
 
-2. **Select the report**
+Use these options to control how the report appears:
 
-   Choose **Statement of Cash Flows** from the report list.
+- **Show Unrealised FX Gains/Losses** — Include or exclude foreign exchange movements that have not yet been realised
+- **Show Account Details** — Display individual ledger accounts within each section for a more granular view
+- **Divide by 1000** — Scale large numbers for easier reading in high-volume businesses
+- **Compact** — Reduce row spacing for a condensed view
 
-3. **Set your date range**
+### Customising the Report Layout
 
-   Use the date picker to choose your desired time period.
+1. Select **Cash Flow Report Config** at the top of the report
+2. Drag and drop ledger accounts to reorder them within a section or move them between sections
+3. Select **Credit Cards as Cash & Cash Equivalents** to include your credit card balances in the opening and closing cash totals. By default, credit cards are treated as liabilities (money owed to the card issuer) and excluded from your cash position. Enable this if your business runs most expenses through a company card and settles it regularly. When enabled, the net change in cash reflects movements across both bank accounts and credit cards. If you are unsure, speak with your accountant
+4. To restore the original layout, select **Reset**
 
-4. **Generate the report**
+This lets you tailor the report structure to match your business or your accountant's preferred format.
 
-   Click **Generate Report** to view your cash flow data.
-
-## Report Views
-
-### Summary View
-
-The Summary view provides a quick overview of your cash position with:
-
-- Total cash from operations
-- Total cash used in investments
-- Total cash from financing
-- Net change in cash position
-
-:::tip[Quick Check]
-Use Summary view for quick cash position checks and board meetings.
-:::
-
-### Detail View
-
-Switch to Detail view to see:
-
-- Individual cash transactions
-- Transaction dates
-- Transaction categories
-- Running cash balance
-
-:::tip[Audit Ready]
-Use Detail view when you need to track specific cash movements or prepare for audits.
+:::tip
+Discuss the layout with your accountant before making changes. Consistent categorisation across reporting periods makes trend analysis more meaningful.
 :::
 
 ## Understanding Cash Flow Categories
 
-Fiskl organizes your cash flows into three main sections:
+Fiskl organises your cash flows into three sections.
 
 ### Operating Activities
 
-Cash flows from your day-to-day business operations:
-- Customer payments received
-- Supplier payments made
+Operating activities capture cash from your day-to-day business operations:
+
+- Payments received from clients
+- Payments made to vendors
 - Employee wages paid
-- Operating expenses paid
+- Other operating expenses paid
+
+A positive figure here indicates your core business generates cash. A negative figure may signal timing issues with receivables or rising costs.
 
 ### Investing Activities
 
-Cash flows from investments in assets and equipment:
-- Equipment purchases
-- Asset sales
-- Investment purchases
-- Investment returns
+Investing activities reflect cash used for or received from long-term assets:
+
+- Equipment and asset purchases
+- Proceeds from asset sales
+- Investment purchases and returns
+
+Negative figures in this section are common for growing businesses investing in assets.
 
 ### Financing Activities
 
-Cash flows from funding sources and distributions:
-- Loan proceeds
-- Loan payments
+Financing activities show cash flows related to funding and distributions:
+
+- Loan proceeds received
+- Loan repayments made
 - Owner contributions
-- Owner withdrawals
+- Owner withdrawals or dividends
 
 ## Exporting Your Report
 
-You can export your Statement of Cash Flows for external use in multiple formats.
+You can export the Statement of Cash Flows in two formats:
 
-### Available Formats
-
-- **Excel** (.xlsx)
+- **Excel**
 - **Google Sheets**
 
-### Steps to Export
+To export:
 
-1. **Click Export**
+1. Select **Export** at the top of the report
+2. Select your preferred format
+3. Open the file directly or save it to your device
 
-   At the top of the report, click the **Export** button.
+## Adding Notes
 
-2. **Choose your format**
+You can add context to your report before sharing it with stakeholders or your accountant:
 
-   Select your preferred export format from the options.
+1. Select **Notes** at the bottom of the report
+2. Enter your comments or explanations
+3. Your notes are included in the exported file
 
-3. **Save or open**
-
-   Open the exported file directly or save it to your device.
-
-## Coming Soon
-
-Future enhancements to the Statement of Cash Flows report will include:
-
-- Customizable report sections
-- Custom column layouts
-- Saved report templates
-- Additional export formats
-
-:::info[Best Practice]
-Review your Statement of Cash Flows regularly to maintain a clear picture of your business's cash position and make informed financial decisions.
+:::info
+Notes are useful for explaining one-off cash movements, such as a large equipment purchase or a loan repayment, so reviewers have full context.
 :::
+
+## Common Issues
+
+<details>
+<summary>Transactions appear in the wrong cash flow section</summary>
+
+This happens when a ledger account is mapped to the incorrect category in the Chart of Accounts or when accounts have been manually moved in the report layout.
+
+To fix this:
+
+1. Go to **Accounting** > **Chart of Accounts**
+2. Locate the relevant ledger account and check its account type
+3. Return to the cash flow report and drag the account into the correct section
+4. If the issue persists across all periods, the account type may need updating — speak with your accountant before making changes
+
+</details>
+
+<details>
+<summary>Cash balances do not match my bank balance</summary>
+
+The closing cash balance in the report reflects all accounts categorised as cash or cash equivalents in Fiskl. If your bank balance differs, check the following:
+
+- Unreconciled transactions may be missing from Fiskl
+- The **Credit Cards as Cash & Cash Equivalents** setting may need to be toggled on or off depending on your setup
+- Transactions recorded in a foreign currency are converted to your base currency, which can cause small differences due to exchange rate movements
+
+</details>
+
+<details>
+<summary>Foreign exchange movements appear unexpectedly</summary>
+
+If you transact in multiple currencies, unrealised FX gains and losses appear in the report when exchange rates change between the transaction date and the reporting date. Toggle off **Show Unrealised FX Gains/Losses** in **Filters & Settings** if you want to exclude these from your view.
+
+</details>
+
+<details>
+<summary>The report shows no data for my selected date range</summary>
+
+If the report is empty, check that:
+
+- Transactions exist and are recorded within the selected date range
+- Your bank or ledger accounts are connected and synced
+
+</details>
+
+## Related Topics
+
+- [Profit and Loss](/reporting/profit-and-loss) — View income and expenses over a period
+- [Balance Sheet](/reporting/balance-sheet) — See your assets, liabilities, and equity at a point in time
+- [Chart of Accounts](/accounting/chart-of-accounts) — Configure how transactions are categorised
+- [Currency Management](/settings/currency-management) — Set your base currency and manage exchange rates
+- [Bank Account Reconciliation](/accounting/reconciliation/guides/bank-account-reconciliation) — Match your Fiskl records to your bank statements

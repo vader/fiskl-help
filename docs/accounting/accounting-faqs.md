@@ -25,7 +25,7 @@ This guide answers frequently asked questions about Fiskl's accounting features 
 
 Yes, Fiskl is a double-entry, multi-currency accounting platform. This ensures accurate and balanced financial records for your business, with automatic currency conversion and real-time exchange rate handling.
 
-For more information, see our [Accounting Core Features](/accounting/overview.md).
+For more information, see our [Accounting Core Features](/accounting/overview).
 
 ### Can I customize my Chart of Accounts in Fiskl?
 
@@ -184,11 +184,11 @@ Expenses in Fiskl can exist in two states:
 - If you recorded a standalone expense, reconcile it with a transaction in your bank, credit card, or cash account
 - If you add expenses directly to your ledger accounts (via Money Accounts), they automatically appear in your accounting
 
-For a detailed explanation, see our [How to Record Expenses tutorial](/accounting/journal-entries/overview.md).
+For a detailed explanation, see our [How to Record Expenses tutorial](/accounting/journal-entries/overview).
 
 ### Why don't I see my expenses in my P&L report or dashboard?
 
-Expenses added via the **Expenses** section don't automatically appear in your [Profit & Loss](/reporting/profit-and-loss.md) report or dashboard until they are reconciled with an accounting transaction.
+Expenses added via the **Expenses** section don't automatically appear in your [Profit & Loss](/reporting/profit-and-loss) report or dashboard until they are reconciled with an accounting transaction.
 
 The **Expenses** section is designed to:
 - Capture expense details for later reconciliation
@@ -207,7 +207,7 @@ The **Expenses** section is designed to:
 
 ### Why can't I add an expense directly to an Expense Ledger Account?
 
-In Fiskl, you can only record expense transactions through [Money Accounts](/accounting/journal-entries/guides/manual-transactions.md). This ensures accurate tracking of both the expense and the account it was paid from.
+In Fiskl, you can only record expense transactions through [Money Accounts](/accounting/journal-entries/guides/manual-transactions). This ensures accurate tracking of both the expense and the account it was paid from.
 
 **How it works:**
 
@@ -259,7 +259,7 @@ We're prioritizing accuracy and plan to reintroduce bulk categorization graduall
 
 Recurring expenses aren't available yet, but they're on our roadmap. For now, you need to enter expenses as they occur.
 
-For more information about managing regular expenses, see [Accounts Payable Transactions](/accounting/journal-entries/guides/accounts-payable-transactions.md).
+For more information about managing regular expenses, see [Accounts Payable Transactions](/accounting/journal-entries/guides/accounts-payable-transactions).
 
 ### How do I un-reconcile a transaction?
 
@@ -347,7 +347,7 @@ If you haven't received the refund yet but want to track the credit note, you ca
 
 ### Can I send statements to my clients showing outstanding invoices and payments?
 
-Yes, you can generate a [Statement of Accounts](/reporting/statement-of-accounts.md) report. This report provides a comprehensive view of your client's account, including:
+Yes, you can generate a [Statement of Accounts](/core-features/accounting/reports/statement-of-accounts) report. This report provides a comprehensive view of your client's account, including:
 
 - Outstanding invoices
 - Payments received

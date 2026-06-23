@@ -1,10 +1,29 @@
 ---
 title: Welcome to Fiskl Help
-description: The official guide to Fiskl's automated accounting platform. Learn
-  how to manage invoices, quotes, banking, and finances in one place.
+sidebar_label: Introduction
 sidebar_position: 1
+description: The official guide to Fiskl's automated accounting platform. Learn how to manage invoices, quotes, banking, and finances in one place.
+keywords: ["Fiskl help", "accounting platform", "invoicing", "small business accounting", "documentation"]
+tags:
+  - Getting Started
 slug: /
+hide_title: true
+hide_table_of_contents: true
 ---
+
+import HomepageFeatures from '@site/src/components/HomepageFeatures';
+
+<div className="fiskl-hero">
+  <h1 className="fiskl-hero__title">Get more out of <span className="fiskl-hero__accent">Fiskl</span></h1>
+  <p className="fiskl-hero__subtitle">Guides for invoicing, banking, accounting, and the Fi AI advisor — everything you need to run your business finances.</p>
+  <div className="fiskl-hero__actions">
+    <a className="button button--primary" href="/getting-started/overview">Get started</a>
+    <a className="button button--outline" href="https://app.fiskl.com">Go to App</a>
+  </div>
+</div>
+
+<HomepageFeatures />
+
 This guide introduces Fiskl's AI-powered accounting and invoicing platform and helps you find the right documentation for your role and workflow.
 
 ## What is Fiskl?

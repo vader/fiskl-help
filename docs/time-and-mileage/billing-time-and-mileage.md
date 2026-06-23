@@ -1,97 +1,107 @@
 ---
 title: "Billing Time and Mileage"
-description: "Add time and mileage entries to Fiskl invoices for client billing. Learn how to select, review, and invoice tracked work and travel."
-keywords: ["billing time", "billing mileage", "add to invoice", "invoice line items", "billable entries", "client invoicing"]
-sidebar_position: 4
+description: "Learn how to add time and mileage entries to Fiskl invoices to bill clients accurately for work completed and travel expenses."
+keywords: ["billing time", "billing mileage", "unbilled entries", "invoice line items", "time tracking invoice", "mileage invoice"]
+sidebar_position: 3
+tags:
+  - Time & Mileage
+  - Invoicing
 ---
 
-# Billing Time and Mileage
+This guide explains how to add time and mileage entries to invoices and bill clients accurately for work completed and travel expenses.
 
-This guide explains how to add time and mileage entries to invoices and helps you bill clients accurately for work completed and travel expenses.
+## Before You Begin
+
+- Time and mileage entries must have a client assigned to appear in that client's unbilled entries list
+- You can only add entries to invoices with a **Draft** status — revert sent or paid invoices to draft before making changes
+- Entries without a client assigned appear as "Unassigned" and can be added to any invoice
 
 ## Understanding Billable Entries
 
-Time and mileage entries become line items when you add them to invoices. Each entry includes the description, rate, quantity, and total amount.
+When you add time or mileage entries to an invoice, each entry becomes a line item showing the description, rate, quantity, and total amount.
 
-Entries remain available for billing until you add them to an invoice. After billing, entries are linked to that specific invoice.
+Entries remain available for billing until you add them to an invoice. After billing, each entry is linked to that specific invoice and moves from **Unbilled** to **Billed** status.
 
-## Adding Entries to New Invoices
+## Adding Entries to a New Invoice
 
-Add time and mileage when creating a new invoice.
-
-**To add entries to a new invoice:**
+### Add existing unbilled entries
 
 1. Go to **Invoices** in the left sidebar
-2. Select **New Invoice**
+2. Select **+ New Invoice**
 3. Select the client
-4. In the line items section, select **Add Time/Mileage**
-5. Review the list of unbilled entries for this client
-6. Select the entries you want to include
-7. Select **Add Selected**
-8. Review the invoice totals
+4. In the line items section, select **Add items** > **Select existing**
+5. Select **Client items**
+6. Review the list of unbilled time and mileage entries for that client
+7. Select the entries you want to include
+8. Select **Add Selected**
 9. Complete the remaining invoice details
-10. Select **Save** or **Send**
+10. Select **Save** or **Save & Send**
 
-Fiskl automatically populates each entry as a line item with the description, quantity, rate, and total.
+Each selected entry populates as a line item with the description, quantity, rate, and total.
 
-## Adding Entries to Existing Invoices
+### Add a new time or mileage entry
 
-Add time and mileage to draft invoices before sending.
+1. Go to **Invoices** in the left sidebar
+2. Select **+ New Invoice**
+3. Select the client
+4. In the line items section, select **Add items**
+5. Select **+ Add New**, then select **Time** or **Mileage**
+6. Enter the entry details
+7. Complete the remaining invoice details
+8. Select **Save** or **Save & Send**
 
-**To add entries to an existing invoice:**
+### More details options
+
+Select **More details** on a line item to access additional fields.
+
+**For time entries:**
+- **Income ledger account** — assign the revenue ledger account this entry posts to
+- **Currency** — set the billing currency; select the exchange rate field to adjust the rate if needed
+- Toggle **Start – End Time** on to record specific start and end times
+
+**For mileage entries:**
+- **Income ledger account** — assign the revenue ledger account this entry posts to
+- **Currency** — set the billing currency; select the exchange rate field to adjust the rate if needed
+- **Distance entry method** — choose Direct (enter a distance), Odometer (enter start and end readings), or Maps (calculate from route)
+- Toggle **Round Trip** on to double the distance automatically
+- Toggle **Reimbursement** on if this is an employee reimbursement
+
+## Adding Entries to an Existing Invoice
+
+You can add time and mileage entries to any draft invoice.
 
 1. Go to **Invoices**
 2. Find and open the draft invoice
-3. In the line items section, select **Add Time/Mileage**
-4. Review the list of unbilled entries for this client
-5. Select the entries you want to include
-6. Select **Add Selected**
-7. Review the updated invoice totals
-8. Select **Save** or **Send**
+3. In the line items section, select **Edit**
+4. Select **Add new** or **Select existing**
+5. Review the list of unbilled entries for that client
+6. Select the entries you want to include
+7. Select **Add Selected**
+8. Review the updated invoice totals
+9. Select **Save** or **Send**
 
-You can only add entries to draft invoices. Sent or paid invoices cannot be modified.
+:::info
+You can only add entries to draft invoices. To modify a sent or paid invoice, select the **Status** button and revert it to **Draft** first.
+:::
 
 ## Selecting Multiple Entries
 
-Add several time and mileage entries at once for comprehensive billing.
-
-**To select multiple entries:**
-
-1. When viewing the unbilled entries list
-2. Select the checkbox next to each entry you want to include
-3. Review the total amount at the bottom
-4. Select **Add Selected**
-
-**Selection tips:**
-- Select all entries for a specific date range
-- Group related project work together
-- Combine time and mileage from the same trip or day
-- Check totals before adding to avoid surprise invoice amounts
+When viewing the unbilled entries list, select the checkbox next to each entry you want to include. To select all entries at once, select the checkbox next to **Type** at the top of the list. Then select **Add Selected**.
 
 ## Filtering Unbilled Entries
 
-Find specific entries quickly when you have many unbilled items.
+Use filters to find specific entries when you have many unbilled items.
 
-**Available filters:**
-- **Date range**: Show entries from specific time periods
-- **Entry type**: Filter by time only or mileage only
-- **Project**: View entries for specific projects
-- **Amount**: Sort by highest or lowest value
-
-**To filter entries:**
-
-1. When viewing unbilled entries
-2. Select **Filter**
-3. Choose your filter criteria
-4. Review the filtered results
-5. Select entries to add
-6. Select **Add Selected**
+1. When viewing unbilled entries, select **Filter**
+2. Choose your filter criteria:
+    - **Entry type** — time only or mileage only
+    - **Client** — entries for a specific client
+    - **Currency** — entries in a specific currency
+3. Review the filtered results
+4. Select the entries to add
+5. Select **Add Selected**
 
 ## Editing Entries on Invoices
-
-Modify time and mileage details after adding them to invoices.
-
-**To edit an entry on an invoice:**
 
 1. Open the draft invoice
 2. Find the line item you want to edit
@@ -99,52 +109,33 @@ Modify time and mileage details after adding them to invoices.
 4. Modify the description, quantity, rate, or amount
 5. Select **Save**
 
-Changes to line items don't affect the original time or mileage entry. The original entry remains in your tracking records.
-
-:::info
-Editing a line item on an invoice only changes that invoice. The original time or mileage entry in your tracking system stays the same.
-:::
+Changes are reflected in the entry in the time and mileage list, where the entry is marked as billed.
 
 ## Removing Entries from Invoices
 
-Remove time or mileage line items from draft invoices.
-
-**To remove an entry:**
-
 1. Open the draft invoice
-2. Find the line item to remove
-3. Select the delete icon or **Remove** button
-4. Confirm the removal
+2. In the line items section, select **Edit**
+3. Find the line item to remove
+4. Select the delete icon
 
-Removed entries return to your unbilled list and become available for other invoices.
+Removed entries return to your unbilled list and become available to add to other invoices.
 
-## Bulk Billing by Date Range
+## Viewing Billed Entries
 
-Invoice all work from a specific period at once.
+1. Go to **Time** or **Mileage**
+2. Select the filter button, then select **Billed** under type
+3. Review the list of invoiced entries
 
-**To bill by date range:**
+## Handling Unbillable Work
 
-1. Go to **Invoices**
-2. Select **New Invoice**
-3. Select the client
-4. Select **Add Time/Mileage**
-5. Set the date range filter (e.g., "Last Month")
-6. Select **Select All**
-7. Select **Add Selected**
-8. Review and complete the invoice
+If you have tracked time or mileage you don't intend to bill, you have several options:
 
-This method works well for monthly retainers or regular billing cycles.
+- Leave the entry without a client assigned (it will not appear in any client's unbilled list)
+- Do not add the entry to an invoice
 
-## Billing Different Clients
+## Reassigning Entries to a Different Client
 
-Time and mileage entries are organized by client for easy billing.
-
-**How client filtering works:**
-- When you create an invoice, Fiskl shows only unbilled entries for that client
-- Entries without a client appear as "Unassigned" and can be added to any invoice
-- You can reassign entries to different clients before invoicing
-
-**To reassign an entry to a different client:**
+Entries are organised by client. If an entry is assigned to the wrong client, reassign it before invoicing.
 
 1. Go to **Time & Mileage**
 2. Find the entry to reassign
@@ -152,153 +143,100 @@ Time and mileage entries are organized by client for easy billing.
 4. Change the client
 5. Select **Save**
 
-## What Happens After Billing
+:::tip
+Entries without a client assigned appear as "Unassigned" and can be added to any invoice — useful for general work not tied to a specific client.
+:::
 
-When you add an entry to an invoice, several things occur:
+## Customising How Entries Appear on Invoices
 
-**Entry status changes:**
-- The entry moves from "Unbilled" to "Billed"
-- It's linked to the specific invoice
-- It no longer appears in your unbilled entries list
+Time and mileage entries appear as invoice line items with the following columns:
 
-**Invoice line item created:**
-- Description, rate, and quantity transfer to the invoice
-- Total amount calculates automatically
-- Line item can be edited independently of the original entry
+| Column | Time entry | Mileage entry |
+|---|---|---|
+| Name and description | Entry name and any notes | Entry name and any notes |
+| Unit | h | mi or km |
+| Qty | Duration (e.g. 5h00) | Distance (e.g. 45) |
+| Price/Rate | Your hourly rate | Your rate per mile or km |
+| Line total | Calculated automatically | Calculated automatically |
 
-**Original entry preserved:**
-- The original time or mileage entry remains in your records
-- You can still view it in your tracking history
-- Changes to the invoice line item don't affect the original entry
+**To hide units and quantity from the invoice:**
 
-## Viewing Billed Entries
-
-Check which entries have been invoiced.
-
-**To view billed entries:**
-
-1. Go to **Time & Mileage**
-2. Change the filter from **Unbilled** to **Billed**
-3. Review the list of invoiced entries
-4. Select any entry to see which invoice it's on
-
-This helps verify all work has been billed and identify invoice patterns.
-
-## Handling Unbillable Work
-
-Sometimes tracked time or mileage shouldn't be billed.
-
-**Options for unbillable entries:**
-- Mark as non-billable when creating the entry (leave client empty)
-- Don't add to invoices if you decide not to charge
-- Write off entries you've decided not to bill
-- Archive old unbilled entries to clean up your list
-
-**To write off an entry:**
-
-1. Go to **Time & Mileage**
-2. Find the unbilled entry
-3. Select the entry
-4. Select **Write Off** or change to non-billable
-5. Confirm the action
-
-## Invoice Line Item Formatting
-
-Control how time and mileage appear on invoices.
-
-**Default formatting:**
-- Time: "[Duration] hours - [Description]"
-- Mileage: "[Distance] miles - [Description]"
-
-**To customize formatting:**
-
-1. Go to **Settings** > **Company Settings**
-2. Find **Time Name Template** and **Mileage Name Template**
-3. Enter your preferred format using variables
-4. Select **Save**
-
-**Available variables:**
-- `{date}` - Date of work or travel
-- `{duration}` - Hours worked (time only)
-- `{distance}` - Miles or kilometers (mileage only)
-- `{description}` - Entry description
-- `{rate}` - Per-hour or per-mile rate
-
-Example: `{date} - Professional services: {description} ({duration} hrs @ {rate}/hr)`
-
-## Best Practices
-
-**Bill regularly:**
-Invoice clients weekly or monthly rather than letting entries accumulate. Regular billing improves cash flow and reduces forgotten work.
-
-**Review before adding:**
-Check all entry details before adding to invoices. Ensure descriptions are clear, rates are correct, and dates are accurate.
-
-**Group related work:**
-Combine entries from the same project or time period. This creates cleaner invoices and helps clients understand billing.
-
-**Provide details:**
-Include clear descriptions on invoice line items. Transparency builds trust and reduces client questions.
-
-**Track immediately, bill later:**
-Don't delay tracking work until you're ready to invoice. Track as you go, then batch entries into invoices on your schedule.
-
-**Use consistent rates:**
-Set standard rates for each client to avoid confusion. Only change rates when justified and communicated to clients.
-
-**Double-check totals:**
-Review invoice totals before sending. Ensure the amount matches what you expect based on work completed.
-
-**Keep records:**
-Save original time and mileage entries even after invoicing. These records support tax deductions and client disputes.
+1. Go to **Settings** > **Invoice & Quote Settings** > **Templates and Brands**
+2. Select the template
+3. Select the **Display** tab
+4. Toggle off **Units** and **Quantity**
+5. Select **Save**
 
 ## Common Issues
 
 <details>
-  <summary>Entry doesn't appear in unbilled list</summary>
+<summary>An entry is missing from the unbilled list</summary>
 
-Check several potential causes:
-1. Verify the entry has a client assigned
-2. Ensure you're viewing the correct client's invoice
-3. Check if the entry was already added to another invoice
-4. Confirm the date range filter includes the entry date
-5. Look in the "Billed" entries to see if it was invoiced already
+The most common cause is that the entry has already been invoiced. Go to **Time** or **Mileage**, select the filter button, and filter by **Billed** to check.
+
+If it isn't billed, check that the entry has a client assigned — unassigned entries don't appear in a client's unbilled list. Also confirm you're working on the correct client's invoice.
+
 </details>
 
 <details>
-  <summary>Wrong rate shows on invoice</summary>
+<summary>The wrong rate is showing on the invoice</summary>
 
-The rate might need updating:
-1. Edit the line item directly on the invoice
-2. Change the rate to the correct amount
-3. Save the invoice to recalculate totals
-4. Consider updating the default rate in settings to prevent future issues
+You can update the rate directly on the invoice without removing the entry:
+
+1. Open the draft invoice
+2. Select the line item
+3. Update the rate to the correct amount
+4. Select **Save** to recalculate the totals
+
 </details>
 
 <details>
-  <summary>Need to add entry to wrong invoice</summary>
+<summary>The exchange rate on a line item is incorrect</summary>
 
-Move the entry to the correct invoice:
-1. Remove the entry from the incorrect invoice (if still a draft)
-2. It returns to your unbilled entries list
-3. Open the correct invoice
-4. Add the entry to that invoice instead
-5. If the wrong invoice was already sent, create a credit note and new invoice
+If a time or mileage entry is in a different currency to your invoice, the exchange rate is set at the time the entry was created. To correct it:
+
+1. Open the draft invoice
+2. Select the line item
+3. Select **More details**
+4. Select the exchange rate field and enter the correct rate
+5. Select **Save**
+
 </details>
 
 <details>
-  <summary>Can't add entries to sent invoice</summary>
+<summary>Can't add entries to a sent or paid invoice</summary>
 
-Sent invoices cannot be modified:
-1. Create a new invoice for the additional entries
-2. Reference the original invoice number in the description
-3. Alternatively, void the original invoice and create a new complete invoice
-4. Communicate the change clearly to the client
+You can only add entries to draft invoices. To add entries to an invoice that has already been sent or paid:
+
+1. Open the invoice
+2. Select the **Status** button and revert it to **Draft**
+3. Add the entries
+4. Re-send the invoice
+
 </details>
+
+<details>
+<summary>Need to move an entry to a different invoice</summary>
+
+Remove the entry from the current invoice first — it returns to your unbilled list and becomes available to add elsewhere:
+
+1. Open the draft invoice containing the entry
+2. In the line items section, select **Edit**
+3. Find the line item and select the delete icon
+4. Open the correct invoice and add the entry
+
+If the incorrect invoice has already been sent, revert it to **Draft**, remove the entry, then re-send. Open the correct invoice and add the entry there.
+
+</details>
+
+:::tip
+**Ask Fi for help** — Fi is Fiskl's AI assistant, available in the top right of the screen. If an entry isn't appearing where you expect it, a rate looks wrong, or you're not sure how to handle a billing situation, Fi can walk you through it quickly.
+:::
 
 ## Related Topics
 
-- [Time Tracking](/time-and-mileage/time-tracking.md) - Track billable hours
-- [Mileage Tracking](/time-and-mileage/mileage-tracking.md) - Track business travel
-- [Creating Invoices](docs/invoicing/creating-invoices.md) - Generate client invoices
-- [Editing Invoices](/invoicing/invoice-management.md) - Modify draft invoices
+- [Time Tracking](/time-and-mileage/time-tracking) — Track billable hours for clients
+- [Mileage Tracking](/time-and-mileage/mileage-tracking) — Track business travel and distances
+- [Creating Invoices](/invoicing/creating-invoices) — Generate client invoices from scratch
+- [Invoice Management](/invoicing/invoice-management) — Edit, send, and manage invoices
+- [Invoice & Quote Settings](/settings/invoice-quotes-settings) — Configure invoice defaults and templates

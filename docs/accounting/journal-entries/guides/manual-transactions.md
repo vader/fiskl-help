@@ -2,8 +2,7 @@
 title: "Recording Manual Transactions"
 description: "Learn how to create manual journal entries in Fiskl to record cash purchases, future payments, and other transactions not captured automatically."
 keywords: ["manual transaction", "journal entry", "account transaction", "chart of accounts", "manual entry", "debit", "credit"]
-sidebar_position: 4
-slug: /core-features/accounting/journal-entries/guides/manual-transactions
+sidebar_position: 1
 tags:
   - Accounting
   - Journal entry
@@ -13,11 +12,7 @@ toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
-
 This guide explains how to record manual transactions in Fiskl — money moving in and out of your cash accounts. This is sometimes called an account transaction. It is different from a [Multi-journal Entry](/accounting/journal-entries/multi-journal-entries), which records transactions across multiple ledger accounts simultaneously.
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## Before You Begin
 
@@ -89,7 +84,7 @@ Your transaction appears in your account displaying both the foreign and base cu
 </details>
 
 :::info
-When viewing a transaction, you may also see options for **Split**, **Match**, and **Internal Transfer**. These are separate features not covered in this guide. See [Matching and Splitting Transactions](/core-features/accounting/journal-entries/guides/match-and-split-transactions) for more information.
+When viewing a transaction, you may also see options for **Split**, **Match**, and **Internal Transfer**. These are separate features not covered in this guide. See [Matching and Splitting Transactions](/accounting/journal-entries/guides/match-and-split-transactions) for more information.
 :::
 
 ## Common Issues
@@ -113,4 +108,4 @@ The exchange rate displayed is pulled automatically but can be adjusted manually
 - [Journal Entry Guides Overview](/accounting/journal-entries/guides/overview) — Browse all transaction guide types
 - [Multi-journal Entries](/accounting/journal-entries/multi-journal-entries) — Record complex transactions across multiple ledger accounts
 - [Chart of Accounts](/accounting/chart-of-accounts) — Manage and organise your ledger accounts
-- [Multi-Currency Transactions](/core-features/accounting/journal-entries/guides/multi-currency-transactions) — Detailed guidance on foreign currency entries
+- [Multi-Currency Transactions](/accounting/journal-entries/guides/multi-currency-transactions) — Detailed guidance on foreign currency entries

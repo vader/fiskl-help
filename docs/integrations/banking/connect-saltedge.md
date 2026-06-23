@@ -1,140 +1,93 @@
 ---
-title: Connect with Salt Edge
-sidebar_position: 4
+title: "Connect with Salt Edge"
 description: "Connect your bank to Fiskl using Salt Edge for automated transaction imports and real-time financial tracking across Europe, Asia, and the Middle East."
-keywords: ["Salt Edge integration", "bank connection Fiskl", "transaction imports", "OpenBanking", "Fiskl Banking"]
+keywords: ["Salt Edge", "bank connection", "transaction imports", "OpenBanking", "Fiskl Banking"]
+sidebar_position: 2
 slug: /integrations/banking/connecting-saltedge
-toc_min_heading_level: 2
-toc_max_heading_level: 4
 tags:
-   - Integrations
-   - Banking
-   - Salt Edge
+  - Integrations
+  - Banking
+  - Salt Edge
+toc_min_heading_level: 2
+toc_max_heading_level: 3
 ---
 
-This guide explains how to connect your bank account to Fiskl using Salt Edge and helps you automate transaction imports for accurate financial tracking.
+This guide explains how to connect your bank to Fiskl using Salt Edge for automated transaction imports. Salt Edge supports banks across Europe, Asia, and the Middle East through OpenBanking standards.
 
-Salt Edge connects your bank accounts securely to Fiskl and imports transactions automatically. The integration supports banks across Europe, Asia, and the Middle East through OpenBanking standards. After you connect your account, Fiskl syncs your banking data and updates your transactions daily.
+## Before You Begin
 
-## Why Use Salt Edge
-
-Salt Edge provides extensive coverage for banks across Europe, Asia, and the Middle East. The integration uses OpenBanking standards to create secure, encrypted connections between your bank and Fiskl. After you connect, Fiskl syncs your banking data automatically so your financial records stay current without manual entry.
-
-## Checking Bank Coverage
-
-Before connecting, verify that Salt Edge supports your bank.
-
-**Steps:**
-
-1. Go to the [Salt Edge Bank Coverage](https://www.saltedge.com/products/account_information/coverage) page
-2. Search for your bank by name or browse by country
-3. Confirm your bank appears in the results
+- Confirm your bank is covered by Salt Edge using the [Salt Edge bank coverage checker](https://www.saltedge.com/products/account_information/coverage).
+- Have your online banking credentials ready.
+- Ensure your bank allows connections to third-party services.
 
 ## Connecting Your Bank Account
 
-Before you begin:
-- Have your online banking credentials ready
-- Ensure you have permission to connect external services (check with your bank if unsure)
-
-**Steps:**
-
-1. **Open Banking**
-
-   In the left sidebar, select **Banking**.
-
-2. **Start the connection**
-
-   Select **Connect bank**.
-
-3. **Choose Salt Edge**
-
-   Select **Salt Edge** as your provider.
-
-4. **Find your bank**
-
-   Search for your bank by name or browse by country. Select your bank from the results.
-
-5. **Authenticate with your bank**
-
-   Follow your bank's connection process. The steps vary by bank but typically include:
-   - Enter your online banking credentials
-   - Complete any additional security verification
-   - Authorize Fiskl to access your account data
-
-   :::info
-   Each bank has its own security requirements. The process should be familiar if you use online banking regularly.
-   :::
-
-6. **Confirm connection**
-
-   After authentication, Fiskl connects your accounts automatically. The initial sync imports your recent transactions.
-
-### What Happens Next
-
-After connection:
-- Fiskl syncs your transactions daily
-- New transactions appear automatically in **Banking**
-- You can categorize and match transactions to invoices or expenses
-- The system updates your ledger accounts based on transaction data
+1. In the left sidebar, select **Banking**.
+2. Select **Connect bank**.
+3. Select **Salt Edge** as your provider.
+4. Search for your bank by name or browse by country, then select it from the results.
+5. Follow your bank's authentication steps. These typically include entering your online banking credentials, completing any security verification, and authorising Fiskl to access your account data.
+6. After authentication, Fiskl connects your accounts and imports your recent transactions.
 
 :::info
-The first sync may take several minutes depending on your transaction history. Subsequent syncs are faster.
+Each bank has its own security requirements. The process mirrors your normal online banking login, including any two-factor authentication your bank uses.
 :::
+
+### What Happens After Connecting
+
+- Fiskl syncs your transactions daily.
+- New transactions appear in the transactions card in **Banking** and in your **Chart of Accounts**.
+- Fiskl automatically categorises and matches transactions to invoices or expenses.
+- The initial sync may take several minutes depending on your transaction history.
 
 ## Maintaining Your Connection
 
-Check your bank connections regularly in the **Banking** section to ensure they remain active. Select the bank account card to view connection status.
-
-Some banks require periodic re-authentication for security. If your connection expires, you'll see a notification in **Banking**. Select **Reconnect** and follow the authentication steps again to restore the connection.
+Some banks require periodic re-authentication for security. If your connection expires, a notification appears in **Banking**. Select **Reconnect** and complete the authentication steps again to restore the connection.
 
 :::tip
-Keep your bank connection active to ensure accurate, up-to-date financial data in Fiskl.
+Check your bank connection status regularly in **Banking** to keep your financial data current.
 :::
 
-## Troubleshooting
+## Common Issues
 
 <details>
-  <summary>My bank doesn't appear in the search</summary>
+<summary>My bank doesn't appear in the search</summary>
 
-Verify your bank is in the [Salt Edge coverage list](https://www.saltedge.com/products/account_information/coverage). If your bank is listed but doesn't appear in Fiskl, try these steps:
+Confirm your bank is listed in the [Salt Edge coverage checker](https://www.saltedge.com/products/account_information/coverage). If it appears in Salt Edge's list but not in Fiskl:
 
-1. Refresh the bank list by closing and reopening the connection dialog
-2. Search using your bank's full official name
-3. Check if your bank is listed under a parent company name
+1. Close and reopen the connection dialog to refresh the bank list.
+2. Search using your bank's full official name.
+3. Check whether your bank is listed under a parent company name.
 
 If you still can't find your bank, contact Fiskl support.
+
 </details>
 
 <details>
-  <summary>Connection failed during authentication</summary>
+<summary>Connection failed during authentication</summary>
 
-**Common causes:**
-- Incorrect credentials - verify your username and password
-- Bank security settings - ensure external connections are allowed
-- Two-factor authentication timeout - complete the process within the time limit
+Common causes include incorrect credentials, bank security settings blocking third-party access, or a two-factor authentication timeout.
 
-**Solution:**
-1. Verify your credentials by logging into your bank's website directly
-2. Check your bank's security settings for third-party access
-3. Try the connection again, ensuring you complete all security steps promptly
+1. Log into your bank's website directly to verify your credentials.
+2. Check your bank's security settings to confirm external connections are allowed.
+3. Retry the connection and complete all security steps promptly before any timeout.
+
 </details>
 
 <details>
-  <summary>Transactions aren't syncing</summary>
+<summary>Transactions aren't syncing</summary>
 
-Check your connection status:
+1. Go to **Banking** and check your bank account card for a warning or error.
+2. If you see "Connection expired" or similar, select **Reconnect**.
+3. If the connection shows as active, wait 24 hours for the automatic daily sync.
+4. Select **Refresh** on the bank account card to trigger a manual sync.
 
-1. Go to **Banking**
-2. Look for a warning or error message on your bank account card
-3. If you see "Connection expired" or similar, select **Reconnect**
+Contact Fiskl support if transactions are still missing after 48 hours.
 
-If the connection shows as active but transactions don't sync:
-- Wait 24 hours for the automatic daily sync
-- Select **Refresh** on the bank account card to trigger a manual sync
-- Contact Fiskl support if transactions are still missing after 48 hours
 </details>
 
 ## Related Topics
 
-- [Reconciling accounts](/accounting/reconciliation/overview.md)
-- [Banking overview](/integrations/overview.md)
+- [Banking overview](/integrations/banking/overview) — View and manage all your connected bank accounts
+- [Connect with Yodlee](/integrations/banking/connecting-yodlee) — Alternative banking connection for supported regions
+- [Account reconciliation](/accounting/reconciliation/overview) — Match imported transactions against your records

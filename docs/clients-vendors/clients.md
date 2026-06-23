@@ -1,141 +1,115 @@
 ---
-title: "Managing Clients"
-description: "Learn how to add, import, and manage clients in Fiskl for streamlined invoicing, quotes, and payment processing with accurate financial records."
-keywords: ["client management", "add clients", "import clients", "customer database", "invoicing", "direct debit", "GoCardless"]
-sidebar_position: 4
+title: "Clients"
+description: "Add and manage clients in Fiskl — set default currencies, billing rates, Tax/VAT IDs, and keep invoicing records accurate."
+keywords: ["clients", "client management", "invoicing", "multi-currency", "time billing", "Tax ID", "VAT ID", "GoCardless"]
+sidebar_position: 2
+tags:
+  - Clients
+  - Invoicing
+toc_min_heading_level: 2
+toc_max_heading_level: 3
 ---
 
-import Mermaid from '@theme/Mermaid';
+import TOCInline from '@theme/TOCInline';
 
+This guide covers how to add and manage clients in Fiskl. Clients are the individuals and businesses that pay you — keeping their records accurate ensures your invoices, quotes, and financial reports reflect the right information.
 
-# Managing Clients
+<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
-This guide explains how to create and manage clients in Fiskl and helps you maintain organized financial records for invoicing, quotes, and payments.
+## What You Can Do
 
-Clients are the foundation of your business transactions in Fiskl. Every invoice, quote, and financial interaction connects to a client record. By managing clients effectively, you ensure accurate billing, organized financial data, and efficient payment collection.
+- Add clients and store their contact and address details
+- Set a default currency for each client's invoices
+- Configure hourly billing rates for time-based invoicing
+- Store a Tax or VAT ID for use on invoices
+- Add notes about the client relationship
+- View GoCardless mandate status on the client record
+- Archive inactive clients without losing their history
 
-## Before You Begin
+## Adding a Client
 
-Ensure you have:
-- Your company details configured in **Company Settings**
-- Client billing requirements (currency preferences, tax information)
-- Time rates for clients billed hourly (if applicable)
+1. Go to **Sales** > **Clients**.
+2. Select **+ New Client**.
+3. Enter the client's name, email address, and country.
+4. Enter the billing address (optional).
+5. Select **Add Tax/VAT ID** if required (optional).
+6. Select **Add Notes** to record any details about the client relationship (optional).
+7. Set the **Default currency** for this client's invoices.
+8. Set a **Default time rate** if you bill this client by the hour.
+9. Select **Save**.
 
-## Creating a Client
-
-To add a new client to Fiskl:
-
-1. **Open the Clients section**
-
-   In the left menu, select **Clients & Vendors**, then select the **Clients** tab.
-
-2. **Start a new client record**
-
-   Select **New client**.
-
-3. **Search for the client**
-
-   In the client name field, search for your client's name or business name. If found, their details populate automatically.
-
-4. **Add contact information**
-
-   Enter the client's email address. Optionally, add Cc and Bcc addresses for invoice delivery.
-
-5. **Configure the address layout**
-
-   Review and adjust the address format. This exact layout appears on all invoices and quotes for this client.
+You can also add a client directly when creating an invoice or quote — select **Create new client** from the client dropdown and complete the details.
 
 :::tip
-The address layout you configure becomes the default format for all documents sent to this client. Take a moment to ensure it matches your preferred formatting style.
+Set the default currency before creating your first invoice for a client. Changing it later does not update existing invoices.
 :::
 
-### Setting Client Defaults
+## Client Settings
 
-Fiskl allows you to set default values that apply automatically when creating invoices or time entries:
+### Default Currency
 
-- **Default currency**: Select the currency this client prefers for billing
-- **Default time rate**: Enter the hourly rate for time-based billing
+The default currency controls which currency appears on new invoices for that client. Fiskl handles exchange rate conversion automatically. You can override the currency on any individual invoice.
 
-These defaults save time and ensure consistency across all client transactions.
+### Default Time Rate
 
-## Importing Multiple Clients
+Set an hourly rate for clients you bill by time. This rate pre-fills when you add time entries to an invoice and can be overridden on individual entries. See [Time Tracking](/time-and-mileage/time-tracking) for more.
 
-For bulk client creation, Fiskl accepts CSV file imports:
+### Tax/VAT ID
 
-1. **Access the import function**
+Enter the client's Tax or VAT ID to have it appear on invoices. This is useful for B2B invoicing where clients require their registration number on documents.
 
-   Go to **Clients & Vendors** in the left menu and select **Clients**. Select the **Import** button at the top of the list.
+### Notes
 
-2. **Upload your CSV file**
+Select **Add Notes** on the client record to store information about the client relationship. Notes are visible only to your team and do not appear on invoices or quotes.
 
-   Select **Import client details** and choose a CSV file from your device.
+### GoCardless Mandate
 
-3. **Map your data fields**
+If you use GoCardless, the mandate status for each client appears on their record under **GoCardless Mandate**. The panel shows the mandate ID, creation date, and payment scheme alongside the current status:
 
-   Match the CSV column headers with Fiskl field names to ensure data imports correctly.
+- **Success** — Active and ready for automatic collection
+- **Pending** — The client has not yet completed authorisation
+- **Revoked** — The client cancelled or authorisation failed
 
-4. **Review and confirm**
-
-   Preview the client data before importing. After reviewing, select **Import** to add the clients to your database.
-
-After import completes, you receive a notification showing how many clients were added successfully.
-
-:::info
-You can import contact lists directly from your device using the Fiskl mobile app for Android or iOS.
-:::
+See [GoCardless Integration](/docs/integrations/payments/gocardless-integration.md) to get started.
 
 ## Managing Your Client List
 
-The client list provides a centralized view of all your clients with key information displayed in columns. From this screen, you can create invoices, view client details, and perform bulk actions.
+Go to **Sales** > **Clients** to view your client list. Search by name or filter by status (**Active** or **Archived**). Select any client to edit their details — changes apply to future invoices only.
 
-**Available actions:**
-- Sort clients by name, creation date, or total billing
-- Filter by currency, status, or custom tags
-- Access quick actions through the menu next to each client name
-- Search for specific clients using the search bar
+To archive a client, open their record and select **Archive**. Archived clients remain in your records and reports. Set the status filter to **Archived** to view them.
 
-The client list updates in real-time as you add, edit, or archive clients.
+:::warning
+Only clients with no invoices or quotes can be deleted. Archive inactive clients instead to preserve your financial history.
+:::
 
-## Direct Debit Mandates
+## Common Issues
 
-Fiskl integrates with [GoCardless](/integrations/payments/gocardless-integration.md) for automated Direct Debit payments. When you enable this feature, clients can authorize automatic payment collection for recurring invoices.
+<details>
+<summary>The wrong currency appears on a new invoice</summary>
 
-**Mandate statuses in the client list:**
+Check the client's **Default currency** setting. Go to **Sales** > **Clients**, select the client, and confirm the currency is correct. Update it if needed — the correct currency will apply to new invoices going forward.
 
-- **Success**: Mandate authorized and active for automatic payments
-- **Pending**: Client has not yet completed authorization
-- **Revoked**: Client cancelled the mandate or authorization failed
+</details>
 
-### How Direct Debit Mandates Work
+<details>
+<summary>A mandate shows as Pending and the client isn't being charged</summary>
 
-```mermaid
-graph TD
-  A[Send Invoice with GoCardless] -->|Client Receives| B(Client Sets Up Mandate)
-  B --> C{Mandate Authorized?}
-  C -->|Yes| D[SUCCESS]
-  C -->|No| E[PENDING]
-  C -->|No| G[REVOKED]
-  D --> F[Automatic payments enabled]
-  E --> C
-  G --> A[Resend mandate request]
+The client has not completed GoCardless authorisation. Ask them to check their email for the mandate setup link. If the link has expired, resend the invoice with the mandate option enabled to trigger a new request.
 
-```
+</details>
 
-When you send an invoice with GoCardless enabled, the client receives instructions to set up their mandate. Once authorized, Fiskl collects payments automatically according to your invoice terms.
+<details>
+<summary>I can't find an archived client</summary>
 
-## Best Practices
+Go to **Sales** > **Clients** and set the status filter to **Archived**. Archived clients are hidden from the default **Active** view but remain fully accessible.
 
-Follow these guidelines for effective client management:
-
-- **Keep records current**: Update contact details, tax information, and billing preferences regularly
-- **Use client-specific settings**: Configure currencies and time rates for accurate invoicing
-- **Archive inactive clients**: Review your client list periodically and archive clients you no longer work with
-- **Enable Direct Debit for recurring clients**: Automate payment collection for clients with regular invoicing
-
-Accurate client records streamline your invoicing workflow, reduce payment delays, and improve financial organization.
+</details>
 
 ## Related Topics
 
-- [Creating Invoices](/invoicing/creating-invoices.md) - Learn how to bill clients
-- [GoCardless Integration](/integrations/payments/gocardless-integration.md) - Set up automated payments
-- [Managing Vendors](./vendors) - Track businesses you pay
+- [Vendors](/clients-vendors/vendors) — Add and manage the businesses you pay
+- [Creating Invoices](/invoicing/creating-invoices) — Create and send invoices to your clients
+- [GoCardless Integration](/docs/integrations/payments/gocardless-integration.md) — Set up direct debit collection
+- [Time Tracking](/time-and-mileage/time-tracking) — Track and bill time against clients
+- [Client Aging Report](/reporting/client-aging) — View outstanding balances by client
+- [Statement of Accounts](/docs/reporting/statement-of-accounts.md) — Generate client account statements

@@ -1,56 +1,49 @@
 ---
 title: "Banking Connections Overview"
-description: "Learn how to connect and manage your bank accounts, credit cards, and payment providers in Fiskl for automated bookkeeping."
+description: "Connect your bank accounts, credit cards, and payment providers to Fiskl for automated transaction imports and zero-touch reconciliation."
+keywords: ["banking", "bank connection", "bank sync", "Yodlee", "Salt Edge", "Stripe", "Wio", "open banking", "transaction import"]
 sidebar_position: 1
+tags:
+  - Banking
+  - Integrations
+toc_min_heading_level: 2
+toc_max_heading_level: 3
 ---
 
-# Banking Connections
+This section covers how to connect your bank accounts, credit cards, and payment providers to Fiskl. Live banking connections eliminate manual data entry by automatically importing transactions, giving you accurate, up-to-date records ready for categorisation and reconciliation.
 
-Banking connections allow you to link your real-world financial accounts directly to Fiskl. By automating the flow of data, you eliminate manual data entry, reduce human error, and ensure your financial records are always up to date.
+## What Banking Connections Do
 
-## Why Connect Your Bank to Fiskl?
+Linking a financial account to Fiskl creates a live feed of your transactions. Once connected, Fiskl imports your transaction history and surfaces each item in the **Banking** tab, where you can categorise, match, and reconcile against your ledger accounts.
 
-Connecting your accounts is the first step toward **Zero-touch reconciliation**. Instead of uploading CSV files or manually entering transactions, Fiskl automatically fetches your data and prepares it for your review.
+Banking connections support the full range of account types: current accounts, savings accounts, credit cards, and payment processor accounts such as Stripe. You can connect accounts in multiple currencies within the same company.
 
-* **Real-Time Visibility**: See your actual cash flow across all accounts in one dashboard.
-* **Automated Categorization**: Fiskl learns from your habits to suggest categories for incoming transactions.
-* **Multi-Currency Accuracy**: Automatically handles exchange rates for international transfers and accounts.
-* **Security**: We use industry-standard **Open Banking** protocols. Fiskl never stores your bank login credentials.
-
----
+:::info
+Fiskl uses industry-standard Open Banking protocols. Your bank login credentials are never stored by Fiskl — authentication is handled entirely by the connection provider.
+:::
 
 ## Supported Connection Providers
 
-Fiskl partners with world-leading financial aggregators to provide global coverage. The provider you choose depends on your bank's location and the type of account you are connecting:
+To connect a bank account, go to **Banking** in the left menu and select **Connect bank**. Fiskl partners with four providers to give global coverage. The right provider depends on your bank's location and account type.
 
 | Provider | Primary Regions | Best For |
-| :--- | :--- | :--- |
-| **Stripe** | Global | Payment processing, payouts, and multi-currency sales. |
-| **Wio Bank** | UAE / Middle East | Digital business banking and automated transfers. |
-| **Salt Edge** | Europe, Asia, Middle East | Open Banking connections for traditional retail banks. |
-| **Yodlee** | USA, Canada, South Africa | Comprehensive coverage for North American financial institutions. |
+|---|---|---|
+| **Yodlee** | USA, Canada, South Africa | Broad coverage for North American financial institutions |
+| **Salt Edge** | Europe, Asia, Middle East | Open Banking connections for traditional retail banks |
+| **Stripe** | Global | Payment processing accounts, payouts, and multi-currency sales |
+| **Wio Bank** | UAE / Middle East | Digital business banking with automated transaction feeds |
 
----
+If you operate in multiple regions, you can connect accounts through different providers within the same Fiskl company — for example, Yodlee for a US account and Salt Edge for a UK account.
 
-## How it Works
-
-1. **Connect**: You authorize a secure connection between your bank and Fiskl via one of our providers.
-2. **Sync**: Fiskl imports your transaction history (usually starting from a date you choose).
-3. **Categorize**: Transactions appear in your **Banking** tab, where Fiskl suggests matching ledger entries.
-4. **Reconcile**: Confirm the matches to update your **Chart of Accounts** and financial reports instantly.
-
-## Getting Started
-
-To begin, navigate to **Banking** in the left menu. From there, you can select **Connect bank** to see the list of available providers and search for your specific institution.
-
-:::tip
-If you operate in multiple regions, you can use a combination of providers (e.g., Yodlee for a US account and Salt Edge for a UK account) within the same Fiskl company.
-:::
-
----
-
-## Explore Connection Guides
+## Connection Guides
 
 import DocCardList from '@theme/DocCardList';
 
 <DocCardList />
+
+## Related Topics
+
+- [Connecting Your Bank](/getting-started/connecting-your-bank) — Getting started guide for first-time bank setup
+- [Account Reconciliation](/accounting/reconciliation/overview) — How to reconcile imported transactions against your ledger
+- [Chart of Accounts](/accounting/chart-of-accounts) — Manage the ledger accounts transactions are mapped to
+- [Integrations Overview](/integrations/overview) — All available integrations in Fiskl

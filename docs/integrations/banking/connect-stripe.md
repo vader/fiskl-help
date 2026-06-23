@@ -1,166 +1,143 @@
 ---
-title: Connect Stripe
-sidebar_position: 1
-description: "Connect Stripe to Fiskl Banking for automatic transaction imports, accurate multi-currency ledger entries, and seamless payout reconciliation."
-keywords: ["Stripe integration Fiskl", "payment processing", "invoicing software", "small business payments", "banking", "Fiskl tools"]
+title: "Connect Stripe"
+description: "Connect your Stripe account to Fiskl Banking for automatic transaction imports, accurate ledger entries, and seamless payout reconciliation."
+keywords: ["Stripe", "banking integration", "Stripe connect", "payout reconciliation", "Stripe ledger", "Fiskl banking"]
+sidebar_position: 3
 slug: /integrations/banking/connecting-stripe
 tags:
   - Integrations
   - Banking
   - Stripe
+toc_min_heading_level: 2
+toc_max_heading_level: 3
 ---
 
-This guide explains how to connect your Stripe account to Fiskl Banking and shows you how this integration simplifies payment reconciliation. The connection automatically imports transactions, creates accurate ledger entries, and links Stripe payouts to your bank account as internal transfers—eliminating hours of manual reconciliation work.
-
-The Stripe integration is essential for businesses that process online payments, especially those handling multi-currency transactions or managing multiple Stripe accounts.
-
-## How it Works
-
-When you connect Stripe to Fiskl Banking, the system imports all transactions and creates accurate ledger entries automatically. Each transaction includes the amount, fees, and currency conversion rates.
-
-### Ledger Account Creation
-
-Fiskl creates ledger accounts based on the payout bank accounts you configure in Stripe. Each payout account in Stripe corresponds to a ledger account in Fiskl. For example, if you have a USD bank account connected in Stripe, Fiskl creates a USD ledger account where all transactions flow.
-
-This works seamlessly across multiple currencies. If you process transactions in EUR, GBP, and USD but only have a USD payout account in Stripe, all transactions convert to USD and appear in your USD ledger account. Fiskl tracks the original currency and exchange rates, so payments still link to the correct invoices regardless of currency conversion.
-
-When you add a new payout account in Stripe (such as a EUR bank account), Fiskl detects this automatically and creates the corresponding EUR ledger account. From that point forward, EUR transactions flow into the EUR payout and appear in the EUR ledger account. The system adapts to your Stripe configuration without manual setup.
-
-### Automatic Payout Matching
-
-When you have both Stripe and your bank account connected to Fiskl Banking, the system automatically links Stripe payouts to your bank deposits as internal transfers. This automation is particularly valuable if you have multiple payout accounts across different currencies.
-
-The integration eliminates manual reconciliation of individual Stripe transactions. You work with clean, organised data instead of hundreds of separate line items.
-
-## Key Benefits
-
-The Stripe integration handles all transaction types including invoices paid through Fiskl, payments initiated outside Fiskl, issuing card transactions, and all associated fees, refunds, charges, and chargebacks. The system processes multi-currency transactions accurately with automatic currency conversions and intelligent matching to the correct invoices.
-
-Fiskl creates ledger accounts automatically based on your Stripe payout configuration. When you add a new payout bank account in Stripe for a different currency, Fiskl detects the change and creates the corresponding ledger account immediately. This means your accounting structure adapts automatically as your business grows and your currency needs change.
-
-You can connect and manage multiple Stripe accounts simultaneously across iOS, Android, and web platforms. Permission settings let you control who can view and manage Stripe transactions in your organization.
-
-The automatic internal transfer feature saves significant time, especially when managing frequent payouts across multiple accounts and currencies.
+This guide covers how to connect Stripe to Fiskl Banking so that transactions import automatically, ledger entries are created accurately, and Stripe payouts reconcile with your bank account without manual work.
 
 ## Before You Begin
 
-Ensure you have:
+Make sure you have:
+
 - Admin access to your Fiskl account
 - Login credentials for your Stripe account
-- Your bank account connected to Fiskl Banking (recommended for automatic internal transfers)
-- Your current financial year start date
+- Your bank account already connected to Fiskl Banking (recommended — enables automatic payout matching)
+- Your current financial year start date to hand
 
-## Connecting Your Stripe Account
+## How the Integration Works
 
-### Connect to Stripe
+When you connect Stripe, Fiskl imports all transactions and creates ledger entries automatically. Each entry captures the amount, fees, and currency conversion rates.
 
-1. Select **Banking** in the left menu or visit the [Banking page](https://my.fiskl.com/banking)
-2. Select **Stripe** from the available integration options
-3. Select **Connect** to begin the setup
+### Ledger account creation
 
-### Configure Import Settings
+Fiskl creates ledger accounts based on the payout bank accounts configured in your Stripe account. Each Stripe payout account maps to a corresponding ledger account in Fiskl. For example, if you have a USD payout bank account in Stripe, Fiskl creates a USD ledger account where all related transactions appear.
 
-Choose your transaction import settings:
+This works across multiple currencies. If you process EUR, GBP, and USD transactions but only have a USD payout account in Stripe, all transactions convert to USD and flow into the USD ledger account. Fiskl records the original currency and exchange rate, so payments still match to the correct invoices regardless of conversion.
 
-1. **Start date**: Select the date from which to import transactions
-2. **Import scope**: Decide whether to import all transactions from the start date
+When you add a new payout account in Stripe — such as a EUR bank account — Fiskl detects it automatically and creates the corresponding EUR ledger account. From that point, EUR transactions flow into the EUR payout and appear in the EUR ledger account.
+
+### Automatic payout matching
+
+When both Stripe and your bank account are connected to Fiskl Banking, Fiskl automatically links Stripe payouts to your bank deposits as internal transfers. This is especially useful if you have multiple payout accounts across different currencies, as each payout is matched without any manual steps.
+
+## Connecting Stripe
+
+### Step 1: Open Banking and select Stripe
+
+1. Go to **Banking** in the left menu
+2. Select **Stripe** from the available options
+3. Select **Connect**
+
+### Step 2: Configure import settings
+
+1. Select a **Start date** for importing transactions — use your current financial year start date
+2. Choose your **Import scope**
 
 :::warning
-Avoid selecting `ALL` historical transactions when possible. Use your current financial year start date instead. Fiskl creates an Opening Balance ledger transaction as needed. Importing all historical transactions may create numerous unnecessary ledger entries due to Stripe's detailed transaction feed.
+Avoid importing all historical transactions. Use your financial year start date instead. Importing all history can create a large number of unnecessary ledger entries due to Stripe's detailed transaction feed. Fiskl creates an opening balance transaction as needed.
 :::
 
-### Set Up Categories
+### Step 3: Set up categories
 
-Configure how Fiskl categorises your Stripe transactions:
-
-1. **Charge category**: Select a category for processing fees (such as "Payment processing fees")
-2. **Client creation**: Toggle on to automatically create client records from new customers
-3. **Vendor creation**: Toggle on to automatically create vendor records from new suppliers
+1. Select a **Charge category** for processing fees (for example, "Payment processing fees")
+2. Toggle **Client creation** on to automatically create client records from new Stripe customers
+3. Toggle **Vendor creation** on to automatically create vendor records from new suppliers
 
 :::info
-Enabling automatic vendor creation may add many new vendors to your account. Review this list after the initial sync.
+Enabling automatic vendor creation may add many records to your account after the initial sync. Review the vendor list once the connection is complete.
 :::
 
-### Complete the Connection
+### Step 4: Complete the connection
 
-1. Select **Continue** to connect to Stripe
-2. Log in to your Stripe account or create a new account
+1. Select **Continue**
+2. Log in to your Stripe account (or create one)
 3. Authorise Fiskl to access your Stripe data
-4. Verify the connection succeeds
+4. Confirm the connection is active
 
-Your Stripe accounts appear automatically in Fiskl Banking. You can connect multiple Stripe accounts, including those with different currencies.
+Your Stripe accounts appear in Fiskl Banking. You can connect multiple Stripe accounts, including accounts in different currencies.
 
-## What Happens Next
+## What Happens After Connecting
 
-After connecting Stripe, Fiskl begins importing your transaction history. The initial sync may take several minutes and display temporary warning icons while the system calculates account balances.
+Fiskl begins importing your transaction history immediately. The initial sync may take several minutes. You may see temporary warning icons while balances are being calculated — these clear once the sync is complete.
 
-### Automatic Payout Matching
+### Viewing transactions
 
-When you have both Stripe and your bank account connected to Fiskl Banking, the system automatically matches Stripe payouts to bank deposits. Fiskl creates internal transfer records linking these transactions, eliminating the need to manually reconcile each payout.
+Select **Transactions** on the Stripe account card to view imported activity. Alternatively, go to **Accounting** > **Chart of Accounts** and select the corresponding Stripe ledger account.
 
-This automation becomes increasingly valuable as payout frequency increases. Multiple payout accounts across different currencies are handled automatically without additional setup.
+Each ledger account corresponds to one Stripe payout bank account. If you have USD, EUR, and GBP payout accounts in Stripe, you see three separate ledger accounts in Fiskl. Transactions appear in the ledger account that matches the payout currency.
 
-### Viewing Your Transactions
+### Maintaining the connection
 
-To view imported transactions, select **Transactions** on the Stripe account card. Alternatively, navigate to **Chart of Accounts** and select the corresponding Stripe ledger account.
-
-Each ledger account corresponds to a payout bank account in Stripe. If you have USD, EUR, and GBP payout accounts in Stripe, you see three separate ledger accounts in Fiskl. Transactions appear in the ledger account that matches the payout currency, making it easy to track how funds flow through your different payout accounts.
-
-### Maintaining Your Connection
-
-Review your Stripe connection regularly to ensure accurate operation. Verify that transactions import correctly and categories are assigned appropriately. Check that automatic internal transfers link correctly to your bank deposits.
-
-Monitor the transaction feed for any sync errors or warnings. When you add new payout accounts in Stripe, Fiskl creates corresponding ledger accounts automatically within minutes. The system adapts to your Stripe configuration without requiring manual updates in Fiskl.
+Check that transactions are importing correctly and that categories are assigned as expected. When you add a new payout account in Stripe, Fiskl creates the corresponding ledger account automatically — no action is needed in Fiskl.
 
 :::info
-Connecting Stripe as a payment method for invoices is separate from this banking integration. See [Payment Gateways](/integrations/payments/overview.md) for invoice payment setup.
+Connecting Stripe as a payment method for invoices is separate from this banking integration. See [Payment Gateways](/integrations/payments/overview) for invoice payment setup.
 :::
 
 ## Common Issues
 
 <details>
-  <summary>How do I know which ledger account a transaction will appear in?</summary>
+<summary>How do I know which ledger account a transaction will appear in?</summary>
 
-Transactions appear in the ledger account that matches the Stripe payout account currency. For example, if a GBP customer pays a GBP invoice but you only have a USD payout account in Stripe, the transaction converts to USD and appears in your USD ledger account. Fiskl tracks the original currency and exchange rate, so the payment matches to the correct GBP invoice automatically.
+Transactions appear in the ledger account that matches the Stripe payout currency. For example, if a GBP customer pays a GBP invoice but you only have a USD payout account in Stripe, the transaction converts to USD and appears in the USD ledger account. Fiskl records the original currency and exchange rate, so the payment still matches to the correct GBP invoice.
 
-When you add a GBP payout account in Stripe later, Fiskl creates a GBP ledger account. Future GBP transactions flow into the GBP payout and appear in the GBP ledger account.
+When you add a GBP payout account in Stripe later, Fiskl creates a GBP ledger account and future GBP transactions flow into it.
+
 </details>
 
 <details>
-  <summary>Transactions not importing</summary>
+<summary>Transactions are not importing</summary>
 
-**Solution:**
-1. Verify your Stripe connection is active in **Banking** settings
-2. Check that you have permission to access the Stripe account
-3. Confirm the start date for imports is correct
+1. Go to **Banking** and confirm your Stripe connection shows as active
+2. Verify you have permission to access the Stripe account in question
+3. Check that the import start date is set correctly
 4. Try disconnecting and reconnecting your Stripe account
 
-If transactions still don't import, contact support with your Stripe account ID.
+If transactions still do not appear, contact support with your Stripe account ID.
+
 </details>
 
 <details>
-  <summary>Automatic internal transfers not creating</summary>
+<summary>Automatic internal transfers are not being created</summary>
 
-**Solution:**
-1. Verify both Stripe and your bank account are connected to Fiskl Banking
-2. Ensure payouts appear in both your Stripe account and bank account
-3. Check that payout amounts match between Stripe and your bank
-4. Allow up to 24 hours for automatic matching to occur
+1. Confirm both Stripe and your bank account are connected to Fiskl Banking
+2. Check that payouts appear in both your Stripe account and your bank account
+3. Verify that payout amounts match between Stripe and your bank
+4. Allow up to 24 hours for automatic matching to complete
 
-Manual matching is available if automatic transfer creation doesn't work.
+If automatic matching does not occur, you can create the internal transfer manually.
+
 </details>
 
 <details>
-  <summary>Balance warnings or errors</summary>
+<summary>Balance warnings or errors after connecting</summary>
 
-**Solution:**
+Temporary warning icons during the initial sync are normal while Fiskl calculates account balances. These typically resolve within a few minutes. If warnings persist after 30 minutes, check that your opening balance transaction is correct.
 
-Temporary warning icons during initial sync are normal while Fiskl calculates balances. These typically resolve within a few minutes. If warnings persist after 30 minutes, check that your Opening Balance transaction is correct.
 </details>
 
 ## Related Topics
 
-- [Fiskl Banking Overview](/integrations/banking/overview.md) - Learn about the complete banking feature
-- [Chart of Accounts](/accounting/chart-of-accounts) - Understand how ledger accounts work
-- [Internal Transfers](/accounting/journal-entries/guides/internal-transfers.md) - Manage transfers between accounts
-- [Payment Gateways](/integrations/payments/overview.md) - Set up Stripe for invoice payments
+- [Banking Overview](/integrations/banking/overview) — Introduction to Fiskl Banking and supported connections
+- [Payment Gateways](/integrations/payments/overview) — Set up Stripe to accept invoice payments (separate from this banking integration)
+- [Chart of Accounts](/accounting/chart-of-accounts) — Understand how ledger accounts are structured
+- [Internal Transfers](/accounting/journal-entries/guides/internal-transfers) — Manage transfers between accounts manually

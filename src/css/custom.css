@@ -1,191 +1,210 @@
 /**
  * Fiskl Docusaurus Theme
- * Aligned with dashboard color system (blue/indigo primary)
+ * Derived from the Fiskl dashboard token system (shadcn/oklch).
+ * Legibility first: body links use a darker primary step than the brand
+ * fill color so they pass WCAG AA on white.
+ *
+ * Inter is loaded as a variable font via headTags in docusaurus.config.ts —
+ * do not re-import it here.
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+/* ============================================================================
+   GLOBAL RENDERING
+   ============================================================================ */
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  /* cv11 = single-storey a, ss01 = open digits — the Inter alternates used
+     by Linear/Vercel-style UIs */
+  font-feature-settings: 'liga' 1, 'calt' 1, 'cv11' 1, 'ss01' 1;
+}
 
 /* ============================================================================
    COLOR TOKENS — Light Mode
    ============================================================================ */
 :root {
-  /* Primary: matches dashboard --primary ~oklch(60.06% 0.2248 257.64) */
-  --ifm-color-primary:         #4a7cff;
-  --ifm-color-primary-dark:    #2e66ff;
-  --ifm-color-primary-darker:  #1f59ff;
-  --ifm-color-primary-darkest: #0038e0;
-  --ifm-color-primary-light:   #6692ff;
-  --ifm-color-primary-lighter: #759fff;
-  --ifm-color-primary-lightest:#a8c1ff;
+  /* Raw Fiskl palette (dashboard-derived) */
+  --fiskl-fg:         oklch(0.1993 0.0541 272.68); /* ~15.6:1 on white */
+  --fiskl-muted-fg:   oklch(0.50 0.0425 263.39);   /* dashboard muted-fg darkened for AA */
+  --fiskl-border:     oklch(0.9283 0.0055 274.96);
+  --fiskl-surface:    oklch(0.9774 0.0042 236.5);
+  --fiskl-sidebar-bg: oklch(0.9846 0.0017 247.84);
+  --fiskl-card:       #ffffff;
+
+  /* Primary ramp — anchored on dashboard primary oklch(0.6006 0.2248 257.64) */
+  --ifm-color-primary:          oklch(0.6006 0.2248 257.64);
+  --ifm-color-primary-dark:     oklch(0.555 0.218 257.64);
+  --ifm-color-primary-darker:   oklch(0.52 0.205 257.64);  /* link color, ~5.4:1 */
+  --ifm-color-primary-darkest:  oklch(0.45 0.19 257.64);
+  --ifm-color-primary-light:    oklch(0.67 0.18 257.64);
+  --ifm-color-primary-lighter:  oklch(0.78 0.11 257.64);
+  --ifm-color-primary-lightest: oklch(0.92 0.045 257.64);
+
+  /* Neutrals */
+  --ifm-background-color: #ffffff;
+  --ifm-background-surface-color: var(--fiskl-sidebar-bg);
+  --ifm-font-color-base: var(--fiskl-fg);
+  --ifm-heading-color: var(--fiskl-fg);
+  --ifm-color-content-secondary: var(--fiskl-muted-fg);
+  --ifm-color-emphasis-100: var(--fiskl-surface);
+  --ifm-color-emphasis-200: var(--fiskl-border);
+  --ifm-color-emphasis-300: oklch(0.885 0.008 274.96);
+  --ifm-toc-border-color: var(--fiskl-border);
+  --ifm-hr-background-color: var(--fiskl-border);
+  --ifm-table-border-color: var(--fiskl-border);
+
+  /* Links: -darker step — brand primary at L=0.60 is only ~4.0:1 on white */
+  --ifm-link-color: var(--ifm-color-primary-darker);
+  --ifm-link-hover-color: var(--ifm-color-primary-darkest);
 
   /* Typography */
   --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
   --ifm-heading-font-family: 'Inter', system-ui, -apple-system, sans-serif;
-  --ifm-font-size-base: 94%;
+  --ifm-font-size-base: 93.75%; /* exactly 15px */
   --ifm-font-weight-base: 400;
   --ifm-heading-font-weight: 600;
+  --ifm-heading-line-height: 1.3;
   --ifm-line-height-base: 1.65;
   --ifm-font-weight-semibold: 500;
 
+  /* Layout */
+  --ifm-navbar-height: 3.5rem;
+  --ifm-navbar-padding-horizontal: 1.25rem;
+  --ifm-spacing-horizontal: 1.25rem;
+  --ifm-sidebar-width: 272px;
+
   /* Sidebar */
-  --ifm-menu-color:                    #374151;
-  --ifm-menu-color-active:             #4a7cff;
-  --ifm-menu-color-background-active:  #eef2ff;
-  --ifm-menu-color-background-hover:   #f5f7ff;
-  --ifm-sidebar-width:                 272px;
+  --ifm-menu-color: oklch(0.40 0.045 266);
+  --ifm-menu-color-active: var(--ifm-color-primary);
+  --ifm-menu-color-background-active: color-mix(in oklab, var(--ifm-color-primary) 9%, transparent);
+  --ifm-menu-color-background-hover: color-mix(in oklab, var(--ifm-color-primary) 5%, transparent);
 
   /* Misc */
-  --ifm-code-font-size: 93%;
-  --ifm-global-radius: 6px;
-  --docusaurus-highlighted-code-line-bg: rgba(74, 124, 255, 0.08);
+  --ifm-code-font-size: 87.5%;
+  --ifm-global-radius: 8px; /* dashboard --radius: 0.5rem */
+  --docusaurus-highlighted-code-line-bg: color-mix(in oklab, var(--ifm-color-primary) 9%, transparent);
 
-  --ifm-color-info:    var(--ifm-color-primary); /* Matches your platform blue */
+  /* Status (dashboard values) */
+  --ifm-color-info:    var(--ifm-color-primary);
   --ifm-color-success: oklch(0.6895 0.1494 162.47); /* --positive */
   --ifm-color-warning: oklch(0.6804 0.214 39.54);   /* --warning */
   --ifm-color-danger:  oklch(0.6537 0.2329 21.74);  /* --destructive */
 
-  /* Explicitly set the background tints using color-mix to avoid oklch rendering bugs */
-  --ifm-color-info-contrast-background:    color-mix(in oklch, var(--ifm-color-info) 10%, transparent);
-  --ifm-color-success-contrast-background: color-mix(in oklch, var(--ifm-color-success) 10%, transparent);
-  --ifm-color-warning-contrast-background: color-mix(in oklch, var(--ifm-color-warning) 10%, transparent);
-  --ifm-color-danger-contrast-background:  color-mix(in oklch, var(--ifm-color-danger) 10%, transparent);
+  /* Local-search plugin (published CSS custom properties) */
+  --search-local-modal-width: 480px;
+  --search-local-modal-background: #ffffff;
+  --search-local-hit-background: #ffffff;
+  --search-local-highlight-color: var(--ifm-color-primary);
+  --search-local-muted-color: var(--fiskl-muted-fg);
+  --search-local-input-active-border-color: var(--ifm-color-primary);
+  --search-local-icon-stroke-width: 1.5px;
+  --search-local-modal-shadow: 0 12px 32px rgba(15, 23, 42, 0.14), 0 0 0 1px var(--fiskl-border);
 }
 
 /* ============================================================================
    COLOR TOKENS — Dark Mode
    ============================================================================ */
 [data-theme='dark'] {
-  /* Primary */
-  --ifm-color-primary:         #7da4ff;
-  --ifm-color-primary-dark:    #5585ff;
-  --ifm-color-primary-darker:  #4478ff;
-  --ifm-color-primary-darkest: #1a55ff;
-  --ifm-color-primary-light:   #99b7ff;
-  --ifm-color-primary-lighter: #aac4ff;
-  --ifm-color-primary-lightest:#ccd9ff;
+  /* Raw Fiskl palette (dashboard dark tokens) */
+  --fiskl-fg:         oklch(0.927 0.01 256.712);
+  --fiskl-muted-fg:   oklch(0.714 0.02 261.331);
+  --fiskl-border:     oklch(0.314 0.031 264.939);
+  --fiskl-surface:    oklch(0.235 0.035 264.2);
+  --fiskl-sidebar-bg: oklch(0.172 0.028 264.4); /* one step below page bg */
+  --fiskl-card:       oklch(0.207 0.04 264.038);
 
-  /* Backgrounds — matches dashboard dark oklch(0.189 0.03 264.44) */
-  --ifm-background-color:         #1a1b26;
-  --ifm-background-surface-color: #20213050;
-  --ifm-navbar-background-color:  #1a1b26;
-  --ifm-footer-background-color:  #1a1b26;
+  /* Primary ramp — lifted lightness; dashboard 0.598 is too dark for dark-bg text */
+  --ifm-color-primary:          oklch(0.70 0.155 257.87); /* ~6.5:1 on bg */
+  --ifm-color-primary-dark:     oklch(0.655 0.18 257.87);
+  --ifm-color-primary-darker:   oklch(0.62 0.19 257.87);
+  --ifm-color-primary-darkest:  oklch(0.55 0.21 257.87);
+  --ifm-color-primary-light:    oklch(0.76 0.13 257.87);
+  --ifm-color-primary-lighter:  oklch(0.81 0.10 257.87);
+  --ifm-color-primary-lightest: oklch(0.88 0.06 257.87);
+
+  /* Neutrals */
+  --ifm-background-color: oklch(0.189 0.03 264.44); /* dashboard dark --background */
+  --ifm-background-surface-color: var(--fiskl-card);
+  --ifm-navbar-background-color: oklch(0.189 0.03 264.44);
+  --ifm-card-background-color: var(--fiskl-card);
+  --ifm-font-color-base: var(--fiskl-fg);
+  --ifm-heading-color: var(--fiskl-fg);
+  --ifm-font-color-secondary: var(--fiskl-muted-fg);
+  --ifm-color-content-secondary: var(--fiskl-muted-fg);
+  --ifm-color-emphasis-100: var(--fiskl-surface);
+  --ifm-color-emphasis-200: var(--fiskl-border);
+  --ifm-color-emphasis-300: oklch(0.37 0.03 264.9);
+  --ifm-toc-border-color: var(--fiskl-border);
+  --ifm-hr-background-color: var(--fiskl-border);
+  --ifm-table-border-color: var(--fiskl-border);
+
+  /* Links: lifted primary is already AA on the dark bg */
+  --ifm-link-color: var(--ifm-color-primary);
+  --ifm-link-hover-color: var(--ifm-color-primary-light);
 
   /* Sidebar */
-  --ifm-menu-color:                   #c9cde0;
-  --ifm-menu-color-active:            #7da4ff;
-  --ifm-menu-color-background-active: rgba(125, 164, 255, 0.12);
-  --ifm-menu-color-background-hover:  rgba(125, 164, 255, 0.06);
-
-  /* Borders & surfaces */
-  --ifm-color-emphasis-300: #2e3048;
-  --ifm-hr-background-color: #2e3048;
-  --ifm-table-border-color:  #2e3048;
-  --ifm-card-background-color: #202130;
-
-  /* Links */
-  --ifm-link-color:       #7da4ff;
-  --ifm-link-hover-color: #99b7ff;
+  --ifm-menu-color: oklch(0.80 0.015 260);
+  --ifm-menu-color-active: var(--ifm-color-primary);
+  --ifm-menu-color-background-active: color-mix(in oklab, var(--ifm-color-primary) 14%, transparent);
+  --ifm-menu-color-background-hover: color-mix(in oklab, var(--ifm-color-primary) 7%, transparent);
 
   /* Code */
-  --docusaurus-highlighted-code-line-bg: rgba(125, 164, 255, 0.12);
+  --docusaurus-highlighted-code-line-bg: color-mix(in oklab, var(--ifm-color-primary) 14%, transparent);
 
-  /* Alerts */
-  --ifm-color-success: #34d399;
-  --ifm-color-warning: #fbbf24;
-  --ifm-color-danger:  #f87171;
+  /* Status — lifted lightness for dark backgrounds */
+  --ifm-color-info:    var(--ifm-color-primary);
+  --ifm-color-success: oklch(0.72 0.15 162.47);
+  --ifm-color-warning: oklch(0.75 0.16 60);
+  --ifm-color-danger:  oklch(0.70 0.19 18);
 
-  /* Text */
-  --ifm-font-color-base:      #e2e4f0;
-  --ifm-font-color-secondary: #9095b0;
-
-  --ifm-color-info:    var(--ifm-color-primary); /* Matches your platform blue */
-  --ifm-color-success: oklch(66.53% 0.2059 160.61); /* --positive */
-  --ifm-color-warning: oklch(65.33% 0.1996 57.37);  /* --warning */
-  --ifm-color-danger:  oklch(0.649 0.241 14.681);   /* --destructive */
-
-  /* Slightly higher opacity (15%) for dark mode background visibility */
-  --ifm-color-info-contrast-background:    color-mix(in oklch, var(--ifm-color-info) 15%, transparent);
-  --ifm-color-success-contrast-background: color-mix(in oklch, var(--ifm-color-success) 15%, transparent);
-  --ifm-color-warning-contrast-background: color-mix(in oklch, var(--ifm-color-warning) 5%, transparent);
-  --ifm-color-danger-contrast-background:  color-mix(in oklch, var(--ifm-color-danger) 15%, transparent);
-  --ifm-color-warning-dark: #fbbf24;
+  /* Local-search plugin */
+  --search-local-modal-background: var(--fiskl-card);
+  --search-local-hit-background: var(--fiskl-card);
+  --search-local-hit-color: var(--fiskl-fg);
+  --search-local-modal-shadow: 0 12px 32px rgba(0, 0, 0, 0.5), 0 0 0 1px var(--fiskl-border);
 }
 
 /* ============================================================================
-   SIDEBAR
+   TYPOGRAPHY SCALE
+   theme-classic sets heading sizes at .markdown scope, so plain :root
+   overrides will not win — override at the same scope.
    ============================================================================ */
 
-/* Remove the default left border on active items, use our own */
-.menu__link--active:not(.menu__link--sublist) {
-  border-left: 2px solid var(--ifm-color-primary);
-  padding-left: calc(var(--ifm-menu-link-padding-horizontal) - 2px);
-  border-radius: 0 var(--ifm-global-radius) var(--ifm-global-radius) 0;
-  font-weight: 500;
+.markdown h1:first-child {
+  --ifm-h1-font-size: 1.875rem; /* 30px, down from 3rem */
+  margin-bottom: 1.25rem;
 }
 
-.menu__link {
-  font-size: 13.5px;
-  font-weight: 400;
-  border-radius: var(--ifm-global-radius);
-  transition: background 0.15s ease, color 0.15s ease;
-  padding: 5px 12px;
+.markdown > h2 {
+  --ifm-h2-font-size: 1.4375rem; /* 23px, down from 2rem */
+  margin-top: 2.75rem;
+  margin-bottom: 0.875rem;
 }
 
-.menu__link:hover {
-  text-decoration: none;
+.markdown > h3 {
+  --ifm-h3-font-size: 1.1875rem; /* 19px */
+  margin-top: 2rem;
+  margin-bottom: 0.625rem;
 }
 
-/* Category labels (collapsible headings) */
-.menu__link--sublist {
-  font-size: 13.5px;
-  font-weight: 500;
-  color: var(--ifm-menu-color);
-}
-
-/* The inline HTML section labels */
-.sidebar-section-label {
-  margin: 0 0 6px 10px;
-  font-size: 10.5px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.8px;
-  color: var(--ifm-color-primary);
-  opacity: 0.75;
-}
-
-/* ============================================================================
-   SIDEBAR SECTION DIVIDERS
-   Replace the raw HTML dividers in sidebars.ts with cleaner CSS
-   ============================================================================ */
-
-/* Target the html type sidebar items used as dividers */
-.menu__list-item:has(> div[style*="border-top"]) {
-  margin: 12px 0 !important;
-  pointer-events: none;
-}
-
-/* ============================================================================
-   NAVBAR
-   ============================================================================ */
-
-.navbar {
-  border-bottom: 1px solid var(--ifm-color-emphasis-300);
-  box-shadow: none;
-}
-
-.navbar__brand {
+.markdown > h4 {
+  --ifm-h4-font-size: 1rem;
   font-weight: 600;
 }
-.navbar__item{
-  font-weight: var(--ifm-font-weight-normal);
-}
 
-.navbar-language-picker{
-  font-weight: var(--ifm-font-weight-normal);
-}
+h1, h2 { letter-spacing: -0.022em; }
+h3 { letter-spacing: -0.014em; }
+h4 { letter-spacing: -0.006em; }
 
-.clean-btn {
-  color: var(--ifm-color-emphasis-700);
+.markdown > p,
+.markdown > ul,
+.markdown > ol {
+  margin-bottom: 0.875rem;
 }
 
 /* ============================================================================
@@ -193,68 +212,200 @@
    ============================================================================ */
 
 article {
-  /* Slightly tighter max-width for readability */
   max-width: 780px;
 }
 
-h1, h2, h3 {
-  letter-spacing: -0.02em;
-}
-
 /* ============================================================================
-   ADMONITIONS (note/tip/warning boxes)
+   NAVBAR
    ============================================================================ */
 
-.alert {
-  border-radius: 8px;
-  border-left-width: 3px;
+.navbar {
+  border-bottom: 1px solid var(--fiskl-border);
+  box-shadow: none;
 }
 
-/* ============================================================================
-   CODE BLOCKS
-   ============================================================================ */
-
-code {
-  border-radius: 4px;
-  font-size: 92%;
-  padding: 1px 5px;
-}
-
-/* ============================================================================
-   TABLES
-   ============================================================================ */
-
-table {
-  border-radius: 8px;
-  overflow: hidden;
-  font-size: 14px;
-}
-
-th {
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
+.navbar__brand {
   font-weight: 600;
 }
 
-/* ============================================================================
-   SCROLLBAR (webkit)
-   ============================================================================ */
-
-::-webkit-scrollbar { width: 6px; height: 6px; }
-::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb {
-  background: var(--ifm-color-emphasis-300);
-  border-radius: 3px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: var(--ifm-color-primary-lighter);
+.navbar__title {
+  font-weight: 500;
+  font-size: 0.9375rem;
+  letter-spacing: -0.01em;
 }
 
+.navbar__link {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--fiskl-muted-fg);
+}
+
+.navbar__link--active,
+.navbar__link:hover {
+  color: var(--ifm-font-color-base);
+}
+
+.navbar-language-picker {
+  font-weight: var(--ifm-font-weight-normal);
+}
+
+.clean-btn {
+  color: var(--ifm-color-emphasis-700);
+}
+
+/* "Go to App" CTA (className set in docusaurus.config.ts) */
+.navbar-cta-button {
+  background: var(--ifm-color-primary);
+  color: #fff;
+  border-radius: var(--ifm-global-radius);
+  padding: 6px 14px;
+  margin-left: 8px;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  transition: background 0.15s ease;
+}
+
+.navbar-cta-button:hover {
+  background: var(--ifm-color-primary-dark);
+  color: #fff;
+}
+
+/* Dark mode: the lifted text-primary (L=0.70) is too light behind white
+   text — use the dashboard dark primary as the fill instead */
+[data-theme='dark'] .navbar-cta-button,
+[data-theme='dark'] .fiskl-hero__actions .button--primary {
+  background: oklch(0.598 0.22 257.87);
+  border-color: oklch(0.598 0.22 257.87);
+  color: #fff;
+}
+
+[data-theme='dark'] .navbar-cta-button:hover,
+[data-theme='dark'] .fiskl-hero__actions .button--primary:hover {
+  background: oklch(0.55 0.21 257.87);
+  border-color: oklch(0.55 0.21 257.87);
+  color: #fff;
+}
+
 /* ============================================================================
-   ACCOUNTANT PORTAL — special sidebar category
+   SEARCH (@easyops-cn/docusaurus-search-local)
    ============================================================================ */
 
+.navbar__search-input {
+  background-color: var(--ifm-color-emphasis-100);
+  border: 1px solid var(--fiskl-border);
+  border-radius: var(--ifm-global-radius);
+  font-size: 0.8125rem;
+  width: 13rem;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.navbar__search-input:focus {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 0 0 3px color-mix(in oklab, var(--ifm-color-primary) 18%, transparent);
+}
+
+/* Search highlight marks — in dropdown results and on-page */
+mark {
+  background: color-mix(in oklab, var(--ifm-color-primary) 18%, transparent);
+  color: inherit;
+  border-radius: 2px;
+  padding: 0 1px;
+}
+
+/* ============================================================================
+   SIDEBAR
+   ============================================================================ */
+
+.theme-doc-sidebar-container {
+  background: var(--fiskl-sidebar-bg);
+}
+
+nav.menu {
+  padding: 0.75rem 0.625rem 2rem;
+}
+
+.menu__list-item:not(:first-child) {
+  margin-top: 1px;
+}
+
+.menu__link {
+  font-size: 0.8438rem; /* 13.5px */
+  font-weight: 400;
+  line-height: 1.4;
+  border-radius: var(--ifm-global-radius);
+  transition: background 0.15s ease, color 0.15s ease;
+  padding: 5px 12px;
+}
+
+.menu__list .menu__list .menu__link {
+  font-size: 0.8125rem; /* nested entries one notch smaller */
+}
+
+.menu__link:hover {
+  text-decoration: none;
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  border-left: 2px solid var(--ifm-color-primary);
+  padding-left: calc(var(--ifm-menu-link-padding-horizontal) - 2px);
+  border-radius: 0 var(--ifm-global-radius) var(--ifm-global-radius) 0;
+  font-weight: 500;
+}
+
+/* Category labels (collapsible headings) */
+.menu__link--sublist {
+  font-size: 0.8438rem;
+  font-weight: 500;
+  color: var(--ifm-menu-color);
+}
+
+/* Uppercase section labels (html items in sidebars.ts) */
+.sidebar-section-label {
+  margin: 0 0 6px 10px;
+  font-size: 10.5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--fiskl-muted-fg);
+}
+
+/* Section divider lines (html items in sidebars.ts) */
+.sidebar-divider {
+  margin: 1rem 0.625rem;
+  border-top: 1px solid var(--fiskl-border);
+}
+
+.menu__list-item:has(> .sidebar-divider),
+.menu__list-item:has(> .sidebar-section-label) {
+  pointer-events: none;
+}
+
+/* Cross-link card to the Atlas docs instance — primary-tinted so it stands
+   out from regular menu items */
+.sidebar-atlas-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.25rem 0.5rem 1rem;
+  padding: 0.625rem 0.75rem;
+  border-radius: var(--ifm-global-radius);
+  border: 1px solid color-mix(in oklab, var(--ifm-color-primary) 30%, transparent);
+  background: color-mix(in oklab, var(--ifm-color-primary) 10%, var(--ifm-background-color));
+  color: var(--ifm-link-color);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.sidebar-atlas-link:hover {
+  text-decoration: none;
+  color: var(--ifm-link-color);
+  background: color-mix(in oklab, var(--ifm-color-primary) 16%, var(--ifm-background-color));
+  border-color: color-mix(in oklab, var(--ifm-color-primary) 50%, transparent);
+}
+
+/* Accountant Portal — special sidebar category */
 .sidebar-portal-category > .menu__link {
   color: var(--ifm-color-primary);
   font-weight: 600;
@@ -264,40 +415,17 @@ th {
   color: var(--ifm-color-primary-lighter);
 }
 
-/* ============================================================================
-   NAVBAR — brand title refinement
-   The title renders inside a <b> tag; override to medium weight
-   ============================================================================ */
-
-.navbar__title {
-  font-weight: 500;
-  font-size: 0.9375rem;
-  letter-spacing: -0.01em;
-}
-
-/* ============================================================================
-   SIDEBAR — section divider lines
-   The inline HTML dividers use border-top: 2px; pull them back to 1px
-   ============================================================================ */
-
-.menu__list-item:has(> div[style*="border-top"]) > div {
-  border-top-width: 1px !important;
-  opacity: 0.55;
-}
-
-/* ============================================================================
-   SIDEBAR — caret / expand chevron
-   The default is a filled path icon which looks heavy.
-   Replace with a stroke-based chevron (stroke-width 1.5) and mute opacity.
-   The dark-mode invert filter still applies automatically since stroke is #000.
-   ============================================================================ */
-
+/* Expand chevron: stroke-based, muted (default filled icon looks heavy).
+   Dark-mode invert filter still applies since stroke is #000.
+   Infima paints this icon at 2rem inside a 1.25rem box — shrink the
+   background-size so the chevron sits proportionally in the new menu scale. */
 :root {
-  --ifm-menu-link-sublist-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none'%3E%3Cpath stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 15l6-6 6 6'/%3E%3C/svg%3E");
+  --ifm-menu-link-sublist-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none'%3E%3Cpath stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.25' d='M6 15l6-6 6 6'/%3E%3C/svg%3E");
 }
 
 .menu__caret::before,
 .menu__link--sublist-caret::after {
+  background-size: 1rem 1rem;
   opacity: 0.4;
   transition: opacity 0.15s ease;
 }
@@ -308,24 +436,132 @@ th {
 }
 
 /* ============================================================================
-   TABLE OF CONTENTS (right column)
+   ADMONITIONS — flat tinted style, no heavy left bar
+   Note: [class*='admonitionHeading'] targets a CSS-module class; stable
+   across Docusaurus 3.x, re-verify on upgrades.
    ============================================================================ */
 
-.table-of-contents {
-  font-size: 12.5px;
-  border-left-color: var(--ifm-color-emphasis-200);
+.theme-admonition {
+  border: 1px solid color-mix(in oklab, var(--ifm-alert-border-color) 30%, transparent);
+  border-left-width: 1px;
+  border-radius: var(--ifm-global-radius);
+  box-shadow: none;
+  padding: 0.875rem 1rem;
+  font-size: 0.875rem;
+  background: color-mix(in oklab, var(--ifm-alert-border-color) 6%, var(--ifm-background-color));
 }
 
-.table-of-contents__link {
-  color: var(--ifm-menu-color);
-  transition: color 0.15s ease;
+[data-theme='dark'] .theme-admonition {
+  background: color-mix(in oklab, var(--ifm-alert-border-color) 10%, var(--ifm-background-color));
 }
 
-.table-of-contents__link--active,
-.table-of-contents__link:hover {
-  color: var(--ifm-color-primary);
+.theme-admonition [class*='admonitionHeading'] {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  text-transform: none;
+  margin-bottom: 0.375rem;
+}
+
+.theme-admonition [class*='admonitionHeading'] svg {
+  height: 1rem;
+  width: 1rem;
+}
+
+/* ============================================================================
+   CODE
+   ============================================================================ */
+
+code {
+  background: var(--ifm-color-emphasis-100);
+  border: 1px solid var(--fiskl-border);
+  border-radius: 5px;
+  padding: 0.0625rem 0.3125rem;
+  font-size: 0.8125em;
+}
+
+/* [class*='codeBlock…'] targets CSS-module classes; stable across 3.x */
+div[class*='codeBlockContainer'] {
+  border: 1px solid var(--fiskl-border);
+  border-radius: var(--ifm-global-radius);
+  box-shadow: none;
+}
+
+div[class*='codeBlockTitle'] {
+  font-size: 0.75rem;
   font-weight: 500;
-  text-decoration: none;
+  color: var(--fiskl-muted-fg);
+  background: var(--ifm-color-emphasis-100) !important;
+  border-bottom: 1px solid var(--fiskl-border);
+}
+
+pre code {
+  font-size: 0.8125rem;
+  line-height: 1.6;
+}
+
+/* ============================================================================
+   TABLES & RULES
+   ============================================================================ */
+
+table {
+  border-radius: var(--ifm-global-radius);
+  overflow: hidden;
+  font-size: 0.875rem;
+}
+
+th {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-weight: 600;
+  background: var(--ifm-color-emphasis-100);
+}
+
+td, th {
+  padding: 0.5rem 0.75rem;
+}
+
+hr {
+  height: 1px;
+}
+
+/* ============================================================================
+   CARDS & PAGINATION
+   ============================================================================ */
+
+.card {
+  border: 1px solid var(--fiskl-border);
+  border-radius: 10px;
+  box-shadow: none;
+  background: var(--fiskl-card);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card:hover {
+  border-color: color-mix(in oklab, var(--ifm-color-primary) 45%, var(--fiskl-border));
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.06);
+}
+
+.pagination-nav__link {
+  border: 1px solid var(--fiskl-border);
+  border-radius: 10px;
+  transition: border-color 0.15s ease;
+}
+
+.pagination-nav__link:hover {
+  border-color: var(--ifm-color-primary-light);
+}
+
+.pagination-nav__sublabel {
+  font-size: 10.5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.55;
+}
+
+.pagination-nav__label {
+  font-size: 0.875rem;
 }
 
 /* ============================================================================
@@ -340,18 +576,150 @@ th {
   font-weight: 400;
 }
 
+.breadcrumbs__item--active .breadcrumbs__link {
+  background: none;
+  color: var(--ifm-font-color-base);
+  font-weight: 500;
+}
+
 /* ============================================================================
-   PAGINATION NAV (Previous / Next at page bottom)
+   TABLE OF CONTENTS (right column)
    ============================================================================ */
 
-.pagination-nav__sublabel {
-  font-size: 10.5px;
+.table-of-contents {
+  font-size: 12.5px;
+  border-left-color: var(--fiskl-border);
+}
+
+.table-of-contents__link {
+  color: var(--ifm-menu-color);
+  transition: color 0.15s ease;
+  padding: 0.125rem 0;
+}
+
+.table-of-contents__link--active,
+.table-of-contents__link:hover {
+  color: var(--ifm-color-primary);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+/* ============================================================================
+   FOOTER (config footer.style: 'light'; tokens handle dark mode)
+   ============================================================================ */
+
+.footer {
+  background: var(--ifm-background-surface-color);
+  border-top: 1px solid var(--fiskl-border);
+  padding: 3rem 0 2rem;
+}
+
+.footer__title {
+  font-size: 0.8125rem;
   font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
+  color: var(--ifm-font-color-base);
+  margin-bottom: 0.75rem;
+}
+
+.footer__link-item {
+  font-size: 0.8438rem;
+  color: var(--fiskl-muted-fg);
+  line-height: 2;
+}
+
+.footer__link-item:hover {
+  color: var(--ifm-link-color);
+  text-decoration: none;
+}
+
+.footer__copyright {
+  font-size: 0.8125rem;
+  color: var(--fiskl-muted-fg);
+  margin-top: 2rem;
+}
+
+/* ============================================================================
+   HOMEPAGE HERO (markup lives in docs/intro.md)
+   ============================================================================ */
+
+.fiskl-hero {
+  position: relative;
+  padding: 2.5rem 0 2rem;
+}
+
+.fiskl-hero::before {
+  content: '';
+  position: absolute;
+  inset: -3rem -10rem 0;
+  pointer-events: none;
+  z-index: -1;
+  background:
+    radial-gradient(560px 280px at 18% 0%, color-mix(in oklab, #01ccec 14%, transparent), transparent 70%),
+    radial-gradient(560px 280px at 82% 8%, color-mix(in oklab, #0080ff 12%, transparent), transparent 70%);
+}
+
+[data-theme='dark'] .fiskl-hero::before {
   opacity: 0.55;
 }
 
-.pagination-nav__label {
+.fiskl-hero__title {
+  font-size: 2.125rem;
+  font-weight: 650;
+  letter-spacing: -0.025em;
+  line-height: 1.15;
+  margin-bottom: 0;
+}
+
+/* Brand gradient on a single accent word only — never the whole headline */
+.fiskl-hero__accent {
+  background: linear-gradient(90deg, #00e89d, #01ccec, #0080ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.fiskl-hero__subtitle {
+  font-size: 1.0625rem;
+  color: var(--fiskl-muted-fg);
+  max-width: 560px;
+  margin-top: 0.75rem;
+  margin-bottom: 0;
+}
+
+.fiskl-hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.fiskl-hero__actions .button {
   font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.fiskl-hero__actions .button--outline {
+  border: 1px solid var(--fiskl-border);
+  color: var(--ifm-font-color-base);
+}
+
+.fiskl-hero__actions .button--outline:hover {
+  border-color: color-mix(in oklab, var(--ifm-color-primary) 45%, var(--fiskl-border));
+  background: var(--ifm-color-emphasis-100);
+  color: var(--ifm-font-color-base);
+}
+
+/* ============================================================================
+   SCROLLBAR (webkit)
+   ============================================================================ */
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: var(--ifm-color-emphasis-300);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--ifm-color-primary-lighter);
 }

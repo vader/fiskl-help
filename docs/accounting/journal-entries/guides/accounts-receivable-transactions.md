@@ -2,8 +2,7 @@
 title: "Working with Accounts Receivable"
 description: "Learn how Fiskl tracks Accounts Receivable for invoices and manual transactions, including partial payments and multi-currency splits."
 keywords: ["accounts receivable", "AR", "invoicing", "partial payments", "multi-currency", "accrual accounting"]
-sidebar_position: 12
-slug: /core-features/accounting/journal-entries/guides/accounts-receivable-transactions
+sidebar_position: 3
 tags:
   - Accounting
   - Journal Entry
@@ -11,19 +10,15 @@ toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
-
 This guide explains how Accounts Receivable (AR) works in Fiskl — how it's created automatically for invoices, how to record manual AR transactions, and how to manage partial payments.
 
 :::tip
 You can ask **Fi**, Fiskl's AI advisor, questions about your AR balance, overdue invoices, or outstanding payments at any time. Select **Fi** in the top right of the screen to get started.
 :::
 
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
-
 ## Before You Begin
 
-- Familiarise yourself with [accounting fundamentals](/glossary/accounting-fundamentals)
+- Familiarise yourself with [accrual accounting basics](/glossary/accounting-fundamentals)
 - Ensure your base currency is set in [Company Settings](/settings/company-settings)
 
 ## What Is Accounts Receivable
@@ -47,11 +42,10 @@ Proper AR management helps you:
 
 Fiskl automates AR management for invoices and their payments:
 
-1. **Invoice creation** — Each time you send an invoice, Fiskl automatically creates an AR record. This entry is an asset representing the income you expect to receive from your client.
-2. **Receiving payments** — When you receive a payment for an invoice, whether partial or in full, Fiskl automatically updates the AR transactions to reflect the payment and reduces the outstanding balance.
-3. **Bank account matching** — When transactions arrive via your connected bank feed, Fiskl's AI-powered automatch attempts to automatically match incoming payments to the corresponding invoice, reconciling the AR entry against your bank account.
+1. **Invoice sent** — Each time you send an invoice, Fiskl automatically creates an AR record. This entry is an asset representing the income you expect to receive from your client.
+2. **Payment matching** — When a bank transaction is matched to an invoice — either automatically via Fiskl's AI-powered automatch or manually in Banking — Fiskl updates the AR record to reflect the payment and reduces the outstanding balance.
 
-This automation keeps your AR up to date and accurately reflects outstanding client payments as bank transactions come in.
+This automation keeps your AR up to date and accurately reflects outstanding client payments as bank transactions are matched.
 
 ## Recording Manual AR Transactions
 
@@ -76,7 +70,7 @@ You can view your Accounts Receivable transactions in several ways:
 - In the left sidebar, select **Accounting** > **Chart of Accounts**, then select **Accounts Receivable**
 - In the left sidebar, select **Accounting** > **Reports**, then select [Balance Sheet](/reporting/balance-sheet) and enable the detailed option
 - In the left sidebar, select **Accounting** > **Reports**, then select [Transactions by Account](/reporting/transactions-by-account)
-- In the left sidebar, select **Accounting** > **Reports**, then select **Trial Balance**
+- In the left sidebar, select **Accounting** > **Reports**, then select [Trial Balance](/core-features/accounting/reports/trial-balance)
 
 ## Understanding AR Transaction Types
 
@@ -181,9 +175,9 @@ AR transactions for invoices are created automatically but may not appear immedi
 
 ## Related Topics
 
-- [Working with Accounts Payable](/core-features/accounting/journal-entries/guides/accounts-payable-transactions) — Manage money your business owes to vendors
-- [Matching and Splitting Transactions](/core-features/accounting/journal-entries/guides/match-and-split-transactions) — Match bank transactions to invoices and expenses
-- [Multi-Currency Transactions](/core-features/accounting/journal-entries/guides/multi-currency-transactions) — Record and reconcile transactions in foreign currencies
+- [Working with Accounts Payable](/accounting/journal-entries/guides/accounts-payable-transactions) — Manage money your business owes to vendors
+- [Matching and Splitting Transactions](/accounting/journal-entries/guides/match-and-split-transactions) — Match bank transactions to invoices and expenses
+- [Multi-Currency Transactions](/accounting/journal-entries/guides/multi-currency-transactions) — Record and reconcile transactions in foreign currencies
 - [Balance Sheet](/reporting/balance-sheet) — View your assets, liabilities, and equity at a point in time
 - [Transactions by Account](/reporting/transactions-by-account) — Review all transactions for a specific ledger account
-- [Fi — Your AI Advisor](/ai/fi) — Ask Fi questions about your AR balance, overdue invoices, and cash flow
+- [Fi — Fiskl's AI Advisor](/ai/fi) — Ask Fi questions about your AR balance, overdue invoices, and cash flow

@@ -1,97 +1,118 @@
 ---
-title: GoCardless
-sidebar_position: 4
-description: Simplify recurring payments with Fiskl-GoCardless integration. Automate direct debits for smoother billing and improved cash flow.
-keywords: ["GoCardless integration Fiskl", "direct debit payments", "automated billing", "payment processing"]
+title: "GoCardless Integration"
+description: "Connect GoCardless to Fiskl to collect Direct Debit and Instant Bank Pay payments on invoices. Automate recurring payments and reduce late payments."
+keywords: ["GoCardless", "direct debit", "automated payments", "payment integration", "recurring invoices", "Instant Bank Pay"]
+sidebar_position: 2
 slug: /integrations/payments/gocardless
-toc_min_heading_level: 2
-toc_max_heading_level: 4
 tags:
   - Integrations
-  - Payment gateways
-  - GoCardless
+  - Payments
+toc_min_heading_level: 2
+toc_max_heading_level: 3
 ---
 
-Connecting GoCardless to Fiskl transforms how you collect payments, especially for businesses with recurring client invoices. This integration simplifies the process of setting up automated payments via Direct Debit, improving your cash flow and reducing late payments.
+import TOCInline from '@theme/TOCInline';
 
-Learn more about [GoCardless](https://gocardless.com/) and their [Fees](#what-are-the-fees).
+This guide explains how to connect GoCardless to Fiskl, collect payments on invoices, and manage the integration.
 
-## Benefits and Use Cases
+<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
-- **Automated payments**: Set up Direct Debits for recurring invoices or payment schedules
-- **International support**: Collect payments in over 30 countries and multiple currencies
-- **Improved cash flow**: Reduce late payments with automated collection
-- **Currency flexibility**: Collect in your customer's currency and settle in your own
+## Before You Begin
 
-### GoCardless is Particularly Suited for?
+You need an active GoCardless account before connecting. If you don't have one, you can create it during the connection process in Fiskl.
 
-[//]: # (- Regular payments &#40;e.g., subscriptions, recurring services, payment schedules&#41; and integrates well with [Fiskl Recurring Invoices]&#40;../../Core-Features/Invoicing/Recurring%20Invoices/creating-recurring-invoices.md&#41;)
-- Customers with ongoing relationships
-- Service invoicing (e.g., consultancy, professional services)
+:::info
+GoCardless account approval is not instant. Allow time for GoCardless to review your application before you can collect payments.
+:::
 
-It's less suitable for:
+## Benefits
 
-- Transactions requiring instant clearing
-- High-value, one-off payments
+Connecting GoCardless to Fiskl lets you:
 
-## How it Works and Payment Types
+- Collect Direct Debit payments on recurring invoices and payment schedules
+- Accept payments in over 30 countries and multiple currencies
+- Reduce late payments through automated collection
+- Collect in your client's currency and settle in your own
 
-When you connect GoCardless to Fiskl:
+GoCardless works best for clients with ongoing relationships — for example, consultancy or professional services. It is less suited to one-off, high-value, or instant-clearing transactions.
 
-1. Fiskl integrates with your GoCardless account for seamless payment collection
-1. You set up automated Direct Debit payments for your invoices
-1. Customers authorize payments once, allowing for automatic future collections
-1. Fiskl monitors payment statuses and updates invoice information accordingly
+## Payment Types
 
-GoCardless offers two main payment types:
+GoCardless offers two payment types in Fiskl.
 
-1. **Direct Debit**: For recurring or one-off payments:
-    - Create an invoice in Fiskl with GoCardless as the payment option
-    - Your customer completes the bank debit form (first time only)
-    - Fiskl notifies you when the customer mandate is authorized
-    - For subsequent invoices, payments are collected automatically
+**Direct Debit** — for recurring or one-off payments:
 
-2. **Instant Bank Pay** (UK only): Uses Open Banking for immediate bank-to-bank payments:
-    - Available alongside Direct Debit for UK customers
-    - Ideal for first payments in recurring invoices or payment schedules
-    - Subsequent payments use the established Direct Debit mandate
+1. Create an invoice in Fiskl and select GoCardless as the payment method.
+2. Your client completes the bank debit authorisation form on their first payment.
+3. Fiskl notifies you when the client's mandate is authorised.
+4. Subsequent invoices under the same mandate are collected automatically.
 
-## Connecting GoCardless to Fiskl
+**Instant Bank Pay** (UK only) — uses Open Banking for immediate bank-to-bank transfers:
 
-1. Select Integrations from the left menu and choose "Connect to GoCardless"
-1. Complete the GoCardless Account Activation form and create your account
-1. Wait for account approval (You'll be notified of any status changes)
+- Available alongside Direct Debit for UK clients.
+- Suited to first payments on recurring invoices or payment schedules.
+- Subsequent payments use the established Direct Debit mandate.
+
+## Connect GoCardless to Fiskl
+
+1. Go to **Integrations** in the left menu.
+2. Select **Connect to GoCardless**.
+3. Complete the GoCardless account activation form, or sign in to your existing account.
+4. Wait for GoCardless to approve your account. Fiskl notifies you of any status changes.
 
 ## Payment Timings and Limits
 
-- Funds are typically paid out two working days after collection
-- Transaction limits vary by country (e.g., £5000 for UK, $5000 for US)
+Funds are typically paid out two working days after collection. Transaction limits vary by country — for example, £5,000 for the UK and $5,000 for the US.
+
+You can see your estimated payout in your GoCardless dashboard. Fiskl links directly to the relevant payment from within the app.
+
+## Disconnect GoCardless
+
+There are two ways to remove the integration:
+
+- In Fiskl, go to **Integrations** and select the delete icon next to the action button on the GoCardless card.
+- In GoCardless, disconnect Fiskl from within your GoCardless account settings.
+
+## Common Issues
+
+<details>
+<summary>My client has not received the payment authorisation form</summary>
+
+Check the invoice was sent successfully and that the client's email address is correct. You can resend the invoice from **Invoicing** > **Invoices**. If the issue persists, ask the client to check their spam folder.
+
+</details>
+
+<details>
+<summary>My GoCardless account is not approved yet</summary>
+
+GoCardless reviews new accounts before allowing payment collection. You will receive a notification once approved. Contact GoCardless support if approval is taking longer than expected.
+
+</details>
 
 ## FAQs
 
-### How does my customer authorize a payment?
-Your customer only needs to authorize the first payment. Subsequent invoices will be paid automatically under the same mandate.
+### Does my client need to authorise every payment?
 
-### When do I receive my payment?
-GoCardless typically pays out funds to your bank account two working days after collection from your customer. You can see your estimated pay-out in your GoCardless dashboard which you can link to directly from the payment in Fiskl.
+No. Your client authorises the mandate once on their first payment. All subsequent invoices under the same mandate are collected automatically.
 
-### Can I collect payments in different currencies?
-Yes, GoCardless supports multiple currencies including GBP, EUR, USD, SEK, DKK, AUD, NZD, and CAD.
+### Which currencies does GoCardless support?
 
-### What are the fees?
+GoCardless supports GBP, EUR, USD, SEK, DKK, AUD, NZD, and CAD.
 
-See GoCardless' detailed up-to-date information on [GoCardless pricing](https://gocardless.com/pricing/).
-Note: Unlike other platforms, Fiskl does **not** add any additional fees.
+### What fees does GoCardless charge?
 
-For international payments, visit the [GoCardless international payments](https://gocardless.com/international-payments) page.
+See [GoCardless pricing](https://gocardless.com/pricing/) for current fee information. Fiskl does not add any additional fees on top of GoCardless charges.
 
 :::tip
-Use the [GoCardless calculator](https://gocardless.com/pricing/) to understand the fee structure. Pay attention to invoices over $2000 as an additional fee is added.
+Use the GoCardless pricing calculator to understand your fee structure. Invoices over $2,000 may incur an additional fee.
 :::
 
-## Disconnecting GoCardless for Fiskl
+For international payments, see the [GoCardless international payments](https://gocardless.com/international-payments) page.
 
-There are two ways to disconnect GoCardless from Fiskl:
+## Related Topics
 
-1. In Fiskl, go to the `Integrations` page and select the X on the connected GoCardless card
-1. You can also disconnect Fiskl from within GoCardless
+- [Payment Integrations](/integrations/payments/overview) — Overview of all payment options available in Fiskl
+- [Stripe Integration](/integrations/payments/stripe) — Connect Stripe for card payments on invoices
+- [PayPal Integration](/integrations/payments/paypal) — Connect PayPal for online payments on invoices
+- [Creating Invoices](/invoicing/creating-invoices) — Add a payment method when creating an invoice
+- [Recurring Invoices](/invoicing/create-recurring-invoices) — Automate invoice creation for ongoing clients

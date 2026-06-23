@@ -1,166 +1,66 @@
 ---
 title: "Support"
-description: "Get help with Fiskl through our AI advisor, live chat, email support, and comprehensive help documentation. We're here to help you succeed."
-keywords: ["support", "help", "contact", "assistance", "customer service", "Fi AI advisor"]
+description: "Get help with Fiskl through Ask Fi AI, live chat, email support, and comprehensive help documentation."
+keywords: ["support", "help", "contact", "Ask Fi AI", "live chat", "email support"]
 sidebar_position: 1
+toc_min_heading_level: 2
+toc_max_heading_level: 2
 ---
 
-# Get Support
+This guide covers the support options available to you in Fiskl.
 
-We're committed to helping you succeed with Fiskl. Whether you need quick answers or personalized assistance, we have multiple ways to support you.
+## Ask Fi AI
 
----
+Fi is your AI CFO. It provides instant answers to your accounting questions, walks you through any feature, and helps you resolve issues — any time.
 
-## Support Options
+Fi can help you with:
 
-### Fi - Your AI Advisor
+- Accounting questions and feature explanations
+- Step-by-step guidance through any workflow
+- Troubleshooting issues instantly
 
-Fi, our intelligent AI assistant, provides instant answers to your questions 24/7. Available directly in your Fiskl account, Fi can help you with:
+To get started, select **Ask Fi** — available throughout the platform.
 
-- Feature explanations and how-to guidance
-- Troubleshooting common issues
-- Account and billing questions
-- Navigation and workflow suggestions
+### AI Analysis by Fi
 
-**Access Fi:** Select the **Fi** icon in the bottom-right corner of your Fiskl dashboard.
+For deeper insight into your business, select **AI Analysis by Fi** on your dashboard home page. Fi analyses your full account and provides a complete financial overview with insights, trends, and recommendations across all areas of your business.
 
 :::tip
-Fi learns from our complete help documentation and can provide personalized guidance based on your account context.
+Fi understands your account context and learns from your usage patterns, so its guidance is relevant to your specific setup.
 :::
 
----
+## Help documentation
 
-### Live Chat Support
+The help centre contains detailed feature guides, video tutorials, and a searchable knowledge base covering all aspects of Fiskl.
 
-Need to speak with a real person? Our support team is available through live chat to provide personalized assistance.
+Select **Browse Docs** on the help screen, or visit [help.fiskl.com](https://help.fiskl.com) directly.
 
-**When to use live chat:**
-- Complex technical issues
-- Account-specific questions
-- Billing and subscription inquiries
-- Integration troubleshooting
+## Live chat support
 
-**Access live chat:** Select the chat icon in your Fiskl dashboard or visit our help center.
+Live chat connects you with the Fiskl support team in real time during business hours.
 
-**Response times:**
-- Typically within a few minutes during business hours
-- Slightly longer during peak times or outside business hours
+Live chat includes:
 
----
+- Real-time assistance from a human support agent
+- Expert guidance on your specific situation
 
-### Email Support
+To start a conversation, go to [**Help**](https://app.fiskl.com/dashboard/help) and select **Start Chat**.
 
-For detailed inquiries, documentation requests, or non-urgent matters, reach us via email:
+## Email support
 
-**Email:** [support@fiskl.com](mailto:support@fiskl.com)
+For detailed enquiries, send a message and the team will respond within 24 hours. You can attach screenshots to help explain your issue.
 
-**Best for:**
-- Detailed technical questions requiring documentation
-- Feature requests and feedback
-- Account management issues
-- Security and compliance inquiries
+To send an email, go to [**Help**](https://app.fiskl.com/dashboard/help) and select **Send Email**.
 
-**Response time:** We aim to respond within 24 hours on business days.
+## Community Forum
 
----
-
-### Help Center
-
-Explore our comprehensive documentation covering all aspects of Fiskl:
-
-- **Getting Started Guides** - New to Fiskl? Start here
-- **Feature Documentation** - Detailed guides for all features
-- **Video Tutorials** - Visual walkthroughs
-- **Troubleshooting** - Solutions to common issues
-- **API Documentation** - For developers and integrations
-
-**Visit our Help Center:** [help.fiskl.com](https://help.fiskl.com)
-
----
-
-## Coming Soon: Fiskl Community
-
-We're building a space where Fiskl users can connect, share insights, and learn from each other. The Fiskl Community will feature:
-
-- Peer-to-peer support and discussions
-- Best practices from experienced users
-- Product updates and announcements
-- Feature requests and voting
-- Expert tips from the Fiskl team
-
-**Stay tuned:** We'll announce the community launch via email and in-app notifications.
-
----
-
-## Emergency Support
-
-For critical issues affecting your business operations:
-
-1. **Try Fi first** - Our AI advisor can often resolve urgent issues immediately
-2. **Use live chat** - Connect with our team for real-time assistance
-3. **Email support@fiskl.com** - Include "URGENT" in the subject line
-
----
-
-## Support for Enterprise Customers
-
-Enterprise plan customers receive priority support with:
-
-- Dedicated account manager
-- Priority response times
-- Direct phone support
-- Custom onboarding and training
-- Quarterly business reviews
-
-**Contact your account manager** or email [enterprise@fiskl.com](mailto:enterprise@fiskl.com)
-
----
-
-## System Status
-
-Check the current operational status of Fiskl services:
-
-**Status page:** [status.fiskl.com](https://status.fiskl.com)
-
-Subscribe to updates to receive notifications about:
-- Scheduled maintenance
-- Service disruptions
-- Incident reports and resolutions
-
----
-
-## Additional Resources
-
-### Security and Compliance
-
-For security-related inquiries, vulnerability reports, or compliance documentation:
-
-**Email:** [security@fiskl.com](mailto:security@fiskl.com)
-
-**Compliance information:** Visit [fiskl.com/legal](https://fiskl.com/legal) for:
-- Terms of Service
-- Privacy Policy
-- Data Processing Agreement (DPA)
-- Security whitepaper
-- Compliance certifications
-
-### Partnership and Integrations
-
-Interested in partnering with Fiskl or building integrations?
-
-**Email:** [partners@fiskl.com](mailto:partners@fiskl.com)
-
----
-
-## We're Here to Help
-
-Your success is our priority. Don't hesitate to reach out - whether through Fi, live chat, or email. We're committed to providing the support you need to get the most out of Fiskl.
+The Community Forum is coming soon. It will let you connect with other Fiskl users, share tips, discuss best practices, and submit feature requests.
 
 :::info
-**Response Time Commitment**
+For the fastest response, start with **Ask Fi**. Fi handles most common questions instantly and will direct you to the right resource if needed.
+:::
 
-- **Fi (AI Advisor)**: Instant responses 24/7
-- **Live Chat**: Typically within minutes during business hours
-- **Email**: Within 24 hours on business days
-- **Enterprise Support**: Priority handling per SLA
-  :::
+## Related topics
+
+- [Fi AI advisor](/ai/overview) — Learn more about what Fi can do
+- [Plans and billing](/plans-billing/overview) — Manage your subscription and billing details
