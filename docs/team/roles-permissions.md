@@ -4,7 +4,6 @@ description: Understand the five user roles in Fiskl and what permissions each
   role grants for effective team collaboration.
 sidebar_position: 2
 ---
-> Role an permissions are changing to full RBAC in an upcoming release
 
 # User Roles and Permissions
 
