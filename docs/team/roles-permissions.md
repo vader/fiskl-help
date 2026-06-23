@@ -1,9 +1,10 @@
 ---
-title: "User Roles and Permissions"
-description: "Understand the five user roles in Fiskl and what permissions each role grants for effective team collaboration."
-keywords: ["user roles", "permissions", "access control", "owner", "admin", "billing user", "accountant"]
+title: User Roles and Permissions
+description: Understand the five user roles in Fiskl and what permissions each
+  role grants for effective team collaboration.
 sidebar_position: 2
 ---
+> Role an permissions are changing to full RBAC in an upcoming release
 
 # User Roles and Permissions
 
@@ -14,6 +15,7 @@ This guide explains the five user roles in Fiskl and the specific permissions ea
 Fiskl uses role-based access control to manage what team members can see and do. Each role grants a specific set of permissions designed for common business functions.
 
 **Why roles matter:**
+
 - Protect sensitive financial information
 - Prevent accidental changes to accounting records
 - Enable delegation without compromising security
@@ -27,6 +29,7 @@ Fiskl uses role-based access control to manage what team members can see and do.
 The Owner is the account creator and has complete control over the Fiskl account.
 
 **Full permissions:**
+
 - All features and data access
 - Manage subscriptions and billing
 - Invite, modify, and remove all users
@@ -37,12 +40,14 @@ The Owner is the account creator and has complete control over the Fiskl account
 - Export all data
 
 **Unique capabilities:**
+
 - Only role that can delete the entire account
 - Only role that can change subscription plans
 - Only role that can update payment methods
 - Can transfer ownership to another user
 
 **Limitations:**
+
 - Only one Owner per account
 - Cannot be deactivated (only transferred)
 
@@ -54,6 +59,7 @@ The business founder or primary decision-maker who manages subscriptions and ove
 Admins have nearly the same access as Owners but cannot manage subscriptions or billing.
 
 **Full permissions:**
+
 - All features except subscription/billing
 - Invite and manage all users (except Owner modifications)
 - Access all financial records and reports
@@ -64,12 +70,14 @@ Admins have nearly the same access as Owners but cannot manage subscriptions or 
 - Create and manage all transaction types
 
 **Cannot access:**
+
 - Subscription plans and changes
 - Payment method management
 - Billing history
 - Account deletion
 
 **Limitations:**
+
 - Cannot modify the Owner's role or status
 - Cannot transfer ownership
 
@@ -81,6 +89,7 @@ Office manager, financial controller, or operations manager who handles day-to-d
 Billing Users focus on client-facing activities like invoicing and expense submission.
 
 **Can access:**
+
 - Create, edit, and send invoices
 - Create and manage quotes
 - Add and edit clients
@@ -91,6 +100,7 @@ Billing Users focus on client-facing activities like invoicing and expense submi
 - View own submitted expenses, time, and mileage
 
 **Cannot access:**
+
 - Accounting features (Chart of Accounts, journals)
 - Financial reports
 - Banking and transactions
@@ -100,6 +110,7 @@ Billing Users focus on client-facing activities like invoicing and expense submi
 - Subscription or billing information
 
 **Limitations:**
+
 - Cannot see the Dashboard financial metrics
 - Cannot categorize transactions
 - Cannot reconcile bank accounts
@@ -113,6 +124,7 @@ Sales team members, project managers, or client service representatives who crea
 Users have the most restricted access, limited to submitting their own expenses, time, and mileage.
 
 **Can access:**
+
 - Create expenses (own only)
 - Log time entries (own only)
 - Add mileage (own only)
@@ -120,6 +132,7 @@ Users have the most restricted access, limited to submitting their own expenses,
 - Edit own items (if not yet approved)
 
 **Cannot access:**
+
 - Invoicing features
 - Client management
 - Financial reports
@@ -130,6 +143,7 @@ Users have the most restricted access, limited to submitting their own expenses,
 - User management
 
 **Limitations:**
+
 - Cannot create invoices
 - Cannot view Dashboard
 - Cannot see financial metrics
@@ -143,6 +157,7 @@ Field workers, contractors, or remote employees who need to submit expenses and 
 Accountants have read-only access to all financial records, perfect for external accounting professionals.
 
 **Can access:**
+
 - View Chart of Accounts
 - View all transactions
 - View and export all reports
@@ -151,6 +166,7 @@ Accountants have read-only access to all financial records, perfect for external
 - View client and vendor lists
 
 **Can generate and export:**
+
 - Profit & Loss statements
 - Balance Sheets
 - Cash Flow reports
@@ -159,6 +175,7 @@ Accountants have read-only access to all financial records, perfect for external
 - Custom reports
 
 **Cannot do:**
+
 - Create or edit any records
 - Delete transactions
 - Modify Chart of Accounts
@@ -167,6 +184,7 @@ Accountants have read-only access to all financial records, perfect for external
 - Access subscription or billing
 
 **Limitations:**
+
 - Strictly read-only access
 - Cannot initiate any transactions
 - Cannot modify existing records
@@ -180,60 +198,66 @@ Accountants are included in all Fiskl plans at no additional cost. You can invit
 
 ## Permission Comparison Table
 
+
 | Feature | Owner | Admin | Billing User |
-|---------|-------|-------|--------------|
-| **Invoicing** | | | |
+| ----------------------- | ----- | ----- | ------------ |
+| **Invoicing** |  |  |  |
 | Create/edit invoices | ✓ | ✓ | ✓ |
 | Send invoices | ✓ | ✓ | ✓ |
 | View invoices | ✓ | ✓ | ✓ |
-| **Expenses & Time** | | | |
+| **Expenses & Time** |  |  |  |
 | Create own expenses | ✓ | ✓ | ✓ |
 | View own expenses | ✓ | ✓ | ✓ |
 | View all expenses | ✓ | ✓ | ✗ |
 | Log own time | ✓ | ✓ | ✓ |
 | View all time | ✓ | ✓ | ✗ |
-| **Clients & Vendors** | | | |
+| **Clients & Vendors** |  |  |  |
 | Manage clients | ✓ | ✓ | ✓ |
 | View clients | ✓ | ✓ | ✓ |
 | Manage vendors | ✓ | ✓ | ✗ |
 | View vendors | ✓ | ✓ | ✗ |
-| **Accounting** | | | |
+| **Accounting** |  |  |  |
 | Chart of Accounts | ✓ | ✓ | ✗ |
 | Journal entries | ✓ | ✓ | ✗ |
 | View transactions | ✓ | ✓ | ✗ |
 | Categorize transactions | ✓ | ✓ | ✗ |
-| **Banking** | | | |
+| **Banking** |  |  |  |
 | Connect banks | ✓ | ✓ | ✗ |
 | View banking | ✓ | ✓ | ✗ |
 | Reconcile accounts | ✓ | ✓ | ✗ |
-| **Reports** | | | |
+| **Reports** |  |  |  |
 | View all reports | ✓ | ✓ | ✗ |
 | Export reports | ✓ | ✓ | ✗ |
 | Dashboard metrics | ✓ | ✓ | ✗ |
-| **Settings** | | | |
+| **Settings** |  |  |  |
 | Company settings | ✓ | ✓ | ✗ |
 | User management | ✓ | ✓ | ✗ |
 | Subscription/billing | ✓ | ✗ | ✗ |
 | Delete account | ✓ | ✗ | ✗ |
+
 
 ## Choosing the Right Role
 
 Use this decision tree to select appropriate roles:
 
 **Does this person need to manage subscriptions or billing?**
+
 - Yes → **Owner** (only one allowed)
 - No → Continue
 
 **Does this person need full access to all financial data?**
+
 - Yes, and they need to modify records → **Admin**
 - Yes, but read-only access is sufficient → **Accountant**
 - No → Continue
 
 **Does this person need to create invoices?**
+
 - Yes → **Billing User**
 - No → Continue
 
 **Does this person only need to submit expenses and time?**
+
 - Yes → **User**
 
 ## Special Considerations
@@ -241,6 +265,7 @@ Use this decision tree to select appropriate roles:
 ### Multiple Admins
 
 You can have multiple Admins. This is useful for:
+
 - Redundancy if the primary Admin is unavailable
 - Large teams with multiple managers
 - Separating duties while maintaining full access
@@ -250,6 +275,7 @@ You can have multiple Admins. This is useful for:
 ### External Accountants
 
 Always use the **Accountant** role for external accounting professionals:
+
 - They get all the data they need for reports and tax prep
 - They cannot accidentally modify your records
 - You don't pay extra fees for accountant users
@@ -258,6 +284,7 @@ Always use the **Accountant** role for external accounting professionals:
 ### Transitioning Roles
 
 As team members grow in responsibility, upgrade their roles:
+
 - User → Billing User: When they start handling client invoicing
 - Billing User → Admin: When they take on financial management duties
 
@@ -266,12 +293,14 @@ As team members grow in responsibility, upgrade their roles:
 ## Common Role Assignment Scenarios
 
 ### Small Business (1-5 people)
+
 - **Owner**: Business owner
 - **Admin**: Office manager or spouse who handles finances
 - **Billing User**: Sales person or assistant who invoices clients
 - **Accountant**: External CPA or bookkeeper
 
 ### Growing Business (6-20 people)
+
 - **Owner**: Founder or CEO
 - **Admin**: CFO or controller, office manager
 - **Billing User**: Account managers, project managers
@@ -279,6 +308,7 @@ As team members grow in responsibility, upgrade their roles:
 - **Accountant**: External CPA
 
 ### Agency or Professional Services
+
 - **Owner**: Managing partner
 - **Admin**: Operations manager, finance manager
 - **Billing User**: Project leads who invoice clients
@@ -312,3 +342,4 @@ Each person should have their own account. Shared logins make it impossible to t
 - [Inviting and Managing Users](./inviting-users) - Add team members and manage their access
 - [Team Members Overview](./overview) - Understand team management basics
 - [User Settings](/settings/profile-settings) - Manage personal account preferences
+
