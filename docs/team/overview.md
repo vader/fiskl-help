@@ -86,11 +86,11 @@ Adding accountants to your Fiskl account is included in all plans at no addition
 ## Security Considerations
 
 **Sensitive information visibility** depends on the permissions a member holds:
-- Dashboard financial metrics and accounting: members with accounting access
+- Chart of accounts and reports: members with accounting read access (the transaction ledger and dashboard financial widgets require accounting write access)
 - Banking connections: members with banking permissions
 - Subscription and billing: the Owner (and any member granted subscription permissions)
 - Reports: members with report access
-- Sensitive actions, such as editing invoice bank details or managing API keys, sit behind an **Advanced** section and ask for confirmation
+- Sensitive actions, such as editing invoice bank details or managing API keys, are flagged with a warning (shield) icon in the permission grid and ask for confirmation
 
 **Each team member:**
 - Creates their own Fiskl login credentials

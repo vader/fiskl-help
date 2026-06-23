@@ -44,9 +44,10 @@ The app sometimes groups permissions more coarsely than the server does, to keep
 
 | Area | On the server and API | In the app |
 |---|---|---|
-| **Accounting** | `accounting.read` and `accounting.write` are separate. A key or app with read access gets read-only ledger and report data. | The Accounting area is shown all-or-nothing. A member without accounting access does not see the accounting screens, and there is no separate read-only accounting view. |
-| **Sensitive permissions** | Enforced individually on every request. | Grouped under an **Advanced** section in the permission grid, with a confirmation step before granting. Never offered to connected apps. |
-| **Scopes vs permissions** | API keys use the full fine-grained permissions. | Connected apps use ~20 coarser scopes that each expand to several permissions, so app authorisation is broader than a single permission. |
+| **Accounting (transaction ledger)** | `accounting.read` and `accounting.write` are separate. A key or app with read access gets read-only ledger and report data. | The **Chart of Accounts** and all **Reports** are visible read-only with `accounting.read`. But the **transaction ledger** — Transactions and Multi Journal — requires `accounting.write` even to view; there is no read-only ledger view. Reconciliation needs `accounting.reconcile`. |
+| **Dashboard financial widgets** | Read access (`accounting.read`) is enough to view ledger and report data. | The financial widgets on the main dashboard (key metrics, cashflow, ratios, banking overview, AR/AP aging, category breakdown) require `accounting.write`. A read-only member sees an empty dashboard but can open the same figures under Reports. |
+| **Sensitive permissions** | Enforced individually on every request. | Flagged inline in the permission grid with a warning (shield) icon, with a confirmation step before granting. Never offered to connected apps. |
+| **Scopes vs permissions** | API keys use the full fine-grained permissions. | Connected apps use 18 coarser scopes that each expand to several permissions, so app authorisation is broader than a single permission. |
 
 :::info
 This list reflects current behaviour and grows as the product evolves. The [Permissions Reference](/team/permissions-reference) shows, per permission, how it behaves in the app and which scope grants it to an integration.
@@ -56,7 +57,7 @@ This list reflects current behaviour and grows as the product evolves. The [Perm
 
 Eleven permissions form the highest-risk set — editing invoice bank details, changing tax rates or FX rates, posting or closing the ledger, inviting users or changing their access, managing credentials, and cancelling the account. Fiskl treats them with extra care:
 
-- They appear under an **Advanced** section in the permission grid and ask for confirmation before you grant them.
+- They are flagged inline in the permission grid with a warning (shield) icon and ask for confirmation before you grant them.
 - They are **never** granted through OAuth scopes, so a connected app can never receive them.
 - A team member can hold them directly, and an API key can include them if the person creating the key holds them.
 
@@ -70,9 +71,9 @@ No. Read and write are separate permissions, and the API enforces them on every 
 </details>
 
 <details>
-<summary>Why does a teammate with accounting read access not see accounting in the app?</summary>
+<summary>What can a teammate with accounting read access see in the app?</summary>
 
-The app shows the Accounting area all-or-nothing and does not offer a separate read-only accounting view. The read/write split is enforced for the API, not within the app's accounting screens. This is a known difference, listed above.
+With `accounting.read`, they see the **Chart of Accounts** and all **Reports** (Profit and Loss, Balance Sheet, Trial Balance, General Ledger, aging, and so on) read-only. What they cannot see is the **transaction ledger** — the Transactions and Multi Journal screens require `accounting.write` even to view, because the app does not offer a read-only ledger view. They also won't see the financial widgets on the main dashboard, which require write access. This is a known difference, listed above.
 
 </details>
 

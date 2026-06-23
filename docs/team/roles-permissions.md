@@ -55,7 +55,7 @@ To edit a member's permissions, go to **Settings** > **Team** and select the mem
 - A member with `user.assign_role` can grant permissions they do not hold themselves. This lets an office manager set up an external Accountant with period-end access without holding it personally.
 
 :::warning
-Some permissions are sensitive — for example editing bank details on invoices, changing tax rates, or managing API keys. They appear under an **Advanced** section and ask you to confirm before granting. Grant them only when the person genuinely needs them. See the [Permissions Reference](/team/permissions-reference) for the full list.
+Some permissions are sensitive — for example editing bank details on invoices, changing tax rates, or managing API keys. They are flagged in the permission grid with a warning (shield) icon and ask you to confirm before granting. Grant them only when the person genuinely needs them. See the [Permissions Reference](/team/permissions-reference) for the full list.
 :::
 
 ## Choose the Right Preset

@@ -24,7 +24,7 @@ Each area below has a table with four columns:
 
 Two rules explain most of the table, and are covered in full in [How Permissions Work](/team/how-permissions-work):
 
-- **The server separates read from write.** An API key or connected app with read access gets read-only access — it can view but not change. Some areas of the **app**, by contrast, are shown all-or-nothing (see Accounting).
+- **The server separates read from write.** An API key or connected app with read access gets read-only access — it can view but not change. The **app** mostly mirrors this, but a few screens are coarser: the accounting transaction ledger requires write access even to view (see Accounting).
 - **Sensitive permissions are never granted through OAuth.** A connected app can never receive the eleven sensitive permissions; they are available only to a team member directly, or to an API key whose creator holds them.
 
 ## Contacts
@@ -87,12 +87,12 @@ Two rules explain most of the table, and are covered in full in [How Permissions
 
 ## Accounting
 
-The app treats Accounting as a single area: a member who lacks accounting access does not see the accounting screens at all. The server is finer-grained — an API key or connected app with `accounting.read` gets genuine read-only access to ledger and report data, even though the app does not offer a separate read-only accounting view. See [How Permissions Work](/team/how-permissions-work).
+In the app, `accounting.read` opens a read-only view of the **Chart of Accounts** and all **Reports**. The **transaction ledger** — the Transactions and Multi Journal screens — requires `accounting.write` even to view, because the app does not offer a read-only ledger view. The financial widgets on the main dashboard also require `accounting.write`. On the server the split is cleaner: an API key or connected app with `accounting.read` gets genuine read-only access to all ledger and report data. See [How Permissions Work](/team/how-permissions-work).
 
 | Permission | What it controls | In the app | OAuth scope |
 |---|---|---|---|
-| `accounting.read` | View the ledger, journals, chart of accounts, and accounting summaries | Part of seeing the Accounting area; the app does not offer read-only accounting on its own | `accounting:read` |
-| `accounting.write` ⚠ | Post manual journal entries, edit the chart of accounts | Create and edit journal entries and accounts | — |
+| `accounting.read` | View the ledger, journals, chart of accounts, and accounting summaries | View the Chart of Accounts and all Reports (read-only) | `accounting:read` |
+| `accounting.write` ⚠ | Post manual journal entries, edit the chart of accounts | View, create, and edit the transaction ledger (Transactions, Multi Journal) and accounts; also gates the dashboard financial widgets | — |
 | `accounting.reconcile` | Reconcile bank transactions to ledger entries | Match and reconcile transactions | `accounting:write` |
 | `accounting.close` ⚠ | Close and lock accounting periods | Lock a period | — |
 
@@ -192,9 +192,9 @@ The app treats Accounting as a single area: a member who lacks accounting access
 ## Common Questions
 
 <details>
-<summary>Why can a read-only API key see accounting data when a teammate with the same level sees nothing in the app?</summary>
+<summary>Why can a read-only API key see the transaction ledger when a teammate with the same level cannot?</summary>
 
-The server enforces `accounting.read` and `accounting.write` separately, so an API key or connected app with read access genuinely gets read-only accounting data. The **app** treats Accounting as a single area and hides it unless the member has accounting access, because separating read-only viewing across every accounting screen would be a large change. This is a known difference between the app and the API. See [How Permissions Work](/team/how-permissions-work).
+The server enforces `accounting.read` and `accounting.write` separately, so an API key or connected app with read access genuinely gets read-only access to all accounting data, including the ledger. In the **app**, a teammate with `accounting.read` sees the Chart of Accounts and Reports, but the transaction ledger (Transactions, Multi Journal) requires `accounting.write` even to view — the app does not offer a read-only ledger view, because separating read-only viewing across every ledger screen would be a large change. This is a known difference between the app and the API. See [How Permissions Work](/team/how-permissions-work).
 
 </details>
 
