@@ -1,0 +1,9 @@
+{
+  "label": "Public API",
+  "position": 3,
+  "link": {
+    "type": "doc",
+    "id": "integrations/public-api/overview"
+  },
+  "description": "Build on Fiskl with the public API: create API keys, connect apps with OAuth, make requests, and receive webhooks."
+}

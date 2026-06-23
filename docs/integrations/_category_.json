@@ -1,9 +1,9 @@
 {
-  "label": "Integrations",
+  "label": "Integrations & Automation",
   "position": 4,
   "link": {
     "type": "doc",
     "id": "integrations/overview"
   },
-    "description": "Learn how to connect your bank data feeds and payment gateways for your invoicing "
+    "description": "Connect your bank feeds and payment gateways, and build on Fiskl with the public API, OAuth apps, and webhooks."
 }

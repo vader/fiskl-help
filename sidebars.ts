@@ -262,7 +262,7 @@ const sidebars: SidebarsConfig = {
 
     {
       type: 'category',
-      label: 'Integrations',
+      label: 'Integrations & Automation',
       link: {type: 'doc', id: 'integrations/overview'},
       items: [
         {
@@ -273,6 +273,17 @@ const sidebars: SidebarsConfig = {
             'integrations/payments/stripe-integration',
             'integrations/payments/gocardless-integration',
             'integrations/payments/paypal-integration',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Public API',
+          link: {type: 'doc', id: 'integrations/public-api/overview'},
+          items: [
+            'integrations/public-api/api-keys',
+            'integrations/public-api/making-api-requests',
+            'integrations/public-api/webhooks',
+            'integrations/public-api/connected-apps',
           ],
         },
       ],
