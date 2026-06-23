@@ -1,21 +1,15 @@
 ---
-title: "Chart of Accounts"
-description: "Understand and manage your Fiskl Chart of Accounts. Learn about account types, sub-accounts, creating custom accounts, and organising your finances."
-keywords: ["chart of accounts", "COA", "account types", "ledger accounts", "sub-accounts", "accounting", "fiskl"]
+title: Chart of Accounts
+description: Understand and manage your Fiskl Chart of Accounts. Learn about
+  account types, sub-accounts, creating custom accounts, and organising your
+  finances.
 sidebar_position: 2
-tags:
-  - Accounting
-  - Chart of Accounts
-  - Financial Reports
-toc_min_heading_level: 2
-toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
 
 This guide explains the Chart of Accounts in Fiskl — what it is, how it's structured, and how to manage it for your business.
 
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
+
 
 ## What Is a Chart of Accounts?
 
@@ -116,14 +110,13 @@ Archived accounts no longer appear in dropdowns when categorising transactions. 
 
 Fiskl assigns certain ledger accounts as defaults for specific transaction types — for example, the account used for sales income or bank fees. You can review and update these defaults in **Settings** > **Accounting Settings**.
 
-<details>
-<summary>Why does account structure matter for reporting?</summary>
+Why does account structure matter for reporting?
 
 The way your Chart of Accounts is structured directly affects how your financial reports look. Reports like the Profit and Loss and Balance Sheet group transactions by account type and sub-type. A well-organised CoA means your reports reflect your business accurately and make it easier to spot trends, prepare tax filings, or work with an accountant.
 
 If accounts are miscategorised — for example, an expense recorded under assets — your Balance Sheet and Profit and Loss will both show incorrect figures.
 
-</details>
+
 
 ## Related Topics
 
@@ -131,5 +124,5 @@ If accounts are miscategorised — for example, an expense recorded under assets
 - [Accounting Settings](/settings/accounting-settings) — Configure default accounts and accounting preferences
 - [Journal Entries Overview](/accounting/journal-entries/overview) — Record manual transactions against ledger accounts
 - [General Ledger Report](/reporting/general-ledger) — View all transactions by ledger account
-
 - [Trial Balance Report](/docs/reporting/trial-balance.md) — Review account balances across your Chart of Accounts
+
