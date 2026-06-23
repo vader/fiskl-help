@@ -25,72 +25,35 @@ As your business grows, you need multiple people accessing Fiskl for different p
 
 Understanding these concepts helps you manage your team effectively:
 
-- **User Roles**: Predefined permission sets that determine what a team member can access and do
-- **Owner**: The account creator with full access including billing and subscription management
-- **Admin**: Full account access except billing and subscription information
-- **Billing User**: Can create invoices and expenses but cannot access accounting features
-- **User**: Can only create expenses, time, and mileage for themselves
-- **Accountant**: Read-only access to financial records and reports
-- **Permissions**: Specific capabilities granted to each role (e.g., create invoices, view reports)
-- **Active/Inactive Status**: Controls whether a team member can currently log in
+- **Permissions**: Fine-grained capabilities such as viewing invoices or editing the chart of accounts. Most areas separate viewing (read) from changing (write).
+- **Presets**: Ready-made bundles of permissions for common jobs. You assign a preset as a starting point.
+- **Custom permissions**: Any preset can be fine-tuned by adjusting individual permissions in a grid. A member whose set no longer matches a preset is shown as **Custom**.
+- **Owner**: The account holder, tied to the subscription. There is exactly one Owner per account.
+- **Active/Inactive status**: Controls whether a team member can currently log in.
 
 ## How It Works
 
 Team management follows a simple workflow:
 
-1. **Invite team members** by email with an assigned role
+1. **Invite team members** by email and assign a preset
 2. **They receive an invitation** to create their Fiskl account
-3. **They accept and log in** with access based on their role
-4. **You manage their status** by activating, deactivating, or changing roles
-5. **Their actions are tracked** and visible to owners and admins
+3. **They accept and log in** with access based on their permissions
+4. **You manage their access** by changing the preset, fine-tuning permissions, or deactivating them
+5. **Permissions also govern API access** through API keys and connected apps
 
-## Available Roles
+## Available Presets
 
-Fiskl provides five predefined roles to match common business needs:
+Fiskl provides seven presets to match common business needs. Assign the closest one, then fine-tune if needed.
 
-### Owner
-- Full access to all features and data
-- Only role that can manage subscriptions and billing
-- Can invite, modify, and remove all other users
-- Full accounting and reporting access
-- Typically the business owner or founder
+- **Owner** — the account holder; full access including subscription and billing
+- **Admin** — everything except subscription and billing control
+- **Accountant** — external books through period-end and tax, with reports; no team, branding, or API access
+- **Bookkeeper** — in-house daily bookkeeping; no period-end
+- **Invoice Only** — clients, invoices, quotes, and recording payments
+- **Expense Submitter** — submit expenses from the field
+- **Read-only** — view everything and export reports; no changes
 
-**Common use case:** Business owner managing subscriptions and overall operations
-
-### Admin
-- Full access to all features and data
-- Cannot access subscription or billing information
-- Can invite and manage all users except the owner
-- Full accounting and reporting access
-- Can modify company settings
-
-**Common use case:** Office manager or financial controller
-
-### Billing User
-- Create, edit, and send invoices and quotes
-- Create expenses, time entries, and mileage
-- Add and manage clients
-- View only their own expenses, time, and mileage
-- Cannot access accounting, reports, or banking
-
-**Common use case:** Sales team members or project managers handling client billing
-
-### User
-- Create expenses, time entries, and mileage
-- View only their own submitted items
-- Cannot create invoices or access financial data
-- Cannot view other team members' submissions
-
-**Common use case:** Field workers or contractors submitting expenses and time
-
-### Accountant
-- Read-only access to all financial data
-- View Chart of Accounts, transactions, and reports
-- Generate and export reports
-- Cannot create or modify any records
-- Cannot access subscription or billing information
-
-**Common use case:** External accountant or bookkeeper reviewing records
+For exactly what each preset grants and how to build a custom set, see [User Roles and Permissions](/team/roles-permissions).
 
 :::info
 Adding accountants to your Fiskl account is included in all plans at no additional cost. This makes it easy to collaborate with your accounting professional.
@@ -110,10 +73,10 @@ Adding accountants to your Fiskl account is included in all plans at no addition
 - View team member activity
 
 **Control access:**
-- Assign appropriate roles based on job function
-- Restrict sensitive data to owners and admins
-- Grant accountants read-only access
-- Ensure billing users can't access accounting
+- Assign a preset based on job function, then fine-tune
+- Restrict sensitive data to the people who need it
+- Grant outside professionals read-only or Accountant access
+- Separate viewing from editing for each area
 
 **Monitor your team:**
 - See who has access to your account
@@ -122,12 +85,12 @@ Adding accountants to your Fiskl account is included in all plans at no addition
 
 ## Security Considerations
 
-**Sensitive information visibility:**
-- Dashboard financial metrics: Owners and Admins only
-- Banking connections: Owners and Admins only
-- Subscription and billing: Owners only
-- Chart of Accounts: Owners, Admins, and Accountants
-- Accounting reports: Owners, Admins, and Accountants
+**Sensitive information visibility** depends on the permissions a member holds:
+- Dashboard financial metrics and accounting: members with accounting access
+- Banking connections: members with banking permissions
+- Subscription and billing: the Owner (and any member granted subscription permissions)
+- Reports: members with report access
+- Sensitive actions, such as editing invoice bank details or managing API keys, sit behind an **Advanced** section and ask for confirmation
 
 **Each team member:**
 - Creates their own Fiskl login credentials

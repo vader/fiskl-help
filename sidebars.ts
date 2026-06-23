@@ -252,11 +252,13 @@ const sidebars: SidebarsConfig = {
 
     {
       type: 'category',
-      label: 'Team Members',
+      label: 'Team & Permissions',
       link: {type: 'doc', id: 'team/overview'},
       items: [
-        'team/inviting-users',
         'team/roles-permissions',
+        'team/permissions-reference',
+        'team/how-permissions-work',
+        'team/inviting-users',
       ],
     },
 

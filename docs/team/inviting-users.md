@@ -2,7 +2,7 @@
 title: "Inviting and Managing Users"
 description: "Learn how to invite team members, manage their roles and access, and maintain your team roster in Fiskl."
 keywords: ["invite users", "manage team", "add team members", "change roles", "deactivate users", "user management"]
-sidebar_position: 3
+sidebar_position: 5
 ---
 
 This guide explains how to invite and manage team members in Fiskl and helps you control who has access to your company's financial data.
@@ -36,13 +36,8 @@ Add team members by sending email invitations.
    Enter their work email address. They'll receive the invitation here.  
    Example: john.smith@company.com
 
-   **Role**  
-   Select the appropriate role from the dropdown:
-   - Owner (only if transferring ownership)
-   - Admin
-   - Billing User
-   - User
-   - Accountant
+   **Preset**  
+   Select the preset that best matches their job, such as Admin, Bookkeeper, Invoice Only, or Read-only. You can fine-tune their exact permissions afterwards. See [User Roles and Permissions](./roles-permissions).
 
 4. Review the information
 5. Select **Send invite**
@@ -83,27 +78,26 @@ If a team member didn't receive the invitation or it expired, you can resend it.
 
 Fiskl sends a new invitation email. The team member receives a fresh invitation link valid for another 7 days.
 
-## Changing User Roles
+## Changing a Member's Access
 
-Update team member roles as their responsibilities change. Role changes take effect immediately.
+Update a member's access as their responsibilities change. Changes take effect immediately.
 
 **Steps:**
 
 1. Go to **Team Members**
 2. Locate the team member in the list
-3. Select their current role (displayed as a dropdown)
-4. Select the new role from the dropdown menu
+3. Select the member to open their access settings
+4. Choose a different preset, or fine-tune individual permissions in the grid, then select **Save**
 
-The change applies instantly. If the user is currently logged in, they may need to refresh their browser to see the changes. All role changes are logged and visible to Admins and the Owner.
+The change applies instantly. If the user is currently logged in, they may need to refresh their browser to see the changes.
 
-**Common role transitions:**
-- **User → Billing User**: When they start handling client invoicing
-- **Billing User → Admin**: When they take on financial management
-- **Admin → Billing User**: When reducing access after role changes
-- **Any role → Accountant**: When converting internal staff to read-only access
+**Common transitions:**
+- **Expense Submitter → Invoice Only**: When they start handling client invoicing
+- **Invoice Only → Bookkeeper**: When they take on day-to-day bookkeeping
+- **Any preset → Read-only**: When reducing someone to view-only access
 
 :::info
-You cannot change the Owner's role. Only the Owner can transfer ownership to another user.
+You cannot assign the Owner preset. Only the Owner can transfer ownership to another user.
 :::
 
 ## Activating and Deactivating Users

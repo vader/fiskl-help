@@ -1,9 +1,9 @@
 {
-  "label": "Team Management",
+  "label": "Team & Permissions",
   "position": 15,
   "link": {
     "type": "doc",
     "id": "team/overview"
   },
-  "description": "Team management"
+  "description": "Manage team members, assign permission presets, and understand how access works across the app and API."
 }

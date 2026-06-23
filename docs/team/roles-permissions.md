@@ -1,344 +1,88 @@
 ---
-title: User Roles and Permissions
-description: Understand the five user roles in Fiskl and what permissions each
-  role grants for effective team collaboration.
+title: "User Roles and Permissions"
+description: "Understand Fiskl's seven permission presets and how to fine-tune access with custom permissions so each team member gets exactly the access they need."
+keywords: ["user roles", "permissions", "presets", "access control", "RBAC", "Owner", "Admin", "Accountant", "Bookkeeper"]
 sidebar_position: 2
+tags:
+  - Team
+  - Permissions
+  - Access control
+toc_min_heading_level: 2
+toc_max_heading_level: 3
 ---
 
-# User Roles and Permissions
+import TOCInline from '@theme/TOCInline';
 
-This guide explains the five user roles in Fiskl and the specific permissions each role grants, helping you assign appropriate access levels to your team members.
+This guide explains how access works in Fiskl: you assign each team member a **preset** as a starting point, then optionally fine-tune their exact permissions. It covers the seven presets, how to assign them, and how to build a custom permission set.
 
-## Understanding Role-Based Access
+<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
-Fiskl uses role-based access control to manage what team members can see and do. Each role grants a specific set of permissions designed for common business functions.
+## How Access Is Assigned
 
-**Why roles matter:**
+Each team member has a set of permissions that control what they can see and do. You assign access in two steps:
 
-- Protect sensitive financial information
-- Prevent accidental changes to accounting records
-- Enable delegation without compromising security
-- Meet compliance requirements for access control
-- Simplify permission management
+1. **Pick a preset** — a ready-made bundle of permissions for a common job, such as Bookkeeper or Read-only.
+2. **Fine-tune if needed** — adjust individual permissions in the permission grid. A member whose permissions no longer match a preset exactly is shown as **Custom**.
 
-## The Five Roles
-
-### Owner
-
-The Owner is the account creator and has complete control over the Fiskl account.
-
-**Full permissions:**
-
-- All features and data access
-- Manage subscriptions and billing
-- Invite, modify, and remove all users
-- Access all financial records and reports
-- Modify company settings
-- Connect and disconnect banks
-- Manage integrations
-- Export all data
-
-**Unique capabilities:**
-
-- Only role that can delete the entire account
-- Only role that can change subscription plans
-- Only role that can update payment methods
-- Can transfer ownership to another user
-
-**Limitations:**
-
-- Only one Owner per account
-- Cannot be deactivated (only transferred)
-
-**Common use case:**
-The business founder or primary decision-maker who manages subscriptions and overall financial strategy.
-
-### Admin
-
-Admins have nearly the same access as Owners but cannot manage subscriptions or billing.
-
-**Full permissions:**
-
-- All features except subscription/billing
-- Invite and manage all users (except Owner modifications)
-- Access all financial records and reports
-- Modify company settings
-- Connect and disconnect banks
-- Manage integrations
-- Export all data
-- Create and manage all transaction types
-
-**Cannot access:**
-
-- Subscription plans and changes
-- Payment method management
-- Billing history
-- Account deletion
-
-**Limitations:**
-
-- Cannot modify the Owner's role or status
-- Cannot transfer ownership
-
-**Common use case:**
-Office manager, financial controller, or operations manager who handles day-to-day financial operations.
-
-### Billing User
-
-Billing Users focus on client-facing activities like invoicing and expense submission.
-
-**Can access:**
-
-- Create, edit, and send invoices
-- Create and manage quotes
-- Add and edit clients
-- Create expenses (own only)
-- Log time entries (own only)
-- Add mileage (own only)
-- View invoices and quotes
-- View own submitted expenses, time, and mileage
-
-**Cannot access:**
-
-- Accounting features (Chart of Accounts, journals)
-- Financial reports
-- Banking and transactions
-- Other users' expenses, time, or mileage
-- Company settings
-- User management
-- Subscription or billing information
-
-**Limitations:**
-
-- Cannot see the Dashboard financial metrics
-- Cannot categorize transactions
-- Cannot reconcile bank accounts
-- Cannot view or modify other users' submissions
-
-**Common use case:**
-Sales team members, project managers, or client service representatives who create invoices and submit their own expenses.
-
-### User
-
-Users have the most restricted access, limited to submitting their own expenses, time, and mileage.
-
-**Can access:**
-
-- Create expenses (own only)
-- Log time entries (own only)
-- Add mileage (own only)
-- View own submitted items
-- Edit own items (if not yet approved)
-
-**Cannot access:**
-
-- Invoicing features
-- Client management
-- Financial reports
-- Accounting features
-- Banking and transactions
-- Other users' submissions
-- Company settings
-- User management
-
-**Limitations:**
-
-- Cannot create invoices
-- Cannot view Dashboard
-- Cannot see financial metrics
-- Cannot access any reports
-
-**Common use case:**
-Field workers, contractors, or remote employees who need to submit expenses and track time but don't need access to invoicing or financial data.
-
-### Accountant
-
-Accountants have read-only access to all financial records, perfect for external accounting professionals.
-
-**Can access:**
-
-- View Chart of Accounts
-- View all transactions
-- View and export all reports
-- View invoices, expenses, and payments
-- View banking connections and transactions
-- View client and vendor lists
-
-**Can generate and export:**
-
-- Profit & Loss statements
-- Balance Sheets
-- Cash Flow reports
-- Transaction reports
-- Tax reports
-- Custom reports
-
-**Cannot do:**
-
-- Create or edit any records
-- Delete transactions
-- Modify Chart of Accounts
-- Change company settings
-- Invite or manage users
-- Access subscription or billing
-
-**Limitations:**
-
-- Strictly read-only access
-- Cannot initiate any transactions
-- Cannot modify existing records
-
-**Common use case:**
-External accountant or bookkeeper who reviews records, prepares tax returns, or provides financial advice.
+Permissions are fine-grained: most areas separate viewing (read) from changing (write), and some add further actions such as sending, deleting, or reconciling. For the full list, see the [Permissions Reference](/team/permissions-reference).
 
 :::info
-Accountants are included in all Fiskl plans at no additional cost. You can invite your accounting professional without worrying about extra fees.
+Permissions also govern API access. An API key or connected app can never do more than its owner — see [How Permissions Work](/team/how-permissions-work).
 :::
 
-## Permission Comparison Table
+## The Seven Presets
 
+Use a preset as the starting point that best matches a person's job.
 
-| Feature | Owner | Admin | Billing User |
-| ----------------------- | ----- | ----- | ------------ |
-| **Invoicing** |  |  |  |
-| Create/edit invoices | ✓ | ✓ | ✓ |
-| Send invoices | ✓ | ✓ | ✓ |
-| View invoices | ✓ | ✓ | ✓ |
-| **Expenses & Time** |  |  |  |
-| Create own expenses | ✓ | ✓ | ✓ |
-| View own expenses | ✓ | ✓ | ✓ |
-| View all expenses | ✓ | ✓ | ✗ |
-| Log own time | ✓ | ✓ | ✓ |
-| View all time | ✓ | ✓ | ✗ |
-| **Clients & Vendors** |  |  |  |
-| Manage clients | ✓ | ✓ | ✓ |
-| View clients | ✓ | ✓ | ✓ |
-| Manage vendors | ✓ | ✓ | ✗ |
-| View vendors | ✓ | ✓ | ✗ |
-| **Accounting** |  |  |  |
-| Chart of Accounts | ✓ | ✓ | ✗ |
-| Journal entries | ✓ | ✓ | ✗ |
-| View transactions | ✓ | ✓ | ✗ |
-| Categorize transactions | ✓ | ✓ | ✗ |
-| **Banking** |  |  |  |
-| Connect banks | ✓ | ✓ | ✗ |
-| View banking | ✓ | ✓ | ✗ |
-| Reconcile accounts | ✓ | ✓ | ✗ |
-| **Reports** |  |  |  |
-| View all reports | ✓ | ✓ | ✗ |
-| Export reports | ✓ | ✓ | ✗ |
-| Dashboard metrics | ✓ | ✓ | ✗ |
-| **Settings** |  |  |  |
-| Company settings | ✓ | ✓ | ✗ |
-| User management | ✓ | ✓ | ✗ |
-| Subscription/billing | ✓ | ✗ | ✗ |
-| Delete account | ✓ | ✗ | ✗ |
+| Preset | Who it's for | Access in brief |
+|---|---|---|
+| **Owner** | The person who owns the account | Everything, including subscription and billing. Only the Owner can end the account. |
+| **Admin** | Power user running day-to-day operations | Everything except subscription and billing control. |
+| **Accountant** | External professional doing your books | Full bookkeeping through period-end and tax, with reports and export. No team management, branding, integrations, or API access. |
+| **Bookkeeper** | In-house daily bookkeeping | Day-to-day invoicing, bills, payments, and reconciliation. Can view tax setup but not change it, and cannot close periods. |
+| **Invoice Only** | Sales reps and office admins | Clients, invoices, quotes, and recording payments received. No accounting or banking. |
+| **Expense Submitter** | Field employees | Submit expenses and manage line items only. |
+| **Read-only** | Auditors, board members, due diligence | View everything and export reports. No changes anywhere. |
 
+### Owner is special
 
-## Choosing the Right Role
+Every account has exactly one Owner, tied to the subscription. You cannot assign the Owner preset to someone else from the permission screen — instead, transfer ownership. See [Inviting and Managing Users](/team/inviting-users).
 
-Use this decision tree to select appropriate roles:
+## Build a Custom Permission Set
 
-**Does this person need to manage subscriptions or billing?**
+When no preset fits, start from the closest one and adjust individual permissions in the grid.
 
-- Yes → **Owner** (only one allowed)
-- No → Continue
+To edit a member's permissions, go to **Settings** > **Team** and select the member, then open the permission grid. Select or clear individual permissions, then select **Save**.
 
-**Does this person need full access to all financial data?**
+- Permissions are grouped by area, such as Invoicing, Payments, and Accounting.
+- Most areas have separate view and edit permissions, so you can grant read-only access to one area and full access to another.
+- A member with `user.assign_role` can grant permissions they do not hold themselves. This lets an office manager set up an external Accountant with period-end access without holding it personally.
 
-- Yes, and they need to modify records → **Admin**
-- Yes, but read-only access is sufficient → **Accountant**
-- No → Continue
+:::warning
+Some permissions are sensitive — for example editing bank details on invoices, changing tax rates, or managing API keys. They appear under an **Advanced** section and ask you to confirm before granting. Grant them only when the person genuinely needs them. See the [Permissions Reference](/team/permissions-reference) for the full list.
+:::
 
-**Does this person need to create invoices?**
+## Choose the Right Preset
 
-- Yes → **Billing User**
-- No → Continue
+- Needs to manage billing and the subscription → **Owner** (one per account).
+- Runs operations but should not control billing → **Admin**.
+- An outside accountant closing the books and filing tax → **Accountant**.
+- In-house staff doing daily books, but not period-end → **Bookkeeper**.
+- Raises invoices and quotes, takes payments → **Invoice Only**.
+- Only submits expenses from the field → **Expense Submitter**.
+- Should see everything but change nothing → **Read-only**.
 
-**Does this person only need to submit expenses and time?**
+## Best Practices
 
-- Yes → **User**
-
-## Special Considerations
-
-### Multiple Admins
-
-You can have multiple Admins. This is useful for:
-
-- Redundancy if the primary Admin is unavailable
-- Large teams with multiple managers
-- Separating duties while maintaining full access
-
-**Best practice:** Limit Admins to those who genuinely need full access. More Admins means more people with access to sensitive data.
-
-### External Accountants
-
-Always use the **Accountant** role for external accounting professionals:
-
-- They get all the data they need for reports and tax prep
-- They cannot accidentally modify your records
-- You don't pay extra fees for accountant users
-- They can work independently without your supervision
-
-### Transitioning Roles
-
-As team members grow in responsibility, upgrade their roles:
-
-- User → Billing User: When they start handling client invoicing
-- Billing User → Admin: When they take on financial management duties
-
-**To change roles:** See [Inviting and Managing Users](./inviting-users)
-
-## Common Role Assignment Scenarios
-
-### Small Business (1-5 people)
-
-- **Owner**: Business owner
-- **Admin**: Office manager or spouse who handles finances
-- **Billing User**: Sales person or assistant who invoices clients
-- **Accountant**: External CPA or bookkeeper
-
-### Growing Business (6-20 people)
-
-- **Owner**: Founder or CEO
-- **Admin**: CFO or controller, office manager
-- **Billing User**: Account managers, project managers
-- **User**: Field technicians, contractors
-- **Accountant**: External CPA
-
-### Agency or Professional Services
-
-- **Owner**: Managing partner
-- **Admin**: Operations manager, finance manager
-- **Billing User**: Project leads who invoice clients
-- **User**: All other team members who log time
-- **Accountant**: External accountant for tax prep
-
-## Security Best Practices
-
-**Follow least privilege:**
-Assign the minimum role needed for each person's job function. You can always upgrade later.
-
-**Review roles quarterly:**
-As responsibilities change, roles should change too. Review every few months.
-
-**Use Accountant role for external professionals:**
-Never give external accountants Admin or Owner access. The Accountant role provides everything they need.
-
-**Limit Owner and Admin roles:**
-Keep these roles restricted to 1-3 trusted individuals maximum.
-
-**Deactivate immediately:**
-When someone leaves your organization, deactivate their account the same day.
-
-**Don't share logins:**
-Each person should have their own account. Shared logins make it impossible to track who did what.
-
----
+- **Least privilege.** Start from the narrowest preset that covers the job, then add permissions only as needed.
+- **Review regularly.** Re-check assignments as responsibilities change.
+- **Limit Owner and Admin.** Keep these to a small number of trusted people.
+- **Use Read-only or Accountant for outsiders.** Never give external professionals Admin access.
+- **Deactivate promptly.** When someone leaves, remove their access the same day.
 
 ## Related Topics
 
-- [Inviting and Managing Users](./inviting-users) - Add team members and manage their access
-- [Team Members Overview](./overview) - Understand team management basics
-- [User Settings](/settings/profile-settings) - Manage personal account preferences
-
+- [Permissions Reference](/team/permissions-reference) — Every permission, what it controls, and how it behaves in the app and the API
+- [How Permissions Work](/team/how-permissions-work) — How the app, API keys, and OAuth scopes enforce access
+- [Inviting and Managing Users](/team/inviting-users) — Add team members and assign their access
+- [Public API Overview](/integrations/public-api/overview) — Using permissions and scopes with API keys and connected apps
