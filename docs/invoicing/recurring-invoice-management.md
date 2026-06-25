@@ -1,16 +1,11 @@
 ---
-title: "Managing Recurring Invoices"
-description: "Manage your recurring invoice schedules in Fiskl — edit templates, pause or resume schedules, end recurring invoices, and view all related invoices."
-keywords: ["recurring invoices", "invoice schedule", "pause recurring invoice", "edit recurring invoice", "end recurring invoice"]
+title: Managing Recurring Invoices
+description: Manage your recurring invoice schedules in Fiskl — edit templates,
+  pause or resume schedules, end recurring invoices, and view all related
+  invoices.
 sidebar_position: 3
-tags:
-  - Invoicing
-  - Recurring Invoices
-toc_min_heading_level: 2
-toc_max_heading_level: 3
 ---
-
-Manage your recurring invoice schedules from a single list — pause, edit, or end them at any time without affecting invoices already created.
+This guide explains how to manage your recurring invoice schedules — pause, edit, or end them at any time without affecting invoices already created.
 
 ## Accessing Your Recurring Invoices
 
@@ -69,24 +64,23 @@ After a recurring invoice ends, you can still view all invoices it created. In t
 
 ## Common Issues
 
-<details>
-<summary>I ended a recurring invoice — where are the invoices it created?</summary>
+I ended a recurring invoice — where are the invoices it created?
 
 Ending a recurring invoice removes the template and schedule, but all previously created invoices are preserved. To find them, go to **Sales** > **Invoices** and select the **Scheduled** filter.
 
-</details>
 
-<details>
-<summary>I need to edit a sent or paid invoice that was created by a recurring schedule</summary>
+
+I need to edit a sent or paid invoice that was created by a recurring schedule
 
 Invoices created by a recurring schedule follow the same editing rules as regular invoices. To edit a sent invoice, open it and set the status to **Draft**, make your changes, then save.
 
 For paid or partially paid invoices that have been matched in accounting, you need to unmatch the transaction first. See [Invoice Management](invoice-management.md) for full details.
 
-</details>
+
 
 ## Related Topics
 
 - [Create Recurring Invoices](create-recurring-invoices.md) — Set up a new recurring invoice schedule
 - [Invoice Management](invoice-management.md) — Edit, cancel, and manage the status of individual invoices
 - [Sending Invoices](sending-invoices.md) — Send invoices manually or by email
+
