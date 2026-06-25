@@ -1,17 +1,10 @@
 ---
-title: "Create Recurring Invoices"
-description: "Set up recurring invoices in Fiskl to automate billing schedules, send invoices automatically, and include unbilled time, mileage, and expenses."
-keywords: ["recurring invoices", "automated billing", "invoice schedule", "auto-send invoice", "recurring billing", "Fiskl invoicing"]
+title: Create Recurring Invoices
+description: Set up recurring invoices in Fiskl to automate billing schedules,
+  send invoices automatically, and include unbilled time, mileage, and expenses.
 sidebar_position: 5
-tags:
-  - Invoicing
-  - Recurring
-  - Automation
-toc_min_heading_level: 2
-toc_max_heading_level: 3
 ---
-
-Recurring invoices let you automate billing for clients you invoice on a regular basis. You set up a schedule once, and Fiskl creates and sends the invoices for you — reducing manual work and keeping your cash flow consistent.
+This guide explains how to create recurring invoices in Fiskl. Set up a schedule once and Fiskl creates and sends invoices automatically — reducing manual work and keeping your cash flow consistent.
 
 ## Before You Begin
 
@@ -31,12 +24,12 @@ A recurring invoice has two parts: a **schedule** that controls when invoices ar
 4. Select the billing frequency — weekly, monthly, or another interval
 5. For a custom frequency (for example, every two weeks), select **Custom** and enter your preferences
 6. Select when the schedule ends:
-   - Select **Runs indefinitely** to continue until you stop it manually
-   - Set an **End Date** to stop on a specific date
-   - Set a number of occurrences to stop after a fixed number of invoices
+  - Select **Runs indefinitely** to continue until you stop it manually
+  - Set an **End Date** to stop on a specific date
+  - Set a number of occurrences to stop after a fixed number of invoices
 7. Set the **Auto-send** toggle:
-   - Toggle **Auto-send** on to have Fiskl create and send each invoice automatically
-   - Toggle **Auto-send** off to have Fiskl create the invoice as a draft and notify you when it is ready to review
+  - Toggle **Auto-send** on to have Fiskl create and send each invoice automatically
+  - Toggle **Auto-send** off to have Fiskl create the invoice as a draft and notify you when it is ready to review
 8. To include unbilled items, select the **Unbilled Items** checkbox and select the item types to include — **Time**, **Mileage**, or **Expenses**
 
 :::tip
@@ -57,10 +50,12 @@ Once your template is complete, select **Start Schedule** to activate the recurr
 
 **What happens next depends on your Auto-send setting:**
 
+
 | Setting | Fiskl action | You receive |
-|---|---|---|
+| ------------- | --------------------------------------------------- | --------------------------------------------------------- |
 | Auto-send on | Creates and sends the invoice, marks it as **Sent** | An email notification the day before each invoice is sent |
 | Auto-send off | Creates the invoice, marks it as **Draft** | An email notification when each invoice is ready to send |
+
 
 ## Manage a Recurring Invoice
 
@@ -74,8 +69,7 @@ For a full list of management options, see [Recurring Invoice Management](recurr
 
 ## Common Issues
 
-<details>
-<summary>Unbilled items are not appearing in the recurring invoice</summary>
+Unbilled items are not appearing in the recurring invoice
 
 Unbilled items only appear if they have been recorded against the same client and are not already included on another invoice.
 
@@ -83,10 +77,9 @@ Unbilled items only appear if they have been recorded against the same client an
 2. Check that the entries have not already been billed on a previous invoice
 3. IVerify the **Unbilled Items** checkbox is selected and the correct item types are enabled
 
-</details>
 
-<details>
-<summary>The recurring invoice is not sending automatically</summary>
+
+The recurring invoice is not sending automatically
 
 If invoices are being created as drafts instead of sending automatically, the **Auto-send** toggle may be off.
 
@@ -95,7 +88,7 @@ If invoices are being created as drafts instead of sending automatically, the **
 3. Toggle **Auto-send** on
 4. Select **Save**
 
-</details>
+
 
 ## Related Topics
 
@@ -105,3 +98,4 @@ If invoices are being created as drafts instead of sending automatically, the **
 - [Products and Services](../products-services/creating-products.md) — Set up reusable product and service templates
 - [Time Tracking](../time-and-mileage/time-tracking.md) — Record billable time to include in recurring invoices
 - [Mileage Tracking](../time-and-mileage/mileage-tracking.md) — Record billable mileage to include in recurring invoices
+
