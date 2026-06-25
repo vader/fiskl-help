@@ -1,20 +1,15 @@
 ---
-title: "Managing Services"
-description: "Learn how to create and manage service templates in Fiskl for accurate billing and streamlined invoicing of consulting and professional services."
-keywords: ["create service", "service template", "billing", "consulting", "hourly rate", "recurring invoice", "time tracking"]
+title: Managing Services
+description: Learn how to create and manage service templates in Fiskl for
+  accurate billing and streamlined invoicing of consulting and professional
+  services.
 sidebar_position: 2
-tags:
-  - Products & Services
-  - Invoicing
-toc_min_heading_level: 2
-toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
 
 This guide explains how to create and manage service templates in Fiskl to streamline billing for intangible offerings like consulting, repairs, and professional advice.
 
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
+
 
 ## What Are Services
 
@@ -37,19 +32,15 @@ Before creating a service, confirm the following:
 2. Select the **+** icon or **New Product/Service**
 3. Select the **Service** tab
 4. Complete the required fields:
-
-   - **Name** — Enter a clear, descriptive name your team will recognise. Example: "Website Design - Hourly"
-   - **Unit** — Select the measurement unit for billing. Common options: hour, session, day, project
-   - **Price/Rate** — Enter the unit rate in your base currency. Example: 100.00
-   - **Currency** — Defaults to your base currency. Change this if the service is always billed in a different currency
-   - **Account** — The default ledger account is "Sales of Services". Select a different account only if you track this service type separately
-   - **Tax** — Select the applicable tax rate, or select **Create new tax** if needed
-
+  - **Name** — Enter a clear, descriptive name your team will recognise. Example: "Website Design - Hourly"
+  - **Unit** — Select the measurement unit for billing. Common options: hour, session, day, project
+  - **Price/Rate** — Enter the unit rate in your base currency. Example: 100.00
+  - **Currency** — Defaults to your base currency. Change this if the service is always billed in a different currency
+  - **Account** — The default ledger account is "Sales of Services". Select a different account only if you track this service type separately
+  - **Tax** — Select the applicable tax rate, or select **Create new tax** if needed
 5. Add optional details:
-
-   - **Description** — Explain what the service includes. This text appears on invoices. Example: "Custom website design and development including responsive layout and initial content setup"
-   - **Attachments** — Upload service-related documents such as service agreements, scope of work templates, or portfolio examples. Supported formats: PNG, JPG, PDF
-
+  - **Description** — Explain what the service includes. This text appears on invoices. Example: "Custom website design and development including responsive layout and initial content setup"
+  - **Attachments** — Upload service-related documents such as service agreements, scope of work templates, or portfolio examples. Supported formats: PNG, JPG, PDF
 6. Select **Create Product/Service**
 
 The service appears in your catalog and is ready to add to invoices.
@@ -157,36 +148,31 @@ Changes to a line item do not affect the original service template. Future invoi
 
 ## Common Issues
 
-<details>
-<summary>I changed a service template but existing invoices still show the old details</summary>
+I changed a service template but existing invoices still show the old details
 
 Changes to a service template only apply to new invoices. Existing invoices retain the details that were set when the service was added. To update an existing invoice, open it and edit the line item directly.
 
-</details>
 
-<details>
-<summary>I deleted a service and can no longer add it to new invoices</summary>
+
+I deleted a service and can no longer add it to new invoices
 
 Deleting a service removes it from your catalog permanently. Existing invoices containing that service remain unchanged, but you cannot add the deleted service to new invoices. If you need the service again, re-create it in **Products & Services**.
 
-</details>
 
-<details>
-<summary>I need to bill different rates for different clients</summary>
+
+I need to bill different rates for different clients
 
 Service templates store one default rate. To bill a different rate, open the invoice and adjust the unit price on the relevant line item. If you frequently bill different tiers, create separate service templates for each pricing level (e.g., "Consulting - Standard Rate", "Consulting - Premium Rate").
 
-</details>
 
-<details>
-<summary>Template placeholders are appearing as text on a regular invoice</summary>
+
+Template placeholders are appearing as text on a regular invoice
 
 Dynamic name template tokens such as `{Client Name}` and `{Month}` resolve on both standard and recurring invoices. On a standard invoice, date tokens use the invoice date. If tokens are displaying as-is, check that **Dynamic name templates for recurring invoices** is toggled on for that service.
 
-</details>
 
-<details>
-<summary>How do I bill for time and materials on the same invoice?</summary>
+
+How do I bill for time and materials on the same invoice?
 
 Create two separate line items on the invoice:
 
@@ -195,14 +181,13 @@ Create two separate line items on the invoice:
 
 Add both to the same invoice to give your client a clear breakdown.
 
-</details>
 
-<details>
-<summary>How do I create a fixed-price package service?</summary>
+
+How do I create a fixed-price package service?
 
 Create a service with a unit type of "project" or "package" and set a fixed price. Use the description field to list what is included in the package. Adjust the quantity to 1 on the invoice.
 
-</details>
+
 
 ## Related Topics
 
@@ -210,3 +195,4 @@ Create a service with a unit type of "project" or "package" and set a fixed pric
 - [Managing Your Catalog](/products-services/managing-catalog) — Organise and maintain your products and services
 - [Time Tracking](/time-and-mileage/time-tracking) — Log billable hours for service invoicing
 - [Creating Recurring Invoices](/invoicing/create-recurring-invoices) — Use template services for automated billing
+
