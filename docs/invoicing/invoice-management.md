@@ -1,16 +1,11 @@
 ---
-title: "Invoice Management"
-description: "Manage invoices throughout their lifecycle in Fiskl — edit drafts, send to clients, cancel with status tracking, and handle paid or overdue invoices."
-keywords: ["invoice management", "edit invoice", "cancel invoice", "invoice status", "paid invoice", "draft invoice", "sent invoice"]
+title: Invoice Management
+description: Manage invoices throughout their lifecycle in Fiskl — edit drafts,
+  send to clients, cancel with status tracking, and handle paid or overdue
+  invoices.
 sidebar_position: 3
-tags:
-  - Invoicing
-  - Payments
-toc_min_heading_level: 2
-toc_max_heading_level: 3
 ---
-
-This page explains how to manage invoices throughout their lifecycle in Fiskl — from editing drafts to cancelling sent invoices and tracking payments.
+This guide explains how to manage invoices throughout their lifecycle in Fiskl — from editing drafts to cancelling sent invoices and tracking payments.
 
 As you complete the fields in an invoice, the preview on the left of the screen updates in real time. This lets you see exactly how your invoice will appear to your client before you send it.
 
@@ -122,8 +117,7 @@ From the invoice list, you can print, duplicate, or delete invoices. Deletion is
 
 ## Common Issues
 
-<details>
-<summary>Existing payments were not restored after editing a sent invoice</summary>
+Existing payments were not restored after editing a sent invoice
 
 This can happen if you changed the invoice dates so that one or more payment dates fall before the new invoice date. Fiskl cannot restore payments in this situation.
 
@@ -135,10 +129,9 @@ To resolve this:
 
 If the issue persists, contact Fiskl support.
 
-</details>
 
-<details>
-<summary>I cannot edit a paid invoice — the option to change status to Draft is greyed out</summary>
+
+I cannot edit a paid invoice — the option to change status to Draft is greyed out
 
 This usually means the payment has been matched to a transaction in Accounting. You need to unmatch it first.
 
@@ -146,7 +139,7 @@ This usually means the payment has been matched to a transaction in Accounting. 
 2. Find the matched transaction and unmatch it
 3. Return to the invoice and change the status to **Draft**
 
-</details>
+
 
 ## Related Topics
 
@@ -155,3 +148,4 @@ This usually means the payment has been matched to a transaction in Accounting. 
 - [Invoice Payment Schedules](invoice-payment-schedules.md) — Set up payment schedules for large invoices
 - [Payments — Stripe Integration](../integrations/payments/stripe-integration.md) — Connect Stripe to accept card payments
 - [Accounting Overview](../accounting/overview.md) — How Fiskl handles transaction matching and reconciliation
+
