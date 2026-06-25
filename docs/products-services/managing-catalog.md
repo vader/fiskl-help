@@ -1,21 +1,14 @@
 ---
-title: "Managing Your Catalog"
-description: "Learn how to view, search, edit, and delete products and services in your Fiskl catalog to keep invoicing accurate."
-keywords: ["catalog management", "edit products", "search services", "delete product", "products and services"]
+title: Managing Your Catalog
+description: Learn how to view, search, edit, and delete products and services
+  in your Fiskl catalog to keep invoicing accurate.
 sidebar_position: 3
-tags:
-  - Products
-  - Services
-  - Catalog
-toc_min_heading_level: 2
-toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
 
 This guide explains how to view, search, edit, and delete items in your products and services catalog.
 
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
+
 
 ## Before You Begin
 
@@ -52,13 +45,13 @@ Select the **Search** icon and enter keywords to find items by name or descripti
 1. Go to **Products & Services**
 2. Select the item you want to edit
 3. Update any of the following fields:
-   - **Name**
-   - **Dynamic Name Template**
-   - **Price/Rate**
-   - **Currency**
-   - **Account**
-   - **Sales Tax**
-   - **Description**
+  - **Name**
+  - **Dynamic Name Template**
+  - **Price/Rate**
+  - **Currency**
+  - **Account**
+  - **Sales Tax**
+  - **Description**
 4. Add or remove attachments if needed
 5. Select **Save**
 
@@ -81,33 +74,29 @@ Deletion is permanent and cannot be undone. If you may need the item again, cons
 
 ## Common Issues
 
-<details>
-<summary>I deleted an item but it still appears on an existing invoice</summary>
+I deleted an item but it still appears on an existing invoice
 
 This is expected behaviour. Deleting an item removes it from your catalog but does not change any invoices already created with that item. Your historical records remain intact.
 
-</details>
 
-<details>
-<summary>I edited an item but the price on an existing invoice didn't update</summary>
+
+I edited an item but the price on an existing invoice didn't update
 
 Edits to catalog items only apply to future invoices. Existing invoices keep the details that were in place when they were created. To update pricing on an existing invoice, open the invoice directly and edit the line item there.
 
-</details>
 
-<details>
-<summary>I can't find an item in the catalog</summary>
+
+I can't find an item in the catalog
 
 Select the **Filter** icon and check whether a Type or Currency filter is active. Select **Reset** to clear all filters and return to the full catalog, then use the **Search** icon to locate the item by name or description.
 
-</details>
 
-<details>
-<summary>A catalog item is adding the wrong tax to invoices</summary>
+
+A catalog item is adding the wrong tax to invoices
 
 Open the item and check the **Sales Tax** field. If the wrong tax rate is assigned, update it and select **Save**. The corrected rate applies to new invoices. Existing invoices are not affected and must be updated manually.
 
-</details>
+
 
 ## Ask Fi
 
@@ -124,3 +113,4 @@ Fi can help you:
 - [Managing Services](/products-services/managing-services) — Add new services to your catalog
 - [Creating Invoices](/invoicing/creating-invoices) — Use catalog items as line items on invoices
 - [Chart of Accounts](/accounting/chart-of-accounts) — Understand ledger account assignments
+
