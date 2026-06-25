@@ -1,21 +1,15 @@
 ---
-title: "Opening Balances"
-description: "Learn what opening balances are in Fiskl, when and why to create them, how to add them to your ledger accounts, and how to verify they balance correctly."
-keywords: ["opening balance", "starting balance", "accounting period", "ledger account", "chart of accounts", "financial reporting"]
+title: Opening Balances
+description: Learn what opening balances are in Fiskl, when and why to create
+  them, how to add them to your ledger accounts, and how to verify they balance
+  correctly.
 sidebar_position: 5
-tags:
-  - Accounting
-  - Journal Entry
-  - Financial Reports
-toc_min_heading_level: 2
-toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
 
 This guide explains what opening balances are, why they matter, and how to create and verify them in Fiskl.
 
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
+
 
 ## What Are Opening Balances?
 
@@ -111,8 +105,7 @@ If the Opening Balance account does not show zero, review each entry for missing
 
 ## Common Issues
 
-<details>
-<summary>My opening balance does not match my bank statement</summary>
+My opening balance does not match my bank statement
 
 This usually means the date or amount is incorrect. Check the following:
 
@@ -121,10 +114,9 @@ This usually means the date or amount is incorrect. Check the following:
 3. Ensure no duplicate transactions exist around the cutover date
 4. If the discrepancy remains, review the transaction history in your bank's records and adjust the opening balance amount accordingly
 
-</details>
 
-<details>
-<summary>The Opening Balance account does not show zero after migration</summary>
+
+The Opening Balance account does not show zero after migration
 
 Each debit entry in your opening balances must have a matching credit entry. A non-zero balance means at least one account is missing or incorrectly entered.
 
@@ -132,14 +124,13 @@ Each debit entry in your opening balances must have a matching credit entry. A n
 2. Cross-reference each balance against your records from the previous system
 3. Add or correct opening balance entries until the Opening Balance account reaches zero
 
-</details>
 
-<details>
-<summary>I cannot find the Opening Balance category when adding a transaction</summary>
+
+I cannot find the Opening Balance category when adding a transaction
 
 The **Opening Balance** category is only available when you are adding a transaction directly inside a ledger account. Make sure you are in **Accounting** > **Transactions**, have selected a specific account, and are using the **+ Debit** or **- Credit** button to create the transaction.
 
-</details>
+
 
 ## Related Topics
 
@@ -148,3 +139,4 @@ The **Opening Balance** category is only available when you are adding a transac
 - [Trial Balance](/core-features/accounting/reports/trial-balance) — Verify that your accounts are balanced
 - [General Ledger](/reporting/general-ledger) — Review all transactions across your accounts
 - [Transactions by Account](/reporting/transactions-by-account) — View transactions filtered by ledger account
+
