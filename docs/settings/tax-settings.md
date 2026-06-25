@@ -1,43 +1,33 @@
 ---
-title: "Tax Settings"
-description: "Set up and manage tax agencies, tax rates, and tax groups in Fiskl to ensure accurate tax compliance across your transactions."
-keywords: ["tax settings", "tax rates", "tax agency", "tax groups", "VAT", "sales tax", "tax compliance"]
+title: Tax Management
+description: Set up and manage tax agencies, tax rates, and tax groups in Fiskl
+  to ensure accurate tax compliance across your transactions.
 sidebar_position: 5
-tags:
-  - Settings
-  - Tax settings
-toc_min_heading_level: 2
-toc_max_heading_level: 3
 ---
-
-The Tax Settings page lets you manage your tax agencies, tax rates, and tax groups. Fiskl supports multiple tax agencies in various currencies, including single rates, multiple rates, and compound taxes.
-
-import TOCInline from '@theme/TOCInline';
+This guide explains how to set up the tax agencies, rates, and groups that apply to your transactions. Fiskl supports multiple jurisdictions, currencies, single rates, and compound taxes.
 
 <TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
-Access Tax Settings by selecting the **gear icon** on the top left menu, or go to **Settings** > **Tax Settings** on the web Dashboard.
+## Before You Begin
 
-:::info
-Before you can create a tax rate, you must first set up a tax agency. The tax agency determines the currency and country for all rates assigned to it.
-:::
+You must create a tax agency before you can add tax rates. The agency determines the country and currency for every rate assigned to it.
 
 ## Tax Agencies
 
-A tax agency represents the authority you pay taxes to, such as HMRC, the IRS, or a regional VAT office. Each tax agency is associated with a specific country and currency.
+A tax agency represents the authority you pay taxes to — for example, HMRC, the IRS, or a regional VAT office. Each agency is linked to a specific country and currency.
 
-When you create a tax agency, Fiskl automatically creates a matching **Liability** ledger account in your [Chart of Accounts](/accounting/chart-of-accounts). All transactions involving taxes linked to that agency are recorded as journal entries in this ledger account. If you rename a tax agency, the corresponding ledger account is also renamed.
+When you create a tax agency, Fiskl automatically creates a matching **Liability** ledger account in your [Chart of Accounts](/accounting/chart-of-accounts). All transactions involving taxes for that agency are recorded as journal entries in this ledger account. If you rename a tax agency, the corresponding ledger account is also renamed.
 
 ### Set up a tax agency
 
-1. Go to **Settings** > **Tax Settings**
-2. Select the **Tax Agencies** tab
+1. Go to **Settings** > **Tax Management**
+2. Select **Tax Agencies**
 3. Select **New Tax Agency**
 4. Enter the tax number
 5. Select a country and currency from the dropdown menus
-6. Enter a **Prefix** (optional)
-7. Select whether to include this tax number in generated reports
-8. Select the filing period (for example, monthly or quarterly)
+6. Enter a prefix (optional)
+7. Choose whether to include the tax number in generated reports
+8. Select the filing period, for example monthly or quarterly
 9. Select a filing date
 10. Select **Create**
 
@@ -47,105 +37,75 @@ If your business operates in multiple countries, create a separate tax agency fo
 
 ## Tax Rates
 
-Tax rates define the percentage applied to your transactions. Each tax rate must be assigned to a tax agency. You can designate rates as either sales tax or non-sales tax.
-
-The currency of a tax rate is determined by its assigned tax agency. You can assign multiple tax rates to a single agency.
+Tax rates define the percentage applied to your transactions. Each rate must be assigned to a tax agency, and its currency is determined by that agency. You can assign multiple rates to a single agency. Rates can be designated as sales tax or non-sales tax.
 
 ### Add a tax rate
 
-1. Go to **Settings** > **Tax Settings**
-2. Select the **Tax Rates** tab
-3. Select **New Tax Rate**
-4. Enter the tax name (for example, VAT 20%)
-5. Enter the percentage in the **Rate (%)** field
-6. Select the **Tax Agency** to assign this rate to
-7. Select whether this is a sales or non-sales tax
-8. A summary of the selected tax agency details is displayed
-9. Select **Create**
+1. Go to **Settings** > **Tax Management** > **Tax Rates**
+2. Select **New Tax Rate**
+3. Enter the tax name, for example "VAT 20%"
+4. Enter the percentage in the **Rate (%)** field
+5. Select the **Tax Agency** to assign this rate to
+6. Choose whether this is a sales or non-sales tax
+7. Review the tax agency summary displayed on screen
+8. Select **Create**
 
 ## Tax Groups
 
-Tax groups let you combine two or more tax rates into a single selection. This is useful when multiple taxes apply to the same transaction. You can also configure compound (stacked) taxes within a group.
+Tax groups let you combine two or more tax rates into a single selection. This is useful when multiple taxes apply to the same transaction. You can configure groups as standard or compound.
 
 ### Standard tax group
 
-In a standard group, each tax is calculated on the original amount independently.
-
-<details>
-<summary>Example: Standard tax group calculation</summary>
-
-A group with three taxes applied to a $100 item:
-
-- Tax A (5%): $100 × 0.05 = $5.00
-- Tax B (6%): $100 × 0.06 = $6.00
-- Tax C (4%): $100 × 0.04 = $4.00
-
-Total taxes: $5.00 + $6.00 + $4.00 = $15.00
-
-</details>
+In a standard group, each tax is calculated independently on the original amount.
 
 ### Compound tax group
 
-In a compound group, one tax is calculated on the amount plus the preceding tax.
-
-<details>
-<summary>Example: Compound tax group calculation (Quebec GST/QST)</summary>
-
-Quebec applies both federal GST and provincial QST. The QST is calculated on the price plus GST:
-
-- Base price: $100
-- GST (5%): $100 × 0.05 = $5.00
-- QST (9.975%): ($100 + $5) × 0.09975 = $10.47
-
-Total taxes: $5.00 + $10.47 = $15.47
-
-</details>
+In a compound group, one tax is calculated on the original amount plus the preceding tax. This is used for tax systems like Quebec's GST/QST.
 
 ### Create a tax group
 
-1. Go to **Settings** > **Tax Settings**
-2. Select the **Tax Groups** tab
-3. Select **New Tax Group**
-4. Enter a name for the group
-5. Select two or more tax rates to include
-6. If needed, select the **Compound** checkbox for stacked calculation
-7. Select **Create**
+1. Go to **Settings** > **Tax Management** > **Tax Groups**
+2. Select **New Tax Group**
+3. Enter a name for the group
+4. Select two or more tax rates to include
+5. Select the **Compound** checkbox if you need stacked calculation
+6. Select **Create**
 
-## Additional Actions
+## Managing Tax Records
 
-Select **Refresh** to ensure you are viewing the most up-to-date information.
+Select **Refresh** to make sure you are viewing the most up-to-date information.
 
-From any tax list, you can perform the following actions:
+From any list in Tax Management, you can:
 
-- To set a default tax, select the **star** icon
-- To edit a record, select the **edit** icon. To ensure the accuracy of past transactions, tax groups, rates, and agencies cannot be fully edited after creation. You can only update the name and default status
-- To archive a record, select the **archive** icon. Use the **Status** filter to switch between **Active** and **Inactive** records
-- From the **Tax Rates** list, you can also filter by **Tax Type**
+- **Set a default** — Select the star icon next to a rate, group, or agency
+- **Edit** — Select the edit icon. To protect the accuracy of past transactions, you can only update the name and default status after creation
+- **Archive** — Archive records you no longer need. Filter by **Status** to show active or inactive records
+- **Filter by tax type** — Available from the **Tax Rates** list
 
-:::tip
-If you need to adjust the tax composition or rates, archive the existing group and create a new one. For example, if a tax rate changes, create a new tax group with the updated rate.
+:::warning
+To change the composition or percentage of a tax group, archive the existing group and create a new one. For example, if a tax rate changes, create a new tax group with the updated rate.
 :::
 
 ## Common Issues
 
 <details>
-<summary>Cannot create a tax rate</summary>
+<summary>Cannot create a new tax rate</summary>
 
-You must create a tax agency before adding tax rates. Go to the **Tax Agencies** tab and set up at least one agency first. The agency defines the country and currency for the rate.
+You must create a tax agency before adding tax rates. Go to **Settings** > **Tax Management** > **Tax Agencies** and set up at least one agency first. The agency defines the country and currency for the rate.
 
 </details>
 
 <details>
 <summary>Tax rate shows the wrong currency</summary>
 
-A tax rate inherits its currency from the assigned tax agency. To use a different currency, create a new tax agency with the correct currency and assign the rate to that agency instead.
+A tax rate inherits its currency from the assigned tax agency. To use a different currency, create a new tax agency with the correct currency and assign the rate to that agency.
 
 </details>
 
 <details>
-<summary>Missing ledger account for a tax agency</summary>
+<summary>Liability ledger account is missing for a tax agency</summary>
 
-Fiskl creates a Liability ledger account automatically when you add a tax agency. If the account is missing, check the [Chart of Accounts](/accounting/chart-of-accounts) for an account with the same name as your tax agency.
+Fiskl creates a **Liability** ledger account automatically when you add a tax agency. If the account is missing, check your [Chart of Accounts](/accounting/chart-of-accounts) for an account with the same name as the tax agency.
 
 </details>
 
@@ -155,3 +115,4 @@ Fiskl creates a Liability ledger account automatically when you add a tax agency
 - [Accounting Settings](/settings/accounting-settings) — Configure your accounting preferences
 - [Creating Invoices](/invoicing/creating-invoices) — Apply tax rates when billing clients
 - [Sales Tax Report](/reporting/sales-tax) — Review your tax liabilities and filings
+
