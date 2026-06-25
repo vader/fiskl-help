@@ -1,22 +1,14 @@
 ---
-title: "Stripe"
-description: "Connect Stripe to Fiskl to accept credit cards, debit cards, Google Pay, Apple Pay, iDEAL, and Bancontact on your invoices."
-keywords: ["Stripe", "Stripe integration", "payment gateway", "online payments", "Fiskl payments", "iDEAL", "Bancontact"]
+title: Stripe
+description: Connect Stripe to Fiskl to accept credit cards, debit cards, Google
+  Pay, Apple Pay, iDEAL, and Bancontact on your invoices.
 sidebar_position: 1
-slug: /integrations/payments/stripe
-tags:
-  - Integrations
-  - Payment gateways
-  - Stripe
-toc_min_heading_level: 2
-toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
 
 This guide explains how to connect Stripe to Fiskl so your clients can pay invoices online.
 
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
+
 
 ## Benefits
 
@@ -94,19 +86,17 @@ There are two ways to disconnect Stripe from Fiskl:
 
 ## Common Issues
 
-<details>
-<summary>My Stripe account is connected but not accepting payments</summary>
+My Stripe account is connected but not accepting payments
 
 Stripe requires KYC verification before processing live payments. Check your verification status in your Stripe dashboard. Until verification is complete, the account is in test mode only.
 
-</details>
 
-<details>
-<summary>iDEAL or Bancontact is not appearing on my invoices</summary>
+
+iDEAL or Bancontact is not appearing on my invoices
 
 These methods must be enabled separately after connecting Stripe. Go to **Integrations**, confirm your Stripe account is connected, then select **Enable iDEAL** or **Enable Bancontact**.
 
-</details>
+
 
 ## Related Topics
 
@@ -114,3 +104,4 @@ These methods must be enabled separately after connecting Stripe. Go to **Integr
 - [GoCardless](/integrations/payments/gocardless) — Accept direct debit payments via GoCardless
 - [PayPal](/integrations/payments/paypal) — Accept payments via PayPal
 - [Invoice & Quote Settings](/settings/invoice-quotes-settings) — Configure default payment methods and invoice behaviour
+
