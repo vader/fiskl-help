@@ -1,21 +1,14 @@
 ---
-title: "Internal Transfers"
-description: "Learn how to record internal transfers between your business accounts in Fiskl, including same-currency and multi-currency transfers."
-keywords: ["internal transfer", "transfer between accounts", "multi-currency transfer", "accounting", "chart of accounts", "match transactions"]
+title: Internal Transfers
+description: Learn how to record internal transfers between your business
+  accounts in Fiskl, including same-currency and multi-currency transfers.
 sidebar_position: 5
-tags:
-  - Accounting
-  - Transactions
-  - Banking
-toc_min_heading_level: 2
-toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
 
 This guide explains how to record internal transfers between your business accounts in Fiskl. Accurate transfer records keep your account balances up to date and distinguish fund movements from income or expenses.
 
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
+
 
 ## Before You Begin
 
@@ -88,8 +81,7 @@ The process for recording a multi-currency transfer is the same as a [same-curre
 
 ## Common Issues
 
-<details>
-<summary>No matching transaction is suggested</summary>
+No matching transaction is suggested
 
 This usually means the two transactions are too far apart in date or amount for Fiskl to recognise them as a pair.
 
@@ -99,14 +91,13 @@ Try these steps:
 2. Try matching from the opposite account — open the receiving account and match from there instead
 3. If the transfer took several days to process, look for the counterpart transaction a few days either side of the expected date
 
-</details>
 
-<details>
-<summary>The wrong exchange rate is showing on a multi-currency transfer</summary>
+
+The wrong exchange rate is showing on a multi-currency transfer
 
 Fiskl displays the exchange rate implied by the two transaction amounts. If this differs from your bank's rate, check that you have selected the correct matching transaction. Different transactions on the same day may have different amounts due to bank fees or rounding. Select the transaction that most closely matches the amount your bank transferred.
 
-</details>
+
 
 ## Related Topics
 
@@ -114,3 +105,4 @@ Fiskl displays the exchange rate implied by the two transaction amounts. If this
 - [Match and Split Transactions](/accounting/journal-entries/guides/match-and-split-transactions) — Other ways to categorise and reconcile transactions
 - [Multi-Currency Transactions](/accounting/journal-entries/guides/multi-currency-transactions) — How Fiskl handles foreign currency amounts
 - [Bank Account Reconciliation](/accounting/reconciliation/guides/bank-account-reconciliation) — Reconcile your accounts after recording transfers
+
