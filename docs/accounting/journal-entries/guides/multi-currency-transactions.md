@@ -1,21 +1,15 @@
 ---
-title: "Managing Multi-Currency Transactions"
-description: "Learn how to record and manage multi-currency transactions in Fiskl, track exchange rates, and maintain accurate financial records across currencies."
-keywords: ["multi-currency", "foreign currency", "exchange rate", "currency transactions", "base currency", "currency conversion"]
+title: Managing Multi-Currency Transactions
+description: Learn how to record and manage multi-currency transactions in
+  Fiskl, track exchange rates, and maintain accurate financial records across
+  currencies.
 sidebar_position: 1
-tags:
-  - Accounting
-  - Multi-currency
-  - Banking
-toc_min_heading_level: 2
-toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
 
 This guide explains how to record and manage multi-currency transactions in Fiskl. Use it when you need to track payments or receipts in a currency other than your base currency.
 
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
+
 
 ## Before you begin
 
@@ -85,33 +79,29 @@ Fiskl calculates exchange rates automatically at the time of each transaction. Y
 
 ## Common issues
 
-<details>
-<summary>The exchange rate shown does not match my bank rate</summary>
+The exchange rate shown does not match my bank rate
 
 Fiskl fetches a mid-market rate automatically. Your bank may apply a different rate, including fees or a spread. Enter the exact rate from your bank statement in the exchange rate field before selecting **Save**. This ensures your base currency amount matches your actual bank charge.
 
-</details>
 
-<details>
-<summary>I recorded the transaction in the wrong currency</summary>
+
+I recorded the transaction in the wrong currency
 
 Transactions cannot be edited after creation. Delete the incorrect transaction and re-enter it with the correct currency. Go to the ledger account, find the transaction, and select **Delete**. Then follow the steps in [Recording a multi-currency transaction](#recording-a-multi-currency-transaction) again.
 
-</details>
 
-<details>
-<summary>My foreign currency account is not appearing in the dropdown</summary>
+
+My foreign currency account is not appearing in the dropdown
 
 The ledger account must be created before it appears as an option. Go to **Accounting** > **Chart of Accounts** and add a new account with the correct currency assigned. Once saved, it will appear in the account selector.
 
-</details>
 
-<details>
-<summary>My base currency total looks incorrect after a foreign currency entry</summary>
+
+My base currency total looks incorrect after a foreign currency entry
 
 Check the exchange rate that was applied at the time of entry. Open the transaction and review the rate shown. If it differs from your bank rate, delete the transaction and re-enter it with the correct rate. For historical transactions, check whether any manual rate adjustment was applied.
 
-</details>
+
 
 ## Related topics
 
@@ -120,3 +110,4 @@ Check the exchange rate that was applied at the time of entry. Open the transact
 - [Balance Sheet](/reporting/balance-sheet) — View asset and liability balances across all currencies
 - [Profit and Loss](/reporting/profit-and-loss) — Review income and expense totals in your base currency
 - [Manual Transactions](/accounting/journal-entries/guides/manual-transactions) — Record transactions manually across ledger accounts
+
