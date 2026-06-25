@@ -1,23 +1,15 @@
 ---
-title: "Statement of Accounts"
-description: "Generate and share a Statement of Accounts in Fiskl to summarise all transactions with a client, including invoices, payments, and outstanding balances."
-keywords: ["statement of accounts", "client statement", "accounts receivable", "outstanding balance", "invoice summary", "multi-currency statement"]
+title: Statement of Accounts
+description: Generate and share a Statement of Accounts in Fiskl to summarise
+  all transactions with a client, including invoices, payments, and outstanding
+  balances.
 sidebar_position: 9
-slug: /core-features/accounting/reports/statement-of-accounts
-tags:
-  - Reporting
-  - Invoicing
-  - Client management
-toc_min_heading_level: 2
-toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
 
 This guide explains how to generate, customise, and share a Statement of Accounts in Fiskl — a report that summarises all financial transactions with a specific client, including invoices and any outstanding balances.
 
-<details>
-<summary>Why is the Statement of Accounts report important?</summary>
+Why is the Statement of Accounts report important?
 
 The Statement of Accounts report is useful because it:
 
@@ -27,9 +19,9 @@ The Statement of Accounts report is useful because it:
 - Helps you communicate clearly with clients about their financial standing
 - Some businesses request a statement of accounts periodically or before settling any invoices
 
-</details>
 
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
+
+&nbsp;
 
 ## Before You Begin
 
@@ -67,10 +59,12 @@ The report header shows your company details, the client's details, and the open
 
 The body of the report contains up to two sections, each grouped by currency:
 
+
 | Section | Description |
-|---|---|
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
 | **Invoices** | All invoices within the selected period, showing date, invoice number, status, due amount, paid amount, and total |
 | **Accounts Receivable transactions** | Manual AR journal entries for the client, showing date, name, and amount. Only appears when **Include AR Transactions** is toggled on |
+
 
 ### Report Views
 
@@ -112,33 +106,29 @@ Use the **Ask Fi** icon at the top right of the screen to get help interpreting 
 
 ## Common Issues
 
-<details>
-<summary>The report shows no transactions for the selected period</summary>
+The report shows no transactions for the selected period
 
 Check that the date range covers the period you expect. If you are filtering by a specific currency, confirm that the client has transactions in that currency. Also verify that invoices have been sent (not left as drafts), as AR entries are generated on send.
 
-</details>
 
-<details>
-<summary>AR transactions are not appearing in the report</summary>
+
+AR transactions are not appearing in the report
 
 Toggle **Include AR Transactions** on in **Filters & Settings**. If AR transactions still do not appear, check that the invoices for this client have been sent — drafts do not generate AR entries.
 
-</details>
 
-<details>
-<summary>The opening or closing balance looks incorrect</summary>
+
+The opening or closing balance looks incorrect
 
 The opening balance reflects transactions before your selected start date. If the balance appears unexpected, try extending the date range to include earlier periods. Also check whether you have the correct currencies selected — balances are displayed per currency for multi-currency clients.
 
-</details>
 
-<details>
-<summary>The PDF links are not working for the client</summary>
+
+The PDF links are not working for the client
 
 Ensure the client is accessing the PDF version of the statement, not a screenshot or printed copy. The links in the client view connect to the Fiskl payment page for each invoice.
 
-</details>
+
 
 ## Related Topics
 
@@ -146,3 +136,4 @@ Ensure the client is accessing the PDF version of the statement, not a screensho
 - [Managing Clients](/clients-vendors/clients) — Add and manage your client records
 - [Accounts Receivable Transactions](/accounting/journal-entries/guides/accounts-receivable-transactions) — Understand how AR entries are created
 - [General Ledger](/reporting/general-ledger) — View all transactions across ledger accounts
+
