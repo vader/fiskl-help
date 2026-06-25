@@ -1,20 +1,14 @@
 ---
-title: "Payment Integrations"
-description: "Connect Stripe, PayPal, or GoCardless to Fiskl to accept online payments on invoices and automate payment reconciliation."
-keywords: ["payment integrations", "online payments", "Stripe", "PayPal", "GoCardless", "invoice payments", "direct debit"]
+title: Payment Integrations
+description: Connect Stripe, PayPal, or GoCardless to Fiskl to accept online
+  payments on invoices and automate payment reconciliation.
 sidebar_position: 1
-tags:
-  - Integrations
-  - Payments
-toc_min_heading_level: 2
-toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
 
 This section covers the payment integrations available in Fiskl. Connect a payment provider to let clients pay invoices online and have payment data sync to your accounts automatically.
 
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
+
 
 ## How payment integrations work
 
@@ -48,13 +42,15 @@ GoCardless uses Direct Debit to collect payments from clients' bank accounts. It
 
 ## Choosing a gateway
 
-| | Stripe | PayPal | GoCardless |
-|---|---|---|---|
+
+|  | Stripe | PayPal | GoCardless |
+| ---------------------- | ---------------------------------------- | ------------------------- | ---------------------------- |
 | **Card payments** | Yes | Yes | No |
 | **Digital wallets** | Apple Pay, Google Pay | PayPal Wallet | No |
 | **Direct Debit** | No | No | Yes |
 | **Recurring payments** | Via recurring invoices | Via recurring invoices | Automated |
 | **Best for** | One-time payments, international clients | Clients who prefer PayPal | Recurring billing, retainers |
+
 
 ## Configuring payment options on invoices
 
@@ -75,3 +71,4 @@ When enabled, all connected gateways are pre-selected on each new invoice. You c
 - [GoCardless Integration](/integrations/payments/gocardless) — Connect GoCardless for Direct Debit and recurring payment collection
 - [Creating Invoices](/invoicing/creating-invoices) — Add payment options when creating an invoice
 - [Recurring Invoices](/invoicing/create-recurring-invoices) — Automate billing with GoCardless
+
