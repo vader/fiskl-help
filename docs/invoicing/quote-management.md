@@ -1,16 +1,10 @@
 ---
-title: "Quote Management"
-description: "Manage quotes in Fiskl — edit, send, convert to invoice, change status, and cancel quotes to keep your sales pipeline organised and accurate."
-keywords: ["quote management", "edit quote", "convert quote to invoice", "cancel quote", "quote status", "send quote"]
+title: Quote Management
+description: Manage quotes in Fiskl — edit, send, convert to invoice, change
+  status, and cancel quotes to keep your sales pipeline organised and accurate.
 sidebar_position: 2
-tags:
-  - Invoicing
-  - Quotes
-toc_min_heading_level: 2
-toc_max_heading_level: 3
 ---
-
-This page explains how to manage quotes in Fiskl after you have created them — from editing and sending to converting to an invoice or cancelling.
+This page guide how to manage quotes in Fiskl after you have created them — from editing and sending to converting to an invoice or cancelling.
 
 ## Quote Preview
 
@@ -118,19 +112,17 @@ Always consult your accountant or local tax authority about the correct way to h
 
 ## Common Issues
 
-<details>
-<summary>My shared quote link is not working</summary>
+My shared quote link is not working
 
 If a client reports that your shared link is not working, the quote may have been reverted to draft status. While in draft, share links are disabled. To restore the link, set the quote back to **Sent** status.
 
-</details>
 
-<details>
-<summary>I cannot edit my sent quote</summary>
+
+I cannot edit my sent quote
 
 You can only edit a quote directly in **Draft** status. To edit a sent quote, open it, select the current status, and select **Draft**. Make your changes and save. Then set it back to **Sent** to restore the share link.
 
-</details>
+
 
 ## Related Topics
 
@@ -138,3 +130,4 @@ You can only edit a quote directly in **Draft** status. To edit a sent quote, op
 - [Invoice Management](invoice-management.md) — Manage invoices after sending
 - [Sending Invoices](sending-invoices.md) — How to send an invoice once a quote is converted
 - [Invoice and Quote Settings](../settings/invoice-quotes-settings.md) — Configure defaults for quotes and invoices
+
