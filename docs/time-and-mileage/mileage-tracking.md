@@ -1,20 +1,15 @@
 ---
-title: "Mileage Tracking"
-description: "Learn how to track business mileage in Fiskl using manual entry, odometer readings, or Google Maps to capture travel expenses for billing and tax."
-keywords: ["mileage tracking", "mileage entry", "business travel", "odometer", "Google Maps", "billable mileage", "distance tracking"]
+title: Mileage Tracking
+description: Learn how to track business mileage in Fiskl using manual entry,
+  odometer readings, or Google Maps to capture travel expenses for billing and
+  tax.
 sidebar_position: 3
-tags:
-  - Time & Mileage
-  - Billing
-toc_min_heading_level: 2
-toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
 
 This guide explains how to track mileage in Fiskl and helps you capture business travel expenses for client billing and tax deductions.
 
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
+
 
 ## Before You Begin
 
@@ -140,8 +135,7 @@ All future entries use your selected unit. Existing entries remain in their orig
 
 ## Common Issues
 
-<details>
-<summary>Google Maps shows the wrong distance</summary>
+Google Maps shows the wrong distance
 
 The route may use highways when you took local roads.
 
@@ -150,10 +144,9 @@ The route may use highways when you took local roads.
 3. Enter the actual distance from your odometer
 4. Add a note in the **Description** field explaining the discrepancy
 
-</details>
 
-<details>
-<summary>Mileage rate is incorrect on an entry</summary>
+
+Mileage rate is incorrect on an entry
 
 The entry may be using your default rate instead of a client-specific rate.
 
@@ -161,10 +154,9 @@ The entry may be using your default rate instead of a client-specific rate.
 2. Open the mileage entry and update the rate manually
 3. To prevent this in future, set the correct rate at the client level
 
-</details>
 
-<details>
-<summary>Need to switch from miles to kilometres</summary>
+
+Need to switch from miles to kilometres
 
 1. Go to **Settings** > **User Preferences**
 2. Update the **Distance Unit** to **Kilometres**
@@ -172,7 +164,7 @@ The entry may be using your default rate instead of a client-specific rate.
 
 Existing entries remain in their original unit. Add a note to older entries if you need to clarify units.
 
-</details>
+
 
 ## Related Topics
 
@@ -180,3 +172,4 @@ Existing entries remain in their original unit. Add a note to older entries if y
 - [Billing Time and Mileage](/time-and-mileage/billing-time-and-mileage) — Add mileage entries to client invoices
 - [Creating Invoices](/invoicing/creating-invoices) — Generate invoices for clients
 - [Company Settings](/settings/company-settings) — Configure default mileage rates and distance units
+
