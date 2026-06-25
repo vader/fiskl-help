@@ -1,22 +1,15 @@
 ---
-title: "Vendors"
-description: "Manage your vendors in Fiskl to track expenses, categorize spending by supplier, and maintain accurate accounts payable records."
-keywords: ["vendors", "vendor management", "expenses", "accounts payable", "supplier", "Tax/VAT", "business registration"]
+title: Vendors
+description: Manage your vendors in Fiskl to track expenses, categorize spending
+  by supplier, and maintain accurate accounts payable records.
 sidebar_position: 3
-tags:
-  - Vendors
-  - Expenses
-  - Accounting
-toc_min_heading_level: 2
-toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
 import DocCardList from '@theme/DocCardList';
 
 This guide covers how to add and manage vendors in Fiskl. Vendors are the individuals and businesses you pay — recording them accurately keeps your expense tracking, accounts payable, and financial reports consistent.
 
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
+
 
 ## What You Can Do
 
@@ -50,3 +43,4 @@ Only vendors with no associated expenses or transactions can be deleted. Archive
 - [Uploading Expenses](/expenses/ai-expenses/uploading) — Record expenses and link them to vendors
 - [Accounts Payable Transactions](/accounting/journal-entries/guides/accounts-payable-transactions) — Record vendor payments in your ledger
 - [Match and Split Transactions](/accounting/journal-entries/guides/match-and-split-transactions) — Assign vendors to imported bank transactions
+
