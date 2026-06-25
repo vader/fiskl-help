@@ -1,29 +1,20 @@
 ---
-title: "Trial Balance Report"
-description: "Generate and analyse the Trial Balance report in Fiskl to verify bookkeeping accuracy and prepare financial statements."
-keywords: ["trial balance", "debit", "credit", "accrual", "cash basis", "financial reports", "bookkeeping"]
+title: Trial Balance Report
+description: Generate and analyse the Trial Balance report in Fiskl to verify
+  bookkeeping accuracy and prepare financial statements.
 sidebar_position: 5
-slug: /core-features/accounting/reports/trial-balance
-tags:
-  - Accounting
-  - Reports
-  - Trial Balance
-toc_min_heading_level: 2
-toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
 
 This guide explains how to generate and analyse the Trial Balance report in Fiskl. Use this report to verify that your total debits equal your total credits and to prepare your other financial statements. Reviewing it regularly helps you maintain clean books, catch issues early, and keep your financial statements on solid ground.
 
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
+
 
 ## What is the Trial Balance Report?
 
 The Trial Balance report lists every ledger account with its debit or credit balance. It confirms that your books are mathematically balanced before you produce other financial statements.
 
-<details>
-<summary>Why is the Trial Balance important?</summary>
+Why is the Trial Balance important?
 
 The Trial Balance report helps you:
 
@@ -32,7 +23,7 @@ The Trial Balance report helps you:
 - Get a quick overview of all ledger account balances
 - Spot unusual balances or trends that may need investigation
 
-</details>
+
 
 ## Trial Balance vs. Other Financial Reports
 
@@ -75,14 +66,13 @@ Before generating your Trial Balance report, confirm that:
 5. Under **Report Basis**, toggle **Accrual Basis** on or off depending on your preferred method.
 6. Toggle **Unrealized FX Gain/Loss** on to include open foreign currency balances.
 7. Under **Display Options**, adjust how the report appears:
-   - **Divide by 1,000** — Scales large figures for easier reading
-   - **Hide Empty Accounts** — Removes accounts with no activity from the view
-   - **Show Subsections** — Breaks accounts into subsections within each category
-   - **Compact** — Reduces spacing for a condensed view
+  - **Divide by 1,000** — Scales large figures for easier reading
+  - **Hide Empty Accounts** — Removes accounts with no activity from the view
+  - **Show Subsections** — Breaks accounts into subsections within each category
+  - **Compact** — Reduces spacing for a condensed view
 8. Select **Run Report** to generate the report.
 
-<details>
-<summary>Which accounting basis should I use?</summary>
+Which accounting basis should I use?
 
 Fiskl supports both cash and accrual reporting:
 
@@ -91,7 +81,7 @@ Fiskl supports both cash and accrual reporting:
 
 If you are unsure which method applies to your business, refer to [Accounting Fundamentals](/glossary/accounting-fundamentals) or check with your accountant.
 
-</details>
+
 
 :::tip
 Your default cash or accrual basis can be set in [Accounting Settings](/settings/accounting-settings).
@@ -133,8 +123,7 @@ Notes are included when you export the report.
 
 ## Common Issues
 
-<details>
-<summary>Total debits and credits do not match</summary>
+Total debits and credits do not match
 
 A mismatch means there is an error in your bookkeeping. To investigate:
 
@@ -145,28 +134,25 @@ A mismatch means there is an error in your bookkeeping. To investigate:
 
 If you cannot identify the source, select the **Ask Fi** icon in the top right of the screen for help tracing the discrepancy. If the issue persists, contact Fiskl support.
 
-</details>
 
-<details>
-<summary>Expected accounts are not showing in the report</summary>
+
+Expected accounts are not showing in the report
 
 Accounts with no activity during the selected period may be hidden. Toggle **Hide Empty Accounts** off in **Filters & Settings**, then select **Run Report** again to show all ledger accounts.
 
-</details>
 
-<details>
-<summary>Accrual and cash figures are different</summary>
+
+Accrual and cash figures are different
 
 This is expected. Cash basis shows balances based on actual cash movement. Accrual basis includes transactions that have been earned or incurred but not yet settled. The difference typically relates to unpaid invoices and outstanding bills.
 
-</details>
 
-<details>
-<summary>Unrealized FX Gain/Loss is not appearing</summary>
+
+Unrealized FX Gain/Loss is not appearing
 
 The **Unrealized FX Gain/Loss** toggle is off by default. Open **Filters & Settings**, toggle **Unrealized FX Gain/Loss** on under **Report Basis**, then select **Run Report** to include open foreign currency balances in your report.
 
-</details>
+
 
 ## Related Topics
 
@@ -175,3 +161,4 @@ The **Unrealized FX Gain/Loss** toggle is off by default. Open **Filters & Setti
 - [General Ledger](/reporting/general-ledger) — See a full transaction-level view of every ledger account
 - [Accounting Fundamentals](/glossary/accounting-fundamentals) — Learn about cash vs. accrual accounting and core bookkeeping concepts
 - [Chart of Accounts](/accounting/chart-of-accounts) — Manage the ledger accounts that appear in your Trial Balance
+
