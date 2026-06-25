@@ -1,21 +1,14 @@
 ---
-title: "Accounts Payable Transactions"
-description: "Learn how to create, pay, and manage Accounts Payable transactions in Fiskl, including partial payments, foreign currencies, and splits."
-keywords: ["accounts payable", "AP", "bills", "vendor payments", "accrual accounting", "journal entry", "partial payment", "foreign currency"]
+title: Accounts Payable Transactions
+description: Learn how to create, pay, and manage Accounts Payable transactions
+  in Fiskl, including partial payments, foreign currencies, and splits.
 sidebar_position: 10
-tags:
-  - Accounting
-  - Journal Entry
-  - Accounts Payable
-toc_min_heading_level: 2
-toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
 
 This guide explains how to create and manage Accounts Payable (AP) transactions in Fiskl. It covers recording bills, matching payments, handling partial payments, and working with foreign currencies.
 
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
+
 
 ## Understanding Accounts Payable
 
@@ -27,8 +20,7 @@ When you create an AP transaction, Fiskl records the liability in the Accounts P
 For payments that have already occurred, use Operating Expenses or other relevant expense ledger accounts instead of Accounts Payable.
 :::
 
-<details>
-<summary>Why is managing Accounts Payable important?</summary>
+Why is managing Accounts Payable important?
 
 Proper AP management helps you:
 
@@ -37,7 +29,7 @@ Proper AP management helps you:
 - Maintain healthy cash flow by knowing what payments are due and when.
 - Build stronger vendor relationships through timely and accurate payments.
 
-</details>
+
 
 ## Creating an AP Transaction
 
@@ -47,16 +39,16 @@ To record a bill or future payment you owe to a vendor:
 2. Select **Accounts Payable** from the account list
 3. Select **+ Credit** to create a new AP entry
 4. Complete the transaction details:
-   - **Name** — a clear description such as "Broadband bill" or "Office Supplies Invoice #1234"
-   - **Currency** — select the currency if different from your base currency
-   - **Amount** — enter the amount owed
-   - **Description** — add any internal notes (optional)
-   - **Date** — the invoice or bill date
-   - **Category** — select the relevant expense ledger account from the dropdown, or create a new one
-   - **Tax** — select the applicable tax rate. If you are VAT or sales tax registered, this is required for accurate tax reporting.
-   - **Vendor** — select an existing vendor or create a new one
-   - **Client** — link to a client if the expense relates to a specific job (optional)
-   - **Reference** — enter the vendor's invoice or bill number (optional)
+  - **Name** — a clear description such as "Broadband bill" or "Office Supplies Invoice #1234"
+  - **Currency** — select the currency if different from your base currency
+  - **Amount** — enter the amount owed
+  - **Description** — add any internal notes (optional)
+  - **Date** — the invoice or bill date
+  - **Category** — select the relevant expense ledger account from the dropdown, or create a new one
+  - **Tax** — select the applicable tax rate. If you are VAT or sales tax registered, this is required for accurate tax reporting.
+  - **Vendor** — select an existing vendor or create a new one
+  - **Client** — link to a client if the expense relates to a specific job (optional)
+  - **Reference** — enter the vendor's invoice or bill number (optional)
 5. Select the attachment icon to upload a copy of the bill or invoice
 6. Select **Save** to save the transaction
 
@@ -153,12 +145,12 @@ If a single bill covers multiple expense categories, vendors, or currencies, you
 1. Open an existing AP transaction or create a new one
 2. Select **Split**
 3. For each split line, enter:
-   - **Amount**
-   - **Category** — the expense ledger account for that portion
-   - **Currency** — if different from the base currency
-   - **Tax** — if applicable
-   - **Vendor** — if different from the primary vendor
-   - **Client** — if applicable
+  - **Amount**
+  - **Category** — the expense ledger account for that portion
+  - **Currency** — if different from the base currency
+  - **Tax** — if applicable
+  - **Vendor** — if different from the primary vendor
+  - **Client** — if applicable
 4. The **Difference** field shows any remaining amount not yet allocated — ensure this reaches zero before saving
 5. Select **Save** to save the split transaction
 
@@ -166,26 +158,23 @@ Each split portion appears in its respective ledger account, giving you detailed
 
 ## Common Issues
 
-<details>
-<summary>My AP balance is not zeroing out after I matched a payment</summary>
+My AP balance is not zeroing out after I matched a payment
 
 This usually means the payment and the AP transaction were matched at different amounts. Open the Accounts Payable ledger account and check whether the two entries are equal — the original credit and the payment debit should match. If they differ due to a currency exchange rate change, you may need to record a foreign exchange gain or loss entry. See the [multi-currency transactions guide](/accounting/journal-entries/guides/multi-currency-transactions) for details.
 
-</details>
 
-<details>
-<summary>I recorded an AP transaction by mistake</summary>
+
+I recorded an AP transaction by mistake
 
 If the AP transaction has not been matched to any payment, open the transaction and select **Delete**. If it has already been matched, unmatch the payment first. Open the matched bank transaction, remove the match, then delete the AP transaction.
 
-</details>
 
-<details>
-<summary>Not sure how to categorise a bill or set up your AP workflow?</summary>
+
+Not sure how to categorise a bill or set up your AP workflow?
 
 Fi, Fiskl's built-in AI advisor, can help you think through your accounting setup, suggest the right expense categories, and guide you through more complex AP scenarios. Select the **Ask Fi** icon within the platform to get started.
 
-</details>
+
 
 ## Related Topics
 
@@ -194,3 +183,4 @@ Fi, Fiskl's built-in AI advisor, can help you think through your accounting setu
 - [Accounts Receivable Transactions](/accounting/journal-entries/guides/accounts-receivable-transactions) — Record income owed to your business
 - [Chart of Accounts](/accounting/chart-of-accounts) — View and manage your ledger account structure
 - [Managing Vendors](/clients-vendors/vendors) — Create and manage your vendor records
+
