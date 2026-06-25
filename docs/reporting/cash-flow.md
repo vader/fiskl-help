@@ -1,20 +1,14 @@
 ---
-title: "Statement of Cash Flows"
-description: "Generate and interpret the Statement of Cash Flows in Fiskl to monitor cash movements across operating, investing, and financing activities."
-keywords: ["cash flow", "statement of cash flows", "cash flow report", "operating activities", "investing activities", "financing activities", "Fiskl reports"]
+title: Statement of Cash Flows
+description: Generate and interpret the Statement of Cash Flows in Fiskl to
+  monitor cash movements across operating, investing, and financing activities.
 sidebar_position: 3
-tags:
-  - Reporting
-  - Accounting
-toc_min_heading_level: 2
-toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
 
 This guide explains how to generate and interpret the Statement of Cash Flows report in Fiskl to monitor your business's cash generation and usage patterns.
 
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
+
 
 ## Before You Begin
 
@@ -29,8 +23,7 @@ The Statement of Cash Flows tracks all cash movements in your business, organise
 
 Unlike the Profit and Loss report, which records income and expenses when they occur, the cash flow report reflects actual cash movement. A profitable business can still face cash shortfalls, so reviewing this report regularly is essential for sound financial management.
 
-<details className="blue-box">
-<summary>Why is this report important?</summary>
+Why is this report important?
 
 The Statement of Cash Flows helps you:
 
@@ -39,7 +32,7 @@ The Statement of Cash Flows helps you:
 - Identify trends in cash flow patterns
 - Make informed decisions about timing of payments and investments
 
-</details>
+
 
 ## How to Generate Your Cash Flow Report
 
@@ -131,8 +124,7 @@ Notes are useful for explaining one-off cash movements, such as a large equipmen
 
 ## Common Issues
 
-<details>
-<summary>Transactions appear in the wrong cash flow section</summary>
+Transactions appear in the wrong cash flow section
 
 This happens when a ledger account is mapped to the incorrect category in the Chart of Accounts or when accounts have been manually moved in the report layout.
 
@@ -143,10 +135,9 @@ To fix this:
 3. Return to the cash flow report and drag the account into the correct section
 4. If the issue persists across all periods, the account type may need updating — speak with your accountant before making changes
 
-</details>
 
-<details>
-<summary>Cash balances do not match my bank balance</summary>
+
+Cash balances do not match my bank balance
 
 The closing cash balance in the report reflects all accounts categorised as cash or cash equivalents in Fiskl. If your bank balance differs, check the following:
 
@@ -154,24 +145,22 @@ The closing cash balance in the report reflects all accounts categorised as cash
 - The **Credit Cards as Cash & Cash Equivalents** setting may need to be toggled on or off depending on your setup
 - Transactions recorded in a foreign currency are converted to your base currency, which can cause small differences due to exchange rate movements
 
-</details>
 
-<details>
-<summary>Foreign exchange movements appear unexpectedly</summary>
+
+Foreign exchange movements appear unexpectedly
 
 If you transact in multiple currencies, unrealised FX gains and losses appear in the report when exchange rates change between the transaction date and the reporting date. Toggle off **Show Unrealised FX Gains/Losses** in **Filters & Settings** if you want to exclude these from your view.
 
-</details>
 
-<details>
-<summary>The report shows no data for my selected date range</summary>
+
+The report shows no data for my selected date range
 
 If the report is empty, check that:
 
 - Transactions exist and are recorded within the selected date range
 - Your bank or ledger accounts are connected and synced
 
-</details>
+
 
 ## Related Topics
 
@@ -180,3 +169,4 @@ If the report is empty, check that:
 - [Chart of Accounts](/accounting/chart-of-accounts) — Configure how transactions are categorised
 - [Currency Management](/settings/currency-management) — Set your base currency and manage exchange rates
 - [Bank Account Reconciliation](/accounting/reconciliation/guides/bank-account-reconciliation) — Match your Fiskl records to your bank statements
+
