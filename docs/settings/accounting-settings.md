@@ -1,16 +1,13 @@
 ---
-title: "Accounting Settings"
-description: "Configure your accounting preferences in Fiskl — set your fiscal year, accounting method, tax type, auto matching, and standard income accounts."
-keywords: ["accounting settings", "fiscal year", "cash accounting", "accrual accounting", "auto matching", "auto categorisation", "standard income accounts", "ledger accounts"]
+title: Accounting Settings
+description: Configure your accounting preferences in Fiskl — set your fiscal
+  year, accounting method, tax type, auto matching, and standard income
+  accounts.
 sidebar_position: 3
-tags:
-  - Settings
-  - Accounting
-toc_min_heading_level: 2
-toc_max_heading_level: 3
 ---
+This guide covers how to configure your accounting preferences and standard ledger accounts for accurate financial reporting across Fiskl.
 
-Configure your accounting preferences and standard ledger accounts for accurate financial reporting across Fiskl. These settings control your fiscal year, accounting method, and default income accounts.
+<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## Accessing Accounting Settings
 
@@ -18,14 +15,16 @@ Go to **Settings** > **Accounting Settings** in the left sidebar.
 
 ## Accounting Settings
 
-| Setting | Description                                                                                                      |
-|---|------------------------------------------------------------------------------------------------------------------|
-| **Company Currency** | Your base currency, set at account creation. Cannot be changed.                                                  |
-| **Company Tax Type** | Select **No Tax**, **Single**, or **Multiple**. Applied across the entire platform.                              |
-| **Fiscal Year End** | Sets the date ranges for period filters in reports (this financial year, this quarter, and so on).               |
+| Setting | Description |
+|---|---|
+| **Company Currency** | Your base currency, set at account creation. Cannot be changed. |
+| **Company Tax Type** | Choose **No Tax**, **Single**, or **Multiple**. Applied across the entire platform. |
+| **Fiscal Year End** | Sets the date ranges for period filters in reports (this financial year, this quarter, and so on). |
 | **Accounting Method** | **Cash** records income and expenses when money changes hands. **Accrual** records them when earned or incurred. |
-| **Auto Matching** | Automatically matches imported bank transactions to invoices and expenses.                                       |
-| **Auto Categorisation** | Automatically assigns ledger accounts to transactions based on learned patterns.                                 |
+| **Auto Matching** | Automatically matches imported bank transactions to invoices and expenses. |
+| **Auto Categorisation** | Automatically assigns ledger accounts to transactions based on learned patterns. |
+
+**Single tax** means one tax rate applies to all your invoices and expenses — for example, a standard VAT or GST rate. **Multiple tax** allows you to apply different rates to different products, services, or regions — useful if you sell across tax jurisdictions or have mixed-rate products.
 
 :::info
 Changing your accounting method can significantly impact your financial reports. However, Fiskl offers unique flexibility:
@@ -68,7 +67,7 @@ Check that **Fiscal Year End** is set correctly and re-run the report.
 
 1. Go to the **Bank Account** and open the relevant transaction
 2. Delete the incorrect line item
-3. Select **Match** and select the correct match
+3. Select **Match** and choose the correct match
 4. Select **Finish**
 
 Ensure your invoices and expenses have accurate amounts and dates to improve future matching.
@@ -89,3 +88,4 @@ Add the account in [Chart of Accounts](/accounting/chart-of-accounts) first, the
 - [Chart of Accounts](/accounting/chart-of-accounts) — View and manage your ledger accounts
 - [Profit and Loss Report](/reporting/profit-and-loss) — See how your accounting method affects reports
 - [Banking Overview](/integrations/banking/overview) — Connect your bank and manage transaction matching
+
