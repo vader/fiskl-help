@@ -1,20 +1,15 @@
 ---
-title: "Multi-Journal Entries"
-description: "Learn how to create multi-journal entries in Fiskl to record complex transactions across multiple ledger accounts in a single balanced entry."
-keywords: ["multi-journal entry", "journal entry", "double-entry bookkeeping", "ledger accounts", "debits and credits", "accounting", "Fiskl"]
+title: Multi-Journal Entries
+description: Learn how to create multi-journal entries in Fiskl to record
+  complex transactions across multiple ledger accounts in a single balanced
+  entry.
 sidebar_position: 2
-tags:
-  - Accounting
-  - Journal Entries
-toc_min_heading_level: 2
-toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
 
 This guide explains how to create multi-journal entries in Fiskl. Use multi-journal entries when a single transaction touches more than two ledger accounts at once.
 
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
+
 
 ## Before You Begin
 
@@ -37,8 +32,7 @@ Common uses include:
 - Recording depreciation across several asset accounts
 - Splitting a loan repayment between principal and interest
 
-<details>
-<summary>What are debits and credits?</summary>
+What are debits and credits?
 
 Every transaction is money moving from one place to another. Debits and credits are how you record both sides of that movement. Every entry needs at least one of each, and the totals must match.
 
@@ -56,7 +50,7 @@ A simple way to remember it:
 - **Debit** = where money goes *to*
 - **Credit** = where money comes *from*
 
-</details>
+
 
 Multi-journal entries follow standard double-entry bookkeeping rules. Every entry needs at least one debit line and one credit line, and the total must balance to zero before you can save.
 
@@ -68,9 +62,9 @@ Multi-journal entries follow standard double-entry bookkeeping rules. Every entr
 4. Enter a **Date** for the transaction.
 5. Select **Add internal notes about this journal entry** to add a description (optional but recommended).
 6. Add your first line:
-   - Select a **Ledger account** from the dropdown.
-   - Enter the amount in either the **Debit** or **Credit** column.
-   - Select **Client**, **Vendor**, or **Tax** if you want to link the line to a specific client, vendor, or tax rate (optional).
+  - Select a **Ledger account** from the dropdown.
+  - Enter the amount in either the **Debit** or **Credit** column.
+  - Select **Client**, **Vendor**, or **Tax** if you want to link the line to a specific client, vendor, or tax rate (optional).
 7. Select **Add line** to add the next account.
 8. Repeat until all affected accounts are included.
 9. Check that the **Difference** indicator at the bottom shows zero.
@@ -156,8 +150,7 @@ For deeper insight into how your journal entries are affecting your finances, se
 
 ## Common Issues
 
-<details>
-<summary>The entry won't save — "Entry is not balanced"</summary>
+The entry won't save — "Entry is not balanced"
 
 The total debits and total credits must be equal before you can save. Check the **Difference** indicator at the bottom of the form.
 
@@ -169,10 +162,9 @@ Common causes:
 
 Adjust your lines until the difference shows zero, then save.
 
-</details>
 
-<details>
-<summary>A ledger account isn't appearing in the dropdown</summary>
+
+A ledger account isn't appearing in the dropdown
 
 Only active ledger accounts appear in the account dropdown. If an account is missing:
 
@@ -181,21 +173,19 @@ Only active ledger accounts appear in the account dropdown. If an account is mis
 3. Select the **Archived** tab, select the account, then select the unarchive button on the account line.
 4. Return to your journal entry — the account should now appear.
 
-</details>
 
-<details>
-<summary>The entry saved but I can't see it in my reports</summary>
+
+The entry saved but I can't see it in my reports
 
 Reports use the **Date** you entered on the journal entry — not the date you saved it. Check that the date on your entry falls within the report period you're viewing. Adjust the report date range if needed.
 
-</details>
 
-<details>
-<summary>The exchange rate on a multi-currency line looks wrong</summary>
+
+The exchange rate on a multi-currency line looks wrong
 
 Fiskl uses the exchange rate on the transaction date by default. If the rate shown doesn't match your records, you can override it by entering the rate directly on the line. This is useful when posting historic entries or using a rate agreed with your bank.
 
-</details>
+
 
 ## Related Topics
 
@@ -204,3 +194,4 @@ Fiskl uses the exchange rate on the transaction date by default. If the rate sho
 - [Multi-currency Transactions](/accounting/journal-entries/guides/multi-currency-transactions) — Handle foreign currency in journal entries
 - [Chart of Accounts](/accounting/chart-of-accounts) — Manage your ledger accounts
 - [Accounting Settings](/settings/accounting-settings) — Configure your accounting preferences
+
