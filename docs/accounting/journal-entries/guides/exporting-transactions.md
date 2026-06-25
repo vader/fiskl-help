@@ -1,22 +1,14 @@
 ---
-title: "Filtering and Exporting Transactions"
-description: "Learn how to filter journal entry transactions by date, source, and category, and export them to Google Sheets, Excel, or CSV in Fiskl."
-keywords: ["filter transactions", "export transactions", "journal entries", "Google Sheets export", "CSV export", "accounting", "Fiskl"]
+title: Filtering and Exporting Transactions
+description: Learn how to filter journal entry transactions by date, source, and
+  category, and export them to Google Sheets, Excel, or CSV in Fiskl.
 sidebar_position: 9
-tags:
-  - Accounting
-  - Journal entry
-  - Reporting
-  - Data management
-toc_min_heading_level: 2
-toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
 
 This guide explains how to filter and export transactions from your ledger accounts in Fiskl. Use these tools to find specific entries quickly and share your data with accountants or external applications.
 
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
+
 
 ## Before you begin
 
@@ -112,8 +104,7 @@ Exporting is useful for creating custom reports, sharing records with your accou
 
 ## Common issues
 
-<details>
-<summary>The Google Sheets export button is not working</summary>
+The Google Sheets export button is not working
 
 This usually means the authorisation between Fiskl and your Google account has not been completed or has expired.
 
@@ -121,10 +112,9 @@ This usually means the authorisation between Fiskl and your Google account has n
 2. Follow the authorisation prompts fully, including granting the required permissions.
 3. If the issue persists, try signing out of Fiskl and signing back in, then repeat the export.
 
-</details>
 
-<details>
-<summary>My exported file is missing transactions</summary>
+
+My exported file is missing transactions
 
 Exports reflect the filters currently applied to your transaction list. If transactions are missing, check whether active filters are excluding them.
 
@@ -132,10 +122,9 @@ Exports reflect the filters currently applied to your transaction list. If trans
 2. Clear any filters that may be limiting the results.
 3. Select **Apply**, then export again.
 
-</details>
 
-<details>
-<summary>I cannot see the Filter or Export buttons</summary>
+
+I cannot see the Filter or Export buttons
 
 These controls appear at the top of the transaction list when you are inside a specific ledger account. You will not see them on the Chart of Accounts overview page.
 
@@ -143,7 +132,7 @@ These controls appear at the top of the transaction list when you are inside a s
 2. Select the specific ledger account you want to work with.
 3. The **Filter** and **Export** buttons appear at the top of the transaction list.
 
-</details>
+
 
 ## Related topics
 
@@ -151,3 +140,4 @@ These controls appear at the top of the transaction list when you are inside a s
 - [Journal Entries Overview](/accounting/journal-entries/overview) — Understand how journal entries work in Fiskl.
 - [Bank Account Reconciliation](/accounting/reconciliation/guides/bank-account-reconciliation) — Reconcile your bank feed transactions.
 - [Transactions by Account](/reporting/transactions-by-account) — Run a transactions report across your accounts.
+
