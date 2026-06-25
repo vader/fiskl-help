@@ -1,21 +1,13 @@
 ---
-title: "GoCardless Integration"
-description: "Connect GoCardless to Fiskl to collect Direct Debit and Instant Bank Pay payments on invoices. Automate recurring payments and reduce late payments."
-keywords: ["GoCardless", "direct debit", "automated payments", "payment integration", "recurring invoices", "Instant Bank Pay"]
+title: GoCardless Integration
+description: Connect GoCardless to Fiskl to collect Direct Debit and Instant
+  Bank Pay payments on invoices. Automate recurring payments and reduce late
+  payments.
 sidebar_position: 2
-slug: /integrations/payments/gocardless
-tags:
-  - Integrations
-  - Payments
-toc_min_heading_level: 2
-toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
 
 This guide explains how to connect GoCardless to Fiskl, collect payments on invoices, and manage the integration.
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## Before You Begin
 
@@ -75,19 +67,17 @@ There are two ways to remove the integration:
 
 ## Common Issues
 
-<details>
-<summary>My client has not received the payment authorisation form</summary>
+My client has not received the payment authorisation form
 
 Check the invoice was sent successfully and that the client's email address is correct. You can resend the invoice from **Invoicing** > **Invoices**. If the issue persists, ask the client to check their spam folder.
 
-</details>
 
-<details>
-<summary>My GoCardless account is not approved yet</summary>
+
+My GoCardless account is not approved yet
 
 GoCardless reviews new accounts before allowing payment collection. You will receive a notification once approved. Contact GoCardless support if approval is taking longer than expected.
 
-</details>
+
 
 ## FAQs
 
@@ -116,3 +106,4 @@ For international payments, see the [GoCardless international payments](https://
 - [PayPal Integration](/integrations/payments/paypal) — Connect PayPal for online payments on invoices
 - [Creating Invoices](/invoicing/creating-invoices) — Add a payment method when creating an invoice
 - [Recurring Invoices](/invoicing/create-recurring-invoices) — Automate invoice creation for ongoing clients
+
