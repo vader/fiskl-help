@@ -1,14 +1,10 @@
 ---
-title: "Creating Quotes"
-description: "Learn how to create professional quotes in Fiskl. Configure tax, branding, and email settings, then build and send quotes to your clients."
-keywords: ["create quote", "quote", "quoting", "estimate", "proposal", "line items", "quote template", "convert quote to invoice"]
+title: Creating Quotes
+description: Learn how to create professional quotes in Fiskl. Configure tax,
+  branding, and email settings, then build and send quotes to your clients.
 sidebar_position: 3
-tags:
-  - Invoicing
-  - Quotes
-toc_min_heading_level: 2
-toc_max_heading_level: 3
 ---
+This guide explains how to create quotes in Fiskl and send professional proposals to clients, from first-time setup through to converting an accepted quote into an invoice.
 
 ## Before You Begin
 
@@ -30,8 +26,7 @@ Completing the setup steps below before creating your first quote ensures accura
 
 ## Step 1: Configure Tax Settings
 
-<details>
-<summary>Step 1: Configure Tax Settings</summary>
+Step 1: Configure Tax Settings
 
 If you charge tax on products or services, configure your tax settings before creating quotes.
 
@@ -40,7 +35,7 @@ If you charge tax on products or services, configure your tax settings before cr
 1. Go to **Settings** > **Tax Management** > **Tax Agencies**
 2. Select **Add Tax ID**
 3. Enter your tax authority details:
-    - Tax authority name (for example, "VAT UK" or "Sales Tax CA")
+  - Tax authority name (for example, "VAT UK" or "Sales Tax CA")
     - Tax identification number
     - Tax type (Sales Tax, VAT, GST, and so on)
 4. Select **Save**
@@ -52,7 +47,7 @@ Fiskl automatically creates a corresponding ledger account in your Chart of Acco
 1. In **Tax Management**, go to the **Tax Rates** section
 2. Select **Add Tax**
 3. Configure the tax rate:
-    - Tax name (for example, "Standard VAT 20%")
+  - Tax name (for example, "Standard VAT 20%")
     - Tax rate percentage
     - Assign to your tax agency
     - Mark as Sales Tax or Non-Sales Tax
@@ -74,14 +69,13 @@ This rate applies automatically to all line items unless you specify otherwise o
 
 **Learn more:** [Tax Settings](/settings/tax-settings)
 
-</details>
+
 
 ---
 
 ## Step 2: Set Up Company Information and Branding
 
-<details>
-<summary>Step 2: Set Up Company Information and Branding</summary>
+Step 2: Set Up Company Information and Branding
 
 Your company information appears on every quote. Configure it once for consistent branding across all documents.
 
@@ -89,7 +83,7 @@ Your company information appears on every quote. Configure it once for consisten
 
 1. Go to **Settings** > **Company Profile**
 2. Complete your company information:
-    - Legal business name
+  - Legal business name
     - Business address
     - Phone number
     - Email address
@@ -127,14 +121,13 @@ If you operate multiple brands under one entity, use **Brand Overrides** to set 
 
 **Learn more:** [Invoice Templates and Brands](/settings/invoice-template-brands-settings)
 
-</details>
+
 
 ---
 
 ## Step 3: Configure Email Templates
 
-<details>
-<summary>Step 3: Configure Email Templates</summary>
+Step 3: Configure Email Templates
 
 Fiskl sends email notifications when you issue and follow up on quotes.
 
@@ -156,7 +149,7 @@ Write your own email content with full control over wording, tone, and messaging
 2. Select your template
 3. Select the **Email** tab
 4. Select your email strategy:
-    - **Fiskl templates** — leave the toggle off
+  - **Fiskl templates** — leave the toggle off
     - **Custom text** — toggle on
 
 **If using custom email text**, configure each scenario separately:
@@ -167,8 +160,9 @@ Write your own email content with full control over wording, tone, and messaging
 
 Placeholders insert quote data into your email automatically.
 
+
 | Placeholder | Description |
-| --- | --- |
+| ---------------- | ----------------------------- |
 | `{quote_number}` | Quote number |
 | `{quote_date}` | Quote date |
 | `{expiry_date}` | Quote expiry date |
@@ -176,6 +170,7 @@ Placeholders insert quote data into your email automatically.
 | `{company_name}` | Your company name |
 | `{quote_total}` | Total amount |
 | `{quote_link}` | Link to view the quote online |
+
 
 **Example custom email:**
 
@@ -194,14 +189,13 @@ Best regards,
 {company_name}
 ```
 
-</details>
+
 
 ---
 
 ## Step 4: Configure Language Settings
 
-<details>
-<summary>Step 4: Configure Language Settings</summary>
+Step 4: Configure Language Settings
 
 If you quote clients in multiple languages, configure your language settings before creating quotes.
 
@@ -228,7 +222,7 @@ Your custom language appears in the language selector when creating quotes.
 
 **Learn more:** [Invoice and Quote Settings](/settings/invoice-quotes-settings)
 
-</details>
+
 
 ---
 
@@ -294,10 +288,12 @@ Two limitations apply:
 
 **Quote dates**
 
+
 | Field | Purpose | Default |
-| --- | --- | --- |
+| ----------- | -------------------------------- | ---------------------------- |
 | Quote date | The date the quote was issued | Today |
 | Expiry date | The date the quote offer expires | Thirty days after quote date |
+
 
 To change the default expiry period, go to **Settings** > **Invoice & Quote Settings**.
 
@@ -313,13 +309,15 @@ Default notes and terms can be configured in **Settings** > **Invoice & Quote Se
 
 Line items are the rows on your quote. Fiskl supports five types:
 
+
 | Type | Description |
-| --- | --- |
+| ----------- | ------------------------------------------------------------ |
 | **Product** | A physical or digital item. Products are reusable templates. |
 | **Service** | A service you provide. Services are reusable templates. |
 | **Expense** | A business expense you are billing to the client. |
 | **Mileage** | Travel distance billed at a per-kilometre or per-mile rate. |
 | **Time** | Billable hours tracked against the quote. |
+
 
 You can create line items directly on the quote, or set them up in advance under **Products & Services** in the left navigation.
 
@@ -328,7 +326,7 @@ You can create line items directly on the quote, or set them up in advance under
 1. Select **Plus** in the line item section
 2. Select **Add New** > **Product or Service**
 3. Enter the line item details:
-    - Item name and description
+  - Item name and description
     - Quantity and unit price
     - Tax rate (defaults to your primary tax rate)
 4. The amount calculates automatically
@@ -344,7 +342,7 @@ To add more detail, select **More details**:
 1. Select **Plus** in the line item section
 2. Select **Add New** > **Expense**
 3. Enter the expense details:
-    - Select a vendor from the dropdown or create one by entering the vendor name and selecting **+ Create**
+  - Select a vendor from the dropdown or create one by entering the vendor name and selecting **+ Create**
     - Description and price
     - Tax rate (defaults to your primary tax rate)
 4. The amount calculates automatically
@@ -360,7 +358,7 @@ To add more detail, select **More details**:
 1. Select **Plus** in the line item section
 2. Select **Add New** > **Time**
 3. Enter the time details:
-    - Name and description
+  - Name and description
     - Quantity (total time)
     - Rate (defaults to your saved preference, or the client default rate if set)
     - Tax rate (defaults to your primary tax rate)
@@ -377,7 +375,7 @@ To add more detail, select **More details**:
 1. Select **Plus** in the line item section
 2. Select **Add New** > **Mileage**
 3. Enter the mileage details:
-    - Name and description
+  - Name and description
     - Quantity (total distance in miles or kilometres)
     - Rate (defaults to your saved preference)
     - Tax rate (defaults to your primary tax rate)
@@ -454,8 +452,7 @@ To send the quote to your client, select **Save & Send**.
 
 ## Common Issues
 
-<details>
-<summary>My tax number is not showing on the quote</summary>
+My tax number is not showing on the quote
 
 Two settings control tax number visibility — both must be configured correctly.
 
@@ -464,37 +461,33 @@ Two settings control tax number visibility — both must be configured correctly
 
 Your tax number only appears when at least one line item on the quote has tax applied.
 
-</details>
 
-<details>
-<summary>The quote currency is wrong</summary>
+
+The quote currency is wrong
 
 The currency defaults to your company's base currency, or the client's default currency if one is set. To change it for an individual quote, select the currency from the dropdown in the **Basic Details** section.
 
 To update the client's default currency, go to **Clients**, select the client, and update their currency setting.
 
-</details>
 
-<details>
-<summary>The quote number is out of sequence</summary>
+
+The quote number is out of sequence
 
 If you edited a quote number manually, Fiskl uses that number as the new base for auto-increment. Create a new quote and manually enter the correct number. All subsequent quotes will increment from that point.
 
-</details>
 
-<details>
-<summary>Template changes affected quotes I already sent</summary>
+
+Template changes affected quotes I already sent
 
 Template changes apply to all quotes using that template. If you need to change styling without affecting existing quotes, create a new template in **Settings** > **Templates & Brands** and apply it only to new quotes going forward.
 
-</details>
 
-<details>
-<summary>The Convert to Invoice option is not available</summary>
+
+The Convert to Invoice option is not available
 
 The **Convert to Invoice** option is available on quotes of any status. If you cannot see it, confirm that you have the correct role and permissions to create invoices. Contact your account owner if the option remains unavailable.
 
-</details>
+
 
 ---
 
@@ -507,3 +500,4 @@ The **Convert to Invoice** option is available on quotes of any status. If you c
 - [Invoice Templates and Brands](../settings/invoice-template-brands-settings) — Customise the appearance of your quotes
 - [Managing Clients](../clients-vendors/clients) — Set up client profiles and defaults
 - [Products & Services](../products-services/overview) — Build a reusable catalogue of items
+
