@@ -1,20 +1,14 @@
 ---
-title: "Sales Tax Report"
-description: "Use the Fiskl Sales Tax report to track tax liabilities, review transactions by tax period, and export data for filing with tax authorities."
-keywords: ["sales tax report", "tax liability", "tax period", "VAT report", "tax filing", "tax agency"]
+title: Sales Tax Report
+description: Use the Fiskl Sales Tax report to track tax liabilities, review
+  transactions by tax period, and export data for filing with tax authorities.
 sidebar_position: 7
-tags:
-  - Reporting
-  - Tax
-toc_min_heading_level: 2
-toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
 
 This guide explains how to use the Sales Tax report to review tax activity, calculate liabilities, and export data for tax authorities.
 
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
+
 
 ## Before You Begin
 
@@ -97,8 +91,7 @@ Export in Detailed view when preparing documentation for a tax authority or audi
 
 ## Common Issues
 
-<details>
-<summary>My report shows no data for the selected period</summary>
+My report shows no data for the selected period
 
 This usually means no invoices or vendor bills were created with tax applied during that period.
 
@@ -106,28 +99,25 @@ This usually means no invoices or vendor bills were created with tax applied dur
 2. Check that the **Report Period** covers the dates you expect.
 3. Verify that invoices and bills in that period have tax rates applied — untaxed transactions do not appear in this report.
 
-</details>
 
-<details>
-<summary>Tax amounts appear in the wrong month</summary>
+
+Tax amounts appear in the wrong month
 
 When **Accrual Basis** is enabled, tax is recorded on the date the invoice or bill is created, not the payment date. If a bill was created in March but paid in April, the tax appears in the March report. Adjust your **Report Period** to match the creation date, or toggle off **Accrual Basis** to switch to cash basis reporting.
 
-</details>
 
-<details>
-<summary>I cannot find my tax agency in the Sales Tax Account dropdown</summary>
+
+I cannot find my tax agency in the Sales Tax Account dropdown
 
 The dropdown only shows tax numbers configured in **Settings** > **Tax Management**. If your tax agency is missing, add it there first, then return to the report.
 
-</details>
 
-<details>
-<summary>Base currency columns are not showing</summary>
+
+Base currency columns are not showing
 
 Base currency columns are hidden by default. Open **Filters & Settings**, go to **Display Options**, and toggle on **Show Base Currency**.
 
-</details>
+
 
 ## Related Topics
 
@@ -135,3 +125,4 @@ Base currency columns are hidden by default. Open **Filters & Settings**, go to 
 - [Reporting Overview](/reporting/overview) — View all available reports in Fiskl
 - [Profit and Loss](/reporting/profit-and-loss) — Review overall business performance
 - [Creating Invoices](/invoicing/creating-invoices) — Apply tax rates when creating invoices
+
