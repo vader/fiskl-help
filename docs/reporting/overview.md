@@ -1,20 +1,15 @@
 ---
-title: "Financial Reports Overview"
-description: "Explore Fiskl's financial reports — from Profit and Loss to Sales Tax. Generate, analyse, and export real-time reports for better business decisions."
-keywords: ["financial reports", "profit and loss", "balance sheet", "general ledger", "trial balance", "sales tax report", "client aging", "Fiskl reporting"]
+title: Financial Reports Overview
+description: Explore Fiskl's financial reports — from Profit and Loss to Sales
+  Tax. Generate, analyse, and export real-time reports for better business
+  decisions.
 sidebar_position: 1
-tags:
-  - Reporting
-  - Accounting
-toc_min_heading_level: 2
-toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
 
 This guide covers the reports available in Fiskl and what each one is designed to show. Reports update automatically as you record transactions, so the data you see always reflects your current books.
 
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
+
 
 ---
 
@@ -110,3 +105,4 @@ All reports share the following capabilities.
 - [Accounting Settings](/settings/accounting-settings) — Configure your base currency, financial year, and accounting method
 - [Tax Settings](/settings/tax-settings) — Set up tax rates for accurate Sales Tax reporting
 - [Bank Account Reconciliation](/accounting/reconciliation/guides/bank-account-reconciliation) — Keep your books accurate before generating reports
+
