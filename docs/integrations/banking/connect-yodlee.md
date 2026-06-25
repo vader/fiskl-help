@@ -1,20 +1,12 @@
 ---
-title: "Connect with Yodlee"
-description: "Connect your bank to Fiskl using Yodlee for automated transaction imports across the United States, Canada, and South Africa."
-keywords: ["Yodlee", "bank connection", "transaction imports", "Fiskl Banking", "US banking", "Canada banking"]
+title: Connect with Yodlee
+description: Connect your bank to Fiskl using Yodlee for automated transaction
+  imports across the United States, Canada, and South Africa.
 sidebar_position: 1
-slug: /integrations/banking/connecting-yodlee
-tags:
-  - Integrations
-  - Banking
-  - Yodlee
-toc_min_heading_level: 2
-toc_max_heading_level: 3
 ---
+This guide explains how to connect your bank accounts to Fiskl using Yodlee for automated transaction imports.
 
-Yodlee connects your bank accounts to Fiskl and imports transactions automatically, keeping your financial records current without manual entry.
-
-The integration supports banks across the United States, Canada, and South Africa. After you connect, Fiskl syncs your banking data daily.
+Yodlee supports banks across the United States, Canada, and South Africa. After you connect, Fiskl syncs your banking data daily.
 
 ## Before You Begin
 
@@ -54,8 +46,7 @@ Check your bank connections every 30 days to avoid interruptions to your transac
 
 ## Common Issues
 
-<details>
-<summary>Connection failed during authentication</summary>
+Connection failed during authentication
 
 This is usually caused by incorrect credentials, a bank security setting blocking third-party access, or a two-factor authentication timeout.
 
@@ -65,10 +56,9 @@ This is usually caused by incorrect credentials, a bank security setting blockin
 
 If the issue persists, contact Fiskl support with the error message you received.
 
-</details>
 
-<details>
-<summary>Transactions aren't syncing</summary>
+
+Transactions aren't syncing
 
 1. Go to **Banking** and check the status on your bank account card
 2. If you see a "Connection expired" or similar message, select **Reconnect**
@@ -77,10 +67,9 @@ If the issue persists, contact Fiskl support with the error message you received
 
 If transactions are still missing after 48 hours, contact Fiskl support.
 
-</details>
 
-<details>
-<summary>My bank isn't listed</summary>
+
+My bank isn't listed
 
 Yodlee covers most banks in the United States, Canada, and South Africa. If your bank doesn't appear in search results:
 
@@ -90,10 +79,9 @@ Yodlee covers most banks in the United States, Canada, and South Africa. If your
 
 If you still can't find your bank, [Salt Edge](/integrations/banking/connecting-saltedge) may cover it as an alternative provider.
 
-</details>
 
-<details>
-<summary>I see a "Consent expired" message</summary>
+
+I see a "Consent expired" message
 
 Some banks require periodic consent renewal as part of their security compliance. This is expected behaviour.
 
@@ -103,7 +91,7 @@ Some banks require periodic consent renewal as part of their security compliance
 
 Your transactions will resume syncing automatically after reconnection.
 
-</details>
+
 
 ## Related Topics
 
@@ -111,3 +99,4 @@ Your transactions will resume syncing automatically after reconnection.
 - [Connect with Salt Edge](/integrations/banking/connecting-saltedge) — Alternative banking provider with broader international coverage
 - [Account reconciliation](/accounting/reconciliation/overview) — Reconcile imported transactions against your records
 - [Journal entry guides](/accounting/journal-entries/guides/overview) — Categorize and manage transactions in your ledger
+
