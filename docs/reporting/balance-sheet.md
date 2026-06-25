@@ -1,20 +1,14 @@
 ---
-title: "Balance Sheet Report"
-description: "Learn how to generate and analyze your Balance Sheet report in Fiskl to understand your business's financial position at any point in time."
-keywords: ["balance sheet", "financial reports", "assets", "liabilities", "equity", "accrual", "cash accounting", "Fiskl reporting"]
+title: Balance Sheet Report
+description: Learn how to generate and analyze your Balance Sheet report in
+  Fiskl to understand your business's financial position at any point in time.
 sidebar_position: 2
-tags:
-  - Reporting
-  - Accounting
-toc_min_heading_level: 2
-toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
 
 This guide explains how to generate and analyze your Balance Sheet report in Fiskl. Use it to review your business's financial position and understand what you own, owe, and retain at any point in time.
 
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
+
 
 ## Before You Begin
 
@@ -24,8 +18,7 @@ To generate your Balance Sheet, you need at least one ledger account with transa
 
 The Balance Sheet is a financial statement that follows the fundamental accounting equation: Assets = Liabilities + Equity. It shows your financial position at a specific date — like a snapshot — rather than across a period.
 
-<details className="blue-box">
-<summary><strong>Why is the Balance Sheet important?</strong></summary>
+**Why is the Balance Sheet important?**
 
 The Balance Sheet helps you:
 
@@ -34,7 +27,7 @@ The Balance Sheet helps you:
 - Meet requirements for tax filing and loan applications
 - Make strategic decisions based on real financial data
 
-</details>
+
 
 ### Balance Sheet vs Profit and Loss
 
@@ -154,8 +147,7 @@ If you need help interpreting your Balance Sheet, ask Fi. Select **Fi** in the t
 
 ## Common Issues
 
-<details>
-<summary>My Balance Sheet does not balance (Assets ≠ Liabilities + Equity)</summary>
+My Balance Sheet does not balance (Assets ≠ Liabilities + Equity)
 
 An unbalanced Balance Sheet usually indicates a data entry issue or an unreconciled transaction. To investigate:
 
@@ -164,28 +156,25 @@ An unbalanced Balance Sheet usually indicates a data entry issue or an unreconci
 3. Review any manual adjustments made to ledger accounts
 4. Contact support if the imbalance persists after reviewing your entries
 
-</details>
 
-<details>
-<summary>Figures look different between Cash and Accrual views</summary>
+
+Figures look different between Cash and Accrual views
 
 This is expected behaviour. Cash and Accrual methods record transactions at different points in time. Invoices not yet paid appear in Accrual but not in Cash. Switch between methods in **Filters & Settings** to compare the two views.
 
-</details>
 
-<details>
-<summary>A ledger account is missing from the report</summary>
+
+A ledger account is missing from the report
 
 Ledger accounts with no transactions in the selected period are hidden by default. Select **Filters & Settings** and turn off **Hide Empty Accounts** to show all accounts regardless of activity.
 
-</details>
 
-<details>
-<summary>My export is missing data</summary>
+
+My export is missing data
 
 Check whether you selected a **Summary** option instead of a **Detailed** option. Summary exports show totals only. Select **Export** again and choose either **Detailed Excel** or **Detailed Google Sheets** to include all line items and transactions.
 
-</details>
+
 
 ## Related Topics
 
@@ -194,3 +183,4 @@ Check whether you selected a **Summary** option instead of a **Detailed** option
 - [Trial Balance](/core-features/accounting/reports/trial-balance) — Review all ledger account balances before closing a period
 - [Chart of Accounts](/accounting/chart-of-accounts) — Manage the ledger accounts that feed your reports
 - [Cash vs Accrual Accounting](/glossary/accounting-fundamentals) — Understand the difference between accounting methods
+
