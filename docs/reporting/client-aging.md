@@ -1,23 +1,17 @@
 ---
-title: "Client Aging Report"
-description: "Track outstanding client balances and manage accounts receivable with the Fiskl Client Aging Report. Customise periods, filter by client, and export."
-keywords: ["client aging report", "accounts receivable", "outstanding transactions", "cash flow", "collections"]
+title: Client Aging Report
+description: Track outstanding client balances and manage accounts receivable
+  with the Fiskl Client Aging Report. Customise periods, filter by client, and
+  export.
 sidebar_position: 15
-tags:
-  - Reporting
-  - Accounts Receivable
-toc_min_heading_level: 2
-toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
 
 This guide explains how to use the Client Aging Report in Fiskl to track outstanding client balances and manage your accounts receivable.
 
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
-<details>
-<summary>Why use the Client Aging Report?</summary>
+
+Why use the Client Aging Report?
 
 The Client Aging Report helps you:
 
@@ -27,7 +21,7 @@ The Client Aging Report helps you:
 - Prioritise which transactions need immediate follow-up
 - Make informed decisions about client credit policies
 
-</details>
+
 
 ## Before You Begin
 
@@ -76,19 +70,22 @@ Set **Period** to **Month** and **Number of Periods** to match your standard pay
 
 The summary view shows one row per client with their total outstanding balance across date-based columns.
 
+
 | Column | Description |
-|---|---|
+| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Client** | Client name |
 | **Date columns** | Outstanding amounts by period. Column headings are based on your **Period** and **Number of Periods** settings — for example, May 2026, Apr 2026, Mar 2026, Feb 2026 |
 | **Older** | Transactions beyond your last date column |
 | **Total** | Total outstanding balance for that client |
 
+
 ### Detailed View
 
 The detailed view shows one row per transaction so you can see exactly what makes up each client's balance.
 
+
 | Column | Description |
-|---|---|
+| ---------------- | --------------------------------------------------------------------------------------------------------- |
 | **Client** | Client name |
 | **Type** | Transaction type (e.g. Invoice) |
 | **Name** | Transaction number and name |
@@ -96,6 +93,7 @@ The detailed view shows one row per transaction so you can see exactly what make
 | **Date columns** | The period the outstanding amount falls into, based on your **Period** and **Number of Periods** settings |
 | **Older** | Transactions beyond your last date column |
 | **Total** | Total outstanding balance for that client across all transactions |
+
 
 ## Adding Notes
 
@@ -130,8 +128,7 @@ Fi, Fiskl's built-in AI advisor, can help you interpret your aging data. Select 
 
 ## Common Issues
 
-<details>
-<summary>A transaction is not appearing in the report</summary>
+A transaction is not appearing in the report
 
 The Client Aging Report only includes AR transactions with an outstanding balance. Check the following:
 
@@ -139,17 +136,15 @@ The Client Aging Report only includes AR transactions with an outstanding balanc
 2. Confirm the transaction date falls on or before your **As Of Date**.
 3. Confirm the transaction has not been fully paid or written off.
 
-</details>
 
-<details>
-<summary>All transactions are showing in the Older column</summary>
+
+All transactions are showing in the Older column
 
 This usually means the **Number of Periods** or **Period** setting is too narrow. Try increasing the number of periods or switching to a longer period such as month or quarter.
 
-</details>
 
-<details>
-<summary>The report shows no data</summary>
+
+The report shows no data
 
 If the report appears empty, check the following:
 
@@ -157,7 +152,7 @@ If the report appears empty, check the following:
 2. Confirm the **Clients** filter includes the clients you expect to see.
 3. Confirm at least one sent invoice has an outstanding balance.
 
-</details>
+
 
 ## Related Topics
 
@@ -165,3 +160,4 @@ If the report appears empty, check the following:
 - [Managing Clients](/clients-vendors/clients) — Add and manage client records in Fiskl
 - [Invoice Management](/invoicing/invoice-management) — View, edit, and track the status of your invoices
 - [Accounts Receivable Transactions](/accounting/journal-entries/guides/accounts-receivable-transactions) — Understand how AR transactions are recorded in your ledger
+
