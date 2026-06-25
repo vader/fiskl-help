@@ -1,17 +1,11 @@
 ---
-title: "Invoice & Quote Settings"
-description: "Configure invoice and quote settings in Fiskl — templates, brands, payment terms, payment gateways, manual payment methods, language, and email delivery."
-keywords: ["invoice settings", "quote settings", "payment terms", "templates", "brands", "payment gateways", "manual payments", "email delivery"]
+title: Invoice & Quote Settings
+description: Configure invoice and quote settings in Fiskl — templates, brands,
+  payment terms, payment gateways, manual payment methods, language, and email
+  delivery.
 sidebar_position: 1
-tags:
-  - Settings
-  - Invoicing
-  - Quotes
-toc_min_heading_level: 2
-toc_max_heading_level: 3
 ---
-
-Configure how your invoices and quotes look, behave, and reach your clients. Set templates, brands, payment terms, language, email delivery, and auto-add your connected payment gateways to every new invoice.
+This guide covers the **Invoice & Quote Settings** page, where you control how your invoices and quotes look, behave, and reach your clients. Configure templates, brands, payment terms, auto-select connected payment gateways, manual payment methods, language preferences, and email delivery all in one place.
 
 ## Why Configure Invoice & Quote Settings
 
@@ -70,7 +64,7 @@ Configure the default email subject line, body text, and sender details used whe
 
 import DocCardList from '@theme/DocCardList';
 
-<DocCardList />
+
 
 ## Related Topics
 
@@ -78,3 +72,4 @@ import DocCardList from '@theme/DocCardList';
 - [Creating Quotes](/invoicing/creating-quotes) — Create quotes and convert them to invoices
 - [Payment Integrations](/integrations/payments/overview) — Connect and manage your payment gateway accounts
 - [Company Settings](/settings/company-settings) — Update your business details, logo, and base currency
+
