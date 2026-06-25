@@ -1,22 +1,14 @@
 ---
-title: "PayPal Integration"
-description: "Connect PayPal to Fiskl to accept online payments on your invoices. Set up the integration in minutes and offer clients a familiar payment method."
-keywords: ["PayPal integration", "Fiskl PayPal", "accept PayPal payments", "invoice payment methods", "online payments"]
+title: PayPal Integration
+description: Connect PayPal to Fiskl to accept online payments on your invoices.
+  Set up the integration in minutes and offer clients a familiar payment method.
 sidebar_position: 3
-slug: /integrations/payments/paypal
-tags:
-  - Integrations
-  - Payment gateways
-  - PayPal
-toc_min_heading_level: 2
-toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
 
 This guide explains how to connect your PayPal account to Fiskl and offer PayPal as a payment method on your invoices.
 
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
+
 
 ## Before You Begin
 
@@ -52,19 +44,17 @@ Disconnecting removes PayPal as a payment option from future invoices. It does n
 
 ## Common Issues
 
-<details>
-<summary>PayPal payments are not appearing on invoices</summary>
+PayPal payments are not appearing on invoices
 
 Confirm the integration is active under **Integrations** > **Payment Integrations**. If PayPal shows as connected but is not appearing on a specific invoice, check whether payment gateways have been manually adjusted for that invoice in **Invoice & Quote Settings**.
 
-</details>
 
-<details>
-<summary>Connection failed during setup</summary>
+
+Connection failed during setup
 
 Verify the email address you entered matches your PayPal account exactly. PayPal accounts must be active and in good standing. If the issue persists, disconnect and reconnect the integration.
 
-</details>
+
 
 ## Related Topics
 
@@ -72,3 +62,4 @@ Verify the email address you entered matches your PayPal account exactly. PayPal
 - [Stripe Integration](/integrations/payments/stripe) — Connect Stripe to accept card payments
 - [GoCardless Integration](/integrations/payments/gocardless) — Set up direct debit payments via GoCardless
 - [Invoice & Quote Settings](/settings/invoice-quotes-settings) — Manage default payment gateway options for invoices
+
