@@ -1,20 +1,14 @@
 ---
-title: "Creating Products"
-description: "Learn how to create product templates in Fiskl to speed up invoicing and ensure consistent pricing across all your transactions."
-keywords: ["create product", "product template", "product catalog", "invoicing", "pricing", "ledger account"]
+title: Creating Products
+description: Learn how to create product templates in Fiskl to speed up
+  invoicing and ensure consistent pricing across all your transactions.
 sidebar_position: 1
-tags:
-  - Products
-  - Invoicing
-toc_min_heading_level: 2
-toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
 
 This guide explains how to create product templates in Fiskl that store your standard pricing, tax rate, and description, so adding items to invoices is fast and consistent.
 
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
+
 
 ## Before you begin
 
@@ -30,14 +24,12 @@ Before creating a product, have the following ready:
 2. Select **+ New Product/Service**
 3. Select the **Product** tab if it is not already active
 4. Complete the fields:
-
-   - **Name** — Enter a clear, descriptive name. Example: "Pro Software License - Annual"
-   - **Unit** — Enter the measurement unit. Common options include each, box, pallet, license, and unit
-   - **Price/Rate** — Enter the unit price
-   - **Currency** — Select the currency for this product
-   - **Account** — Select the ledger account for revenue categorisation. Most products use Sales of Products
-   - **Sales Tax** — Select the applicable tax rate or tax group
-
+  - **Name** — Enter a clear, descriptive name. Example: "Pro Software License - Annual"
+  - **Unit** — Enter the measurement unit. Common options include each, box, pallet, license, and unit
+  - **Price/Rate** — Enter the unit price
+  - **Currency** — Select the currency for this product
+  - **Account** — Select the ledger account for revenue categorisation. Most products use Sales of Products
+  - **Sales Tax** — Select the applicable tax rate or tax group
 5. Optionally, enter a **Description** — this text appears on invoices, so write it with your client in mind
 6. Select **Save Product/Service**
 
@@ -132,19 +124,17 @@ Changes to a line item do not affect the original product template. Future invoi
 
 ## Common issues
 
-<details>
-<summary>Can I use the same product in multiple currencies?</summary>
+Can I use the same product in multiple currencies?
 
 Each product template stores a single default currency. If you invoice clients in different currencies, you have two options. You can create separate product templates for each currency — for example, "Consulting Day - USD" and "Consulting Day - EUR". Alternatively, add the product to an invoice and select **More Details** on the line item to adjust the currency and exchange rate for that transaction without changing the template.
 
-</details>
 
-<details>
-<summary>The wrong ledger account is assigned to a product</summary>
+
+The wrong ledger account is assigned to a product
 
 Go to **Products & Services**, open the product, and select **Edit**. Update the **Account** field to the correct ledger account and select **Save Product/Service**. Alternatively, in the invoice line item section, select **Edit**, then **More Details**, and update the account there. Changes to the template apply to new invoices only. Existing invoices are not affected.
 
-</details>
+
 
 ## Related topics
 
@@ -152,3 +142,4 @@ Go to **Products & Services**, open the product, and select **Edit**. Update the
 - [Managing Your Catalog](/products-services/managing-catalog) — Organise, edit, and maintain your products and services
 - [Creating Invoices](/invoicing/creating-invoices) — Add products to invoices as line items
 - [Tax Settings](/settings/tax-settings) — Configure the tax rates available in your product templates
+
