@@ -1,21 +1,15 @@
 ---
-title: "Currency Management"
-description: "Manage exchange rates in Fiskl. Set custom rates for specific dates or periods to control how currency conversions appear in transactions and reports."
-keywords: ["currency management", "exchange rates", "multi-currency", "custom rates", "currency override", "Fiskl settings"]
+title: Currency Management
+description: Manage exchange rates in Fiskl. Set custom rates for specific dates
+  or periods to control how currency conversions appear in transactions and
+  reports.
 sidebar_position: 4
-slug: /settings/currency-management
-tags:
-  - Settings
-  - Currency Management
-toc_min_heading_level: 2
-toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
 
 This guide explains how to view and manage exchange rates in Fiskl. Use Currency Management to override system rates for specific dates or periods, giving you consistent currency conversion across transactions and reports. All exchange rates are calculated relative to your account's base currency.
 
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
+
 
 ## Access Currency Management
 
@@ -70,36 +64,33 @@ Review your custom rates at the start of each reporting period to confirm they s
 
 ## When to use custom rates
 
-<details>
-<summary>Long-term projects with fixed budgets</summary>
+Long-term projects with fixed budgets
 
 Currency fluctuations can distort budget-to-actual comparisons on long-term international projects. Setting a consistent rate for the project period keeps reporting focused on operational performance rather than market movements.
 
-</details>
 
-<details>
-<summary>Hedge rate application</summary>
+
+Hedge rate application
 
 If your business uses forward contracts or other hedging instruments, you can apply the secured rate to future transactions. This aligns your accounting records with your financial risk management position.
 
-</details>
 
-<details>
-<summary>Fixed-rate contracts</summary>
+
+Fixed-rate contracts
 
 Some contracts specify a fixed exchange rate for the duration of the agreement. Entering that rate in Currency Management ensures your invoices and reports reflect the agreed terms.
 
-</details>
 
-<details>
-<summary>Group accounting policies</summary>
+
+Group accounting policies
 
 Corporate groups often require a standard monthly or quarterly rate for all intercompany transactions. Setting that rate here applies it consistently across your account.
 
-</details>
+
 
 ## Related Topics
 
 - [Accounting Settings](/settings/accounting-settings) — Configure your base currency and accounting preferences
 - [Multi-currency Transactions](/accounting/journal-entries/guides/multi-currency-transactions) — Record transactions in foreign currencies
 - [Chart of Accounts](/accounting/chart-of-accounts) — Manage your ledger accounts
+
