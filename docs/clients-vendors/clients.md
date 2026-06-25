@@ -1,20 +1,14 @@
 ---
-title: "Clients"
-description: "Add and manage clients in Fiskl — set default currencies, billing rates, Tax/VAT IDs, and keep invoicing records accurate."
-keywords: ["clients", "client management", "invoicing", "multi-currency", "time billing", "Tax ID", "VAT ID", "GoCardless"]
+title: Clients
+description: Add and manage clients in Fiskl — set default currencies, billing
+  rates, Tax/VAT IDs, and keep invoicing records accurate.
 sidebar_position: 2
-tags:
-  - Clients
-  - Invoicing
-toc_min_heading_level: 2
-toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
 
 This guide covers how to add and manage clients in Fiskl. Clients are the individuals and businesses that pay you — keeping their records accurate ensures your invoices, quotes, and financial reports reflect the right information.
 
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
+
 
 ## What You Can Do
 
@@ -84,26 +78,23 @@ Only clients with no invoices or quotes can be deleted. Archive inactive clients
 
 ## Common Issues
 
-<details>
-<summary>The wrong currency appears on a new invoice</summary>
+The wrong currency appears on a new invoice
 
 Check the client's **Default currency** setting. Go to **Sales** > **Clients**, select the client, and confirm the currency is correct. Update it if needed — the correct currency will apply to new invoices going forward.
 
-</details>
 
-<details>
-<summary>A mandate shows as Pending and the client isn't being charged</summary>
+
+A mandate shows as Pending and the client isn't being charged
 
 The client has not completed GoCardless authorisation. Ask them to check their email for the mandate setup link. If the link has expired, resend the invoice with the mandate option enabled to trigger a new request.
 
-</details>
 
-<details>
-<summary>I can't find an archived client</summary>
+
+I can't find an archived client
 
 Go to **Sales** > **Clients** and set the status filter to **Archived**. Archived clients are hidden from the default **Active** view but remain fully accessible.
 
-</details>
+
 
 ## Related Topics
 
@@ -113,3 +104,4 @@ Go to **Sales** > **Clients** and set the status filter to **Archived**. Archive
 - [Time Tracking](/time-and-mileage/time-tracking) — Track and bill time against clients
 - [Client Aging Report](/reporting/client-aging) — View outstanding balances by client
 - [Statement of Accounts](/docs/reporting/statement-of-accounts.md) — Generate client account statements
+
