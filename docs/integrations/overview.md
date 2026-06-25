@@ -1,22 +1,12 @@
 ---
-title: "Integrations & Automation"
-description: "Connect Fiskl to your banks and payment gateways, and build on Fiskl with the public API, OAuth apps, and webhooks."
-keywords: ["integrations", "automation", "banking connections", "payment gateways", "public API", "API key", "webhooks", "Stripe", "Salt Edge", "Yodlee"]
+title: Integrations & Automation
+description: Connect Fiskl to your banks and payment gateways, and build on
+  Fiskl with the public API, OAuth apps, and webhooks.
 sidebar_position: 1
-tags:
-  - Integrations
-  - Banking
-  - Payments
-  - Public API
-toc_min_heading_level: 2
-toc_max_heading_level: 2
 ---
 
-import TOCInline from '@theme/TOCInline';
 
 This section covers how Fiskl connects to the outside world. Connect your bank accounts and payment providers to automate your books, and build on Fiskl with the public API, connected apps, and webhooks.
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## Banking connections
 
@@ -64,3 +54,4 @@ For concepts, setup, and a developer quickstart, see [Public API](/integrations/
 - [Public API](/integrations/public-api/overview) — Build on Fiskl with API keys, OAuth apps, and webhooks
 - [Connecting Your Bank](/getting-started/connecting-your-bank) — Step-by-step guide for your first banking connection
 - [Importing Bank Statements](/getting-started/importing-data) — Manually import transactions when a direct connection isn't available
+
