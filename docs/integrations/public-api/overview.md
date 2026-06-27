@@ -13,9 +13,15 @@ toc_max_heading_level: 2
 
 import TOCInline from '@theme/TOCInline';
 
+
 The Fiskl public API lets you read and update your accounting data from your own software, connect third-party apps, and react to changes as they happen. This overview explains how the four building blocks fit together so you can choose the right one for your task.
 
 <TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
+
+:::info
+Beta Notice: The API, Webhooks, and MCP server are currently in Beta.
+This means these tools are actively in development; stability is not fully guaranteed and endpoints may change without notice. We encourage you to use this period to familiarise yourself with the system, and we will notify all users once they reach general availability.
+:::
 
 ## What the Public API Is
 
