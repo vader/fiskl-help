@@ -89,5 +89,5 @@ Contact Fiskl support if transactions are still missing after 48 hours.
 ## Related Topics
 
 - [Banking overview](/integrations/banking/overview) — View and manage all your connected bank accounts
-- [Connect with Yodlee](/integrations/banking/connecting-yodlee) — Alternative banking connection for supported regions
+- [Connect with Yodlee](/integrations/banking/connect-yodlee) — Alternative banking connection for supported regions
 - [Account reconciliation](/accounting/reconciliation/overview) — Match imported transactions against your records

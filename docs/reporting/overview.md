@@ -45,7 +45,7 @@ The General Ledger lists every transaction in your books, grouped by ledger acco
 
 The Trial Balance summarises all ledger account balances and confirms that total debits equal total credits. Use it to catch posting errors before generating financial statements or closing a period.
 
-[View the Trial Balance report guide](/core-features/accounting/reports/trial-balance)
+[View the Trial Balance report guide](/reporting/trial-balance)
 
 ---
 
@@ -63,7 +63,7 @@ The Client Aging Report groups outstanding invoices by how long they have been o
 
 The Statement of Accounts generates a transaction history for a specific client, showing invoices, payments, and the current balance owed. You can send it directly to the client from within the report.
 
-[View the Statement of Accounts guide](/core-features/accounting/reports/statement-of-accounts)
+[View the Statement of Accounts guide](/reporting/statement-of-accounts)
 
 ### Transactions by Account
 

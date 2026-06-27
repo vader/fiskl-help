@@ -102,8 +102,8 @@ For international payments, see the [GoCardless international payments](https://
 ## Related Topics
 
 - [Payment Integrations](/integrations/payments/overview) — Overview of all payment options available in Fiskl
-- [Stripe Integration](/integrations/payments/stripe) — Connect Stripe for card payments on invoices
-- [PayPal Integration](/integrations/payments/paypal) — Connect PayPal for online payments on invoices
+- [Stripe Integration](/integrations/payments/stripe-integration) — Connect Stripe for card payments on invoices
+- [PayPal Integration](/integrations/payments/paypal-integration) — Connect PayPal for online payments on invoices
 - [Creating Invoices](/invoicing/creating-invoices) — Add a payment method when creating an invoice
 - [Recurring Invoices](/invoicing/create-recurring-invoices) — Automate invoice creation for ongoing clients
 

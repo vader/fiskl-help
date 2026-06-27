@@ -149,8 +149,8 @@ Fiskl updates the invoice status automatically. For card failures (Stripe, PayPa
 ## Related Topics
 
 - [Payment Integrations](/integrations/payments/overview) — Overview of all payment integrations in Fiskl
-- [Stripe Integration](/integrations/payments/stripe) — Connect Stripe to accept card and digital wallet payments
-- [PayPal Integration](/integrations/payments/paypal) — Connect PayPal to accept payments via PayPal accounts and cards
-- [GoCardless Integration](/integrations/payments/gocardless) — Connect GoCardless for Direct Debit and recurring payment collection
+- [Stripe Integration](/integrations/payments/stripe-integration) — Connect Stripe to accept card and digital wallet payments
+- [PayPal Integration](/integrations/payments/paypal-integration) — Connect PayPal to accept payments via PayPal accounts and cards
+- [GoCardless Integration](/integrations/payments/gocardless-integration) — Connect GoCardless for Direct Debit and recurring payment collection
 - [Recurring Invoices](/invoicing/create-recurring-invoices) — Automate billing with recurring invoices
 

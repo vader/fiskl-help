@@ -23,10 +23,10 @@ There is one behavioural change worth flagging. Until now, someone on isolated i
 
 Expenses are the deliberate exception. The Expense Submitter preset still shows each person only their own submissions, so field staff raising expenses keep their privacy.
 
-Everything else is an improvement. There are seven presets to start from — Owner, Admin, Accountant, Bookkeeper, Invoice Only, Expense Submitter, and Read-only — and a permission grid that lets you grant view and edit access area by area. See [User Roles and Permissions](/team/roles-permissions) for the full picture.
+Everything else is an improvement. There are seven presets to start from — Owner, Admin, Accountant, Bookkeeper, Invoice Only, Expense Submitter, and Read-only; and a permission grid that lets you grant view and edit access area by area. See [User Roles and Permissions](/team/roles-permissions) for the full picture.
 
 ## What to do next
 
-Before the change takes effect, review anyone currently on isolated invoicing and decide whether they should have full invoicing access or none. Nothing else needs your attention — for every other area, you now have more precise control than before, not less.
+Before the change takes effect, review anyone currently on isolated invoicing and decide whether they should have full invoicing access or none. Nothing else needs your attention. For every other area, you now have more precise control than before, not less.
 
 — Shawn Vader, CTO

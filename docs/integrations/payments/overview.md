@@ -26,19 +26,19 @@ Fiskl does not add any fees on top of the gateway provider's own transaction cha
 
 Stripe supports credit and debit cards, digital wallets (Apple Pay, Google Pay), and local payment methods including iDEAL and Bancontact. It suits businesses that accept one-time payments from clients worldwide.
 
-[Set up Stripe](/integrations/payments/stripe)
+[Set up Stripe](/integrations/payments/stripe-integration)
 
 ### PayPal
 
 PayPal lets clients pay using their PayPal balance, linked bank account, or card. It is widely recognised and requires no merchant account to get started.
 
-[Set up PayPal](/integrations/payments/paypal)
+[Set up PayPal](/integrations/payments/paypal-integration)
 
 ### GoCardless
 
 GoCardless uses Direct Debit to collect payments from clients' bank accounts. It is well suited to recurring billing, retainers, and payment schedules, and typically has lower transaction fees than card processing.
 
-[Set up GoCardless](/integrations/payments/gocardless)
+[Set up GoCardless](/integrations/payments/gocardless-integration)
 
 ## Choosing a gateway
 
@@ -66,9 +66,9 @@ When enabled, all connected gateways are pre-selected on each new invoice. You c
 ## Related Topics
 
 - [Choosing a Payment Gateway](/integrations/payments/choosing-a-payment-gateway) — Compare gateways by fees, payment methods, and regional availability
-- [Stripe Integration](/integrations/payments/stripe) — Connect Stripe to accept card and digital wallet payments
-- [PayPal Integration](/integrations/payments/paypal) — Connect PayPal to accept payments via PayPal accounts and cards
-- [GoCardless Integration](/integrations/payments/gocardless) — Connect GoCardless for Direct Debit and recurring payment collection
+- [Stripe Integration](/integrations/payments/stripe-integration) — Connect Stripe to accept card and digital wallet payments
+- [PayPal Integration](/integrations/payments/paypal-integration) — Connect PayPal to accept payments via PayPal accounts and cards
+- [GoCardless Integration](/integrations/payments/gocardless-integration) — Connect GoCardless for Direct Debit and recurring payment collection
 - [Creating Invoices](/invoicing/creating-invoices) — Add payment options when creating an invoice
 - [Recurring Invoices](/invoicing/create-recurring-invoices) — Automate billing with GoCardless
 

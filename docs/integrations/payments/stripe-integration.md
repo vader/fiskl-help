@@ -101,7 +101,7 @@ These methods must be enabled separately after connecting Stripe. Go to **Integr
 ## Related Topics
 
 - [Payment Integrations](/integrations/payments/overview) — Overview of all payment gateways available in Fiskl
-- [GoCardless](/integrations/payments/gocardless) — Accept direct debit payments via GoCardless
-- [PayPal](/integrations/payments/paypal) — Accept payments via PayPal
+- [GoCardless](/integrations/payments/gocardless-integration) — Accept direct debit payments via GoCardless
+- [PayPal](/integrations/payments/paypal-integration) — Accept payments via PayPal
 - [Invoice & Quote Settings](/settings/invoice-quotes-settings) — Configure default payment methods and invoice behaviour
 

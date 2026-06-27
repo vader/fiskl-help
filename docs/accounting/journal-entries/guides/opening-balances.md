@@ -136,7 +136,7 @@ The **Opening Balance** category is only available when you are adding a transac
 
 - [Chart of Accounts](/accounting/chart-of-accounts) — View and manage your ledger accounts
 - [Journal Entries Overview](/accounting/journal-entries/overview) — Learn how journal entries work in Fiskl
-- [Trial Balance](/core-features/accounting/reports/trial-balance) — Verify that your accounts are balanced
+- [Trial Balance](/reporting/trial-balance) — Verify that your accounts are balanced
 - [General Ledger](/reporting/general-ledger) — Review all transactions across your accounts
 - [Transactions by Account](/reporting/transactions-by-account) — View transactions filtered by ledger account
 

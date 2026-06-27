@@ -180,7 +180,7 @@ Check whether you selected a **Summary** option instead of a **Detailed** option
 
 - [Profit and Loss Report](/reporting/profit-and-loss) — Track revenue and expenses over a period
 - [Cash Flow Report](/reporting/cash-flow) — Understand how cash moves through your business
-- [Trial Balance](/core-features/accounting/reports/trial-balance) — Review all ledger account balances before closing a period
+- [Trial Balance](/reporting/trial-balance) — Review all ledger account balances before closing a period
 - [Chart of Accounts](/accounting/chart-of-accounts) — Manage the ledger accounts that feed your reports
 - [Cash vs Accrual Accounting](/glossary/accounting-fundamentals) — Understand the difference between accounting methods
 

@@ -347,7 +347,7 @@ If you haven't received the refund yet but want to track the credit note, you ca
 
 ### Can I send statements to my clients showing outstanding invoices and payments?
 
-Yes, you can generate a [Statement of Accounts](/core-features/accounting/reports/statement-of-accounts) report. This report provides a comprehensive view of your client's account, including:
+Yes, you can generate a [Statement of Accounts](/reporting/statement-of-accounts) report. This report provides a comprehensive view of your client's account, including:
 
 - Outstanding invoices
 - Payments received

@@ -164,5 +164,5 @@ The export respects your active column selection. If columns are missing from th
 
 - [Chart of Accounts](/accounting/chart-of-accounts) — View and manage your ledger accounts
 - [Accounting Settings](/settings/accounting-settings) — Set your base currency and accounting method
-- [Trial Balance](/core-features/accounting/reports/trial-balance) — View a summary of all account balances
+- [Trial Balance](/reporting/trial-balance) — View a summary of all account balances
 - [Profit and Loss](/reporting/profit-and-loss) — Analyse income and expenses over a period

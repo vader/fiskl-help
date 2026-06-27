@@ -59,7 +59,7 @@ Verify the email address you entered matches your PayPal account exactly. PayPal
 ## Related Topics
 
 - [Payment Integrations](/integrations/payments/overview) — Overview of all payment gateway options in Fiskl
-- [Stripe Integration](/integrations/payments/stripe) — Connect Stripe to accept card payments
-- [GoCardless Integration](/integrations/payments/gocardless) — Set up direct debit payments via GoCardless
+- [Stripe Integration](/integrations/payments/stripe-integration) — Connect Stripe to accept card payments
+- [GoCardless Integration](/integrations/payments/gocardless-integration) — Set up direct debit payments via GoCardless
 - [Invoice & Quote Settings](/settings/invoice-quotes-settings) — Manage default payment gateway options for invoices
 

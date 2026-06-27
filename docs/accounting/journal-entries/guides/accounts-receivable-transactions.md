@@ -70,7 +70,7 @@ You can view your Accounts Receivable transactions in several ways:
 - In the left sidebar, select **Accounting** > **Chart of Accounts**, then select **Accounts Receivable**
 - In the left sidebar, select **Accounting** > **Reports**, then select [Balance Sheet](/reporting/balance-sheet) and enable the detailed option
 - In the left sidebar, select **Accounting** > **Reports**, then select [Transactions by Account](/reporting/transactions-by-account)
-- In the left sidebar, select **Accounting** > **Reports**, then select [Trial Balance](/core-features/accounting/reports/trial-balance)
+- In the left sidebar, select **Accounting** > **Reports**, then select [Trial Balance](/reporting/trial-balance)
 
 ## Understanding AR Transaction Types
 

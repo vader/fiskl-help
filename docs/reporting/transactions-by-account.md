@@ -134,7 +134,7 @@ If the transaction was recorded in your base currency, all three currency column
 
 ## Related Topics
 
-- [Trial Balance Report](/core-features/accounting/reports/trial-balance) — Verify that total debits equal total credits across all accounts
+- [Trial Balance Report](/reporting/trial-balance) — Verify that total debits equal total credits across all accounts
 - [General Ledger Report](/reporting/general-ledger) — View a full record of all journal entries by account
 - [Chart of Accounts](/accounting/chart-of-accounts) — View and manage your ledger accounts
 - [Multi-currency Transactions](/accounting/journal-entries/guides/multi-currency-transactions) — Understand how Fiskl records and converts foreign currency amounts

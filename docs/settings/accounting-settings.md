@@ -5,6 +5,9 @@ description: Configure your accounting preferences in Fiskl — set your fiscal
   accounts.
 sidebar_position: 3
 ---
+
+import TOCInline from '@theme/TOCInline';
+
 This guide covers how to configure your accounting preferences and standard ledger accounts for accurate financial reporting across Fiskl.
 
 <TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
