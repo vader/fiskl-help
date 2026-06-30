@@ -38,6 +38,8 @@ The AI-Powered Expenses workflow follows four steps:
 - **Multi-document support** — Upload multiple receipts at once for batch processing
 - **Original document storage** — All original images are preserved with the expense record
 - **Automatic reconciliation** — Matches expenses with bank transactions without manual intervention
+- **Accounts payable integration** — Each expense links to an accounts payable transaction and posts to your ledger like a journal entry
+- **Billable to invoices** — Mark an expense billable to a client and add it to an invoice
 - **Duplicate detection** — Rejects duplicate uploads automatically
 
 ## Usage and Limits

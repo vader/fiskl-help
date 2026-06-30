@@ -33,7 +33,7 @@ The sidebar organizes features into logical groups:
 - Quotes (if available)
 - Clients
 
-**Purchases**
+**Purchasing**
 - Time tracking
 - Mileage tracking
 - Vendors
@@ -171,7 +171,7 @@ On mobile devices:
 Menu items adapt to your role:
 
 - **Full Account Access**: See all menu sections
-- **Billing & Invoicing**: See Sales and Purchases sections
+- **Billing & Invoicing**: See Sales and Purchasing sections
 - **Limited Access**: See only Time and Mileage
 
 If you don't see a menu item, you may not have permission. Contact your account administrator to request access.

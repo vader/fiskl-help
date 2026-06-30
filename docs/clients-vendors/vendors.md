@@ -20,7 +20,7 @@ This guide covers how to add and manage vendors in Fiskl. Vendors are the indivi
 
 ## Adding a Vendor
 
-You can add a vendor from **Purchases** > **Vendors** > **+ New Vendor**. Only the vendor name and country are required. You can also enter an email address, Tax/VAT Registration Number, Business Registration Number, and any notes about the vendor relationship.
+You can add a vendor from **Purchasing** > **Vendors** > **+ New Vendor**. Only the vendor name and country are required. You can also enter an email address, Tax/VAT Registration Number, Business Registration Number, and any notes about the vendor relationship.
 
 :::tip
 Use the vendor's official business name. Consistent naming makes it easier to match bank transactions and keeps your expense reports accurate.
@@ -28,7 +28,7 @@ Use the vendor's official business name. Consistent naming makes it easier to ma
 
 ## Managing Your Vendor List
 
-Go to **Purchases** > **Vendors** to view your vendor list. Search by name or filter by status (**Active** or **Archived**). Select any vendor to edit their details — changes apply going forward only.
+Go to **Purchasing** > **Vendors** to view your vendor list. Search by name or filter by status (**Active** or **Archived**). Select any vendor to edit their details — changes apply going forward only.
 
 To archive a vendor, open their record and select **Archive**. Archived vendors remain in your records and reports. Set the status filter to **Archived** to view them.
 

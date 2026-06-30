@@ -20,7 +20,7 @@ This guide covers Traditional Expenses — Fiskl's original expense system. You 
 
 Traditional Expenses appears as **Expenses** in the left sidebar. It is only visible when you have existing legacy records.
 
-1. Go to **Purchases** > **Expenses** in the left sidebar.
+1. Go to **Purchasing** > **Expenses** in the left sidebar.
 2. Select **Expenses**.
 
 ## Understanding Traditional Expense Types
@@ -49,7 +49,7 @@ You cannot create new expenses in this system.
 
 ## Editing an Expense
 
-1. Go to **Purchases** > **Expenses**.
+1. Go to **Purchasing** > **Expenses**.
 2. Select the expense you want to update.
 3. Update the relevant fields.
 4. Select **Save**.
@@ -68,7 +68,7 @@ Deleting an expense is permanent. Ensure you no longer need the record before de
 
 Standalone traditional expenses must be manually matched to a bank transaction.
 
-1. Go to **Purchases** > **Expenses**.
+1. Go to **Purchasing** > **Expenses**.
 2. Locate the corresponding transaction in your bank, credit card, or cash account.
 3. Use the match function to link the expense to the transaction.
 4. Verify the details and confirm the match.

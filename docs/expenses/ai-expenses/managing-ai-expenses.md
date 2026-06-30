@@ -1,7 +1,7 @@
 ---
 title: "Managing AI Expenses"
-description: "Review, edit, filter, and delete expenses processed through AI Expenses. Verify extracted data and manage attached documents."
-keywords: ["manage AI expenses", "edit expenses", "review expenses", "expense details", "expense documents", "AI expense reconciliation"]
+description: "Review, edit, and bill AI expenses in Fiskl. Verify extracted data, link expenses to accounts payable, and add billable expenses to invoices."
+keywords: ["manage AI expenses", "edit expenses", "billable expenses", "accounts payable", "add expense to invoice", "expense documents", "AI expense reconciliation"]
 sidebar_position: 2
 tags:
    - Expenses
@@ -10,7 +10,19 @@ toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
-This guide covers how to review, edit, filter, and delete expenses after AI processing. Use it to verify extracted data and correct any inaccuracies before reconciliation.
+This guide covers how to review, edit, filter, and delete expenses after AI processing. Use it to verify extracted data, bill expenses to clients, and correct any inaccuracies before reconciliation.
+
+## How AI Expenses Work as Accounting Records
+
+AI expenses are full accounting expenses, not standalone records. When you scan a receipt or invoice, Fiskl extracts the details, stores the record in AI Expenses, and links it to an accounts payable (AP) transaction.
+
+Once the record reaches accounts payable, Fiskl treats it like an accounting journal entry. The expense posts to your ledger, appears in your financial reports, and reconciles against your bank transactions. You do not maintain a separate, disconnected expense record.
+
+If the AI cannot extract the details from a document, you can create the expense manually instead. Fiskl attaches the file you uploaded to the new record automatically, so the original receipt or invoice stays with the expense. See [Uploading Expenses to AI Expenses](/expenses/ai-expenses/uploading) for the manual creation steps.
+
+:::info
+Older expenses created in the legacy system are standalone records that are not linked to accounts payable. A migration tool to convert them into fully integrated AP expenses is coming soon. See [Migrating Legacy Expenses](#migrating-legacy-expenses) below.
+:::
 
 ## Viewing AI Expenses
 
@@ -79,6 +91,36 @@ To view the original receipt or invoice:
 You can also download the original document directly from the AI Expenses list without opening the expense. Select the **...** menu in the **Actions** column and select **Download**.
 :::
 
+## Billing Expenses to a Client
+
+Because AI expenses are accounts payable transactions, you can bill them to a client and add them to an invoice. This replaces the billable expense workflow from the legacy expense system.
+
+To mark an AP transaction as billable:
+
+1. Select **Purchasing** in the left sidebar, then select **AI Expenses**.
+2. Select the expense to open it.
+3. Assign the **Client** you want to bill.
+4. Mark the transaction as **Billable**.
+5. Select **Save**.
+
+Assigning a client and marking an expense billable are separate actions. You can assign a client to an AP transaction without billing it — useful when you need the expense linked to a client for reporting but do not intend to invoice it.
+
+To add billable expenses to an invoice:
+
+1. Open or create the invoice for that client.
+2. Add the billable AP transactions you marked for the client as line items.
+3. Select **Save**.
+
+Once an AP transaction is added to an invoice, it is marked as billed and cannot be added to another invoice. For the full invoice workflow, see [Invoicing Overview](/invoicing/overview).
+
+## Migrating Legacy Expenses
+
+Expenses created in the legacy system are standalone records that are not linked to accounts payable. They cannot be billed to invoices in the same way as AI expenses.
+
+A migration tool is coming soon. It will convert your legacy expenses into fully integrated AP expenses, moving them from standalone records into the accounting workflow used by AI Expenses. Using the tool will be optional.
+
+Until the tool is available, manage legacy records in [Traditional Expenses](/expenses/traditional-expenses/overview).
+
 ## Filtering and Sorting
 
 Use the filter and sort controls above the expense list to find specific expenses.
@@ -98,7 +140,7 @@ Each expense displays its current processing status in the **Status** column.
 
 | Status | Meaning |
 |---|---|
-| **Processed** | AI extraction completed and a transaction has been created |
+| **Processed** | AI extraction completed and an accounts payable transaction has been created |
 | **Failed** | Processing was unsuccessful and no transaction was created |
 
 Processed expenses also display an accuracy percentage on the transaction. A **Linked** label on a transaction indicates it has been matched to a bank transaction.
@@ -188,7 +230,9 @@ See [AI Expense Reconciliation](/expenses/ai-expenses/reconciliation) for full g
 
 ## Related Topics
 
-- [Uploading Expenses to AI Expenses](/expenses/ai-expenses/uploading) — How to upload receipt and invoice images
+- [Uploading Expenses to AI Expenses](/expenses/ai-expenses/uploading) — How to upload receipt and invoice images, and create expenses manually
 - [AI Expense Reconciliation](/expenses/ai-expenses/reconciliation) — Matching expenses with bank transactions
+- [Invoicing Overview](/invoicing/overview) — Add billable expenses to client invoices
 - [Expense Categories](/expenses/expense-categories) — Managing and customising expense categories
 - [AI-Powered Expenses Overview](/expenses/ai-expenses/overview) — How the AI Expenses feature works
+- [Traditional Expenses](/expenses/traditional-expenses/overview) — View and manage legacy expense records

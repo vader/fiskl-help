@@ -21,7 +21,7 @@ Before uploading, confirm you have:
 
 ## Uploading a Single Expense
 
-1. Select **Purchases** > **AI Expenses** from the left sidebar.
+1. Select **Purchasing** > **AI Expenses** from the left sidebar.
 2. Select **Upload** to open the file picker.
 3. Select the receipt or invoice image from your device.
 4. Wait for the system to extract the data. This takes a few seconds to a few minutes depending on document complexity.
@@ -29,7 +29,7 @@ Before uploading, confirm you have:
 
 ## Uploading Multiple Expenses
 
-1. Select **Purchases** > **AI Expenses** from the left sidebar.
+1. Select **Purchasing** > **AI Expenses** from the left sidebar.
 2. Hold `Ctrl` (Windows) or `Cmd` (Mac) while selecting files to upload a batch.
 3. All files upload and queue for processing automatically.
 4. Monitor the processing status for each document. You can continue working while files process in the background.
@@ -38,7 +38,7 @@ Before uploading, confirm you have:
 
 Use this method when you do not have a document to upload — for example, a verbal agreement or a missing receipt.
 
-1. Select **Purchases** > **AI Expenses** from the left sidebar.
+1. Select **Purchasing** > **AI Expenses** from the left sidebar.
 2. Select **Create New** to open the transaction form.
 3. Enter the expense **Name** and **Amount**.
 4. Set the **Date** and **Due Date**.
