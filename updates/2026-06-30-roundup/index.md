@@ -1,13 +1,13 @@
 ---
 slug: 2026-06-30-roundup
-title: What's new in Fiskl — roles, expenses, and API beta
+title: What's new in Fiskl — roles, expenses, API beta, and email delivery
 authors: [shawn]
 tags: [new-release, platform-update]
 date: 2026-06-30T09:00
-description: Three changes have landed in Fiskl — a new permission system, expenses rebuilt as accounting records, and API keys and webhooks in beta.
+description: Four changes have landed in Fiskl — a new permission system, expenses as accounting records, API keys and webhooks in beta, and your own sending domain.
 ---
 
-Three meaningful changes have landed in Fiskl. One of them — the permissions update — is worth a quick look from you before it fully settles.
+Four meaningful changes have landed in Fiskl. One of them — the permissions update — is worth a quick look from you before it fully settles.
 
 <!-- truncate -->
 
@@ -30,6 +30,14 @@ Expenses can now also be marked billable to a client and pulled directly onto an
 API keys and webhooks are live in beta, with an MCP server to follow. Every key or connected app inherits the permissions of the person who created it — no more, no less. That is also why we rebuilt permissions first: all three rest on the same rule, and it only works on a clean, fine-grained model.
 
 If you would like to explore the beta, you will find it in your account settings. See [API Keys](/integrations/public-api/api-keys) and [Webhooks](/integrations/public-api/webhooks) to get started.
+
+## Send from your own domain
+
+You can now add your own sending domain in Fiskl, on its own page under settings. When emails leave from your business address rather than ours, they carry more trust and are less likely to be treated as spam.
+
+The reason we built this out is delivery. When someone told us their invoice never arrived, the cause was almost always a missing or misconfigured DNS record on their side — an absent SPF or DMARC entry, for example. The new page shows you exactly which records to add, whether each one has validated yet, and your sending statistics for delivered, bounced, and complaint emails. Where there is a problem with your domain's health, you see it, rather than guessing why a client says nothing arrived.
+
+The setup, the records, and what the statistics mean are covered in [Sender Domain](/settings/sender-domain).
 
 ## What to do next
 
