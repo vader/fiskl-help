@@ -72,7 +72,7 @@ To add a CC or BCC address, enter the email address into the respective input fi
 
 
 :::info
-To send emails from your own domain, whitelist it in [Invoice & Quote Settings](/settings/invoice-quotes-settings).
+To send emails from your own domain, add and verify it on the [Sender Domain page](/settings/sender-domain).
 :::
 
 

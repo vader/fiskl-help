@@ -58,6 +58,8 @@ Set the default language for invoices, quotes, emails, and payments. This is use
 
 Configure the default email subject line, body text, and sender details used when you send invoices and quotes to clients. Setting a clear, professional email template means every document lands in your client's inbox with the right context.
 
+To send these emails from your own domain rather than the default Fiskl address, set up your domain on the [Sender Domain page](/settings/sender-domain). There you add your domain, apply the required DNS records, and monitor your sending health.
+
 
 
 ## Available Guides
@@ -70,6 +72,7 @@ import DocCardList from '@theme/DocCardList';
 
 - [Creating Invoices](/invoicing/creating-invoices) — Build and send invoices to your clients
 - [Creating Quotes](/invoicing/creating-quotes) — Create quotes and convert them to invoices
+- [Sender Domain](/settings/sender-domain) — Send invoices and quotes from your own domain and monitor delivery
 - [Payment Integrations](/integrations/payments/overview) — Connect and manage your payment gateway accounts
 - [Company Settings](/settings/company-settings) — Update your business details, logo, and base currency
 
