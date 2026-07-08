@@ -1,88 +1,111 @@
 ---
 title: Bank Account Reconciliation
+description: Step-by-step guide to performing bank account reconciliation in
+  Fiskl, from setup to completion with perfect transaction matching.
 sidebar_position: 14
-description: "Step-by-step guide to performing bank account reconciliation in Fiskl, from setup to completion with perfect transaction matching."
-keywords: ["bank account reconciliation", "Fiskl reconciliation setup", "transaction matching", "bank statement reconciliation"]
-toc_min_heading_level: 2 
-toc_max_heading_level: 4
-tags: 
- - Accounting 
- - Bank Reconciliation 
- - Transaction Matching
 ---
+This guide explains how to reconcile a bank or cash account in Fiskl. Reconciliation confirms that your Fiskl records match your bank statement and keeps your accounts accurate.
 
-## Performing a Perfect Reconciliation (100% Match)
+## Before You Begin
 
-Once all Fiskl transactions have been automatically matched with your bank statement, the reconciliation difference will show as zero, indicating that you can proceed by clicking the 'Reconcile' button to finalize the reconciliation.
+- Make sure your bank account is connected or transactions are imported.
+- Have your bank statement available, including the closing date and ending balance.
 
-##Setting Up Your Reconciliation##
-
-1. **Navigate to Reconciliation:** Go to Accounting > Reconciliation from the left menu
-2. **Select your account:** Choose the specific bank or cash account you want to reconcile from the dropdown menu and click “Reconcile”
-
-The very first reconciliation will cover the period from the very first transaction in the bank account until the end period selected. Please note that for the ending balance for the end of the selected period, the General Ledger Balance should match the Statement Balance.
-
-<details>
-
-<summary>Is This Your First Reconciliation in Fiskl?</summary>
-
-If this is the first reconciliation in Fiskl and you have previous years account transactions, please follow these steps
-
-1. Determine the last month when the GL Balance matched the Statement balance
-2. In Fiskl, select your bank account and click on “Reconcile”
-3. Start a reconciliation using the default start date and set the end date to match the date from step 1
-4. Enter the statement ending balance from the bank statement
-5. There should be No Difference and that reconciliation will include all the historical transactions for the prior periods
-6. By saving this first reconciliation it will allow you to move to a more frequent reconciliation cadence that fits your accounting requirements.
-
-</details>
-
-##Checking Statement Information##
-
-1. **Choose end date:** Enter the closing date from your bank statement
-2. **Statement end balance:** Input the final balance shown on your bank statement
-
-:::info[tip]
-**Reconcile in:** Displays the sum and number of positive transactions (money coming in)
-**Reconcile Out** Displays the sum and number of negative transactions (money going out)
+:::info
+The first reconciliation covers all transactions from the earliest entry in the account up to your chosen end date. For the reconciliation to balance, the General Ledger balance must match the statement balance at the end of that period.
 :::
 
-###Transaction Matching Process###
+## Setting Up Your Reconciliation
 
-**Auto-Matching:**Once the above information has been entered, within seconds Fiskl will automatically identify if there is a discrepancy to the bank statement. Moving forward we can do edits to the transactions to get to 0 difference or we can proceed forward by clicking on the difference and get to upload the bank statement in the CSV format.
+1. Go to **Accounting** > **Reconciliation** in the left menu.
+2. Select the bank or cash account you want to reconcile from the dropdown.
+3. Select **Reconcile** to open the reconciliation screen.
+4. Enter the closing date from your bank statement in the **End date** field.
+5. Enter the ending balance from your bank statement in the **Statement end balance** field.
 
-##Handling Different Transaction States##
+Fiskl automatically checks for discrepancies against your statement balance. The **Reconcile In** total shows money coming in; the **Reconcile Out** total shows money going out.
 
-##Transactions that Match Perfectly##
+### Your First Reconciliation
 
-When transactions appear on both your bank statement and in Fiskl:
-**Automatic Detection:** Fiskl highlights these matches automatically, helping in saving hours of manual work and cross checking so you can get faster to the reconciled state.
+If this is your first reconciliation in Fiskl and you have historical transactions, follow these steps to establish a clean starting point:
 
-##Bank Statement Transactions Not in Fiskl##
+1. Identify the last month when your General Ledger balance matched your statement balance.
+2. Set the end date to that month.
+3. Enter the statement ending balance for that period.
+4. The difference should show as zero — this reconciliation captures all prior transactions.
+5. Select **Reconcile** to save it.
 
-For transactions that appear on your statement but have been accidentally added or removed in Fiskl:
+Saving this first reconciliation lets you move to a more frequent reconciliation schedule going forward.
 
-1. **Identify Missing Items:** Look for unchecked items on the bank statement side
-2. **Add New Transactions:** Click the "+" button next to the bank statement transaction
-3. **Complete Transaction Details:** Select appropriate category (e.g., Bank Fees, Interest Income)
-4. **Create and Match: Click "Create" to add the transaction, then tick both items to complete the match**
+## Matching Transactions
 
-##Fiskl Transactions Not on Bank Statement##
+Once you enter the statement details, Fiskl automatically identifies matched transactions. Review the results in the transaction list before finalising.
 
-For transactions recorded in Fiskl but not appearing on your bank statement:
+### Transactions That Match
 
-1. **Identify Timing Differences:** These are typically outstanding checks or deposits in transit
-2. **Leave Unmarked:** Do not tick these transactions during reconciliation - FOR LATER
-3. **Review for Errors:** Verify these are legitimate timing differences, not data entry errors
-4. **Future Statements:** These items should appear in your next reconciliation period - FOR LATER
+When a Fiskl transaction matches an entry on your bank statement, Fiskl highlights the match automatically. Select the checkbox next to each matched pair to confirm it.
 
-###Final Reconciliation Steps###
+### Bank Statement Transactions Not in Fiskl
 
-**Completing a Successful Reconciliation:** Once your reconciliation shows as zero difference, click on Reconcile.
+If a transaction appears on your statement but is missing from Fiskl:
 
-###Post-Reconciliation Actions###
+1. Locate the unmatched item on the bank statement side.
+2. Select the **+** button next to it.
+3. Select the appropriate ledger account category (for example, Bank Fees or Interest Income).
+4. Select **Create** to add the transaction.
+5. Select the checkboxes on both sides to confirm the match.
 
-**Generate Reports:** View online within Fiskl or export to PDF if required
-**Update Existing or Adding New Records:** In case you need to add/remove new transactions or modify existing ones within the reconciled period your reconciliation status will change to ‘Attention’ which means you will have to go back to that reconciliation and fix it.
+### Fiskl Transactions Not on Your Statement
 
-:::note When performing a perfect reconciliation - zero differences, all transactions should be accounted for, and your reconciled balance should show zero difference from your statement balance.  :::  
+If a transaction is in Fiskl but not on your statement, it is likely a timing difference — for example, an outstanding cheque or a deposit in transit.
+
+Leave these transactions unselected for this reconciliation period. They will appear in your next reconciliation when the bank processes them.
+
+## Finalising the Reconciliation
+
+When all matched transactions are confirmed and the difference shows as zero, select **Reconcile** to finalise.
+
+:::tip
+If the difference is not zero, select the difference amount to upload your bank statement in CSV format. This helps identify any remaining discrepancies.
+:::
+
+## After Reconciliation
+
+After you finalise a reconciliation, you can view the reconciliation report online or export it as a PDF.
+
+:::warning
+If you add, remove, or edit transactions within a reconciled period, the reconciliation status changes to **Attention**. You will need to return to that reconciliation and resolve the difference before the period is considered reconciled again.
+:::
+
+## Common Issues
+
+The reconciliation difference is not zero
+
+A non-zero difference usually means one or more transactions are missing, duplicated, or entered with the wrong amount.
+
+1. Compare your Fiskl transaction list with your bank statement line by line.
+2. Look for transactions on the statement that have no matching entry in Fiskl and add them using the **+** button.
+3. Check for duplicate transactions in Fiskl and delete any that appear twice.
+4. Verify that transaction amounts match your statement exactly, including bank fees or interest entries.
+
+
+
+A previously reconciled period now shows "Attention"
+
+This status appears when a transaction inside a closed reconciliation period has been added, changed, or deleted.
+
+1. Go to **Accounting** > **Reconciliation** and open the affected reconciliation.
+2. Review the transaction list to identify what changed.
+3. Correct or remove the transaction, or add any missing entry.
+4. Confirm the difference returns to zero and select **Reconcile** again.
+
+
+
+## Related Topics
+
+- [Reconciliation Overview](/accounting/reconciliation/overview) — Introduction to reconciliation in Fiskl
+- [Handling Reconciliation Discrepancies](/accounting/reconciliation/guides/handling-reconciliation-discrepancies) — Steps to resolve differences
+- [How Fiskl Handles Reconciliation](/accounting/reconciliation/guides/how-fiskl-handles-reconciliation) — How the matching process works
+- [Reconciliation Best Practices](/accounting/reconciliation/guides/reconciliation-best-practices) — Tips for keeping reconciliation on track
+- [Reconciliation Reports](/accounting/reconciliation/guides/reconciliation-reports) — Viewing and exporting reconciliation reports
+
