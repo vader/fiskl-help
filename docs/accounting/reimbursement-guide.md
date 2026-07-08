@@ -1,216 +1,121 @@
 ---
 title: Managing Reimbursements
-description: Learn how to record and process reimbursements for business expenses paid with personal funds using Fiskl's accounting system.
-keywords: ["reimbursements", "expense reimbursement", "personal expenses", "liability accounts", "accounting entries"]
+description: Learn how to record and process reimbursements for business
+  expenses paid with personal funds using Fiskl's accounting system.
 sidebar_position: 5
 ---
+This guide explains how to record and process reimbursements for business expenses paid with personal funds. You record the expense directly against a Reimbursables ledger account, then clear it when the company pays you back.
 
-# Managing Reimbursements
 
-This guide explains how to record and process reimbursements for business expenses paid with personal funds. Fiskl offers two methods depending on whether you prefer direct accounting entries or expense forms.
-
-## Why Track Reimbursements Properly
-
-When you pay for business expenses with personal funds, your company owes you money. Proper reimbursement tracking ensures accurate financial records, clear audit trails, and proper tax documentation.
-
-**Key benefits:**
-- Maintains separation between personal and business transactions
-- Handles timing differences between expense and reimbursement
-- Provides proper documentation for tax purposes
-- Ensures accurate reconciliation
 
 ## Before You Begin
 
-Navigate to **Accounting** > **Chart of Accounts** and verify you have these accounts:
+Go to **Accounting** > **Chart of Accounts** and verify you have a **Reimbursables** ledger account (Liabilities > Other Current Liabilities).
 
-**Required for both methods:**
-- **Reimbursables** (Liabilities > Other Current Liabilities)
+If it doesn't exist, create it before proceeding.
 
-**Required for Method 2 only:**
-- **Personal card** (Assets > Cash and Cash Equivalents, Type: Cash on hand)
+:::info
 
-If these accounts don't exist, create them before proceeding.
+When you pay for a business expense with personal funds, your company owes you money. The Reimbursables ledger account tracks this liability from the moment you record the expense until the company pays you back.
 
----
+:::
 
-## Method 1: Direct Accounting Entry
-
-Use this method when you want to record expenses directly into the accounting system without using the expense form.
-
-### Record the Expense
+## Record the Expense
 
 1. Go to **Accounting** > **Chart of Accounts**
-2. Select the **Reimbursables** account
-3. Select **New Transaction**
-4. Create an IN transaction with a positive amount
-5. Select the expense category (such as Travel or Office Supplies)
+2. Select the **Reimbursables** ledger account
+3. Select **+Credit**
+4. Enter a description and the expense amount
+5. Select the expense category, such as "Travel" or "Office Supplies"
 6. Select **Save**
 
-The system creates these ledger entries:
-- **Debit:** Travel Expense (or your chosen category)
+Fiskl creates these ledger entries:
+
+- **Debit:** Expense category (for example, Travel)
 - **Credit:** Reimbursables (Liability)
 
 This records that you spent personal money on a business expense and the company now owes you.
 
-### Process the Reimbursement Payment
+## Process the Reimbursement Payment
 
 When the company pays you back:
 
-1. Go to your **Bank Account** transactions
-2. Select **New Transaction**
-3. Create an OUT transaction for the reimbursement amount
-4. Select **Reimbursables** as the category
-5. Select **Save**
-
-The system creates these ledger entries:
-- **Debit:** Reimbursables (Liability)
-- **Credit:** Bank Account
-
-This pays off the liability and reduces your bank balance.
-
----
-
-## Method 2: Using Expense Forms
-
-Use this method when you want to track expenses through Fiskl's expense management system before processing reimbursement.
-
-### Step 1: Record the Expense
-
-1. Go to **Expenses**
-2. Select **New Expense** or select an existing expense
-3. Enter the expense details
-4. Select the expense category (such as Travel)
-5. Check the **Paid in cash** box
-6. Select **Personal card** from the dropdown
-7. Select **Save**
-
-The system creates these ledger entries:
-- **Debit:** Travel Expense (or your chosen category)
-- **Credit:** Personal Card (Asset)
-
-This records that you spent personal money for a business expense.
-
-### Step 2: Create the Reimbursement Record
-
-After recording the expense:
-
 1. Go to **Accounting** > **Chart of Accounts**
-2. Select the **Personal Card** account
-3. Select **New Transaction**
-4. Create a debit transaction (positive amount) for the expense amount
+2. Select your **Bank Account** ledger account
+3. Select **-Debit**
+4. Enter the reimbursement amount
 5. Select **Reimbursables** as the category
 6. Select **Save**
 
-The system creates these ledger entries:
-- **Debit:** Personal Card (Asset)
-- **Credit:** Reimbursables (Liability)
+Fiskl creates these ledger entries:
 
-This creates the liability showing the company now owes you money.
-
-### Step 3: Process the Reimbursement Payment
-
-When the company pays you back:
-
-1. Go to your **Bank Account** transactions
-2. Select **New Transaction**
-3. Create an OUT transaction for the reimbursement amount
-4. Select **Reimbursables** as the category
-5. Select **Save**
-
-The system creates these ledger entries:
 - **Debit:** Reimbursables (Liability)
 - **Credit:** Bank Account
 
-This pays off the liability and reduces your bank balance.
+This clears the liability and reduces your bank balance.
 
----
+## How Your Accounts Change
 
-## Choosing the Right Method
+**Reimbursables ledger account:** Starts at zero, increases when you record expenses (the company owes you), and decreases when the company pays you back. It returns to zero when fully reimbursed.
 
-**Use Method 1 (Direct Accounting Entry) when:**
-- You want quick, simple entries
-- You don't need detailed expense tracking
-- You're comfortable working directly with ledger accounts
+**Bank Account:** Decreases when the company pays the reimbursement, reflecting actual cash leaving the business.
 
-**Use Method 2 (Expense Forms) when:**
-- You want to track expenses separately before reimbursement
-- You need detailed expense records for reporting
-- You prefer the expense management workflow
+After reimbursement, your financial statements show:
 
-Both methods produce accurate accounting records. Choose based on your workflow preference.
-
----
-
-## What Happens to Your Accounts
-
-### During the Process
-
-**Reimbursables Account:**
-- Starts at zero
-- Increases when you record expenses (company owes you)
-- Decreases when company pays you back
-- Returns to zero when fully reimbursed
-
-**Personal Card Account (Method 2 only):**
-- Tracks personal funds spent on business
-- Increases when you record expenses
-- Decreases when you create reimbursement records
-
-**Bank Account:**
-- Decreases when company pays reimbursement
-- Reflects actual cash leaving the business
-
-### After Reimbursement
-
-Your financial statements show:
 - Expense categories reflect true business costs
-- Liability accounts return to zero
-- Bank balance reflects reimbursement payments
-- Clear audit trail from expense to payment
-
----
+- The Reimbursables ledger account returns to zero
+- Bank balance reflects the reimbursement payment
+- A clear audit trail from expense to payment
 
 ## Common Issues
 
-<details>
-  <summary>The Reimbursables account balance seems wrong</summary>
+
+
+The Reimbursables ledger account balance seems wrong
 
 Check that you completed all steps:
-1. Verify the expense was recorded with Reimbursables as the category
-2. Confirm the reimbursement payment was recorded against Reimbursables
-3. Check that amounts match between expense and payment
 
-If amounts don't match, you may have partial reimbursements. The remaining balance shows what's still owed.
-</details>
+1. Verify the expense was recorded using **+Credit** on the **Reimbursables** ledger account
+2. Confirm the reimbursement payment was recorded using **-Debit** on your bank account ledger with **Reimbursables** as the category
+3. Check that amounts match between the expense and the payment
 
-<details>
-  <summary>I made a mistake in the expense amount</summary>
+If amounts don't match, you may have partial reimbursements. The remaining balance shows what is still owed.
 
-You can edit or delete transactions:
-1. Go to the account where you recorded the transaction
-2. Find the transaction in the list
-3. Select the transaction to edit or delete
+
+
+&nbsp;
+
+I entered the wrong expense amount
+
+You can edit or delete transactions directly from the ledger account:
+
+1. Go to **Accounting** > **Chart of Accounts**
+2. Select the ledger account where you recorded the transaction
+3. Find and select the transaction to open it
 4. Make your corrections
 5. Select **Save**
 
-If the expense was already reimbursed, you may need to adjust both the original entry and the reimbursement payment.
-</details>
+If the expense was already reimbursed, adjust both the original entry and the reimbursement payment.
 
-<details>
-  <summary>Can I reimburse multiple expenses at once?</summary>
+
+
+&nbsp;
+
+Can I reimburse multiple expenses at once?
 
 Yes. When processing the reimbursement payment:
+
 1. Calculate the total amount owed across all unreimbursed expenses
-2. Create a single reimbursement payment for the total amount
-3. Add a note or description listing which expenses are included
+2. Record a single **-Debit** on your bank account ledger for the total amount
+3. Add a description listing which expenses are included
 
-The Reimbursables account balance will show zero when all expenses are reimbursed.
-</details>
+The **Reimbursables** ledger account balance returns to zero when all expenses are reimbursed.
 
----
+
 
 ## Related Topics
 
-- [Chart of Accounts](/accounting/chart-of-accounts) - Learn about account types and setup
-- [Manual Transactions](/accounting/journal-entries/overview) - Understanding transaction entries
-- [Expense Management](/expenses/overview) - Complete guide to tracking expenses
+- [Chart of Accounts](/accounting/chart-of-accounts) — Learn about ledger account types and setup
+- [Manual Transactions](/accounting/journal-entries/guides/manual-transactions) — Understanding transaction entries
+- [Expenses Overview](/expenses/overview) — Complete guide to tracking expenses
+
