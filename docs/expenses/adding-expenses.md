@@ -86,6 +86,17 @@ Your categorisation is never lost. The categories always stay on the expense ent
 
 To see all your expenses with their categories in one clear view, use the [Expenses report](/reporting/expenses-report) instead of reading Accounts Payable directly.
 
+### Adding an Expense Directly in Accounts Payable
+
+You can also record an expense from inside the Accounts Payable account in your transactions. An expense increases what you owe, so it is entered as a credit:
+
+1. Open the **Accounts Payable** account in your transactions.
+2. Select **+Credit**.
+3. Enter the vendor, date, amount, and expense category.
+4. Select **Save**.
+
+Do not use the debit side to record an expense — debits in Accounts Payable record payments, not new bills. For comparison, an expense paid straight from a **Cash & Cash Equivalents** account appears there as a **-Credit**, because the money leaves the account.
+
 ## Common Issues
 
 <details>

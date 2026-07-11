@@ -110,9 +110,13 @@ Check these settings:
 </details>
 
 <details>
-<summary>The Status column is not showing</summary>
+<summary>An expense shows no status, or shows Overdue unexpectedly</summary>
 
-The Status column appears when Fiskl can read payment information from your Accounts Payable data. If it is missing, re-run the report. If it is still missing, the expenses in the period were recorded directly from bank transactions, which are always paid.
+The status comes from the expense's due date in Accounts Payable. If the Accounts Payable transaction has no due date, Fiskl treats the transaction date as the due date. This means an unpaid expense without a due date shows as **Overdue** once its transaction date has passed. To change this, open the transaction and set the correct due date.
+
+Expenses recorded directly from bank transactions have no Accounts Payable entry and always show as **Paid**.
+
+If the whole Status column is missing, re-run the report so Fiskl can reload the Accounts Payable payment data.
 
 </details>
 
