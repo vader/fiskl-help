@@ -94,6 +94,7 @@ const sidebars: SidebarsConfig = {
       label: 'Expenses',
       link: {type: 'doc', id: 'expenses/overview'},
       items: [
+        'expenses/adding-expenses',
         {
           type: 'category',
           label: 'AI-Powered Expenses',
@@ -209,6 +210,7 @@ const sidebars: SidebarsConfig = {
         'reporting/profit-and-loss',
         'reporting/balance-sheet',
         'reporting/cash-flow',
+        'reporting/expenses-report',
         'reporting/general-ledger',
         'reporting/trial-balance',
         'reporting/transactions-by-account',
