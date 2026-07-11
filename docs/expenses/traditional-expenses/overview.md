@@ -1,220 +1,92 @@
 ---
-title: "Traditional Expenses Overview"
-description: "View and manage expenses created before AI Expenses. This system is being phased out in favor of AI-powered expense processing."
-keywords: ["traditional expenses", "legacy expenses", "manual expenses", "old expense system"]
+title: "Traditional Expenses (Legacy)"
+description: "The legacy expense list is locked for new entries. Learn how to bulk-migrate your traditional expenses to Accounts Payable in Fiskl."
+keywords: ["traditional expenses", "legacy expenses", "migrate expenses", "convert to accounts payable", "bulk migration", "old expense system"]
 sidebar_position: 1
+tags:
+  - Expenses
+  - Legacy
+toc_min_heading_level: 2
+toc_max_heading_level: 3
 ---
 
-# Traditional Expenses (Legacy System)
+import TOCInline from '@theme/TOCInline';
+
+This guide explains the Traditional Expenses list — Fiskl's legacy expense system — and shows you how to migrate your existing records to Accounts Payable. The list is locked: you cannot create new expenses here.
+
+<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 :::info
-This expense system is being phased out. You can view, edit, and delete existing traditional expenses, but you cannot create new expenses using this method. Please use [AI Expenses](../ai-expenses/overview) for all new expense processing.
+Traditional Expenses is only visible to accounts that created expenses in the legacy system. New Fiskl accounts do not see this list. For all new expenses, see [How to Add Expenses](/expenses/adding-expenses).
 :::
 
-Traditional Expenses is Fiskl's original expense tracking system. While this system remains available for managing historical records, all new expenses should be processed through AI Expenses for automated data extraction and reconciliation.
+## What Changed
 
-## What You Can Do
+Traditional expenses lived outside your accounting. A legacy expense did not count towards your reports until you matched it with an accounting transaction or added it to an invoice.
 
-**View existing expenses:**
-- Access all expenses created before AI Expenses
-- Review historical expense records
-- Export data for reporting
+Expenses now work the accounting way. Every expense you record — through [AI Expenses](/expenses/ai-expenses/overview) or by categorising a bank transaction — posts to your accounting immediately. Because of this, the legacy list is locked for new entries. You can still view your existing records, and you can migrate them to Accounts Payable in bulk.
 
-**Edit expenses:**
-- Update expense details
-- Modify categories and amounts
-- Change dates and descriptions
-- Add or update attachments
+## Migrating Expenses to Accounts Payable
 
-**Delete expenses:**
-- Remove incorrect or duplicate expenses
-- Clean up historical records
+You can convert your traditional expenses into Accounts Payable transactions so they count towards your accounting like all new expenses.
 
-**What you cannot do:**
-- Create new expenses in this system
-- Use mobile OCR for new receipts
-- Access automated reconciliation features
+### Steps
 
-## Migrating to AI Expenses
+1. Go to **Purchasing** > **Expenses** in the left sidebar.
+2. Select the checkbox on each expense you want to migrate, or select the checkbox in the header row to select all.
+3. Select the bulk actions option.
+4. Select **Convert to Accounts Payable**.
+5. Confirm the conversion.
 
-We recommend processing all new expenses through AI Expenses:
+### What Happens Next
 
-**Benefits of switching:**
-- Automatic data extraction from receipts
-- No manual entry required
-- Automatic reconciliation with bank transactions
-- Faster processing time
-- Better accuracy through OCR
+Each converted expense becomes an Accounts Payable transaction with its details carried over. Converted expenses leave the traditional list and appear in your accounting, your [Expenses report](/reporting/expenses-report), and your financial reports.
 
-**For existing traditional expenses:**
-- Keep them in this system for historical records
-- No need to migrate unless you want to
-- Reports include both traditional and AI expenses
-- Both systems integrate with your accounting
+### Which Expenses Cannot Be Migrated
 
-## Accessing Traditional Expenses
+Some expenses are skipped during migration and remain in the traditional list:
 
-Traditional Expenses appears in the navigation when you have historical expenses:
+- **Expenses already matched with an accounting transaction** — These already count towards your accounting through the matched transaction. Converting them would record the expense twice.
+- **Expenses added to an invoice as billable items** — These are linked to the invoice and stay where they are.
 
-1. **Expand Expenses menu**
+If you select a mix, Fiskl converts the eligible expenses and leaves the rest in the list. Nothing is lost — the skipped records are already accounted for or attached to an invoice.
 
-   Select the arrow next to **Expenses** in the left sidebar.
+## What You Can Still Do
 
-2. **Select Traditional Expenses**
+In the Traditional Expenses list you can:
 
-   Choose **Traditional Expenses** to view your legacy expense records.
+- View your legacy expense records and their attachments
+- Select expenses in bulk and convert them to Accounts Payable
+- Keep unmigrated records for reference — matched and billable expenses remain visible
 
-## Understanding Traditional Expense Types
+You cannot create new expenses here. To record a new expense, see [How to Add Expenses](/expenses/adding-expenses).
 
-The traditional system had two types of expenses:
+## Common Issues
 
-### Standalone Expenses
+<details>
+<summary>Some of my expenses were not converted</summary>
 
-Expenses recorded independently of accounting transactions:
-- Created via web dashboard or mobile app
-- Don't impact accounting until manually reconciled
-- Can be attached to invoices for billing
-- Require manual data entry
+This is expected. Expenses that are already matched with an accounting transaction, or that were added to an invoice as billable items, are not migrated. They remain in the traditional list because they are already reflected in your accounting or linked to an invoice. No action is needed.
 
-### Direct Accounting Expenses
+</details>
 
-Expenses recorded directly in ledger accounts:
-- Immediately reflected in accounting
-- Created when categorizing bank transactions
-- Can be assigned to clients for billing
-- No separate reconciliation needed
+<details>
+<summary>I can't find the Traditional Expenses list</summary>
 
-## Components of Traditional Expenses
+The list only appears for accounts with legacy expense records. If your account is new, or all your records have been migrated, the list is hidden. All expense work now happens in [AI Expenses](/expenses/ai-expenses/overview) and Banking.
 
-Traditional expenses typically include:
+</details>
 
-**Required fields:**
-- Amount
-- Category
-- Date
+<details>
+<summary>I can't add a new expense here anymore</summary>
 
-**Optional fields:**
-- Description
-- Images (receipts)
-- Client (for billable expenses)
-- Vendor
-- Payment method
-- Notes
+The legacy list is locked for new entries. Record new expenses in **Purchasing** > **AI Expenses**, or categorise the bank transaction directly in **Banking**. See [How to Add Expenses](/expenses/adding-expenses) for both methods.
 
-## Managing Traditional Expenses
-
-### Viewing Expense Details
-
-To view a traditional expense:
-
-1. Select **Traditional Expenses** from the sidebar
-2. Choose the expense from the list
-3. View all expense details and attachments
-
-### Editing Expenses
-
-To modify an existing expense:
-
-1. Select the expense you want to edit
-2. Select **Edit**
-3. Update any fields as needed
-4. Select **Save**
-
-### Deleting Expenses
-
-To remove an expense:
-
-1. Select the expense to delete
-2. Select **Delete**
-3. Confirm the deletion
-
-:::warning
-Deleting an expense is permanent and cannot be undone. Ensure you have backups of any important records before deleting.
-:::
-
-## Billable Expenses in Traditional System
-
-Traditional expenses can still be marked as billable:
-
-**To make an expense billable:**
-1. Edit the expense
-2. Assign a client
-3. Save the expense
-
-**To add to an invoice:**
-1. Create or edit an invoice
-2. Add billable expenses from the client
-3. Expenses appear as line items
-
-Once added to an invoice, the expense cannot be used on other invoices.
-
-## Reconciling Traditional Standalone Expenses
-
-Standalone traditional expenses require manual reconciliation:
-
-1. **Find the bank transaction**
-
-   Locate the corresponding transaction in your bank, credit card, or cash account.
-
-2. **Match to expense**
-
-   Use the match functionality to link the expense with the transaction.
-
-3. **Confirm match**
-
-   Verify details and confirm the reconciliation.
-
-This process ensures the expense appears correctly in your financial reports.
-
-## Reports and Traditional Expenses
-
-Traditional expenses appear in all relevant financial reports:
-
-- Expense reports by category
-- Vendor spending analysis
-- Client billable expense reports
-- Profit and loss statements
-- Tax reports
-
-Reports automatically include both traditional and AI expenses, providing complete financial visibility.
-
-## Best Practices for Legacy Expenses
-
-**Maintain historical records:**
-- Keep traditional expenses for audit trails
-- Don't delete unless absolutely necessary
-- Export data before major cleanup
-
-**Use AI Expenses going forward:**
-- Stop creating traditional expenses
-- Switch all new expense processing to AI Expenses
-- Train team members on new system
-
-**Reconcile outstanding expenses:**
-- Complete any pending traditional expense reconciliations
-- Match unreconciled expenses with bank transactions
-- Close out the traditional system cleanly
-
-**Document business processes:**
-- Note why certain traditional expenses exist
-- Maintain records of reconciliation methods used
-- Keep documentation for accounting reviews
-
-## Transition Timeline
-
-**Current state:**
-- Traditional Expenses are view/edit/delete only
-- No new expense creation in this system
-- AI Expenses handles all new processing
-
-**Future plans:**
-- Traditional Expenses will remain accessible indefinitely
-- Historical data will not be migrated automatically
-- You can continue managing legacy records as needed
+</details>
 
 ## Related Topics
 
-- [AI Expenses Overview](../ai-expenses/overview) - Modern expense processing system
-- [Uploading AI Expenses](../ai-expenses/uploading) - How to use the new system
-- [Expense Categories](../expense-categories) - Category management across both systems
-- [Mileage Tracking](/time-and-mileage/mileage-tracking) - Track vehicle expenses (works with both systems)
+- [How to Add Expenses](/expenses/adding-expenses) — The two ways to record a new expense
+- [AI Expenses Overview](/expenses/ai-expenses/overview) — Automated expense capture and Accounts Payable
+- [Expenses Report](/reporting/expenses-report) — All your expenses by category with payment status
+- [Expense Categories](/expenses/expense-categories) — Manage the categories used across your expenses
