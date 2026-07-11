@@ -4,14 +4,13 @@ title: A clearer view of your expenses, plus search in every report
 authors: [shawn]
 tags: [new-release, platform-update]
 date: 2026-07-11T09:00
-description: A new Expenses report shows your spending by category with payment status, plus report search, bulk expense migration, and transaction list improvements.
+description: A new Expenses Report shows your spending by category with payment status, plus report search, bulk expense migration, and transaction list improvements.
 ---
 
-Expenses have been the hardest part of the move to full double-entry accounting, and we have heard that clearly. This round of changes is mostly about making them easier to see, easier to add, and easier to migrate.
-
+You told us that moving expenses into Fiskl’s AI extraction and matching flow made the experience less clear. We listened. This round of changes makes expenses easier to find, add, and migrate.
 <!-- truncate -->
 
-## The new Expenses report
+## The new Expenses Report
 
 Since expenses moved into accounts payable, many of you have told us the accounting views feel like they were written for accountants. They were. The general ledger answers "did this post correctly", not "what did I spend on fuel this quarter".
 
