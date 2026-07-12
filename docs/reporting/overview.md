@@ -53,6 +53,12 @@ The Trial Balance summarises all ledger account balances and confirms that total
 
 These reports help you monitor day-to-day activity — outstanding invoices, client account histories, and transaction detail by account.
 
+### Expenses
+
+The Expenses report groups every business expense by category, with subtotals, payment status, and a grand total. Fiskl also offers the same data grouped by vendor, so you can see who you spend the most money with.
+
+[View the Expenses Report guide](/reporting/expenses-report)
+
 ### Client Aging Report
 
 The Client Aging Report groups outstanding invoices by how long they have been overdue: Current, 1–30 days, 31–60 days, 61–90 days, and 90+ days. Use it to prioritise collections and forecast incoming cash.
