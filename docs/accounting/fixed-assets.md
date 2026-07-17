@@ -93,12 +93,29 @@ Open any asset from the register to view its full details, depreciation schedule
 - **Pause** stops depreciation from posting. The existing entries stay in place.
 - **Resume** restarts a paused asset. Any entries that became due while paused post immediately.
 - **Cancel** stops all future entries. Posted journals are kept and the asset stays on your balance sheet.
-- **Edit** changes the asset's details. Once entries have posted, the dates and frequency are locked.
+- **Edit** changes the asset's details. You can still edit an asset after entries have posted — see [Editing an Asset After Entries Post](#editing-an-asset-after-entries-post).
 - **Dispose** removes the asset from your books and records the gain or loss. See [Disposing of an Asset](#disposing-of-an-asset).
 
+### Editing an Asset After Entries Post
+
+You can edit an asset at any time while it is active or paused, including after some depreciation entries have posted. Fiskl keeps the posted entries as they are and recalculates the remaining ones.
+
+Once the first entry posts, the cadence is fixed — you cannot change the first entry date or the posting frequency. Everything else stays editable:
+
+- Change the residual value, the total cost, or the number of entries, and Fiskl re-spreads the remaining depreciable amount across the entries that have not yet posted. The recalculation starts from the next entry due to post.
+- Change the name or the accounts, and future entries use the new values. Account changes never touch entries that have already posted.
+
+This means you can adjust an asset partway through its life without starting over, and without disturbing your posted figures.
+
 :::info
-Editing an asset re-spreads only the future entries. Entries that have already posted stay exactly as they were.
+Custom-rule assets are the exception. Once an entry posts, you cannot edit a custom-rule asset, because changing it would diverge from the approved rule. To change how it depreciates, create a new version of the rule and register a new asset.
 :::
+
+### Editing or Deleting a Posted Entry
+
+Each depreciation entry posts as an ordinary journal. Posted entries are not locked — you can open any of them and edit or delete it the same way you handle any manual journal.
+
+If you delete a posted entry's journal, Fiskl flags it on the asset. The affected line shows a missing-entry warning so you can see that its journal was removed. Fiskl does not re-post a deleted entry.
 
 ## Disposing of an Asset
 
@@ -241,9 +258,16 @@ Disposal posts an ordinary journal. Open the disposal journal from the asset's d
 </details>
 
 <details>
-<summary>I can't edit my asset</summary>
+<summary>Can I change the residual value or cost after depreciation has started?</summary>
 
-Once any depreciation entry has posted, the first entry date and frequency are locked. For an asset that uses a custom rule, all edits are locked after the first entry posts — create a new version of the rule and register a new asset instead.
+Yes. Edit the asset and change the residual value, cost, or number of entries. Fiskl keeps the posted entries as they are and re-spreads the remaining depreciable amount across the entries that have not yet posted, starting from the next one due. Only the first entry date and posting frequency lock once an entry posts. Custom-rule assets are the exception — they cannot be edited after an entry posts.
+
+</details>
+
+<details>
+<summary>A depreciation entry is showing a missing-entry warning</summary>
+
+The posted journal for that entry was deleted. Posted depreciation entries are ordinary journals, so they can be edited or deleted. When one is deleted, Fiskl marks the line with a warning and does not re-post it. If the deletion was a mistake, recreate the journal manually, or edit the asset to re-spread the remaining amount.
 
 </details>
 
