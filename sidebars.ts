@@ -154,6 +154,7 @@ const sidebars: SidebarsConfig = {
       link: {type: 'doc', id: 'accounting/overview'},
       items: [
         'accounting/chart-of-accounts',
+        'accounting/fixed-assets',
         {
           type: 'category',
           label: 'Journal Entries',
