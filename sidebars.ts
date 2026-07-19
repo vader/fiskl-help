@@ -155,6 +155,9 @@ const sidebars: SidebarsConfig = {
       items: [
         'accounting/chart-of-accounts',
         'accounting/fixed-assets',
+        'accounting/prepayments',
+        'accounting/deferred-revenue',
+        'accounting/recurring-entries',
         {
           type: 'category',
           label: 'Journal Entries',
