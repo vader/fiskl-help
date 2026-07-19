@@ -179,6 +179,14 @@ This keeps a single source of truth for the cash in your bank account — the ba
 Do not record the proceeds straight into your bank account if your bank feed also brings in the deposit. Both entries would then record the same money, overstating your bank balance. Always route the proceeds through **Undeposited Funds** and match the feed against it.
 :::
 
+{/* TEMP: remove when multi-journal matching ships */}
+:::caution
+If you use a connected bank feed such as Salt Edge, Yodlee, or Wio, you cannot yet match the incoming deposit against the disposal. The disposal posts as a multi-journal entry, and matching from a multi-journal entry is coming soon. The proceeds still post correctly to **Undeposited Funds** in the meantime. If you enter transactions manually, without a connected feed, you can record the deposit against your bank ledger as usual.
+:::
+{/* END TEMP */}
+
+
+
 ### Why You Cannot Use the Bank or Accounts Receivable
 
 The disposal posts through a journal, and a journal cannot post directly to a bank account or to accounts receivable as a free-standing line. This is why Fiskl offers money accounts such as **Undeposited Funds** and **Cash on Hand** for the proceeds, rather than the bank account or accounts receivable.
@@ -216,6 +224,14 @@ The lifecycle of a custom rule is:
 
 Approved rules are locked. To change a rule, create a new version, which starts as a new draft.
 
+### Building a Rule by Amounts
+
+You can author a custom rule by entering amounts instead of percentages. This is a convenience for when you think in figures rather than rates — many accountants find it faster to reason about.
+
+Enter a reference total, then set the amount for each period. For example, against a total of 100,000 you might enter 80,000 in year one, 5,000 in year two, 500 in year three, and 300 in year four. As you type, Fiskl tallies the entries and shows a running total, how much remains, and whether you are over or under the reference total. This helps you land the schedule exactly where you intend.
+
+Behind the scenes, nothing changes. Fiskl converts your amounts to the equivalent percentages and stores the rule as a percentage schedule, the same as any other custom rule. The reference total is only a scratchpad for building the rule — each asset still depreciates against its own cost, using those percentages.
+
 :::info
 An asset that uses a custom rule cannot be edited once entries have posted. To change how it depreciates, create a new version of the rule and register a new asset.
 :::
@@ -235,6 +251,15 @@ This is expected. Record the proceeds against **Undeposited Funds** at disposal.
 The disposal posts through a journal, which cannot post directly to a bank account or to accounts receivable. Select **Undeposited Funds** instead, then match the bank deposit against it when it arrives. This is the standard way to record disposal proceeds.
 
 </details>
+
+{/* TEMP: remove when multi-journal matching ships */}
+<details>
+<summary>I can't match my disposal deposit against a connected bank feed</summary>
+
+Matching a connected bank feed — such as Salt Edge, Yodlee, or Wio — against a disposal is not yet available, because the disposal posts as a multi-journal entry. This is coming soon. The proceeds still post correctly to **Undeposited Funds** in the meantime. If you enter transactions manually, without a connected feed, you can record the deposit against your bank ledger as usual.
+
+</details>
+{/* END TEMP */}
 
 <details>
 <summary>My Undeposited Funds account has a leftover balance</summary>
