@@ -154,10 +154,17 @@ const sidebars: SidebarsConfig = {
       link: {type: 'doc', id: 'accounting/overview'},
       items: [
         'accounting/chart-of-accounts',
-        'accounting/fixed-assets',
-        'accounting/prepayments',
-        'accounting/deferred-revenue',
-        'accounting/recurring-entries',
+        {
+          type: 'category',
+          label: 'Schedules',
+          link: {type: 'doc', id: 'accounting/schedules/overview'},
+          items: [
+            'accounting/schedules/fixed-assets',
+            'accounting/schedules/prepayments',
+            'accounting/schedules/deferred-revenue',
+            'accounting/schedules/recurring-entries',
+          ],
+        },
         {
           type: 'category',
           label: 'Journal Entries',

@@ -2,7 +2,7 @@
 title: "Prepayments and Amortisation"
 description: "Spread a prepaid expense over the periods it covers with automated amortisation schedules in Fiskl. Also known as prepaid expenses or deferred charges."
 keywords: ["prepayments", "prepaid expenses", "amortisation", "deferred charges", "prepaid amortisation", "spread expense", "accruals", "straight line", "Fiskl accounting"]
-sidebar_position: 6
+sidebar_position: 3
 toc_min_heading_level: 2
 toc_max_heading_level: 3
 tags:
@@ -138,7 +138,7 @@ The posted journal for that entry was deleted. Posted entries are ordinary journ
 
 ## Related Topics
 
-- [Deferred Revenue and Revenue Recognition](/accounting/deferred-revenue) — Spread income you have been paid for in advance, the mirror image of a prepayment.
-- [Recurring Entries](/accounting/recurring-entries) — Post the same journal every period on a set frequency.
-- [Fixed Assets and Depreciation](/accounting/fixed-assets) — Spread the cost of an asset over its useful life.
+- [Deferred Revenue and Revenue Recognition](/accounting/schedules/deferred-revenue) — Spread income you have been paid for in advance, the mirror image of a prepayment.
+- [Recurring Entries](/accounting/schedules/recurring-entries) — Post the same journal every period on a set frequency.
+- [Fixed Assets and Depreciation](/accounting/schedules/fixed-assets) — Spread the cost of an asset over its useful life.
 - [Managing your Chart of Accounts](/accounting/chart-of-accounts) — Set up the prepaid asset and expense accounts you need.

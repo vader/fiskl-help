@@ -2,7 +2,7 @@
 title: "Fixed Assets and Depreciation"
 description: "Register fixed assets, automate depreciation, and dispose of assets in Fiskl. Learn why disposal proceeds use the Undeposited Funds account and how to match the bank payment."
 keywords: ["fixed assets", "depreciation", "asset disposal", "undeposited funds", "straight line depreciation", "gain on disposal", "loss on disposal", "accumulated depreciation", "Fiskl accounting"]
-sidebar_position: 3
+sidebar_position: 2
 toc_min_heading_level: 2
 toc_max_heading_level: 3
 tags:

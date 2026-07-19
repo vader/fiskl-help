@@ -2,7 +2,7 @@
 title: "Deferred Revenue and Revenue Recognition"
 description: "Recognise revenue you have been paid for in advance over the periods you earn it, with automated schedules in Fiskl. Also known as revenue recognition or unearned income."
 keywords: ["deferred revenue", "revenue recognition", "unearned revenue", "unearned income", "deferred income", "recognise revenue", "advance payment", "subscriptions", "Fiskl accounting"]
-sidebar_position: 7
+sidebar_position: 4
 toc_min_heading_level: 2
 toc_max_heading_level: 3
 tags:
@@ -138,7 +138,7 @@ Yes. Edit the schedule and change the amount or the number of entries. Fiskl kee
 
 ## Related Topics
 
-- [Prepayments and Amortisation](/accounting/prepayments) — Spread a cost you have paid in advance, the mirror image of deferred revenue.
-- [Recurring Entries](/accounting/recurring-entries) — Post the same journal every period on a set frequency.
-- [Fixed Assets and Depreciation](/accounting/fixed-assets) — Spread the cost of an asset over its useful life.
+- [Prepayments and Amortisation](/accounting/schedules/prepayments) — Spread a cost you have paid in advance, the mirror image of deferred revenue.
+- [Recurring Entries](/accounting/schedules/recurring-entries) — Post the same journal every period on a set frequency.
+- [Fixed Assets and Depreciation](/accounting/schedules/fixed-assets) — Spread the cost of an asset over its useful life.
 - [Managing your Chart of Accounts](/accounting/chart-of-accounts) — Set up the deferred revenue liability and revenue accounts you need.

@@ -2,7 +2,7 @@
 title: "Recurring Entries"
 description: "Post the same journal entry every period on a set frequency in Fiskl. Also known as recurring journals or standing journal entries — ideal for rent, retainers, and subscriptions."
 keywords: ["recurring entries", "recurring journals", "standing journals", "repeating journal entries", "scheduled journals", "rent", "retainers", "fixed journal", "Fiskl accounting"]
-sidebar_position: 8
+sidebar_position: 5
 toc_min_heading_level: 2
 toc_max_heading_level: 3
 tags:
@@ -136,7 +136,7 @@ The posted journal for that entry was deleted. Posted entries are ordinary journ
 
 ## Related Topics
 
-- [Prepayments and Amortisation](/accounting/prepayments) — Spread a prepaid cost across the periods it covers.
-- [Deferred Revenue and Revenue Recognition](/accounting/deferred-revenue) — Recognise advance income over the periods you earn it.
+- [Prepayments and Amortisation](/accounting/schedules/prepayments) — Spread a prepaid cost across the periods it covers.
+- [Deferred Revenue and Revenue Recognition](/accounting/schedules/deferred-revenue) — Recognise advance income over the periods you earn it.
 - [Multi-journal Entries](/accounting/journal-entries/multi-journal-entries) — Record a one-off complex journal across multiple accounts.
 - [Recurring Invoices](/invoicing/create-recurring-invoices) — Bill a client automatically on a schedule.

@@ -1,0 +1,9 @@
+{
+  "label": "Schedules",
+  "position": 3,
+  "link": {
+    "type": "doc",
+    "id": "accounting/schedules/overview"
+  },
+  "description": "Automate recurring and spread journal entries — fixed assets, prepayments, deferred revenue, and recurring entries."
+}
