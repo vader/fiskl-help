@@ -117,6 +117,20 @@ const sidebars: SidebarsConfig = {
 
     {
       type: 'category',
+      label: 'Inventory',
+      link: {type: 'doc', id: 'inventory/overview'},
+      items: [
+        'inventory/setting-up-inventory',
+        'inventory/tracking-products',
+        'inventory/purchase-orders-and-receiving',
+        'inventory/bills-and-price-variance',
+        'inventory/stock-adjustments-and-counts',
+        'inventory/inventory-reports',
+      ],
+    },
+
+    {
+      type: 'category',
       label: 'Time & Mileage',
       link: {type: 'doc', id: 'time-and-mileage/overview'},
       items: [

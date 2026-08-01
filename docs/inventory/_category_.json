@@ -1,0 +1,9 @@
+{
+  "label": "Inventory",
+  "position": 3,
+  "link": {
+    "type": "doc",
+    "id": "inventory/overview"
+  },
+  "description": "Track stock levels and costs, purchase from vendors with purchase orders and goods receipts, and reconcile inventory value to your balance sheet."
+}

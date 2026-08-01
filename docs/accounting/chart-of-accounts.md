@@ -110,6 +110,8 @@ Archived accounts no longer appear in dropdowns when categorising transactions. 
 
 Fiskl assigns certain ledger accounts as defaults for specific transaction types — for example, the account used for sales income or bank fees. You can review and update these defaults in **Settings** > **Accounting Settings**.
 
+If you track inventory, Fiskl also creates a set of system accounts for stock movements, such as **Inventory**, **Cost of Goods Sold** and **Goods Received Not Invoiced**. These are created and used automatically. See [Setting Up Inventory](/inventory/setting-up-inventory) for what each one records.
+
 Why does account structure matter for reporting?
 
 The way your Chart of Accounts is structured directly affects how your financial reports look. Reports like the Profit and Loss and Balance Sheet group transactions by account type and sub-type. A well-organised CoA means your reports reflect your business accurately and make it easier to spot trends, prepare tax filings, or work with an accountant.
