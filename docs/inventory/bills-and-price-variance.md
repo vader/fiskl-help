@@ -11,11 +11,7 @@ tags:
   - Accounting
 ---
 
-import TOCInline from '@theme/TOCInline';
-
 This guide explains how to enter a vendor's bill against goods you have received, and what happens when the vendor charges a different price from the one on your order. That difference is the purchase price variance, and Fiskl handles it automatically.
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## Before You Begin
 

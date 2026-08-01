@@ -11,11 +11,7 @@ tags:
   - Accounting
 ---
 
-import TOCInline from '@theme/TOCInline';
-
 This guide explains how to order stock from a vendor and record what arrives. Receiving is the most important step in inventory, because it is where stock increases and where its cost is fixed for good.
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## Before You Begin
 

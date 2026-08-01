@@ -12,10 +12,6 @@ toc_max_heading_level: 3
 
 This page explains the two billing models available in Atlas and helps you decide which to use for each client relationship.
 
-import TOCInline from '@theme/TOCInline';
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
-
 ## Two Billing Models
 
 Atlas supports two billing models that determine who pays for a client's Fiskl subscription. You choose the model when you add each client, and you can mix both models within the same branch.

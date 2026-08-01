@@ -10,11 +10,7 @@ tags:
   - Accounting
 ---
 
-import TOCInline from '@theme/TOCInline';
-
 This guide explains how to change stock quantities outside the buying and selling cycle: manual adjustments, stock counts, client returns, and what happens when you sell more than you hold. Every one of these posts to your ledger immediately.
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## Before You Begin
 

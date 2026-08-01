@@ -11,13 +11,9 @@ tags:
   - Settings
 ---
 
-import TOCInline from '@theme/TOCInline';
-
 Setting up inventory takes two steps: turning it on for the company, and granting each person permission to use it. This guide covers both.
 
 It then explains the two settings that govern how inventory behaves — the valuation method and the negative stock policy — and lists the ledger accounts Fiskl uses to post stock movements. Set both settings before you receive any stock.
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## Before You Begin
 

@@ -11,11 +11,7 @@ tags:
   - Depreciation
 ---
 
-import TOCInline from '@theme/TOCInline';
-
 This guide explains how the Fixed Assets register works in Fiskl, how depreciation is scheduled and posted automatically, and how to dispose of an asset. It gives special attention to recording disposal proceeds through the **Undeposited Funds** account, which is the correct way to handle the money you receive from a sale.
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## Before You Begin
 

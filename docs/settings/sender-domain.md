@@ -20,11 +20,7 @@ toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
-
 This guide explains how to send invoices and quotes from your own domain in Fiskl and helps you improve delivery so your emails reach your clients' inboxes.
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## Why Use a Sender Domain
 

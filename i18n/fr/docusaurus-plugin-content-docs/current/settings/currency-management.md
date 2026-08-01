@@ -11,11 +11,7 @@ toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
-
 This guide explains how to view and manage exchange rates in Fiskl. Use Currency Management to override system rates for specific dates or periods, giving you consistent currency conversion across transactions and reports. All exchange rates are calculated relative to your account's base currency.
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## Access Currency Management
 

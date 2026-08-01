@@ -10,13 +10,9 @@ tags:
 toc_min_heading_level: 2
 toc_max_heading_level: 2
 ---
-
-import TOCInline from '@theme/TOCInline';
 import DocCardList from '@theme/DocCardList';
 
 This section covers products and services in Fiskl — reusable templates for invoice and quote line items. Set them up once with your standard pricing, descriptions, and tax rates, then add them to invoices and quotes in a single step.
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## Why Use Products and Services
 

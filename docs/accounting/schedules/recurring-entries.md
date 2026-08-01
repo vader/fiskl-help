@@ -11,11 +11,7 @@ tags:
   - Recurring Entries
 ---
 
-import TOCInline from '@theme/TOCInline';
-
 This guide explains how to post the same journal entry automatically every period on a set frequency in Fiskl. Recurring entries are also known as **recurring journals** or **standing journal entries** — a fixed amount posted on a repeating schedule rather than spread from a single balance.
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## Before You Begin
 

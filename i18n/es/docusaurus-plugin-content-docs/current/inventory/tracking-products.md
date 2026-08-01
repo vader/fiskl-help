@@ -10,11 +10,7 @@ tags:
   - Products
 ---
 
-import TOCInline from '@theme/TOCInline';
-
 This guide explains how to start tracking stock on a product, what each field on the inventory item does, and how to read the inventory list. It also covers adding your opening stock, which is not part of the item form.
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## Before You Begin
 

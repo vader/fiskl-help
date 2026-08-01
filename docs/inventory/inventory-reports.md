@@ -11,11 +11,7 @@ tags:
   - Accounting
 ---
 
-import TOCInline from '@theme/TOCInline';
-
 This guide explains the two inventory reports: **Stock Valuation**, which values your stock at any date and checks it against your balance sheet, and **Purchase Price Variance**, which lists every difference between receipt prices and vendor bills.
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## Before You Begin
 

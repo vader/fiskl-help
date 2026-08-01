@@ -12,11 +12,8 @@ tags:
 ---
 
 import DocCardList from '@theme/DocCardList';
-import TOCInline from '@theme/TOCInline';
 
 This guide explains how inventory works in Fiskl: what stock tracking gives you, which documents move stock, and how every movement posts to your general ledger without manual journals. Read this page first to understand the shape of the system, then follow the individual guides for each step.
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## What Inventory Does
 
