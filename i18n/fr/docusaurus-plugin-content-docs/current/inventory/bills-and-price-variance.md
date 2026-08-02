@@ -13,6 +13,14 @@ tags:
 
 This guide explains how to enter a vendor's bill against goods you have received, and what happens when the vendor charges a different price from the one on your order. That difference is the purchase price variance, and Fiskl handles it automatically.
 
+:::note[Bills are for inventory and supplier invoices]
+Bills here are focused on stock you have ordered and received from a supplier. They match a vendor's invoice to a goods receipt, clear **Goods Received Not Invoiced**, and check the price you were billed against the price you ordered at.
+
+For everyday bills that have nothing to do with stock — a phone bill, a subscription, a consultant's invoice — use [AI Expenses](/expenses/ai-expenses/overview) instead. Upload the document and Fiskl extracts the vendor, date, amount, tax and line items for you, then posts it to Accounts Payable. That is the preferred route for general bills, and it saves you keying anything in.
+
+A bill on this screen can take non-stock lines, so you are not blocked if you need one. It is simply not the quickest way in, and it will not extract anything from a document for you.
+:::
+
 ## Before You Begin
 
 Post the goods receipt first. Matching a bill to a receipt is what clears **Goods Received Not Invoiced** and reveals any price difference. You can enter a bill before the goods arrive, but the price check is deferred until they do.
@@ -39,13 +47,31 @@ Go to **Inventory** > **Bills** and select **New bill**. Enter the vendor, then 
 
 4. **Add any other lines**
 
-   Use **Add expense line** for anything not received into stock, such as a service charge.
+   Use **Add expense line** for anything on the vendor's invoice that was not received into stock — freight, duty, a service charge. Pick the ledger account it should post to. These lines never touch stock. See [The two kinds of bill line](#the-two-kinds-of-bill-line) below.
 
 5. **Post the bill**
 
    Select **Post bill**.
 
 Once the first line is matched, the bill's currency locks to the currency of the matched order. You cannot bill goods ordered in one currency on a bill in another.
+
+## The Two Kinds of Bill Line
+
+Every line on a bill is one of two kinds, and the difference decides whether stock moves.
+
+| | Stock line | Expense line |
+|---|---|---|
+| What it buys | Goods you ordered and received | Anything else — freight, duty, a service |
+| Needs a tracked product | Yes | No |
+| Must link to an order or receipt | Yes | No |
+| Moves stock | Yes | Never |
+| Posts to | **Goods Received Not Invoiced**, which it clears | The ledger account you pick |
+
+Most supplier bills use both. Three stock lines for the goods, plus one expense line for the freight the vendor charged on the same invoice.
+
+A stock line always has to be billed against its goods receipt, so **Goods Received Not Invoiced** clears properly. If you try to bill an ordered stock line as an expense line, Fiskl rejects it.
+
+An expense line does not need an order behind it at all. It can be a charge that was never ordered, which is how a bill can carry lines that have nothing to do with stock. If you leave the account blank, the line posts to **Uncategorised Expenses**, so set it deliberately rather than leaving it to the fallback.
 
 ## What Posting a Bill Does
 
@@ -148,6 +174,17 @@ This is why the bill matters even when you pay immediately. A receipt leaves a c
 ## Common Issues
 
 <details>
+<summary>Should I enter my normal bills here, or as an expense?</summary>
+
+Use [AI Expenses](/expenses/ai-expenses/overview) for anything that is not stock you ordered from a supplier. Upload the document and Fiskl extracts the vendor, date, amount, tax and line items, then posts it to Accounts Payable. It is faster and you do not key the detail in yourself.
+
+Use a bill here when a supplier has invoiced you for goods you raised a purchase order for and received. That is what matching against a goods receipt, clearing **Goods Received Not Invoiced**, and the price check are all for.
+
+A bill on this screen does accept non-stock lines, so nothing breaks if you enter a general bill here. You just lose the document extraction, and it is not the route we would point you to.
+
+</details>
+
+<details>
 <summary>Nothing appears in the "Bill received goods" picker</summary>
 
 The picker shows unbilled goods for the vendor on the bill. If it is empty, check the vendor is correct and that the goods receipt has been **posted** rather than left as a draft. Also check the lines are not already billed on another bill.
@@ -197,4 +234,5 @@ If the vendor billed more than arrived, bill the received quantity and take the 
 - [Purchase Orders and Receiving](/inventory/purchase-orders-and-receiving) — order goods and record what arrives.
 - [Inventory Reports](/inventory/inventory-reports) — review every variance in one place.
 - [Setting Up Inventory](/inventory/setting-up-inventory) — the accounts these journals post to.
+- [AI Expenses](/expenses/ai-expenses/overview) — the preferred route for bills that are not for stock.
 - [Vendors](/clients-vendors/vendors) — manage the vendors you buy from.
