@@ -44,13 +44,13 @@ Fiskl includes the tax authorities and tax types for these countries:
 - United Arab Emirates
 - South Africa
 
-In these countries the authority list and the tax types on the rate form are filtered to what applies where you are registered, so a Canadian agency offers the Canada Revenue Agency and the provincial ministries, and a German agency offers VAT rather than GST.
+In these countries the authority list and the tax types on the rate form are filtered to what applies where you are registered. A Canadian agency offers the Canada Revenue Agency and the provincial ministries. A German agency offers VAT rather than GST.
 
-In other countries the tax rate form is simpler: a name, a percentage, a tax agency, and a single **This is a sales tax** setting. None of the questions on this page appear.
+In other countries the tax rate form is simpler. You enter a name, a percentage, and a tax agency, then set **This is a sales tax**. None of the questions on this page appear.
 
 ## The Classification Questions
 
-Open **Settings** > **Tax Management** > **Taxes**, then select **Add rate**, or select an existing rate to edit it.
+Go to **Settings** > **Tax Management** > **Taxes**, then select **Add rate**, or select an existing rate to edit it.
 
 ### Behaviour
 
@@ -71,11 +71,11 @@ Open **Settings** > **Tax Management** > **Taxes**, then select **Add rate**, or
 
 ### Tax Type
 
-**Tax type** is the kind of tax, such as VAT, GST, or Sales tax. Fiskl offers only the types that exist in the country of the tax agency, so a Canadian agency offers GST and Sales tax, and a German agency offers VAT.
+**Tax type** is the kind of tax, such as VAT, GST, or Sales tax. Fiskl offers only the types that exist in the country of the tax agency. A Canadian agency offers GST and Sales tax. A German agency offers VAT.
 
 ### Rate Band
 
-**Rate band** groups the rate as **Standard**, **Reduced**, or **Super-reduced**. It appears for VAT and GST style taxes, where governments publish rates in named bands, and it is hidden for sales taxes, which do not use bands.
+**Rate band** groups the rate as **Standard**, **Reduced**, or **Super-reduced**. It appears for VAT and GST style taxes, where governments publish rates in named bands. It is hidden for sales taxes, which do not use bands.
 
 A charged rate needs a rate band. If you leave it empty, the rate cannot be saved.
 
@@ -106,7 +106,7 @@ Tax rates created before classification was introduced are marked **Needs classi
 
 To classify one:
 
-1. Open **Settings** > **Tax Management** > **Taxes**.
+1. Go to **Settings** > **Tax Management** > **Taxes**.
 2. Select the rate marked **Needs classification**.
 3. Answer the questions above.
 4. Select **Save**.

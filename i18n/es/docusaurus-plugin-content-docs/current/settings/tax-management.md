@@ -31,7 +31,7 @@ For help with other accounting settings, see [Accounting Settings](/settings/acc
 A tax agency represents the authority you pay taxes to — for example, HMRC, the IRS, or a regional VAT office. Each agency is linked to a specific country and currency.
 
 
-When you create a tax agency, Fiskl automatically creates a matching **Liability** ledger account in your [Chart of Accounts](/accounting/chart-of-accounts). All transactions involving taxes for that agency are recorded as journal entries in this ledger account. If you rename a tax agency, the corresponding ledger account is also renamed.
+When you create a tax agency, Fiskl automatically creates a matching **Liability** ledger account in your [Chart of Accounts](/accounting/chart-of-accounts). Fiskl records all transactions involving taxes for that agency as journal entries in this ledger account. If you rename a tax agency, Fiskl renames the ledger account too.
 
 
 ### Set Up a Tax Agency
@@ -44,7 +44,7 @@ When you create a tax agency, Fiskl automatically creates a matching **Liability
 5. Enter the tax number
 6. Enter a registration name to recognise this registration across Fiskl (optional)
 7. Select the **Authority** you are registered with
-8. Select the **Province / territory** or region, where the country files below national level
+8. Select the **Province / territory** or region where the country files below national level
 9. Select an accounting scheme, if the country offers one
 10. Enter a prefix (optional)
 11. Select whether to include the tax number in generated reports
@@ -64,7 +64,7 @@ The authority list is filtered to the country you selected, and grouped into nat
 ## Tax Rates
 
 
-Tax rates define the percentage applied to your transactions. Each rate must be assigned to a tax agency, and its currency is determined by that agency. You can assign multiple rates to a single agency. As well as the name and the percentage, you classify the rate: what kind of tax it is, how it behaves, which rate band it belongs to, and whether you can reclaim it.
+Tax rates define the percentage applied to your transactions. Each rate must be assigned to a tax agency, and its currency is determined by that agency. You can assign multiple rates to a single agency. As well as the name and the percentage, you classify the rate. You record the kind of tax, how it behaves, its rate band, and whether you can reclaim it.
 
 
 Fiskl builds a jurisdiction code from your answers when you save. The code is how your reporting identifies the rate.
@@ -86,7 +86,7 @@ Fiskl builds a jurisdiction code from your answers when you save. The code is ho
 See [Classifying Tax Rates](/settings/tax-rate-classification) for what each question means.
 
 
-Outside the countries listed in Before You Begin, the form is simpler: a name, a percentage, a tax agency, and a single **This is a sales tax** setting. The classification step does not appear.
+Outside the countries listed above, the form is simpler. You enter a name, a percentage, and a tax agency, then set **This is a sales tax**. The classification step does not appear.
 
 
 ## Tax Groups
