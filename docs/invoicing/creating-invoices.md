@@ -23,7 +23,7 @@ Completing the setup steps below before creating your first invoice ensures accu
 - Set up email templates
 - Connect payment gateways and manual payment methods
 
-Step 1: Configure Tax Settings
+Step 1: Configure Tax Management
 
 If you charge tax on products or services, configure your tax settings before creating invoices.
 
@@ -64,7 +64,7 @@ Fiskl automatically creates a corresponding ledger account in your Chart of Acco
 
 This rate applies automatically to all line items unless you specify otherwise on the invoice.
 
-**Learn more:** [Tax Settings](/settings/tax-settings)
+**Learn more:** [Tax Management](/settings/tax-management)
 
 
 
@@ -510,7 +510,7 @@ Template changes apply to all invoices using that template. If you need to chang
 - [Sending Invoices](/invoicing/sending-invoices) — Email options, reminders, and client view
 - [Recurring Invoices](/invoicing/recurring-invoice-management) — Automate regular billing
 - [Invoice Payment Schedules](/invoicing/invoice-payment-schedules) — Split invoices into instalments
-- [Tax Settings](/settings/tax-settings) — Configure tax rates and display options
+- [Tax Management](/settings/tax-management) — Configure tax rates and display options
 - [Managing Clients](/clients-vendors/clients) — Set up client profiles and defaults
 - [Payment Gateways](/integrations/payments/overview) — Connect Stripe and other payment methods
 - [Products & Services](/products-services/overview) — Build a reusable catalogue of items

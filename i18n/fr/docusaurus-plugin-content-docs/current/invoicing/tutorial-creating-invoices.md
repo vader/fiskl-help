@@ -107,7 +107,7 @@ If your business charges tax, apply it to each line item.
 - To switch between tax-inclusive and tax-exclusive pricing, select the **+/-** button next to the tax field
 
 :::tip
-If your tax number is not showing on the invoice, check two settings: **Settings** > **Tax Settings** (enable "Display tax number on invoices") and **Settings** > **Templates & Brands** (confirm "Hide tax number" is not selected).
+If your tax number is not showing on the invoice, check two settings: **Settings** > **Tax Management** (enable "Display tax number on invoices") and **Settings** > **Templates & Brands** (confirm "Hide tax number" is not selected).
 :::
 
 ### Step 6: Review and save or send
@@ -127,7 +127,7 @@ Check the bottom of the invoice for the subtotal, tax, and total amount.
 **Cause:** Two separate settings control tax number visibility. Both must be enabled.
 
 **Fix:**
-1. Go to **Settings** > **Tax Settings** and confirm the **Display tax number on invoices** checkbox is selected
+1. Go to **Settings** > **Tax Management** and confirm the **Display tax number on invoices** checkbox is selected
 2. Go to **Settings** > **Templates & Brands** and confirm the **Hide tax number** option is not selected
 3. Ensure at least one line item on the invoice has tax applied — the tax number only appears when tax is present
 

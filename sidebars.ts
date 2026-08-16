@@ -368,7 +368,6 @@ const sidebars: SidebarsConfig = {
         'settings/accounting-settings',
         'settings/locked-period',
         'settings/currency-management',
-        'settings/tax-settings',
         'settings/tax-management',
         'settings/invoice-quotes-settings',
         'settings/invoice-template-brands-settings',

@@ -121,6 +121,6 @@ All reports share the following capabilities.
 
 - [Chart of Accounts](/accounting/chart-of-accounts) — Set up and manage the ledger accounts that underpin all reports
 - [Accounting Settings](/settings/accounting-settings) — Configure your base currency, financial year, and accounting method
-- [Tax Settings](/settings/tax-settings) — Set up tax rates for accurate Sales Tax reporting
+- [Tax Management](/settings/tax-management) — Set up tax rates for accurate Sales Tax reporting
 - [Bank Account Reconciliation](/accounting/reconciliation/guides/bank-account-reconciliation) — Keep your books accurate before generating reports
 

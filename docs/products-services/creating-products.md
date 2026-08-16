@@ -142,5 +142,5 @@ Go to **Products & Services**, open the product, and select **Edit**. Update the
 - [Managing Services](/products-services/managing-services) — Create templates for intangible offerings
 - [Managing Your Catalog](/products-services/managing-catalog) — Organise, edit, and maintain your products and services
 - [Creating Invoices](/invoicing/creating-invoices) — Add products to invoices as line items
-- [Tax Settings](/settings/tax-settings) — Configure the tax rates available in your product templates
+- [Tax Management](/settings/tax-management) — Configure the tax rates available in your product templates
 

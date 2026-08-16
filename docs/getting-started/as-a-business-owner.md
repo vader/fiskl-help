@@ -93,7 +93,7 @@ Accurate business information ensures your invoices, reports, and tax filings ar
 
 **Learn more:** [Profile Settings](/settings/profile-settings.md)
 
-### 4. Configure Tax Settings
+### 4. Configure Tax Management
 
 Proper tax configuration ensures compliance and accurate reporting from day one.
 
@@ -117,7 +117,7 @@ Fiskl includes common tax rates for your region. Review and customize as needed:
 
 If you sell tax-exempt products or services, configure exemptions:
 
-1. Go to **Tax Settings** > **Exemptions**
+1. Go to **Tax Management** > **Exemptions**
 2. Add exemption categories
 3. Assign exemptions to products or clients as needed
 

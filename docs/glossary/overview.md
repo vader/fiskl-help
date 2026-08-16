@@ -303,7 +303,7 @@ Fiskl tracks various tax types automatically:
 - **Withholding Tax** - Tax withheld from payments
 - **Income Tax** - Tax on business profits
 
-**Learn more:** [Tax Settings](/settings/tax-settings.md)
+**Learn more:** [Tax Management](/settings/tax-management.md)
 
 ## How Fiskl Uses These Terms
 

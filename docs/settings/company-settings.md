@@ -62,6 +62,6 @@ updated time zone going forward.
   quote behaviour
 - [Templates and brands settings](/settings/invoice-template-brands-settings) — Customise logo
   placement, colours, and layouts
-- [Tax settings](/settings/tax-settings) — Set up tax rates and rules for your invoices
+- [Tax management](/settings/tax-management) — Set up tax rates and rules for your invoices
 - [Profile settings](/settings/profile-settings) — Update your personal account details
 

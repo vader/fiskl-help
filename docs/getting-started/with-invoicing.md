@@ -111,13 +111,13 @@ that best suit your needs.
 
 <LayoutPair imageUrl="https://demo.fiskl.com/e/cm0qqxc0l004sl90cwm6djnbn/tour">
 
-[Tax settings](https://my.fiskl.com/manage-taxes)
+[Tax management](https://my.fiskl.com/manage-taxes)
 
-1. Open `Tax Settings` from the left menu, gear icon
+1. Open `Tax Management` from the left menu, gear icon
 1. Select the `Tax ID` tab and update or add your Tax Number
 1. Choose the Single Taxes and create your tax assigning it to your new tax number
 
-[//]: # (Learn more about [Managing taxes]&#40;../Settings-Configurations/tax-settings.md&#41;)
+[//]: # (Learn more about [Managing taxes]&#40;../Settings-Configurations/tax-management.md&#41;)
 
 </LayoutPair>
 
@@ -177,7 +177,7 @@ that best suit your needs.
 [//]: # (      </a>)
 
 [//]: # (   )
-[//]: # (   <a href="/settings/tax-settings.md">)
+[//]: # (   <a href="/settings/tax-management.md">)
 
 [//]: # (   <div className="container_card">)
 

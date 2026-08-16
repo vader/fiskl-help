@@ -220,7 +220,7 @@ Configure tax settings for accurate tax reporting.
 **To configure tax treatment:**
 
 1. Edit expense category
-2. Select **Tax Settings**
+2. Select **Tax Management**
 3. Set deductibility percentage
 4. Configure VAT/GST treatment
 5. Add tax notes if needed
@@ -543,4 +543,4 @@ Generate reports based on expense categories.
 
 **Generate reports:** [Financial Reports](/reporting/overview)
 
-**Tax settings:** [Tax Settings](/settings/tax-settings.md)
+**Tax settings:** [Tax Management](/settings/tax-management.md)

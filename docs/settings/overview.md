@@ -81,7 +81,7 @@ Manage your personal user account preferences and security.
 
 **Learn more:** [Profile Settings](/settings/profile-settings.md)
 
-### Tax Settings
+### Tax Management
 
 Configure tax rates, rules, and reporting requirements.
 
@@ -108,7 +108,7 @@ Configure tax rates, rules, and reporting requirements.
 - Tax reporting preparation
 - International business
 
-**Learn more:** [Tax Settings](/settings/tax-settings.md)
+**Learn more:** [Tax Management](/settings/tax-management.md)
 
 ### Invoice & Quote Settings
 
@@ -282,7 +282,7 @@ Complete these settings in priority order:
 5. Set time zone
 
 **Priority 2: Tax Configuration (10 minutes)**
-1. Go to Tax Settings
+1. Go to Tax Management
 2. Add your tax rates (VAT/GST/Sales Tax)
 3. Set default tax treatment
 4. Configure tax-exempt rules if needed
@@ -477,7 +477,7 @@ Settings interact with various Fiskl features:
 **Cause:** Tax rate or settings misconfigured
 
 **Solution:**
-1. Review Tax Settings for accuracy
+1. Review Tax Management for accuracy
 2. Verify tax rate percentages
 3. Check compound tax settings
 4. Test with sample invoice
@@ -522,7 +522,7 @@ Settings interact with various Fiskl features:
 
 **Manage personal preferences:** [Profile Settings](/settings/profile-settings.md)
 
-**Set up taxes:** [Tax Settings](/settings/tax-settings.md)
+**Set up taxes:** [Tax Management](/settings/tax-management.md)
 
 **Customize invoices:** [Invoice & Quote Settings](/settings/invoice-quotes-settings.md)
 

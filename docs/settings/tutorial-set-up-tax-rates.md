@@ -27,7 +27,7 @@ app_url: https://app.fiskl.com/dashboard/settings/taxes/agencies
 
 For experienced users who need a refresher:
 
-1. Go to **Settings** > **Tax Settings** > **Tax Agencies** tab
+1. Go to **Settings** > **Tax Management** > **Tax Agencies** tab
 2. Select **New Tax Agency** and enter agency name, country, and currency
 3. Select **Create** to create the agency
 4. Switch to the **Tax Rates** tab
@@ -131,7 +131,7 @@ Your tax rates and groups are now available throughout Fiskl.
 **Cause:** The tax rate may not be marked as a sales tax, or it may be assigned to an agency with a different currency than the invoice.
 
 **Fix:**
-1. Go to **Settings** > **Tax Settings** > **Tax Rates**
+1. Go to **Settings** > **Tax Management** > **Tax Rates**
 2. Select the tax rate to edit
 3. Confirm it is set to **Sales** tax (not Non-Sales)
 4. Confirm the assigned agency currency matches the invoice currency
@@ -144,7 +144,7 @@ Your tax rates and groups are now available throughout Fiskl.
 **Cause:** Tax rates cannot be changed after they have been created. You need to archive the rate and create a new one.
 
 **Fix:**
-1. Go to **Settings** > **Tax Settings** > **Tax Rates**
+1. Go to **Settings** > **Tax Management** > **Tax Rates**
 2. Archive the tax rate
 3. Create a new tax rate with the updated percentage
 
@@ -155,7 +155,7 @@ Your tax rates and groups are now available throughout Fiskl.
 **Cause:** The **Compound** option may not be enabled on the tax group, or the taxes are in the wrong order.
 
 **Fix:**
-1. Go to **Settings** > **Tax Settings** > **Tax Groups**
+1. Go to **Settings** > **Tax Management** > **Tax Groups**
 2. Select the group to edit
 3. Confirm the **Compound** option is toggled on
 4. Check that the taxes are in the correct order (the base tax should appear first)

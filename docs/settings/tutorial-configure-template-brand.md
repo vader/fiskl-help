@@ -18,7 +18,7 @@ prerequisites:
   - task: set-up-tax-rates
     label: "Tax rates configured (if applicable)"
     check: "Do you have tax rates set up? You need these if you want to display a tax ID on your invoices."
-    resolve_url: /settings/tax-settings
+    resolve_url: /settings/tax-management
 related_tutorials:
   - configure-invoice-settings
   - create-invoice
@@ -35,7 +35,7 @@ Before you start, confirm the following:
 
 1. **Company details configured** — Your company name, address, and logo are used as defaults on every template. If not set up, go to **Settings** > **Company Settings**. See [Company Settings](/settings/company-settings)
    app_url: https://app.fiskl.com/dashboard/settings
-2. **Tax rates configured (if applicable)** — If you want to display a tax ID on your invoices, you need a tax agency and rate set up first. See [Tax Settings](/settings/tax-settings)
+2. **Tax rates configured (if applicable)** — If you want to display a tax ID on your invoices, you need a tax agency and rate set up first. See [Tax Management](/settings/tax-management)
    app_url: https://app.fiskl.com/dashboard/settings/taxes/agencies
 
 :::warning
@@ -96,14 +96,14 @@ Control which details appear on your invoices and quotes.
 
 - In the **Display Options** section, toggle each option on or off:
   - **Company ID** — your business registration number
-  - **Tax ID** — your tax or VAT number (must also be enabled in [Tax Settings](/settings/tax-settings))
+  - **Tax ID** — your tax or VAT number (must also be enabled in [Tax Management](/settings/tax-management))
   - **FX rates** — exchange rates for multi-currency line items
   - **Units** — unit labels on line items
   - **Quantity** — quantity column on line items
   - **Proforma label** — marks the invoice as proforma
 
 :::tip
-If your tax ID is not appearing on invoices, check both this setting and the matching setting in **Tax Settings**. Both must be enabled.
+If your tax ID is not appearing on invoices, check both this setting and the matching setting in **Tax Management**. Both must be enabled.
 :::
 
 ### Step 5: Add attachments and custom emails (optional)
@@ -136,10 +136,10 @@ Review the live preview to confirm everything looks correct.
 
 **Symptom:** The invoice renders without your tax or VAT number, even though you have a tax rate applied to line items.
 
-**Cause:** Two separate settings control tax ID visibility. Both must be enabled: one in Tax Settings and one in the template display options.
+**Cause:** Two separate settings control tax ID visibility. Both must be enabled: one in Tax Management and one in the template display options.
 
 **Fix:**
-1. Go to **Settings** > **Tax Settings** and confirm **Display tax number on invoices** is enabled
+1. Go to **Settings** > **Tax Management** and confirm **Display tax number on invoices** is enabled
 2. Go to **Settings** > **Templates & Brands**, open the template, and confirm the **Tax ID** display option is toggled on
 3. Confirm at least one line item on the invoice has a tax rate applied
 

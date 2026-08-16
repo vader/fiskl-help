@@ -82,7 +82,7 @@ Add the account in [Chart of Accounts](/accounting/chart-of-accounts) first, the
 
 ## Related Topics
 
-- [Tax Settings](/settings/tax-settings) — Set up and manage tax rates
+- [Tax Management](/settings/tax-management) — Set up and manage tax rates
 - [Currency Management](/settings/currency-management) — Add and manage currencies
 - [Chart of Accounts](/accounting/chart-of-accounts) — View and manage your ledger accounts
 - [Profit and Loss Report](/reporting/profit-and-loss) — See how your accounting method affects reports

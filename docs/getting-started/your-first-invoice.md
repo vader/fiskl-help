@@ -20,7 +20,7 @@ Setting up key configurations before creating your first invoice ensures accurac
 
 These settings take 10-15 minutes to complete but streamline all future invoicing.
 
-## Step 1: Configure Tax Settings
+## Step 1: Configure Tax Management
 
 If you charge tax on products or services, configure tax settings before creating invoices.
 
@@ -40,7 +40,7 @@ Fiskl automatically creates a corresponding ledger account in your Chart of Acco
 
 Configure the specific tax rates you charge:
 
-1. In **Tax Settings**, go to the **Single Taxes** section
+1. In **Tax Management**, go to the **Single Taxes** section
 2. Select **Add Tax**
 3. Configure the tax:
    - Tax name (e.g., "Standard VAT 20%")
@@ -58,13 +58,13 @@ Configure the specific tax rates you charge:
 
 Configure default taxes that apply automatically to new invoices:
 
-1. In **Tax Settings**, find your primary tax rate
+1. In **Tax Management**, find your primary tax rate
 2. Mark it as the default for sales
 3. Select **Save**
 
 This tax applies automatically to all line items unless you specify otherwise.
 
-**Learn more:** [Tax Settings](/settings/tax-settings.md)
+**Learn more:** [Tax Management](/settings/tax-management.md)
 
 ## Step 2: Set Up Company Information and Branding
 
@@ -575,7 +575,7 @@ Create invoice templates for your most common services or products. This speeds 
 
 ## Need More Help?
 
-**Configure tax settings:** [Tax Settings](/settings/tax-settings.md)
+**Configure tax settings:** [Tax Management](/settings/tax-management.md)
 
 **Customize templates and branding:** [Invoice Templates](/settings/invoice-template-brands-settings.md)
 

@@ -185,5 +185,5 @@ Now that you have configured your invoice settings, you can:
 
 - **Set up your invoice template** — Configure the visual appearance of your invoices including logo, colours, and layout. See [Templates and Brands](/settings/invoice-template-brands-settings)
 - **Create your first invoice** — Use your new settings to bill a client. See [Creating Invoices](/invoicing/creating-invoices)
-- **Set up tax rates** — Configure tax agencies and rates to apply on invoices. See [Tax Settings](/settings/tax-settings)
+- **Set up tax rates** — Configure tax agencies and rates to apply on invoices. See [Tax Management](/settings/tax-management)
 - **Connect a payment gateway** — Enable online payments through Stripe, PayPal, or GoCardless. See [Payment Gateways](/integrations/payments/overview)
