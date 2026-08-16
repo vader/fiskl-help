@@ -11,11 +11,7 @@ toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
-
 This quickstart shows you how to authenticate and call the Fiskl API. By the end you will have made live requests and know how to handle pagination, scopes, and errors. It also works as an end-to-end check that your API access is set up correctly.
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## Before You Begin
 

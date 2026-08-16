@@ -138,6 +138,7 @@ Go to **Products & Services**, open the product, and select **Edit**. Update the
 
 ## Related topics
 
+- [Tracking Products](/inventory/tracking-products) — Track stock levels and costs on a product
 - [Managing Services](/products-services/managing-services) — Create templates for intangible offerings
 - [Managing Your Catalog](/products-services/managing-catalog) — Organise, edit, and maintain your products and services
 - [Creating Invoices](/invoicing/creating-invoices) — Add products to invoices as line items

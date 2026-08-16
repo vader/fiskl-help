@@ -11,11 +11,7 @@ toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
-
 This guide explains how to generate and use the General Ledger report to view all financial transactions in your organisation, with flexible grouping and multi-currency detail.
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## What is the General Ledger Report?
 

@@ -11,11 +11,7 @@ toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
-
 Connected apps use OAuth so that other Fiskl users can authorise your app to access their data, without ever sharing a key. This is the right approach when you build an app or connector for other people, rather than a script for your own account. This guide explains how to register an app and how the authorisation flow works.
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## Before You Begin
 

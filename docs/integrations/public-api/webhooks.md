@@ -11,11 +11,7 @@ toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
-
 Webhooks let Fiskl notify your system the moment something happens, such as an invoice being paid. Instead of repeatedly asking the API for changes, you receive a message as each event occurs. This guide explains how to set up webhook endpoints, which events are available, and what each message contains.
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## Before You Begin
 

@@ -12,8 +12,6 @@ toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
-
 This guide explains how to generate, customise, and share a Statement of Accounts in Fiskl — a report that summarises all financial transactions with a specific client, including invoices and any outstanding balances.
 
 <details>
@@ -28,8 +26,6 @@ The Statement of Accounts report is useful because it:
 - Some businesses request a statement of accounts periodically or before settling any invoices
 
 </details>
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## Before You Begin
 

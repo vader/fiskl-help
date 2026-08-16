@@ -11,11 +11,7 @@ toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
-
 This guide explains how to generate and use the Transactions by Account report in Fiskl. Use this report to review all transactions across your ledger accounts with full multi-currency detail for any period.
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## What is the Transactions by Account Report?
 

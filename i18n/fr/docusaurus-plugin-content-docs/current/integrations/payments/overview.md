@@ -10,11 +10,7 @@ toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
-
 This section covers the payment integrations available in Fiskl. Connect a payment provider to let clients pay invoices online and have payment data sync to your accounts automatically.
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## How payment integrations work
 

@@ -10,11 +10,7 @@ toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
-
 This section explains how to track time and mileage in Fiskl for accurate client invoicing and complete expense records.
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## Why Track Time and Mileage
 

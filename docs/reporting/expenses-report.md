@@ -10,11 +10,7 @@ toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
-
 This guide explains how to generate and use the Expenses reports in Fiskl. Use these reports to see every business expense with totals, payment status, and vendor filtering — without reading accountant-style reports.
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## What are the Expenses Reports?
 

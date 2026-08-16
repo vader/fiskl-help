@@ -11,11 +11,7 @@ toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
-
 An API key is a token you create to access the Fiskl API from your own scripts, tools, and integrations. This guide explains how to create a key, scope it to exactly what it needs, and revoke it when you are done.
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## Before You Begin
 

@@ -12,11 +12,7 @@ toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
-
 This guide explains how to generate and analyse the Trial Balance report in Fiskl. Use this report to verify that your total debits equal your total credits and to prepare your other financial statements. Reviewing it regularly helps you maintain clean books, catch issues early, and keep your financial statements on solid ground.
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## What is the Trial Balance Report?
 

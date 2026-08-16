@@ -77,6 +77,18 @@ Transactions by Account displays all activity within a selected ledger account f
 
 [View the Transactions by Account guide](/reporting/transactions-by-account)
 
+### Stock Valuation
+
+Stock Valuation values the stock you hold at any date, showing quantities, unit costs and total value per item. It also checks that your stock value agrees with the inventory account on your balance sheet, and lists any postings made outside the stock ledger.
+
+[View the Inventory Reports guide](/inventory/inventory-reports)
+
+### Purchase Price Variance
+
+Purchase Price Variance lists every occasion a vendor billed you at a different price from the one you received the goods at, with the receipt value, billed value and the difference.
+
+[View the Inventory Reports guide](/inventory/inventory-reports)
+
 ---
 
 ## Tax Reports

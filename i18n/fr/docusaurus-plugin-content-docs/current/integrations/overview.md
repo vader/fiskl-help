@@ -11,11 +11,7 @@ toc_min_heading_level: 2
 toc_max_heading_level: 2
 ---
 
-import TOCInline from '@theme/TOCInline';
-
 This section covers Fiskl's integrations with banks and payment providers. Connect your accounts to automate transaction imports and let clients pay invoices online.
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## Banking connections
 

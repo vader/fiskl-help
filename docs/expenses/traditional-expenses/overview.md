@@ -10,11 +10,7 @@ toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
-
 This guide explains the Traditional Expenses list — Fiskl's legacy expense system — and shows you how to migrate your existing records to Accounts Payable. The list is locked: you cannot create new expenses here.
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 :::info
 Traditional Expenses is only visible to accounts that created expenses in the legacy system. New Fiskl accounts do not see this list. For all new expenses, see [How to Add Expenses](/expenses/adding-expenses).

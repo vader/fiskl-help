@@ -133,6 +133,12 @@ const config: Config = {
                 layout: 'elk',
             },
         },
+        // Site-wide default TOC depth. Pages can still override with the
+        // toc_min_heading_level / toc_max_heading_level frontmatter fields.
+        tableOfContents: {
+            minHeadingLevel: 2,
+            maxHeadingLevel: 2,
+        },
         navbar: {
             title: 'Fiskl Help',
             logo: {

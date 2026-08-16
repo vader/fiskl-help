@@ -40,6 +40,23 @@ Use a preset as the starting point that best matches a person's job.
 | **Expense Submitter** | Field employees | Submit expenses and manage line items only. |
 | **Read-only** | Auditors, board members, due diligence | View everything and export reports. No changes anywhere. |
 
+### Inventory and purchasing access by preset
+
+If you track stock, these are the presets that matter. Purchase orders and goods receipts follow inventory access rather than sitting on their own.
+
+| Preset | Items and stock | Purchase orders | Goods receipts |
+|---|---|---|---|
+| **Owner**, **Admin** | Full, including adjustments | Full, including delete | Full, including post and void |
+| **Accountant** | Full, including adjustments | Full, including delete | Full, including post and void |
+| **Bookkeeper** | Full, including adjustments | Raise and send, but not delete | Full, including post and void |
+| **Invoice Only** | View stock levels only | No access | No access |
+| **Expense Submitter** | No access | No access | No access |
+| **Read-only** | View only | View only | View only |
+
+**Invoice Only** gets view access to stock so a sales rep can see what is available while building an invoice, without being able to change items or counts.
+
+Warehouse staff who receive deliveries fit none of these presets. Start from **Read-only** and add `goods_receipt.write` and `goods_receipt.post`, which lets someone record and post what arrived without touching invoices, bills, or the catalogue.
+
 ### Owner is special
 
 Every account has exactly one Owner, tied to the subscription. You cannot assign the Owner preset to someone else from the permission screen — instead, transfer ownership. See [Inviting and Managing Users](/team/inviting-users).

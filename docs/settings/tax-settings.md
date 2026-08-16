@@ -5,11 +5,7 @@ description: Set up and manage tax agencies, tax rates, and tax groups in Fiskl
 sidebar_position: 5
 ---
 
-import TOCInline from '@theme/TOCInline';
-
 This guide explains how to set up the tax agencies, rates, and groups that apply to your transactions. Fiskl supports multiple jurisdictions, currencies, single rates, and compound taxes.
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## Before You Begin
 

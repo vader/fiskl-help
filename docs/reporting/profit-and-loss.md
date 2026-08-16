@@ -10,8 +10,6 @@ toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
-
 The Profit and Loss report shows your business's financial performance over a selected period. Use it to understand whether your business is profitable, identify cost-saving opportunities, and meet tax and reporting requirements.
 
 <details>
@@ -25,8 +23,6 @@ The P&L report helps you:
 - Make informed business decisions based on financial data
 
 </details>
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## Before You Begin
 

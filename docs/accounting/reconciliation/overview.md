@@ -6,12 +6,8 @@ description: Master account reconciliation in Fiskl. Ensure your bank statements
 sidebar_position: 1
 ---
 
-import TOCInline from '@theme/TOCInline';
-
 This guide explains how account reconciliation works in Fiskl and why it is one of the most important habits for keeping your books accurate.
 
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 
 ## What is account reconciliation

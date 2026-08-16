@@ -11,11 +11,7 @@ tags:
   - Prepayments
 ---
 
-import TOCInline from '@theme/TOCInline';
-
 This guide explains how to spread a prepaid expense across the periods it covers using an automated amortisation schedule in Fiskl. Prepayments are also known as **prepaid expenses**, **deferred charges**, or **prepaid amortisation** — the practice of recognising a cost gradually over time rather than all at once.
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## Before You Begin
 

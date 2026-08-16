@@ -10,11 +10,7 @@ toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
-
 This guide explains how to record a business expense in Fiskl and helps you choose the right method. There are two ways to add an expense, and both post to your accounting immediately — there is no separate posting step.
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## Choose Your Method
 

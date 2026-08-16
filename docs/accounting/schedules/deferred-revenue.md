@@ -11,11 +11,7 @@ tags:
   - Deferred Revenue
 ---
 
-import TOCInline from '@theme/TOCInline';
-
 This guide explains how to recognise revenue you have been paid for in advance across the periods you earn it, using an automated schedule in Fiskl. Deferred revenue is also known as **revenue recognition**, **unearned revenue**, or **deferred income** — the practice of recording income as you deliver the service, not when the money arrives.
-
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## Before You Begin
 
