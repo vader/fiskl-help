@@ -31,6 +31,21 @@ The invoice looks correct in all four cases. Classification is what tells Fiskl 
 
 Set up a tax agency first. Every tax rate belongs to one. See [Tax Management](/settings/tax-management) for the steps.
 
+## Where This Applies
+
+Fiskl includes the tax authorities and tax types for these countries:
+
+- The 27 European Union member states
+- United Kingdom
+- United States
+- Canada
+- Australia
+- Singapore
+- United Arab Emirates
+- South Africa
+
+In these countries the authority list and the tax types on the rate form are filtered to what applies where you are registered, so a Canadian agency offers the Canada Revenue Agency and the provincial ministries, and a German agency offers VAT rather than GST.
+
 ## The Classification Questions
 
 Open **Settings** > **Tax Management** > **Taxes**, then select **Add rate**, or select an existing rate to edit it.
