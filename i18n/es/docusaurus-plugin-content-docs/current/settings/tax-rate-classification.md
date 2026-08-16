@@ -44,7 +44,7 @@ Fiskl classifies tax rates in these countries:
 - United Arab Emirates
 - South Africa
 
-In these countries the rate form asks the questions on this page, and the tax types it offers are filtered to the country of the tax agency.
+In these countries the rate form asks the questions on this page. The tax types it offers are filtered to the country of the tax agency.
 
 In other countries the tax rate form is simpler. You enter a name, a percentage, and a tax agency, then set **This is a sales tax**. None of the questions on this page appear.
 
@@ -107,9 +107,12 @@ Tax rates created before classification was introduced are marked **Needs classi
 To classify one:
 
 1. Go to **Settings** > **Tax Management** > **Taxes**.
-2. Select the rate marked **Needs classification**.
-3. Answer the questions above.
-4. Select **Save**.
+2. Find the rate marked **Needs classification**.
+3. Select the actions menu beside it, then select **Classify**.
+4. Answer the questions above.
+5. Select **Save**.
+
+A rate cannot become the default until it is classified.
 
 :::tip
 Work through your most used rates first. A rate you apply every day is worth more than one you have used twice.

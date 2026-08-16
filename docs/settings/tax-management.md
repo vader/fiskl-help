@@ -121,22 +121,37 @@ In a compound group, one tax is calculated on the original amount plus the prece
 6. Select **Create**
 
 
+## All Taxes by Behaviour
+
+
+The **All taxes by behaviour** screen collects every classified rate across your agencies and groups it by what the tax does. Each rate shows its jurisdiction code, its percentage, and whether it is reclaimable.
+
+
+Rates marked **Needs classification** do not appear here. The screen fills out as you classify them.
+
+
 ## Managing Tax Records
 
 
-Select **Refresh** to make sure you are viewing the most up-to-date information.
+The **Taxes** and **Tax Groups** screens work differently, because they list different things.
 
 
-From any list in Tax Management, you can:
+On **Taxes**, each agency carries its own controls:
 
 
-- **Set a default** — Select the star icon next to a rate, group, or agency
-- **Edit** — Select **Manage** on a tax agency to update its editable fields
-- **Archive** — Select the archive icon to hide records you no longer need
-- **Filter by tax type** — Select a filter from the **Taxes** list to narrow results
+- **Edit an agency** — Select **Manage**
+- **Make an agency the default** — Select the star icon
+- **Work with a rate** — Select the actions menu beside it, then **Edit**, **Classify**, **Make Default**, or **Archive**
+- **See archived records** — Select **Archived** for agencies, or the archived rates link inside an agency
 
 
-To protect the accuracy of past transactions, some fields lock after creation. On a tax agency, the country and currency cannot be changed; the authority, region, filing period and filing date can. A tax agency cannot be archived while it still has active tax rates, so archive its rates first. Filter by **Status** to show active or archived records.
+A rate has to be classified before it can become the default. Until it is, **Make Default** is unavailable.
+
+
+On **Tax Groups**, select **Refresh** to reload the list and filter by **Status** to show active or archived groups. Select **Edit** or **Make Default** on a group.
+
+
+To protect the accuracy of past transactions, some fields lock after creation. On a tax agency, the country and currency cannot be changed; the authority, region, filing period and filing date can. A tax agency cannot be archived while it still has active tax rates, so archive its rates first.
 
 
 :::warning
