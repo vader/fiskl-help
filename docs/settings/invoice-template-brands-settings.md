@@ -124,7 +124,7 @@ Check that you are using the exact placeholder format shown in the editor, inclu
 ## Related Topics
 
 - [Invoice and Quote Settings](/settings/invoice-quotes-settings) — Configure payment terms, manual payment methods, languages, and email delivery
-- [Tax Settings](/settings/tax-settings) — Set up tax agencies and rates that appear on your invoices
+- [Tax Management](/settings/tax-management) — Set up tax agencies and rates that appear on your invoices
 - [Creating Invoices](/invoicing/creating-invoices) — Apply templates when creating invoices
 - [Company Settings](/settings/company-settings) — Set your default company details that appear on templates
 

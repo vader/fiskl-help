@@ -108,7 +108,7 @@ Configure tax rates, rules, and reporting requirements.
 - Tax reporting preparation
 - International business
 
-**Learn more:** [Tax Settings](/settings/tax-settings.md)
+**Learn more:** [Tax Management](/settings/tax-management)
 
 ### Invoice & Quote Settings
 
@@ -522,7 +522,7 @@ Settings interact with various Fiskl features:
 
 **Manage personal preferences:** [Profile Settings](/settings/profile-settings.md)
 
-**Set up taxes:** [Tax Settings](/settings/tax-settings.md)
+**Set up taxes:** [Tax Management](/settings/tax-management)
 
 **Customize invoices:** [Invoice & Quote Settings](/settings/invoice-quotes-settings.md)
 

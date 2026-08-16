@@ -64,7 +64,7 @@ Configure default taxes that apply automatically to new invoices:
 
 This tax applies automatically to all line items unless you specify otherwise.
 
-**Learn more:** [Tax Settings](/settings/tax-settings.md)
+**Learn more:** [Tax Management](/settings/tax-management)
 
 ## Step 2: Set Up Company Information and Branding
 
@@ -575,7 +575,7 @@ Create invoice templates for your most common services or products. This speeds 
 
 ## Need More Help?
 
-**Configure tax settings:** [Tax Settings](/settings/tax-settings.md)
+**Configure tax settings:** [Tax Management](/settings/tax-management)
 
 **Customize templates and branding:** [Invoice Templates](/settings/invoice-template-brands-settings.md)
 

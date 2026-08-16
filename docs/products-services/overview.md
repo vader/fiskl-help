@@ -50,6 +50,6 @@ The distinction helps with financial reporting and revenue categorisation. Both 
 ## Related Topics
 
 - [Creating Invoices](/invoicing/creating-invoices) — Add products and services to invoices
-- [Tax Settings](/settings/tax-settings) — Configure the tax rates applied to your catalog items
+- [Tax Management](/settings/tax-management) — Configure the tax rates applied to your catalog items
 - [Chart of Accounts](/accounting/chart-of-accounts) — Set up the ledger accounts assigned to products and services
 

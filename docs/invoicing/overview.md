@@ -221,7 +221,7 @@ Handle tax calculation and compliance automatically.
 - Tax authority integration
 - Automatic tax calculation
 
-**Learn more:** [Tax Settings](/settings/tax-settings.md)
+**Learn more:** [Tax Management](/settings/tax-management)
 
 ## Invoice Management Features
 
@@ -351,7 +351,7 @@ Begin invoicing in minutes with this quick setup:
 
 **Connect payments:** [Payment Gateways](/integrations/payments/overview)
 
-**Configure taxes:** [Tax Settings](/settings/tax-settings.md)
+**Configure taxes:** [Tax Management](/settings/tax-management)
 
 ---
 

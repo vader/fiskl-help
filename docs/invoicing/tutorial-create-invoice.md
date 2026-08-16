@@ -30,7 +30,7 @@ prerequisites:
   - task: set-up-tax-rates
     label: "Tax rates configured (if applicable)"
     check: "Do you need to charge tax on your invoices? If so, have you set up your tax agencies and rates?"
-    resolve_url: /settings/tax-settings
+    resolve_url: /settings/tax-management
     resolve_tutorial: set-up-tax-rates
 related_tutorials:
   - send-invoice
@@ -53,7 +53,7 @@ Before you start, confirm the following:
 2. **Invoice template configured** — Your template controls the logo, colours, layout, and display options on invoices. If not set up, go to **Settings** > **Templates & Brands**. See [Templates and Brands](/settings/invoice-template-brands-settings).
    app_url: https://app.fiskl.com/dashboard/settings/invoices/templates
 3. **At least one client exists** — Every invoice requires a client. You can create one during invoice creation, but having one ready saves time. See [Managing Clients](/clients-vendors/clients).
-4. **Tax rates configured (if applicable)** — If your business charges tax, set up your tax agencies and rates before creating invoices. See [Tax Settings](/settings/tax-settings).
+4. **Tax rates configured (if applicable)** — If your business charges tax, set up your tax agencies and rates before creating invoices. See [Tax Management](/settings/tax-management).
 
 :::warning
 If your invoice settings and template are not configured first, your invoices may display incorrect payment terms, missing logos, or no tax ID. Complete those settings before creating your first invoice.

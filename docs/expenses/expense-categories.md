@@ -543,4 +543,4 @@ Generate reports based on expense categories.
 
 **Generate reports:** [Financial Reports](/reporting/overview)
 
-**Tax settings:** [Tax Settings](/settings/tax-settings.md)
+**Tax settings:** [Tax Management](/settings/tax-management)

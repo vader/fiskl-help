@@ -117,8 +117,6 @@ that best suit your needs.
 1. Select the `Tax ID` tab and update or add your Tax Number
 1. Choose the Single Taxes and create your tax assigning it to your new tax number
 
-[//]: # (Learn more about [Managing taxes]&#40;../Settings-Configurations/tax-settings.md&#41;)
-
 </LayoutPair>
 
 ---
@@ -177,7 +175,7 @@ that best suit your needs.
 [//]: # (      </a>)
 
 [//]: # (   )
-[//]: # (   <a href="/settings/tax-settings.md">)
+[//]: # (   <a href="/settings/tax-management">)
 
 [//]: # (   <div className="container_card">)
 

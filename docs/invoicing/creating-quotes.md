@@ -67,7 +67,7 @@ Fiskl automatically creates a corresponding ledger account in your Chart of Acco
 
 This rate applies automatically to all line items unless you specify otherwise on the quote.
 
-**Learn more:** [Tax Settings](/settings/tax-settings)
+**Learn more:** [Tax Management](/settings/tax-management)
 
 
 
@@ -495,7 +495,7 @@ The **Convert to Invoice** option is available on quotes of any status. If you c
 
 - [Quote Management](quote-management.md) — Send, edit, duplicate, and manage quote statuses
 - [Creating Invoices](creating-invoices.md) — Bill clients once a quote is accepted
-- [Tax Settings](../settings/tax-settings) — Configure tax rates and display options
+- [Tax Management](/settings/tax-management) — Configure tax rates and display options
 - [Invoice and Quote Settings](../settings/invoice-quotes-settings) — Set defaults for numbering, expiry, and language
 - [Invoice Templates and Brands](../settings/invoice-template-brands-settings) — Customise the appearance of your quotes
 - [Managing Clients](../clients-vendors/clients) — Set up client profiles and defaults
