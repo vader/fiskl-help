@@ -31,6 +31,9 @@ For help with other accounting settings, see [Accounting Settings](/settings/acc
 A tax agency represents the authority you pay taxes to — for example, HMRC, the IRS, or a regional VAT office. Each agency is linked to a specific country and currency.
 
 
+Tax agencies live on the **Taxes** screen, which lists each agency with the rates that report through it. Select **Manage** on an agency to edit it, or **Add rate** to create a rate under it.
+
+
 When you create a tax agency, Fiskl automatically creates a matching **Liability** ledger account in your [Chart of Accounts](/accounting/chart-of-accounts). Fiskl records all transactions involving taxes for that agency as journal entries in this ledger account. If you rename a tax agency, Fiskl renames the ledger account too.
 
 
@@ -38,7 +41,7 @@ When you create a tax agency, Fiskl automatically creates a matching **Liability
 
 
 1. Go to **Settings** > **Tax Management**
-2. Select **Tax Agencies**
+2. Select **Taxes**
 3. Select **New Tax Agency**
 4. Select a country and currency from the dropdown menus
 5. Enter the tax number
@@ -74,7 +77,7 @@ Fiskl builds a jurisdiction code from your answers when you save. The code is ho
 
 
 1. Go to **Settings** > **Tax Management** > **Taxes**
-2. Select **New Tax Rate**
+2. Find the tax agency the rate belongs to, then select **Add rate**
 3. Enter the tax name, for example "VAT 20%"
 4. Enter the percentage in the **Rate (%)** field
 5. Select the **Tax Agency** to assign this rate to
@@ -128,7 +131,7 @@ From any list in Tax Management, you can:
 
 
 - **Set a default** — Select the star icon next to a rate, group, or agency
-- **Edit** — Select the edit icon to update the name and default status
+- **Edit** — Select **Manage** on a tax agency to update its editable fields
 - **Archive** — Select the archive icon to hide records you no longer need
 - **Filter by tax type** — Select a filter from the **Taxes** list to narrow results
 
@@ -147,7 +150,7 @@ To change the composition or percentage of a tax group, archive the existing gro
 <details>
 <summary>Cannot create a new tax rate</summary>
 
-You must create a tax agency before adding tax rates. Go to **Settings** > **Tax Management** > **Tax Agencies** and set up at least one agency first. The agency defines the country and currency for the rate.
+You must create a tax agency before adding tax rates. Go to **Settings** > **Tax Management** > **Taxes** and set up at least one agency first. The agency defines the country and currency for the rate.
 
 </details>
 
