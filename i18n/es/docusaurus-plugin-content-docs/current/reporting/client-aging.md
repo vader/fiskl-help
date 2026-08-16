@@ -122,7 +122,7 @@ We recommend reviewing your Client Aging Report weekly or monthly to catch colle
 
 ## Ask Fi
 
-Fi, Fiskl's built-in AI advisor, can help you interpret your aging data. Select the **Ask Fi** icon in the top right of the screen to ask questions about your outstanding balances, identify trends, or get guidance on next steps.
+Fi, Fiskl's built-in AI CFO, can help you interpret your aging data. Select the **Ask Fi** icon in the top right of the screen to ask questions about your outstanding balances, identify trends, or get guidance on next steps.
 
 ## Common Issues
 

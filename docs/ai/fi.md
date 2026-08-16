@@ -1,7 +1,7 @@
 ---
-title: "Fi - Your AI Advisor"
-description: "Learn how Fi, Fiskl's built-in AI advisor, answers questions, analyses your financial data, runs reports, and guides you through tasks."
-keywords: ["Fi AI advisor", "Fiskl AI assistant", "agentic AI accounting", "AI financial insights", "multilingual AI support", "business advisor AI"]
+title: "Fi - Your AI CFO"
+description: "Learn how Fi, Fiskl's built-in AI CFO, answers questions, analyses your financial data, runs reports, and guides you through tasks."
+keywords: ["Fi AI CFO", "Fiskl AI assistant", "agentic AI accounting", "AI financial insights", "multilingual AI support", "business advisor AI"]
 sidebar_position: 2
 tags:
   - AI
@@ -10,11 +10,11 @@ toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
-This guide explains how Fi, your AI advisor built into Fiskl, works — and how to get the most from it. Fi answers questions, analyses your financial data, runs reports, and guides you through tasks, all from a single conversation.
+This guide explains how Fi, your AI CFO built into Fiskl, works — and how to get the most from it. Fi answers questions, analyses your financial data, runs reports, and guides you through tasks, all from a single conversation.
 
 ## What Is Fi?
 
-Fi is an agentic AI advisor that connects directly to your Fiskl account data. It retrieves real numbers, spots patterns, and presents insights so you can make informed decisions without leaving the conversation.
+Fi is an agentic AI CFO that connects directly to your Fiskl account data. It retrieves real numbers, spots patterns, and presents insights so you can make informed decisions without leaving the conversation.
 
 Fi identifies what each question needs, retrieves the relevant data, and delivers tailored answers with supporting charts and detail. It can search the knowledge base, run accounting reports, analyse your transactions, or walk you through a task step by step — all determined automatically based on what you ask.
 

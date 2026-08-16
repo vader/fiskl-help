@@ -62,5 +62,5 @@ For the fastest response, start with **Ask Fi**. Fi handles most common question
 
 ## Related topics
 
-- [Fi AI advisor](/ai/overview) — Learn more about what Fi can do
+- [Fi AI CFO](/ai/overview) — Learn more about what Fi can do
 - [Plans and billing](/plans-billing/overview) — Manage your subscription and billing details

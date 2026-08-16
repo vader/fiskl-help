@@ -13,7 +13,7 @@ toc_max_heading_level: 3
 This guide explains how Accounts Receivable (AR) works in Fiskl — how it's created automatically for invoices, how to record manual AR transactions, and how to manage partial payments.
 
 :::tip
-You can ask **Fi**, Fiskl's AI advisor, questions about your AR balance, overdue invoices, or outstanding payments at any time. Select **Fi** in the top right of the screen to get started.
+You can ask **Fi**, Fiskl's AI CFO, questions about your AR balance, overdue invoices, or outstanding payments at any time. Select **Fi** in the top right of the screen to get started.
 :::
 
 ## Before You Begin
@@ -180,4 +180,4 @@ AR transactions for invoices are created automatically but may not appear immedi
 - [Multi-Currency Transactions](/accounting/journal-entries/guides/multi-currency-transactions) — Record and reconcile transactions in foreign currencies
 - [Balance Sheet](/reporting/balance-sheet) — View your assets, liabilities, and equity at a point in time
 - [Transactions by Account](/reporting/transactions-by-account) — Review all transactions for a specific ledger account
-- [Fi — Fiskl's AI Advisor](/ai/fi) — Ask Fi questions about your AR balance, overdue invoices, and cash flow
+- [Fi — Fiskl's AI CFO](/ai/fi) — Ask Fi questions about your AR balance, overdue invoices, and cash flow

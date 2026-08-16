@@ -329,7 +329,7 @@ const sidebars: SidebarsConfig = {
 
     {
       type: 'category',
-      label: 'Fi AI Advisor',
+      label: 'Fi AI CFO',
       link: {type: 'doc', id: 'ai/overview'},
       items: [
         'ai/fi',

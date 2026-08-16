@@ -7,7 +7,7 @@ sidebar_position: 1
 
 # Fiskl AI
 
-This section covers Fiskl's AI-powered features. Fi, your built-in AI advisor, analyses your financial data, answers accounting questions, and guides you through tasks — all without leaving the platform.
+This section covers Fiskl's AI-powered features. Fi, your built-in AI CFO, analyses your financial data, answers accounting questions, and guides you through tasks — all without leaving the platform.
 
 ## What Fi Can Do
 

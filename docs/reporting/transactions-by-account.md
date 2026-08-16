@@ -111,7 +111,7 @@ The exported file reflects your current column selection and filters.
 
 ## Need Help Interpreting Your Report?
 
-Select the **Ask Fi** icon in the top right of the screen to get help from Fiskl's built-in AI advisor. Fi can help you interpret transaction data, explain currency differences, and answer accounting questions based on your specific figures.
+Select the **Ask Fi** icon in the top right of the screen to get help from Fiskl's built-in AI CFO. Fi can help you interpret transaction data, explain currency differences, and answer accounting questions based on your specific figures.
 
 ## Common Issues
 

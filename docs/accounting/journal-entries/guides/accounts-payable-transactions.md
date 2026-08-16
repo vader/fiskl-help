@@ -172,7 +172,7 @@ If the AP transaction has not been matched to any payment, open the transaction 
 
 Not sure how to categorise a bill or set up your AP workflow?
 
-Fi, Fiskl's built-in AI advisor, can help you think through your accounting setup, suggest the right expense categories, and guide you through more complex AP scenarios. Select the **Ask Fi** icon within the platform to get started.
+Fi, Fiskl's built-in AI CFO, can help you think through your accounting setup, suggest the right expense categories, and guide you through more complex AP scenarios. Select the **Ask Fi** icon within the platform to get started.
 
 
 
