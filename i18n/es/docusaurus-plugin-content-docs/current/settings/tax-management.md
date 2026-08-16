@@ -67,7 +67,7 @@ The authority list is filtered to the country you selected, and grouped into nat
 Tax rates define the percentage applied to your transactions. Each rate must be assigned to a tax agency, and its currency is determined by that agency. You can assign multiple rates to a single agency. As well as the name and the percentage, you classify the rate: what kind of tax it is, how it behaves, which rate band it belongs to, and whether you can reclaim it.
 
 
-When you add a tax rate you also classify it. Fiskl asks what kind of tax it is, how it behaves, which rate band it belongs to, and whether you can reclaim it, then builds a jurisdiction code from your answers when you save. The code is how your reporting identifies the rate.
+Fiskl builds a jurisdiction code from your answers when you save. The code is how your reporting identifies the rate.
 
 
 ### Add a Tax Rate
@@ -84,6 +84,9 @@ When you add a tax rate you also classify it. Fiskl asks what kind of tax it is,
 
 
 See [Classifying Tax Rates](/settings/tax-rate-classification) for what each question means.
+
+
+Outside the countries listed in Before You Begin, the form is simpler: a name, a percentage, a tax agency, and a single **This is a sales tax** setting. The classification step does not appear.
 
 
 ## Tax Groups

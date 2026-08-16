@@ -46,6 +46,8 @@ Fiskl includes the tax authorities and tax types for these countries:
 
 In these countries the authority list and the tax types on the rate form are filtered to what applies where you are registered, so a Canadian agency offers the Canada Revenue Agency and the provincial ministries, and a German agency offers VAT rather than GST.
 
+In other countries the tax rate form is simpler: a name, a percentage, a tax agency, and a single **This is a sales tax** setting. None of the questions on this page appear.
+
 ## The Classification Questions
 
 Open **Settings** > **Tax Management** > **Taxes**, then select **Add rate**, or select an existing rate to edit it.
