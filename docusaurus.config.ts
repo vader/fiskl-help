@@ -142,8 +142,8 @@ const config: Config = {
         navbar: {
             title: 'Fiskl Help',
             logo: {
-                alt: 'Fiskl Accounting',
-                src: 'img/fi/fi-ai.svg',
+                alt: 'Fiskl',
+                src: 'img/fiskl-logomark.png',
             },
             items: [
                 // ── Fiskl docs (default instance) ──
