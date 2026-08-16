@@ -20,7 +20,7 @@ Before you begin, ensure you have:
 
 - At least one tax agency created — the agency determines the country and currency for every rate assigned to it
 
-Fiskl includes the tax authorities and tax types for the 27 European Union member states, the United Kingdom, United States, Canada, Australia, Singapore, the United Arab Emirates, and South Africa. In these countries the authority list and the tax types offered on a rate are filtered to what applies where you are registered.
+Fiskl classifies tax rates in the 27 European Union member states, the United Kingdom, United States, Canada, Australia, Singapore, the United Arab Emirates, and South Africa. In these countries a rate carries a full classification, and the tax types offered are filtered to the country of the tax agency.
 
 For help with other accounting settings, see [Accounting Settings](/settings/accounting-settings).
 

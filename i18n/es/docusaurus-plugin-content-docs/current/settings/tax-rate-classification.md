@@ -33,7 +33,7 @@ Set up a tax agency first. Every tax rate belongs to one. See [Tax Management](/
 
 ## Where This Applies
 
-Fiskl includes the tax authorities and tax types for these countries:
+Fiskl classifies tax rates in these countries:
 
 - The 27 European Union member states
 - United Kingdom
@@ -44,7 +44,7 @@ Fiskl includes the tax authorities and tax types for these countries:
 - United Arab Emirates
 - South Africa
 
-In these countries the authority list and the tax types on the rate form are filtered to what applies where you are registered. A Canadian agency offers the Canada Revenue Agency and the provincial ministries. A German agency offers VAT rather than GST.
+In these countries the rate form asks the questions on this page, and the tax types it offers are filtered to the country of the tax agency.
 
 In other countries the tax rate form is simpler. You enter a name, a percentage, and a tax agency, then set **This is a sales tax**. None of the questions on this page appear.
 
