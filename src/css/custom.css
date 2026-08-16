@@ -655,7 +655,7 @@ hr {
   z-index: -1;
   background:
     radial-gradient(560px 280px at 18% 0%, color-mix(in oklab, #01ccec 14%, transparent), transparent 70%),
-    radial-gradient(560px 280px at 82% 8%, color-mix(in oklab, #0080ff 12%, transparent), transparent 70%);
+    radial-gradient(560px 280px at 82% 8%, color-mix(in oklab, #0078ff 12%, transparent), transparent 70%);
 }
 
 [data-theme='dark'] .fiskl-hero::before {
