@@ -672,7 +672,7 @@ hr {
 
 /* Brand gradient on a single accent word only — never the whole headline */
 .fiskl-hero__accent {
-  background: linear-gradient(90deg, #00e89d, #01ccec, #0080ff);
+  background: linear-gradient(90deg, #0078ff, #01ccec, #00e89d);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
