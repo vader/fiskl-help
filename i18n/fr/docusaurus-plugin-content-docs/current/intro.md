@@ -12,7 +12,7 @@ Bienvenue sur votre ressource principale pour Fiskl ! Cette documentation est co
 Fiskl est une plateforme de comptabilité complète conçue pour les petites entreprises afin de gérer :
 * **Facturation et Devis** : Communications professionnelles alignées sur votre marque.
 * **Suivi des Dépenses** : Numérisation et catégorisation automatisées.
-* **Banque** : Synchronisation en temps réel avec plus de 10 000 banques dans le monde.
+* **Banque** : Synchronisation en temps réel avec 21 000 banques dans le monde.
 
 ## Comment utiliser cette documentation
 Pour aider notre IA de support et votre équipe à trouver des réponses rapidement, nous avons organisé le site en trois piliers :

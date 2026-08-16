@@ -12,7 +12,7 @@ description: La guía oficial de la plataforma de contabilidad automatizada de F
 Fiskl es una plataforma de contabilidad integral diseñada para que las pequeñas empresas gestionen:
 * **Facturación y Presupuestos**: Comunicaciones comerciales profesionales alineadas con su marca.
 * **Seguimiento de Gastos**: Escaneo y categorización automatizados.
-* **Banca**: Sincronización en tiempo real con más de 10.000 bancos a nivel mundial.
+* **Banca**: Sincronización en tiempo real con 21.000 bancos a nivel mundial.
 
 ## Cómo usar esta documentación
 Para ayudar a nuestra IA de soporte y a su equipo a encontrar respuestas rápidamente, hemos organizado el sitio en tres pilares:

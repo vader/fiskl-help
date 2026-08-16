@@ -32,7 +32,7 @@ Fiskl is a comprehensive accounting platform designed for small businesses to ma
 
 - **Invoicing and quotes**: Professional, brand-aligned business communications
 - **Expense tracking**: Automated scanning and categorisation
-- **Banking**: Real-time sync with over 10,000 banks globally
+- **Banking**: Real-time sync with 21,000 banks globally
 
 ## How to Use This Documentation
 
