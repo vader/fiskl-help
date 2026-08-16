@@ -12,7 +12,7 @@ toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
-This guide explains how to connect your bank to Fiskl using Salt Edge for automated transaction imports. Salt Edge supports banks across Europe, Asia, and the Middle East through OpenBanking standards.
+This guide explains how to connect your bank to Fiskl using Salt Edge for automated transaction imports. Salt Edge covers around 5,000 banks across 45 countries in Europe, Asia, and the Middle East, through OpenBanking standards.
 
 ## Before You Begin
 
@@ -89,5 +89,5 @@ Contact Fiskl support if transactions are still missing after 48 hours.
 ## Related Topics
 
 - [Banking overview](/integrations/banking/overview) — View and manage all your connected bank accounts
-- [Connect with Yodlee](/integrations/banking/connecting-yodlee) — Alternative banking connection for supported regions
+- [Connect with Yodlee](/integrations/banking/connect-yodlee) — Alternative banking connection for supported regions
 - [Account reconciliation](/accounting/reconciliation/overview) — Match imported transactions against your records

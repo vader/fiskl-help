@@ -12,7 +12,7 @@ toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
-This guide explains how to connect your bank to Fiskl using Salt Edge for automated transaction imports. Salt Edge supports banks across Europe, Asia, and the Middle East through OpenBanking standards.
+This guide explains how to connect your bank to Fiskl using Salt Edge for automated transaction imports. Salt Edge covers around 5,000 banks across 45 countries in Europe, Asia, and the Middle East, through OpenBanking standards.
 
 ## Before You Begin
 

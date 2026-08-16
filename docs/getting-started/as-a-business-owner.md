@@ -27,7 +27,7 @@ Complete these steps in order for the smoothest setup experience. Each step take
 Banking connections automate transaction imports and eliminate manual data entry.
 
 **Supported banking providers:**
-- **Salt Edge** - Connects to thousands of banks worldwide
+- **Salt Edge** - Around 5,000 banks across 45 countries ([coverage checker](https://www.saltedge.com/products/account_information/coverage))
 - **Yodlee** - Major banks in North America and Europe
 - **Wio Bank** - Direct integration for UAE businesses
 - **Stripe** - Automatically imports payment transactions
