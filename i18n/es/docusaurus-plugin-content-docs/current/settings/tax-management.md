@@ -73,7 +73,7 @@ Fiskl builds a jurisdiction code from your answers when you save. The code is ho
 ### Add a Tax Rate
 
 
-1. Go to **Settings** > **Tax Management** > **Tax Rates**
+1. Go to **Settings** > **Tax Management** > **Taxes**
 2. Select **New Tax Rate**
 3. Enter the tax name, for example "VAT 20%"
 4. Enter the percentage in the **Rate (%)** field
@@ -130,7 +130,7 @@ From any list in Tax Management, you can:
 - **Set a default** — Select the star icon next to a rate, group, or agency
 - **Edit** — Select the edit icon to update the name and default status
 - **Archive** — Select the archive icon to hide records you no longer need
-- **Filter by tax type** — Select a filter from the **Tax Rates** list to narrow results
+- **Filter by tax type** — Select a filter from the **Taxes** list to narrow results
 
 
 To protect the accuracy of past transactions, some fields lock after creation. On a tax agency, the country and currency cannot be changed; the authority, region, filing period and filing date can. A tax agency cannot be archived while it still has active tax rates, so archive its rates first. Filter by **Status** to show active or archived records.
