@@ -58,7 +58,7 @@ If your business operates in multiple countries, create a separate tax agency fo
 :::
 
 
-The authority list is filtered to the country you selected, and grouped into national and regional bodies. A Canadian agency offers the Canada Revenue Agency and the provincial ministries, and nothing else. Some countries require a region as well as an authority, because the registration files below national level.
+Fiskl includes tax authorities for more than 200 countries, so the authority list is populated even where rate classification is not available. It is filtered to the country you selected, and grouped into national and regional bodies. A Canadian agency offers the Canada Revenue Agency and the provincial ministries, and nothing else. Some countries require a region as well as an authority, because the registration files below national level.
 
 
 ## Tax Rates
