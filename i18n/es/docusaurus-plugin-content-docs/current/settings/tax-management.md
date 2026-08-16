@@ -31,9 +31,6 @@ For help with other accounting settings, see [Accounting Settings](/settings/acc
 A tax agency represents the authority you pay taxes to — for example, HMRC, the IRS, or a regional VAT office. Each agency is linked to a specific country and currency.
 
 
-A tax agency records the authority you are registered with, the region you file in below national level, and how often you file. The authority list is filtered to the country of the agency, so a Canadian agency offers the Canada Revenue Agency and the provincial ministries and nothing else.
-
-
 When you create a tax agency, Fiskl automatically creates a matching **Liability** ledger account in your [Chart of Accounts](/accounting/chart-of-accounts). All transactions involving taxes for that agency are recorded as journal entries in this ledger account. If you rename a tax agency, the corresponding ledger account is also renamed.
 
 
@@ -67,7 +64,7 @@ The authority list is filtered to the country you selected, and grouped into nat
 ## Tax Rates
 
 
-Tax rates define the percentage applied to your transactions. Each rate must be assigned to a tax agency, and its currency is determined by that agency. You can assign multiple rates to a single agency. Rates can be designated as sales tax or non-sales tax.
+Tax rates define the percentage applied to your transactions. Each rate must be assigned to a tax agency, and its currency is determined by that agency. You can assign multiple rates to a single agency. As well as the name and the percentage, you classify the rate: what kind of tax it is, how it behaves, which rate band it belongs to, and whether you can reclaim it.
 
 
 When you add a tax rate you also classify it. Fiskl asks what kind of tax it is, how it behaves, which rate band it belongs to, and whether you can reclaim it, then builds a jurisdiction code from your answers when you save. The code is how your reporting identifies the rate.
@@ -81,10 +78,9 @@ When you add a tax rate you also classify it. Fiskl asks what kind of tax it is,
 3. Enter the tax name, for example "VAT 20%"
 4. Enter the percentage in the **Rate (%)** field
 5. Select the **Tax Agency** to assign this rate to
-6. Select whether this is a sales or non-sales tax
-7. Select the **Behaviour**, **Tax type**, **Rate band**, **Base**, and **Reclaimable** answers that classify the rate
-8. Review the tax agency summary displayed on screen
-9. Select **Create**
+6. Select the **Behaviour**, **Tax type**, **Rate band**, **Base**, and **Reclaimable** answers that classify the rate
+7. Review the tax agency summary displayed on screen
+8. Select **Create**
 
 
 See [Classifying Tax Rates](/settings/tax-rate-classification) for what each question means.
