@@ -14,7 +14,7 @@ This guide explains how Fi, your AI CFO built into Fiskl, works — and how to g
 
 ## What Is Fi?
 
-Fi is an agentic AI CFO that connects directly to your Fiskl account data. It retrieves real numbers, spots patterns, and presents insights so you can make informed decisions without leaving the conversation.
+Fi is a conversational AI built into Fiskl, connected to your live account data. It retrieves real numbers, spots patterns, and presents insights so you can make informed decisions without leaving the conversation.
 
 Fi identifies what each question needs, retrieves the relevant data, and delivers tailored answers with supporting charts and detail. It can search the knowledge base, run accounting reports, analyse your transactions, or walk you through a task step by step — all determined automatically based on what you ask.
 
