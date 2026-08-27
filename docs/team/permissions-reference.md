@@ -210,6 +210,14 @@ None of these ten permissions are available to OAuth apps. A connected app canno
 | `company.read` | View company settings | See company settings | `company:read` |
 | `company.write` | Edit company settings such as address and fiscal year | Edit company settings | `company:write` |
 
+## Audit
+
+| Permission | What it controls | In the app | OAuth scope |
+|---|---|---|---|
+| `audit.read` | View the change history and email delivery records for the company | Open the **Audit Log** from the avatar menu, and view a record's history from its dialog | — |
+
+Audit access is a read gate of its own, separate from `accounting.read`. Read-only roles and accountants can review history without being able to change anything. See [Audit Log](/settings/audit-log).
+
 ## Subscription
 
 | Permission | What it controls | In the app | OAuth scope |

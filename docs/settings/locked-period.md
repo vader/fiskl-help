@@ -85,6 +85,7 @@ Matching into a locked period is allowed. If a match is not appearing, the cause
 
 ## Related Topics
 
+- [Audit Log](/settings/audit-log) — See who changed what, including changes to the locked period itself
 - [Accounting Settings](/settings/accounting-settings) — Configure the locked period and other accounting preferences
 - [Matching and Splitting Transactions](/accounting/journal-entries/guides/match-and-split-transactions) — Reconcile transactions, including into a locked period
 - [Moving Transactions Between Accounts](/accounting/journal-entries/guides/move-transactions) — Reassign transactions outside a locked period

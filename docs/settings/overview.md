@@ -532,6 +532,8 @@ Settings interact with various Fiskl features:
 
 **Manage currencies:** [Currency Management](/settings/currency-management.md)
 
+**Review who changed what:** [Audit Log](/settings/audit-log)
+
 **Get started:** [Getting Started Overview](/getting-started/overview.md)
 
 **Understand Chart of Accounts:** [Chart of Accounts](/accounting/chart-of-accounts)
