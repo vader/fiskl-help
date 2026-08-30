@@ -2,7 +2,7 @@
 title: "Make Your First API Request"
 description: "A developer quickstart for the Fiskl API: base URLs, authentication, your first calls, pagination, scopes, and error handling with curl examples."
 keywords: ["Fiskl API", "quickstart", "curl", "REST API", "authentication", "pagination", "API errors", "bearer token"]
-sidebar_position: 3
+sidebar_position: 7
 tags:
   - Integrations
   - Public API
@@ -25,7 +25,7 @@ Use the production URL for live data, and the staging URL for testing.
 | Environment | Base URL |
 |---|---|
 | Production | `https://api.fiskl.com` |
-| Staging | `https://api.fiskl.ca` |
+
 
 Every endpoint sits under `/v1`. For example, the clients endpoint is `https://api.fiskl.com/v1/clients`.
 
@@ -85,9 +85,47 @@ A token can only reach data its scopes allow. API keys use fine-grained permissi
 | `invoicing:read` / `invoicing:write` | Invoices, quotes, and line items |
 | `payments:read` / `payments:write` | Payments |
 | `products:read` / `products:write` | Products and services |
+| `bills:read` / `bills:write` | Bills you owe |
+| `accounting:read` / `accounting:write` | Ledger data and reconciliation |
+| `banking:read` / `banking:write` | Bank connections |
+| `company:read` / `company:write` | Company profile |
 | `reports:read` | Financial reports |
+| `taxes:read` | Tax rates |
+| `audit:read` | Record change history |
+| `webhooks:read` / `webhooks:write` | Webhook endpoints |
 
 To see exactly what your token can do, call `/v1/me/permissions`.
+
+Each endpoint names the scope it needs in its description at [api-docs.fiskl.com](https://api-docs.fiskl.com).
+
+## Create a Record
+
+Writes follow the same pattern, with a JSON body. This example creates an invoice in one request:
+
+```bash
+curl -X POST https://api.fiskl.com/v1/invoices \
+  -H "Authorization: Bearer fsk_your_key_here" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "externalId": "order-2026-000123",
+    "clientId": 1024,
+    "invoiceDate": "2026-03-01",
+    "dueDate": "2026-03-31",
+    "items": [
+      { "name": "Consulting hours", "quantity": 10, "price": 15000, "unit": "hour" }
+    ]
+  }'
+```
+
+Two conventions matter here.
+
+**Amounts are integer minor units.** A `price` of `15000` means 150.00. Fiskl calculates the line totals, taxes, and the invoice number, so you never send them.
+
+**`externalId` makes the request safe to retry.** Send your own unique reference, and a repeated call returns the invoice already created rather than creating a duplicate. Always set it from an automation, where a timeout can trigger a retry.
+
+:::tip
+Call `POST /v1/invoices/preview` with the same body to see the calculated totals without saving anything. It is the quickest way to confirm your figures before you commit.
+:::
 
 ## Handle Errors
 

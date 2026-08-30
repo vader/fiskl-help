@@ -2,7 +2,7 @@
 title: "Receive Events with Webhooks"
 description: "Set up Fiskl webhooks to notify your system when invoices, clients, quotes, and payments change, with the event catalogue and payload format."
 keywords: ["webhooks", "Fiskl API", "events", "invoice.paid", "webhook portal", "signing secret", "notifications"]
-sidebar_position: 4
+sidebar_position: 9
 tags:
   - Integrations
   - Public API

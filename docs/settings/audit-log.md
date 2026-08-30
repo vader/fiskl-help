@@ -33,7 +33,7 @@ The screen opens on the **Changes** tab. A second tab, **Email delivery**, cover
 
 Change tracking captures edits to the records that affect your accounts and your money:
 
-- **Transactions** — accounting transactions and journal entries
+- **Transactions** — accounting transactions and journal entries, including the references that tie them to source documents
 - **Clients** and **Vendors**
 - **Company settings** — including the locked period, base currency, fiscal year end, and tax defaults
 - **Payment instructions** — the bank details shown to clients on invoices
@@ -50,6 +50,8 @@ Change tracking captures edits from the moment it went live. Records last saved 
 The **Changes** tab lists changes newest first. Each entry shows the person or process responsible, the record affected, and what happened — **Created**, **Edited**, or **Deleted**.
 
 Select any row to expand its full history in place. The history shows each change to that record over time. Expand a single change to see the fields that changed, with their before and after values.
+
+A change shows the fields a person would recognise. Derived and internal values are counted rather than listed, shown as **N further fields hidden**. Select **Show all fields** to see every value recorded at that point, including the raw detail supplied by a bank feed or payment provider. Nothing is dropped silently.
 
 Changes saved together are grouped, labelled **Grouped because they were saved together**. This grouping is based on records sharing a save timestamp, so it reflects one save rather than a formally recorded batch.
 
@@ -106,6 +108,13 @@ Change tracking captures edits from the point it went live. A record last saved 
 <summary>A change is listed as made by "System"</summary>
 
 Not every change comes from a person. Bank feeds, payment providers, scheduled journals, receipt scanning, and automated categorisation all write to your books. These are recorded as System changes, and the log names the process responsible where it can.
+
+</details>
+
+<details>
+<summary>A transaction was deleted and I need to know where it came from</summary>
+
+Deleting a transaction removes it and its source details from your books, but not from the audit log. The last recorded state before the deletion is kept, including the references that identify where the transaction originated. That covers the payment or invoice reference, and the raw detail supplied by the bank feed or payment provider. Open the deleted record's history from the Audit Log and select **Show all fields**.
 
 </details>
 

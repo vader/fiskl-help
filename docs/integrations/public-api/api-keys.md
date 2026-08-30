@@ -2,7 +2,7 @@
 title: "Create and Manage API Keys"
 description: "Create scoped API keys to access the Fiskl API from your own scripts and tools, copy the one-time secret, and revoke keys you no longer need."
 keywords: ["API key", "Fiskl API", "access token", "scopes", "permissions", "revoke key", "fsk_"]
-sidebar_position: 2
+sidebar_position: 6
 tags:
   - Integrations
   - Public API
@@ -58,6 +58,8 @@ curl https://api.fiskl.com/v1/clients \
 
 For a full walkthrough of base URLs, responses, and errors, see [Make Your First API Request](/integrations/public-api/making-api-requests).
 
+To test the key without writing any code, paste it into the **Authorize** box at [api-docs.fiskl.com](https://api-docs.fiskl.com) and run a request in your browser. See [Use the Interactive API Docs](/integrations/public-api/using-the-api-docs).
+
 ## Manage and Revoke Keys
 
 The **My API keys** list shows each key's name, prefix, scopes, creation date, last use, and status. The prefix (for example `fsk_8fK2mQ9xL3aB`) helps you identify a key without exposing the secret.
@@ -86,6 +88,7 @@ The key's scopes do not include the required permission, or your own permissions
 
 ## Related Topics
 
+- [Use the Interactive API Docs](/integrations/public-api/using-the-api-docs) — Test your key in the browser
 - [Make Your First API Request](/integrations/public-api/making-api-requests) — Use your key to call the API
 - [Connect Apps with OAuth](/integrations/public-api/connected-apps) — Let other users' apps access Fiskl instead of a personal key
 - [Public API Overview](/integrations/public-api/overview) — How keys, OAuth, and webhooks fit together

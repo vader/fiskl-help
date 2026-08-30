@@ -2,7 +2,7 @@
 title: "Connect Apps with OAuth"
 description: "Register an OAuth app so other Fiskl users can authorise it to access their data, including confidential and public app types, redirect URIs, and scopes."
 keywords: ["OAuth", "connected apps", "Fiskl API", "client app", "PKCE", "redirect URI", "scopes", "consent"]
-sidebar_position: 5
+sidebar_position: 8
 tags:
   - Integrations
   - Public API

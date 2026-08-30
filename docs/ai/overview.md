@@ -36,6 +36,18 @@ When you ask Fi a question, it determines the best way to respond — searching 
 | **Regional tax knowledge** | Regularly updated content from tax authorities including HMRC, the IRS, and agencies in Singapore, Australia, and South Africa |
 | **Multilingual support** | Fi detects your language and responds with the same level of expertise in each |
 
+## Using Your Own AI Assistant
+
+Fi works inside Fiskl. You can also connect an outside AI assistant, such as Claude, directly to your Fiskl data.
+
+| | Fi | Your own AI assistant |
+|---|---|---|
+| Where you work | Inside the Fiskl app | In the assistant you already use |
+| Setup | None — Fi is built in | Authorise a connection once |
+| Best for | Guided help, tutorials, and tax guidance in context | Working across Fiskl and your other tools in one conversation |
+
+To set this up, see [Connect Your AI Assistant](/integrations/public-api/connect-ai-assistant).
+
 ---
 
 ## Available Guides
