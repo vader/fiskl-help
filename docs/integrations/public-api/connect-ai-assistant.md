@@ -12,8 +12,11 @@ toc_max_heading_level: 3
 ---
 
 import TOCInline from '@theme/TOCInline';
+import VideoEmbed from '@site/src/components/VideoEmbed';
 
 You can connect an AI assistant such as Claude directly to your Fiskl account. Once connected, you ask questions in plain language — "who owes me money?" or "invoice Acme for 10 hours of consulting" — and the assistant reads your live data or creates the record for you.
+
+<VideoEmbed id="api-connect-claude" />
 
 <TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 

@@ -1,0 +1,190 @@
+/*
+ * VideoEmbed — click-to-load video player.
+ *
+ * The aspect-ratio wrapper duplicates LayoutPair's `.video-wrapper` on purpose:
+ * that one is scoped `.layout-pair-container .video-wrapper`, so its rules do
+ * nothing outside that component. Duplicating twelve lines is safer than
+ * de-scoping a file the Arcade tour pages already depend on.
+ */
+
+.container {
+  margin: 1.5rem 0 2rem;
+}
+
+.frame {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--ifm-color-emphasis-200);
+}
+
+.frame > iframe,
+.frame > video,
+.frame > .facade {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.frame > video {
+  background: #000;
+  object-fit: contain;
+}
+
+/* ── Facade (shown before the player loads) ── */
+
+.facade {
+  display: block;
+  padding: 0;
+  cursor: pointer;
+  background: none;
+  font: inherit;
+  color: inherit;
+  text-align: left;
+}
+
+.facade:focus-visible {
+  outline: 3px solid var(--ifm-color-primary);
+  outline-offset: 2px;
+}
+
+.posterImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Generated title card, used when a video has no poster image. */
+.generatedPoster {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 0.35rem;
+  padding: clamp(1rem, 4%, 2rem);
+  background:
+    linear-gradient(
+      135deg,
+      var(--ifm-color-primary-darkest) 0%,
+      var(--ifm-color-primary) 55%,
+      var(--ifm-color-primary-light) 100%
+    );
+  color: #fff;
+}
+
+.generatedTitle {
+  font-size: clamp(1rem, 2.4vw, 1.6rem);
+  font-weight: 600;
+  line-height: 1.25;
+  text-wrap: balance;
+  max-width: 26ch;
+}
+
+.generatedMeta {
+  font-size: 0.8rem;
+  opacity: 0.85;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Play button sits centred over either poster type. */
+.playBadge {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(2px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.15s ease, transform 0.15s ease;
+}
+
+.playBadge svg {
+  width: 26px;
+  height: 26px;
+  fill: #fff;
+  margin-left: 3px; /* optical centring of the triangle */
+}
+
+.facade:hover .playBadge {
+  background: var(--ifm-color-primary);
+  transform: translate(-50%, -50%) scale(1.06);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .playBadge,
+  .facade:hover .playBadge {
+    transition: none;
+    transform: translate(-50%, -50%);
+  }
+}
+
+/* ── Supporting text ── */
+
+.langNote {
+  font-size: 0.85rem;
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 0.5rem;
+}
+
+.caption {
+  font-size: 0.85rem;
+  color: var(--ifm-color-emphasis-700);
+  margin-top: 0.5rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.transcript {
+  margin-top: 0.75rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  padding: 0 0.9rem;
+  background: var(--ifm-background-surface-color);
+}
+
+.transcript > summary {
+  cursor: pointer;
+  padding: 0.6rem 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--ifm-color-primary-darker);
+}
+
+.transcript[open] > summary {
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  margin-bottom: 0.6rem;
+}
+
+.transcriptBody {
+  font-size: 0.92rem;
+  line-height: 1.65;
+  padding-bottom: 0.9rem;
+  white-space: pre-wrap;
+}
+
+[data-theme='dark'] .transcript {
+  border-color: var(--ifm-color-emphasis-300);
+}
+
+[data-theme='dark'] .transcript > summary {
+  color: var(--ifm-color-primary-light);
+}
+
+.missing {
+  border: 1px dashed var(--ifm-color-warning-dark);
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  font-size: 0.9rem;
+  color: var(--ifm-color-warning-dark);
+}
