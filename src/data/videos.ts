@@ -63,27 +63,37 @@ export interface VideoMeta {
     lang?: string;
 }
 
-/** CDN origin. A CNAME, never a raw bucket URL — so the host can move freely. */
-export const VIDEO_BASE = 'https://videos.fiskl.com/help/';
-export const POSTER_BASE = 'https://videos.fiskl.com/help/posters/';
+/**
+ * CDN origin. Always a domain you control, never a raw provider hostname like
+ * *.s3.amazonaws.com or *.cloudfront.net — that way the storage provider can
+ * change without touching a single page or registry entry.
+ *
+ * Backed by a private S3 bucket fronted by CloudFront, with videos.fiskl.com
+ * as a Route 53 alias. CloudFront's always-free tier covers 1 TB/month of
+ * delivery and S3-to-CloudFront transfer is free, so realistic help-centre
+ * traffic costs about a cent a month in storage.
+ *
+ * Videos are deliberately NOT served from Netlify: Netlify meters bandwidth at
+ * ~20 credits/GB, so video traffic would exhaust the plan's credits quickly.
+ */
+export const VIDEO_BASE = 'https://videos.fiskl.com/';
+export const POSTER_BASE = 'https://videos.fiskl.com/posters/';
 
 export const videos: VideoMeta[] = [
     // Wave 1. `npm run add-video` prints each block ready to paste.
     //
-    // PLACEHOLDER: this entry describes video #1 before it is recorded, so the
-    // page, schema and transcript wiring can be reviewed end to end. Replace
-    // src/poster/captions/duration/uploadDate with the real output of
-    // `npm run add-video`, and replace the transcript with the real one.
+    // Produced by `npm run add-video`. The transcript is still the draft written
+    // before recording — replace it with the real spoken words (whisper will
+    // generate it automatically once installed).
     {
         id: 'api-connect-claude',
         title: 'Connect Claude to your Fiskl account',
         description:
             'Authorise an AI assistant to read and update your Fiskl data, and choose which permissions to grant.',
-        duration: 'PT4M00S',
+        duration: 'PT4M8S',
         uploadDate: '2026-08-30',
         src: 'api-connect-claude.mp4',
         poster: 'api-connect-claude.jpg',
-        captions: 'api-connect-claude.vtt',
         category: 'api',
         docPath: '/integrations/public-api/connect-ai-assistant',
         transcript:

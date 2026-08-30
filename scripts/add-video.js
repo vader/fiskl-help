@@ -24,7 +24,15 @@ const path = require('path');
 const os = require('os');
 
 // Keep in step with VIDEO_BASE / POSTER_BASE in src/data/videos.ts.
-const S3_BUCKET = process.env.FISKL_VIDEO_BUCKET || 's3://fiskl-help-videos/help/';
+//
+// Defaults target the AWS S3 bucket behind the videos.fiskl.com CloudFront
+// distribution. FISKL_VIDEO_ENDPOINT is only needed for a non-AWS S3-compatible
+// store; leave it unset for S3.
+const S3_BUCKET = process.env.FISKL_VIDEO_BUCKET || 's3://fiskl-help-videos/';
+const S3_ENDPOINT = process.env.FISKL_VIDEO_ENDPOINT || '';
+const CF_DISTRIBUTION = process.env.FISKL_VIDEO_CF_DISTRIBUTION || 'E3DKDTHCMPF21D';
+// Named AWS profile, since this account is reached via `--profile prod-release`.
+const AWS_PROFILE = process.env.FISKL_AWS_PROFILE || 'prod-release';
 
 function fail(message) {
     console.error(`\n✗ ${message}\n`);
@@ -89,11 +97,17 @@ function main() {
 
     // 1. Normalise to a web-friendly MP4 (faststart moves the index to the
     //    front so playback can begin before the whole file arrives).
-    console.log('→ Encoding for web…');
+    // Cap delivery at 1080p. Screen recordings gain almost nothing visually from
+    // 4K, and a 4K file is roughly 4x the bytes for every viewer. Record at 4K if
+    // you like — crop and zoom in the edit — but ship 1080p.
+    console.log('→ Encoding for web (max 1080p)…');
     execFileSync(
         'ffmpeg',
-        ['-y', '-i', source, '-movflags', '+faststart', '-vcodec', 'libx264',
-         '-crf', '23', '-preset', 'medium', '-acodec', 'aac', '-b:a', '128k', mp4],
+        ['-y', '-i', source,
+         '-vf', "scale='min(1920,iw)':-2",
+         '-movflags', '+faststart', '-vcodec', 'libx264',
+         '-crf', '23', '-preset', 'medium', '-pix_fmt', 'yuv420p',
+         '-acodec', 'aac', '-b:a', '128k', mp4],
         {stdio: ['ignore', 'ignore', 'inherit']},
     );
 
@@ -144,12 +158,30 @@ function main() {
         console.log(`\n→ aws CLI not found. Files are in ${workDir} — upload them manually.`);
     } else {
         console.log('→ Uploading…');
-        const put = (file, dest) =>
-            execFileSync('aws', ['s3', 'cp', file, dest, '--cache-control', 'public,max-age=31536000'],
-                {stdio: 'inherit'});
-        put(mp4, `${S3_BUCKET}${id}.mp4`);
-        put(jpg, `${S3_BUCKET}posters/${id}.jpg`);
-        if (hasCaptions) put(vtt, `${S3_BUCKET}${id}.vtt`);
+        const put = (file, dest, contentType) => {
+            const args = ['s3', 'cp', file, dest,
+                '--cache-control', 'public,max-age=31536000',
+                '--content-type', contentType];
+            if (S3_ENDPOINT) args.push('--endpoint-url', S3_ENDPOINT);
+            if (AWS_PROFILE) args.push('--profile', AWS_PROFILE);
+            execFileSync('aws', args, {stdio: 'inherit'});
+        };
+        put(mp4, `${S3_BUCKET}${id}.mp4`, 'video/mp4');
+        put(jpg, `${S3_BUCKET}posters/${id}.jpg`, 'image/jpeg');
+        if (hasCaptions) put(vtt, `${S3_BUCKET}${id}.vtt`, 'text/vtt');
+
+        // Files are cached for a year, so re-uploading the same id needs an
+        // invalidation or viewers keep the old cut. New ids need nothing.
+        if (CF_DISTRIBUTION) {
+            console.log('→ Invalidating CloudFront cache…');
+            const inv = ['cloudfront', 'create-invalidation',
+                '--distribution-id', CF_DISTRIBUTION,
+                '--paths', `/${id}.*`, `/posters/${id}.jpg`];
+            if (AWS_PROFILE) inv.push('--profile', AWS_PROFILE);
+            execFileSync('aws', inv, {stdio: ['ignore', 'ignore', 'inherit']});
+        } else {
+            console.log('  (set FISKL_VIDEO_CF_DISTRIBUTION to auto-invalidate on re-upload)');
+        }
     }
 
     // 6. Print the registry entry.
