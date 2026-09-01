@@ -45,7 +45,7 @@ The exact menu names vary between assistants, but the flow is the same.
    In your AI assistant, find the setting for adding a connector, integration, or MCP server. Enter the Fiskl server address:
 
    ```
-   https://api.fiskl.com/mcp
+   https://my.fiskl.com/mcp
    ```
 
 2. **Sign in to Fiskl**
@@ -63,6 +63,27 @@ The exact menu names vary between assistants, but the flow is the same.
 :::tip
 Start read-only. Approve only the **View** permissions on your first connection, try a few questions, then reconnect with write permissions when you are confident.
 :::
+
+### Connect Claude
+
+Claude supports the Fiskl connection directly, in both the desktop and web apps.
+
+1. Go to **Settings** > **Connectors** and select **Add custom connector**.
+2. Enter `Fiskl` as the name and `https://my.fiskl.com/mcp` as the server address.
+3. Select **Add**, then select **Connect** to start the Fiskl sign-in.
+4. Sign in to Fiskl and approve the permissions you want to grant.
+
+Your Fiskl tools then appear in Claude's tool menu.
+
+To connect Claude Code, run the following in your terminal:
+
+```bash
+claude mcp add --transport http fiskl https://my.fiskl.com/mcp
+```
+
+Then run `/mcp`, select **Fiskl**, and complete the sign-in.
+
+Claude also offers four ready-made prompts for common jobs. Open the prompt picker and look for **Financial health check**, **Who owes me money?**, **Month-end review**, and **Create and send an invoice**. Each one runs a full sequence of Fiskl tools, so you do not need to know which to ask for.
 
 ## What Your Assistant Can Do
 
@@ -87,13 +108,28 @@ Some example requests that work well:
 - "Record a 500 payment against invoice INV-0042, received today."
 - "Run a profit and loss for last month and explain the biggest changes."
 
+## Find Out Why, Not Just What
+
+A connected assistant does not stop at the report. When a figure looks wrong, it follows the number down to the entry behind it.
+
+Ask why your current ratio dropped this quarter, and the assistant reads the ratios, then the balance sheet, the general ledger, and the individual transactions until it finds the entry that explains the change. That might be a misclassified expense, a payment posted to the wrong ledger account, or a transaction entered the wrong way round.
+
+Questions that work well:
+
+- "My gross margin is lower than last month. What changed?"
+- "Cash flow looks worse than my profit suggests. Why?"
+- "This ledger account balance looks wrong — show me the transactions behind it."
+- "Something changed on this invoice. Who edited it, and what did they change?"
+
+Work like this normally means an hour of filtering and exporting. In conversation it takes a few minutes, and the assistant shows the figures it used so you can verify them in Fiskl.
+
 ## How Access Is Controlled
 
 The connection uses the same permission system as the rest of Fiskl. Two rules always apply.
 
 The assistant can never do more than you can. Your permissions are the ceiling, and every request is checked against them at the time it is made. If your permissions change, the connection reflects that immediately.
 
-The assistant can only do what you approved on the consent screen. Scopes come in read and write pairs, so you can grant reading without granting changes.
+The assistant can only do what you approved on the consent screen. Where a scope has both a read and a write form, you can grant reading without granting changes. Reports, tax rates, and the change history are read-only, so a connected assistant can never alter them.
 
 | Scope | What it allows |
 |---|---|
@@ -101,16 +137,15 @@ The assistant can only do what you approved on the consent screen. Scopes come i
 | `invoicing:read` / `invoicing:write` | Invoices, quotes, and line items |
 | `payments:read` / `payments:write` | Payments received |
 | `products:read` / `products:write` | Products and services |
-| `bills:read` / `bills:write` | Bills you owe |
-| `accounting:read` / `accounting:write` | Ledger data and reconciliation |
-| `banking:read` / `banking:write` | Bank connections |
-| `company:read` / `company:write` | Company profile |
+| `accounting:read` | Ledger data and accounting reports |
+| `company:read` | Company profile |
 | `reports:read` | Financial reports |
 | `taxes:read` | Tax rates |
 | `audit:read` | The change history |
-| `webhooks:read` / `webhooks:write` | Webhook endpoints |
 
-Sensitive actions are never available to a connected assistant, whatever you approve. These include managing team members, changing your subscription, creating API keys, editing payment instructions on invoices, and posting manual journals.
+Sensitive actions are never available to a connected assistant, whatever you approve. These include managing team members, changing your subscription, creating API keys, editing payment instructions on invoices, posting manual journals, and reaching your bank connections.
+
+Nothing a connected assistant does can delete a record.
 
 ## Working Safely with Write Access
 
@@ -125,6 +160,14 @@ Check the work afterwards. Records created this way appear in Fiskl like any oth
 :::warning
 An assistant with `invoicing:write` can email invoices to your clients. Only grant it to assistants you trust, and confirm the recipient and amount before you approve a send.
 :::
+
+## Use It in Automations
+
+The Fiskl connection is not limited to conversation. MCP is an open standard, so the same tools work in automation platforms and scheduled workflows. The invoicing, reconciliation, and reporting you do by asking can also run unattended.
+
+Common patterns include raising an invoice when a job is marked complete in another system, reconciling payments on a schedule, and posting a weekly summary of overdue invoices to your team chat.
+
+See [Build an Automation with AI](/integrations/public-api/build-with-ai) to get started.
 
 ## Ask for a Missing Feature
 
@@ -152,6 +195,22 @@ Your connection holds the permissions and tools from when you first approved it.
 <summary>The assistant reports a missing scope error</summary>
 
 You did not approve that permission, or you do not hold it yourself. Ask the assistant to check its permissions, then reconnect and approve the scope you need. If it is unavailable on the consent screen, you do not hold that permission — ask an administrator to grant it.
+
+</details>
+
+<details>
+<summary>Your assistant cannot see a client or invoice that exists in Fiskl</summary>
+
+Two things narrow what a connection can see. You may not have approved the scope that covers it, and some records are only visible to the person who created them — invoices and quotes work this way for users without write access.
+
+Ask the assistant to check its permissions, and confirm you can see the record yourself in Fiskl.
+
+</details>
+
+<details>
+<summary>The connection is refused with a subscription error</summary>
+
+The connection needs an active Fiskl subscription. If yours has lapsed, renew it in **Settings** > **Subscription** and connect again.
 
 </details>
 
