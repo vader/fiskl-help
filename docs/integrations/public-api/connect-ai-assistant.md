@@ -18,8 +18,6 @@ You can connect an AI assistant such as Claude directly to your Fiskl account. O
 
 <VideoEmbed id="api-connect-claude" />
 
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
-
 ## What This Is
 
 Fiskl provides an MCP server. MCP (Model Context Protocol) is an open standard that lets AI assistants use external tools. When you connect it, your assistant gains a set of Fiskl tools it can use on your behalf.
