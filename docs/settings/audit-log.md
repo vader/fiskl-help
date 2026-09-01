@@ -11,11 +11,14 @@ toc_max_heading_level: 3
 ---
 
 import TOCInline from '@theme/TOCInline';
+import VideoEmbed from '@site/src/components/VideoEmbed';
+
+
 
 The Audit Log shows who changed what across your books, and what happened to every email you sent. Use it to answer questions after the fact: who edited an amount, when a setting changed, or whether a client received their invoice.
 
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
+<VideoEmbed id="audit-log" />
 ## Before You Begin
 
 You need the `audit.read` permission to open the Audit Log. Owners and Admins have it, as do the Accountant, Bookkeeper, and Read-only roles.

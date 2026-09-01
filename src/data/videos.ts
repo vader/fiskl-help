@@ -88,12 +88,12 @@ export const videos: VideoMeta[] = [
     {
         id: 'api-connect-claude',
         title: 'Connect Claude to your Fiskl account',
-        description:
-            'Authorise an AI assistant to read and update your Fiskl data, and choose which permissions to grant.',
+        description: 'Authorise an AI assistant to read and update your Fiskl data.',
         duration: 'PT4M8S',
-        uploadDate: '2026-08-30',
-        src: 'api-connect-claude.mp4',
-        poster: 'api-connect-claude.jpg',
+        uploadDate: '2026-08-31',
+        src: 'api-connect-claude2.mp4',
+        poster: 'api-connect-claude2.jpg',
+        captions: 'api-connect-claude2.vtt',
         category: 'api',
         docPath: '/integrations/public-api/connect-ai-assistant',
         transcript:
@@ -109,6 +109,31 @@ export const videos: VideoMeta[] = [
             'the assistant can never do more than you can yourself, and it can only do what you ' +
             'approved on the consent screen.',
     },
+    {
+      id: 'custom-email-domain',
+      title: 'Add a custom domain to Fiskl',
+      description: 'Add a custom domain to Fiskl',
+      duration: 'PT2M8S',
+      uploadDate: '2026-08-31',
+      src: 'custom-email-domain.mp4',
+      poster: 'custom-email-domain.jpg',
+      captions: 'custom-email-domain.vtt',
+      category: 'api',
+      docPath: 'docs/settings/sender-domain.md',
+      transcript: 'Okay, in this video we\'re going to go through the custom domain. So navigate to the settings and to send a domain. And this is where you would add your email that you would like us to use if you wanted to send from your domain. So in this case I\'m going to use this email and add this domain. So once you add this domain it will be pending verification and you will have to add these three CNAME records to your DNS. Once you\'ve added those we will automatically detect that they\'ve been added and then we can start sending invoices and quotes using the email that you added. So you can use the refresh status and here you can see we are now approved. So you will see your deliverability score at the top. This is something we monitor and we tell you how your deliveries to your customers are going. We will also monitor the health of your domain. So down the bottom you will receive any advisory notifications about your domain. So these could include SPF records and DMARC records which are very important for email delivery. If we detect any issues we will notify you on this page. If you want to remove your domain at any time you can just remove the domain using the delete icon. So one thing to note we verify the domain part not the email. So if you wanted to change the email and keep the domain you wouldn\'t have to re-add the DNS. But that\'s how you do it. Now this is not strictly necessary. We deliver emails and we put the reply to as your company email address. So it\'s not a requirement but if you would like your customers to be receiving invoices and quotes from your email address then this is the way to do it.'
+    },{
+      id: 'audit-log',
+      title: 'Learn about the Audit Log',
+      description: 'How to use the Audit Log in Fiskl',
+      duration: 'PT1M47S',
+      uploadDate: '2026-08-31',
+      src: 'audit-log.mp4',
+      poster: 'audit-log.jpg',
+      captions: 'audit-log.vtt',
+      category: 'api',
+      docPath: 'settings/audit-log',
+      transcript: 'Okay, today we\'re going to cover the Audit Log. So the Audit Log lives in the bottom left menu with your avatar and Audit Log has its own screen. This page shows you all of the transactions that have been changed in your accounting transactions or your company settings. There\'s also payments and payment gateways and payment instructions that are audited. So here you can see if we have a look at a single transaction, this transaction was changed. If we open it up, we can see that there were five changes to this transaction and each one will display exactly what was changed. You can also expand it further to see all the fields of that transaction. So we don\'t only record the accounting transactions, we also have email delivery audits. So this is very useful for investigating why an email hasn\'t reached its recipient or why you\'re not receiving emails. But if you expand the bounces, it will tell you exactly why. So this address doesn\'t exist and it will not be retried. Some bounces are permanently quarantined and if the issue has been resolved, you\'ll need to reach out to support and we can request the quarantine to be lifted. So then the Audit Log, you can also see on the accounting transactions. So this is an audit of what happened to that exact transaction. So if we go to the same transaction that we looked at earlier in the Audit Log, at this time we will see it on the accounting transaction screen. So we can see when it was created, who edited it and what was changed on this transaction right within the transaction. So very useful. So that covers the Audit Log.'
+  },
 ];
 
 export const byId = (id: string): VideoMeta | undefined =>

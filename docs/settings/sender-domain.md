@@ -20,11 +20,17 @@ toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
+import VideoEmbed from '@site/src/components/VideoEmbed';
+
+  <VideoEmbed id="custom-email-domain" />
+
 This guide explains how to send invoices and quotes from your own domain in Fiskl and helps you improve delivery so your emails reach your clients' inboxes.
 
 ## Why Use a Sender Domain
 
 By default, Fiskl sends your invoice and quote emails from a Fiskl address. When you add your own sender domain, emails come from your business address instead. This builds trust with clients and reduces the chance that your messages land in spam.
+
+
 
 The **Sender Domain** page also surfaces the health of your domain for sending email. Many delivery problems come from missing or misconfigured DNS records, such as SPF or DMARC. Fiskl highlights these issues so you can fix them and improve delivery.
 
