@@ -70,6 +70,21 @@ Confirm AWS access:
 aws sts get-caller-identity --profile prod-release
 ```
 
+If you want AI narration (see Step 3.5), copy `.env.example` to `.env` and fill it
+in instead — `narrate-video` and `clean-transcript` load it automatically
+(`.env` is gitignored, never committed):
+
+```bash
+cp .env.example .env
+```
+
+```ini
+ELEVENLABS_API_KEY=...             # same key the social project uses
+ELEVENLABS_VOICE_ID=...            # same voice_id as the social project's workspace
+BEDROCK_AWS_ACCESS_KEY_ID=...      # same dedicated Bedrock creds the social project uses
+BEDROCK_AWS_SECRET_ACCESS_KEY=...  # (distinct from FISKL_AWS_PROFILE, which is for S3)
+```
+
 ---
 
 ### Step 1 — Record
@@ -109,6 +124,44 @@ looks: Fi cites a page and sends the user to it, so a video that is not on the
 page covering its topic is invisible to Fi.
 
 Valid categories: `api`, `getting-started`, `invoicing`, `accounting`, `banking`.
+
+### Step 3.5 — (Optional) Replace narration with the AI voice
+
+If your own narration lets the recording down, swap in the same ElevenLabs
+voice used for social videos before running the main pipeline.
+
+1. Get a raw transcript of what you actually said:
+
+```bash
+whisper ~/Desktop/your-recording.mp4 --model small --output_format txt \
+  --output_dir /tmp --language en
+```
+
+2. Ask Claude to tidy it up — strips filler words, false starts, and stutters
+   without changing the meaning or adding anything:
+
+```bash
+npm run clean-transcript -- /tmp/your-recording.txt --out /tmp/script.txt
+```
+
+   **Read `/tmp/script.txt` before moving on.** This is a draft, not a rubber
+   stamp — fix anything the cleanup got wrong before it's ever spoken.
+
+3. Synthesize the narration and dub it onto the recording:
+
+```bash
+npm run narrate-video -- ~/Desktop/your-recording.mp4 /tmp/script.txt
+```
+
+It synthesizes the narration with ElevenLabs, nudges its `speed` setting to
+match your recording's length, and — if that's not enough — applies a small,
+bounded speed adjustment to the *video* so the final duration matches the new
+narration exactly. If the script is too long or short for the recording (more
+than a 15% adjustment), it fails and tells you to trim the script rather than
+silently stretching the video into something distracting.
+
+The output is `your-recording-dubbed.mp4` next to the source file (override
+with `--out`). Use that file, instead of the original, as the input to Step 4.
 
 ### Step 4 — Run the pipeline
 

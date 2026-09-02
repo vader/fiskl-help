@@ -15,6 +15,8 @@
     "typecheck": "tsc",
     "dev": "docusaurus start --port 3005",
     "add-video": "node scripts/add-video.js",
+    "narrate-video": "node --env-file=.env scripts/narrate-video.js",
+    "clean-transcript": "node --env-file=.env scripts/clean-transcript.js",
     "create-page": "node scripts/manage-translation.js sync",
     "move-page": "node scripts/manage-translation.js move",
     "delete-page": "node scripts/manage-translation.js delete",
