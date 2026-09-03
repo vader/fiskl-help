@@ -1,7 +1,7 @@
 ---
 title: "Fixed Assets and Depreciation"
 description: "Register fixed assets, automate depreciation, and dispose of assets in Fiskl. Learn why disposal proceeds use the Undeposited Funds account and how to match the bank payment."
-keywords: ["fixed assets", "depreciation", "asset disposal", "undeposited funds", "straight line depreciation", "gain on disposal", "loss on disposal", "accumulated depreciation", "Fiskl accounting"]
+keywords: ["fixed assets", "depreciation", "asset disposal", "undeposited funds", "straight line depreciation", "diminishing value depreciation", "gain on disposal", "loss on disposal", "accumulated depreciation", "brought forward depreciation", "migrating assets", "Fiskl accounting"]
 sidebar_position: 2
 toc_min_heading_level: 2
 toc_max_heading_level: 3
@@ -69,11 +69,12 @@ When you select the GL fixed-asset account, Fiskl pre-fills the matching accumul
 
 ### Depreciation Methods
 
-Fiskl supports four depreciation methods:
+Fiskl supports five depreciation methods:
 
 - **Straight line (SL)** — an equal charge every period. Best for assets that wear evenly, such as furniture, buildings, and fit-outs.
 - **Double declining balance (DDB)** — an accelerated method with a heavy early charge that tapers off, switching to straight line near the end so the asset lands exactly on its residual value. Best for vehicles and IT equipment.
 - **Sum of years' digits (SYD)** — an accelerated method that is gentler than double declining balance, weighted toward the early years.
+- **Diminishing value (DV)** — a fixed yearly rate applied to the asset's remaining book value. See [Diminishing Value Depreciation](#diminishing-value-depreciation).
 - **Custom** — an approved custom rule, such as a jurisdiction table. The rule determines the number of entries. See [Custom depreciation rules](#custom-depreciation-rules).
 
 ### Posting Frequency
@@ -81,6 +82,68 @@ Fiskl supports four depreciation methods:
 Posting frequency controls how often a depreciation entry posts to your ledger. It is separate from the depreciation amounts, which come from the method or rule.
 
 For example, an annual rule can post yearly as one entry per year, or monthly with each year's charge spread across 12 entries. The total depreciation for each year is the same — only the ledger detail changes. Most businesses that produce monthly management accounts choose monthly posting.
+
+## Diminishing Value Depreciation
+
+Diminishing value (DV) applies a fixed yearly rate to the asset's remaining book value at the start of each financial year, rather than to its original cost. This matches New Zealand IRD "diminishing value" and Australian ATO "diminishing value" tax depreciation.
+
+Because the rate applies to a shrinking book value, the depreciation charge falls every year. A DV asset never fully depreciates to zero — it stays on the register at a small residual value until you dispose of it.
+
+To register a DV asset:
+
+1. **Select Diminishing value as the method**
+
+   The **Rate (% per year)** field replaces the useful life field.
+
+2. **Enter the rate**
+
+   Enter the yearly rate as a percentage, for example 50 for a 50 percent DV rate. Use the rate your tax authority publishes for the asset class.
+
+3. **Set the plan horizon (optional)**
+
+   Enter the number of years you want Fiskl to plan for. Leave this field empty and Fiskl plans until the book value falls below one percent of the acquisition cost.
+
+4. **Review the plan**
+
+   The live depreciation plan shows the declining charge for each year. Fiskl calculates the first year's charge based on how many entries fall in that financial year, so a mid-year acquisition date automatically produces a partial first-year charge.
+
+:::info
+Diminishing value depreciation is not available with weekly posting frequency. Choose monthly, quarterly, or yearly.
+:::
+
+## Migrating an Asset from Another System
+
+If you already depreciated an asset in another accounting system before moving to Fiskl, you can register it without posting duplicate depreciation entries.
+
+Keep the asset's original first entry date when you register it, so the full depreciation history shows on the asset. Then, in the **Moving this asset from another system?** section of the asset form, set a **Start posting from** date. Fiskl generates the complete plan from the original first entry date, but only posts journal entries from the date you set.
+
+Entries before the posting start date show as **Brought forward**. These entries count toward the asset's accumulated depreciation and book value, but Fiskl never posts a journal for them, because your migration's opening-balance journal already recorded that depreciation in your ledger.
+
+To bring in the accumulated depreciation figure from your old system:
+
+1. **Toggle Moving this asset from another system?**
+
+   This reveals the migration fields.
+
+2. **Set the Start posting from date**
+
+   Enter the date Fiskl should start posting entries. This is usually the date you moved to Fiskl.
+
+3. **Enter Accumulated depreciation to date (optional)**
+
+   Enter the accumulated depreciation figure from your old system's asset register, as at the posting start date. Fiskl shows what it calculates for the same period next to this field, so you can compare the two.
+
+4. **Review the plan**
+
+   If your figure differs from Fiskl's calculation, Fiskl adjusts the last brought-forward entry so the two agree, and continues future entries from your corrected figure.
+
+This works with any depreciation method, not only diminishing value.
+
+:::warning
+If your figure differs from Fiskl's calculated figure by more than five percent, Fiskl shows a warning. Double-check the rate, dates, and cost before you continue — a gap this large usually means one of them is wrong.
+:::
+
+Once an entry posts, Fiskl locks the posting start date and the accumulated depreciation figure, the same way it locks the first entry date and posting frequency.
 
 ## Managing an Asset
 
@@ -289,6 +352,27 @@ Yes. Edit the asset and change the residual value, cost, or number of entries. F
 <summary>A depreciation entry is showing a missing-entry warning</summary>
 
 The posted journal for that entry was deleted. Posted depreciation entries are ordinary journals, so they can be edited or deleted. When one is deleted, Fiskl marks the line with a warning and does not re-post it. If the deletion was a mistake, recreate the journal manually, or edit the asset to re-spread the remaining amount.
+
+</details>
+
+<details>
+<summary>Why doesn't my asset ever fully depreciate?</summary>
+
+This is expected with diminishing value depreciation. The rate applies to the remaining book value each year, so the charge shrinks over time but never reaches zero. The asset stays on the register at a small residual value until you dispose of it. If you need the book value to reach zero on a fixed schedule, use straight line, double declining balance, or sum of years' digits instead.
+
+</details>
+
+<details>
+<summary>How do I bring in an asset I was already depreciating in another system?</summary>
+
+Register the asset with its original first entry date, then toggle **Moving this asset from another system?** and set a **Start posting from** date. Fiskl generates the full plan from the original date but only posts entries from your posting start date onward. Earlier entries show as **Brought forward** and count toward the book value without posting duplicate journals. See [Migrating an Asset from Another System](#migrating-an-asset-from-another-system).
+
+</details>
+
+<details>
+<summary>The brought-forward figure doesn't match my old system</summary>
+
+Enter your old system's figure in **Accumulated depreciation to date**. Fiskl shows its own calculated figure alongside it for comparison. If the two differ, Fiskl adjusts the last brought-forward entry so they agree and continues future entries from your figure. If the gap is larger than five percent, double-check the rate, the acquisition and posting start dates, and the acquisition cost — one of them is usually the cause.
 
 </details>
 
