@@ -15,7 +15,6 @@ import TOCInline from '@theme/TOCInline';
 
 A credit note reverses all or part of a sale you have already invoiced. Use one when a client returns goods, when you agree a price reduction, or when an invoice was too high. Fiskl posts the accounting for you. Revenue and tax are reduced in the period of the credit note, the client owes less, and returned stock comes back into inventory.
 
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## Before You Begin
 
