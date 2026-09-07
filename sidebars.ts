@@ -59,6 +59,7 @@ const sidebars: SidebarsConfig = {
         'invoicing/creating-invoices',
         'invoicing/sending-invoices',
         'invoicing/invoice-management',
+        'invoicing/credit-notes',
         'invoicing/creating-quotes',
         'invoicing/quote-management',
         'invoicing/create-recurring-invoices',
