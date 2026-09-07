@@ -242,9 +242,9 @@ Monitor and manage all invoices from a central dashboard.
 - Add attachments anytime
 - Update payment methods
 - Record manual payments
-- Apply credits or refunds
+- Issue credit notes, apply credit to invoices or refund it
 
-**Learn more:** [Invoice Management](docs/invoicing/invoice-management.md)
+**Learn more:** [Invoice Management](docs/invoicing/invoice-management.md) and [Credit Notes](docs/invoicing/credit-notes.md)
 
 ## Best Practices
 
