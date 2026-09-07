@@ -1,0 +1,9 @@
+{
+  "label": "Documents",
+  "position": 4,
+  "link": {
+    "type": "doc",
+    "id": "documents/overview"
+  },
+  "description": "Store contracts, statements and signed forms in one searchable library, with malware scanning, folders, permissions and per-plan storage allowances."
+}

@@ -35,6 +35,7 @@ Understanding these concepts helps you manage your subscription effectively:
 - **Offer Codes**: Discounts applied at registration or during renewal
 - **Account Deletion**: Permanent removal of all data (different from cancellation)
 - **Downgrade**: Scheduled plan change that takes effect at the end of your current billing period
+- **Storage Allowance**: The document storage included in your plan. Space above it is billed per whole gigabyte each month — see [Document Storage and Billing](/documents/storage-and-billing)
 
 ## How Subscription Management Works
 

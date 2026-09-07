@@ -41,6 +41,7 @@ Change tracking captures edits to the records that affect your accounts and your
 - **Company settings** — including the locked period, base currency, fiscal year end, and tax defaults
 - **Payment instructions** — the bank details shown to clients on invoices
 - **Payments** — amounts, dates, and status recorded against invoices
+- **Documents** and **folders** — uploads, renames, moves, deletions, and the malware scan result for each file
 
 Every entry records who made the change and when. It also records whether a person made the change, or an automated process such as a bank feed, a payment provider, or a scheduled journal.
 
@@ -67,11 +68,21 @@ Ledger account and tax names shown in history are their current names. Amounts, 
 Four filters narrow the list:
 
 - **Date changed** — the period you want to review
-- **Record type** — transactions, clients, vendors, company settings, payment instructions, or payments
+- **Record type** — transactions, clients, vendors, company settings, payment instructions, payments, documents, or folders
 - **What happened** — created, edited, or deleted
 - **Changed by** — a specific teammate, or **System** for automated changes
 
 Each filter shows how many changes match. If your filters return nothing, Fiskl states how many changes exist in total, so an over-narrow filter is never mistaken for an empty log.
+
+### Restoring a Deleted Document
+
+Deleting a document in **Documents** archives it rather than destroying it. Its entry in the Audit Log carries a **Restore** button, which brings the file back to your library.
+
+Restore is available while the document is still archived, which is 90 days from the deletion. After that Fiskl deletes the file permanently and the button disappears, though the record of the deletion remains.
+
+Two limits apply. You need the `document.delete` permission, on the principle that whoever can remove a file can bring it back. And restore covers documents only — a deleted folder cannot be restored, so recreate it and move the restored files into it.
+
+A quarantined document is recorded as a system action, not as a change by the person who uploaded it. The entry names the threat that was found. See [Document Security and Scanning](/documents/document-security).
 
 ## Checking Email Delivery
 
@@ -122,6 +133,15 @@ Deleting a transaction removes it and its source details from your books, but no
 </details>
 
 <details>
+<summary>I deleted a document by mistake</summary>
+
+Open the Audit Log, filter **Record type** to documents, and find the deletion. Select **Restore** on that entry to return the file to your library. This works for 90 days after the deletion, and needs the `document.delete` permission.
+
+If the folder the document was in has also been deleted, the file returns to the top level of your library.
+
+</details>
+
+<details>
 <summary>The history shows a ledger account name I no longer use</summary>
 
 Names shown in history are resolved when you view the page, so they reflect current names. Amounts, dates, and text are stored exactly as recorded at the time. If a ledger account has been renamed, older history shows the new name.
@@ -134,3 +154,4 @@ Names shown in history are resolved when you view the page, so they reflect curr
 - [Accounting Settings](/settings/accounting-settings) — Configure the locked period and other accounting preferences
 - [Permissions Reference](/team/permissions-reference) — What each permission grants, including audit access
 - [Roles and Permissions](/team/roles-permissions) — Assign roles to your team
+- [Managing Documents](/documents/managing-documents) — Upload, organise, delete and restore documents

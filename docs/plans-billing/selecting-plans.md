@@ -61,6 +61,22 @@ Each plan includes a set number of team members. Additional users beyond your pl
 - Removing a user on the same day you add another prevents extra charges
 - Pro-rated billing applies for users added mid-cycle
 
+## Understanding Document Storage
+
+Each paid plan includes an amount of document storage for the files you keep in **Documents**.
+
+| Plan | Included document storage |
+|---|---|
+| Solo | 1 GB |
+| Pro | 2 GB |
+| Prime | 5 GB |
+
+Going over your allowance does not stop you working. Storage above your plan is billed per whole gigabyte per month, rounded up, at the rate for your billing currency — $0.50 per GB in USD. Fiskl measures your usage on your bill date and adds the charge to that bill.
+
+Only files in the document library count. Receipts you send for scanning, attachments on transactions, and your brand assets are stored separately and do not count. Deleted documents keep counting for the 90 days Fiskl holds them for restore.
+
+For the full rules, worked examples, and where to watch your usage, see [Document Storage and Billing](/documents/storage-and-billing).
+
 ## Offers and Discounts
 
 Many plans include introductory offers with discounted rates for your first billing period. These offers apply automatically when you register.
@@ -93,3 +109,4 @@ Your data remains intact. If you re-subscribe later, all information will be ava
 - [Manage Your Subscription](/plans-billing/managing-subscription) - Upgrade, downgrade, and view billing history
 - [Apply Offer Codes](/plans-billing/applying-offer-codes) - Use discount and partner codes
 - [Cancel Subscription](/plans-billing/canceling-subscription) - Stop renewal while keeping your data
+- [Document Storage and Billing](/documents/storage-and-billing) - What each plan includes and how storage above your plan is charged

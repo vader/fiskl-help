@@ -2683,3 +2683,8 @@ certificates
 /scripts/i18n/.venv/lib/python3.12/site-packages/urllib3-2.7.0.dist-info/WHEEL
 /scripts/i18n/.venv/lib/python3.12/site-packages/six.py
 /scripts/i18n/.venv/pyvenv.cfg
+/.claude/
+/.venv/
+/scripts/.venv/
+/scripts/.venvsource/
+/bedrock-marketplace-policy.json

@@ -170,6 +170,22 @@ This is the split that matters most for warehouse staff. `goods_receipt.write` l
 None of these ten permissions are available to OAuth apps. A connected app cannot read stock levels, raise purchase orders, or post goods receipts, whatever scopes it requests. They are available only to a team member directly, or to an API key whose creator holds them.
 :::
 
+## Documents
+
+| Permission | What it controls | In the app | OAuth scope |
+|---|---|---|---|
+| `document.read` | View the document library, search by name and contents, preview and download files | Open **Documents** in the left menu, browse folders, and download a file | — |
+| `document.write` | Upload files, and create, rename and move documents and folders | Use **Upload** and **New folder**, and rename or move anything in the library | — |
+| `document.delete` | Delete documents and folders, and restore a deleted document | Delete from a row or the selection bar, and select **Restore** in the Audit Log | — |
+
+Restoring sits with `document.delete` rather than `document.write`: the role that can take a file away is the role that can bring it back. Deleted documents are restorable for 90 days, after which Fiskl deletes them permanently.
+
+There is no separate download permission. Anyone with `document.read` can download any file that has passed its malware scan. See [Document Security and Scanning](/documents/document-security).
+
+:::info
+None of the three document permissions are available to OAuth apps. A connected app cannot read or write your document library, whatever scopes it requests. They are available only to a team member directly, or to an API key whose creator holds them.
+:::
+
 ## Brand
 
 | Permission | What it controls | In the app | OAuth scope |
@@ -263,3 +279,4 @@ The permission is not granted by any OAuth scope, so a connected app cannot rece
 - [User Roles and Permissions](/team/roles-permissions) — The seven presets and how to build a custom set
 - [Public API Overview](/integrations/public-api/overview) — Using scopes and keys with the API
 - [Connect Apps with OAuth](/integrations/public-api/connected-apps) — Which scopes an app can request
+- [Document Security and Scanning](/documents/document-security) — How the three document permissions behave in the app

@@ -267,6 +267,18 @@ const sidebars: SidebarsConfig = {
 
     {
       type: 'category',
+      label: 'Documents',
+      link: {type: 'doc', id: 'documents/overview'},
+      items: [
+        'documents/managing-documents',
+        'documents/searching-documents',
+        'documents/document-security',
+        'documents/storage-and-billing',
+      ],
+    },
+
+    {
+      type: 'category',
       label: 'Banking',
       link: {type: 'doc', id: 'integrations/banking/overview'},
       items: [

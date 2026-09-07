@@ -57,6 +57,21 @@ If you track stock, these are the presets that matter. Purchase orders and goods
 
 Warehouse staff who receive deliveries fit none of these presets. Start from **Read-only** and add `goods_receipt.write` and `goods_receipt.post`, which lets someone record and post what arrived without touching invoices, bills, or the catalogue.
 
+### Document access by preset
+
+Every preset can see the document library. What differs is who can add to it and who can remove from it.
+
+| Preset | Documents access |
+|---|---|
+| **Owner**, **Admin** | Full, including delete and restore |
+| **Accountant** | Full, including delete and restore |
+| **Bookkeeper** | View, download and upload, but not delete |
+| **Invoice Only** | View, download and upload, but not delete |
+| **Expense Submitter** | View, download and upload, but not delete |
+| **Read-only** | View and download only |
+
+Deleting a document archives it for 90 days rather than destroying it, and the same permission restores it. That is why delete access is held back from the day-to-day presets: an accidental deletion is recoverable, but only by someone who holds `document.delete`. See [Document Security and Scanning](/documents/document-security).
+
 ### Owner is special
 
 Every account has exactly one Owner, tied to the subscription. You cannot assign the Owner preset to someone else from the permission screen — instead, transfer ownership. See [Inviting and Managing Users](/team/inviting-users).
@@ -99,3 +114,4 @@ Some permissions are sensitive — for example editing bank details on invoices,
 - [How Permissions Work](/team/how-permissions-work) — How the app, API keys, and OAuth scopes enforce access
 - [Inviting and Managing Users](/team/inviting-users) — Add team members and assign their access
 - [Public API Overview](/integrations/public-api/overview) — Using permissions and scopes with API keys and connected apps
+- [Document Security and Scanning](/documents/document-security) — How document permissions behave, and what the audit trail records
