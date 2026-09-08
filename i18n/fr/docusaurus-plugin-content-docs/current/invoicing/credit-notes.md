@@ -15,7 +15,6 @@ import TOCInline from '@theme/TOCInline';
 
 A credit note reverses all or part of a sale you have already invoiced. Use one when a client returns goods, when you agree a price reduction, or when an invoice was too high. Fiskl posts the accounting for you. Revenue and tax are reduced in the period of the credit note, the client owes less, and returned stock comes back into inventory.
 
-<TOCInline toc={toc} minHeadingLevel={2} maxHeadingLevel={2} />
 
 ## Before You Begin
 
@@ -73,12 +72,14 @@ Each credit line defaults to the revenue account the original invoice line used,
 
 ## Issue a Credit Note
 
-Issuing finalises the credit note and posts it to your books.
+Issuing finalises the credit note and posts it to your books. Fiskl walks you through the two decisions that matter before it does.
 
-1. Open the draft credit note.
-2. Select **Send** to email it to the client with a link to the document. To issue without an email, select **More** > **Issue credit note**.
+1. Open the draft credit note and select **Send**, or select **More** > **Issue credit note**.
+2. **Goods**. This step appears only when a credited line is a tracked product. For each line, choose **Returned to stock**, **Returned, write off** or **Not returned**.
+3. **Credit**. Choose what happens to the credit: apply it to the invoice you are crediting, apply it to other open invoices, refund the client, or keep it as credit on account. Applying to the credited invoice is offered only while that invoice still has a balance, and the amount is prefilled.
+4. **Review**. Check the amount credited, the tax reversed, the stock effect and the follow-up, then select **Issue**. Select **Issue and send** to email the credit note to the client as well.
 
-After issuing, the status changes to **Issued**, the share link is available, and the **Credit settlement** panel shows the credit available.
+After issuing, the status changes to **Issued**, the share link is available, and the **Credit settlement** panel shows the credit. If you chose to apply the credit to the credited invoice, both documents update at once. If you chose another invoice or a refund, the matching dialog opens for you.
 
 :::warning
 An issued credit note cannot be edited or deleted. If you made a mistake, void it and issue a new one. You can only void a credit note that has not been applied or refunded.
@@ -117,13 +118,13 @@ If you do nothing, the credit stays available on the client's account. It appear
 
 When you issue a credit note against an invoice that sold tracked products, Fiskl posts a customer return at the same time. The credited units re-enter inventory at the cost they were relieved at when the invoice was sent, and cost of goods sold is reversed. The return appears under **Returns** on the original invoice with the credit note number in its notes.
 
-Each credit line can carry one of three dispositions:
+You choose what happened to the goods on each tracked line in the **Goods** step when you issue:
 
-- **Restock** — the default. The goods come back into inventory as a new stock layer.
-- **Write off** — the goods came back damaged. The cost moves to the inventory write-off account and stock is untouched.
-- **No return** — a price adjustment only. Nothing moves on the cost side.
+- **Returned to stock** — the default. The goods come back into inventory as a new stock layer.
+- **Returned, write off** — the goods came back damaged. The cost moves to the inventory write-off account and stock is untouched.
+- **Not returned** — a price adjustment only. Nothing moves on the cost side.
 
-The web app restocks every tracked line. To write off or skip the return for a line, set the disposition on that line when creating the credit note through the public API. You can also post a stock adjustment after issuing. Standalone credit notes never move stock.
+The same choice is available per line in the public API. Standalone credit notes never move stock.
 
 You cannot return more units than the invoice delivered. If the quantities exceed what is left to return, the credit note stays in **Draft** with a validation message so you can correct it.
 
@@ -170,7 +171,7 @@ A refund must be paid from a bank or cash ledger account. Select an account rath
 <details>
 <summary>Issuing failed because of stock quantities</summary>
 
-The return quantities exceed what the invoice delivered and has not already been returned. Reduce the quantity on the affected line, or cancel a manual return that already covers those units, then issue again.
+The return quantities exceed what the invoice delivered and has not already been returned. Reduce the quantity on the affected line, set the line to **Not returned** in the Goods step, or cancel a manual return that already covers those units, then issue again.
 
 </details>
 
