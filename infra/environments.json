@@ -1,8 +1,8 @@
 {
   "bitbucket": {
-    "_comment": "Bitbucket Pipelines OIDC. Fill in after creating fiskl/help-site: Repository settings -> OpenID Connect shows the identity provider URL and the audience. Not secret - these are identifiers.",
+    "_comment": "Bitbucket Pipelines OIDC. THREE different UUIDs are involved - see the 'Pipeline deploys' section of doc/infrastructure.md. Run the show-oidc-claims custom pipeline to print the exact values rather than assembling them by hand. None of this is secret; they are identifiers.",
     "workspace": "fiskl",
-    "audience": "FILL-ME-ari:cloud:bitbucket::workspace/WORKSPACE-UUID"
+    "audience": "FILL-ME  Repository settings -> OpenID Connect, the Audience field"
   },
   "test": {
     "account": "355369890944",
@@ -15,8 +15,8 @@
     "basicAuth": true,
     "noindex": true,
     "retainBucket": false,
-    "ciDeployRole": false,
-    "oidcSubject": "FILL-ME-{REPOSITORY-UUID}:*"
+    "ciDeployRole": true,
+    "oidcSubject": "FILL-ME  run the show-oidc-claims pipeline; braces are literal"
   },
   "prod": {
     "account": "396752440154",
@@ -29,7 +29,7 @@
     "basicAuth": false,
     "noindex": false,
     "retainBucket": true,
-    "ciDeployRole": false,
-    "oidcSubject": "FILL-ME-{REPOSITORY-UUID}:{PROD-DEPLOYMENT-ENVIRONMENT-UUID}"
+    "ciDeployRole": true,
+    "oidcSubject": "FILL-ME  run the show-oidc-claims pipeline; braces are literal"
   }
 }

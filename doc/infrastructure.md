@@ -218,75 +218,114 @@ aws ssm put-parameter --profile stage-admin --region us-east-1 \
 
 ### Pipeline deploys, over OIDC
 
-Four steps, once. Until they are done, `bitbucket-pipelines.yml` still builds
-and checks every pull request; only the two deploy steps are inert, and deploys
-run from a laptop.
+Until this is set up, `bitbucket-pipelines.yml` still builds and checks every
+pull request; only the deploy steps are inert, and deploys run from a laptop.
 
-**1. Read the values Bitbucket generates.** In `fiskl/help-site` → Repository
-settings → OpenID Connect, copy the identity provider URL and the audience. The
-provider URL is workspace-scoped:
+#### Three different UUIDs, and where each one comes from
+
+This is the part that wastes time, because they are easy to confuse and only one
+of them is on the OpenID Connect settings page.
+
+| | What it is | Where to get it |
+|---|---|---|
+| **Workspace** UUID | Identifies the `fiskl` workspace. Appears *inside* the audience string, `ari:cloud:bitbucket::workspace/<uuid>` | Repository settings → OpenID Connect, the **Audience** field. Copy the whole string, not the UUID out of it |
+| **Repository** UUID | Identifies `fiskl/help-site`. The first half of the `sub` claim | **Not** on that page. See below |
+| **Deployment environment** UUID | Identifies `test` or `production` specifically. The second half of the `sub` claim | **Not** on that page, and does not exist until you create the environment. See below |
+
+Repository settings → OpenID Connect gives you exactly two things: the identity
+provider URL and the audience. It does **not** show the repository or
+deployment-environment UUIDs.
+
+**Every one of these UUIDs is wrapped in literal curly braces** in the claim —
+`{a1b2c3d4-5678-90ab-cdef-1234567890ab}` — except the workspace UUID inside the
+audience, which is not. Copy values verbatim rather than retyping them.
+
+#### Read the real claims instead of assembling them
+
+Do not build the subject by hand. Bitbucket mints the OIDC token whether or not
+AWS trusts it yet, so you can read the exact claims before any IAM exists:
+
+1. **Create both deployment environments** — `test` and `production` — in
+   Repository settings → Deployments. Do not restrict or add approvers yet; a
+   branch restriction on `production` would stop step 2 running from a branch.
+2. **Run the `show-oidc-claims` custom pipeline.** It prints the audience and
+   the subject for each environment.
+3. **Fill in `infra/environments.json`**: the audience once, and each
+   environment's `oidcSubject`.
+
+For `oidcSubject`, take the printed subject, keep it **up to and including the
+deployment-environment UUID, then append `*`**:
 
 ```
-https://api.bitbucket.org/2.0/workspaces/fiskl/pipelines-config/identity/oidc
+{a1b2c3d4-5678-90ab-cdef-1234567890ab}:{9f8e7d6c-5b4a-3210-fedc-ba9876543210}*
+ └─ repository ──────────────────────┘ └─ deployment environment ───────────┘
 ```
 
-**2. Create the IAM identity provider in each AWS account.** Bitbucket's
-provider requires a thumbprint, unlike GitHub's:
+The trailing wildcard is not laziness. Bitbucket may append a further step
+identifier to the subject, and if it does, an exact match would break the moment
+anyone edits the pipeline — an authentication failure with no obvious cause. The
+wildcard is still scoped to one repository and one deployment environment, which
+is the boundary that matters. `oidcSubject` is matched with `StringLike`, so the
+`*` works.
+
+#### Then create the AWS side
+
+**Create the IAM identity provider in each account.** Bitbucket's provider needs
+a thumbprint, unlike GitHub's:
 
 ```bash
 aws iam create-open-id-connect-provider --profile stage-admin \
   --url https://api.bitbucket.org/2.0/workspaces/fiskl/pipelines-config/identity/oidc \
-  --client-id-list "<the audience from step 1>" \
+  --client-id-list "<the audience>" \
   --thumbprint-list "$(echo | openssl s_client -servername api.bitbucket.org \
       -connect api.bitbucket.org:443 2>/dev/null | openssl x509 -fingerprint -sha1 -noout \
       | cut -d= -f2 | tr -d ':' | tr 'A-Z' 'a-z')"
 ```
 
-**3. Fill in `infra/environments.json`** — the `bitbucket.audience`, and each
-environment's `oidcSubject`. Both start as `FILL-ME` placeholders and the stack
-refuses to synthesise a role while either is still one. Then set
-`ciDeployRole: true` and redeploy:
+**Set `ciDeployRole: true`** for that environment and redeploy. The stack refuses
+to synthesise a role while any `FILL-ME` placeholder remains, so a
+half-configured role cannot reach AWS:
 
 ```bash
 scripts/infra.sh test deploy
 ```
 
 The role ARN is a stack output and is published to
-`/fiskl-help/<env>/ci-role-arn`.
+`/fiskl-help/<env>/ci-role-arn`. Put it in the matching Bitbucket deployment
+environment as the variable `AWS_DEPLOY_ROLE_ARN`.
 
-**4. Create the deployment environments in Bitbucket** — `test` and
-`production` — each holding that ARN as the variable `AWS_DEPLOY_ROLE_ARN`.
-Restrict `production` to the `main` branch and give it a required approver.
+**Finally, lock down `production`**: restrict it to the `main` branch and add a
+required approver.
 
-#### Why step 4 carries more weight than it looks
+#### Why that last step carries more weight than it looks
 
-Bitbucket's OIDC `sub` claim is built from **opaque UUIDs** —
-`{repository-uuid}:{deployment-environment-uuid}` — not a readable path like
+Bitbucket's OIDC subject is built from opaque UUIDs, not a readable path like
 GitHub's `repo:owner/name:ref:refs/heads/main`. So "production deploys only from
 main" **cannot be expressed in the IAM trust policy**. The trust policy can only
 say "this repository, this deployment environment"; the branch restriction lives
-in Bitbucket's deployment environment configuration.
+in the Bitbucket deployment environment, which is why leaving it unset is not
+merely untidy.
 
-That is a real reduction in legibility compared to GitHub: reading the IAM role
-no longer tells you which branch can assume it. Two things compensate. The
-production role can still only reach production's bucket and distribution, so
-the worst case is publishing the wrong commit rather than the wrong environment.
-And `scripts/deploy.sh` asserts the AWS account before touching anything.
+That is a real loss of legibility: reading the IAM role no longer tells you which
+branch can assume it. Two things compensate. The production role can still only
+reach production's bucket and distribution, so the worst case is publishing the
+wrong commit rather than to the wrong environment. And `scripts/deploy.sh`
+asserts the AWS account before touching anything.
 
-If you would rather verify the claim format than trust this document, add a
-throwaway step to a branch pipeline and read the real token:
+#### If you would rather use the API than run a pipeline
 
-```yaml
-- step:
-    oidc: true
-    deployment: test
-    script:
-      - echo "$BITBUCKET_STEP_OIDC_TOKEN" | cut -d. -f2 | base64 -d 2>/dev/null | head -c 600
+Needs an app password with `repository:read`:
+
+```bash
+curl -sn https://api.bitbucket.org/2.0/repositories/fiskl/help-site \
+  | python3 -c 'import json,sys; print(json.load(sys.stdin)["uuid"])'
+
+curl -sn https://api.bitbucket.org/2.0/repositories/fiskl/help-site/environments/ \
+  | python3 -c 'import json,sys; [print(e["name"], e["uuid"]) for e in json.load(sys.stdin)["values"]]'
 ```
 
-Delete it once you have the values. The payload is not secret — it is a
-short-lived assertion about the pipeline run — but there is no reason to leave
-it printing in the log.
+The pipeline is still the better path: it shows the claim Bitbucket actually
+sends, rather than two values you then have to assume are joined with a colon.
 
 ## Who can deploy
 

@@ -78,6 +78,44 @@ pipelines:
             - ./scripts/verify.sh prod
 
   custom:
+    # Run this FIRST, before creating the IAM roles. It prints the exact `sub`
+    # and `aud` claims Bitbucket puts in the OIDC token for each deployment
+    # environment, which is what infra/environments.json needs.
+    #
+    # Bitbucket mints the token whether or not AWS trusts it yet, so this works
+    # before any IAM setup exists. Both deployment environments must already
+    # exist, and `production` must not yet be branch-restricted or this second
+    # step will not run from a branch - lock it down afterwards.
+    #
+    # Nothing here is secret: the payload is a short-lived assertion about this
+    # pipeline run, and it is not an AWS credential.
+    show-oidc-claims:
+      - step:
+          name: OIDC claims for test
+          oidc: true
+          deployment: test
+          script: &show-claims
+            - |
+              node -e '
+                const t = process.env.BITBUCKET_STEP_OIDC_TOKEN;
+                if (!t) { console.error("No OIDC token - is oidc: true set on this step?"); process.exit(1); }
+                const c = JSON.parse(Buffer.from(t.split(".")[1], "base64url").toString());
+                console.log("");
+                console.log("  audience   ->  bitbucket.audience in environments.json");
+                console.log("  " + c.aud);
+                console.log("");
+                console.log("  subject    ->  this environment oidcSubject in environments.json");
+                console.log("  " + c.sub);
+                console.log("");
+                console.log("  The braces are part of the value. Copy both verbatim.");
+                console.log("");
+              '
+      - step:
+          name: OIDC claims for production
+          oidc: true
+          deployment: production
+          script: *show-claims
+
     deploy-test:
       - variables:
           - name: CONFIRM
