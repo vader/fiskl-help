@@ -24,11 +24,35 @@ export interface EnvConfig {
   /** Keep the bucket if the stack is deleted. */
   readonly retainBucket: boolean;
   /**
-   * Create the GitHub Actions OIDC deploy role. Off until the account-level
-   * OIDC provider exists - see docs/RUNBOOK.md. Deploys run from laptops via
-   * scripts/deploy.sh until this is turned on.
+   * Create the Bitbucket Pipelines OIDC deploy role. Off until the
+   * account-level OIDC provider exists and `oidcSubject` below is filled in -
+   * see doc/infrastructure.md. Deploys run from laptops via scripts/deploy.sh
+   * until this is turned on.
    */
-  readonly githubOidcRole: boolean;
+  readonly ciDeployRole: boolean;
+  /**
+   * The `sub` claim this environment's role will trust, matched with StringLike
+   * so a trailing `*` works.
+   *
+   * Bitbucket's OIDC subject is built from opaque UUIDs -
+   * `{repository-uuid}:{deployment-environment-uuid}` - not a readable path
+   * like GitHub's `repo:owner/name:ref:refs/heads/main`. That has a real
+   * consequence: "production deploys only from main" cannot be expressed in
+   * the IAM trust policy here. It is enforced instead by the Bitbucket
+   * deployment environment, which is what the UUID identifies, and which is
+   * where the branch restriction and the required approval live.
+   *
+   * Read the exact values from Repository settings -> OpenID Connect after the
+   * repository exists. doc/infrastructure.md has a way to print the real claim
+   * from a pipeline run if you want to confirm the format rather than trust it.
+   */
+  readonly oidcSubject: string;
+}
+
+/** Workspace-level Bitbucket OIDC settings, shared by both environments. */
+export interface BitbucketConfig {
+  readonly workspace: string;
+  readonly audience: string;
 }
 
 /**
@@ -37,17 +61,34 @@ export interface EnvConfig {
  * read beats two lists that drift - and these particular values drifting means
  * a deploy pointed at the wrong AWS account.
  */
-const ENVIRONMENTS: Record<EnvName, EnvConfig> = (() => {
+interface RawFile {
+  readonly bitbucket: BitbucketConfig;
+  readonly test: Omit<EnvConfig, 'envName'>;
+  readonly prod: Omit<EnvConfig, 'envName'>;
+}
+
+const RAW: RawFile = (() => {
   const file = path.join(__dirname, '..', 'environments.json');
-  const raw = JSON.parse(fs.readFileSync(file, 'utf8')) as Record<string, Omit<EnvConfig, 'envName'>>;
+  return JSON.parse(fs.readFileSync(file, 'utf8')) as RawFile;
+})();
+
+const ENVIRONMENTS: Record<EnvName, EnvConfig> = (() => {
   const built = {} as Record<EnvName, EnvConfig>;
   for (const envName of ['test', 'prod'] as const) {
-    const entry = raw[envName];
+    const entry = RAW[envName];
     if (!entry) throw new Error(`environments.json is missing the "${envName}" entry`);
     built[envName] = { envName, ...entry };
   }
   return built;
 })();
+
+export function bitbucketConfig(): BitbucketConfig {
+  const bb = RAW.bitbucket;
+  if (!bb?.workspace || !bb?.audience) {
+    throw new Error('environments.json is missing the "bitbucket" workspace/audience block.');
+  }
+  return bb;
+}
 
 export function resolveEnv(value: unknown): EnvConfig {
   if (value !== 'test' && value !== 'prod') {
@@ -55,6 +96,3 @@ export function resolveEnv(value: unknown): EnvConfig {
   }
   return ENVIRONMENTS[value];
 }
-
-/** The GitHub repository allowed to assume the CI deploy role. */
-export const GITHUB_REPO = 'fiskl-accounting/fiskl-help';

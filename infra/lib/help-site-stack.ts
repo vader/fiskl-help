@@ -8,7 +8,7 @@ import * as origins from 'aws-cdk-lib/aws-cloudfront-origins';
 import * as s3 from 'aws-cdk-lib/aws-s3';
 import * as ssm from 'aws-cdk-lib/aws-ssm';
 import { Construct } from 'constructs';
-import { EnvConfig, GITHUB_REPO } from './config';
+import { EnvConfig, bitbucketConfig } from './config';
 
 export interface HelpSiteStackProps extends cdk.StackProps {
   readonly config: EnvConfig;
@@ -225,49 +225,52 @@ export class HelpSiteStack extends cdk.Stack {
       managedPolicies: [deployPolicy],
     });
 
-    // --- CI deploy role, for GitHub Actions over OIDC ------------------------
-    // Off by default: it needs an account-level OIDC identity provider that
-    // does not exist yet (docs/RUNBOOK.md has the one-time command). Turn it on
-    // per environment in environments.json once the provider is in place.
+    // --- CI deploy role, for Bitbucket Pipelines over OIDC --------------------
+    // Off by default: it needs an account-level OIDC identity provider and the
+    // real UUIDs in environments.json, neither of which exists until the
+    // Bitbucket repository does. doc/infrastructure.md has the one-time setup.
     //
-    // No IAM user, no access keys. The workflow presents a short-lived identity
-    // token, AWS trusts GitHub's OIDC provider, and the credentials expire in
+    // No IAM user, no access keys. The pipeline presents a short-lived identity
+    // token, AWS trusts Bitbucket's OIDC provider, and the credentials expire in
     // minutes. Retrofitting this later means reissuing everything.
     let ciRoleArn = 'not-created';
-    if (config.githubOidcRole) {
-      const provider = iam.OpenIdConnectProvider.fromOpenIdConnectProviderArn(
-        this,
-        'GitHubOidcProvider',
-        `arn:${this.partition}:iam::${this.account}:oidc-provider/token.actions.githubusercontent.com`,
-      );
+    if (config.ciDeployRole) {
+      const bitbucket = bitbucketConfig();
 
-      // Production is scoped to main. Test allows any ref, which is the point:
-      // reviewing an unmerged branch is what the test site exists for.
-      //
-      // Both conditions are built into one object deliberately. Production's
-      // subject needs an exact StringEquals and the audience check is also a
-      // StringEquals, so writing them as two separate keys would have the
-      // second silently overwrite the first - dropping the audience check and
-      // leaving the role assumable by any GitHub Actions token presented with
-      // a different audience.
-      const isProd = config.envName === 'prod';
-      const conditions: Record<string, Record<string, string>> = {
-        StringEquals: { 'token.actions.githubusercontent.com:aud': 'sts.amazonaws.com' },
-      };
-      if (isProd) {
-        conditions.StringEquals['token.actions.githubusercontent.com:sub'] =
-          `repo:${GITHUB_REPO}:ref:refs/heads/main`;
-      } else {
-        conditions.StringLike = {
-          'token.actions.githubusercontent.com:sub': `repo:${GITHUB_REPO}:*`,
-        };
+      if (config.oidcSubject.indexOf('FILL-ME') !== -1 || bitbucket.audience.indexOf('FILL-ME') !== -1) {
+        throw new Error(
+          `Environment "${config.envName}" has ciDeployRole enabled but environments.json still ` +
+            `contains FILL-ME placeholders for the Bitbucket OIDC audience or subject.\n` +
+            `Read the real values from Repository settings -> OpenID Connect in fiskl/help-site.`,
+        );
       }
 
+      // The provider URL is workspace-scoped, and differs per workspace - unlike
+      // GitHub's single global token.actions.githubusercontent.com. It has no
+      // scheme in the ARN.
+      const providerHost = `api.bitbucket.org/2.0/workspaces/${bitbucket.workspace}/pipelines-config/identity/oidc`;
+      const provider = iam.OpenIdConnectProvider.fromOpenIdConnectProviderArn(
+        this,
+        'BitbucketOidcProvider',
+        `arn:${this.partition}:iam::${this.account}:oidc-provider/${providerHost}`,
+      );
+
+      // Both conditions go in one object deliberately: `aud` is a StringEquals
+      // and a second StringEquals key would silently overwrite it, dropping the
+      // audience check and leaving the role assumable by a token minted for a
+      // different audience.
+      //
+      // The subject is matched with StringLike throughout, because test's
+      // pattern ends in a wildcard and prod's is an exact UUID pair - a literal
+      // string with no wildcard behaves identically under StringLike.
       const ciRole = new iam.Role(this, 'CiDeployRole', {
         roleName: `${prefix}-ci-deploy`,
-        description: `GitHub Actions deploys of the Fiskl ${config.envName} help site`,
+        description: `Bitbucket Pipelines deploys of the Fiskl ${config.envName} help site`,
         maxSessionDuration: cdk.Duration.hours(1),
-        assumedBy: new iam.OpenIdConnectPrincipal(provider, conditions),
+        assumedBy: new iam.OpenIdConnectPrincipal(provider, {
+          StringEquals: { [`${providerHost}:aud`]: bitbucket.audience },
+          StringLike: { [`${providerHost}:sub`]: config.oidcSubject },
+        }),
         managedPolicies: [deployPolicy],
       });
       ciRoleArn = ciRole.roleArn;

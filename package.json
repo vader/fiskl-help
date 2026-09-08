@@ -2,6 +2,7 @@
   "name": "fiskl-help",
   "version": "1.0.1",
   "private": true,
+  "packageManager": "pnpm@10.17.1",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",

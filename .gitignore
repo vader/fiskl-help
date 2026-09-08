@@ -2688,3 +2688,6 @@ certificates
 /scripts/.venv/
 /scripts/.venvsource/
 /bedrock-marketplace-policy.json
+
+# Written by Bitbucket Pipelines at runtime for OIDC. Never commit one.
+web-identity-token

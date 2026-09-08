@@ -1,9 +1,0 @@
-[build]
-  command = "pnpm run build"
-  publish = "build"
-
-[dev]
-  command = "pnpm run start"
-  targetPort = 3000
-  port = 8888
-  framework = "#custom"

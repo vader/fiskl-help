@@ -9,6 +9,19 @@ The design follows the marketing site (`fiskl/website`) closely enough that the
 CDK app, the deploy scripts and the edge function are recognisably the same
 files. Where this repository differs, it is called out below and in the code.
 
+## Where this repository came from
+
+History starts in September 2026. The help site previously lived in GitHub
+(`fiskl-accounting/fiskl-help`), because an experiment with a git-backed CMS
+needed it there and Netlify deployed from it. The CMS experiment was abandoned
+and Netlify was replaced by the AWS setup described here, which left the
+repository in GitHub for no remaining reason.
+
+It was re-homed to Bitbucket alongside `fiskl/website` as a fresh repository
+seeded from the then-current `main`, with no history carried across. The GitHub
+repository is archived read-only and remains the record of everything before
+that point.
+
 ## Environments
 
 | | Test | Production |
@@ -45,6 +58,7 @@ global — but it means two accounts are involved in bringing production up.
 | `scripts/deploy.sh` | Build and publish the site |
 | `scripts/verify.sh` | Check a deployed environment end to end |
 | `scripts/cert-dns.sh` | Print the DNS record ACM is waiting for |
+| `bitbucket-pipelines.yml` | Build every pull request; manual deploys to test and production |
 
 ## Everyday commands
 
@@ -202,19 +216,77 @@ aws ssm put-parameter --profile stage-admin --region us-east-1 \
   --type SecureString --value "fiskl:${PW}"
 ```
 
-For GitHub Actions deploys, create the OIDC identity provider once per account,
-then set `githubOidcRole: true` for that environment and redeploy the stack:
+### Pipeline deploys, over OIDC
+
+Four steps, once. Until they are done, `bitbucket-pipelines.yml` still builds
+and checks every pull request; only the two deploy steps are inert, and deploys
+run from a laptop.
+
+**1. Read the values Bitbucket generates.** In `fiskl/help-site` → Repository
+settings → OpenID Connect, copy the identity provider URL and the audience. The
+provider URL is workspace-scoped:
+
+```
+https://api.bitbucket.org/2.0/workspaces/fiskl/pipelines-config/identity/oidc
+```
+
+**2. Create the IAM identity provider in each AWS account.** Bitbucket's
+provider requires a thumbprint, unlike GitHub's:
 
 ```bash
 aws iam create-open-id-connect-provider --profile stage-admin \
-  --url https://token.actions.githubusercontent.com \
-  --client-id-list sts.amazonaws.com
+  --url https://api.bitbucket.org/2.0/workspaces/fiskl/pipelines-config/identity/oidc \
+  --client-id-list "<the audience from step 1>" \
+  --thumbprint-list "$(echo | openssl s_client -servername api.bitbucket.org \
+      -connect api.bitbucket.org:443 2>/dev/null | openssl x509 -fingerprint -sha1 -noout \
+      | cut -d= -f2 | tr -d ':' | tr 'A-Z' 'a-z')"
 ```
 
-The role ARN is printed as a stack output and published to
-`/fiskl-help/<env>/ci-role-arn`. Put it in the matching GitHub Environment as
-the variable `AWS_DEPLOY_ROLE_ARN`, and give `production` a required reviewer —
-that approval gate is the workflow's manual trigger.
+**3. Fill in `infra/environments.json`** — the `bitbucket.audience`, and each
+environment's `oidcSubject`. Both start as `FILL-ME` placeholders and the stack
+refuses to synthesise a role while either is still one. Then set
+`ciDeployRole: true` and redeploy:
+
+```bash
+scripts/infra.sh test deploy
+```
+
+The role ARN is a stack output and is published to
+`/fiskl-help/<env>/ci-role-arn`.
+
+**4. Create the deployment environments in Bitbucket** — `test` and
+`production` — each holding that ARN as the variable `AWS_DEPLOY_ROLE_ARN`.
+Restrict `production` to the `main` branch and give it a required approver.
+
+#### Why step 4 carries more weight than it looks
+
+Bitbucket's OIDC `sub` claim is built from **opaque UUIDs** —
+`{repository-uuid}:{deployment-environment-uuid}` — not a readable path like
+GitHub's `repo:owner/name:ref:refs/heads/main`. So "production deploys only from
+main" **cannot be expressed in the IAM trust policy**. The trust policy can only
+say "this repository, this deployment environment"; the branch restriction lives
+in Bitbucket's deployment environment configuration.
+
+That is a real reduction in legibility compared to GitHub: reading the IAM role
+no longer tells you which branch can assume it. Two things compensate. The
+production role can still only reach production's bucket and distribution, so
+the worst case is publishing the wrong commit rather than the wrong environment.
+And `scripts/deploy.sh` asserts the AWS account before touching anything.
+
+If you would rather verify the claim format than trust this document, add a
+throwaway step to a branch pipeline and read the real token:
+
+```yaml
+- step:
+    oidc: true
+    deployment: test
+    script:
+      - echo "$BITBUCKET_STEP_OIDC_TOKEN" | cut -d. -f2 | base64 -d 2>/dev/null | head -c 600
+```
+
+Delete it once you have the values. The payload is not secret — it is a
+short-lived assertion about the pipeline run — but there is no reason to leave
+it printing in the log.
 
 ## Who can deploy
 

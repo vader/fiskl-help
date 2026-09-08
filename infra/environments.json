@@ -1,22 +1,35 @@
 {
+  "bitbucket": {
+    "_comment": "Bitbucket Pipelines OIDC. Fill in after creating fiskl/help-site: Repository settings -> OpenID Connect shows the identity provider URL and the audience. Not secret - these are identifiers.",
+    "workspace": "fiskl",
+    "audience": "FILL-ME-ari:cloud:bitbucket::workspace/WORKSPACE-UUID"
+  },
   "test": {
     "account": "355369890944",
     "region": "us-east-1",
     "domainName": "test-help.fiskl.com",
-    "profiles": ["fiskl-help-test", "stage-admin"],
+    "profiles": [
+      "fiskl-help-test",
+      "stage-admin"
+    ],
     "basicAuth": true,
     "noindex": true,
     "retainBucket": false,
-    "githubOidcRole": false
+    "ciDeployRole": false,
+    "oidcSubject": "FILL-ME-{REPOSITORY-UUID}:*"
   },
   "prod": {
     "account": "396752440154",
     "region": "us-east-1",
     "domainName": "help.fiskl.com",
-    "profiles": ["fiskl-help-prod", "prod-release"],
+    "profiles": [
+      "fiskl-help-prod",
+      "prod-release"
+    ],
     "basicAuth": false,
     "noindex": false,
     "retainBucket": true,
-    "githubOidcRole": false
+    "ciDeployRole": false,
+    "oidcSubject": "FILL-ME-{REPOSITORY-UUID}:{PROD-DEPLOYMENT-ENVIRONMENT-UUID}"
   }
 }

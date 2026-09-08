@@ -9,7 +9,7 @@ recording and publishing a video.
 
 | | |
 |---|---|
-| **Repository** | `git@github.com:fiskl-accounting/fiskl-help.git` |
+| **Repository** | `git@bitbucket.org:fiskl/help-site.git` |
 | **Live site** | https://help.fiskl.com |
 | **Hosting** | Netlify (account `shawn+netlify@fiskl.com`, password in 1Password) |
 | **Deploys** | Automatic on every push to `main` |
