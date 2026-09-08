@@ -1,0 +1,22 @@
+{
+  "test": {
+    "account": "355369890944",
+    "region": "us-east-1",
+    "domainName": "test-help.fiskl.com",
+    "profiles": ["fiskl-help-test", "stage-admin"],
+    "basicAuth": true,
+    "noindex": true,
+    "retainBucket": false,
+    "githubOidcRole": false
+  },
+  "prod": {
+    "account": "396752440154",
+    "region": "us-east-1",
+    "domainName": "help.fiskl.com",
+    "profiles": ["fiskl-help-prod", "prod-release"],
+    "basicAuth": false,
+    "noindex": false,
+    "retainBucket": true,
+    "githubOidcRole": false
+  }
+}
